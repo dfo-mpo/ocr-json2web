@@ -1,0 +1,45 @@
+{
+    "Watershed code": "92-2600-2",
+    "Gazetted name": "UNNAMED",
+    "First local name": "Nunns Creek",
+    "Flows Into": "Campbell River, Discovery Passage",
+    "Year": "1991",
+    "District No.": "5",
+    "Statistical Area": "13-5",
+    "Subdistrict No.": "13",
+    "Subdistrict Name": "QUATHIASKI",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "affected",
+    "Biological (D) Particulars of distribution": "Homewood Road and Otter Road. Majority of spawning above Otter Road.",
+    "Biological (E) Comments on predators": "None observed.",
+    "Biological (G) New obstruction": "Recurring beaver dams.",
+    "Comments (K)": "ON ANY OTHER CONDITIONS AFFECTING THIS STREAM",
+    "Date of inspection": [
+        {
+            "Month": "27",
+            "Day": "11"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "OCT:",
+            "Start month": "NOV:",
+            "Peak month": "NOI:",
+            "End month": "DEC:",
+            "No. of observer": "1",
+            "Method": "1",
+            "Reliability": "4",
+            "Estimated total No. on grounds": "UK",
+            "Optimum escapement": "UK"
+        }
+    },
+    "Second local name": null,
+    "Dates of inspection (1)": null,
+    "Additional (C) Water levels flow": null,
+    "Additional (B) Particulars of scouring of spawning beds": null,
+    "Biological (F) Evidence of digging eggs": null
+}

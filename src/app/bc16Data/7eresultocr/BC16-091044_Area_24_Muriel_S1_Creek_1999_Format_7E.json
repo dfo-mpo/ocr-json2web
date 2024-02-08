@@ -1,0 +1,174 @@
+{
+    "Year": "1999",
+    "RAB code": "29-2000-SCO-000-000-000-001",
+    "District": "04",
+    "Sub": "24 Tofino",
+    "First local name": "MURIEL S1 CREEK",
+    "Field Crew": "Tofino/Thorton Ck Hatchery Crew",
+    "Inspection dates": "Oct 07 Oct 21 Oct 27 Nov 08 Nov 12",
+    "(5) Escapement comments": "unselected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Sockeye scattered throughout to site 13 and coho scattered throughout.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(7) Enhancements: Some restoration has taken place in the form of large woody debris (LWD) placement with anchours.",
+    "Person preparing report": "Doug Palfrey",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "Methods": "1",
+            "N": "2",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "4",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "312",
+            "Escapement Goal": "400"
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1",
+            "N": "2",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "4",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "10",
+            "Jacks": "11",
+            "Escapement Goal": "25"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "SK 1": {
+            "Arrival month": "Nov",
+            "Arrival day": "1",
+            "Start month": "Nov",
+            "Start day": "1",
+            "Peak month": "Nov",
+            "Peak day": "8",
+            "End month": "Nov",
+            "End day": "15"
+        },
+        "CO 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "27",
+            "Start month": "Nov",
+            "Start day": "1",
+            "Peak month": "Nov",
+            "Peak day": "10",
+            "End month": "Nov",
+            "End day": "25"
+        }
+    },
+    "Latitude": null,
+    "Second local name": null,
+    "Flows into": null,
+    "Area": null,
+    "Longitude": null,
+    "Start date": null,
+    "End date": null,
+    "Gazetted name": null
+}

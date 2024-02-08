@@ -1,0 +1,142 @@
+{
+    "Year": "1999",
+    "Gazetted name": "REAY CREEK",
+    "RAB code": "92-5600",
+    "Area": "5",
+    "District": "06",
+    "Sub": "19 Victoria/Saanich",
+    "First local name": "BAZAN CREEK",
+    "Flows into": "HARO STRAIT",
+    "Latitude": "48 38 2",
+    "Longitude": "123 24 19",
+    "Field Crew": "Goldstream Hatchery",
+    "Inspection dates": "Feb 11 Oct 26",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "selected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: Two enumerations done with no spawners observed. (13) Drought: Noted water level was low",
+    "Person preparing report": "Steve Baillie",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        }
+    },
+    "Spawning run timing": {},
+    "Second local name": null,
+    "End date": null,
+    "Start date": null,
+    "Biological details particulars": null
+}

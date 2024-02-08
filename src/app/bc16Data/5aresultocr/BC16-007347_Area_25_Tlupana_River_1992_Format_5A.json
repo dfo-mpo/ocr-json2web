@@ -1,0 +1,49 @@
+{
+    "Flows into": "NESOOK BAY",
+    "year": "1992",
+    "Subdistrict": "25",
+    "Subarea": "25-5",
+    "Subd. name": "TAHSIS",
+    "Dates of inspection": "OCT 27",
+    "(A) Evidence of Erosion": "N/O",
+    "(B) Particulars of Scouring": "N/O",
+    "(C) Water levels": "NORMAL",
+    "(D) Spawning distribution": "GOOD DISTRIBUTION",
+    "(E) Comments on predators": "NORMAL BIRD/BEAR",
+    "(F) Egg digging": "N/0",
+    "(G) New obstructions": "NO NEW OBSTRUCTIONS OBSERVED",
+    "(K) Additional comments": "HATCHERY BROOD STOCK '92. CHUM 618 MALE, 693 FEMALE = 1,311 NOT INCLUDED IN ABOVE ESCAPEMENT ESTIMATES",
+    "Fishery Officer": "F R CRABBE",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Est. Esc": "-3"
+        },
+        "Pink 1": {
+            "Est. Esc": "-3"
+        },
+        "Chum 1": {
+            "Methods": "2",
+            "Reliability": "3",
+            "Est. Esc": "10000",
+            "Optimum Esc.": "12000"
+        },
+        "Chinook 1": {
+            "Methods": "2",
+            "Reliability": "3",
+            "Est. Esc": "150",
+            "Optimum Esc.": "500"
+        }
+    },
+    "Watershed Code": null,
+    "(K) Additional comments continued": null,
+    "Signature": null,
+    "1st Local name": null,
+    "District": null,
+    "(H) recommended enhancement": null,
+    "(I) Habitat change": null,
+    "2nd local name": null,
+    "Gazetted name": null
+}

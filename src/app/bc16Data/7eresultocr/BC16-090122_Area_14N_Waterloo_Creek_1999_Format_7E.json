@@ -1,0 +1,171 @@
+{
+    "Year": "1999",
+    "Gazetted name": "WATERLOO CREEK",
+    "RAB code": "92-3340",
+    "Area": "14-8",
+    "District": "03",
+    "Sub": "14N Comox",
+    "Flows into": "BAYNES SOUND",
+    "Latitude": "49 28 13",
+    "Longitude": "124 47 32",
+    "Field Crew": "Lawrence Box, Jack Newman",
+    "Inspection dates": "Oct 18 Oct 26 Nov 03 Nov 10 Nov 16 Nov 23 Nov 30 Dec 09",
+    "(5) Escapement comments": "unselected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "3 Nov - Coho spread throughout system. Chum from R/R down to tidal. 30 Nov - Not much spawning gravel in Section 8-9 (from 650 m above Hydro Line Bridge upstream to 1150 m above H.L.B. ) . Higher gradient, no pools.",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(2) CO Run 1 Reliability: Weekly enumeration (4) Describe basis for estimating total adults CO Run 1: AUC estimate. Assumed 14 day survey life. (2) CM Run 1 Reliability: Weekly enumeration (4) Describe basis for estimating total adults CM Run 1: Peak count of 212, with estimated countability of 70% (16 Nov 1999) (2) CO Run 1 Reliability: high water (4) Describe basis for estimating total adults CO Run 1:",
+    "Person preparing report": "Steve Baillie",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "2",
+            "N": "5",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "3",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "85"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "2",
+            "N": "5",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "4",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "300"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Nov",
+            "Arrival day": "3",
+            "Start month": "Nov",
+            "Start day": "1-10",
+            "Peak month": "Nov",
+            "Peak day": "11-20",
+            "End month": "Dec",
+            "End day": "1-10"
+        },
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "26",
+            "Start month": "Nov",
+            "Start day": "1-10",
+            "Peak month": "Nov",
+            "Peak day": "11-20",
+            "End month": "Dec",
+            "End day": "1-10"
+        }
+    },
+    "End date": null,
+    "First local name": null,
+    "Second local name": null,
+    "Start date": null
+}

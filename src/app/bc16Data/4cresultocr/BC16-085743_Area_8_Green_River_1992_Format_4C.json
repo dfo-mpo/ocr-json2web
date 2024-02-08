@@ -1,0 +1,56 @@
+{
+    "Watershed code": "97-2000-910",
+    "First local name": "GREEN RIVER",
+    "Flows Into": "DEAN CHANNEL",
+    "Year": "1992",
+    "District No.": "7",
+    "Statistical Area": "8",
+    "Subdistrict No.": "8",
+    "Subdistrict Name": "BELLA COOLA",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "selected",
+    "Additional (A) Evidence of erosion and silting": "NIL",
+    "Additional (B) Particulars of scouring of spawning beds": "NIL",
+    "Additional (C) Water levels flow": "HIGH OCT. 23",
+    "Biological (D) Particulars of distribution": "LOWER 500 METRES AND INTERTIDAL",
+    "Biological (E) Comments on predators": "NORMAL",
+    "Biological (F) Evidence of digging eggs": "fish",
+    "Date of inspection": [
+        {
+            "Month": "09",
+            "Day": "09"
+        },
+        {
+            "Month": "09",
+            "Day": "14"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Pink 1": {
+            "Optimum escapement": "1000"
+        },
+        "Chum 1": {
+            "Arrival month": "SEP :",
+            "Arrival day": "A",
+            "Start month": "SEP :",
+            "Start day": "A",
+            "Peak month": "SEP.",
+            "Peak day": "B",
+            "End month": "SEP :",
+            "End day": "C",
+            "No. of observer": "1",
+            "Method": "1",
+            "Reliability": "2",
+            "Estimated total No. on grounds": "10",
+            "Optimum escapement": "500"
+        }
+    },
+    "Gazetted name": null,
+    "Second local name": null,
+    "Biological (G) New obstruction": null,
+    "Comments (K)": null,
+    "Dates of inspection (1)": null
+}

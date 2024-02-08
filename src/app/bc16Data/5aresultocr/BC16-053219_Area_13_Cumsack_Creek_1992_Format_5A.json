@@ -1,0 +1,43 @@
+{
+    "Watershed Code": "90-3600-010",
+    "Gazetted name": "CUMSACK RIVER",
+    "1st Local name": "name:CUMSACK CREEK",
+    "Flows into": "HOMATHKO RIVER",
+    "Subdistrict": "13",
+    "Subarea": "13-22",
+    "Subd. name": "Name:CAMPBELL RIVER",
+    "(D) Spawning distribution": "Coho use the head water swamp and ground water feered systems",
+    "(K) Additional comments": "Escapment counts are combined with Homathko how, this system was not inspected this past season.",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Est. Esc": "-1"
+        },
+        "Pink 1": {
+            "Est. Esc": "-3"
+        },
+        "Chum 1": {
+            "Est. Esc": "-1"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-1"
+        }
+    },
+    "year": null,
+    "(B) Particulars of Scouring": null,
+    "(K) Additional comments continued": null,
+    "Signature": null,
+    "(G) New obstructions": null,
+    "Fishery Officer": null,
+    "(C) Water levels": null,
+    "District": null,
+    "(H) recommended enhancement": null,
+    "Dates of inspection": null,
+    "(E) Comments on predators": null,
+    "(A) Evidence of Erosion": null,
+    "(I) Habitat change": null,
+    "2nd local name": null,
+    "(F) Egg digging": null
+}

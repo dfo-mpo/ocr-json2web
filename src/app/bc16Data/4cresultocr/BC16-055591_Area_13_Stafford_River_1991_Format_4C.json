@@ -1,0 +1,42 @@
+{
+    "Watershed code": "90-4200",
+    "Gazetted name": "STAFFORD RIVER",
+    "First local name": "STAFFORD RIVER",
+    "Flows Into": "LOUGHBOROUGH INLET",
+    "Year": "1991",
+    "District No.": "5",
+    "Subdistrict No.": "13",
+    "Subdistrict Name": "QUATHIASKI",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NORMAL",
+    "Additional (B) Particulars of scouring of spawning beds": "NONE",
+    "Additional (C) Water levels flow": "NORMAL",
+    "Biological (D) Particulars of distribution": "THROUGHT TO FALLS",
+    "Biological (E) Comments on predators": "BEARS",
+    "Biological (F) Evidence of digging eggs": "NONE",
+    "Biological (G) New obstruction": "NONE",
+    "Comments (K)": "THIS SYSTEM WATER FLOWS ARE SUPPORTED BY STAFFORD LAKE, THE EFFECTIVE SPAWNIN AREA IS VERY SHORT. RETURNS ARE COMPARABLE WITH APPLE RIVER 20 MILES OF SPAWNING AREA",
+    "Date of inspection": [
+        {
+            "Month": "9-4 9-17"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "No. of observer": "3",
+            "Method": "1/4",
+            "Estimated total No. on grounds": "N/O"
+        },
+        "Chin 1": {
+            "No. of observer": "3",
+            "Method": "1/4"
+        }
+    },
+    "Dates of inspection (1)": null,
+    "Statistical Area": null,
+    "Second local name": null
+}

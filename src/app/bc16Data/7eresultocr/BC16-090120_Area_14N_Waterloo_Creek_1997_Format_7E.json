@@ -1,0 +1,162 @@
+{
+    "Year": "1997",
+    "Gazetted name": "WATERLOO CREEK",
+    "RAB code": "92-3340",
+    "Area": "14-8",
+    "District": "03",
+    "Sub": "14N Comox",
+    "Flows into": "BAYNES SOUND",
+    "Latitude": "49 28 13",
+    "Longitude": "124 47 32",
+    "Field Crew": "Eli Rosengard",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "selected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "selected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Normal",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(1) Other methods for CO Run 1: Brood stock capture with electroshocker and nets. (5) General Comments on Escapement Estimation: Coho estimates based on results of brood stock capture with electoshocker. (6) General Comments on Run Timing: Coho most prevalent in early November. (7) Enhancements: Fry salvage and brood stock capture by FBES. (14) Flood: March 1997 flood affects local streams. (20) On Predator Interactions: Baynes Sound seal and sea lion populations continue to increase.",
+    "Person preparing report": "Eli Rosengard / Patrolman",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1,2,10",
+            "N": "4",
+            "%Spawn habitat surveyed": "50",
+            "Rel": "3",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "25",
+            "Brood stock removals": "11"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "1,2",
+            "N": "4",
+            "%Spawn habitat surveyed": "95",
+            "Rel": "5",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "250"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "11-20",
+            "Start month": "Oct",
+            "Start day": "21-31",
+            "Peak month": "Nov",
+            "Peak day": "1-10",
+            "End month": "Nov",
+            "End day": "21-31"
+        }
+    },
+    "First local name": null,
+    "Start date": null,
+    "Second local name": null,
+    "Inspection dates": null,
+    "End date": null
+}

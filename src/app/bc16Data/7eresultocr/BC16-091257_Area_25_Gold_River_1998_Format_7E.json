@@ -1,0 +1,163 @@
+{
+    "Year": "1998",
+    "Gazetted name": "GOLD RIVER",
+    "RAB code": "93-5500",
+    "Area": "25-1",
+    "District": "04",
+    "Sub": "Tahsis",
+    "Flows into": "MUCHALAT INLET",
+    "Latitude": "49 40 48",
+    "Longitude": "126 6 48",
+    "Field Crew": "WCVI Snorkel Crew",
+    "Start date": "8/5/98",
+    "End date": "11/11/98",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: Detailed information for each inspection available from Stock Assessment Division. (7) Enhancements: Gold River Chinook Project.",
+    "Person preparing report": "Bruce A. Patten StAD (250) 756-7006",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "Methods": "3",
+            "N": "21",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "1",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "5,478"
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "3",
+            "N": "19",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "1",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "2,693",
+            "Jacks": "27"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "3",
+            "N": "16",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "1",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "1,619"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "3",
+            "N": "19",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "1",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "3,880"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "Methods": "3",
+            "N": "16",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "1",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "268"
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {},
+    "Inspection dates": null,
+    "First local name": null,
+    "Biological details particulars": null,
+    "Second local name": null
+}

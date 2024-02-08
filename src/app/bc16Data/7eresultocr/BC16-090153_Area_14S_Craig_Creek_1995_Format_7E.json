@@ -1,0 +1,144 @@
+{
+    "Year": "1995",
+    "Gazetted name": "CRAIG CREEK",
+    "RAB code": "92-3825",
+    "Area": "14-5",
+    "District": "03",
+    "Sub": "14S Qualicum Beach",
+    "First local name": "BEAVER CREEK",
+    "Flows into": "GEORGIA STRAIT",
+    "Latitude": "49 18 21",
+    "Longitude": "124 14 19",
+    "Field Crew": "Eli Rosengard",
+    "Inspection dates": "Nov 24 Dec 06",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "selected",
+    "(11) Severe bank erosion": "selected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "selected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Normally throughout beaver dams and RR culvert.",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(2) CO Run 1 Reliability: (11) Silting: Extreme flood of mid November affects all of area 14 streams (14) Flood: High levels of November hamper stream assessments (10) Debris jams: (5) General Comments on Escapement Estimation: Dave Clough (RRB) feels this stream averages 50 coho over the last few years Also listwed in BC16 as Beaver creek 92-3825",
+    "Person preparing report": "Eli Rosengard / Patrolman",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "2",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {},
+    "End date": null,
+    "Second local name": null,
+    "Start date": null
+}

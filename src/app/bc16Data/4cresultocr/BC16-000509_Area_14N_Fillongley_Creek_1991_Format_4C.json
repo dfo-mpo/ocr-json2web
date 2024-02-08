@@ -1,0 +1,47 @@
+{
+    "Watershed code": "92 08 - 3100 - 130",
+    "Gazetted name": "FILLONGLEY CREEK",
+    "Flows Into": "NORTH END OF LAMBERT CHANNEL",
+    "Year": "1991",
+    "District No.": "3",
+    "Statistical Area": "14 - 10",
+    "Subdistrict No.": "14N",
+    "Subdistrict Name": "COMOX, B. C.",
+    "(A) Enhancement or intense biological activities": "selected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NONE OBSERVED",
+    "Additional (B) Particulars of scouring of spawning beds": "NONE OBSERVED",
+    "Additional (C) Water levels flow": "LOW FLOWS IN SEPT. AND OCT. HIGH FLOWS IN NOV AND LATE DEC - EARLY JAN.",
+    "Biological (D) Particulars of distribution": "COHO SPAWNING THROUGHOUT LOWER ONE HALF OF THIS SYSTEM. COHO FRY SURVIVE IN THE SWAMPS DURING THE SUMMER",
+    "Biological (E) Comments on predators": "BIRDS AND OTTERS",
+    "Biological (F) Evidence of digging eggs": "NONE OBSERVED",
+    "Biological (G) New obstruction": "NONE OBSERVED",
+    "Comments (K)": "THIS SYSTEM GOES DRY IN THE SUMMER AND EARLY FALL AND IS AFFECTED BY DRY WEATHER AS IT IS FED FROM SWAMPS AND A LAKE ON THE ISLAND. GOOD SHOWING OF COHO AND CUTTHROAT TROUT IN THIS SYSTEM. FINAL NUMBER OBTAINED FROM DOUG POOLE.",
+    "Dates of inspection (1)": "DLC",
+    "Date of inspection": [
+        {
+            "Month": "NOV",
+            "Day": "27 04"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "NOV:",
+            "Arrival day": "20",
+            "Start month": "NOV:",
+            "Start day": "20",
+            "Peak month": "DEC:",
+            "Peak day": "01",
+            "End month": "DEC:",
+            "End day": "15",
+            "Method": "1 ELECTRO SHOCK",
+            "Reliability": "5",
+            "Estimated total No. on grounds": "75"
+        }
+    },
+    "Second local name": null,
+    "First local name": null
+}

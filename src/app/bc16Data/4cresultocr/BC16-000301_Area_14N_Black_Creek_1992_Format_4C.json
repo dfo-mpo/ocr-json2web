@@ -1,0 +1,42 @@
+{
+    "Watershed code": "92 - 2710",
+    "Gazetted name": "BLACK CREEK",
+    "First local name": "BLACK CREEK",
+    "Flows Into": "STRAIT OF GEORGIA",
+    "Year": "1992",
+    "District No.": "3",
+    "Statistical Area": "14 - 13",
+    "Subdistrict No.": "14N",
+    "Subdistrict Name": "COMOX, B. C.",
+    "(A) Enhancement or intense biological activities": "selected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "SOME PROBLEMS WITH SILT RUNOFF FROM UPSTREAM FARMS AND A SMALL LOGGING OPERATION.",
+    "Additional (B) Particulars of scouring of spawning beds": "NONE OBSERVED",
+    "Additional (C) Water levels flow": "LOW FLOWS IN SEPT. AND EARLY OCT. HIGH FLOWS IN LATE OCT AND EARLY NOV. GOOD FALL FLOWS.",
+    "Biological (D) Particulars of distribution": "COHO SPAWNING THROUGHOUTSYSTEM FROM FENCE TO ABOVE DUNCAN BAY LOGGING ROAD",
+    "Biological (E) Comments on predators": "BIRDS AND BEARS",
+    "Biological (F) Evidence of digging eggs": "NONE OBSERVED",
+    "Biological (G) New obstruction": "NONE OBSERVED",
+    "Comments (K)": "A LOGGING OPERATION IN THE NORTHY LAKE AREA AFFECTED THE SYSTEM WITH SILT AND DEBRIS RUN OFF. NO LONG LASTING AFFECTS WERE OBSERVED ON THE STREAM. NUMBERS WERE OBTAINED FROM THE FENCE CREW AND THE TAG RECOVERIES AFTER SPAWNING.",
+    "Dates of inspection (1)": "FENCE UP IN MID OCT. TAG RECOVERIES TO LATE DEC.",
+    "Date of inspection": null,
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "OCT:",
+            "Arrival day": "10",
+            "Start month": "OCT:",
+            "Start day": "23",
+            "Peak month": "NOV:",
+            "Peak day": "18",
+            "End month": "DEC:",
+            "End day": "20",
+            "Method": "9 Ct Fence",
+            "Reliability": "5",
+            "Estimated total No. on grounds": "1731 Ad 1672 Jks"
+        }
+    },
+    "Second local name": null
+}

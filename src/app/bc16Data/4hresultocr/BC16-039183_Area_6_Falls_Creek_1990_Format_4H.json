@@ -1,0 +1,54 @@
+{
+    "Department": "DEPARTMENT OF FISHERIES AND OCEANS",
+    "Report": "ANNUAL REPORT OF SALMON STREAMS AND SPAWNING POPULATIONS",
+    "Watershed code": "91-8870",
+    "Gazetted name": "FALLS CREEK",
+    "First local name": "FALLS CREEK",
+    "Flows into": "S. SHORE OF KILDALA ARM.",
+    "Year": "1990",
+    "District No.": "7",
+    "Statistical Area": "6",
+    "Subdistrict No.": "6N",
+    "Subdistrict Name": "KITIMAT",
+    "Physical Condition (C)": "EXTREMELY LOW WATER LEVELS FROM AUGUST TO LATE SEPTEMBER HIGH WATER LEVELS IN LATE OCTOBER.",
+    "Dates of Inspection": [
+        {
+            "Month": "AUG",
+            "Day": "22"
+        }
+    ],
+    "Spawning Run Timing and Estimated Number": {
+        "Sockeye 2": {
+            "Estimated Total on Grounds": "NO"
+        },
+        "Coho 1": {
+            "Estimated Total on Grounds": "N/0",
+            "Optimum Escapements": "50"
+        },
+        "Pink 1": {
+            "Estimated Total on Grounds": "N/O",
+            "Optimum Escapements": "50"
+        },
+        "Pink 2": {
+            "Spawning Peak Month": "-"
+        },
+        "Chum 1": {
+            "Estimated Total on Grounds": "N/O",
+            "Optimum Escapements": "50"
+        },
+        "Chinook 1": {
+            "Estimated Total on Grounds": "N/O",
+            "Optimum Escapements": "50"
+        }
+    },
+    "namename": {},
+    "Biological Condition (D)": null,
+    "Biological Condition (F)": null,
+    "Comments on any other conditions": null,
+    "shedcode": null,
+    "Biological Condition (G)": null,
+    "Physical Condition (B)": null,
+    "Biological Condition (E)": null,
+    "signature": null,
+    "Physical Condition (A)": null
+}

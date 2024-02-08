@@ -1,0 +1,200 @@
+{
+    "Year": "2001",
+    "Gazetted name": "SYDNEY RIVER",
+    "RAB code": "93-4800",
+    "Area": "24-1",
+    "District": "04",
+    "Sub": "24 Tofino",
+    "First local name": "IRVING RIVER",
+    "Flows into": "SYDNEY INLET",
+    "Latitude": "49 30 49",
+    "Longitude": "126 17 43",
+    "Field Crew": "Willem Buitendyk",
+    "Inspection dates": "Sep 22 Oct 01 Oct 15 Oct 28 Nov 08",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Chum spread throughout the lower 3km, coho and chinook spawning above 3km mark.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: Last visit there was a new windfall and save bank erosion near estuary.",
+    "Person preparing report": "Willem Buitendyk",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "Methods": "2,3,4",
+            "N": "3",
+            "%Spawn habitat surveyed": "76",
+            "Rel": "2",
+            "Enum Class": "4",
+            "Esc Code": "A.C.",
+            "Est total adults": "20"
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "2,3,4",
+            "N": "5",
+            "%Spawn habitat surveyed": "76",
+            "Rel": "2",
+            "Enum Class": "4",
+            "Esc Code": "A.C.",
+            "Est total adults": "380",
+            "Jacks": "196"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "A.P."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "2,3,4",
+            "N": "5",
+            "%Spawn habitat surveyed": "76",
+            "Rel": "3",
+            "Enum Class": "4",
+            "Esc Code": "A.C.",
+            "Est total adults": "2,750"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "2,3,4",
+            "N": "3",
+            "%Spawn habitat surveyed": "76",
+            "Rel": "2",
+            "Enum Class": "4",
+            "Esc Code": "A.C.",
+            "Est total adults": "80"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "SK 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "1",
+            "Start month": "Sep",
+            "Start day": "10",
+            "Peak month": "Sep",
+            "Peak day": "25",
+            "End month": "Oct",
+            "End day": "15"
+        },
+        "CO 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "10",
+            "Start month": "Oct",
+            "Start day": "10",
+            "Peak month": "Oct",
+            "Peak day": "30",
+            "End month": "Dec",
+            "End day": "1"
+        },
+        "CM 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "20",
+            "Start month": "Oct",
+            "Start day": "10",
+            "Peak month": "Oct",
+            "Peak day": "20",
+            "End month": "Nov",
+            "End day": "1"
+        },
+        "CN 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "1",
+            "Start month": "Sep",
+            "Start day": "15",
+            "Peak month": "Sep",
+            "Peak day": "30",
+            "End month": "Oct",
+            "End day": "15"
+        }
+    },
+    "End date": null,
+    "Start date": null,
+    "Second local name": null
+}

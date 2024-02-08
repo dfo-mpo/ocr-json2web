@@ -1,0 +1,76 @@
+{
+    "Watershed code": "92 - 3414",
+    "Gazetted name": "L\u00ddMN CREEK",
+    "First local name": "CHEF CREEK",
+    "Flows Into": "DEEP BAY, BAYNES SOUND",
+    "Year": "1992",
+    "District No.": "3",
+    "Statistical Area": "14 - 8",
+    "Subdistrict No.": "14N",
+    "Subdistrict Name": "COMOX, B. C.",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NONE OBSERVED",
+    "Additional (B) Particulars of scouring of spawning beds": "NONE OBSERVED",
+    "Additional (C) Water levels flow": "LOW WATER IN SEPT. AND OCT. HIGH FLOWS IN EARLY NOV. GOOD FALL. FLOWS",
+    "Biological (D) Particulars of distribution": "COHO USE ALL OF THE SYSTEM CHUMS IN THE LOWER ONE THIRD OF THE SYSTEM.",
+    "Biological (E) Comments on predators": "BIRDS, BEARS AND OTTERS.",
+    "Biological (F) Evidence of digging eggs": "NONE OBSERVED",
+    "Biological (G) New obstruction": "NONE OBSERVED",
+    "Comments (K)": "THIS SYSTEM IS SUSCEPTIBLE TO LOW FLOWS DURING SUMMER AND FALL. FINAL NUMBERS WERE OBTAINED FROM DAVE CLOUGH AND GORD STEWART THE FISH LADDER INSTALLED AT THE RAILWAY CROSSING WAS UPGRADED TO PROVIDE BETTER FISH ACCESS TO THE UPPER REACHES OF THIS SYSTEM.",
+    "Date of inspection": [
+        {
+            "Month": "OCT",
+            "Day": "08"
+        },
+        {
+            "Month": "OCT21"
+        },
+        {
+            "Month": "NOV",
+            "Day": "13"
+        },
+        {
+            "Month": "DEC01"
+        },
+        {
+            "Month": "DEC",
+            "Day": "04"
+        },
+        {
+            "Month": "DEC",
+            "Day": "17"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "OCT:",
+            "Arrival day": "B",
+            "Start month": "NOV:",
+            "Start day": "A",
+            "Peak month": "NOV:",
+            "Peak day": "C",
+            "End month": "DEC:",
+            "End day": "C",
+            "Method": "1",
+            "Estimated total No. on grounds": "60"
+        },
+        "Chum 1": {
+            "Arrival month": "OCT:",
+            "Arrival day": "C",
+            "Start month": "NOV:",
+            "Start day": "A",
+            "Peak month": "NOV:",
+            "Peak day": "B",
+            "End month": "DEC:",
+            "End day": "A",
+            "Method": "1",
+            "Estimated total No. on grounds": "20"
+        }
+    },
+    "Second local name": null,
+    "Dates of inspection (1)": null
+}

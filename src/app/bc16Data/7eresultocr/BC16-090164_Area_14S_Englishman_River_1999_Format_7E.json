@@ -1,0 +1,215 @@
+{
+    "Year": "1999",
+    "Gazetted name": "ENGLISHMAN RIVER",
+    "RAB code": "92-3800",
+    "Area": "14-5",
+    "District": "03",
+    "Sub": "14S Qualicum Beach",
+    "Flows into": "GEORGIA STRAIT",
+    "Latitude": "49 19 47",
+    "Longitude": "124 17 36",
+    "Field Crew": "Matt Mckay - Community Fisheries Deve",
+    "Inspection dates": "Aug 31 Sep 06 Sep 12 Sep 19 Oct 01 Oct 08 Oct 15 Oct 24 Nov 06 Nov 18 Nov 22 Dec 12 Dec 24",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "selected",
+    "Comments on condition": "(2) SK Run 1 Reliability: Snorkel float counts. Sockeye were usually in top 500m of reach, in deep pools. (2) CO, PK, CM & CN Run 1 Reliability: Weekly enumerations. (4) Describe basis for estimating total adults SK Run 1: Max count was 5 adults. 10 redds were observed in spawning area. Estimate is based on redd count. (4) Describe basis for estimating total adults CO Run 1: AUC estimate. Used 30 day survey life. (4) Describe basis for estimating total adults PK Run 1: Max count was 1,485 and 405 in mainstem and Timberwest side channel respectively with 80% countability. Estimate was derived from these observations (2, 000 in mainstem and 500 in channel) . (4) Describe basis for estimating total adults CM Run 1: Peak count was 18-November-1999 with 12, 690 and 1, 604 dead. At 70% countability the live number was 18, 000 and carcusses were about 4, 000. With a short survey life due to heavy bear and eagle predation the run was likely 25,000 to 30,000. (4) Describe basis for estimating total adults CN Run 1: Peak count was 498 adults on 24- October-1999. Estimate was derived from this peak. (5) General Comments on Escapement Estimation: Sockeye are mainstem spawners. (22) List Supplementary Documentation: Spawner enumeration report from CDFC avaliable from Steve Baillie (756-7227)",
+    "Person preparing report": "Steve Baillie",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "Methods": "3",
+            "N": "7",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "3",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "20"
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1,2,3",
+            "N": "13",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "3",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "2,978",
+            "Jacks": "400"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "1,2,3",
+            "N": "10",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "3",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "2,500"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "1,2,3",
+            "N": "10",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "3",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "25,000"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "1,2,3",
+            "N": "13",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "3",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "750",
+            "Jacks": "750"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        }
+    },
+    "Spawning run timing": {
+        "SK 1": {
+            "Arrival month": "Aug",
+            "Arrival day": "1-10",
+            "Start month": "Sep",
+            "Start day": "11-20",
+            "Peak month": "Oct",
+            "Peak day": "1-10",
+            "End month": "Oct",
+            "End day": "11-20"
+        },
+        "CO 1": {
+            "Arrival month": "Aug",
+            "Arrival day": "21-31",
+            "Start month": "Oct",
+            "Start day": "1-10",
+            "Peak month": "Nov",
+            "Peak day": "1-10",
+            "End month": "Dec",
+            "End day": "11-20"
+        },
+        "PK 1": {
+            "Arrival month": "Aug",
+            "Arrival day": "11-20",
+            "Start month": "Sep",
+            "Start day": "1-10",
+            "Peak month": "Sep",
+            "Peak day": "11-20",
+            "End month": "Oct",
+            "End day": "11-20"
+        },
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "11-20",
+            "Start month": "Oct",
+            "Start day": "11-20",
+            "Peak month": "Nov",
+            "Peak day": "1-10",
+            "End month": "Nov",
+            "End day": "21-31"
+        },
+        "CN 1": {
+            "Arrival month": "Nov",
+            "Arrival day": "1-10",
+            "Start month": "Oct",
+            "Start day": "1-10",
+            "Peak month": "Oct",
+            "Peak day": "11-20",
+            "End month": "Nov",
+            "End day": "1-10"
+        }
+    },
+    "First local name": null,
+    "Start date": null,
+    "Second local name": null,
+    "Biological details particulars": null,
+    "End date": null
+}

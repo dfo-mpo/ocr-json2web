@@ -1,0 +1,198 @@
+{
+    "Year": "1998",
+    "Gazetted name": "CHAMISS CREEK",
+    "RAB code": "93-7580",
+    "Area": "26-5",
+    "District": "04",
+    "Sub": "26 Kyuquot",
+    "Flows into": "CHAMISS BAY",
+    "Latitude": "50 4 46",
+    "Longitude": "127 17 12",
+    "Inspection dates": "Oct 07 Oct 18 Oct 20 Oct 28 Nov 04 Nov 29",
+    "(5) Escapement comments": "unselected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "selected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "selected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "selected",
+    "Comments on condition": "(2) SK Run 1 Reliability: Excellent visibility. (4) Describe basis for estimating total adults SK Run 1: Accumulated observations. (2) CO Run 1 Reliability: Lower tan other streams, was in flood during mid November so did not get a good look during that period. (4) Describe basis for estimating total adults CO Run 1: Accumulated observations. (2) PK Run 1 Reliability: None observed. (2) CM Run 1 Reliability: Excellent visibility. (4) Describe basis for estimating total adults CM Run 1: Accumulated observations. (2) CM Run 2 Reliability: Excellent visibility. (4) Describe basis for estimating total adults CM Run 2: Accumulated observations. (15) General Comments on Unusual Conditions: Habitat section of 1 km, down stream of second logging bridge crossing was blown out as large LOD jam let go in 1996 and removed most cover. This year due to the large escapement, chums were spawning much further up stream than 1997 brood year. Section of blow-out still appears inhospitable but is mending geophysically with few habitable sections showing (chum spawning) . (22) List Supplementary Documentation: Kyuquot Band has small hatchery / rearing facility near Chamiss Camp. 38, 000 chum eggs from Chamiss Creek are now incubated at this hatchery. There was an intent to incubate coho but the floods and just too many chum present at time of coho presence negated project (this year) .",
+    "Person preparing report": "Ross Hickling",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "Methods": "2,3",
+            "%Spawn habitat surveyed": "80",
+            "Rel": "5",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "4"
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "2,3",
+            "%Spawn habitat surveyed": "70",
+            "Rel": "3",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "66",
+            "Brood stock removals": "6"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "2,3",
+            "%Spawn habitat surveyed": "80",
+            "Rel": "4",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "2,3",
+            "%Spawn habitat surveyed": "80",
+            "Rel": "5",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "15,300"
+        },
+        "CM 2": {
+            "Methods": "2,3",
+            "%Spawn habitat surveyed": "80",
+            "Rel": "5",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "1,300"
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "SK 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "1-10",
+            "Start month": "Oct",
+            "Start day": "11-20",
+            "Peak month": "Oct",
+            "Peak day": "21-31",
+            "End month": "Nov",
+            "End day": "1-10"
+        },
+        "CO 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "1-10",
+            "Start month": "Oct",
+            "Start day": "11-20",
+            "Peak month": "Nov",
+            "Peak day": "1-10",
+            "End month": "Nov",
+            "End day": "11-20"
+        },
+        "CM 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "21-31",
+            "Start month": "Sep",
+            "Start day": "21-31",
+            "Peak month": "Oct",
+            "Peak day": "11-20",
+            "End month": "Nov",
+            "End day": "1-10"
+        },
+        "CM 2": {
+            "Arrival month": "Nov",
+            "Arrival day": "1-10",
+            "Start month": "Nov",
+            "Start day": "1-10",
+            "Peak month": "Nov",
+            "Peak day": "11-20",
+            "End month": "Nov",
+            "End day": "21-31"
+        }
+    },
+    "End date": null,
+    "Start date": null,
+    "First local name": null,
+    "Field Crew": null,
+    "Second local name": null,
+    "Biological details particulars": null
+}

@@ -1,0 +1,160 @@
+{
+    "Year": "1999",
+    "Gazetted name": "HART CREEK",
+    "RAB code": "92-2950",
+    "Area": "14-1",
+    "District": "03",
+    "Sub": "14N Comox",
+    "First local name": "WASHER CREEK",
+    "Flows into": "BAYNES SOUND",
+    "Latitude": "ongitude",
+    "Field Crew": "Gary Hargreaves, Eli Rosengard",
+    "Inspection dates": "Nov 18",
+    "Start date": "10/25/99",
+    "End date": "11/30/99",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "selected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Co unknown. Cm noted to 1.8km due to sustained high water in early Nov.",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "selected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(1) Other methods for CO Run 1: Attempts at brood capture. (5) General Comments on Escapement Estimation: Numerous volunteers walked the trails along the creek and in the creek during migration. Exact dates and records were not kept but the results are a compilation of the efforts of those individuals as well as the writer of this report. Enumertion class is \"varying methods\". Reliability is medium because of haphazard reporting system. (3) CM Run 1 Enumeration Class: as explained previously under general comments. (7) Enhancements: A USHP survey is being completed on this system. Discussions have been ongoing about a large ponding project in the upper reaches of this stream. (18) Flow augmentation: Need for water storage has been discussed. (20) On Salmon Distribution or Predator Interactions: Extensive fry studies have taken place on this system this year. In the late spring estimates of 40, 000 CO were made. By the end of the summer the counts were down to 4,000 due to stress from low water and exposure to predators. About 2, 000 fry were salvaged.",
+    "Person preparing report": "Eli Rosengard / Patrolman",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1,2,10",
+            "N": "1",
+            "%Spawn habitat surveyed": "25",
+            "Rel": "5",
+            "Enum Class": "4",
+            "Esc Code": "A.P."
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "1,2",
+            "N": "1",
+            "%Spawn habitat surveyed": "75",
+            "Rel": "3",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "400"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CM 2": {
+            "Arrival month": "Oct",
+            "Arrival day": "11-20",
+            "Start month": "Oct",
+            "Start day": "21-31",
+            "Peak month": "Nov",
+            "Peak day": "11-20",
+            "End month": "Nov",
+            "End day": "21-31"
+        }
+    },
+    "Longitude": null,
+    "Second local name": null
+}

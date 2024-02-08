@@ -1,0 +1,174 @@
+{
+    "Year": "1998",
+    "Gazetted name": "NILE CREEK",
+    "RAB code": "92-3480",
+    "District": "03",
+    "Sub": "14S Qualicum Beach",
+    "Flows into": "GEORGIA STRAIT",
+    "Latitude": "49 25 13",
+    "Longitude": "124 38 20",
+    "Field Crew": "L. Box and J. Newman; E. Rosengard",
+    "Inspection dates": "Oct 12 Oct 20 Oct 26 Nov 02 Nov 09 Nov 16 Nov 23 Dec 02 Dec 08 Dec 16",
+    "(5) Escapement comments": "unselected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "selected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "selected",
+    "(11) Severe bank erosion": "selected",
+    "(13) Unusual drought": "selected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "selected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Co noted spawning up to falls. Most seen in upper reaches. Chum concentrated below the water intake.",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(2) PK Run 1 Reliability: Local streamkeeper monitors this run constantly because this is second year of hatchery return. (4) Describe basis for estimating total adults PK Run 1: This run is monitored on an ongoing basis, by local streamkeepers, and Rod Allen. I have often met R. Allen on the stream and have checked his estimates and feel that they are reliable. This is a return from 1 mil. Quinsum eggs. (7) Enhancements: Highway mitigation work was substantially finished this year. It included two sets of rearing channels. One, down from New Bridge was considered to be well constructed and working properly. The other, up from RR trestle was poorly finished and improperly leveled. It will need to be redone next year and could cause a silt problem this year. Rip Rap was placed at Rose Park amidst complaints from the resident down and across stream. (8) Unusual mortalities: Reports that Co were killed by otters upstream. (10) Debris jams: Reports that chums did not get above log jam-cascade located 400 m. above water intake Chums have previously been noted higher in the system. (11) Bank erosion: Ongoing problem at Rose Park. (13) Drought: Extremely dry, late spring to early fall. (16) Fish access recommendations: related in #8 (20) On Salmon Distribution or Predator Interactions: Otter problem noted. Extensive chum fishery in area but 14-5 closed at times for protection of nearby systems. Beach fishery for coho [retention further south] not as productive as anticipated. Predation otherwise assumed normal- bears, birds, etc. This is the first year of extensive coho non-retention measures coastwide. (2) CO Run 1 Reliability: PBS crew swam this system weekly. Later in season it covered the entire creek. CM by Box crew and R. Allen, on the basis of numerous observations.",
+    "Person preparing report": "Eli Rosengard / Patrolman",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "3,2,1",
+            "N": "10",
+            "%Spawn habitat surveyed": "95",
+            "Rel": "5",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "227"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "1",
+            "%Spawn habitat surveyed": "90",
+            "Rel": "4",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "500"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "3,2,1",
+            "N": "9",
+            "%Spawn habitat surveyed": "90",
+            "Rel": "5",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "5,000"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "PK 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "11-20",
+            "Start month": "Sep",
+            "Start day": "21-31",
+            "Peak month": "Oct",
+            "Peak day": "1-10",
+            "End month": "Oct",
+            "End day": "11-20"
+        },
+        "CM 1": {
+            "Arrival month": "Nov",
+            "Arrival day": "1-10",
+            "Start month": "Nov",
+            "Start day": "11-20",
+            "Peak month": "Nov",
+            "Peak day": "21-31",
+            "End month": "Dec",
+            "End day": "11-20"
+        }
+    },
+    "First local name": null,
+    "Second local name": null,
+    "Area": null,
+    "End date": null,
+    "Start date": null
+}

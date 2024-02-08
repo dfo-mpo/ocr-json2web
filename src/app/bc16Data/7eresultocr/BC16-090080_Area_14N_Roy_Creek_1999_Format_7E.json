@@ -1,0 +1,164 @@
+{
+    "Year": "1999",
+    "Gazetted name": "ROY CREEK",
+    "RAB code": "92-2880",
+    "Area": "14-1",
+    "District": "03",
+    "Sub": "14N Comox",
+    "First local name": "ROYSTON CREEK",
+    "Flows into": "COMOX HARBOUR",
+    "Latitude": "49 38 51",
+    "Longitude": "124 56 30",
+    "Field Crew": "Doug Poole",
+    "Start date": "10/15/99",
+    "End date": "12/5/99",
+    "(5) Escapement comments": "unselected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "selected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Cm in lower reaches. Co noted spawning above fence.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(2) CO Run 1 Reliability: fence count with spot checks after high water to see if fish got past fence. (3) CO Run 1 Enumeration Class: May be considered absolute abundance but I suggest that a less detailed look above fence (no mark recapture) should probably be called relative abundance, identical methods between years. (4) Describe basis for estimating total adults CO Run 1: Fence count and spot checks above; after high water. Fish noted in upper system. 137 co through the fence: est. 23 got past. 22 females, 18 males taken out for brood. 40, 000 eggs to be split between Roy and Millard Creek. (2) CM Run 1 Reliability: Estimates not made on regular or systematic basis. (4) Describe basis for estimating total adults CM Run 1: Counts made by walk and spot checks by D. Poole and other residents. (7) Enhancements: A new culvert was put in across Minto Rd. this summer. (9) Upslope instability: Changes from new highway construction seem to have stabilized. Talk of development around headwaters seems to have died down.",
+    "Person preparing report": "Eli Rosengard / Patrolman",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "11,1",
+            "%Spawn habitat surveyed": "85",
+            "Rel": "5",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "120",
+            "Brood stock removals": "40"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "1",
+            "%Spawn habitat surveyed": "45",
+            "Rel": "3",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "50"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Nov",
+            "Arrival day": "1-10",
+            "Start month": "Nov",
+            "Start day": "1-10",
+            "Peak month": "Nov",
+            "Peak day": "11-20",
+            "End month": "Nov",
+            "End day": "21-31"
+        },
+        "CM 1": {
+            "Peak month": "Nov",
+            "Peak day": "11-20"
+        }
+    },
+    "Second local name": null,
+    "Inspection dates": null
+}

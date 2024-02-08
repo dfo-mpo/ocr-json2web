@@ -1,0 +1,40 @@
+{
+    "Watershed Code": "code:90-9550",
+    "1st Local name": "QUASHELLA RIVER",
+    "Flows into": "MEREWORTH SOUND",
+    "year": "1992",
+    "Subarea": "11-5",
+    "Subd. name": "SEYMOUR INLET",
+    "Dates of inspection": "SEP 12 OCT 01 OCT 17.|",
+    "(A) Evidence of Erosion": "None observed.",
+    "(B) Particulars of Scouring": "None observed.",
+    "(C) Water levels": "Normal.",
+    "(D) Spawning distribution": "Upstream to 1/2 mile.",
+    "(E) Comments on predators": "Black bears present.",
+    "(F) Egg digging": "None observed.",
+    "(G) New obstructions": "None observed.",
+    "(K) Additional comments": "One (1) coho smolt captured oct 1/92 and released. Upper portion (above bridge) good coho habitat, source is a large swamp type area with heavy vegetation coverage.",
+    "Fishery Officer": "Jim Swan",
+    "Duration of Spawning": {
+        "Coho 1": {
+            "Methods": "1 6"
+        },
+        "Chum 1": {
+            "Arrival": "AUG C",
+            "Start": "SEP A",
+            "Peak": "SEP B",
+            "End": "SEP C",
+            "Methods": "1 6",
+            "Reliability": "2",
+            "Est. Esc": "570"
+        }
+    },
+    "District": null,
+    "Gazetted name": null,
+    "(K) Additional comments continued": null,
+    "(H) recommended enhancement": null,
+    "Signature": null,
+    "Subdistrict": null,
+    "(I) Habitat change": null,
+    "2nd local name": null
+}

@@ -1,0 +1,179 @@
+{
+    "Year": "1995",
+    "Gazetted name": "WILFRED CREEK",
+    "RAB code": "92-3300",
+    "Area": "14-8",
+    "District": "03",
+    "Sub": "14N Comox",
+    "First local name": "COAL CREEK",
+    "Flows into": "MUD BAY (BAYNES SOUND)",
+    "Latitude": "49 28 59",
+    "Longitude": "124 47 48",
+    "Field Crew": "Eli Rosengard",
+    "Inspection dates": "Jul 15 Aug 15 Sep 15 Oct 12 Oct 24 Nov 04 Nov 05 Nov 20 Dec 07",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "selected",
+    "(11) Severe bank erosion": "selected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "selected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "selected",
+    "(17) Spawning site": "selected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "selected",
+    "Biological details particulars": "Coho throughout system, chums noted at hatchery. Pinks up to hatchery.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(11) Bank erosion/ gravel build up: Bank erosion due to flood. There has been a gravel build up at the lowest reach on the mainstem. Fish must enter through the north channel at low floods. (16) Fish access recommendations: Fish must enter through the north channel at low floods. (14) Flood: near record rain during fall hampers stream assessments. Floods of Nov. 17 effect all area 14 streams. Gravel build up increases. (20) Predator Interactions: Seal predation increases at mouth. Human predation at channel area targeting coho. Otherwise normal. (19) Other restoration recommendations: Gravel build up near mouth increases. DFO must insure that north channel remains open at low flow. (10) Debris jams: Major log jam adjacent to hatchery mysteriously removed. (17) Spawning site recommendations: 450 pinks were moved to upper reaches because of low summer flows. Gravel movement in lower reaches probably effected a small amount of chum spawn. (5) General Comments on Escapement Estimation: Jul, Aug, and Sep date of inspection are only estimates as no date was given on the hard copy.",
+    "Person preparing report": "Eli Rosengard / Patrolman",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "4",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "200"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "1",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "5",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "1,000"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "1",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "5",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "200"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "11-20",
+            "Start month": "Nov",
+            "Start day": "1-10",
+            "Peak month": "Nov",
+            "Peak day": "11-20",
+            "End month": "Dec"
+        },
+        "PK 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "1-10",
+            "Start month": "Sep",
+            "Start day": "11-20",
+            "Peak month": "Sep",
+            "Peak day": "11-20",
+            "End month": "Sep"
+        },
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Start month": "Nov",
+            "Start day": "1-10",
+            "Peak month": "Nov",
+            "Peak day": "11-20",
+            "End month": "Dec",
+            "End day": "1-10"
+        }
+    },
+    "End date": null,
+    "Second local name": null,
+    "Start date": null
+}

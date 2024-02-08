@@ -1,0 +1,168 @@
+{
+    "Year": "1996",
+    "Gazetted name": "LOST SHOE CREEK",
+    "RAB code": "93-3380",
+    "Area": "24-1",
+    "District": "04",
+    "Sub": "Tofino",
+    "Flows into": "PACIFIC OCEAN",
+    "Latitude": "49 0 11",
+    "Longitude": "125 38 16",
+    "Field Crew": "Tofino/Thorton Ck Hatchery Crew",
+    "Inspection dates": "Nov 07",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "selected",
+    "(11) Severe bank erosion": "selected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Chum from tidal to approximately 300 metres where log jam exists. Coho also below jam, can make it above.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(10) Debris jams: Log jam at 300 metres should be taken out to allow chum to utilise upper areas. Made up mainly of alder's from bank sloughing with some old bridge timbers. Sand and gravel piled up behind jam. There seems to be no change in severity of jam over the past few years. (11) Bank erosion: Erosion at approximately 300 metres above tidal. Bank on right side 10 metres wide x 4 metres high. (20) Predator Interactions: Four chum taken by bears. (7) Enhancements: Coho enhancement has taken place here by the Thornton creek enhancement society. Approximately 80, 000 coho fry are placed hereon an annual basis. Enhancements here commenced in1980 and continue to this day. The inspection was carried out from the tidal area to 1km, although only 4 coho were observed in this stretch it was estimated that the run was considerably large due to the continuous enhancement efforts and past observations.",
+    "Person preparing report": "Doug Palfrey",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1",
+            "N": "1",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "1",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "250",
+            "Escapement Goal": "800"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "1",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "1",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "18",
+            "Escapement Goal": "500"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Start month": "Oct",
+            "Start day": "1-10",
+            "Peak month": "Nov",
+            "Peak day": "21-31",
+            "End month": "Dec",
+            "End day": "21-31"
+        },
+        "CM 1": {
+            "Start month": "Oct",
+            "Start day": "1-10",
+            "Peak month": "Oct",
+            "Peak day": "21-31",
+            "End month": "Nov",
+            "End day": "11-20"
+        }
+    },
+    "Second local name": null,
+    "First local name": null,
+    "End date": null,
+    "Start date": null
+}

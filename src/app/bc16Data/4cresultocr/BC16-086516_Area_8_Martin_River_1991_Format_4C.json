@@ -1,0 +1,90 @@
+{
+    "Watershed code": "91-3880",
+    "Gazetted name": "MARTIN RIVER",
+    "First local name": "MARTIN CREEK",
+    "Flows Into": "COUSINS INLET",
+    "Year": "1991",
+    "District No.": "7",
+    "Statistical Area": "8",
+    "Subdistrict No.": "8",
+    "Subdistrict Name": "BELLA COOLA",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NIL",
+    "Additional (B) Particulars of scouring of spawning beds": "NIL",
+    "Additional (C) Water levels flow": "NORMAL SEASONAL FLUCTUATIONS. HIGH OCT. 9",
+    "Biological (D) Particulars of distribution": "PINK, CHUM AND COHO SCATTERED THROUGHOUT.",
+    "Biological (E) Comments on predators": "NORMAL",
+    "Biological (F) Evidence of digging eggs": "NIL",
+    "Biological (G) New obstruction": "NORMAL BEAVER DAMS IN LOWER RIVER.",
+    "Date of inspection": [
+        {
+            "Month": "SEP",
+            "Day": "09"
+        },
+        {
+            "Month": "SEP",
+            "Day": "18"
+        },
+        {
+            "Month": "OCT",
+            "Day": "11"
+        },
+        {
+            "Month": "OCT",
+            "Day": "19"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "SEP:",
+            "Arrival day": "A",
+            "Start month": "NOV:",
+            "Start day": "C",
+            "Peak month": "DEC:",
+            "Peak day": "B",
+            "End month": "JAN :",
+            "End day": "B",
+            "No. of observer": "3",
+            "Method": "1",
+            "Reliability": "1",
+            "Estimated total No. on grounds": "3000",
+            "Optimum escapement": "6000"
+        },
+        "Pink 1": {
+            "Arrival day": "C",
+            "Start month": "SEP:",
+            "Start day": "A",
+            "Peak month": "SEP",
+            "Peak day": "B",
+            "End month": "SEP:",
+            "End day": "C",
+            "No. of observer": "4",
+            "Method": "1",
+            "Reliability": "2",
+            "Estimated total No. on grounds": "250",
+            "Optimum escapement": "10000"
+        },
+        "Chum 1": {
+            "Arrival month": "SEP :",
+            "Arrival day": "A",
+            "Start month": "SEP :",
+            "Start day": "C",
+            "Peak month": "OCT:",
+            "Peak day": "B",
+            "End month": "NOV:",
+            "End day": "B",
+            "No. of observer": "3",
+            "Method": "1",
+            "Reliability": "2",
+            "Estimated total No. on grounds": "500",
+            "Optimum escapement": "15000"
+        }
+    },
+    "Dates of inspection (1)": null,
+    "Second local name": null,
+    "Comments (K)": null
+}

@@ -1,0 +1,166 @@
+{
+    "Year": "1999",
+    "Gazetted name": "OLIVER CREEK",
+    "RAB code": "92-4800-510",
+    "Area": "18",
+    "District": "03",
+    "Sub": "Duncan",
+    "Flows into": "COWICHAN RIVER",
+    "Field Crew": "Joy Hillier, Greg Williams.",
+    "Inspection dates": "Nov 18 Nov 23 Nov 30 Dec 16 Dec 22",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(2) CO Run 1 Reliability: Weekly survey (4) Describe basis for estimating total adults CO Run 1: AUC estimate. Assumed 14 day survey life. Zero counts were added in on Nov. 11 and Dec. 29 (2) CT Run 1 Reliability: Weekly survey (4) Describe basis for estimating total adults CT Run 1: Peak count Nov. 23 (2) TR Run 1 Reliability: Brown trout- weekly survey (4) Describe basis for estimating total adults TR Run 1: Brown trout-peak count Nov. 30 (20) On Salmon Distribution or Predator Interactions: Coho-13 above Darnell road, 20 below (16 Dec)",
+    "Person preparing report": "StAD-Steve Baillie",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "2",
+            "N": "4",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "4",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "106",
+            "Jacks": "10"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "Methods": "2",
+            "N": "1",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "4",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "6"
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "TR 1": {
+            "Methods": "2",
+            "N": "2",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "4",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "3"
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Nov",
+            "Arrival day": "18",
+            "Start month": "Dec",
+            "Start day": "1-10",
+            "Peak month": "Dec",
+            "Peak day": "11-20",
+            "End month": "Jan",
+            "End day": "1-10"
+        }
+    },
+    "Start date": null,
+    "Second local name": null,
+    "Longitude": null,
+    "Biological details particulars": null,
+    "Latitude": null,
+    "End date": null,
+    "First local name": null
+}

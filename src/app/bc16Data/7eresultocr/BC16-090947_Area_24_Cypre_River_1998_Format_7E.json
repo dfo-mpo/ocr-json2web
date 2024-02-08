@@ -1,0 +1,188 @@
+{
+    "Year": "1998",
+    "Gazetted name": "CYPRE RIVER",
+    "RAB code": "93-4100",
+    "Area": "24-7",
+    "District": "04",
+    "Sub": "24 Tofino",
+    "First local name": "TROUT RIVER",
+    "Second local name": "CYPREO RIVER",
+    "Flows into": "CYPRESS BAY",
+    "Latitude": "49 16 32",
+    "Longitude": "125 54 56",
+    "Field Crew": "Tofino/Thorton Ck Hatchery Crew",
+    "Inspection dates": "Oct 25 Oct 29 Nov 30 Dec 02 Dec 04 Jan 03",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "selected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Chum tidal to 2.5km; coho from 1.5km to 10km; and chinook maily at 2km to 4km.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: Only one swim survey was done this year on Oct. 29th. All other entries were from walks and spot checks. 27 female coho were taken during egg takes = 92, 218 eggs. (7) Enhancements: A 200m side channel was constructed in summer of 1998, it will provide good off channel rearing. (11) Bank erosion: Three areas affected, all in heavy logged areas. This system has suffered greatly due to past logging practices. Although no slides have occurred this year, much LWD is mobil and has caused the stream to change course in several places. Changes are noted from one rainfall to another. (20) On Predator Interactions: Bear predation: 500 chum.",
+    "Person preparing report": "Doug Palfrey",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1,6,10",
+            "N": "6",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "4",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "1,000",
+            "Brood stock removals": "27",
+            "Escapement Goal": "2,000"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "1,6,10",
+            "N": "6",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "4",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "2,800",
+            "Escapement Goal": "5,000"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "1,6,10",
+            "N": "2",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "4",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "20",
+            "Escapement Goal": "800"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "15",
+            "Start month": "Oct",
+            "Start day": "11-20",
+            "Peak month": "Nov",
+            "Peak day": "21-31",
+            "End month": "Dec",
+            "End day": "21-31"
+        },
+        "CM 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "15",
+            "Start month": "Oct",
+            "Start day": "1-10",
+            "Peak month": "Oct",
+            "Peak day": "21-31",
+            "End month": "Nov",
+            "End day": "1-10"
+        },
+        "CN 1": {
+            "Arrival month": "Sep",
+            "Start month": "Oct",
+            "Start day": "1-10",
+            "Peak month": "Oct",
+            "Peak day": "21-31",
+            "End month": "Nov",
+            "End day": "1"
+        }
+    },
+    "Start date": null,
+    "End date": null
+}

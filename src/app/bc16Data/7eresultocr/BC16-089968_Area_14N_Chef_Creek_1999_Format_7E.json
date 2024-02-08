@@ -1,0 +1,172 @@
+{
+    "Year": "1999",
+    "Gazetted name": "CHEF CREEK",
+    "RAB code": "92-3414",
+    "Area": "14-8",
+    "District": "03",
+    "Sub": "14N Comox",
+    "First local name": "CHEF CREEK",
+    "Flows into": "DEEP BAY (BAYNES SOUND)",
+    "Latitude": "49 26 54",
+    "Longitude": "124 45 22",
+    "Field Crew": "Eli Rosengard",
+    "Inspection dates": "Nov 01 Nov 14 Nov 29 Dec 07",
+    "(5) Escapement comments": "unselected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "selected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Most cm below OIH in area around RR. Coho between OIH and RR and probably upper sections that were not often visited.",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(4) Describe basis for estimating total adults CO Run 1: Using peak live counts and rounding down to be conservative. This is a long system and much of it is not surveyed so accurate % population not possible. Previous year's counts have been conservative as well. (4) Describe basis for estimating total adults CM Run 1: Using 10 day stream life times peak live plus dead counts. Small amount of rounding up for activity in between surveys. (1) Other methods for CO Run 1: Brood stock capture (11) Bank/Bed erosion: Some evidence of gravel and sand migration again this year. Warren Cook wrote formal letter of complaint.",
+    "Person preparing report": "Eli Rosengard / Patrolman",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1,2,10",
+            "N": "4",
+            "%Spawn habitat surveyed": "25",
+            "Rel": "3",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "140",
+            "Brood stock removals": "12"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "1,2",
+            "N": "4",
+            "%Spawn habitat surveyed": "80",
+            "Rel": "4",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "700"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "21-31",
+            "Start month": "Nov",
+            "Start day": "1-10",
+            "Peak month": "Nov",
+            "Peak day": "11-20",
+            "End month": "Dec",
+            "End day": "1-10"
+        },
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "11-20",
+            "Start month": "Nov",
+            "Start day": "1-10",
+            "Peak month": "Nov",
+            "Peak day": "1-10",
+            "End month": "Dec",
+            "End day": "1-10"
+        }
+    },
+    "Second local name": null,
+    "End date": null,
+    "Start date": null
+}

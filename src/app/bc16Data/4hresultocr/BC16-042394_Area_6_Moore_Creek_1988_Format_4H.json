@@ -1,0 +1,40 @@
+{
+    "Department": "DEPARTMENT OF FISHFRIES AND OCEANS",
+    "Report": "ANNUAL REPORT OF SALMON STREAMS AND SPAWNING POPULATIONS YAar 1988",
+    "Watershed code": "91-9005",
+    "First local name": "MOORE CREEK",
+    "Flows into": "N.E. INTO KITIMAT ARM AT KITIMAT",
+    "District No.": "7",
+    "Statistical Area": "6",
+    "Subdistrict No.": "6N",
+    "Subdistrict Name": "KITIMAT",
+    "Physical Condition (B)": "should hp given- EXTREMELY LOW WATFR } FVFIS FROM AUGUST TO I ATE SEPTEMBER HIGH WATER LEVELS IN LATE OCTOBER.",
+    "Physical Condition (C)": "21 21st",
+    "Biological Condition (D)": "MOST ADULT COHO HAVE BEEN OBSERVED FROM BRIDGE CROSSING DOWN STREAM OF PLANT TO CULVERT LOCATED ON PLANT SITE UPSTREAM TO HWY",
+    "Biological Condition (E)": "CULVERT LOCATED BEHIND BAR WASH.",
+    "Biological Condition (F)": "_N/0",
+    "Biological Condition (G)": "N/O",
+    "shedcode": "Watershed code",
+    "signature": "Angulo Rug\u00eda",
+    "Dates of Inspection": [
+        {
+            "Month": "OCT",
+            "Day": "28"
+        }
+    ],
+    "Spawning Run Timing and Estimated Number": {
+        "Coho 1": {
+            "Arrival In Stream Month": "OCT",
+            "Arrival In Stream Day": "B",
+            "Spawning Start Month": "/OCT",
+            "Spawning Start Day": ":C",
+            "Spawning Peak Month": "/NOY",
+            "Spawning Peak Day": ":B"
+        }
+    },
+    "namename": {},
+    "Year": null,
+    "Physical Condition (A)": null,
+    "Gazetted name": null,
+    "Comments on any other conditions": null
+}

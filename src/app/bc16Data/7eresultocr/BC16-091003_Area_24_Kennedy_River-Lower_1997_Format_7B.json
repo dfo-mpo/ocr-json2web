@@ -1,0 +1,158 @@
+{
+    "Year": "1997",
+    "Gazetted name": "KENNEDY RIVER (LOWER)",
+    "RAB code": "93-3600-000-000-000-000-994",
+    "Area": "24-1",
+    "District": "04",
+    "Sub": "Tofino",
+    "First local name": "LOWER KENNEDY RIVER",
+    "Second local name": "KEN FALLS",
+    "Flows into": "TOFINO INLET",
+    "Field Crew": "Tofino/Thorton Ck Hatchery Crew",
+    "Start date": "9/1/97",
+    "End date": "11/30/97",
+    "(5) Escapement comments": "unselected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Chinook mainly at the head of the rapids.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(4) Describe basis for estimating total adults CN Run 1: The estimated number of chinook was arrived at through a combination of netting broodstock and observing the schools of fish while passing them with the boat. Being a lake feed system, it is naturally murky which also adds to the difficulting in assessing. This number of 1, 200 was passed on to me from Andrew Jackson a Fishing Gaurdian based at the Kennedy River Hatchery. (7) Enhancements: Removals: approx. 140 females (taken for eggs) and 150 males (all killed prior to removing milt) which produced 750,000 eggs, were taken from the system. Of the 750,000 eggs taken at the Kennedy facility, 450, 000 are fertilized and will be reared to 1 G in Tofino Hatchery. Releases for 96 brood year released in 97, approx 720, 000 released at hatchery site. (20) On Predator Interactions: Seals, usually 2-3 around, mainly after coho and sockeye.",
+    "Person preparing report": "Doug Palfrey",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "6,10",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "3",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "1,200",
+            "Brood stock removals": "290",
+            "Escapement Goal": "2,000"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CN 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "1-10",
+            "Start month": "Oct",
+            "Start day": "11-20",
+            "Peak month": "Oct",
+            "Peak day": "21-31",
+            "End month": "Nov",
+            "End day": "11-20"
+        }
+    },
+    "Latitude": null,
+    "Longitude": null,
+    "Inspection dates": null
+}

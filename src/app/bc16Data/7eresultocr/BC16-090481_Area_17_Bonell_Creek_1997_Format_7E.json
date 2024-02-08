@@ -1,0 +1,158 @@
+{
+    "Year": "1997",
+    "Gazetted name": "BONELL CREEK",
+    "RAB code": "92-4000",
+    "Area": "17-2",
+    "District": "03",
+    "Sub": "17 Nanaimo",
+    "First local name": "BRUNNEL CREEK",
+    "Flows into": "NANOOSE BAY",
+    "Latitude": "49 15 59",
+    "Longitude": "124 11 12",
+    "Field Crew": "Ron Douglas",
+    "(5) Escapement comments": "unselected",
+    "(6) General comments": "selected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "selected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "selected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "selected",
+    "Comments on condition": "(2) Reliability: CM Run 1: Visibility mainly good in this stream. A substantial log jam half a kilometer from mouth is passable at high water. Cleared some of debris to allow passage, but it should be monitored. (6) General Comments on Run Timing: The returns are small for this stream, however it appeared to be over by end of third week of Nov. Fresh fish were then seen mid Dec. (10) Debris jams: Log jam half kilometer from mouth required monitoring, and clearing. (16) Fish access recommendations: Log jam could present problems.",
+    "Person preparing report": "Ron Douglas, CPV",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "3",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "2",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "4",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "100"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CM 1": {
+            "Arrival month": "Nov",
+            "Arrival day": "1-10",
+            "Start month": "Nov",
+            "Start day": "11-20",
+            "Peak month": "Nov",
+            "Peak day": "21-31",
+            "End month": "Dec",
+            "End day": "11-20"
+        }
+    },
+    "Biological details particulars": null,
+    "Second local name": null,
+    "End date": null,
+    "Start date": null,
+    "Inspection dates": null
+}

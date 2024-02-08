@@ -1,0 +1,146 @@
+{
+    "Year": "1999",
+    "Gazetted name": "BEACH CREEK",
+    "RAB code": "92-3640",
+    "District": "03",
+    "Sub": "14S Qualicum Beach",
+    "Flows into": "GEORGIA STRAIT",
+    "Latitude": "49 21 22",
+    "Longitude": "124 26 22",
+    "Field Crew": "Faye Smith",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "selected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Unknown",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(1) Other methods for CO Run 1: Spot checks by streamkeeper's. (2) CO Run 1 Reliability: Since it is a presence /absence estimate the reliability is relatively high due to my confidence in the knowledge of the observers. (3) CO Run 1 Enumeration Class: Not enough sittings for anything other than presence /absence this year. (2) CM Run 1 Reliability: No concerted look for this species. (3) CM Run 1 Enumeration Class: No CM was observed in the creek. Carcasses were noted along the beach. (5) General Comments on Escapement Estimation: A network of streamkeeper's look at this system during the fall migration. They seem to be quite keen and knowledgeable. (6) General Comments on Run Timing: Not enough fish observed to make any comments re: this item. (7) Enhancements: A contract for $75,000 has been let out to tender for culvert improvements and works that would divert the stream around the Old Dutch Inn and create better habitat. Funding by Eco-Action 2000. A USHP study using SHIM standards has been completed on this system as well as neighbouring Grandon. Money has been raised to start a database as well. Funding is in place to get rid of the culvert barrier on Grandon Creek and create a series of step pools to enable migration.",
+    "Person preparing report": "Eli Rosengard / Patrolman",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1,2,10",
+            "%Spawn habitat surveyed": "50",
+            "Rel": "4",
+            "Enum Class": "4",
+            "Esc Code": "A.P."
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "1,2",
+            "%Spawn habitat surveyed": "10",
+            "Rel": "1",
+            "Enum Class": "4",
+            "Esc Code": "N.O."
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {},
+    "First local name": null,
+    "Second local name": null,
+    "Area": null,
+    "End date": null,
+    "Start date": null,
+    "Inspection dates": null
+}

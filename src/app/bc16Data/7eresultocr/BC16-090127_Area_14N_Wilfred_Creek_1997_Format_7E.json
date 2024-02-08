@@ -1,0 +1,186 @@
+{
+    "Year": "1997",
+    "Gazetted name": "WILFRED CREEK",
+    "RAB code": "92-3300",
+    "Area": "14-8",
+    "District": "03",
+    "Sub": "14N Comox",
+    "First local name": "COAL CREEK",
+    "Flows into": "MUD BAY (BAYNES SOUND)",
+    "Latitude": "49 28 59",
+    "Longitude": "124 47 48",
+    "Field Crew": "Eli Rosengard",
+    "(5) Escapement comments": "unselected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "selected",
+    "(10) Debris jams present": "selected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "selected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "selected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "selected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(1) Other methods for CO Run 1: Electrshock for brood stock. (7) Enhancements: Fry salvage and brood stock capture ongoing. (9) Upslope instability: Problems from recent Inland Highway construction. (14) Flood: March 1997 flood causes heavy gravel movement. Inland Highway crossing suspected in sedimentation problems. (10) Debris jams: Ongoing gravel build-up near mouth forces stream to create new channel through forest. May present an impediment to migration during low water events. (12) Main cause of Spawning Habitat Degradation: gravel movement and sedimentation (16) Fish access recommendations: study channelization at lower end and work on remediation. (18) Flow augmentation: Make certain that commercial hatchery honors flow regime as negotiated.",
+    "Person preparing report": "Eli Rosengard / Patrolman",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1,2,10",
+            "N": "6",
+            "%Spawn habitat surveyed": "70",
+            "Rel": "3",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "50",
+            "Brood stock removals": "9"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "1,2",
+            "N": "4",
+            "%Spawn habitat surveyed": "80",
+            "Rel": "4",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "700"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "1,2",
+            "N": "4",
+            "%Spawn habitat surveyed": "80",
+            "Rel": "4",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "1,200"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "11-20",
+            "Start month": "Nov",
+            "Start day": "1-10",
+            "Peak month": "Nov",
+            "Peak day": "11-20",
+            "End month": "Dec",
+            "End day": "1-10"
+        },
+        "PK 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "11-20",
+            "Start month": "Sep",
+            "Start day": "21-31",
+            "Peak month": "Oct",
+            "Peak day": "1-10",
+            "End month": "Oct",
+            "End day": "21-31"
+        },
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "11-20",
+            "Start month": "Oct",
+            "Start day": "21-31",
+            "Peak month": "Nov",
+            "Peak day": "1-10",
+            "End month": "Dec",
+            "End day": "1-10"
+        }
+    },
+    "Start date": null,
+    "Second local name": null,
+    "Biological details particulars": null,
+    "Inspection dates": null,
+    "End date": null
+}

@@ -1,0 +1,96 @@
+{
+    "Watershed code": "92 - 3300",
+    "Gazetted name": "WILFRED CREEK",
+    "First local name": "COAL CREEK",
+    "Flows Into": "MUD BAY, BAYNES SOUND",
+    "Year": "1991",
+    "District No.": "3",
+    "Statistical Area": "14 - 8",
+    "Subdistrict No.": "14N",
+    "Subdistrict Name": "COMOX, B. C.",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NONE OBSERVED",
+    "Additional (B) Particulars of scouring of spawning beds": "NONE OBSERVED",
+    "Additional (C) Water levels flow": "LOW WATER IN SEPT. AND OCT. HIGH FLOWS IN AUG., NOV., AND LATE DEC. TO EARLY JAN.",
+    "Biological (D) Particulars of distribution": "USE ALL OF THE SYSTEM INCLUDING THE SIDE CHANNEL. PINKS AND CHUMS IN THE LOWER ONE THIRD OF THE SYSTEM",
+    "Biological (E) Comments on predators": "BIRDS, BEARS AND OTTERS.",
+    "Biological (F) Evidence of digging eggs": "NONE OBSERVED",
+    "Biological (G) New obstruction": "BUILD UP OF DEBRIS AT MOUTH OF SYSTEM IS AFFECTING FISH PASSAGE UPSTREAM DURING LOW FLOWS. WILL LOOK AT POSSIBLE REMOVAL NEXT SUMMER.",
+    "Comments (K)": "THIS SYSTEM HAS GOOD YEAR AROUND FLOW AND IS NOT ADVERSLY AFFECTED BY LOW SUMMER FLOWS. FINAL NUMBERS WERE OBTAINED FROM DAVE CLOUGH AND BOB HURST.",
+    "Date of inspection": [
+        {
+            "Month": "AUG",
+            "Day": "18"
+        },
+        {
+            "Month": "SEPT",
+            "Day": "23"
+        },
+        {
+            "Month": "OCT",
+            "Day": "29"
+        },
+        {
+            "Month": "NOV",
+            "Day": "03"
+        },
+        {
+            "Month": "NOV",
+            "Day": "05"
+        },
+        {
+            "Month": "NOV",
+            "Day": "22"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "NOV:",
+            "Arrival day": "10",
+            "Start month": "NOV:",
+            "Start day": "15",
+            "Peak month": "DEC:",
+            "Peak day": "1",
+            "End month": "DEC:",
+            "End day": "15",
+            "No. of observer": "4",
+            "Method": "1",
+            "Reliability": "4",
+            "Estimated total No. on grounds": "75"
+        },
+        "Pink 1": {
+            "Arrival month": "SEP:",
+            "Arrival day": "20",
+            "Start month": "SEP:",
+            "Start day": "25",
+            "Peak month": "OCT:",
+            "Peak day": "5",
+            "End month": "OCT:",
+            "End day": "10",
+            "No. of observer": "2",
+            "Method": "1",
+            "Reliability": "4",
+            "Estimated total No. on grounds": "50"
+        },
+        "Chum 1": {
+            "Arrival month": "NOV:",
+            "Arrival day": "15",
+            "Start month": "NOV:",
+            "Start day": "15",
+            "Peak month": "DEC:",
+            "Peak day": "5",
+            "End month": "DEC:",
+            "End day": "20",
+            "No. of observer": "4",
+            "Method": "1",
+            "Reliability": "4",
+            "Estimated total No. on grounds": "25"
+        }
+    },
+    "Second local name": null,
+    "Dates of inspection (1)": null
+}

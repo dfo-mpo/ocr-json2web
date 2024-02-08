@@ -1,0 +1,50 @@
+{
+    "Watershed Code": "93-6530",
+    "1st Local name": "name:ESPERENZA CREEK",
+    "Flows into": "into:HECATE CHANNEL",
+    "year": "1992",
+    "Subarea": "25-9",
+    "Subd. name": "TAHSIS",
+    "Dates of inspection": "OCT 29",
+    "(A) Evidence of Erosion": "N/O",
+    "(B) Particulars of Scouring": "N/O",
+    "(C) Water levels": "NORMAL",
+    "(D) Spawning distribution": "LOWER .3 KM",
+    "(E) Comments on predators": "BIRD/BEAR",
+    "(F) Egg digging": "N/0",
+    "(G) New obstructions": "N/O",
+    "(K) Additional comments": "SMALL DAM TO BE PUT ON THIS CREEK IN '93 FOR ELECTRICAL POWER. WILL NOT AFFECT FLOW RATE AND IS WELL ABOVE FISH BEARING WATERS.",
+    "Fishery Officer": "F R CRABBE",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Est. Esc": "-3"
+        },
+        "Pink 1": {
+            "Est. Esc": "-3"
+        },
+        "Chum 1": {
+            "Arrival": "OCT B",
+            "Start": "OCT B",
+            "Peak": "OCT C",
+            "End": "NOV A",
+            "Methods": "1",
+            "Reliability": "4",
+            "Est. Esc": "700",
+            "Optimum Esc.": "1000"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "Signature": null,
+    "(H) recommended enhancement": null,
+    "Gazetted name": null,
+    "(K) Additional comments continued": null,
+    "District": null,
+    "2nd local name": null,
+    "(I) Habitat change": null,
+    "Subdistrict": null
+}

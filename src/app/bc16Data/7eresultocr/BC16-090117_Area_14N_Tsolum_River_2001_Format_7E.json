@@ -1,0 +1,173 @@
+{
+    "Year": "2001",
+    "Gazetted name": "TSOLUM RIVER",
+    "RAB code": "92-2800-010",
+    "Area": "14-1",
+    "District": "03",
+    "Sub": "14N Comox",
+    "Flows into": "COURTENAY RIVER-COMOX HARBOUR",
+    "Latitude": "49 41 43",
+    "Longitude": "124 59 40",
+    "Field Crew": "Eli Rosengard, TRRS, Volunteers",
+    "Inspection dates": "Aug 19 Sep 09 Sep 16 Sep 26 Sep 29 Oct 02 Oct 09 Oct 19 Nov 07 Nov 15 Nov 23",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "selected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "selected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Normal. Pinks seen to New Island Highway.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: TRRS estimate 2500 coho total based on spot checks and undocumented sighting- no comparisons to past numbers observed. Numerous undocumented accounts through into late December. (7) Enhancements: Pink enhancement at Headquarters Creek. (14) Flood: Heavy floods of mid November and early January may have affected egg deposition. (18) Flow augmentation: Wolf Lake valve opened early this year as part of the \"Pink Sustainability\" study. Pink entered and held in system early apparently because of higher flows and large Headquarters Creek brood year spawn.",
+    "Person preparing report": "Eli Rosengard",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1,2",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "1",
+            "Enum Class": "4",
+            "Esc Code": "A.P."
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "1,2,3",
+            "N": "8",
+            "%Spawn habitat surveyed": "96",
+            "Rel": "4",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "19,000"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "1,2",
+            "N": "3",
+            "%Spawn habitat surveyed": "75",
+            "Rel": "3",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "7,500"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "PK 1": {
+            "Arrival month": "Aug",
+            "Arrival day": "5",
+            "Start month": "Sep",
+            "Start day": "15",
+            "Peak month": "Sep",
+            "Peak day": "30",
+            "End month": "Oct",
+            "End day": "20"
+        },
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "28",
+            "Start month": "Nov",
+            "Start day": "1",
+            "Peak month": "Nov",
+            "Peak day": "10",
+            "End month": "Dec",
+            "End day": "5"
+        }
+    },
+    "End date": null,
+    "First local name": null,
+    "Second local name": null,
+    "Start date": null
+}

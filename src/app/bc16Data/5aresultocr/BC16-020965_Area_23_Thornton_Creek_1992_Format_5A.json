@@ -1,0 +1,42 @@
+{
+    "Watershed Code": "93-3300",
+    "Gazetted name": "THORNTON CREEK",
+    "Flows into": "UCLUELET INLET",
+    "Subarea": "23-11",
+    "Subd. name": "BARKLEY SOUND",
+    "Dates of inspection": "SEP 23 OCT 18",
+    "(E) Comments on predators": "Approx. 300 chinooks killed by seals.",
+    "(H) recommended enhancement": "This is a totally hatchery produced system. There are no natural returns.",
+    "(K) Additional comments": "This year marked the largest return of chinooks on record.",
+    "Fishery Officer": "B. Rushton, ASCT",
+    "Duration of Spawning": {
+        "Coho 1": {
+            "Methods": "1 6",
+            "Reliability": "4",
+            "Est. Esc": "700"
+        },
+        "Chum 1": {
+            "Reliability": "4",
+            "Est. Esc": "25"
+        },
+        "Chinook 1": {
+            "Methods": "1 6",
+            "Reliability": "4",
+            "Est. Esc": "1000"
+        }
+    },
+    "year": null,
+    "2nd local name": null,
+    "Signature": null,
+    "(K) Additional comments continued": null,
+    "District": null,
+    "1st Local name": null,
+    "(B) Particulars of Scouring": null,
+    "(D) Spawning distribution": null,
+    "Subdistrict": null,
+    "(A) Evidence of Erosion": null,
+    "(G) New obstructions": null,
+    "(C) Water levels": null,
+    "(F) Egg digging": null,
+    "(I) Habitat change": null
+}

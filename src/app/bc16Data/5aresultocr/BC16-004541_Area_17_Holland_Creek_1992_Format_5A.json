@@ -1,0 +1,39 @@
+{
+    "Watershed Code": "92-4625",
+    "Gazetted name": "HOLLAND CREEK",
+    "1st Local name": "103RD CREEK",
+    "Flows into": "into:LADYSMITH HARBOUR",
+    "year": "1992",
+    "Subarea": "17-7",
+    "Subd. name": "NANAIMO",
+    "Dates of inspection": "SEP 21 OCT 28 NOV 19 OCT 14 NOV 02 DEC 02 OCT 16 NOV 04 OCT 19 NOV 12",
+    "(D) Spawning distribution": "Even distribution from estuary to Dogwood Rd. Bridge",
+    "Fishery Officer": "TOM PAWLOSKI",
+    "Duration of Spawning": {
+        "Coho 1": {
+            "Est. Esc": "10"
+        },
+        "Chum 1": {
+            "Start": "OCT 01",
+            "Peak": "OCT 28",
+            "End": "NOV 20",
+            "Methods": "1",
+            "Reliability": "4",
+            "Est. Esc": "1330"
+        }
+    },
+    "(A) Evidence of Erosion": null,
+    "Subdistrict": null,
+    "District": null,
+    "(E) Comments on predators": null,
+    "2nd local name": null,
+    "(G) New obstructions": null,
+    "(H) recommended enhancement": null,
+    "(K) Additional comments": null,
+    "Signature": null,
+    "(I) Habitat change": null,
+    "(F) Egg digging": null,
+    "(B) Particulars of Scouring": null,
+    "(C) Water levels": null,
+    "(K) Additional comments continued": null
+}

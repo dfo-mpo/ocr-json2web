@@ -1,0 +1,56 @@
+{
+    "1st Local name": "name:DESERTED CREEK",
+    "Flows into": "HISNIT INLET",
+    "Subarea": "25-5",
+    "Subd. name": "TAHSIS",
+    "Dates of inspection": "OCT 27 NOV 13",
+    "(A) Evidence of Erosion": "N/O",
+    "(B) Particulars of Scouring": "N/0",
+    "(C) Water levels": "NORMAL",
+    "(D) Spawning distribution": "GOOD DISTRIBUTION, LOWER DESERTED - DESERTED LAKE - UPPER DESERTED CREEK.",
+    "(E) Comments on predators": "HEAVY BIRD/BEAR",
+    "(F) Egg digging": "N/O",
+    "(G) New obstructions": "N/O",
+    "(K) Additional comments": "CHUM, HATCHERY BROOD STOCK OF 1,401 MALE, 1,845 FEMALE NOT INCLUDED IN ABOVE TOTALS.",
+    "Fishery Officer": "F R CRABBE",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Arrival": "OCT A",
+            "Reliability": "3",
+            "Est. Esc": "20",
+            "Optimum Esc.": "-2"
+        },
+        "Coho 1": {
+            "Arrival": "OCT A",
+            "Reliability": "1",
+            "Est. Esc": "144",
+            "Optimum Esc.": "-2"
+        },
+        "Pink 1": {
+            "Est. Esc": "-3"
+        },
+        "Chum 1": {
+            "Arrival": "OCT A",
+            "Start": "OCT B",
+            "Peak": "OCT C",
+            "End": "NOV C",
+            "Methods": "1",
+            "Reliability": "3",
+            "Est. Esc": "22000",
+            "Optimum Esc.": "20000"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "(K) Additional comments continued": null,
+    "(I) Habitat change": null,
+    "Watershed Code": null,
+    "Gazetted name": null,
+    "Signature": null,
+    "year": null,
+    "District": null,
+    "(H) recommended enhancement": null,
+    "2nd local name": null,
+    "Subdistrict": null
+}

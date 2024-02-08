@@ -1,0 +1,161 @@
+{
+    "Year": "2000",
+    "Gazetted name": "HASLAM CREEK",
+    "RAB code": "92-4300-020",
+    "District": "03",
+    "Sub": "Nanaimo",
+    "Flows into": "NANAIMO RIVER",
+    "Latitude": "49 4 49",
+    "Longitude": "123 51 40",
+    "Field Crew": "Charles Thirkill, Chris Peters & R.B.",
+    "Inspection dates": "Oct 26 Nov 16",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(2) CO Run 1 Reliability: Low reliability - one survey where coho were observed and surveyor estimate that they saw 65% of the population. (2) CM Run 1 Reliability: Low reliability - 2 surveys where chum were observed. (2) CN Run 1 Reliability: Low reliability - only one chinook jack was observed on the October survey. (3) CN Run 1 Enumeration Class: Poor survey timing for chinook, therefore A. P. (Adults Present) was entered as the escapement estimate was enter. (4) Describe basis for estimating total adults CO Run 1: Expanded Peak-Live+Dead was used to calculate the escapement estimate. Surveyors observed 30 live and 5 dead coho and estimate that they counted 65% of the population. (4) Describe basis for estimating total adults CM Run 1: Expanded Peak-Live+Dead was used to calculate the escapement estimate. 125 live chum observed on Oct. 26th (surveyor estimated 80% of population) and 199 dead chum observed on November 16th (surveyor estimated 90% of population) equalling 324 chum expanded by 85% for a total escapement of 381 adult chum. (5) General Comments on Escapement Estimation: Two surveys were done on Nov. 16th, one by Rick Hobbs and the other by Charles Thirkill & Chris Peters. Rick's survey was conducted in the morning and targeted chum in the lower reaches. Charles and Chris targeted coho, their survey was done in the afternoon from the Weyerhaeuser Bridge to the powerline above the section that Rick Surveyed. Rick Hobbs originally prepared the BC16 and the escapement estimates were updated January 2002 to incorporate the coho survey. Changes to the escapement estimates BC16 originally submitted by Rick Hobbs are as follows: coho - 54 was entered in place of the N.O. (None Observed) / chum - increase from 300 to 381. / chinook - decrease from 50 to A. P. (Adults Present) . (20) On Predator Interactions: No observations of predators recorded on the Stream Inspection Logs .",
+    "Person preparing report": "Brenda Wright (StAD)",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "2",
+            "N": "1",
+            "%Spawn habitat surveyed": "65",
+            "Rel": "1",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "54"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "2",
+            "N": "2",
+            "%Spawn habitat surveyed": "85",
+            "Rel": "2",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "381"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "2",
+            "N": "1",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "1",
+            "Enum Class": "4",
+            "Esc Code": "A.P.",
+            "Jacks": "1"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CM 1": {
+            "Peak month": "Oct",
+            "Peak day": "26",
+            "End month": "Nov",
+            "End day": "16"
+        }
+    },
+    "Start date": null,
+    "First local name": null,
+    "Area": null,
+    "Biological details particulars": null,
+    "End date": null,
+    "Second local name": null
+}

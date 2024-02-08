@@ -1,0 +1,70 @@
+{
+    "Watershed code": "91-2743",
+    "Gazetted name": "NOEICK RIVER",
+    "First local name": "NOOK RIVER",
+    "Second local name": "NOOCK RIVER",
+    "Flows Into": "SOUTH BENTINCK ARM",
+    "Year": "1992",
+    "District No.": "7",
+    "Statistical Area": "8",
+    "Subdistrict No.": "8",
+    "Subdistrict Name": "BELLA COOLA",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "HEAVY GLACIAL SILT LOAD",
+    "Additional (C) Water levels flow": "HIGH OCT. 23",
+    "Biological (D) Particulars of distribution": "IMPASSABLE CANYON AND FALLS 10 KMS.",
+    "Date of inspection": [
+        {
+            "Month": "08",
+            "Day": "27"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Estimated total No. on grounds": "N.I.",
+            "Optimum escapement": "3000"
+        },
+        "Pink 1": {
+            "Estimated total No. on grounds": "N.O.",
+            "Optimum escapement": "20000"
+        },
+        "Chum 1": {
+            "Arrival month": "AUG:",
+            "Arrival day": "B",
+            "Start month": "AUG:",
+            "Start day": "B",
+            "Peak month": "SEP.",
+            "Peak day": "A",
+            "End month": "SEP :",
+            "End day": "C",
+            "Method": "4",
+            "Reliability": "1",
+            "Estimated total No. on grounds": "50",
+            "Optimum escapement": "10000"
+        },
+        "Chin 1": {
+            "Arrival month": "AUG:",
+            "Start month": "AUG:",
+            "Start day": "B",
+            "Peak month": "SEP.",
+            "Peak day": "A",
+            "End month": "OCT:",
+            "End day": "A",
+            "No. of observer": "1",
+            "Method": "4",
+            "Reliability": "1",
+            "Estimated total No. on grounds": "2",
+            "Optimum escapement": "500"
+        }
+    },
+    "Biological (F) Evidence of digging eggs": null,
+    "Biological (G) New obstruction": null,
+    "Comments (K)": null,
+    "Biological (E) Comments on predators": null,
+    "Additional (B) Particulars of scouring of spawning beds": null,
+    "Dates of inspection (1)": null
+}

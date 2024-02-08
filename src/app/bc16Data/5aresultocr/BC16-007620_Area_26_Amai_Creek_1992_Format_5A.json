@@ -1,0 +1,54 @@
+{
+    "Watershed Code": "code:93-7240",
+    "Gazetted name": "name:AMAI CREEK",
+    "1st Local name": "name:AMAI RIVER",
+    "Flows into": "AMAI INLET",
+    "year": "1992",
+    "Subarea": "26-3",
+    "Subd. name": "KYUQUOT",
+    "Dates of inspection": "OCT 03 OCT 14 OCT 21 NOV 05",
+    "(D) Spawning distribution": "Lower 2 KM of stream",
+    "(E) Comments on predators": "Fairly high predation by bears (400 - 500)",
+    "(K) Additional comments": "Freezing conditions for the first 3 weeks in January caused abnormally low flows and may have affected egg survival for the chums.",
+    "Fishery Officer": "R L SENGER",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Start": "OCT C",
+            "Peak": "B",
+            "Reliability": "2",
+            "Est. Esc": "50",
+            "Optimum Esc.": "500"
+        },
+        "Pink 1": {
+            "Est. Esc": "-3"
+        },
+        "Chum 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT B",
+            "Peak": "OCT C",
+            "End": "NOV B",
+            "Methods": "1",
+            "Reliability": "4",
+            "Est. Esc": "6500",
+            "Optimum Esc.": "10000"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "District": null,
+    "Signature": null,
+    "(G) New obstructions": null,
+    "(F) Egg digging": null,
+    "(C) Water levels": null,
+    "Subdistrict": null,
+    "(I) Habitat change": null,
+    "(K) Additional comments continued": null,
+    "(H) recommended enhancement": null,
+    "(A) Evidence of Erosion": null,
+    "2nd local name": null,
+    "(B) Particulars of Scouring": null
+}

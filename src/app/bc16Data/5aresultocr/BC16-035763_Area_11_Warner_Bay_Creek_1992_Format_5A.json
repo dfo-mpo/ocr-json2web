@@ -1,0 +1,42 @@
+{
+    "Watershed Code": "90-8295",
+    "1st Local name": "name:WARNER BAY CREEK",
+    "Flows into": "RNER BAY",
+    "Subarea": "11-10",
+    "Subd. name": "SEYMOUR INLET",
+    "Dates of inspection": "AUG 25 SEP 28 OCT 30",
+    "(E) Comments on predators": "Grizzly bears, seals.",
+    "(K) Additional comments": "Grizzly bears appear to be displacing black bears. Very few bear kills, a few grizzlys present as opposed to last year's many blac bears present. Coho sightings by locals Oct. 10/92 in estuary.",
+    "Fishery Officer": "Eric Nevatie",
+    "Duration of Spawning": {
+        "Coho 1": {
+            "Arrival": "OCT A",
+            "Start": "OCT B",
+            "Est. Esc": "-2"
+        },
+        "Chum 1": {
+            "Arrival": "SEP A",
+            "Start": "SEP B",
+            "Peak": "SEP C",
+            "End": "OCT A",
+            "Methods": "1",
+            "Reliability": "3",
+            "Est. Esc": "260"
+        }
+    },
+    "(K) Additional comments continued": null,
+    "(D) Spawning distribution": null,
+    "(I) Habitat change": null,
+    "(G) New obstructions": null,
+    "(H) recommended enhancement": null,
+    "(A) Evidence of Erosion": null,
+    "(C) Water levels": null,
+    "District": null,
+    "(F) Egg digging": null,
+    "Subdistrict": null,
+    "Signature": null,
+    "year": null,
+    "2nd local name": null,
+    "(B) Particulars of Scouring": null,
+    "Gazetted name": null
+}

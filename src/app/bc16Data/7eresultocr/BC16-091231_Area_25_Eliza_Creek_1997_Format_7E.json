@@ -1,0 +1,171 @@
+{
+    "Year": "1997",
+    "Gazetted name": "ELIZA CREEK",
+    "RAB code": "93-6925",
+    "Area": "25-1",
+    "District": "04",
+    "Sub": "Tahsis",
+    "First local name": "PORT ELIZA #1",
+    "Second local name": "PORT ELIZA WEST",
+    "Flows into": "PORT ELIZA",
+    "Latitude": "49 56 37",
+    "Longitude": "127 2 52",
+    "Field Crew": "Guy Chiasson",
+    "Inspection dates": "Sep 21 Oct 24 Nov 04",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "selected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: Sept. 21, no fish observed. Good ground, stable system.",
+    "Person preparing report": "Guy Chiasson, CPV",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "Methods": "1",
+            "N": "1",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "2",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "45"
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1",
+            "N": "1",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "2",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "10"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "1",
+            "N": "2",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "2",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "600"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "SK 1": {
+            "Arrival month": "Oct",
+            "Start month": "Oct",
+            "Peak month": "Oct",
+            "End month": "Oct"
+        },
+        "CO 1": {
+            "Arrival month": "Oct",
+            "Start month": "Oct"
+        },
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Start month": "Oct",
+            "Peak month": "Oct",
+            "End month": "Nov"
+        }
+    },
+    "End date": null,
+    "Start date": null,
+    "Biological details particulars": null
+}

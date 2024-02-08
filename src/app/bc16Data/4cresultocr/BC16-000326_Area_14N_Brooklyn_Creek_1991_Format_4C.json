@@ -1,0 +1,59 @@
+{
+    "Watershed code": "92-8780 2780 2780-",
+    "Gazetted name": "BROOKLYN CREEK",
+    "Flows Into": "COMOX HARBOUR",
+    "Year": "1991",
+    "District No.": "3",
+    "Statistical Area": "14 - 14",
+    "Subdistrict No.": "14N",
+    "Subdistrict Name": "COMOX, B. C.",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "HEAVY SILTATION OF WHOLE STREAM BED DUE TO BLOCK 72 DEVELOPEMENT. COMOX OFFICE CONDUCTING SAMPLE PROCESS",
+    "Additional (B) Particulars of scouring of spawning beds": "NONE OBSERVED",
+    "Additional (C) Water levels flow": "LOW FLOWS IN SEPT. AND OCT. HIGH FLOWS IN NOV. HIGH FLOW IN LATE DEC. - EARLY JAN.",
+    "Biological (D) Particulars of distribution": "COHO SPAWNING BELOW SIMMS FARM.",
+    "Biological (E) Comments on predators": "BIRDS AND OTTERS",
+    "Biological (F) Evidence of digging eggs": "NONE OBSERVED",
+    "Biological (G) New obstruction": "NONE OBSERVED",
+    "Comments (K)": "PUNTLEDGE HATCHERY TRANSPLANTED 60 ADULTS BEHIND BROOKLYN SCHOOL. THIS SYSTEM DRAINS A LARGE AREA AND THEREFORE IS SUSCEPTIBLE TO FLUCTUATING FLOWS. FURTHER DEVELOPEMENT OF THE HEADWATERS OF THIS SYSTEM COULD AFFECT FLOWS AND SALMONID POPULATIONS IN THE FUTURE.",
+    "Date of inspection": [
+        {
+            "Month": "NOV",
+            "Day": "17"
+        },
+        {
+            "Month": "NOV",
+            "Day": "26"
+        },
+        {
+            "Month": "NOV",
+            "Day": "28"
+        },
+        {
+            "Month": "DEC",
+            "Day": "06"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "NOV:",
+            "Arrival day": "25",
+            "Start month": "NOV:",
+            "Start day": "25",
+            "Peak month": "DEC:",
+            "Peak day": "05",
+            "End month": "DEC:",
+            "End day": "20",
+            "Method": "1",
+            "Reliability": "4",
+            "Estimated total No. on grounds": "70"
+        }
+    },
+    "Second local name": null,
+    "First local name": null,
+    "Dates of inspection (1)": null
+}

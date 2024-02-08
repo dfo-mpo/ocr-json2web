@@ -1,0 +1,176 @@
+{
+    "Year": "1998",
+    "Gazetted name": "BRODICK CREEK",
+    "RAB code": "93-6500-780",
+    "Area": "25-1",
+    "District": "04",
+    "Sub": "Tahsis",
+    "First local name": "GARDEN CREEK",
+    "Second local name": "GARDEN POINT CREEK",
+    "Flows into": "ESPERANZA INLET",
+    "Latitude": "49 50 45",
+    "Longitude": "126 53 53",
+    "Field Crew": "Guy Chiasson",
+    "Inspection dates": "Sep 23 Oct 21 Nov 06 Nov 18 Nov 27 Jan 12",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "selected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "FROM INTERTIDAL ZONE TO 1.6KM FOR CHUM, FROM 1KM ABOVE TIDE ZONE TO 1.6 KM FOR COHO",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "selected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: NO SOCKEYE, PINK, CHINOOK OR STEELHEAD OBSERVED. COHO AND CHUM ESTIMATE BASED ON NEW FISH AND THE SUM % OF NEW FISH FOR EACH NEW VISIT. (11) Bank erosion: LOGGING IN THIS WATERSHED CAUSED BIG SLIDES AND SENT FINE SAND INTO THIS CREEK. ONLY TIME WILL WASH IT OUT. A BUFFER ZONE OF TREES WAS LEFT ON THIS SYSTEM AND A LOT OF THEM HAVE FALLEN INTO THE CREEK. AREA IS VUNERABLE TO HIGH WINDS. (20) On Predator Interactions: FOUR BEARS OBSERVED ON THE 21 SEPT, NOT HAVING A MAJOR IMPACT, 2 EAGLES NO IMPACT.",
+    "Person preparing report": "Guy Chiasson, CPV",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "Methods": "2,3",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "4",
+            "Enum Class": "1",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "2,3",
+            "N": "6",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "4",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "40",
+            "Jacks": "1"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "2,3",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "4",
+            "Enum Class": "1",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "2,3",
+            "N": "6",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "4",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "4,605"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "2,3",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "4",
+            "Enum Class": "1",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "Methods": "3,2",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "4",
+            "Enum Class": "1",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "21-31",
+            "Peak month": "Nov",
+            "Peak day": "11-20",
+            "End month": "Nov",
+            "End day": "21-31"
+        },
+        "CM 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "21-31",
+            "Peak month": "Oct",
+            "Peak day": "11-20",
+            "End month": "Nov",
+            "End day": "1-10"
+        }
+    },
+    "Start date": null,
+    "End date": null
+}

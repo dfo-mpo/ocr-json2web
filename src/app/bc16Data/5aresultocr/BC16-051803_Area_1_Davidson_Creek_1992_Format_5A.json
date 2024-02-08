@@ -1,0 +1,53 @@
+{
+    "Watershed Code": "94-2900",
+    "Gazetted name": "DAVIDSON CREEK",
+    "Flows into": "NADEN HARBOUR",
+    "year": "1992",
+    "Subarea": "1-4",
+    "Subd. name": "MASSET",
+    "Dates of inspection": "AUG 15 SEP 15 AUG 24 OCT 07 AUG 25 SEP 01",
+    "(B) Particulars of Scouring": "Lower stream section of river between estuary bridge and blue bridge continues to meander and erode.",
+    "(C) Water levels": "Normal",
+    "(D) Spawning distribution": "80% of spawners observed from blue bridge, upstream 18km on Davidson Mainline.",
+    "(E) Comments on predators": "Ravens, eagles and seals.",
+    "Fishery Officer": "Som Well",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Pink 1": {
+            "Arrival": "AUG B",
+            "Start": "AUG",
+            "End": "SEP B",
+            "Methods": "123",
+            "Reliability": "4",
+            "Est. Esc": "45000",
+            "Optimum Esc.": "100000"
+        },
+        "Chum 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT A",
+            "Peak": "A OCT B",
+            "End": "NOV C OCT C",
+            "Methods": "16 3 12 6",
+            "Reliability": "1",
+            "Est. Esc": "-1",
+            "Optimum Esc.": "20000 5000"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "District": null,
+    "1st Local name": null,
+    "(K) Additional comments": null,
+    "(K) Additional comments continued": null,
+    "(H) recommended enhancement": null,
+    "Subdistrict": null,
+    "2nd local name": null,
+    "(A) Evidence of Erosion": null,
+    "(G) New obstructions": null,
+    "Signature": null,
+    "(I) Habitat change": null,
+    "(F) Egg digging": null
+}

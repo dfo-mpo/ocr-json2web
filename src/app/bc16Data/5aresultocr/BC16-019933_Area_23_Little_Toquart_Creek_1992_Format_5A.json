@@ -1,0 +1,44 @@
+{
+    "Watershed Code": "code:93-3100-020",
+    "Gazetted name": "LITTLE TOQUART CREEK",
+    "1st Local name": "name:LEFT FORK TOQUART CREEK",
+    "Flows into": "into:LKJFJJFFRIVER",
+    "year": "1992",
+    "Subarea": "23-10",
+    "Subd. name": "BARKLEY SOUND",
+    "Dates of inspection": "NOV 01 :1",
+    "(C) Water levels": "Very low water levels up to spawning period; high water levels during spawning period.",
+    "(K) Additional comments": "Inspected by Thornton Creek hatchery staff. They noted the chum return was better than average for the last few years.",
+    "Fishery Officer": "B. Rushton, AScT",
+    "Duration of Spawning": {
+        "Coho 1": {
+            "Arrival": "SEP",
+            "Start": "OCT",
+            "Peak": "NOV",
+            "End": "DEC"
+        },
+        "Chum 1": {
+            "Arrival": "OCT",
+            "Start": "OCT",
+            "Peak": "OCT",
+            "End": "NOV",
+            "Methods": "1",
+            "Reliability": "2",
+            "Est. Esc": "3500",
+            "Optimum Esc.": "10000"
+        }
+    },
+    "(F) Egg digging": null,
+    "(G) New obstructions": null,
+    "(H) recommended enhancement": null,
+    "District": null,
+    "(I) Habitat change": null,
+    "Subdistrict": null,
+    "(E) Comments on predators": null,
+    "(K) Additional comments continued": null,
+    "Signature": null,
+    "(B) Particulars of Scouring": null,
+    "2nd local name": null,
+    "(A) Evidence of Erosion": null,
+    "(D) Spawning distribution": null
+}

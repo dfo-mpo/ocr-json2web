@@ -1,0 +1,168 @@
+{
+    "Year": "1995",
+    "Gazetted name": "SOMASS RIVER",
+    "RAB code": "93-2300",
+    "Area": "23-1",
+    "District": "04",
+    "Sub": "23 Port Alberni",
+    "First local name": "SOMASS RIVER SYSTEM",
+    "Flows into": "ALBERNI INLET",
+    "Latitude": "49 14 45",
+    "Longitude": "124 49 8",
+    "Field Crew": "WCVI Snorkel Crew",
+    "Inspection dates": "Sep 02 Nov 15",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: Observations of system are fishway counts conducted at Great Central Lake, Stamp Falls, and Sproat River. Sockeye counts from electronic counters on Sproat River (June - October,) and Great Central Lake (June - September. Sockeye, chinook, coho, steelhead counts from Stamp Falls fishway observations (September - November) fishway daily counts available from Stock Assessment Division. Inspections inn lower river not conducted; therefore chum, pink, coho, chinook in this area not observed and not encluded in estimates. Coho and steelhead counts are incomplete (they include Stamp Falls unadjusted counts only.)",
+    "Person preparing report": "Bruce A. Patten StAD (250) 756-7006",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "167,634"
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "13,941",
+            "Brood stock removals": "4,432",
+            "Jacks": "3,210"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O.",
+            "Est total adults": "23,313",
+            "Brood stock removals": "4,521",
+            "Jacks": "2,556"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "A.C."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "127",
+            "Brood stock removals": "170"
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "SK 1": {
+            "Arrival month": "Jun",
+            "Arrival day": "1-10"
+        },
+        "CO 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "1-10"
+        },
+        "CN 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "1-10"
+        },
+        "ST 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "1-10"
+        }
+    },
+    "End date": null,
+    "Biological details particulars": null,
+    "Second local name": null,
+    "Start date": null
+}

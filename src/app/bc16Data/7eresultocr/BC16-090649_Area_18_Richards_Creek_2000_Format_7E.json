@@ -1,0 +1,157 @@
+{
+    "Year": "2000",
+    "Gazetted name": "RICHARDS CREEK",
+    "RAB code": "92-4800-060-900",
+    "Area": "18",
+    "District": "03",
+    "Sub": "Duncan",
+    "Flows into": "SOMENOS LAKE",
+    "Latitude": "ongitude:",
+    "Field Crew": "Steve Williams, Ryan Kalar (CLSES)",
+    "Inspection dates": "Oct 18 Oct 25 Nov 01 Nov 08 Nov 15 Nov 22 Nov 29 Dec 06 Dec 12",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "selected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "selected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: Only two counts had coho adults present. AUC calculation not possible so coho estimate is based on expanded peak live. (2) CO Run 1 Reliability: Weekly surveys. (4) Describe basis for estimating total adults CO Run 1: Estimate based on expanded peak live count. The 6-Dec-00 count was 44 coho, expanded to 73 for observer efficiency (60%) . (13) Drought: Water levels were very low until approx. 25-Nov-00. The water level was low enough to impede salmon migration up this creek. (16) Fish access recommendations: Anoxic water conditions below spawning areas may impede fish access during low flow periods.",
+    "Person preparing report": "Steve Baillie",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "CO 1": {
+            "Methods": "2",
+            "N": "2",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "3",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "73"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "CM 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Dec",
+            "Arrival day": "1-10",
+            "Start month": "Dec",
+            "Start day": "1-10",
+            "Peak month": "Dec",
+            "Peak day": "1-10",
+            "End month": "Dec",
+            "End day": "11-20"
+        }
+    },
+    "Second local name": null,
+    "Longitude": null,
+    "First local name": null,
+    "End date": null,
+    "Biological details particulars": null,
+    "Start date": null
+}

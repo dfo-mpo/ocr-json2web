@@ -1,0 +1,67 @@
+{
+    "Watershed code": "92 - 3400",
+    "Gazetted name": "ROSEWALL CREEK",
+    "Flows Into": "BAYNES SOUND",
+    "Year": "1992",
+    "District No.": "3",
+    "Statistical Area": "14 - 8",
+    "Subdistrict No.": "14N",
+    "Subdistrict Name": "COMOX, B. C.",
+    "(A) Enhancement or intense biological activities": "selected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NONE OBSERVED",
+    "Additional (B) Particulars of scouring of spawning beds": "NONE OBSERVED",
+    "Additional (C) Water levels flow": "LOW WATER IN SEPT. AND EARLY OCT. HIGH FLOWS IN EARLY NOV. GOOD FALL FLOWS THIS YEAR.",
+    "Biological (D) Particulars of distribution": "COHO AND CHUM BELOW HATCHERY FENCE. HATCHERY HAD 318 COHO ENTER THE RACEWAY.",
+    "Biological (E) Comments on predators": "BIRDS, BEARS AND OTTERS.",
+    "Biological (F) Evidence of digging eggs": "NONE OBSERVED",
+    "Biological (G) New obstruction": "NONE OBSERVED",
+    "Comments (K)": "THIS SYSTEM DRIES UP FROM THE HIGHWAY BRIDGE TO THE MOUTH IN THE SUMMER AND EARLY FALL OF EVERY YEAR. FINAL NUMBERS WERE OBTAINED FROM DAVE CLOUGH AND THE ROSEWALL HATCHERY STAFF. GOOD NUMBERS OF FISH THIS YEAR. A SMALL REARING POND NEAR THE MOUTH OF THE CREEK WAS DRYING UP DUE TO WATER EXTRACTION FROM WELLS. COOPERATION FROM THE HATCHERY AND LOCALS IS HELPING TO SOLVE THIS PROBLEM.",
+    "Date of inspection": [
+        {
+            "Month": "OCT27"
+        },
+        {
+            "Month": "NOV",
+            "Day": "17"
+        },
+        {
+            "Month": "NOV",
+            "Day": "20"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "OCT:",
+            "Arrival day": "B",
+            "Start month": "OCT:",
+            "Start day": "C",
+            "Peak month": "NOV:",
+            "Peak day": "B",
+            "End month": "DEC:",
+            "End day": "A",
+            "Method": "1 HATCHERY",
+            "Reliability": "5",
+            "Estimated total No. on grounds": "140"
+        },
+        "Chum 1": {
+            "Arrival month": "OCT:",
+            "Arrival day": "C",
+            "Start month": "NOV:",
+            "Start day": "A",
+            "Peak month": "NOV:",
+            "Peak day": "C",
+            "End month": "DEC:",
+            "End day": "A",
+            "Method": "1 HATCHERY",
+            "Reliability": "5",
+            "Estimated total No. on grounds": "1500"
+        }
+    },
+    "Second local name": null,
+    "Dates of inspection (1)": null,
+    "First local name": null
+}

@@ -1,0 +1,63 @@
+{
+    "Watershed code": "92-2600-10",
+    "Gazetted name": "QUINSAM RIVER",
+    "First local name": "Quinsam River",
+    "Flows Into": "Campbell River",
+    "Year": "1991",
+    "District No.": "5",
+    "Statistical Area": "13-5",
+    "Subdistrict No.": "13",
+    "Subdistrict Name": "QUATHIASKI",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Biological (D) Particulars of distribution": "throughout the system ABOVE FENCE COHO 10500 CHINOOK 612 PINK 55000",
+    "Biological (E) Comments on predators": "normal",
+    "Biological (G) New obstruction": "BELOW FENCE COHO 77 CHINOOKS 3502 PINK 20000",
+    "Comments (K)": "2600 FISH SOLD FROM HATCHERY ADULTS",
+    "Date of inspection": null,
+    "Spawning run timing and estimated number": {
+        "Sock 1": {
+            "Arrival month": "AUG:",
+            "Start month": "SEP:",
+            "Peak month": "SEP:",
+            "End month": "OCT:",
+            "Estimated total No. on grounds": "34"
+        },
+        "Pink 1": {
+            "Arrival month": "SEP:",
+            "Start month": "SEP:",
+            "Peak month": "SER:",
+            "End month": "OCT:",
+            "Method": "2/10",
+            "Reliability": "5",
+            "Estimated total No. on grounds": "75000"
+        },
+        "Chum 1": {
+            "Arrival month": "OCT:",
+            "Start month": "OCT:",
+            "Peak month": "OCT:",
+            "End month": "NOV:",
+            "Method": "2/10",
+            "Reliability": "5",
+            "Estimated total No. on grounds": "100"
+        },
+        "Chin 1": {
+            "Arrival month": "SEP:",
+            "Start month": "SEP:",
+            "Peak month": "SEP:",
+            "End month": "OCT:",
+            "Method": "2/10",
+            "Reliability": "5",
+            "Estimated total No. on grounds": "4500"
+        }
+    },
+    "Second local name": null,
+    "Additional (B) Particulars of scouring of spawning beds": null,
+    "Biological (F) Evidence of digging eggs": null,
+    "Additional (A) Evidence of erosion and silting": null,
+    "Dates of inspection (1)": null,
+    "Additional (C) Water levels flow": null
+}

@@ -1,0 +1,72 @@
+{
+    "Watershed code": "91-2912",
+    "Gazetted name": "NECLEETSCONNAY RIVER",
+    "First local name": "NEECLEETSCONNAY RIVER",
+    "Flows Into": "NORTH BENTINCK ARM",
+    "Year": "1992",
+    "District No.": "7",
+    "Statistical Area": "8",
+    "Subdistrict No.": "8",
+    "Subdistrict Name": "BELLA COOLA",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "selected",
+    "Additional (A) Evidence of erosion and silting": "UNKNOWN OCT. 23",
+    "Additional (B) Particulars of scouring of spawning beds": "UNKNOWN OCT. 23",
+    "Additional (C) Water levels flow": "ABNORMAL FLOOD ON OCT. 23.",
+    "Biological (D) Particulars of distribution": "THROUGHOUT SIDE CHANNELS AND MAINSTEM TO CANYON (1 1/2 MILES)",
+    "Biological (E) Comments on predators": "NORMAL",
+    "Biological (F) Evidence of digging eggs": "NIL",
+    "Biological (G) New obstruction": "NIL",
+    "Date of inspection": [
+        {
+            "Month": "08",
+            "Day": "20"
+        },
+        {
+            "Month": "09",
+            "Day": "02"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Estimated total No. on grounds": "N.I.",
+            "Optimum escapement": "2500"
+        },
+        "Pink 1": {
+            "Arrival month": "AUG:",
+            "Arrival day": "A",
+            "Start month": "AUG:",
+            "Start day": "B",
+            "Peak month": "SEP :",
+            "Peak day": "B",
+            "End month": "SEP :",
+            "End day": "C",
+            "No. of observer": "2",
+            "Method": "1",
+            "Reliability": "2",
+            "Estimated total No. on grounds": "80000",
+            "Optimum escapement": "20000"
+        },
+        "Chum 1": {
+            "Arrival month": "AUG:",
+            "Arrival day": "A",
+            "Start month": "AUG:",
+            "Start day": "A",
+            "Peak month": "SEP :",
+            "Peak day": "A",
+            "End month": "SEP :",
+            "End day": "C",
+            "No. of observer": "2",
+            "Method": "1",
+            "Reliability": "2",
+            "Estimated total No. on grounds": "3500",
+            "Optimum escapement": "7500"
+        }
+    },
+    "Dates of inspection (1)": null,
+    "Second local name": null,
+    "Comments (K)": null
+}

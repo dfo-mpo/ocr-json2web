@@ -1,0 +1,197 @@
+{
+    "Year": "1996",
+    "Gazetted name": "OKTWANCH RIVER",
+    "RAB code": "93-5500-300-150",
+    "District": "04",
+    "Sub": "Tahsis",
+    "Latitude": "49 52 15",
+    "Longitude": "126 10 36",
+    "Field Crew": "WCVI Snorkel Crew",
+    "Inspection dates": "Sep 30 Oct 08 Oct 31 Nov 07 Nov 14",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: Detailed information for each inspection available from Stock Assessment Division.",
+    "Person preparing report": "Bruce A. Patten StAD (250) 756-7006",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "Methods": "3",
+            "N": "5",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "3",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "2,399",
+            "Brood stock removals": "0"
+        },
+        "SK 2": {
+            "N": "0",
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "3",
+            "N": "4",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "2",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "225",
+            "Brood stock removals": "0"
+        },
+        "CO 2": {
+            "Methods": "0",
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "0",
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "Methods": "0",
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "0",
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 2": {
+            "Methods": "0",
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "3",
+            "N": "3",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "3",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "14",
+            "Brood stock removals": "0"
+        },
+        "CN 2": {
+            "Methods": "0",
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "Methods": "3",
+            "N": "1",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "3",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "4",
+            "Brood stock removals": "0"
+        },
+        "ST 2": {
+            "Methods": "0",
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "Methods": "0",
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "Methods": "0",
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "SK 1": {
+            "Arrival month": "Sep?",
+            "Arrival day": "C?",
+            "Start month": "Sep?",
+            "Start day": "C?",
+            "Peak month": "Oct?",
+            "Peak day": "C?"
+        },
+        "CO 1": {
+            "Arrival month": "Sep?",
+            "Arrival day": "C?",
+            "Start month": "Nov",
+            "Start day": "11-20",
+            "Peak month": "Nov?",
+            "Peak day": "B?"
+        },
+        "CN 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "1-10"
+        },
+        "ST 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "1-10"
+        }
+    },
+    "Second local name": null,
+    "First local name": null,
+    "Biological details particulars": null,
+    "Start date": null,
+    "Flows into": null,
+    "Area": null,
+    "End date": null
+}

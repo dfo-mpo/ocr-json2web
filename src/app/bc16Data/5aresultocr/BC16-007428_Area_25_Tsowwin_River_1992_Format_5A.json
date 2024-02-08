@@ -1,0 +1,50 @@
+{
+    "Watershed Code": "93-6300",
+    "Gazetted name": "name:TSOWWIN RIVER",
+    "1st Local name": "name:SANDPOINT CREEK",
+    "Flows into": "TAHSIS INLET",
+    "Subarea": "25-8",
+    "Subd. name": "TAHSIS",
+    "Dates of inspection": "OCT 27",
+    "(A) Evidence of Erosion": "THIS RIVER SYSTEM FLUSHED VERY HEAVILY IN SPRING OF 1992",
+    "(B) Particulars of Scouring": "N/O",
+    "(C) Water levels": "NORMAL",
+    "(D) Spawning distribution": "EXCELLENT DISTRIBUTION. ALL SIDE CHANNELS & MAINSTREAM ACTIVE.",
+    "(E) Comments on predators": "NORMAL BIRD/BEAR",
+    "(F) Egg digging": "N/O",
+    "(G) New obstructions": "N/O",
+    "(K) Additional comments": "EXCELLENT RETURNS AGAIN IN 1992 AS GOOD OR BETTER THAN 1991. HEAVILY LOGGED WATERSHED.",
+    "Fishery Officer": "F R CRABBE",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Est. Esc": "-3"
+        },
+        "Pink 1": {
+            "Est. Esc": "-3"
+        },
+        "Chum 1": {
+            "Arrival": "OCT B",
+            "Start": "OCT B",
+            "Peak": "OCT C",
+            "End": "NOV B",
+            "Methods": "4",
+            "Reliability": "3",
+            "Est. Esc": "45000",
+            "Optimum Esc.": "12000"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "year": null,
+    "District": null,
+    "(H) recommended enhancement": null,
+    "(K) Additional comments continued": null,
+    "(I) Habitat change": null,
+    "Signature": null,
+    "2nd local name": null,
+    "Subdistrict": null
+}

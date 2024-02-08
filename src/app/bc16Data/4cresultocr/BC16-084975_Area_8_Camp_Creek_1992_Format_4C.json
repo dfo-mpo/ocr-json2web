@@ -1,0 +1,53 @@
+{
+    "Watershed code": "91-2810",
+    "First local name": "CAMP CREEK",
+    "Second local name": "LARSO BAY CREEK",
+    "Flows Into": "LARSO BAY (SOUTH BENTINCK ARM)",
+    "Year": "1992",
+    "District No.": "7",
+    "Statistical Area": "8",
+    "Subdistrict No.": "8",
+    "Subdistrict Name": "BELLA COOLA",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NIL",
+    "Additional (B) Particulars of scouring of spawning beds": "NIL",
+    "Additional (C) Water levels flow": "NORMAL",
+    "Biological (D) Particulars of distribution": "MOUTH OF CREEK AND INTERTIDAL",
+    "Biological (E) Comments on predators": "NIL",
+    "Biological (F) Evidence of digging eggs": "NIL",
+    "Biological (G) New obstruction": "NIL",
+    "Date of inspection": [
+        {
+            "Month": "09",
+            "Day": "03"
+        },
+        {
+            "Month": "09",
+            "Day": "24"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Pink 1": {
+            "Arrival month": "SEP:",
+            "Arrival day": "A",
+            "Start month": "SEP :",
+            "Start day": "A",
+            "Peak month": "SEP.",
+            "Peak day": "B",
+            "End month": "SEP :",
+            "End day": "C",
+            "No. of observer": "2",
+            "Method": "1",
+            "Reliability": "3",
+            "Estimated total No. on grounds": "70 N.O.",
+            "Optimum escapement": "500 250"
+        }
+    },
+    "Comments (K)": null,
+    "Gazetted name": null,
+    "Dates of inspection (1)": null
+}

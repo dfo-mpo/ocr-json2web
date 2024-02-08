@@ -1,0 +1,76 @@
+{
+    "Watershed code": "92 - 3412",
+    "Gazetted name": "CHEF CREEK",
+    "First local name": "COOK CREEK",
+    "Second local name": "NOTE - ALWAYS RECORED AS COOK CR.",
+    "Flows Into": "BAYNES SOUND",
+    "Year": "1992",
+    "District No.": "3",
+    "Statistical Area": "14 - 8",
+    "Subdistrict No.": "14N",
+    "Subdistrict Name": "COMOX, B. C.",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NONE OBSERVED",
+    "Additional (B) Particulars of scouring of spawning beds": "NONE OBSERVED",
+    "Additional (C) Water levels flow": "LOW WATER IN SEPT. AND EARLY OCT. HIGH FLOWS IN EARLY NOV. GOOD FALL FLOWS.",
+    "Biological (D) Particulars of distribution": "COHO USE ALL OF THE SYSTEM CHUMS IN THE LOWER ONE THIRD, BELOW HIGHWAY BRIDGE TO MOUTH.",
+    "Biological (E) Comments on predators": "BIRDS, BEARS AND OTTERS.",
+    "Biological (F) Evidence of digging eggs": "NONE OBSERVED",
+    "Biological (G) New obstruction": "NONE OBSERVED",
+    "Comments (K)": "THIS SYSTEM GOES DRY FROM THE HIGHWAY BRIDGE TO THE MOUTH DURING LOW FLOWS. FINAL NUMBERS WERE OBTAINED FROM DAVE CLOUGH GOOD RETURN OF CHUMS TO THIS SYSTEM. THEY RETURNED APPROX. TWO WEEKS EARLIER THAN NORMAL. THE NUMBERS MAY ALSO INCLUDE SOME FISH FROM MCNAUGHTON CREEK.",
+    "Date of inspection": [
+        {
+            "Month": "OCT",
+            "Day": "21"
+        },
+        {
+            "Month": "OCT",
+            "Day": "28"
+        },
+        {
+            "Month": "NOV",
+            "Day": "13"
+        },
+        {
+            "Month": "NOV",
+            "Day": "17"
+        },
+        {
+            "Month": "DEC",
+            "Day": "01"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "OCT:",
+            "Arrival day": "C",
+            "Start month": "OCT:",
+            "Start day": "C",
+            "Peak month": "NOV:",
+            "Peak day": "C",
+            "End month": "DEC:",
+            "End day": "B",
+            "Method": "1",
+            "Reliability": "4",
+            "Estimated total No. on grounds": "100"
+        },
+        "Chum 1": {
+            "Arrival month": "OCT:",
+            "Arrival day": "C",
+            "Start month": "NOV:",
+            "Start day": "A",
+            "Peak month": "NOV:",
+            "Peak day": "B",
+            "End month": "DEC:",
+            "End day": "A",
+            "Method": "1",
+            "Reliability": "4",
+            "Estimated total No. on grounds": "1600"
+        }
+    },
+    "Dates of inspection (1)": null
+}

@@ -1,0 +1,156 @@
+{
+    "Year": "1997",
+    "Gazetted name": "CRANBY CREEK",
+    "RAB code": "90-2800-770",
+    "District": "03",
+    "Sub": "Pender Harbour",
+    "First local name": "GILLIES BAY CREEK",
+    "Latitude": "49 40 47",
+    "Longitude": "124 28 42",
+    "Field Crew": "Rob Diggon & Volunteers",
+    "Start date": "10/5/97",
+    "End date": "11/29/97",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: The counts were done by a fence and trap operated by local volunteers of the Powell River Salmon Society. The person in charge of the Texada Island operations was Rob Diggon (604) 486-7337. The fence never was done during the heavy run offs so the count should be good. (2) Reliability: CO Run 1: Fence in place for the entire run, it was checked several times a day and was located in a place where the community was all around it. (4) Describe basis for estimating total adults CO Run 1: Fence count (7) Enhancements: Powell River Salmon Society through the Texada vounteers have been doing work on this system for the past couple of years, some streams clearance work, made some cover areas, and this year set up and operated a fence for the coho season. 12050 eggs were taken to be hatched in Powell River. This group is very keen on doing work to help support salmon in all the systems on Texada Island. (4) Describe basis for estimating total adults CM Run 1: fence count (20) Predator Interactions: Rob estimated that about 50% of the spawning adult coho where killed by river otters. He found fish that had been freshly killed with just the eggs taken and some fish he found there was just the skin left. This seems like a serious problem on this stream. No report of any fish being lost from their trap.",
+    "Person preparing report": "Dick Tritschler / Texada Belle",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "11",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "5",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "50",
+            "Brood stock removals": "8"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "1"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "11-20",
+            "Peak month": "Nov",
+            "Peak day": "1-10",
+            "End month": "Nov",
+            "End day": "21-31"
+        }
+    },
+    "Flows into": null,
+    "Second local name": null,
+    "Inspection dates": null,
+    "Biological details particulars": null,
+    "Area": null
+}

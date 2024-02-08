@@ -1,0 +1,169 @@
+{
+    "Year": "1998",
+    "Gazetted name": "NANOOSE CREEK",
+    "RAB code": "92-3900",
+    "District": "03",
+    "Sub": "17 Nanaimo",
+    "Flows into": "NANOOSE HARBOUR",
+    "Latitude": "49 16 2",
+    "Longitude": "124 11 20",
+    "Field Crew": "Peters/Skarbo",
+    "Inspection dates": "Oct 19 Oct 30 Nov 04 Nov 10 Nov 20 Dec 09 Dec 21",
+    "(5) Escapement comments": "unselected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "selected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "coho throughout, chum mainly below Hwy bridge",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "selected",
+    "Comments on condition": "(4) Describe basis for estimating total adults CO Run 2: visual count plus under the curve. (4) Describe basis for estimating total adults CM Run 1: visual plus 20% add on (4) Describe basis for estimating total adults CO Run 2: counts plus under the curve (15) General Comments on Unusual Conditions: poaching taking place near estuary. (15) General Comments on Unusual Conditions: some major debris jams @6Km, may be a barrier. (20) On Salmon Distribution or Predator Interactions: poaching evident",
+    "Person preparing report": "Ron Douglas, CPV",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 2": {
+            "Methods": "1,2",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "3",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "607"
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "1,2",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "3",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "120"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "21-31",
+            "Start month": "Nov",
+            "Start day": "1-10",
+            "Peak month": "Nov",
+            "Peak day": "21-31",
+            "End month": "Dec",
+            "End day": "21-31"
+        },
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "21-31",
+            "Start month": "Nov",
+            "Start day": "1-10",
+            "Peak month": "Nov",
+            "Peak day": "21-31",
+            "End month": "Dec",
+            "End day": "21-31"
+        }
+    },
+    "Area": null,
+    "Start date": null,
+    "First local name": null,
+    "Second local name": null,
+    "End date": null
+}

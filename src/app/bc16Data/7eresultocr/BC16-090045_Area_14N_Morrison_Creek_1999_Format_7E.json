@@ -1,0 +1,178 @@
+{
+    "Year": "1999",
+    "Gazetted name": "MORRISON CREEK",
+    "RAB code": "92-2800-020",
+    "Area": "14-1",
+    "District": "03",
+    "Sub": "14N Comox",
+    "Flows into": "PUNTLEDGE RIVER",
+    "Latitude": "49 41 20",
+    "Longitude": "125 0 45",
+    "Field Crew": "Hatchery Staff & Eli Rosengard",
+    "Inspection dates": "Sep 20 Oct 07 Nov 22 Dec 02 Dec 03 Dec 21",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "selected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "selected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Pinks up to Powerhouse Road. Good number of chum above confluence. Great majority of chum below Puntledge Elementary.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: Hatchery staff not able to walk more often. Hence gap from Oct. 7th to Nov. 22nd, filled with short walks at bottom and anecdotal information. Most of the inspections from the Powerhouse Road to the confluence with Puntledge. 1284 pinks trucked from hatchery to Lake Trail Channel. Evidence of digging up eggs by later spawning fish: Chum most likely wiped out most of pink spawn. (7) Enhancements: New channel at 1st Supply and Lake Trail - Highway mitigation. (10) Debris jams: Dams and/or blockages noted most years on this system. Needs walk before migration begins. (20) On Predator Interactions: Normal for urban stream.",
+    "Person preparing report": "Eli Rosengard / Patrolman",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1,2",
+            "N": "5",
+            "%Spawn habitat surveyed": "75",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "300"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "1,2",
+            "N": "2",
+            "%Spawn habitat surveyed": "95",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "11,500"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "1,2",
+            "N": "3",
+            "%Spawn habitat surveyed": "95",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "20,000"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "A.P."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Peak month": "Nov",
+            "Peak day": "17",
+            "End month": "Dec",
+            "End day": "21"
+        },
+        "PK 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "20",
+            "Start month": "Sep",
+            "Start day": "25",
+            "Peak month": "Oct",
+            "Peak day": "5",
+            "End month": "Oct",
+            "End day": "20"
+        },
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "15",
+            "Start month": "Oct",
+            "Start day": "22",
+            "Peak month": "Nov",
+            "Peak day": "13",
+            "End month": "Dec",
+            "End day": "6"
+        }
+    },
+    "End date": null,
+    "Second local name": null,
+    "Start date": null,
+    "First local name": null
+}

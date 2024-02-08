@@ -1,0 +1,57 @@
+{
+    "Watershed Code": "94-3000",
+    "Gazetted name": "name:LIGNITE CREEK",
+    "1st Local name": "name:BROOK CREEK",
+    "Flows into": "NADEN HARBOUR",
+    "Subarea": "1-4",
+    "Subd. name": "Naner MASSET",
+    "Dates of inspection": "AUG 24 OCT 06 AUG 25 SEP 01 SEP 14",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "End": "NOV C",
+            "Reliability": "1",
+            "Est. Esc": "-3 -2",
+            "Optimum Esc.": "8000"
+        },
+        "Pink 1": {
+            "Arrival": "AUG B",
+            "Start": "AUG C",
+            "Peak": "SEP A",
+            "End": "BEP C",
+            "Methods": "13 6",
+            "Reliability": "3",
+            "Est. Esc": "20000",
+            "Optimum Esc.": "1000000"
+        },
+        "Chum 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT A",
+            "Peak": "OCT B",
+            "End": "OCT \u00a2",
+            "Methods": "13 6",
+            "Reliability": "1",
+            "Est. Esc": "-2",
+            "Optimum Esc.": "3000"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "(K) Additional comments continued": null,
+    "(D) Spawning distribution": null,
+    "(I) Habitat change": null,
+    "(G) New obstructions": null,
+    "(H) recommended enhancement": null,
+    "(A) Evidence of Erosion": null,
+    "Fishery Officer": null,
+    "(C) Water levels": null,
+    "District": null,
+    "(F) Egg digging": null,
+    "(E) Comments on predators": null,
+    "Subdistrict": null,
+    "Signature": null,
+    "year": null,
+    "2nd local name": null,
+    "(B) Particulars of Scouring": null,
+    "(K) Additional comments": null
+}

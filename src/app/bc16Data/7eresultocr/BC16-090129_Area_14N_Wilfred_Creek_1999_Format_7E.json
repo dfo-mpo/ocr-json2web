@@ -1,0 +1,174 @@
+{
+    "Year": "1999",
+    "Gazetted name": "WILFRED CREEK",
+    "RAB code": "92-3300",
+    "Area": "14-8",
+    "District": "03",
+    "Sub": "14N Comox",
+    "First local name": "COAL CREEK",
+    "Flows into": "MUD BAY (BAYNES SOUND)",
+    "Latitude": "49 28 59",
+    "Longitude": "124 47 48",
+    "Field Crew": "Lawrence Box, Jack Newman, Eli Roseng",
+    "Inspection dates": "Sep 10 Sep 23 Nov 10 Nov 12 Nov 15 Nov 18 Nov 22 Nov 29",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(2) CO Run 1 Reliability: Weekly enumeration through November. (4) Describe basis for estimating total adults CO Run 1: AUC estimate. Assumed 14-day survey life. The estimate has been expanded to estimate the whole system escapement. (4) Describe basis for estimating total adults PK Run 1: On Sept. 23rd: Peak-Live + Dead was 891. (Addition made by Eli Rosengard) (4) Describe basis for estimating total adults CM Run 1: Chum most likely arrive and end similar to other local creeks, but not enough information attained. On Nov. 11th: 676 live and 17 dead chum in section 1-2, 2-3 and some chum above seen by Box. Given 7-10 day stream life and conditions in nearby streams, would estimate conservatively that escapement is 1,000 chum. (Addition made by Eli Rosengard) (7) Enhancements: Fanny Bay Enhancement Society collected 8 male and 8 female coho adults for broodstock, from section 4-5 (R/R crossing upstream to new Highway crossing) on 22 Nov 1999) . FBES releases coho fry into the side channel and rearing ponds.",
+    "Person preparing report": "Steve Baillie",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1,3",
+            "N": "5",
+            "%Spawn habitat surveyed": "40",
+            "Rel": "3",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "277",
+            "Brood stock removals": "16"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "1,2",
+            "N": "2",
+            "%Spawn habitat surveyed": "85",
+            "Rel": "4",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "1,100"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "3,1",
+            "N": "4",
+            "%Spawn habitat surveyed": "10",
+            "Rel": "2",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "1,000"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Nov",
+            "Arrival day": "1-10",
+            "Start month": "Nov",
+            "Start day": "1-10",
+            "Peak month": "Nov",
+            "Peak day": "21-31"
+        },
+        "PK 1": {
+            "Arrival month": "Aug",
+            "Arrival day": "21-31",
+            "Start month": "Sep",
+            "Start day": "1-10",
+            "Peak month": "Sep",
+            "Peak day": "21-31",
+            "End month": "Oct",
+            "End day": "1-10"
+        }
+    },
+    "End date": null,
+    "Start date": null,
+    "Biological details particulars": null,
+    "Second local name": null
+}

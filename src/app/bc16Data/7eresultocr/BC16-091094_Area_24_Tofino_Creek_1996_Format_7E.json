@@ -1,0 +1,171 @@
+{
+    "Year": "1996",
+    "Gazetted name": "TOFINO CREEK",
+    "RAB code": "93-3700",
+    "Area": "24-1",
+    "District": "04",
+    "Sub": "Tofino",
+    "First local name": "DEER CREEK",
+    "Flows into": "TOFINO INLET",
+    "Latitude": "49 14 6",
+    "Longitude": "125 35 37",
+    "Field Crew": "Tofino/Thorton Ck Hatchery Crew",
+    "Inspection dates": "Oct 18 Nov 05",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Chum all below first bridge. Chinook in pool below bridge.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: This system rises quickly from tidal area to the falls. Many boulders throughout with some cobble. Pockets of good spawning gravel exists but are sparse. Potentially a good side channel exists on the right side of the river. It exits approximately 40 metres below the bridge. The channel measures 220 metres in length with the width being 10 meters. During periods of low flows, it is dry. At present it is not being utilised by fish, however with some equipment work at its mouth this could become a viable spawning channel. This is possibly being investigated over the next couple of months. The falls appear to be impassable (at 1.3km, ) an excellent spawning and rearing habitat exists for a few kilometres above. A fish ladder could open this area up for the fish to access.",
+    "Person preparing report": "Doug Palfrey",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "1",
+            "N": "2",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "2",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "50",
+            "Escapement Goal": "500"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "1",
+            "N": "2",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "2",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "8",
+            "Escapement Goal": "100"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CM 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "21-31",
+            "Start month": "Oct",
+            "Start day": "11-20",
+            "Peak month": "Nov",
+            "Peak day": "1-10",
+            "End month": "Nov",
+            "End day": "1-10"
+        },
+        "CN 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "1-10",
+            "Peak month": "Oct",
+            "Peak day": "21-31",
+            "End month": "Nov",
+            "End day": "1-10"
+        }
+    },
+    "Second local name": null,
+    "End date": null,
+    "Start date": null
+}

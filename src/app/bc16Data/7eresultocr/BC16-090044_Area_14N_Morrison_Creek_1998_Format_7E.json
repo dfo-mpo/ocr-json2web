@@ -1,0 +1,189 @@
+{
+    "Year": "1998",
+    "Gazetted name": "MORRISON CREEK",
+    "RAB code": "92-2800-020",
+    "Area": "14-1",
+    "District": "03",
+    "Sub": "14N Comox",
+    "Flows into": "PUNTLEDGE RIVER",
+    "Latitude": "49 41 20",
+    "Longitude": "125 0 45",
+    "Field Crew": "Puntledge Hatchery Staff / B. Addy",
+    "Inspection dates": "Sep 22 Sep 30 Oct 06 Oct 15 Nov 04 Nov 18 Nov 26 Dec 10",
+    "(5) Escapement comments": "unselected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "selected",
+    "(10) Debris jams present": "selected",
+    "(11) Severe bank erosion": "selected",
+    "(13) Unusual drought": "selected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "selected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "selected",
+    "Biological details particulars": "Most Co observed above Lake Trail to Powerhouse Rd. Cm and Pk from Puntledge Elementary to confluence with the Puntledge.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(2) CO Run 1 Reliability: Numerous walks but also gaps in data. Different sections done at different times to follow coho. (4) Describe basis for estimating total adults CO Run 1: 200 was the number given to me by the supervisor of the field crews. After reviewing the data I feel that he did not allow for large areas not surveyed. I feel even 300 is a conservative number. (2) PK Run 1 Reliability: sufficient visits, excellent conditions, and good area coverage give me a high degree of confidence. (4) Describe basis for estimating total adults PK Run 1: walks at good intervals of time and good conditions. (4) Describe basis for estimating total adults CM Run 1: Sufficient walks at appropriate times by two person teams. All spawning area covered. (2) CN Run 1 Reliability: possibly should have gone higher in the system on early walks. (7) Enhancements: Some small changes to 1st Street culvert jump pool. Bank stabilization work done at Marsden Rd. (9) Upslope instability: Bank erosion below Arden Rd causes silting. (10) Debris jams: 4 debris jams removed that were reported to have blocked migration. (11) Bank erosion: see 9 (12) Main cause of Spawning Habitat Degradation: siltation (13) Drought: severe drought from spring through early fall. (16) Fish access recommendations: see #7 (19) Other restoration recommendations: jams each year. complete monitoring should be done to look for debris",
+    "Person preparing report": "Eli Rosengard / Patrolman",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1,2,7",
+            "%Spawn habitat surveyed": "90",
+            "Rel": "4",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "300"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "2,7",
+            "%Spawn habitat surveyed": "95",
+            "Rel": "5",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "1,000"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "2,1,7",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "5",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "5,000"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "2,1,10",
+            "%Spawn habitat surveyed": "60",
+            "Rel": "3",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "10"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "1-10",
+            "Start month": "Oct",
+            "Start day": "11-20",
+            "Peak month": "Nov",
+            "Peak day": "21-31",
+            "End month": "Dec",
+            "End day": "21-31"
+        },
+        "PK 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "11-20",
+            "Start month": "Sep",
+            "Start day": "21-31",
+            "Peak month": "Oct",
+            "Peak day": "1-10",
+            "End month": "Oct",
+            "End day": "11-20"
+        },
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "11-20",
+            "Start month": "Oct",
+            "Start day": "21-31",
+            "Peak month": "Nov",
+            "Peak day": "1-10",
+            "End month": "Dec",
+            "End day": "1-10"
+        },
+        "CN 1": {
+            "Start month": "Oct",
+            "Start day": "11-20"
+        }
+    },
+    "End date": null,
+    "Start date": null,
+    "Second local name": null,
+    "First local name": null
+}

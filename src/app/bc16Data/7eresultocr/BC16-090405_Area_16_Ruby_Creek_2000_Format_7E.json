@@ -1,0 +1,144 @@
+{
+    "Year": "2000",
+    "Gazetted name": "RUBY CREEK",
+    "RAB code": "90-1700",
+    "Area": "16-1",
+    "District": "03",
+    "Sub": "16 Pender Harbour",
+    "First local name": "SAKINAW LAKE SYSTEM",
+    "Second local name": "SAKINAW CREEK",
+    "Flows into": "AGAMMEMNON CHANNEL",
+    "Latitude": "49 39 6",
+    "Longitude": "124 4 1",
+    "Field Crew": "Jim Wilson, B. Mehan & J. Ellis",
+    "Inspection dates": "Sep 30 Dec 06 Dec 07 Dec 08",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "selected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "selected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Lots of redds observed Dec. 6th between Sackinaw Lake and the last wooden weir - too numerous to count, the bottom was compacted making the redds indistinguishable.",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(1) Other methods for CO Run 1: Spot Checks. (5) General Comments on Escapement Estimation: The Sept. 30th survey was conducted by Dick Tritschler, Kent Simpson and Clyde Murray; the primary purpose was to check out the system. The other three surveys were on Haskins Creek, which is a tributary to Ruby Creek, and they were conducted by the coho survey crew. Mixal Lake and Klein Creeks are also tributaries to Ruby Creek and a separate BC16 has been done on Mixal Lake Creek. No chum were observed on the surveys but could be due to poor survey timing and locations surveyed. (6) General Comments on Run Timing: Not enough surveys and poor timing to enter spawn run timing. Surveyors noted Dec. 7th as the peak spawn but there is not enough information to confirm the timing for this year. (15) General Comments on Unusual Conditions: Extremely high jack ratio almost 50%. (20) On Salmon Distribution: On the Sept. 30th survey - 3 coho were seen in the most northerly braid below the 10km bridge. Spot checks were made throughout the system and lots of coho fry were seen in all locations. (20) On Predator Interactions: No predators reported on the stream inspection logs. (4) Describe basis for estimating total adults CO Run 1: Peak Live count on Haskins Creek. Survey life of coho in this creek is very short (3 days? ) due to exposure to predators and small system. Spawning behavior is for the fish to wait in Sakinaw Lake until ready to spawn, then to move to the creek and spawn simultaneously. The best method for estimating the return is to do a live count during this period.",
+    "Person preparing report": "Steve Baillie",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "2,10",
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "48"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {},
+    "Start date": null,
+    "End date": null
+}

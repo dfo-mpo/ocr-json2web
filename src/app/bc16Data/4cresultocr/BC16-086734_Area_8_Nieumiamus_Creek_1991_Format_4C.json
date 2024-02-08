@@ -1,0 +1,68 @@
+{
+    "Watershed code": "91-2928",
+    "Gazetted name": "NIEUMIAMUS CREEK",
+    "First local name": "TALLHEO CANNERY CREEK",
+    "Second local name": "NIEUMIAMUS RIVER",
+    "Flows Into": "NORTH BENINCK ARM",
+    "Year": "1991",
+    "District No.": "7",
+    "Statistical Area": "8",
+    "Subdistrict No.": "8",
+    "Subdistrict Name": "BELLA COOLA",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NIL",
+    "Additional (B) Particulars of scouring of spawning beds": "NIL",
+    "Additional (C) Water levels flow": "NORMAL",
+    "Biological (D) Particulars of distribution": "LOWER 1/4 MILE AND INTERTIDAL",
+    "Biological (E) Comments on predators": "NORMAL",
+    "Biological (F) Evidence of digging eggs": "NIL",
+    "Biological (G) New obstruction": "NIL",
+    "Date of inspection": [
+        {
+            "Month": "SEP",
+            "Day": "04"
+        },
+        {
+            "Month": "AUG",
+            "Day": "27"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Pink 1": {
+            "Arrival month": "AUG:",
+            "Arrival day": "A",
+            "Start month": "AUG:",
+            "Start day": "A",
+            "Peak month": "SEP :",
+            "Peak day": "A",
+            "End month": "SEP :",
+            "End day": "C",
+            "No. of observer": "1",
+            "Method": "1",
+            "Reliability": "2",
+            "Estimated total No. on grounds": "350",
+            "Optimum escapement": "1000"
+        },
+        "Chum 1": {
+            "Arrival month": "AUG:",
+            "Arrival day": "A",
+            "Start month": "AUG:",
+            "Start day": "B",
+            "Peak month": "AUG:",
+            "Peak day": "C",
+            "End month": "SEP :",
+            "End day": "B",
+            "No. of observer": "1",
+            "Method": "1",
+            "Reliability": "2",
+            "Estimated total No. on grounds": "75",
+            "Optimum escapement": "500"
+        }
+    },
+    "Dates of inspection (1)": null,
+    "Comments (K)": null
+}

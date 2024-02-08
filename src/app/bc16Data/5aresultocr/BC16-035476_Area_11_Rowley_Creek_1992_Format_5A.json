@@ -1,0 +1,35 @@
+{
+    "Watershed Code": "90-9600",
+    "1st Local name": "ROWLEY CREEK",
+    "Flows into": "SEYMOUR INLET",
+    "Subarea": "11-4",
+    "Subd. name": "SEYMOUR INLET",
+    "Dates of inspection": "JUL 16 AUG 28 SEP 14 SEP 25",
+    "(D) Spawning distribution": "Coho spawning occurred above 1/2 mile distance from mouth.",
+    "(E) Comments on predators": "Seals.",
+    "Fishery Officer": "Clifford Todd",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "End": "C"
+        },
+        "Coho 1": {
+            "Arrival": "AUG C",
+            "Est. Esc": "20"
+        }
+    },
+    "(A) Evidence of Erosion": null,
+    "Subdistrict": null,
+    "year": null,
+    "District": null,
+    "2nd local name": null,
+    "(G) New obstructions": null,
+    "(H) recommended enhancement": null,
+    "(K) Additional comments": null,
+    "Signature": null,
+    "(I) Habitat change": null,
+    "Gazetted name": null,
+    "(F) Egg digging": null,
+    "(B) Particulars of Scouring": null,
+    "(C) Water levels": null,
+    "(K) Additional comments continued": null
+}

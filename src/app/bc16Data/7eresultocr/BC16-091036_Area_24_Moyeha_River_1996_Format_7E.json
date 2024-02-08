@@ -1,0 +1,219 @@
+{
+    "Year": "1996",
+    "Gazetted name": "MOYEHA RIVER",
+    "RAB code": "93-4300",
+    "Area": "24-5",
+    "District": "04",
+    "Sub": "24 Tofino",
+    "Flows into": "HERBERT INLET",
+    "Latitude": "49 25 8",
+    "Longitude": "125 54 27",
+    "Field Crew": "WCVI Snorkel Crew",
+    "Inspection dates": "Sep 04 Sep 12 Sep 17 Sep 25 Oct 01 Oct 11 Oct 28 Nov 11",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "selected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: Escapement estimates are mainstem estimates only (no tributaries) . Detailed information for each inspection available from Stock Assessment Division. (22) List Supplementary Documentation: BC16 originally prepared by Bruce A. Patten, StAD; reviewed by Rick Ferguson April 2000.",
+    "Person preparing report": "Bruce Pattern, StAD (250) 756-7006",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "Methods": "3",
+            "N": "7",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "3",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "254",
+            "Jacks": "55"
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "3",
+            "N": "8",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "1",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "746",
+            "Jacks": "199"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "3",
+            "N": "3",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "3",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "7"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "3",
+            "N": "8",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "2",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "5,883"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "3",
+            "N": "6",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "3",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "243",
+            "Jacks": "35"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "Methods": "3",
+            "N": "5",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "1",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "16"
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "Methods": "3",
+            "N": "5",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "3",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "19"
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "SK 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "11-20",
+            "Start month": "Sep",
+            "Peak month": "Oct",
+            "Peak day": "11-20"
+        },
+        "CO 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "1-10",
+            "Start month": "Sep",
+            "Start day": "21-31",
+            "Peak month": "Nov",
+            "Peak day": "11-20"
+        },
+        "PK 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "1-10"
+        },
+        "CM 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "1-10",
+            "Start month": "Sep",
+            "Start day": "11-20",
+            "Peak month": "Sep",
+            "Peak day": "11-20"
+        },
+        "CN 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "11-20",
+            "Start month": "Sep",
+            "Start day": "11-20",
+            "Peak month": "Oct",
+            "Peak day": "1-10",
+            "End month": "Oct",
+            "End day": "21-31"
+        },
+        "ST 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "11-20"
+        },
+        "AT 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "11-20"
+        }
+    },
+    "Second local name": null,
+    "First local name": null,
+    "End date": null,
+    "Biological details particulars": null,
+    "Start date": null
+}

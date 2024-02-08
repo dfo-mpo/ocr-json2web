@@ -1,0 +1,55 @@
+{
+    "Watershed code": "92-300 080 92-2672",
+    "First local name": "STORIES CREEK",
+    "Flows Into": "OYSTER BAY, STRAIT OF GEORGIA",
+    "Year": "1991",
+    "District No.": "3",
+    "Statistical Area": "14 - 13",
+    "Subdistrict No.": "14N",
+    "Subdistrict Name": "COMOX, B. C.",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NONE OBSERVED",
+    "Additional (B) Particulars of scouring of spawning beds": "NONE OBSERVED",
+    "Additional (C) Water levels flow": "LOW FLOWS IN SEPT. AND OCT. HIGH FLOWS IN NOV. AND LATE DEC. - EARLY JAN.",
+    "Biological (D) Particulars of distribution": "COHO SPAWNING IN LOWER ONE THIRD OF THE SYSTEM.",
+    "Biological (E) Comments on predators": "BIRDS AND OTTERS",
+    "Biological (F) Evidence of digging eggs": "NONE OBSERVED",
+    "Biological (G) New obstruction": "NONE OBSERVED",
+    "Comments (K)": "STREAM IS AFFECTED BY URBANIZATION OF THE SURROUNDING AREA AND LOW SUMMER FLOWS.",
+    "Date of inspection": [
+        {
+            "Month": "OCT",
+            "Day": "31"
+        },
+        {
+            "Month": "NOV",
+            "Day": "23"
+        },
+        {
+            "Month": "DEC",
+            "Day": "03"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "NOV:",
+            "Arrival day": "20",
+            "Start month": "NOV:",
+            "Start day": "25",
+            "Peak month": "DEC:",
+            "Peak day": "05",
+            "End month": "DEC:",
+            "End day": "15",
+            "Method": "1",
+            "Reliability": "4",
+            "Estimated total No. on grounds": "30"
+        }
+    },
+    "Second local name": null,
+    "Gazetted name": null,
+    "Dates of inspection (1)": null
+}

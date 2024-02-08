@@ -1,0 +1,162 @@
+{
+    "Year": "1998",
+    "Gazetted name": "TSOLUM RIVER",
+    "RAB code": "92-2800-010",
+    "Area": "14-1",
+    "District": "03",
+    "Sub": "14N Comox",
+    "Flows into": "COURTENAY RIVER-COMOX HARBOUR",
+    "Latitude": "49 41 43",
+    "Longitude": "124 59 40",
+    "Field Crew": "Eli Rosengard",
+    "Inspection dates": "Sep 18 Sep 22 Sep 29 Oct 07 Oct 27 Oct 30 Nov 30 Dec 30",
+    "(5) Escapement comments": "unselected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "selected",
+    "(13) Unusual drought": "selected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "selected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Pinks mostly below Gark Farm. Chums mostly spawn below Collins Farm when they enter the system naturally.",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "selected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(2) PK Run 1 Reliability: Spot checks to determine peak and two good walks at excellent stream conditions. (2) CM Run 1 Reliability: Not walked enough hatchery dumped 2000 chums in various places, and high water during peak. (4) Describe basis for estimating total adults PK Run 1: Walks; almost complete survey of grounds at excellent conditions. (3) CO Run 1 Enumeration Class: On Oct. 27, 100 coho were reported in a pool below Wolf Creek. Miscellaneous reports of more in mainstem up to gunbarrel. The system is too long and the water is too dark and high for reliable enumeration (7) Enhancements: The Tsolum River Task Force is a community based organization that has been allocated about $360, 000 from Federal And Provincial funds over the past two years. They have been active in the following areas: -- Acid Mine Drainage: sampling, monitoring and developing plan for containing AMD -- Enhancement: 1 mil. Pink eggs to Headquarters Hatchery -- Water Monitoring: for quality and flows -- Restoration: various projects including streamside revegetation and water flow augmentation. -- Habitat Assessment and Mapping (11) Bank erosion: Clay banks sloughing in and mud and silt from upstream watershed logging appear to be problems. Silt from highway construction entering system through Dove and Wolf Creeks. New Inland Highway construction over the next few years will cause stress on watershed. (13) Drought: Extreme drought during summer and early fall. (16) Fish access recommendations: Resident blocks stream for swimming pool. This is the second time in 9 years that this has happened. System must be walked before pink migration. (20) On Salmon Distribution or Predator Interactions: Some fishing activity even though system closed. Otherwise normal predation.",
+    "Person preparing report": "Eli Rosengard / Patrolman",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "2,3",
+            "%Spawn habitat surveyed": "10",
+            "Rel": "1",
+            "Enum Class": "4",
+            "Esc Code": "A.P."
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "2,1",
+            "N": "3",
+            "%Spawn habitat surveyed": "95",
+            "Rel": "5",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "450"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "2",
+            "N": "1",
+            "%Spawn habitat surveyed": "50",
+            "Rel": "1",
+            "Enum Class": "4",
+            "Esc Code": "A.P."
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "PK 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "11-20",
+            "Start month": "Sep",
+            "Start day": "21-31",
+            "Peak month": "Sep",
+            "Peak day": "21-31",
+            "End month": "Oct",
+            "End day": "1-10"
+        }
+    },
+    "First local name": null,
+    "Second local name": null,
+    "End date": null,
+    "Start date": null
+}

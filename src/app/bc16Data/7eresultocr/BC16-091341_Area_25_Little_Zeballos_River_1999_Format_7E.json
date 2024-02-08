@@ -1,0 +1,193 @@
+{
+    "Year": "1999",
+    "Gazetted name": "LITTLE ZEBALLOS RIVER",
+    "RAB code": "93-6600",
+    "Area": "25-1",
+    "District": "04",
+    "Sub": "Tahsis",
+    "First local name": "ZEBALLOS RIVER LITTLE",
+    "Flows into": "ZEBALLOS INLET",
+    "Latitude": "49 57 20",
+    "Longitude": "126 48 56",
+    "Field Crew": "Guy Chiasson",
+    "Inspection dates": "Sep 24 Oct 09 Oct 17 Nov 02 Nov 22",
+    "(5) Escapement comments": "unselected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "selected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "selected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Sockeye and coho from 1.5 to 2.9 km, chinook from 1 to 1.9 km, and chum from tidal zone to 1.9 km.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(11) Bank erosion: Sand and gravel movement still a priority in this system. (15) General Comments on Unusual Conditions: Proposed deactivation of old road on north side of system is likely to cause problems. Road has not been a problem and is grown over, new work will create silt. (20) On Salmon Distribution: Evidence of digging up eggs by later spawning fish - chum on chum. (20) On Predator Interactions: 7 bears, 12 eagles, and 1 seal observed.",
+    "Person preparing report": "Guy Chiasson, CPV",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "Methods": "3",
+            "N": "4",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "4",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "74"
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "3",
+            "N": "5",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "4",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "461"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "3",
+            "N": "5",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "3",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "3,277"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "3",
+            "N": "3",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "4",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "30"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "SK 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "21-31",
+            "Peak month": "Oct",
+            "Peak day": "1-10",
+            "End month": "Nov",
+            "End day": "1-10"
+        },
+        "CO 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "21-31",
+            "Start month": "Nov",
+            "Start day": "1-10",
+            "Peak month": "Nov",
+            "Peak day": "21-31"
+        },
+        "CM 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "21-31",
+            "Start month": "Oct",
+            "Start day": "1-10",
+            "Peak month": "Oct",
+            "Peak day": "11-20",
+            "End month": "Nov",
+            "End day": "21-31"
+        },
+        "CN 1": {
+            "Start month": "Sep",
+            "Start day": "21-31",
+            "Peak month": "Oct",
+            "Peak day": "1-10",
+            "End month": "Nov",
+            "End day": "11-20"
+        }
+    },
+    "Start date": null,
+    "Second local name": null,
+    "End date": null
+}

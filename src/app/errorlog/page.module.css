@@ -1,0 +1,47 @@
+/* .eachError {
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+} */
+.eachError {
+  display: grid;
+  grid-template-columns: 1fr 6fr 4fr; /* Three columns in each row */
+  gap: 20px; /* Adjust the gap as needed */
+  border: 1px solid #ccc; /* Adjust padding as needed */
+}
+
+.fileName {
+  inline-size: 100%;
+  overflow-wrap: break-word;
+}
+
+/* .folderName {
+  width: 10%;
+  border-right: 1px solid #ccc;
+}
+
+
+.errorInfoBox {
+  
+  padding: 10px;
+  border-right: 1px solid #ccc;
+} */
+.errorInfo {
+    border: 1px solid #ccc;
+}
+
+.noError {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: red;
+}
+
+.selectContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px 0;
+}

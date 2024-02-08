@@ -1,0 +1,61 @@
+{
+    "Bookmark": "BC16 1995",
+    "Watershed code": "95-1800",
+    "Gazetted name": "Marshall Creeks (2)",
+    "Local name": "Marshall Creeks",
+    "Flows into": "Marshall Inlet - Jt an Perez Sound",
+    "Year": "1995",
+    "District number": "9",
+    "Statistical Area": "2-12",
+    "Subdistrict number": "Area 2 East",
+    "Subdistrict name": "Sandspit",
+    "Dates of inspection": "Sep 22 Oct 04 Oct 27",
+    "(A) Enhancement": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstructions": "unselected",
+    "(D) Large variation": "unselected",
+    "(E) High/low water": "unselected",
+    "Physical conditions (A) Evidence": "None observed.",
+    "Physical conditions (B) Particulars": "None observed.",
+    "Physical conditions (C) Water levels": "Consistently good water levels through the spawning period. Slight flooding during the last two weeks of October.",
+    "Biological conditions (D) Particulars": "Up to falls in R/H and Center branch. Up to 500 m. in L/H branch.",
+    "Biological conditions (E) Predators comments": "High predatation from birds and bears.",
+    "Biological conditions (F) Evidence": "None observed.",
+    "Biological conditions (G) New obstructions": "The log jam at 200 m. in the L/H branch is now impassable. This jam should be monitored, and some work should be done on it next season.",
+    "Comments": "Incredibly poor return of chums - consistent with the rest of the sub-area.",
+    "Person preparing": "David Beggs",
+    "Spawning run timing": {
+        "Coho 1": {
+            "Arrival month": "Sep",
+            "Spawning start month": "Sep",
+            "Spawning peak month": "Oct",
+            "Spawning end month": "Nov",
+            "Observers": "2",
+            "Methods": "1",
+            "Reliability": "2",
+            "Total on grounds": "10",
+            "Target escape": "150"
+        },
+        "Pink 1": {
+            "Observers": "0",
+            "Methods": "1",
+            "Total on grounds": "N/O",
+            "Target escape": "7,000"
+        },
+        "Chum 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "C",
+            "Spawning start month": "Oct",
+            "Spawning start day": "A",
+            "Spawning peak month": "Oct",
+            "Spawning peak day": "C",
+            "Spawning end month": "Nov",
+            "Spawning end day": "A",
+            "Observers": "2",
+            "Methods": "1",
+            "Reliability": "3",
+            "Total on grounds": "180",
+            "Target escape": "3,000"
+        }
+    }
+}

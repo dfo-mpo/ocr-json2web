@@ -1,0 +1,35 @@
+{
+    "Watershed Code": "90-9590",
+    "1st Local name": "name:LASSITER AND ROWLEY CREEKS",
+    "Flows into": "LASSITER BAY SEYMOUR INLET",
+    "year": "1992",
+    "District": "05",
+    "Subarea": "11-4",
+    "Subd. name": "SEYMOUR INLET",
+    "Dates of inspection": "JUL 16 AUG 28 SEP 14 SEP 25",
+    "(E) Comments on predators": "Seals.",
+    "(K) Additional comments": "Massive log jam from Inlet at entrance-fish still pass beneath. Habitat well suited for coho-possible restocking could be considered.",
+    "Fishery Officer": "Jim Swan",
+    "Duration of Spawning": {
+        "Coho 1": {
+            "Reliability": "3",
+            "Est. Esc": "-1"
+        },
+        "Chum 1": {
+            "Est. Esc": "-1"
+        }
+    },
+    "(K) Additional comments continued": null,
+    "Gazetted name": null,
+    "(G) New obstructions": null,
+    "(B) Particulars of Scouring": null,
+    "Subdistrict": null,
+    "Signature": null,
+    "(C) Water levels": null,
+    "(A) Evidence of Erosion": null,
+    "(F) Egg digging": null,
+    "(I) Habitat change": null,
+    "2nd local name": null,
+    "(D) Spawning distribution": null,
+    "(H) recommended enhancement": null
+}

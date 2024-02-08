@@ -1,0 +1,76 @@
+{
+    "Watershed code": "91-2184",
+    "Gazetted name": "NOOTUM RIVER",
+    "First local name": "NOOTSUM RIVER",
+    "Flows Into": "BURKE CHANNEL",
+    "Year": "1992",
+    "District No.": "7",
+    "Statistical Area": "8",
+    "Subdistrict No.": "8",
+    "Subdistrict Name": "BELLA COOLA",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "selected",
+    "Additional (A) Evidence of erosion and silting": "UNKNOWN OCT. 23",
+    "Additional (B) Particulars of scouring of spawning beds": "UNKNOWN OCT. 23",
+    "Additional (C) Water levels flow": "HIGH OCT. 23",
+    "Biological (D) Particulars of distribution": "LOWER 4 KM. AND INTERTIDAL POR PINK AND CHUM. COHO THROUGHOUT",
+    "Biological (E) Comments on predators": "NORMAL",
+    "Biological (F) Evidence of digging eggs": "NIL",
+    "Biological (G) New obstruction": "NIL",
+    "Date of inspection": [
+        {
+            "Month": "08",
+            "Day": "23"
+        },
+        {
+            "Month": "09",
+            "Day": "03"
+        },
+        {
+            "Month": "09",
+            "Day": "16"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Estimated total No. on grounds": "N.I.",
+            "Optimum escapement": "2500"
+        },
+        "Pink 1": {
+            "Arrival month": "AUG:",
+            "Arrival day": "B",
+            "Start month": "SEP :",
+            "Start day": "A",
+            "Peak month": "SEP :",
+            "Peak day": "B",
+            "End month": "OCT:",
+            "End day": "A",
+            "No. of observer": "2",
+            "Method": "1",
+            "Reliability": "2",
+            "Estimated total No. on grounds": "700",
+            "Optimum escapement": "10000"
+        },
+        "Chum 1": {
+            "Arrival month": "AUG:",
+            "Arrival day": "B",
+            "Start month": "SEP :",
+            "Start day": "A",
+            "Peak month": "SEP :",
+            "Peak day": "B",
+            "End month": "OCT:",
+            "End day": "A",
+            "No. of observer": "1",
+            "Method": "1",
+            "Reliability": "2",
+            "Estimated total No. on grounds": "30",
+            "Optimum escapement": "7500"
+        }
+    },
+    "Dates of inspection (1)": null,
+    "Second local name": null,
+    "Comments (K)": null
+}

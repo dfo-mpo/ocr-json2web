@@ -1,0 +1,45 @@
+{
+    "Watershed Code": "code:93-2240",
+    "Gazetted name": "CREEK",
+    "Flows into": "into:ALBERNI INLET",
+    "Subarea": "23-1",
+    "Subd. name": "BARKLEY SOUND",
+    "(A) Evidence of Erosion": "This stream receives siltation from MacMillan Bloedel Ltd logging road-targetted for action.",
+    "(C) Water levels": "Very low water levels up to spawning period. High water levels during spawning period.",
+    "(K) Additional comments": "Robertson Creek hatchery is enhancing chinooks in this system. They did not inpsect the stream this year.",
+    "Fishery Officer": "B. Rushton, ASCT",
+    "Duration of Spawning": {
+        "Coho 1": {
+            "Arrival": "OCT",
+            "Peak": "NOV",
+            "End": "DEC"
+        },
+        "Chum 1": {
+            "Arrival": "OCT",
+            "Start": "OCT",
+            "Peak": "OCT",
+            "End": "NOV"
+        },
+        "Chinook 1": {
+            "Arrival": "SEP",
+            "Start": "OCT",
+            "Peak": "OCT",
+            "End": "NOV"
+        }
+    },
+    "1st Local name": null,
+    "(K) Additional comments continued": null,
+    "(I) Habitat change": null,
+    "(E) Comments on predators": null,
+    "(B) Particulars of Scouring": null,
+    "Signature": null,
+    "year": null,
+    "Dates of inspection": null,
+    "(F) Egg digging": null,
+    "(D) Spawning distribution": null,
+    "District": null,
+    "(G) New obstructions": null,
+    "(H) recommended enhancement": null,
+    "2nd local name": null,
+    "Subdistrict": null
+}

@@ -1,0 +1,68 @@
+{
+    "Watershed code": "90-4460",
+    "Gazetted name": "READ CREEK",
+    "First local name": "Read Creek",
+    "Flows Into": "Topaz Harbour, Sunderland Channel",
+    "Year": "1991",
+    "District No.": "5",
+    "Statistical Area": "13-37",
+    "Subdistrict No.": "13",
+    "Subdistrict Name": "QUATHIASKI",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Biological (D) Particulars of distribution": "lower 4 km.",
+    "Biological (E) Comments on predators": "bears & eagles",
+    "Date of inspection": [
+        {
+            "Month": "9",
+            "Day": "25"
+        },
+        {
+            "Month": "10",
+            "Day": "22"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "SEP:",
+            "Start month": "SEP:",
+            "Peak month": "OCT:",
+            "End month": "NOV:",
+            "No. of observer": "2",
+            "Method": "1",
+            "Estimated total No. on grounds": "150",
+            "Optimum escapement": "3500"
+        },
+        "Pink 1": {
+            "Arrival month": "SEP:",
+            "Start month": "SEP:",
+            "Peak month": "OCT",
+            "End month": "OCT:",
+            "No. of observer": "2",
+            "Method": "1",
+            "Estimated total No. on grounds": "150",
+            "Optimum escapement": "UK"
+        },
+        "Chum 1": {
+            "Arrival month": "SEP:",
+            "Start month": "SEP:",
+            "Peak month": "OCT:",
+            "End month": "NOV:",
+            "No. of observer": "2",
+            "Method": "1",
+            "Estimated total No. on grounds": "0",
+            "Optimum escapement": "3500"
+        }
+    },
+    "Additional (C) Water levels flow": null,
+    "Comments (K)": null,
+    "Second local name": null,
+    "Additional (B) Particulars of scouring of spawning beds": null,
+    "Additional (A) Evidence of erosion and silting": null,
+    "Biological (F) Evidence of digging eggs": null,
+    "Biological (G) New obstruction": null,
+    "Dates of inspection (1)": null
+}

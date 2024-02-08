@@ -1,0 +1,43 @@
+{
+    "Report": "ANNUAL REPORT OF SALMON STREAMS AND SPAWNING POPULATIONS",
+    "Watershed code": "91-8996",
+    "First local name": "PINE CREEK",
+    "Flows into": "FLOWS S. INTO HEAD OF MINETTE RAY AT ITS N. END.",
+    "Year": "1990",
+    "District No.": "7",
+    "Statistical Area": "6",
+    "Subdistrict No.": "\u00caN",
+    "Subdistrict Name": "KITIMAT",
+    "Physical Condition (C)": "EXTREMELY LOW WATER LEVELS FROM AUGUST TO LATE SEPTEMBER HIGH WATER LEVELS IN LATE OCTOBER.",
+    "shedcode": "Watershed code",
+    "Dates of Inspection": [
+        {
+            "Month": "OCT",
+            "Day": "29"
+        },
+        {
+            "Month": "NOV",
+            "Day": "20"
+        }
+    ],
+    "Spawning Run Timing and Estimated Number": {
+        "Coho 1": {
+            "Arrival In Stream Month": "OCT",
+            "Spawning Start Month": "/OCT",
+            "Spawning Start Day": ":C",
+            "Spawning Peak Month": "/NOV",
+            "Spawning Peak Day": "A"
+        }
+    },
+    "namename": {},
+    "Biological Condition (F)": null,
+    "Biological Condition (G)": null,
+    "Physical Condition (B)": null,
+    "Physical Condition (A)": null,
+    "Gazetted name": null,
+    "Biological Condition (E)": null,
+    "signature": null,
+    "Comments on any other conditions": null,
+    "Department": null,
+    "Biological Condition (D)": null
+}

@@ -1,0 +1,79 @@
+{
+    "Watershed code": "91-3490",
+    "First local name": "EUCOTT BAY CREEKS",
+    "Second local name": "EUCOTT BAY CREEKS (2)",
+    "Flows Into": "EUCOTT BAY ( DEAN CHANNEL)",
+    "Year": "1991",
+    "District No.": "7",
+    "Statistical Area": "8",
+    "Subdistrict No.": "8",
+    "Subdistrict Name": "BELLA COOLA",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NIL",
+    "Additional (B) Particulars of scouring of spawning beds": "NIL",
+    "Additional (C) Water levels flow": "NORMAL SEASONAL FLUCTUATIONS.",
+    "Biological (D) Particulars of distribution": "INTERTIDAL AND LOWER 1/2 MILE IN MAIN CREEK, MOSTLY INTERTIDAL IN THE OTHER 2 SMALL CREEKS AT HEAD OF THE BAY.",
+    "Biological (E) Comments on predators": "NORMAL",
+    "Biological (F) Evidence of digging eggs": "NIL",
+    "Biological (G) New obstruction": "NIL",
+    "Date of inspection": [
+        {
+            "Month": "SEP",
+            "Day": "07"
+        },
+        {
+            "Month": "SEP",
+            "Day": "20"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "SEP :",
+            "Start month": "OCT:",
+            "Peak month": "NOV:",
+            "End month": "DEC:",
+            "No. of observer": "1",
+            "Method": "1",
+            "Reliability": "1",
+            "Estimated total No. on grounds": "10",
+            "Optimum escapement": "500"
+        },
+        "Pink 1": {
+            "Arrival month": "AUG:",
+            "Arrival day": "C",
+            "Start month": "AUG:",
+            "Start day": "C",
+            "Peak month": "SEP :",
+            "Peak day": "B",
+            "End month": "OCT:",
+            "End day": "A",
+            "No. of observer": "2",
+            "Method": "1",
+            "Reliability": "2",
+            "Estimated total No. on grounds": "300",
+            "Optimum escapement": "7500"
+        },
+        "Chum 1": {
+            "Arrival month": "SEP :",
+            "Arrival day": "A",
+            "Start month": "SEP:",
+            "Start day": "A",
+            "Peak month": "SEP :",
+            "Peak day": "B",
+            "End month": "OCT:",
+            "End day": "A",
+            "No. of observer": "2",
+            "Method": "1",
+            "Reliability": "2",
+            "Estimated total No. on grounds": "220",
+            "Optimum escapement": "2000"
+        }
+    },
+    "Comments (K)": null,
+    "Gazetted name": null,
+    "Dates of inspection (1)": null
+}

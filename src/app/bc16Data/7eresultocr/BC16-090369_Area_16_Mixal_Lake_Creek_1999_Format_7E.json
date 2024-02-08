@@ -1,0 +1,157 @@
+{
+    "Year": "1999",
+    "RAB code": "90-1700-010-010",
+    "Area": "16",
+    "District": "03",
+    "Sub": "16 Pender Harbour",
+    "First local name": "MIXAL LAKE CREEK",
+    "Second local name": "MIXAL CREEK",
+    "Flows into": "GARDEN BAY LAKE",
+    "Latitude": "49 39 35",
+    "Longitude": "124 1 52",
+    "Field Crew": "Jim Wilson",
+    "Inspection dates": "Nov 08 Dec 03 Dec 08",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "selected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "selected",
+    "Biological details particulars": "Throughout system",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: Tributary of Sakinaw Lake system. One of two main coho spawning areas. Survey life is very short. Adults stay in lake until ready to spawn before moving into spawning areas. (2) CO Run 1 Reliability: Surveyed twice during spawning time. (4) Describe basis for estimating total adults CO Run 1: Peak Live + Dead (69+8) divided by Countability (65% ) equals 118. Since run comes in at once, estimated entrie run to be 130. Jack count was 8, so estimated 12. (20) On Salmon Distribution or Predator Interactions: 3 Dec - bear tracks seen (7) Enhancements: Log weir placement looks great for adults and juveniles (8) Unusual mortalities: Local residents informed field crew that a dog goes into the creek and attacks the spawning coho. (19) Other restoration recommendations: Mixal Creek flows from Catherine Lake to Mixal Lake.",
+    "Person preparing report": "Steve Baillie",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "2",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "2",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "130",
+            "Jacks": "12"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Dec",
+            "Arrival day": "1-10",
+            "Start month": "Dec",
+            "Start day": "1-10",
+            "Peak month": "Dec",
+            "Peak day": "1-10",
+            "End month": "Dec",
+            "End day": "11-20"
+        }
+    },
+    "End date": null,
+    "Gazetted name": null,
+    "Start date": null
+}

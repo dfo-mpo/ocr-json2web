@@ -1,0 +1,60 @@
+{
+    "Watershed code": "92-2000-870",
+    "First local name": "THURSTON BAY CREEK",
+    "Flows Into": "NODALES CHANNEL",
+    "Year": "1991",
+    "District No.": "5",
+    "Subdistrict No.": "13",
+    "Subdistrict Name": "QUATHIASKI",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NONE",
+    "Additional (B) Particulars of scouring of spawning beds": "NONE",
+    "Additional (C) Water levels flow": "NORMAL",
+    "Biological (D) Particulars of distribution": "THROUGHOUT SYSTEM",
+    "Biological (E) Comments on predators": "NORMAL",
+    "Biological (F) Evidence of digging eggs": "NONE",
+    "Biological (G) New obstruction": "NONE",
+    "Date of inspection": [
+        {
+            "Month": "9-22"
+        },
+        {
+            "Month": "11-3"
+        },
+        {
+            "Month": "11-18"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "OCT:",
+            "End month": "OCT:",
+            "No. of observer": "1",
+            "Method": "1",
+            "Reliability": "3",
+            "Estimated total No. on grounds": "U/K"
+        },
+        "Pink 1": {
+            "Arrival month": "SEP:",
+            "End month": "OCT:",
+            "Estimated total No. on grounds": "U/K"
+        },
+        "Chum 1": {
+            "Arrival month": "OCT:",
+            "End month": "NOV:",
+            "No. of observer": "1",
+            "Method": "1",
+            "Reliability": "3",
+            "Estimated total No. on grounds": "100"
+        }
+    },
+    "Statistical Area": null,
+    "Second local name": null,
+    "Gazetted name": null,
+    "Comments (K)": null,
+    "Dates of inspection (1)": null
+}

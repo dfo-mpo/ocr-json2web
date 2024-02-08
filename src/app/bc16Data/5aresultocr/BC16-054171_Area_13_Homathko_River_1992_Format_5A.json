@@ -1,0 +1,45 @@
+{
+    "Watershed Code": "90-3600",
+    "Gazetted name": "HOMATHKO RIVER",
+    "Flows into": "INLET",
+    "year": "1992",
+    "Subdistrict": "13",
+    "Subarea": "13-22",
+    "Subd. name": "CAMPBELL RIVER",
+    "Dates of inspection": "NOV 09 |4 1",
+    "(C) Water levels": "normal",
+    "(D) Spawning distribution": "below scar creek",
+    "Fishery Officer": "B. Harding",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Est. Esc": "-2"
+        },
+        "Pink 1": {
+            "Est. Esc": "-2"
+        },
+        "Chum 1": {
+            "Arrival": "OCT",
+            "Reliability": "2",
+            "Est. Esc": "15000 13500"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-2"
+        }
+    },
+    "(B) Particulars of Scouring": null,
+    "(K) Additional comments continued": null,
+    "Signature": null,
+    "(G) New obstructions": null,
+    "1st Local name": null,
+    "District": null,
+    "(H) recommended enhancement": null,
+    "(E) Comments on predators": null,
+    "(A) Evidence of Erosion": null,
+    "(I) Habitat change": null,
+    "2nd local name": null,
+    "(F) Egg digging": null,
+    "(K) Additional comments": null
+}

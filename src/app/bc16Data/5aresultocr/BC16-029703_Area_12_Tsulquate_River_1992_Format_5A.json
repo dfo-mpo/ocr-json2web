@@ -1,0 +1,43 @@
+{
+    "Watershed Code": "code:92-0800",
+    "Gazetted name": "TSULQUATE RIVER",
+    "1st Local name": "SILQUODY RIVER",
+    "Flows into": "RDY BAY",
+    "District": "05",
+    "Subdistrict": "11",
+    "Subarea": "12-16",
+    "Subd. name": "SEYMOUR INLET",
+    "Dates of inspection": "SEP 08 SEP 10 SEP 15 SEP 29",
+    "(K) Additional comments": "Little Tsulquate - 500 to 700 pink. Cleaned out this spring by work crew.",
+    "Fishery Officer": "Murray McPherson",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-1"
+        },
+        "Coho 1": {
+            "Est. Esc": "-1"
+        },
+        "Chum 1": {
+            "Start": "SEP A",
+            "Peak": "SEP B",
+            "End": "SEP C",
+            "Est. Esc": "1000 -1"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-1"
+        }
+    },
+    "year": null,
+    "Signature": null,
+    "(K) Additional comments continued": null,
+    "(H) recommended enhancement": null,
+    "(C) Water levels": null,
+    "2nd local name": null,
+    "(D) Spawning distribution": null,
+    "(A) Evidence of Erosion": null,
+    "(E) Comments on predators": null,
+    "(G) New obstructions": null,
+    "(F) Egg digging": null,
+    "(I) Habitat change": null,
+    "(B) Particulars of Scouring": null
+}

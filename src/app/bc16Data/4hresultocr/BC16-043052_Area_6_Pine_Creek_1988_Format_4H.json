@@ -1,0 +1,31 @@
+{
+    "Department": "DEPARTMENT OF FISHERIES AND OCEANS",
+    "Report": "ANNUAL REPORT OF SALMON STREAMS AND SPAWNING POPULATIONS",
+    "Watershed code": "91-8996",
+    "First local name": "PINE CREEK",
+    "Flows into": "FLOWS S. INTO HEAD OF MINETTE BAY AT ITS N. END.",
+    "Year": "Year 1988",
+    "District No.": "7",
+    "Statistical Area": "6",
+    "Subdistrict Name": "KITIMAT",
+    "Physical Condition (C)": "EXTREMELY LOW WATER LEVELS FROM AUGUST TO LATE SEPTEMBER HIGH WATER LEVELS IN LATE OCTOBER.",
+    "Biological Condition (F)": "N/O",
+    "shedcode": "Watershed code",
+    "Dates of Inspection": [
+        {
+            "Month": "OCT",
+            "Day": "31"
+        }
+    ],
+    "Spawning Run Timing and Estimated Number": {},
+    "namename": {},
+    "Biological Condition (G)": null,
+    "Physical Condition (B)": null,
+    "Physical Condition (A)": null,
+    "Gazetted name": null,
+    "Biological Condition (E)": null,
+    "signature": null,
+    "Comments on any other conditions": null,
+    "Subdistrict No.": null,
+    "Biological Condition (D)": null
+}

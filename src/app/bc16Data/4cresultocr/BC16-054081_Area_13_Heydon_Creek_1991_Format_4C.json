@@ -1,0 +1,50 @@
+{
+    "Watershed code": "90-4300",
+    "Gazetted name": "HEYDON CREEK",
+    "First local name": "Heydon Creek",
+    "Flows Into": "Loughborough Inlet",
+    "Year": "1991",
+    "District No.": "5",
+    "Statistical Area": "13-43",
+    "Subdistrict No.": "13",
+    "Subdistrict Name": "QUATHIASKI",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (B) Particulars of scouring of spawning beds": "stream",
+    "Additional (C) Water levels flow": "November water level high.",
+    "Biological (D) Particulars of distribution": "Spawning throughout stream.",
+    "Biological (E) Comments on predators": "Bears, eagles",
+    "Biological (F) Evidence of digging eggs": "spawning",
+    "Comments (K)": "Spawning just beginning in November.",
+    "Date of inspection": null,
+    "Spawning run timing and estimated number": {
+        "Sock 1": {
+            "Start month": "JUL",
+            "Peak month": "AUG",
+            "End month": "AUG:",
+            "No. of observer": "0",
+            "Method": "1",
+            "Estimated total No. on grounds": "uk",
+            "Optimum escapement": "3500"
+        },
+        "Coho 1": {
+            "Peak month": "NOV:",
+            "End month": "NOV:",
+            "No. of observer": "3",
+            "Method": "1",
+            "Reliability": "UK",
+            "Optimum escapement": "1500"
+        },
+        "Pink 1": {
+            "Peak month": "SEP:",
+            "No. of observer": "2"
+        }
+    },
+    "Second local name": null,
+    "Biological (G) New obstruction": null,
+    "Dates of inspection (1)": null,
+    "Additional (A) Evidence of erosion and silting": null
+}

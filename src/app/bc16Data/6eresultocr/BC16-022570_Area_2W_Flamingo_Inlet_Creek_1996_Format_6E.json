@@ -1,0 +1,62 @@
+{
+    "Bookmark": "BC16 1996",
+    "Watershed code": "95- 400G",
+    "Gazetted name": "Flamingo Head Greek",
+    "Local name": "Flamingo Head Creek",
+    "Flows into": "Flamingo Inlet",
+    "Year": "1990",
+    "District number": "9",
+    "Statistical Area": "2-37",
+    "Subdistrict number": "Area 2 Wesl",
+    "Subdistrict name": "$andsplt",
+    "Dates of inspection": "Sep 13 Sep 30",
+    "(A) Enhancement": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstructions": "unselected",
+    "(D) Large variation": "unselected",
+    "(E) High/low water": "unselected",
+    "Physical conditions (A) Evidence": "None Reported.",
+    "Physical conditions (B) Particulars": "None Reported.",
+    "Physical conditions (C) Water levels": "Consistently good water levels through the spawning period.",
+    "Biological conditions (D) Particulars": "Spread la 1 km.",
+    "Biological conditions (E) Predators comments": "Modorale Impact from birds and bears.",
+    "Biological conditions (F) Evidence": "None Reported.",
+    "Biological conditions (G) New obstructions": "None Reported.",
+    "Comments": "This creek was only walked by the crew of the FPV Soche Post, and the FPV Arrow Posl this year. Not walked enough for a reliable final number.",
+    "Person preparing": "David Beggs",
+    "Spawning run timing": {
+        "Coho 1": {
+            "Arrival month": "Sep",
+            "Spawning start month": "Sep",
+            "Spawning peak month": "Oct",
+            "Spawning end month": "Nov",
+            "Observers": "D",
+            "Methods": "1",
+            "Reliability": "2",
+            "Total on grounds": "NIO",
+            "Target escape": "200"
+        },
+        "Pink 1": {
+            "Arrival month": "Aug",
+            "Spawning start month": "Aug",
+            "Spawning peak month": "Sep",
+            "Spawning end month": "Oct",
+            "Observers": "2",
+            "Methods": "1",
+            "Reliability": "2",
+            "Total on grounds": "50",
+            "Target escape": "750"
+        },
+        "Chum 1": {
+            "Arrival month": "Sep",
+            "Spawning start month": "Sep",
+            "Spawning peak month": "Oct",
+            "Spawning end month": "Ncv",
+            "Observers": "2",
+            "Methods": "1",
+            "Reliability": "2",
+            "Total on grounds": "100",
+            "Target escape": "7,000"
+        }
+    }
+}

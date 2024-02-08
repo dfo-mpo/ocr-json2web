@@ -1,0 +1,69 @@
+{
+    "Watershed Code": "94-4000",
+    "Gazetted name": "YAKOUN RIVER",
+    "1st Local name": "YAKOUN RIVER AND LAKE SYSTE",
+    "Flows into": "into:MASSET INLET",
+    "year": "1992",
+    "Subarea": "1-6",
+    "Subd. name": "MASSET",
+    "Dates of inspection": "OCT 02 OCT 03",
+    "(H) recommended enhancement": "Counting plate is used for enumerating sockeye. Counting fence was fish tight on Aug. 7, and blown out on Sept. 7 by high water.",
+    "(K) Additional comments": "Estimates for sockeye were made from counting plate numberg. Estimates for coho were made from fence counts, and stream in- spections. Estimates for chinook were made from fence counts.",
+    "Fishery Officer": "Com Well-",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Arrival": "APR 6",
+            "Start": "SEP B",
+            "Peak": "OCT A",
+            "End": "OCT B",
+            "Methods": "10",
+            "Reliability": "4",
+            "Est. Esc": "4400",
+            "Optimum Esc.": "45000"
+        },
+        "Pink 1": {
+            "Arrival": "AUG A",
+            "Start": "AUG B",
+            "Peak": "SEP B",
+            "End": "OCT B",
+            "Methods": "10",
+            "Reliability": "5",
+            "Est. Esc": "726500",
+            "Brood esc.": "1200000",
+            "Optimum Esc.": "650000"
+        },
+        "Chum 1": {
+            "Arrival": "SEP A SEP C",
+            "Start": "SEP C OCT A",
+            "Peak": "NOV A OCT B",
+            "End": "NOV C OCT C",
+            "Methods": "1 10",
+            "Reliability": "4",
+            "Est. Esc": "6000 -2",
+            "Optimum Esc.": "40000 500"
+        },
+        "Chinook 1": {
+            "Arrival": "JUN A",
+            "Start": "SEP A",
+            "Peak": "SEP B",
+            "End": "OCT A",
+            "Methods": "10",
+            "Reliability": "3",
+            "Est. Esc": "2000",
+            "Optimum Esc.": "5000"
+        }
+    },
+    "(K) Additional comments continued": null,
+    "(G) New obstructions": null,
+    "(B) Particulars of Scouring": null,
+    "Subdistrict": null,
+    "Signature": null,
+    "(E) Comments on predators": null,
+    "(C) Water levels": null,
+    "District": null,
+    "(A) Evidence of Erosion": null,
+    "(F) Egg digging": null,
+    "(I) Habitat change": null,
+    "2nd local name": null,
+    "(D) Spawning distribution": null
+}

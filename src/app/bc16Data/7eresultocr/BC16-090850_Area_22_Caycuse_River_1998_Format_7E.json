@@ -1,0 +1,173 @@
+{
+    "Year": "1998",
+    "Gazetted name": "CAYCUSE RIVER",
+    "RAB code": "93-1500-300",
+    "District": "04",
+    "Sub": "22 Nitinat",
+    "Flows into": "NITINAT LAKE",
+    "Latitude": "48 48 1",
+    "Longitude": "124 41 34",
+    "Field Crew": "River Run Bio Ltd.",
+    "Inspection dates": "Sep 22 Oct 15 Oct 22 Oct 28 Nov 18",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Provincial Fisheries observed 262 adult summer steelhead in the upper Caycuse River on September 22nd. This swim occurred above the falls in habitat that is not utilized by other salmonids.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "selected",
+    "Comments on condition": "(4) Describe basis for estimating total adults SK, CO, CN Run 1: Expanded Peak-Live-plus-Dead Values used to calculate escapement estimates. (4) Describe basis for estimating total adults CO & CM Run 1: Middle Expanded Area-Under-the- Curve Values used to calculate escapement estimates. (5) General Comments on Escapement Estimation: Snorkel survey on Sept. 22nd was conducted by MOELP. Few surveys and poor survey timing for sockeye, coho, pink and chinook; therefore, all reliability has been set as low. Detailed information for each inspection available from Stock Assessment Division. (22) List Supplementary Documentation: BC16 originally prepared by Brenda Wright, StAD; reviewed by Rick Ferguson April 2000.",
+    "Person preparing report": "Rick Ferguson, StAD (250) 756-7006",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "Methods": "3",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "1",
+            "Enum Class": "2",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "3",
+            "N": "2",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "1",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "92",
+            "Jacks": "10"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "3",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "1",
+            "Enum Class": "1",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "3,6",
+            "N": "4",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "2",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "2,477"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "3,6",
+            "N": "3",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "1",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "72",
+            "Jacks": "1"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "Methods": "3",
+            "N": "2",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "1",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "7"
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Peak month": "Nov",
+            "Peak day": "11-20"
+        },
+        "CM 1": {
+            "End month": "Nov",
+            "End day": "11-20"
+        }
+    },
+    "First local name": null,
+    "Area": null,
+    "End date": null,
+    "Start date": null,
+    "Second local name": null
+}

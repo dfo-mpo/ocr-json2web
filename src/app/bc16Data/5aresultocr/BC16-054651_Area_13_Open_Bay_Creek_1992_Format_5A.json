@@ -1,0 +1,45 @@
+{
+    "Watershed Code": "92-2300-250",
+    "1st Local name": "BAY CREEK",
+    "Flows into": "into:OPEN BAY QUADRA ISL",
+    "year": "1992",
+    "District": "05",
+    "Subarea": "13-13",
+    "Subd. name": "CAMPBELL RIVER",
+    "Dates of inspection": "DEC |1",
+    "(C) Water levels": "normal",
+    "(D) Spawning distribution": "To 2 1/2 miles upstream Coho have access up 4 miles+",
+    "Fishery Officer": "G. Chiasson",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Est. Esc": "-2"
+        },
+        "Pink 1": {
+            "Est. Esc": "-2"
+        },
+        "Chum 1": {
+            "Arrival": "NOV",
+            "Reliability": "4",
+            "Est. Esc": "2000 400"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "(K) Additional comments": null,
+    "(E) Comments on predators": null,
+    "(I) Habitat change": null,
+    "(G) New obstructions": null,
+    "(F) Egg digging": null,
+    "(K) Additional comments continued": null,
+    "Signature": null,
+    "2nd local name": null,
+    "Subdistrict": null,
+    "Gazetted name": null,
+    "(B) Particulars of Scouring": null,
+    "(A) Evidence of Erosion": null,
+    "(H) recommended enhancement": null
+}

@@ -1,0 +1,31 @@
+.backButton {
+  border: 1px solid #2a2a2a;
+  background-color: white;
+  padding: 2px;
+  position: sticky;
+  top: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Horizontally centers the content */
+  margin: 0 auto; /* Centers the container horizontally */
+  
+}
+
+.linkStyle {
+  text-decoration: none;
+  color: rgb(181, 3, 3);
+  margin-top: 0;
+}
+
+.linkStyle:hover {
+  text-decoration: underline;
+  font-weight: 600;
+  
+}
+.fileName{
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}

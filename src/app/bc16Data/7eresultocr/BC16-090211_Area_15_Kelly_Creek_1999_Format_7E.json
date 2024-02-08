@@ -1,0 +1,159 @@
+{
+    "Year": "1999",
+    "Gazetted name": "KELLY CREEK",
+    "RAB code": "90-2725",
+    "Area": "15-1",
+    "District": "03",
+    "Sub": "15 Pender Harbour",
+    "First local name": "LANG CREEK",
+    "Second local name": "FIRNY CREEK",
+    "Flows into": "MALASPINA STRAIT",
+    "Field Crew": "Dick Tritschler",
+    "Inspection dates": "Sep 09 Oct 15 Nov 08 Nov 15 Nov 23 Dec 02",
+    "(5) Escapement comments": "unselected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "selected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "selected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(4) Describe basis for estimating total adults CO Run 1: The annual escapement estimate is based on stream inspections between Sept. 09/99 to Dec. 02/99. Only the lower section of Albion Creek was inspected, so some coho may have spawned in the upper sections that were not inspected. I have been told by the Powell River Salmon Society that coho can not pass over the fall at the top of Sec. 4. and my observation indicated that also. (4) Describe basis for estimating total adults CM Run 1: Annual escapement estimates are based on stream inspections between Sept. 09 to Dec 02/99. Low water was a problem up until the beginning of November then high water made numeration's impossible at the end. (2) CM Run 1 Reliability: Some fish may have been missed due high water. (2) CO Run 1 Reliability: Coho were only sighted on one inspection. (16) Fish access recommendations: Observed coho at the fall just above highway 101 that were unable to pass, there is an old fish ladder there but from talking to the PRSS manager the ladder never passed fish. Due to the low flows in the summer month's coho fry may not survive in the upper creek. (18) Flow augmentation: A monitoring program should be started for the summer months to make sure that adequate water is left in the stream by the water licences to support the coho and trout fry. Some years this system is dry in the lower reaches.",
+    "Person preparing report": "Dick Tritschler / Texada Belle",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "N": "5",
+            "%Spawn habitat surveyed": "75",
+            "Rel": "1",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "6"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "N": "5",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "3",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "2,120"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "21-31",
+            "Start month": "Nov",
+            "Start day": "1-10",
+            "Peak month": "Nov",
+            "Peak day": "11-20",
+            "End month": "Dec",
+            "End day": "1-10"
+        }
+    },
+    "Latitude": null,
+    "Longitude": null,
+    "End date": null,
+    "Biological details particulars": null,
+    "Start date": null
+}

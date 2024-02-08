@@ -1,0 +1,150 @@
+{
+    "Year": "1997",
+    "Gazetted name": "KLANAWA RIVER",
+    "RAB code": "93-1600",
+    "District": "04",
+    "Sub": "21 Nitinat",
+    "First local name": "KLANAWA RIVER",
+    "Flows into": "PACIFIC OCEAN",
+    "Latitude": "48 41 58",
+    "Longitude": "124 56 47",
+    "Field Crew": "Nitinat Hatchery Staff",
+    "Inspection dates": "Oct 05 Oct 28 Nov 10 Nov 11",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "selected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "selected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Active coho spawning area approx. 750 m downstream of the Upper Klanawa log bridge - lots of redds. All other areas \"dead\", no signs of life.",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "selected",
+    "Comments on condition": "(4) Describe basis for estimating total adults CO Run 1: Expanded PL+D used from the snorkel surveys conducted on Nov. 11th and Nov. 20th, 1997. (5) General Comments on Escapement Estimation: Detailed information for each inspection available from Stock Assessment Division. Poor survey coverage. (11) Bank erosion: Major bedload observed in all areas except Upper Klanawa East Fork. Logging debris torrenting evident. (17) Spawning site recommendations: River system needs major rebuilding work done on it. (22) List Supplementary Documentation: BC16 prepared by Brenda Wright, StAD; reviewed by Rick Ferguson April 2000.",
+    "Person preparing report": "Rick Ferguson, StAD (250) 756-7006",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "3",
+            "N": "2",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "1",
+            "Enum Class": "4",
+            "Esc Code": "A.C.",
+            "Est total adults": "62",
+            "Jacks": "10"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "6",
+            "N": "1",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "1",
+            "Enum Class": "4",
+            "Esc Code": "A.P."
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {},
+    "Area": null,
+    "Start date": null,
+    "Second local name": null,
+    "End date": null
+}

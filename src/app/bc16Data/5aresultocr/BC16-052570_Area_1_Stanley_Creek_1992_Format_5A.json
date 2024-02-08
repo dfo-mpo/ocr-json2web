@@ -1,0 +1,58 @@
+{
+    "Watershed Code": "94-2700",
+    "Gazetted name": "STANLEY CREEK",
+    "Flows into": "into:NADEN HARBOUR",
+    "year": "1992",
+    "Subarea": "1-4",
+    "Subd. name": "MASSET",
+    "Dates of inspection": "AUG 15 AUG 25 OCT 06",
+    "(B) Particulars of Scouring": "Stream is starting to stabalize as evidenced by flow and reduced erosion.",
+    "(D) Spawning distribution": "Chums observed from estuary, upstream to 400m above bridge.",
+    "(E) Comments on predators": "Bears, seals, and sea gulls.",
+    "Signature": "Som well",
+    "Fishery Officer": "Preparing Report",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Arrival": "SEP B",
+            "Start": "OCT A",
+            "Peak": "OCT C",
+            "End": "NOV C",
+            "Reliability": "1",
+            "Est. Esc": "-1"
+        },
+        "Pink 1": {
+            "Arrival": "AUG C",
+            "Start": "SEP A",
+            "Peak": "SEP B",
+            "End": "OCT C",
+            "Reliability": "2",
+            "Est. Esc": "100"
+        },
+        "Chum 1": {
+            "Arrival": "AUG A",
+            "Start": "AUG C",
+            "Peak": "A",
+            "End": "C",
+            "Reliability": "3",
+            "Est. Esc": "300"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "(K) Additional comments continued": null,
+    "1st Local name": null,
+    "(G) New obstructions": null,
+    "Subdistrict": null,
+    "(K) Additional comments": null,
+    "(C) Water levels": null,
+    "District": null,
+    "(A) Evidence of Erosion": null,
+    "(F) Egg digging": null,
+    "(I) Habitat change": null,
+    "2nd local name": null,
+    "(H) recommended enhancement": null
+}

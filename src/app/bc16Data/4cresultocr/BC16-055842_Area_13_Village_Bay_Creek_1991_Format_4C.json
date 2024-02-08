@@ -1,0 +1,62 @@
+{
+    "Watershed code": "92-2300-20",
+    "Gazetted name": "(mapname) VILLAGE BAY CREEK",
+    "Flows Into": "HOSKYN CHANNEL",
+    "Year": "1991",
+    "District No.": "5",
+    "Subdistrict No.": "13",
+    "Subdistrict Name": "QUATHIASKI",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NONE",
+    "Additional (B) Particulars of scouring of spawning beds": "NONE",
+    "Additional (C) Water levels flow": "NORMAL",
+    "Biological (D) Particulars of distribution": "THROUGHOUT SYSTEM GOOD SPAWNING IN STRANBY CREEK",
+    "Biological (E) Comments on predators": "PUBLIC, OTTERS, DOGS",
+    "Biological (F) Evidence of digging eggs": "NONE",
+    "Biological (G) New obstruction": "COUNTING FENCE AT LAKE OUT FALL",
+    "Comments (K)": "ENHANCEMENT GROUP REPORTED 800 JACKS DURING FENCE COUNT, PLUS 200 ADULTS",
+    "Date of inspection": [
+        {
+            "Month": "9-28"
+        },
+        {
+            "Month": "10-8"
+        },
+        {
+            "Month": "10-29"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Sock 1": {
+            "Arrival month": "JUL SEP:",
+            "Start month": "AUG: SEP:",
+            "Peak month": "OCT:",
+            "Peak day": "AUG",
+            "End month": "SEP: OCT",
+            "Estimated total No. on grounds": "U/O"
+        },
+        "Coho 1": {
+            "End month": "JAN",
+            "No. of observer": "1",
+            "Method": "1",
+            "Reliability": "5",
+            "Estimated total No. on grounds": "1000"
+        },
+        "Pink 1": {
+            "End month": "OCT"
+        },
+        "Chum 1": {
+            "End month": "NOV:",
+            "No. of observer": "1",
+            "Method": "1"
+        }
+    },
+    "Second local name": null,
+    "First local name": null,
+    "Dates of inspection (1)": null,
+    "Statistical Area": null
+}

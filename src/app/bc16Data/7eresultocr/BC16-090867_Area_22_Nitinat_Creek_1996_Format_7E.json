@@ -1,0 +1,219 @@
+{
+    "Year": "1996",
+    "Gazetted name": "NITINAT RIVER",
+    "RAB code": "93-1500",
+    "District": "04",
+    "Sub": "22 Nitinat",
+    "Flows into": "NITINAT LAKE",
+    "Latitude": "48 40 16",
+    "Longitude": "124 50 59",
+    "Field Crew": "River Run Bio Ltd.",
+    "Inspection dates": "Aug 21 Aug 22 Sep 04 Sep 05 Sep 11 Sep 12 Sep 17 Sep 18 Sep 23 Sep 24 Sep 30 Oct 01 Oct 07 Oct 08 Nov 01",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "selected",
+    "(22) Supplementary documentation": "selected",
+    "Comments on condition": "(1) Other methods: Testfishing estimates provided by Paddy Harrison (Midnight Raider) (5) General Comments on Escapement Estimation: Escapement estimation was a combined effort of Nitinat Hatchery staff (removals from system, snorkel surveys, and test fishing) and Stock Assessment Division (snorkle surveys) . StAD AUC (area-under-the-curve) calculations based on middle expanded values. Estimated Total Adults + Broodstock Figures = Total Escapement. Detailed information for each inspection available from Stock Assessment Division. Broodstock figure includes all fish removals from system, not just those used for brood. Additional inspections: Oct/7, Oct/8, Nov/1, Nov/2, Nov/16 (7) Enhancements: Nitinat River Hatchery enhances chinook, chum, coho, and steelhead on this system. (20) On Predator Interactions: Black bears and eagles present during fall spawn but not enumerated. (21) Other Sampling Activities or Studies: In addition to annual Hatchery PCAD (Program Coordination and Assessment Division) sampling requirements, additional sampling was initiated by Wilf Luedke from South Caost Salmon section of StAD (Stock Assessment Division) . Contract work was carried out by River Run Bio Ltd. Under the coordinated direction of Nitinat Hatchery and Wilf Luedke. (22) List Supplementary Documentation: BC16 originally prepared by Bruce A. Patten, StAD and Erica Blake, Nitinat River Hatchery; reviewed by Rick Ferguson April 2000.",
+    "Person preparing report": "Rick Ferguson, StAD (250) 756-7006",
+    "Bio Sampling": [
+        {
+            "Species": "CO",
+            "Comments": "AD clipped fish are sampled for CWTs"
+        },
+        {
+            "Species": "CM",
+            "Comments": "AD clipped fish are sampled for CWTs"
+        },
+        {
+            "Species": "CN",
+            "Comments": "AD clipped fish are sampled for CWTs"
+        }
+    ],
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "Methods": "3",
+            "N": "8",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "1",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "55"
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "3",
+            "N": "7",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "2",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "1,082",
+            "Brood stock removals": "370",
+            "Jacks": "48"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "3",
+            "N": "1",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "1",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "3,4,10",
+            "N": "11",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "3",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "330,000",
+            "Brood stock removals": "204,170"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "3,4,6,10",
+            "N": "13",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "3",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "21,843",
+            "Brood stock removals": "7,966",
+            "Jacks": "1,813"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "Methods": "3",
+            "N": "13",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "4",
+            "Enum Class": "1",
+            "Esc Code": "A.P."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "SK 1": {
+            "Arrival month": "Aug",
+            "Arrival day": "21-31"
+        },
+        "CO 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "11-20",
+            "Start month": "Oct",
+            "Start day": "11-20",
+            "Peak month": "Nov",
+            "Peak day": "11-20"
+        },
+        "PK 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "21-31"
+        },
+        "CM 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "11-20",
+            "Start month": "Oct",
+            "Start day": "1-10",
+            "Peak month": "Oct",
+            "Peak day": "11-20",
+            "End month": "Oct",
+            "End day": "21-31"
+        },
+        "CN 1": {
+            "Arrival month": "Aug",
+            "Arrival day": "21-31",
+            "Start month": "Sep",
+            "Start day": "21-31",
+            "Peak month": "Oct",
+            "Peak day": "1-10",
+            "End month": "Oct",
+            "End day": "11-20"
+        }
+    },
+    "Second local name": null,
+    "First local name": null,
+    "End date": null,
+    "Biological details particulars": null,
+    "Start date": null,
+    "Area": null
+}

@@ -1,0 +1,155 @@
+{
+    "Year": "1998",
+    "Gazetted name": "KITTY COLEMAN CREEK",
+    "RAB code": "92-2740",
+    "Area": "14-1",
+    "District": "03",
+    "Sub": "14N Comox",
+    "Flows into": "GEORGIA STRAIT",
+    "Latitude": "49 47 16",
+    "Longitude": "124 59 34",
+    "Field Crew": "Eli Rosengard, Residents",
+    "Inspection dates": "Jul 27 Aug 20 Nov 15 Dec 15 Dec 16",
+    "(5) Escapement comments": "unselected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "selected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "selected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "selected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Spawning noted on North Trib. Off Left Road. Adults noted in area around Zimmerman Tree Farm.",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "selected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(1) Other methods for CO Run 1: Residents that live along the river that have been known to this writer for nine years were canvassed and the results estimated as follows. (3) CO Run 1 Enumeration Class: the numerical estimate is a minimum figure which the write believes is more informative than a presence designation. (15) General Comments on Unusual Conditions: Many complaints about mud and silt from Cranberry Farm off Coleman Road. Investigations have found no offence. Illegal culvert on trib off Coleman Road investigated and MELP assumed to be dealing with it. (7) Enhancements: A small number of fry transplanted every year by Little River Enhancement Society. (13) Drought: Extreme drought spring through early fall. Beaver dam area behind Whitaker Road had decent supply of water but Beaver Dam area off Left Road near Coleman was dry for the first time in the memory of old time FO and other knowledgeable observers.",
+    "Person preparing report": "Eli Rosengard / Patrolman",
+    "Bio Sampling": [
+        {
+            "Species": "CO",
+            "Comments": "Fry Trap Study - results in stream file in Comox office"
+        }
+    ],
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1,2,10",
+            "%Spawn habitat surveyed": "10",
+            "Rel": "2",
+            "Enum Class": "4",
+            "Esc Code": "A.C.",
+            "Est total adults": "50"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Peak month": "Nov",
+            "Peak day": "11-20"
+        }
+    },
+    "First local name": null,
+    "Start date": null,
+    "End date": null,
+    "Second local name": null
+}

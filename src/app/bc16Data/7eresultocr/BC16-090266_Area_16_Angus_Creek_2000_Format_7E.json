@@ -1,0 +1,150 @@
+{
+    "Year": "2000",
+    "Gazetted name": "ANGUS CREEK",
+    "RAB code": "90-1915",
+    "Area": "16-5",
+    "District": "03",
+    "Sub": "Pender Harbour",
+    "First local name": "PETE CREEK",
+    "Second local name": "PEAT CREEK",
+    "Flows into": "SECHELT INLET",
+    "Latitude": "49 30 35",
+    "Longitude": "123 45 20",
+    "Field Crew": "Dwayne Paul & Jerry Johnson - SIB",
+    "Inspection dates": "Oct 31 Nov 15 Nov 27 Dec 06",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "selected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Chum in the lower section of the river.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(2) CO Run 1 Reliability: Only two surveys were coho were observed and one of them the fish visibility was medium. (2) CM Run 1 Reliability: Surveys caught the tail end of the spawning. No surveys were done during peak spawn. (3) CO & CM Run 1 Enumeration Class: Poor survey coverage so enumeration class has been set as inspection only. (4) Describe basis for estimating total adults CM Run 1: Peak-Live+Dead (28) used to calculate escapement. Expanded by 70% to account for Observer Efficiency. (5) General Comments on Escapement Estimation: Surveys provided from the Sechelt Indian Band. (6) General Comments on Run Timing: The peak spawning time recorded on the stream inspection log is Nov. 27th - during that survey fish visibility was medium and reliability was marked as being low. (20) On Predator Interactions: No record of predators reported on the stream inspection logs. (4) Describe basis for estimating total adults CO Run 1: Peak Live plus dead estimate using two periods. The first curve covers the period up to 26 November, and the second covers the period after this date. The first peak was expanded by 50% to cover entire reach and an observer efficiency of 80% was used. 18 coho was estimated for this period. 70% Observer Efficiency and 40% coverage was used for the second period for an estimate of 11 coho. Total of 29 coho.",
+    "Person preparing report": "Brenda Wright (StAD)",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1,2",
+            "N": "2",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "1",
+            "Enum Class": "4",
+            "Esc Code": "A.C.",
+            "Est total adults": "29"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "1,2",
+            "N": "3",
+            "%Spawn habitat surveyed": "75",
+            "Rel": "1",
+            "Enum Class": "4",
+            "Esc Code": "A.C.",
+            "Est total adults": "31"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {},
+    "Start date": null,
+    "End date": null
+}

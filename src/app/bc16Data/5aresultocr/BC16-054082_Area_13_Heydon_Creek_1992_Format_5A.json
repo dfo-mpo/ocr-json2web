@@ -1,0 +1,42 @@
+{
+    "Watershed Code": "90-4300",
+    "Gazetted name": "name:HEYDON CREEK",
+    "1st Local name": "name:HEYDON RIVER",
+    "Flows into": "LOUGHBOROUGH INLET",
+    "Subdistrict": "13",
+    "Subarea": "13-42",
+    "Subd. name": "CAMPBELL RIVER",
+    "Dates of inspection": "AUG 18 NOV 13 SEP 10 1",
+    "(C) Water levels": "normal",
+    "(D) Spawning distribution": "tide line and up",
+    "(E) Comments on predators": "seals, bears",
+    "Fishery Officer": "g. Chiasson",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Est. Esc": "-2"
+        },
+        "Chum 1": {
+            "Arrival": "AUG OCT",
+            "Reliability": "5",
+            "Est. Esc": "23000 20000 10000 51000"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "(G) New obstructions": null,
+    "(I) Habitat change": null,
+    "year": null,
+    "District": null,
+    "Signature": null,
+    "(F) Egg digging": null,
+    "(K) Additional comments": null,
+    "(A) Evidence of Erosion": null,
+    "2nd local name": null,
+    "(K) Additional comments continued": null,
+    "(H) recommended enhancement": null,
+    "(B) Particulars of Scouring": null
+}

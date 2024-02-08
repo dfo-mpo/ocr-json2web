@@ -1,0 +1,55 @@
+{
+    "Bookmark": "BC16 1996",
+    "Watershed code": "95-1500",
+    "Gazetted name": "De La Beche Creek",
+    "Local name": "De La Beche Creek",
+    "Flows into": "De La Beche Inlet - Juan Perez Sound",
+    "Year": "1996",
+    "District number": "9",
+    "Statistical Area": "2-11",
+    "Subdistrict number": "Area 2 East",
+    "Subdistrict name": "Sandspit",
+    "(A) Enhancement": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstructions": "unselected",
+    "(D) Large variation": "unselected",
+    "(E) High/low water": "unselected",
+    "Comments": "This system was not inspected this year.",
+    "Person preparing": "David Beggs",
+    "Spawning run timing": {
+        "Coho 1": {
+            "Arrival month": "Sep",
+            "Spawning start month": "Sep",
+            "Spawning peak month": "Oct",
+            "Spawning end month": "Nov",
+            "Observers": "0",
+            "Reliability": "0",
+            "Total on grounds": "N/I",
+            "Target escape": "250"
+        },
+        "Pink 1": {
+            "Observers": "0",
+            "Reliability": "0",
+            "Total on grounds": "N/",
+            "Target escape": "0"
+        },
+        "Chum 1": {
+            "Arrival month": "Sep",
+            "Spawning start month": "Sep",
+            "Spawning peak month": "Oct",
+            "Spawning end month": "Nov",
+            "Observers": "0",
+            "Reliability": "0",
+            "Total on grounds": "N/I",
+            "Target escape": "250"
+        }
+    },
+    "Biological conditions (F) Evidence": null,
+    "Physical conditions (A) Evidence": null,
+    "Physical conditions (B) Particulars": null,
+    "Biological conditions (E) Predators comments": null,
+    "Dates of inspection": null,
+    "Physical conditions (C) Water levels": null,
+    "Biological conditions (D) Particulars": null,
+    "Biological conditions (G) New obstructions": null
+}

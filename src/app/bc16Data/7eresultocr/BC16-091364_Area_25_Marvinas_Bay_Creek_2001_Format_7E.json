@@ -1,0 +1,176 @@
+{
+    "Year": "2001",
+    "RAB code": "93-6500-150",
+    "Area": "25-6",
+    "District": "04",
+    "Sub": "Tahsis",
+    "First local name": "MARVINAS CREEK",
+    "Second local name": "MARVINAS BAY CREEK",
+    "Flows into": "MARVINAS BAY",
+    "Latitude": "49 39 22",
+    "Longitude": "126 37 30",
+    "Field Crew": "Guy Chiasson",
+    "Inspection dates": "Oct 02 Nov 04",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Sockeye - in lower stream first pool above log jam, coho - started at first pool above log jam but mostly in upper reaches to falls, chum - from bridge at tide zone to 1.5km, chinook - at falls at 2.4km.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "selected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(20a) Predator counts by date and predator type: 3 adult bears, one with2 cubs, predators on this creek would have more impact as water level drops faster after a storm giving access. (5) General Comments on Escapement Estimation: The chinook were spawning and almost spawn out on the Oct. 02, 2001 visit.",
+    "Person preparing report": "Guy Chiasson",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "Methods": "2,3",
+            "N": "1",
+            "%Spawn habitat surveyed": "80",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "8"
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "2,3",
+            "N": "2",
+            "%Spawn habitat surveyed": "80",
+            "Rel": "1",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "160",
+            "Jacks": "6"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "2,3",
+            "N": "2",
+            "%Spawn habitat surveyed": "80",
+            "Rel": "3",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "350"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "2,3",
+            "N": "1",
+            "%Spawn habitat surveyed": "80",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "9"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "SK 1": {
+            "End month": "Sep",
+            "End day": "21-31"
+        },
+        "CO 1": {
+            "Peak month": "Oct",
+            "Peak day": "11-20",
+            "End month": "Nov"
+        },
+        "CM 1": {
+            "Arrival month": "Sep",
+            "Start month": "Sep",
+            "Start day": "11-20",
+            "Peak month": "Oct",
+            "Peak day": "11-20",
+            "End month": "Oct",
+            "End day": "21-31"
+        }
+    },
+    "Start date": null,
+    "End date": null,
+    "Gazetted name": null
+}

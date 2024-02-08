@@ -1,0 +1,47 @@
+{
+    "Watershed code": "90-3800-100",
+    "Gazetted name": "(mapname) UNNAMED",
+    "First local name": "Knox Bay Creek",
+    "Second local name": "PB'S Creek",
+    "Flows Into": "Johnstone Strait",
+    "Year": "1991",
+    "District No.": "5",
+    "Statistical Area": "13-29",
+    "Subdistrict No.": "13",
+    "Subdistrict Name": "QUATHIASKI",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Biological (D) Particulars of distribution": "lower mile",
+    "Comments (K)": "Rarely see adults in system, but usually see good numbers of fry in spring.",
+    "Dates of inspection (1)": "STREAM NOT INSPECTED IN 1991 Not inspected 1991",
+    "Date of inspection": null,
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "OCT:",
+            "Start month": "OCT:",
+            "Peak month": "NOV:",
+            "End month": "NOV:"
+        },
+        "Pink 1": {
+            "Arrival month": "OCT:",
+            "Start month": "OCT:",
+            "Peak month": "OCT",
+            "End month": "NOV:"
+        },
+        "Chum 1": {
+            "Arrival month": "OCT:",
+            "Start month": "OCT:",
+            "Peak month": "NOV:",
+            "End month": "NOV:"
+        }
+    },
+    "Additional (A) Evidence of erosion and silting": null,
+    "Additional (C) Water levels flow": null,
+    "Additional (B) Particulars of scouring of spawning beds": null,
+    "Biological (G) New obstruction": null,
+    "Biological (F) Evidence of digging eggs": null,
+    "Biological (E) Comments on predators": null
+}

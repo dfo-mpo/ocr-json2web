@@ -1,0 +1,186 @@
+{
+    "Year": "2001",
+    "Gazetted name": "NANAIMO RIVER",
+    "RAB code": "92-4300",
+    "District": "03",
+    "Sub": "17 Nanaimo",
+    "Flows into": "NANAIMO HARBOUR",
+    "Latitude": "49 8 18",
+    "Longitude": "123 53 39",
+    "Field Crew": "see comments",
+    "Inspection dates": "Oct 04 Nov 07",
+    "Start date": "9/7/01",
+    "End date": "10/30/01",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "selected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(1) Other methods for CO Run 1: Tributary Surveys North Nanaimo AUC estimate was 27 coho, and the Haslam AUC estimate was 488 coho. (4) Describe basis for estimating total adults SK Run 1: Estimate provided by Henry Bob at Nanaimo River Hatchery from observations during instream work and broodstock takes. (4) Describe basis for estimating total adults CO Run 1: Fence count to 30 Oct. 2001 was 1028 adults. Arrival Time: 19 Sept. 2001. Peak Migration: 23 Oct. 2001. Coho would have continued to enter the system for the next 30 days. *** Estimate provided by Henry Bob at Nanaimo River Hatchery from observations during instream work and broodstock takes. (4) Describe basis for estimating total adults PK Run 1: Fence count to 30 Oct. 2001 was 25. Arrival Time: 17 Sept. No peak count. Estimate provided by Henry at Nanaimo River Hatchery from observations during instream work and broodstock takes. (4) Describe basis for estimating total adults CM Run 1: Fence count from 7 Sept. to 30 Oct. was 33,596. Arrival Time: 28 Sept. Peak Migration: 23 Oct. Count incomplete when fence was removed. Lots of spawning immediately below fence. Overflight 4 Oct. 2001 count was 3000. Overflight 7 Nov. 2001 count was 40, 400. Escapement estimate 69, 900 (from Gerry Kelly DFO - Resource Management ) . (4) Describe basis for estimating total adults CN Run 1: Spring Chinook: total return was 700 adults. Broodstock removed was 196 adults. Natural spawners were estimated to be 500 adults. (5) General Comments on Escapement Estimation: A water release on 24 Sept. 2001 resulted in an increase in chinook migration on 26 and 27 Sept. 2001. Multiple surveyors and survey methods - a fence was put in place by DFO Chinook Program from 7 Sept. to 30 Oct. to enumerate chinook migration, two overflights were done by DFO Resource Management to estimate chum, Nanaimo River Hatchery conducted in stream work and broodstock removals, and DFO Coho Survey Crews surveyed the Nanaimo River tributaries (North Nanaimo and Haslam) . BC16 originally prepared by R. Hobbs (CPV) and updated by Steve Baillie. (7) Enhancements: Mortalities on fence: Examined 88 of which 15 were adipose-clipped. Deadpitch results: Examined 311 of which 25 were adipose-clipped. (8) Unusual mortalities: There was a dermocystidium (gill parasite) outbreak during September resulting in ~90 chinook pre-spawn mortalities. (20) On Predator Interactions: IFF (In-river gillnet fishery) : 188 adult Chinook. (4) Describe basis for estimating total adults CN Run 2: Fall Chinook: total return was 1930 adults and 838 jacks; Broodstock removed was 184 adults (54 males, 57 females) . Natural spawners were estimated to be 1564 adults. Fence count from 7 Sept. to 30 Oct. was 1930 adults, 838 jacks. Arrival Time: 13 Sept. 2001. Peak Migration: 13 Oct. 2001. (1) Other methods for CN Run 1: number was estimated during broodstock capture",
+    "Person preparing report": "Steve Baillie",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Rel": "1",
+            "Enum Class": "4",
+            "Esc Code": "A.C.",
+            "Est total adults": "6"
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "10,11",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "1",
+            "Enum Class": "4",
+            "Esc Code": "A.C.",
+            "Est total adults": "7,000",
+            "Jacks": "500"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "11",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "2",
+            "Enum Class": "4",
+            "Esc Code": "A.C.",
+            "Est total adults": "262"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "6,11",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "2",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "69,900"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "10",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "1",
+            "Enum Class": "4",
+            "Esc Code": "A.C.",
+            "Est total adults": "500",
+            "Brood stock removals": "196"
+        },
+        "CN 2": {
+            "Methods": "6,11",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "5",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "1,564",
+            "Brood stock removals": "184",
+            "Jacks": "838"
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "19",
+            "Peak month": "Oct",
+            "Peak day": "23"
+        },
+        "PK 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "17"
+        },
+        "CM 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "28",
+            "Peak month": "Oct",
+            "Peak day": "23"
+        },
+        "CN 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "13",
+            "Peak month": "Oct",
+            "Peak day": "13"
+        }
+    },
+    "Second local name": null,
+    "First local name": null,
+    "Biological details particulars": null,
+    "Area": null
+}

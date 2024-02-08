@@ -1,0 +1,44 @@
+.wrapper {
+    border: 2px solid black;
+  }
+  .title {
+    margin-top: 10px;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  .myList {
+    margin: 0;
+    padding: 10px;
+    list-style-type: none;
+  }
+  
+  .myList li {
+    position: relative; 
+    padding-left: 30px; 
+  }
+  
+  .unselected::before {
+    content: ""; /* The content of the pseudo-element is empty */
+    position: absolute; /* Position the box absolutely within the li */
+    left: 0; /* Align the box to the left of the li */
+    top: 50%; /* Vertically center the box */
+    transform: translateY(-50%); /* Adjust for vertical centering */
+    width: 15px; /* Set width of the square box */
+    height: 15px; /* Set height of the square box */
+    border: 1px solid black; /* Border for the square box */
+  }
+  
+  .selected::before {
+    content: "X"; /* Add the content "X" for the pseudo-element */
+    position: absolute; /* Position the box absolutely within the li */
+    left: 0; /* Align the box to the left of the li */
+    top: 50%; /* Vertically center the box */
+    transform: translateY(-50%); /* Adjust for vertical centering */
+    width: 15px; /* Set width of the square box */
+    height: 15px; /* Set height of the square box */
+    border: 1px solid black; /* Border for the square box */
+    text-align: center; /* Center the content horizontally */
+    line-height: 15px; /* Center the content vertically */
+    font-weight: bold; /* Make the "X" bold for better visibility */
+  }
+  

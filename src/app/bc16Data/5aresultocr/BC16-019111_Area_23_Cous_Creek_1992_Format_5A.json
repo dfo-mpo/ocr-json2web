@@ -1,0 +1,40 @@
+{
+    "Watershed Code": "93-2330",
+    "Gazetted name": "name:COUS CREEK",
+    "1st Local name": "COUSE CREEK",
+    "Flows into": "into:ALBERNI INLET",
+    "year": "1992",
+    "Subarea": "23-1",
+    "Subd. name": "BARKLEY SOUND",
+    "(C) Water levels": "Very low water levels up to spawning period. High water levels during spawning period.",
+    "(K) Additional comments": "Assigned to N.T.C. but no data was provided.",
+    "Fishery Officer": "B. Rushton, AScT",
+    "Duration of Spawning": {
+        "Coho 1": {
+            "Arrival": "OCT",
+            "Start": "OCT",
+            "Peak": "NOV",
+            "End": "DEC"
+        },
+        "Chum 1": {
+            "Arrival": "OCT",
+            "Start": "OCT",
+            "Peak": "OCT",
+            "End": "NOV"
+        }
+    },
+    "(F) Egg digging": null,
+    "(G) New obstructions": null,
+    "(H) recommended enhancement": null,
+    "District": null,
+    "(I) Habitat change": null,
+    "Subdistrict": null,
+    "(E) Comments on predators": null,
+    "(K) Additional comments continued": null,
+    "Signature": null,
+    "Dates of inspection": null,
+    "(B) Particulars of Scouring": null,
+    "2nd local name": null,
+    "(A) Evidence of Erosion": null,
+    "(D) Spawning distribution": null
+}

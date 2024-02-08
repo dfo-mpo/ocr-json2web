@@ -1,0 +1,54 @@
+{
+    "Department": "DEPARTMENT OF FISHERIES AND OCEANS",
+    "Report": "ANNUAL REPORT OF SALMON STREAMS AND SPAWNING POPUL ATIONS",
+    "Watershed code": "91-9005",
+    "Gazetted name": "narw",
+    "First local name": "ANDERSON CREEK",
+    "Flows into": "NORTH END OF KITIMAT ARM",
+    "Year": "1990",
+    "District No.": "?",
+    "Statistical Area": "6",
+    "Subdistrict No.": "6N",
+    "Subdistrict Name": "\u039a\u0399\u03a4\u0399\u039c\u0391\u0393",
+    "Physical Condition (C)": "EXTREMELY LOW WATER LEVELS FROM AUGUST TO LATE SEPTEMBER HIGH WATER LEVELS IN LATE OCTORFR.",
+    "Biological Condition (D)": "MOST ADULT COHO HAVE BEEN OBSERVED FROM BRIDGE CROSSING DOWN STREAM OF PLANT TO CULVERT LOCATED ON PLANT SITE UPSTREAM TO HWY",
+    "Biological Condition (E)": "CULVERT LOCATED BEHIND BAR WASH.",
+    "Biological Condition (F)": "N/0",
+    "Biological Condition (G)": "N/0",
+    "Comments on any other conditions": "1989 DREDGING OF ANDERSON CREEK ;TWO HUNDRED METERS UP & DOWNSTREAM OF THE RAILROAD BRIDGE CROSSING BETWEEN JUNE AND JULY. TO COMPENSATE FOR NO NET LOSS A TEST CHANEL WAS CONSTRUCTED ADJACENT TO THE STREAM ON THE SOUTH SIDE DOWN STREAM OF THE WATER INTAKE FACILITY, A SECOND TEST CHANNEL ( PERMINENT STRUCTURE ) WAS CONSTRUCTED ADJACENT TO THE EXISTING ONE. NO ADULT COHO HAVE BEEN OBSERVED SPAWNING IN THE TEST CHANNEL BUT FRY ARE PRESENT IN THE UPPER REACHES.",
+    "shedcode": "Watershed code",
+    "signature": "FIO angelo Loggia Kelimal A10",
+    "Dates of Inspection": [
+        {
+            "Month": "AUG",
+            "Day": "15"
+        },
+        {
+            "Month": "_SEP1",
+            "Day": "14"
+        },
+        {
+            "Month": "NDV",
+            "Day": "20"
+        }
+    ],
+    "Spawning Run Timing and Estimated Number": {
+        "Coho 1": {
+            "Arrival In Stream Month": "OCT",
+            "Arrival In Stream Day": ":C",
+            "Spawning Start Month": "/NOV",
+            "Spawning Start Day": ":A",
+            "Spawning Peak Month": "/NOV",
+            "Spawning Peak Day": ":B",
+            "Reliability": "3",
+            "Estimated Total on Grounds": ".350"
+        },
+        "Pink 1": {
+            "Reliability": "3",
+            "Estimated Total on Grounds": "N/O"
+        }
+    },
+    "namename": {},
+    "Physical Condition (A)": null,
+    "Physical Condition (B)": null
+}

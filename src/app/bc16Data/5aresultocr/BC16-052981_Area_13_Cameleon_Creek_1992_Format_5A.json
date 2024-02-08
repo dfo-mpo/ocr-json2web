@@ -1,0 +1,51 @@
+{
+    "Watershed Code": "92-2000-750",
+    "1st Local name": "name:CAMELEON HARBOUR CREEK",
+    "Flows into": "into:NODALES CHANNEL",
+    "Subarea": "13-26",
+    "Subd. name": "CAMPBELL RIVER",
+    "Dates of inspection": "AUG |1 AUG 31 |1",
+    "(D) Spawning distribution": "Lower section",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Arrival": "OCT",
+            "Start": "OCT",
+            "Peak": "NOV",
+            "End": "DEC",
+            "Est. Esc": "-2"
+        },
+        "Pink 1": {
+            "Est. Esc": "25"
+        },
+        "Chum 1": {
+            "Arrival": "AUG OCT",
+            "Start": "SEP OCT",
+            "Peak": "OCT OCT",
+            "End": "OCT NOV",
+            "Est. Esc": "-2"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "year": null,
+    "(I) Habitat change": null,
+    "(E) Comments on predators": null,
+    "(B) Particulars of Scouring": null,
+    "(K) Additional comments": null,
+    "(G) New obstructions": null,
+    "(F) Egg digging": null,
+    "(K) Additional comments continued": null,
+    "Signature": null,
+    "Subdistrict": null,
+    "(H) recommended enhancement": null,
+    "District": null,
+    "2nd local name": null,
+    "(C) Water levels": null,
+    "Fishery Officer": null,
+    "(A) Evidence of Erosion": null,
+    "Gazetted name": null
+}

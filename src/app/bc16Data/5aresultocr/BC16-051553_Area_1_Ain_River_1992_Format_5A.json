@@ -1,0 +1,62 @@
+{
+    "Watershed Code": "94-3400",
+    "Gazetted name": "AIN RIVER",
+    "1st Local name": "name:AIN RIVER AND IAN LAKE SYST",
+    "Flows into": "into:MASSET INLET",
+    "year": "1992",
+    "District": "09",
+    "Subarea": "1-6",
+    "Subd. name": "MASSET",
+    "Dates of inspection": "AUG 13 OCT 03 AUG 19 OCT 14 SEP 01 SEP 05",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Arrival": "JUN A",
+            "Start": "SEP B",
+            "Peak": "SEP C",
+            "End": "OCT B",
+            "Methods": "136",
+            "Reliability": "1",
+            "Est. Esc": "-2",
+            "Optimum Esc.": "40000"
+        },
+        "Coho 1": {
+            "Arrival": "B",
+            "Start": "\u00c7",
+            "End": "NOV B",
+            "Methods": "1 3 6",
+            "Reliability": "1",
+            "Est. Esc": "-2",
+            "Optimum Esc.": "20000"
+        },
+        "Chum 1": {
+            "Arrival": "SEP A",
+            "Start": "SEP",
+            "Peak": "OCT C"
+        },
+        "Chinook 1": {
+            "Arrival": "SEP SEP A",
+            "Start": "SEP A SEP B",
+            "Peak": "SEP B SEP C",
+            "End": "OCT A OCT B",
+            "Methods": "1 3 6 136",
+            "Reliability": "1 1",
+            "Est. Esc": "6500 3000 -3",
+            "Optimum Esc.": "25000 25000"
+        }
+    },
+    "(A) Evidence of Erosion": null,
+    "Subdistrict": null,
+    "Fishery Officer": null,
+    "(E) Comments on predators": null,
+    "(D) Spawning distribution": null,
+    "2nd local name": null,
+    "(G) New obstructions": null,
+    "(H) recommended enhancement": null,
+    "(K) Additional comments": null,
+    "Signature": null,
+    "(I) Habitat change": null,
+    "(F) Egg digging": null,
+    "(B) Particulars of Scouring": null,
+    "(C) Water levels": null,
+    "(K) Additional comments continued": null
+}

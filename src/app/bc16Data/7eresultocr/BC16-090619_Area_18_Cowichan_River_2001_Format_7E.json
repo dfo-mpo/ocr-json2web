@@ -1,0 +1,170 @@
+{
+    "Year": "2001",
+    "Gazetted name": "COWICHAN RIVER",
+    "RAB code": "92-4800",
+    "Area": "18",
+    "District": "03",
+    "Sub": "Duncan",
+    "First local name": "COWICHAN RIVER SYSTEM",
+    "Flows into": "COWICHAN BAY",
+    "Latitude": "48 45 12",
+    "Longitude": "123 38 7",
+    "Field Crew": "See Comments",
+    "Inspection dates": "Nov 07",
+    "Start date": "9/4/01",
+    "End date": "10/31/01",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "selected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "selected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "selected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(1) Other methods for CO Run 1: Tributary Surveys. (4) Describe basis for estimating total adults CM Run 1: Fence count from 4 Sept. to 31 Oct. was 7835. Overflight 7 Nov. 2001 count was 52, 300. Preliminary escapement estimate 113,000 (from Gerry Kelly DFO - Resource Management) . (4) Describe basis for estimating total adults CN Run 1: Total return was 6200 adults. Broodstock removed was 1511 adults (711 males, 800 females) Natural spawners were estimated to be 4189 adults. Fence count from 4 Sept. to 31 Oct. was 3350 adults, 1444 jacks. (5) General Comments on Escapement Estimation: Multiple surveyors and survey methods - a fence was put in place by DFO Chinook Program from 4 Sept. to 31 Oct. to enumerate chinook migration, an overflight was done by DFO Resource Management to estimate chum, and DFO Coho Survey Crews surveyed several Cowichan River tributaries which have their own reports. BC16 originally prepared by R. Hobbs (CPV) and updated by Steve Baillie. (7) Enhancements: Deadpitch results: Examined 879 of which 37 were adipose-clipped. (13) Drought: This was an extremely low water year on the Cowichan River. This low water caused the chinook (especially) to hold in the estuary and lower reaches until adequate rain increased the water levels. (15) General Comments on Unusual Conditions: Water releases on 27 Sept. and 12 Oct. 2001 resulted in increases in chinook migration on 28 Sept. and 13 Oct. 2001, respectively. (20) On Predator Interactions: IFF (spear fishery) : 500 adult Chinook (R Hobbs) . The longer holding period in the estuary resulted in possible increased predation by marine mammals and the outcome was a lower than expected return of adult chinook spawners. (4) Describe basis for estimating total adults CO Run 1: This escapement estimate is based on very good fence data to 31 October 2001. 15,406 coho were counted through the chinook fence at the pumphouse site in Duncan. This fence was pulled on 31 October, when the peak count of 4122 coho were enumerated. Data from the fence on the Goldstream River suggested that this peak dropped very quickly, followed by another migration pulse about two weeks later. This second pulse peaked at about one half of the previous peak, but was over a longer period. Using these assumptions guessed that the total escapement is 25, 000. The swim counts in the upper Cowichan River (3 km) indicates that numbers of coho were building from mid October to mid November, supporting the second migration assumption. 1306 jack coho were counted through the fence to 31 October. This count was expanded by a lower ratio than the adult count because jacks arrive relatively earlier than adults. (2) CO Run 1 Reliability: Fence count (high reliability) was expanded using data from the Goldstream fence. The Cowichan fence operated until 31 October 2001, so the subsequent number of coho that would have been counted was estimated using the data from the Goldstream fence. The relative peak counts and days were compared to the existing data and a total estimate of 25, 000 was obtained. The number of jacks was estimated by ratio up to 31 October, then assuming fewer jacks would be entering the Cowichan after this date.",
+    "Person preparing report": "Steve Baillie",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "CO 1": {
+            "Methods": "6,10,11",
+            "%Spawn habitat surveyed": "60",
+            "Rel": "2",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "25,000",
+            "Jacks": "2,000"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "CM 1": {
+            "Methods": "6,11",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "2",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "113,000 4,189",
+            "Brood stock removals": "1,511",
+            "Jacks": "1,444"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "CN 1": {
+            "Methods": "11",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "5",
+            "Enum Class": "1",
+            "Esc Code": "A.C."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "21",
+            "Start month": "Oct",
+            "Start day": "21-31",
+            "Peak month": "Nov",
+            "Peak day": "11-20",
+            "End month": "Dec",
+            "End day": "21-31"
+        },
+        "CN 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "6",
+            "Peak month": "Oct",
+            "Peak day": "13"
+        }
+    },
+    "Biological details particulars": null,
+    "Second local name": null
+}

@@ -1,0 +1,43 @@
+{
+    "Watershed Code": "92-2500",
+    "Gazetted name": "name:MENZIES CREEK",
+    "Flows into": "MENZIES BAY",
+    "District": "05",
+    "Subdistrict": "13",
+    "Subarea": "13-3",
+    "Subd. name": "CAMPBELL RIVER",
+    "(G) New obstructions": "Normal beaver dams",
+    "(K) Additional comments": "not inspected in 1992",
+    "Fishery Officer": "R. Christiansen",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Est. Esc": "-2"
+        },
+        "Pink 1": {
+            "Est. Esc": "-2 300"
+        },
+        "Chum 1": {
+            "Est. Esc": "-2 50"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "(I) Habitat change": null,
+    "(A) Evidence of Erosion": null,
+    "(B) Particulars of Scouring": null,
+    "2nd local name": null,
+    "(K) Additional comments continued": null,
+    "1st Local name": null,
+    "Dates of inspection": null,
+    "(H) recommended enhancement": null,
+    "(F) Egg digging": null,
+    "(D) Spawning distribution": null,
+    "Signature": null,
+    "(C) Water levels": null,
+    "year": null,
+    "(E) Comments on predators": null
+}

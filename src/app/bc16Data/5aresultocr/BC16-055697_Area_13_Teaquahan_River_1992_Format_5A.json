@@ -1,0 +1,43 @@
+{
+    "Watershed Code": "90-3580",
+    "Gazetted name": "TEAQUAHAN RIVER",
+    "1st Local name": "CREEK",
+    "Flows into": "BUTE INLET",
+    "Subdistrict": "13",
+    "Subarea": "13-22",
+    "Subd. name": "Name:CAMPBELL RIVER",
+    "(D) Spawning distribution": "LOWER RIVER 1st 1/2 MILE MAIN SPAWNING GROUNDS",
+    "(K) Additional comments": "Stream not inspected this year",
+    "Fishery Officer": "R. Christiansen",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Est. Esc": "-2"
+        },
+        "Pink 1": {
+            "Est. Esc": "-2"
+        },
+        "Chum 1": {
+            "Est. Esc": "-2"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-2"
+        }
+    },
+    "(K) Additional comments continued": null,
+    "year": null,
+    "(H) recommended enhancement": null,
+    "2nd local name": null,
+    "District": null,
+    "(E) Comments on predators": null,
+    "(G) New obstructions": null,
+    "Signature": null,
+    "Dates of inspection": null,
+    "(F) Egg digging": null,
+    "(B) Particulars of Scouring": null,
+    "(I) Habitat change": null,
+    "(A) Evidence of Erosion": null,
+    "(C) Water levels": null
+}

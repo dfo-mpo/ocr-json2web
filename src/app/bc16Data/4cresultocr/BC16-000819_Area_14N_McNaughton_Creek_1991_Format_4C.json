@@ -1,0 +1,60 @@
+{
+    "Watershed code": "92 - 3410",
+    "Gazetted name": "McNAUGHTON CREEK",
+    "Flows Into": "COOK CREEK",
+    "Year": "1991",
+    "District No.": "3",
+    "Statistical Area": "14 - 8",
+    "Subdistrict No.": "14N",
+    "Subdistrict Name": "COMOX, B. C.",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "selected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NONE OBSERVED",
+    "Additional (B) Particulars of scouring of spawning beds": "NONE OBSERVED",
+    "Additional (C) Water levels flow": "LOW WATER IN SEPT. AND OCT. HIGH FLOWS IN AUG., NOV. AND LATE DEC. TO EARLY JAN.",
+    "Biological (D) Particulars of distribution": "COHO USE LOWER ONE HALF OF THE SYSTEM, CHUMS BELOW THE HIGHWAY BRIDGE.",
+    "Biological (E) Comments on predators": "BIRDS, BEARS AND OTTERS.",
+    "Biological (F) Evidence of digging eggs": "NONE OBSERVED",
+    "Biological (G) New obstruction": "NONE OBSERVED",
+    "Comments (K)": "THIS SYSTEM HAS EXCELENT SPAWNING POTENTIAL, HOWEVER IT IS RESTICTED BY BEAVER DAMS AND BUILD UP OF DEBRIS. REMOVAL OF THESE OBSTUCTIONS SHOULD BE LOOKED AT NEXT SUMMER.",
+    "Date of inspection": [
+        {
+            "Month": "NOV",
+            "Day": "22"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "OCT:",
+            "Arrival day": "25",
+            "Start month": "NOV:",
+            "Start day": "10",
+            "Peak month": "NOV:",
+            "Peak day": "25",
+            "End month": "DEC:",
+            "End day": "15",
+            "Method": "1",
+            "Reliability": "4",
+            "Estimated total No. on grounds": "20"
+        },
+        "Chum 1": {
+            "Arrival month": "NOV:",
+            "Arrival day": "5",
+            "Start month": "NOV:",
+            "Start day": "15",
+            "Peak month": "NOV:",
+            "Peak day": "25",
+            "End month": "DEC:",
+            "End day": "10",
+            "Method": "1",
+            "Reliability": "4",
+            "Estimated total No. on grounds": "100"
+        }
+    },
+    "Second local name": null,
+    "First local name": null,
+    "Dates of inspection (1)": null
+}

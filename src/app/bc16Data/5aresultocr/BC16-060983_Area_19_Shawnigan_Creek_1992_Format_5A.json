@@ -1,0 +1,46 @@
+{
+    "Watershed Code": "92-5000",
+    "Gazetted name": "SHAWNIGAN CREEK",
+    "1st Local name": "name:MILLSTREAM CREEK",
+    "Flows into": "into:MILL BAY INTO SAANICH INLET",
+    "year": "1992",
+    "District": "06",
+    "Subdistrict": "19",
+    "Subarea": "19-8",
+    "Subd. name": "VICTORIA/SAANICH",
+    "Dates of inspection": "SEP 16 OCT 16 NOV DEC",
+    "(D) Spawning distribution": "Moved to Cedar Creek: 8 females, 10 males, 5 jacks. Moved to Cameron Taggert Rd: 18 females, 21 males, 17 jacks.",
+    "Fishery Officer": "Stefan Beckmann",
+    "Duration of Spawning": {
+        "Coho 1": {
+            "Arrival": "NOV A",
+            "Start": "NOV A",
+            "Peak": "NOV C",
+            "End": "DEC C",
+            "Methods": "6",
+            "Reliability": "5",
+            "Est. Esc": "293",
+            "Brood esc.": "99",
+            "Jacks": "22",
+            "Optimum Esc.": "1000"
+        },
+        "Chinook 1": {
+            "Arrival": "OCT C",
+            "Methods": "6",
+            "Reliability": "5",
+            "Est. Esc": "1"
+        }
+    },
+    "(E) Comments on predators": null,
+    "(C) Water levels": null,
+    "2nd local name": null,
+    "Signature": null,
+    "(K) Additional comments continued": null,
+    "(G) New obstructions": null,
+    "(I) Habitat change": null,
+    "(H) recommended enhancement": null,
+    "(A) Evidence of Erosion": null,
+    "(K) Additional comments": null,
+    "(F) Egg digging": null,
+    "(B) Particulars of Scouring": null
+}

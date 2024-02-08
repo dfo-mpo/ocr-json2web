@@ -1,0 +1,45 @@
+{
+    "Watershed Code": "92-2300-810",
+    "1st Local name": "GRANITE BAY CREEK",
+    "Flows into": "into:GRANITE BAY",
+    "year": "1992",
+    "Subarea": "13-11",
+    "Subd. name": "CAMPBELL RIVER",
+    "Dates of inspection": "OCT 26 |1 OCT 28 NOV 18 DEC 10 |1",
+    "(A) Evidence of Erosion": "Dec: Washout by trib creek caused silting",
+    "(C) Water levels": "Normal",
+    "(D) Spawning distribution": "217 fish counted above beaver dam, nearly 800 fish from mouth of creek to dam.",
+    "(G) New obstructions": "2 small log jams (beaver) : Local resident opens dams to allow fis h to move upstream.",
+    "Fishery Officer": "G. Chiasson/J. Earl",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Est. Esc": "-2"
+        },
+        "Pink 1": {
+            "Est. Esc": "-2 800"
+        },
+        "Chum 1": {
+            "Start": "OCT",
+            "Reliability": "5",
+            "Est. Esc": "1200 900"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "(F) Egg digging": null,
+    "(I) Habitat change": null,
+    "(B) Particulars of Scouring": null,
+    "2nd local name": null,
+    "District": null,
+    "Subdistrict": null,
+    "(E) Comments on predators": null,
+    "(K) Additional comments continued": null,
+    "Signature": null,
+    "Gazetted name": null,
+    "(K) Additional comments": null,
+    "(H) recommended enhancement": null
+}

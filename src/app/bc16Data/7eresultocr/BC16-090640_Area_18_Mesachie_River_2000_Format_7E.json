@@ -1,0 +1,161 @@
+{
+    "Year": "2000",
+    "RAB code": "92-4800-580",
+    "Area": "18",
+    "District": "03",
+    "Sub": "Duncan",
+    "First local name": "MESACHIE CREEK",
+    "Second local name": "BEAR CREEK",
+    "Flows into": "ROBERTSON RIVER",
+    "Field Crew": "Ryan Kalar, Steve Williams (CLSES)",
+    "Inspection dates": "Oct 17 Oct 26 Nov 10 Nov 24 Nov 30 Dec 06 Dec 14",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: Counts were also done on Halfway Creek, tribs 1, 2, and 3. This is a small system feeding into Mesachie Lake, which is drained by Mesachie Creek. Observer Efficiency is very low due to extensive cover and numerous places for coho to hide. This data has not been included in this estimate. (2) CO Run 1 Reliability: Weekly surveys. Viewing conditions are ideal with low volumes of woody debris in system. (4) Describe basis for estimating total adults CO Run : AUC estimate, using 14 day survey life. A zero count was added in for 21 December 2000, 7 days after final count. (2) CT Run 1 Reliability: Only seen once (4) Describe basis for estimating total adults CT Run 1: 3 cutthroat seen on 30-Nov-2000.",
+    "Person preparing report": "Steve Baillie",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "CO 1": {
+            "Methods": "2",
+            "N": "4",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "3",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "149"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "CM 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "CT 1": {
+            "Methods": "2",
+            "N": "1",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "1",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "3"
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Nov",
+            "Arrival day": "21-31",
+            "Start month": "Nov",
+            "Start day": "21-31",
+            "Peak month": "Dec",
+            "Peak day": "1-10",
+            "End month": "Dec",
+            "End day": "11-20"
+        }
+    },
+    "Longitude": null,
+    "End date": null,
+    "Gazetted name": null,
+    "Latitude": null,
+    "Start date": null,
+    "Biological details particulars": null
+}

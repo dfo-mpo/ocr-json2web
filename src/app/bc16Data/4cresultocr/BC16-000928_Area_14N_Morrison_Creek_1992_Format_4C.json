@@ -1,0 +1,99 @@
+{
+    "Watershed code": "92 - 2800 - 020",
+    "Gazetted name": "MORRISON CREEK",
+    "Flows Into": "PUNTLEDGE RIVER",
+    "Year": "1992",
+    "District No.": "3",
+    "Statistical Area": "14 - 14",
+    "Subdistrict No.": "14N",
+    "Subdistrict Name": "COMOX, B. C.",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NONE OBSERVED",
+    "Additional (B) Particulars of scouring of spawning beds": "NONE OBSERVED",
+    "Additional (C) Water levels flow": "LOW WATER IN SEPT. AND EARLY OCT. HIGH FLOWS IN EARLY NOV. GOOD FALL FLOWS",
+    "Biological (D) Particulars of distribution": "COHO and PINK THROUGHOUT THE SYSTEM, CHUM FROM FIRST STREET TO MOUTH.",
+    "Biological (E) Comments on predators": "BIRDS, BEARS, PUBLIC AND OTTERS.",
+    "Biological (F) Evidence of digging eggs": "PINK EGGS WAS EVIDENT",
+    "Biological (G) New obstruction": "NONE OBSERVED",
+    "Comments (K)": "THIS SUMMER WORK WAS DONE AT PUNTLEDGE PARK TO STOP THE FLOODING OF THE PARK FROM MORRISON CREEK. A RIP RAP WALL WAS PLACED ALONG A SECTION OF THE BANK TO HELP CONTAINT THE CREEK WATER. THIS SYSTEM IS A CONSISITANT PRODUCER OF PINKS AND CHUM SALMON. URBAN DEVELOPEMENT IS ENCROACHING INTO THE WATERSHED OF THIS SYSTEM, INCREASING RUN-OFF AND HABITAT DISTRUCTION.",
+    "Date of inspection": [
+        {
+            "Month": "SEPT",
+            "Day": "22"
+        },
+        {
+            "Month": "NOV",
+            "Day": "09"
+        },
+        {
+            "Month": "SEPT",
+            "Day": "30"
+        },
+        {
+            "Month": "NOV",
+            "Day": "20"
+        },
+        {
+            "Month": "OCT02"
+        },
+        {
+            "Month": "NOV",
+            "Day": "23"
+        },
+        {
+            "Month": "OCT08"
+        },
+        {
+            "Month": "OCT",
+            "Day": "20"
+        },
+        {
+            "Month": "OCT",
+            "Day": "25"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "SEP:",
+            "Arrival day": "C",
+            "Start month": "OCT:",
+            "Start day": "B",
+            "Peak month": "NOV:",
+            "Peak day": "B",
+            "End month": "DEC:",
+            "End day": "A",
+            "Method": "1",
+            "Reliability": "5",
+            "Estimated total No. on grounds": "150"
+        },
+        "Pink 1": {
+            "Arrival month": "SEP:",
+            "Arrival day": "B",
+            "Start month": "SEP:",
+            "Start day": "C",
+            "Peak month": "OCT:",
+            "Peak day": "A",
+            "End month": "OCT:",
+            "End day": "B",
+            "Method": "1",
+            "Reliability": "5",
+            "Estimated total No. on grounds": "2500"
+        },
+        "Chum 1": {
+            "Arrival month": "OCT:",
+            "Arrival day": "C",
+            "Start month": "OCT:",
+            "Start day": "C",
+            "Peak day": "A",
+            "End day": "C",
+            "Estimated total No. on grounds": "1600"
+        }
+    },
+    "First local name": null,
+    "Second local name": null,
+    "Dates of inspection (1)": null
+}

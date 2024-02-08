@@ -1,0 +1,107 @@
+{
+    "Watershed code": "92 - 3400",
+    "Gazetted name": "ROSEWALL CREEK",
+    "Flows Into": "BAYNES SOUND",
+    "Year": "1991",
+    "District No.": "3",
+    "Statistical Area": "14 - 8",
+    "Subdistrict No.": "14N",
+    "Subdistrict Name": "COMOX, B. C.",
+    "(A) Enhancement or intense biological activities": "selected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NONE OBSERVED",
+    "Additional (B) Particulars of scouring of spawning beds": "LARGE GRAVEL BUILD UP DUE TO LOG JAMS. SOME FLOODING OF SURROUNDING AREA WITH HIGHI WATER.",
+    "Additional (C) Water levels flow": "LOW WATER IN SEPT. AND OCT. HIGH FLOWS IN AUG., NOV., AND LATE DEC. TO EARLY JAN.",
+    "Biological (D) Particulars of distribution": "COHO, PINKS AND CHUM BELOW HATCHERY FENCE.",
+    "Biological (E) Comments on predators": "BIRDS, BEARS AND OTTERS.",
+    "Biological (F) Evidence of digging eggs": "NONE OBSERVED",
+    "Biological (G) New obstruction": "LARGE LOG JAM BELOW HATCHERY WAS REMOVED THIS FALL. GRAVEL BUILD UP AROUND HATCHERY WAS SPREAD BACK INTO THE RIVER.",
+    "Comments (K)": "THIS SYSTEM DRIES UP FROM THE HIGHWAY BRIDGE TO THE MOUTH IN THE SUMMER AND EARLY FALL OF EVERY YEAR. FINAL NUMBERS WERE OBTAINED FROM DAVE CLOUGH.",
+    "Date of inspection": [
+        {
+            "Month": "JULY",
+            "Day": "19"
+        },
+        {
+            "Month": "NOV",
+            "Day": "28"
+        },
+        {
+            "Month": "OCT",
+            "Day": "01"
+        },
+        {
+            "Month": "NOV",
+            "Day": "06"
+        },
+        {
+            "Month": "OCT",
+            "Day": "24"
+        },
+        {
+            "Month": "DEC",
+            "Day": "09"
+        },
+        {
+            "Month": "NOV",
+            "Day": "06"
+        },
+        {
+            "Month": "NOV",
+            "Day": "15"
+        },
+        {
+            "Month": "NOV",
+            "Day": "22"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "OCT:",
+            "Arrival day": "1",
+            "Start month": "OCT:",
+            "Start day": "26",
+            "Peak month": "NOV:",
+            "Peak day": "25",
+            "End month": "DEC:",
+            "End day": "15",
+            "No. of observer": "5",
+            "Method": "1 HATCHERY",
+            "Reliability": "5",
+            "Estimated total No. on grounds": "60"
+        },
+        "Pink 1": {
+            "Arrival month": "SEP:",
+            "Arrival day": "20",
+            "Start month": "SEP:",
+            "Start day": "20",
+            "Peak month": "SEP :",
+            "Peak day": "30",
+            "End day": "10",
+            "No. of observer": "1",
+            "Method": "1",
+            "Reliability": "4",
+            "Estimated total No. on grounds": "20"
+        },
+        "Chum 1": {
+            "Arrival month": "NOV:",
+            "Arrival day": "01",
+            "Start month": "NOV:",
+            "Start day": "15",
+            "Peak month": "NOV:",
+            "Peak day": "25",
+            "End month": "DEC:",
+            "End day": "10",
+            "No. of observer": "3",
+            "Method": "1 HATCHERY",
+            "Reliability": "5",
+            "Estimated total No. on grounds": "150"
+        }
+    },
+    "First local name": null,
+    "Second local name": null,
+    "Dates of inspection (1)": null
+}

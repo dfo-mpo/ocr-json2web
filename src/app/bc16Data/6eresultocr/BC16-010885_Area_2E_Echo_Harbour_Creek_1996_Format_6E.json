@@ -1,0 +1,62 @@
+{
+    "Bookmark": "BC16 1996",
+    "Watershed code": "95-1185",
+    "Gazetted name": "Echo Harbour Creek",
+    "Local name": "Echo Harbour Creek",
+    "Flows into": "Echo Harbour - Darwin Sound",
+    "Year": "1996",
+    "District number": "9",
+    "Statistical Area": "2-10",
+    "Subdistrict number": "Area 2 East",
+    "Subdistrict name": "Sandspit",
+    "Dates of inspection": "Aug 14 Aug 19 Aug 27 Sep 06 Sep 16 Sep 29",
+    "(A) Enhancement": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstructions": "unselected",
+    "(D) Large variation": "unselected",
+    "(E) High/low water": "unselected",
+    "Physical conditions (A) Evidence": "None observed.",
+    "Physical conditions (B) Particulars": "None observed.",
+    "Physical conditions (C) Water levels": "Consistently good water levels through the spawning period.",
+    "Biological conditions (D) Particulars": "Pinks to falls. Nothing seen above falls this year.",
+    "Biological conditions (E) Predators comments": "Moderate impact from birds.",
+    "Biological conditions (F) Evidence": "None observed.",
+    "Comments": "Pink return less than expected, but consistent with returns throughout the sub-area.",
+    "Person preparing": "David Beggs",
+    "Spawning run timing": {
+        "Coho 1": {
+            "Arrival month": "Sep",
+            "Spawning start month": "Sep",
+            "Spawning peak month": "Oct",
+            "Spawning end month": "Nov",
+            "Observers": "1",
+            "Methods": "1",
+            "Reliability": "2",
+            "Total on grounds": "10",
+            "Target escape": "300"
+        },
+        "Pink 1": {
+            "Arrival month": "Aug",
+            "Arrival day": "A",
+            "Spawning start month": "Aug",
+            "Spawning start day": "B",
+            "Spawning peak month": "Aug",
+            "Spawning peak day": "C",
+            "Spawning end month": "Sep",
+            "Spawning end day": "B",
+            "Observers": "4",
+            "Methods": "1",
+            "Reliability": "4",
+            "Total on grounds": "3,200",
+            "Target escape": "10,000"
+        },
+        "Chum 1": {
+            "Observers": "1",
+            "Methods": "1",
+            "Reliability": "2",
+            "Total on grounds": "10",
+            "Target escape": "500"
+        }
+    },
+    "Biological conditions (G) New obstructions": null
+}

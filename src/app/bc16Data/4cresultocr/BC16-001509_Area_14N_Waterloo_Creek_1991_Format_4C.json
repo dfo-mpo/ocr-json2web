@@ -1,0 +1,84 @@
+{
+    "Watershed code": "92 - 3340",
+    "Gazetted name": "WATERLOO CREEK",
+    "Flows Into": "BAYNES SOUND",
+    "Year": "1991",
+    "District No.": "3",
+    "Statistical Area": "14- 8",
+    "Subdistrict No.": "14N",
+    "Subdistrict Name": "COMOX, B. C.",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NONE OBSERVED",
+    "Additional (B) Particulars of scouring of spawning beds": "NONE OBSERVED",
+    "Additional (C) Water levels flow": "LOW FLOWS IN SEPT. AND OCT. HIGH FLOWS IN NOV. AND LATE DEC. - EARLY JAN.",
+    "Biological (D) Particulars of distribution": "COMO SPAWN IN THE LOWER ONE HALF OF THE SYSTEM, CHUM IN THE BOTTOM ONE QUARTER.",
+    "Biological (E) Comments on predators": "BIRDS AND OTIERS",
+    "Biological (F) Evidence of digging eggs": "NONE OBSERVED",
+    "Biological (G) New obstruction": "NONE OBSERVED",
+    "Comments (K)": "WORK WAS DONE ON THIS SYSTEM TO IMPROVE FLOW AND TO STOP EROSION OF SOME OF THE BANKS. A NEW PRIVATE BRIDGE WAS CONSTRUCTED JUST UP FROM THE HIGHWAY BRIDGE TO ACCESS THE PROPERTY. FINAL NUMBERS WERE OBTAINED FROM DAVE CLOUGH.",
+    "Date of inspection": [
+        {
+            "Month": "JULY",
+            "Day": "18"
+        },
+        {
+            "Month": "DEC",
+            "Day": "11"
+        },
+        {
+            "Month": "OCT",
+            "Day": "24"
+        },
+        {
+            "Month": "NOV",
+            "Day": "06"
+        },
+        {
+            "Month": "NOV",
+            "Day": "12"
+        },
+        {
+            "Month": "NOV",
+            "Day": "21"
+        },
+        {
+            "Month": "NOV",
+            "Day": "27"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "OCT:",
+            "Arrival day": "20",
+            "Start month": "NOV:",
+            "Start day": "05",
+            "Peak month": "NOV:",
+            "Peak day": "25",
+            "End month": "DEC:",
+            "End day": "15",
+            "Method": "1",
+            "Reliability": "4",
+            "Estimated total No. on grounds": "15"
+        },
+        "Chum 1": {
+            "Arrival month": "NOV:",
+            "Arrival day": "01",
+            "Start month": "NOV:",
+            "Start day": "05",
+            "Peak month": "NOV:",
+            "Peak day": "20",
+            "End month": "DEC:",
+            "End day": "01",
+            "Method": "1",
+            "Reliability": "4",
+            "Estimated total No. on grounds": "15"
+        }
+    },
+    "First local name": null,
+    "Second local name": null,
+    "Dates of inspection (1)": null
+}

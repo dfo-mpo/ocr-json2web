@@ -1,0 +1,16 @@
+.errorLink{
+ text-align: center;
+
+}
+
+.errorLink a{
+   
+    text-decoration: none;
+    color: red
+
+}
+.errorLink a:hover{
+    color: #000000;
+    text-decoration: underline;
+
+}

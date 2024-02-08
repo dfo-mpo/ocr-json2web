@@ -1,0 +1,65 @@
+{
+    "Watershed code": "90-3600",
+    "Gazetted name": "HOMATHKO RIVER",
+    "First local name": "Homathko River",
+    "Flows Into": "Head of Bute Inlet",
+    "Year": "Year: 1991",
+    "District No.": "5",
+    "Statistical Area": "13-22",
+    "Subdistrict No.": "13",
+    "Subdistrict Name": "QUATHIASKI",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Biological (D) Particulars of distribution": "mouth to 26.5 miles",
+    "Biological (E) Comments on predators": "Bears (grizzly & black)",
+    "Date of inspection": null,
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "AUG:",
+            "Start month": "SEP:",
+            "Peak month": "OCT:",
+            "End month": "NOV:",
+            "No. of observer": "2",
+            "Method": "4",
+            "Estimated total No. on grounds": "400"
+        },
+        "Pink 1": {
+            "Arrival month": "AUG:",
+            "Start month": "AUG:",
+            "Peak month": "SEP:",
+            "End month": "SEP:",
+            "No. of observer": "1",
+            "Method": "4"
+        },
+        "Chum 1": {
+            "Arrival month": "OCT:",
+            "Start month": "OCT:",
+            "Peak month": "NOL:",
+            "End month": "DEC:",
+            "No. of observer": "2",
+            "Method": "4",
+            "Estimated total No. on grounds": "8500",
+            "Optimum escapement": "75000"
+        },
+        "Chin 1": {
+            "Arrival month": "JUL :",
+            "Start month": "AUG:",
+            "Peak month": "SEP:",
+            "End month": "SEP",
+            "No. of observer": "2",
+            "Method": "4",
+            "Optimum escapement": "15000"
+        }
+    },
+    "Biological (F) Evidence of digging eggs": null,
+    "Second local name": null,
+    "Additional (A) Evidence of erosion and silting": null,
+    "Comments (K)": null,
+    "Additional (C) Water levels flow": null,
+    "Additional (B) Particulars of scouring of spawning beds": null,
+    "Dates of inspection (1)": null,
+    "Biological (G) New obstruction": null
+}

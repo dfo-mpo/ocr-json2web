@@ -1,0 +1,62 @@
+{
+    "Bookmark": "BC16 1996",
+    "Watershed code": "95-9600-060",
+    "Gazetted name": "Heater Creek",
+    "Local name": "Heater Creek",
+    "Flows into": "Heater Harbour - Hecate Straits",
+    "Year": "1996",
+    "District number": "9",
+    "Statistical Area": "2-18",
+    "Subdistrict number": "Area 2 East",
+    "Subdistrict name": "Sandspit",
+    "Dates of inspection": "Oct 16",
+    "(A) Enhancement": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstructions": "unselected",
+    "(D) Large variation": "unselected",
+    "(E) High/low water": "unselected",
+    "Physical conditions (A) Evidence": "None observed.",
+    "Physical conditions (B) Particulars": "None observed.",
+    "Physical conditions (C) Water levels": "Consistently good water levels through the spawning period.",
+    "Biological conditions (D) Particulars": "Up to 800 m. in each branch, majority in L/H branch.",
+    "Biological conditions (E) Predators comments": "Minimal impact.",
+    "Biological conditions (F) Evidence": "None observed",
+    "Biological conditions (G) New obstructions": "1 None.",
+    "Comments": "Not walked enough for a reliable final number.",
+    "Person preparing": "David Beggs",
+    "Spawning run timing": {
+        "Coho 1": {
+            "Observers": "0",
+            "Methods": "1",
+            "Reliability": "2",
+            "Total on grounds": "N/O",
+            "Target escape": "150"
+        },
+        "Pink 1": {
+            "Arrival month": "Sep",
+            "Spawning start month": "Sep",
+            "Spawning peak month": "Sep",
+            "Spawning end month": "Sep",
+            "Observers": "1",
+            "Methods": "1",
+            "Reliability": "2",
+            "Total on grounds": "5",
+            "Target escape": "50"
+        },
+        "Chum 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "C",
+            "Spawning start month": "Sep",
+            "Spawning start day": "C",
+            "Spawning peak month": "Oct",
+            "Spawning peak day": "B",
+            "Spawning end month": "Oct",
+            "Spawning end day": "C",
+            "Observers": "1",
+            "Methods": "1",
+            "Reliability": "2",
+            "Total on grounds": "20",
+            "Target escape": "3,000"
+        }
+    }
+}

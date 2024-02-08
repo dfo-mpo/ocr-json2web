@@ -1,0 +1,40 @@
+{
+    "Watershed Code": "93-1000-050",
+    "Gazetted name": "CREEK",
+    "Flows into": "N JUAN RIVER",
+    "year": "1992",
+    "Subarea": "2",
+    "Subd. name": "SOOKE",
+    "Dates of inspection": "OCT 21 NOV 23",
+    "(A) Evidence of Erosion": "None.",
+    "(B) Particulars of Scouring": "None.",
+    "(C) Water levels": "Normal.",
+    "(D) Spawning distribution": "Evenly throughout lower end.",
+    "(E) Comments on predators": "Normal predation.",
+    "(F) Egg digging": "None.",
+    "(G) New obstructions": "Logjam at lower end needs to be removed.",
+    "(H) recommended enhancement": "None.",
+    "(I) Habitat change": "None.",
+    "Fishery Officer": "Roy Osselton",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Arrival": "OCT",
+            "Start": "OCT 01",
+            "Peak": "NOV 30",
+            "End": "DEC 01"
+        },
+        "Coho 1": {
+            "Methods": "1 2",
+            "Reliability": "3",
+            "Est. Esc": "32",
+            "Optimum Esc.": "500"
+        }
+    },
+    "District": null,
+    "Signature": null,
+    "(K) Additional comments continued": null,
+    "2nd local name": null,
+    "(K) Additional comments": null,
+    "1st Local name": null,
+    "Subdistrict": null
+}

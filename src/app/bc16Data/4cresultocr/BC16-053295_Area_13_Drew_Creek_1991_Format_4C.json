@@ -1,0 +1,50 @@
+{
+    "Watershed code": "92-2300-310",
+    "Gazetted name": "DREW CREEK",
+    "First local name": "Drew Harbour Creek",
+    "Flows Into": "Drew Harbour a",
+    "Year": "1991",
+    "District No.": "5",
+    "Statistical Area": "13-15",
+    "Subdistrict No.": "13",
+    "Subdistrict Name": "QUATHIASKI",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (C) Water levels flow": "Water level low. Creek bed in god condition.",
+    "Comments (K)": "No fish seen. Possibly too early for fish count.",
+    "Date of inspection": [
+        {
+            "Month": "22",
+            "Day": "9"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "OCT:",
+            "Start month": "OCT:",
+            "Peak month": "OCT:",
+            "End month": "NOV:",
+            "Method": "1",
+            "Estimated total No. on grounds": "UK"
+        },
+        "Chum 1": {
+            "Arrival month": "OCT",
+            "Start month": "OCT:",
+            "Peak day": "NO\\:",
+            "End month": "NOV:",
+            "Method": "1",
+            "Estimated total No. on grounds": "UK"
+        }
+    },
+    "Biological (E) Comments on predators": null,
+    "Additional (B) Particulars of scouring of spawning beds": null,
+    "Dates of inspection (1)": null,
+    "Biological (F) Evidence of digging eggs": null,
+    "Biological (D) Particulars of distribution": null,
+    "Additional (A) Evidence of erosion and silting": null,
+    "Biological (G) New obstruction": null,
+    "Second local name": null
+}

@@ -1,0 +1,160 @@
+{
+    "Year": "2001",
+    "Gazetted name": "HEADQUARTERS CREEK",
+    "RAB code": "29-3184",
+    "District": "03",
+    "Sub": "14N Comox",
+    "First local name": "WOLF CREEK",
+    "Field Crew": "Eli Rosengard, TRRS, Volunteers",
+    "Inspection dates": "Aug 19 Aug 29 Sep 16 Sep 19",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "selected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Coho found in large numbers in tributaries and ephemeral streams. Pinks beyond New Island Highway.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(7) Enhancements: Onsite incubation at Headquarters Hatchery from Quinsam - Puntledge eggs. (18) Flow augmentation: Wolf Lake valve opened early this year bringing fish into Tsolum early and possibly affecting Headwaters timing. (4) Describe basis for estimating total adults CO Run 1: Coho numbers appear reasonable, perhaps conservative based on conversation with one observer. Other info was undocumented and not given a high reliability factor. (5) General Comments on Escapement Estimation: Mid November and early January high water may have affected eggs.",
+    "Person preparing report": "Eli Rosengard",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1,2",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "1",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "500"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "1,2",
+            "N": "4",
+            "%Spawn habitat surveyed": "85",
+            "Rel": "4",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "9,000"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "PK 1": {
+            "Arrival month": "Aug",
+            "Arrival day": "25",
+            "Start month": "Sep",
+            "Start day": "16",
+            "Peak month": "Sep",
+            "Peak day": "23",
+            "End month": "Oct",
+            "End day": "10"
+        }
+    },
+    "End date": null,
+    "Area": null,
+    "Flows into": null,
+    "Start date": null,
+    "Second local name": null,
+    "Latitude": null,
+    "Longitude": null
+}

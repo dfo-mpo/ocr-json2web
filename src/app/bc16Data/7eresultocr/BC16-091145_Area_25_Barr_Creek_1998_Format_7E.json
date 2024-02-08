@@ -1,0 +1,177 @@
+{
+    "Year": "1998",
+    "Gazetted name": "BARR CREEK",
+    "RAB code": "93-6560",
+    "District": "04",
+    "Sub": "Tahsis",
+    "Latitude": "49 54 50",
+    "Longitude": "126 46 56",
+    "Field Crew": "Guy Chiasson",
+    "Inspection dates": "Nov 01",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "TIDE ZONE TO 0.4 KM",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: SOCKEYE AND CHUM ESTIMATE BASED ON ONE VISIT ONLY, DONE AT THE END OF THE RUN, EXPANDED PEAK LIVE + DEAD. COHO ESTIMATE BASED ON THE FACT THAT THERE WERE NO NEW FISH IN STREAM AT THIS LATE VISIT. CHINOOK ESTIMATE BASED ON THE ONE VISIT TO THIS SYSTEM AND NO CHINOOK WERE OBSERVED. THIS SYSTEM IS NOT CONSIDERED A CHINOOK CREEK. NO PINK OR STEELHEAD OBSERVED.",
+    "Person preparing report": "Guy Chiasson, CPV",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "Methods": "3",
+            "N": "1",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "1",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "30"
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "3",
+            "N": "1",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "1",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "40",
+            "Jacks": "6"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "3",
+            "N": "1",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "1",
+            "Enum Class": "1",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "3",
+            "N": "1",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "2",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "636"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "3",
+            "N": "1",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "1",
+            "Enum Class": "1",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "Methods": "3",
+            "N": "1",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "1",
+            "Enum Class": "1",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "SK 1": {
+            "End month": "Nov",
+            "End day": "1-10"
+        },
+        "CO 1": {
+            "Peak month": "Oct",
+            "Peak day": "21-31"
+        },
+        "CM 1": {
+            "End month": "Nov",
+            "End day": "1-10"
+        }
+    },
+    "Area": null,
+    "Second local name": null,
+    "Start date": null,
+    "Flows into": null,
+    "First local name": null,
+    "End date": null
+}

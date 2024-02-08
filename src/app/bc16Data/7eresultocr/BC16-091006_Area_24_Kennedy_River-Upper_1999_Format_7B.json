@@ -1,0 +1,198 @@
+{
+    "Year": "1999",
+    "Gazetted name": "KENNEDY RIVER (UPPER)",
+    "RAB code": "93-3600-000-000-000-000-993",
+    "Area": "24-1",
+    "District": "04",
+    "Sub": "24 Tofino",
+    "First local name": "UPPER KENNEDY RIVER",
+    "Second local name": "ELK RIVER",
+    "Flows into": "KENNEDY LAKE",
+    "Field Crew": "Tofino/Thorton Ck Hatchery Crew",
+    "Inspection dates": "Aug 19 Sep 09 Sep 23 Oct 06 Oct 20 Nov 02 Nov 23 Dec 08",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Sockeye and coho throughout 8 km (MOD bridge - last riffle) . CN mainly at #56.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: This information gathered through snorkel surveys. Thorton Creek Hatchery enhances coho population - 80, 000 - 100, 000 fry released. (20) On Predator Interactions: Nil",
+    "Person preparing report": "Doug Palfrey",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "Methods": "2",
+            "N": "6",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "5",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "1,906",
+            "Escapement Goal": "15,000"
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "2",
+            "N": "8",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "5",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "1,255",
+            "Escapement Goal": "2,500"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "2",
+            "N": "2",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "5",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "6"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "2",
+            "N": "4",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "5",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "24",
+            "Escapement Goal": "750"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "SK 1": {
+            "Start month": "Sep",
+            "Start day": "1",
+            "Peak month": "Sep",
+            "Peak day": "23",
+            "End month": "Nov",
+            "End day": "1"
+        },
+        "CO 1": {
+            "Arrival month": "Aug",
+            "Arrival day": "19",
+            "Start month": "Oct",
+            "Start day": "31",
+            "Peak month": "Nov",
+            "Peak day": "20"
+        },
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "6",
+            "Start month": "Oct",
+            "Start day": "15",
+            "Peak month": "Oct",
+            "Peak day": "20",
+            "End month": "Oct",
+            "End day": "31"
+        },
+        "CN 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "23",
+            "Start month": "Oct",
+            "Start day": "10",
+            "Peak month": "Oct",
+            "Peak day": "21",
+            "End month": "Nov",
+            "End day": "1"
+        }
+    },
+    "Longitude": null,
+    "Latitude": null,
+    "Start date": null,
+    "End date": null
+}

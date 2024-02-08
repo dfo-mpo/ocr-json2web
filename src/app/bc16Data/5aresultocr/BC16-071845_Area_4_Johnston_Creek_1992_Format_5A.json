@@ -1,0 +1,40 @@
+{
+    "Watershed Code": "40-0100-140",
+    "Gazetted name": "JOHNSTON CREEK",
+    "1st Local name": "JOHNSON CREEK",
+    "Flows into": "ECSTALL RIVER",
+    "year": "1992",
+    "Subdistrict": "4A",
+    "Subarea": "4-15",
+    "Subd. name": "SKEENA",
+    "(K) Additional comments": "This stream was not inspected this year do to logistical difficulties.",
+    "Fishery Officer": "Shane Neifer",
+    "Duration of Spawning": {
+        "Coho 1": {
+            "Optimum Esc.": "100"
+        },
+        "Pink 1": {
+            "Optimum Esc.": "1000"
+        },
+        "Chum 1": {
+            "Optimum Esc.": "1500"
+        },
+        "Chinook 1": {
+            "Optimum Esc.": "3500"
+        }
+    },
+    "Dates of inspection": null,
+    "(C) Water levels": null,
+    "(D) Spawning distribution": null,
+    "(E) Comments on predators": null,
+    "(B) Particulars of Scouring": null,
+    "(F) Egg digging": null,
+    "District": null,
+    "(G) New obstructions": null,
+    "Signature": null,
+    "(H) recommended enhancement": null,
+    "(K) Additional comments continued": null,
+    "(A) Evidence of Erosion": null,
+    "2nd local name": null,
+    "(I) Habitat change": null
+}

@@ -1,0 +1,71 @@
+{
+    "Watershed Code": "93-7700",
+    "Gazetted name": "name:MALKSOPE RIVER",
+    "Flows into": "into:MALKSOPE INLET",
+    "year": "1992",
+    "Subarea": "26-8",
+    "Subd. name": "KYUQUOT",
+    "Dates of inspection": "OCT 05 OCT 06 OCT 14 OCT 17",
+    "(D) Spawning distribution": "Chums up to canyon @ 3 KM. Coho up to 5 KM",
+    "(K) Additional comments": "Freezing conditions during the first 3 weeks of January may have caused some egg loss for the chums",
+    "Fishery Officer": "R L SENGER",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT A",
+            "Peak": "OCT C",
+            "End": "NOV B",
+            "Methods": "1",
+            "Reliability": "2",
+            "Est. Esc": "4",
+            "Optimum Esc.": "-2"
+        },
+        "Coho 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT C",
+            "Peak": "NOV B",
+            "End": "DEC C",
+            "Methods": "1",
+            "Reliability": "3",
+            "Est. Esc": "300",
+            "Optimum Esc.": "1500"
+        },
+        "Pink 1": {
+            "Est. Esc": "-3"
+        },
+        "Chum 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT A",
+            "Peak": "OCT C",
+            "End": "NOV B",
+            "Methods": "1",
+            "Reliability": "3",
+            "Est. Esc": "12000",
+            "Optimum Esc.": "20000"
+        },
+        "Chinook 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT A",
+            "Peak": "OCT B",
+            "End": "OCT C",
+            "Methods": "1",
+            "Reliability": "3",
+            "Est. Esc": "12",
+            "Optimum Esc.": "3000"
+        }
+    },
+    "(A) Evidence of Erosion": null,
+    "Subdistrict": null,
+    "District": null,
+    "(E) Comments on predators": null,
+    "2nd local name": null,
+    "(G) New obstructions": null,
+    "(H) recommended enhancement": null,
+    "1st Local name": null,
+    "Signature": null,
+    "(I) Habitat change": null,
+    "(F) Egg digging": null,
+    "(B) Particulars of Scouring": null,
+    "(C) Water levels": null,
+    "(K) Additional comments continued": null
+}

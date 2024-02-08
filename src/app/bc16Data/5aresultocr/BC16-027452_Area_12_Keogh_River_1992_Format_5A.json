@@ -1,0 +1,40 @@
+{
+    "Watershed Code": "92-1000",
+    "Gazetted name": "RIVER",
+    "Flows into": "QUEEN CHARLOTTE STRAIGHT",
+    "year": "1992",
+    "Subarea": "12-16",
+    "Subd. name": "SEYMOUR INLET",
+    "Dates of inspection": "AUG 29 SEP 29 AUG 07 AUG 08 SEP 10",
+    "(K) Additional comments": "Very difficult to see any fish due to very dark water, difficult to walk up stream at any distance from the highway bridge.",
+    "Fishery Officer": "Trina Belcher",
+    "Duration of Spawning": {
+        "Coho 1": {
+            "Est. Esc": "-1"
+        },
+        "Pink 1": {
+            "Est. Esc": "-1"
+        },
+        "Chum 1": {
+            "Arrival": "SEP B. SEP",
+            "Start": "C",
+            "Peak": "OCT A",
+            "End": "OCT C"
+        }
+    },
+    "(A) Evidence of Erosion": null,
+    "(E) Comments on predators": null,
+    "District": null,
+    "(H) recommended enhancement": null,
+    "(K) Additional comments continued": null,
+    "1st Local name": null,
+    "(I) Habitat change": null,
+    "(D) Spawning distribution": null,
+    "(C) Water levels": null,
+    "Signature": null,
+    "2nd local name": null,
+    "(G) New obstructions": null,
+    "(B) Particulars of Scouring": null,
+    "Subdistrict": null,
+    "(F) Egg digging": null
+}

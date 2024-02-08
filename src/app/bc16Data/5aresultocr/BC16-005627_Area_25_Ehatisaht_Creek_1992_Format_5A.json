@@ -1,0 +1,50 @@
+{
+    "Watershed Code": "93-6750",
+    "Gazetted name": "EHATISAHT CREEK",
+    "1st Local name": "EHATISAT CREEK",
+    "Flows into": "into:ESPERANZA INLET",
+    "year": "1992",
+    "Subarea": "25-13",
+    "Subd. name": "TAHSIS",
+    "Dates of inspection": "OCT 27",
+    "(A) Evidence of Erosion": "N/O",
+    "(B) Particulars of Scouring": "N/O",
+    "(C) Water levels": "NORMAL",
+    "(D) Spawning distribution": "LOW NUMBERS - NOT MUCH DISTRIBUTION",
+    "(E) Comments on predators": "BIRD/BEAR",
+    "(F) Egg digging": "N/O",
+    "(G) New obstructions": "N/O",
+    "Fishery Officer": "F R CRABBE",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Est. Esc": "-3"
+        },
+        "Pink 1": {
+            "Est. Esc": "-3"
+        },
+        "Chum 1": {
+            "Arrival": "OCT B",
+            "Start": "OCT B",
+            "Peak": "OCT C",
+            "End": "NOV A",
+            "Methods": "1",
+            "Reliability": "4",
+            "Est. Esc": "250",
+            "Optimum Esc.": "1000"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "(I) Habitat change": null,
+    "(K) Additional comments": null,
+    "Signature": null,
+    "Subdistrict": null,
+    "(K) Additional comments continued": null,
+    "2nd local name": null,
+    "(H) recommended enhancement": null,
+    "District": null
+}

@@ -1,0 +1,33 @@
+{
+    "Watershed Code": "93-5400",
+    "Gazetted name": "BURMAN RIVER",
+    "Flows into": "MATCHLEE BAY",
+    "year": "1992",
+    "Subdistrict": "25",
+    "Subarea": "25-1",
+    "Subd. name": "TAHSIS",
+    "Dates of inspection": "OCT 13 OCT 29",
+    "(A) Evidence of Erosion": "N/O",
+    "(B) Particulars of Scouring": "N/O",
+    "(C) Water levels": "NORMAL",
+    "(D) Spawning distribution": "GOOD DISTRIBUTION",
+    "(E) Comments on predators": "BEAR/BIRD",
+    "(F) Egg digging": "N/O",
+    "(G) New obstructions": "N/O",
+    "(K) Additional comments": "CHINOOK RETURNS LIKELY IMPACTED ON BY NON-AUTHORIZED NATIVE FISHERY NEAR GOLD RIVER. GOLD RIVER P.I.P. TOOK 113 MALE AND 85 FEMALE CHINOOKS FOR GOLD RIVER PROJECT.",
+    "Fishery Officer": "F R CRABBE",
+    "Duration of Spawning": {
+        "Chinook 1": {
+            "Methods": "4",
+            "Est. Esc": "2000",
+            "Optimum Esc.": "4000"
+        }
+    },
+    "District": null,
+    "2nd local name": null,
+    "(H) recommended enhancement": null,
+    "1st Local name": null,
+    "Signature": null,
+    "(I) Habitat change": null,
+    "(K) Additional comments continued": null
+}

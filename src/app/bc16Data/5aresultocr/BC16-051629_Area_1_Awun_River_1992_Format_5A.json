@@ -1,0 +1,35 @@
+{
+    "Watershed Code": "94-3600",
+    "1st Local name": "AWUN RIVER AND LAKE SYSTEM",
+    "Flows into": "MASSET INLET",
+    "year": "1992",
+    "Subdistrict": "01",
+    "Subarea": "1-6",
+    "Subd. name": "MASSET",
+    "Dates of inspection": "AUG 14 SEP 25 AUG 20 00 01 SEP 01 OCT 13 SEP 06",
+    "Signature": "Som Well",
+    "Duration of Spawning": {
+        "Coho 1": {
+            "Est. Esc": "-2",
+            "Optimum Esc.": "9000"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "(I) Habitat change": null,
+    "(K) Additional comments continued": null,
+    "(K) Additional comments": null,
+    "(E) Comments on predators": null,
+    "(B) Particulars of Scouring": null,
+    "Gazetted name": null,
+    "(A) Evidence of Erosion": null,
+    "(C) Water levels": null,
+    "(F) Egg digging": null,
+    "Fishery Officer": null,
+    "District": null,
+    "(D) Spawning distribution": null,
+    "(G) New obstructions": null,
+    "(H) recommended enhancement": null,
+    "2nd local name": null
+}

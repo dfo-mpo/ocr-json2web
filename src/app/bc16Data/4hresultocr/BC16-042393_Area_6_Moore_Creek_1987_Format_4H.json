@@ -1,0 +1,44 @@
+{
+    "Department": "DEPARTMENT OF FISHERIES AND OCEANS",
+    "Report": "ANNI T\u1ea0I REPORT OF SALMON STREAMS AND SPAWNING POPULATIONS STREAM IDENTIFICATIO",
+    "Watershed code": "91-9008",
+    "First local name": "MOORE LAHAS",
+    "Flows into": "N.E. INTO KITIMAT ARM AT KITIMAT",
+    "Year": "1987",
+    "District No.": "7",
+    "Statistical Area": "Statistical Arpa",
+    "Subdistrict No.": "6",
+    "Subdistrict Name": "KITIMAT",
+    "Biological Condition (D)": "MOST ADULT COND HAVE BEEN OBSERVED FROM BRIDGE CROSSING DOWN STREAM LT PLANT TU LULVERT LOCATED ON PLANT SITE UPSTREAM TO HWY",
+    "Biological Condition (E)": "CULVERT LOCATED BEHIND BAR WASH.",
+    "Biological Condition (F)": "N/C",
+    "Biological Condition (G)": "N/0",
+    "shedcode": "Watershed code",
+    "signature": "angulo Logga",
+    "Dates of Inspection": [
+        {
+            "Month": "OCT",
+            "Day": "22"
+        },
+        {
+            "Month": "ANG",
+            "Day": "14"
+        }
+    ],
+    "Spawning Run Timing and Estimated Number": {
+        "Coho 1": {
+            "Arrival In Stream Month": "OCT",
+            "Arrival In Stream Day": "B",
+            "Spawning Start Month": "/OCT",
+            "Spawning Start Day": ":C",
+            "Spawning Peak Month": "/NOV",
+            "Spawning Peak Day": "B"
+        }
+    },
+    "namename": {},
+    "Physical Condition (A)": null,
+    "Comments on any other conditions": null,
+    "Gazetted name": null,
+    "Physical Condition (B)": null,
+    "Physical Condition (C)": null
+}

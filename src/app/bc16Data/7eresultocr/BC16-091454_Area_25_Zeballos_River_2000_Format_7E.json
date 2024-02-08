@@ -1,0 +1,218 @@
+{
+    "Year": "2000",
+    "Gazetted name": "ZEBALLOS RIVER",
+    "RAB code": "93-6700",
+    "Area": "25-4",
+    "District": "04",
+    "Sub": "Tahsis",
+    "First local name": "BIG ZEBALLOS RIVER",
+    "Flows into": "TLUPANA INLET",
+    "Latitude": "49 59 7",
+    "Longitude": "126 50 59",
+    "Field Crew": "Guy Chiasson",
+    "Inspection dates": "Aug 29 Sep 20 Oct 05 Nov 01 Nov 13",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: Coho fry present. Local community hatchery doing a small project on this system on Chinook and coho. New side channel constructed this year. Very silty bottom. Will need high water to flush it out .19cm observed Nov. 01. Channel is narrow and shallow - fish will be variable to bear predation and possible freezing.",
+    "Person preparing report": "Guy Chiasson, CPV",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "Methods": "3",
+            "N": "4",
+            "%Spawn habitat surveyed": "80",
+            "Rel": "3",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "250",
+            "Jacks": "15"
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "3",
+            "N": "4",
+            "%Spawn habitat surveyed": "80",
+            "Rel": "3",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "75",
+            "Jacks": "40"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "3",
+            "N": "2",
+            "%Spawn habitat surveyed": "80",
+            "Rel": "3",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "10"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "3",
+            "N": "4",
+            "%Spawn habitat surveyed": "80",
+            "Rel": "3",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "4,000"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "3",
+            "N": "3",
+            "%Spawn habitat surveyed": "80",
+            "Rel": "3",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "55",
+            "Jacks": "7"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "Methods": "3",
+            "N": "3",
+            "%Spawn habitat surveyed": "80",
+            "Rel": "3",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "40"
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "SK 1": {
+            "Arrival month": "Aug",
+            "Arrival day": "11-20",
+            "Start month": "Sep",
+            "Start day": "1-10",
+            "Peak month": "Oct",
+            "Peak day": "1-10",
+            "End month": "Oct",
+            "End day": "21-31"
+        },
+        "CO 1": {
+            "Arrival month": "Aug",
+            "Arrival day": "11-20",
+            "Start month": "Oct",
+            "Start day": "1-10",
+            "Peak month": "Nov",
+            "Peak day": "1-10"
+        },
+        "PK 1": {
+            "Arrival month": "Aug",
+            "Arrival day": "11-20",
+            "Start month": "Sep",
+            "Start day": "1-10"
+        },
+        "CM 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "11-20",
+            "Start month": "Sep",
+            "Start day": "11-20",
+            "Peak month": "Oct",
+            "Peak day": "21-31",
+            "End month": "Nov",
+            "End day": "11-20"
+        },
+        "CN 1": {
+            "Arrival month": "Aug",
+            "Arrival day": "11-20",
+            "Start month": "Sep",
+            "Start day": "11-20",
+            "Peak month": "Sep",
+            "Peak day": "21-31",
+            "End month": "Sep",
+            "End day": "21-31"
+        },
+        "ST 1": {
+            "Arrival month": "Aug",
+            "Arrival day": "21-31"
+        }
+    },
+    "Start date": null,
+    "Second local name": null,
+    "Biological details particulars": null,
+    "End date": null
+}

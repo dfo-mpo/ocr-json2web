@@ -1,0 +1,40 @@
+{
+    "Watershed Code": "92-2300-070",
+    "1st Local name": "WAIATT BAY CREEK",
+    "Flows into": "into:HOSKYN CHANNEL",
+    "Subdistrict": "13",
+    "Subarea": "13-12",
+    "Subd. name": "CAMPBELL RIVER",
+    "Dates of inspection": "NOV 15 |1",
+    "(D) Spawning distribution": "Lowrer 1/2 mile",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Est. Esc": "-1"
+        },
+        "Pink 1": {
+            "Est. Esc": "-1"
+        },
+        "Chum 1": {
+            "Est. Esc": "125 150"
+        }
+    },
+    "(A) Evidence of Erosion": null,
+    "(H) recommended enhancement": null,
+    "(K) Additional comments": null,
+    "2nd local name": null,
+    "(C) Water levels": null,
+    "(B) Particulars of Scouring": null,
+    "Fishery Officer": null,
+    "(F) Egg digging": null,
+    "District": null,
+    "year": null,
+    "(E) Comments on predators": null,
+    "(I) Habitat change": null,
+    "(K) Additional comments continued": null,
+    "(G) New obstructions": null,
+    "Signature": null,
+    "Gazetted name": null
+}

@@ -1,0 +1,14 @@
+.isRed {
+  color: red !important;
+}
+
+.isGreen {
+  color: green !important;
+}
+
+.content {
+  background-color: aqua;
+}
+.input {
+  width: 100px;
+}

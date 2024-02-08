@@ -1,0 +1,192 @@
+{
+    "Year": "1995",
+    "Gazetted name": "OYSTER RIVER",
+    "RAB code": "92-2700",
+    "Area": "14-1",
+    "District": "03",
+    "Sub": "14N Comox",
+    "Flows into": "GEORGIA STRAIT",
+    "Latitude": "49 52 28",
+    "Longitude": "125 6 41",
+    "Field Crew": "Eli Rosengard",
+    "Inspection dates": "Jul 15 Aug 15 Sep 15 Sep 16 Oct 15 Nov 15 Dec 15",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "selected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "selected",
+    "(15) General comments": "selected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Coho, pink, and chinook throughout system, chum observed near Little Oyster river.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: All dates marked 15th are estimated. No dates entered on the hard copy. (1) Other methods for CO Run 1: Spot check (1) Other methods for PK Run 1: Spot check (1) Other methods for CM Run 1: Spot check (1) Other methods for CN Run 1: Spot check (11) Bank erosion/ scouring of spawning bed: Flood of Nov. 17 probably caused bank erosion. None (scouring) observed but likely with intense flooding. (14) Flood: Near record rain during fall. Massive flood on 17 Nov. effects all area 14 streams. (20) Predator Interactions: Chinook and coho subject to poaching in several pool. Pink fishery at mouth continues. Animal predation normal. (7) Enhancements: Historic flood channel on Little Oyster reopened to develop two 3000 foot spawning channels. (15) General Comments on Unusual Conditions: Flood effected spawning survivals. (7) Enhancements: 150,000 pink eggs taken.",
+    "Person preparing report": "Eli Rosengard / Patrolman",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1,4,6,10",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "3",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "4,000",
+            "Brood stock removals": "200"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "1,4,6,10",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "5",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "8,500"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "1,10",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "4",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "500"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "1,4,6,10",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "3",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "50"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "11-20",
+            "Start month": "Oct",
+            "Peak month": "Nov",
+            "End month": "Dec"
+        },
+        "PK 1": {
+            "Arrival month": "Jul",
+            "Arrival day": "11-20",
+            "Start month": "Sep",
+            "Start day": "1-10",
+            "Peak month": "Sep",
+            "Peak day": "21-31",
+            "End month": "Oct",
+            "End day": "11-20"
+        },
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "21-31",
+            "Start month": "Nov",
+            "Start day": "1-10",
+            "Peak month": "Nov",
+            "Peak day": "11-20",
+            "End month": "Dec",
+            "End day": "1-10"
+        },
+        "CN 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "1-10",
+            "Start month": "Sep",
+            "Peak month": "Oct",
+            "Peak day": "11-20",
+            "End month": "Nov",
+            "End day": "11-20"
+        }
+    },
+    "End date": null,
+    "Start date": null,
+    "Second local name": null,
+    "First local name": null
+}

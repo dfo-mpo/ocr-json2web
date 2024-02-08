@@ -1,0 +1,50 @@
+{
+    "Watershed Code": "93-6780",
+    "Gazetted name": "name:MAMAT CREEK",
+    "1st Local name": "ESPINOSA CREEK",
+    "Flows into": "into:LITTLE ESPINOSA INLET",
+    "year": "1992",
+    "District": "04",
+    "Subdistrict": "25",
+    "Subarea": "25-11",
+    "Subd. name": "TAHSIS",
+    "Dates of inspection": "OCT 29",
+    "(A) Evidence of Erosion": "NO SILTING. SOME EROSION WHICH APPEARS NORMAL.",
+    "(B) Particulars of Scouring": "N/O",
+    "(C) Water levels": "NORMAL",
+    "(D) Spawning distribution": "POOR DISTRIBUTION BECAUSE OF SO FEW FISH.",
+    "(E) Comments on predators": "NORMAL BIRD/BEAR",
+    "(F) Egg digging": "N/O",
+    "(G) New obstructions": "N/O",
+    "(K) Additional comments": "POOR RETURNS FOR THIS SMALL SYSTEM IN '92",
+    "Fishery Officer": "F R CRABBE",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Est. Esc": "-3"
+        },
+        "Pink 1": {
+            "Est. Esc": "-3"
+        },
+        "Chum 1": {
+            "Arrival": "OCT B",
+            "Start": "OCT B",
+            "Peak": "OCT C",
+            "End": "NOV A",
+            "Methods": "1",
+            "Reliability": "4",
+            "Est. Esc": "308",
+            "Optimum Esc.": "5000"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "2nd local name": null,
+    "(H) recommended enhancement": null,
+    "Signature": null,
+    "(I) Habitat change": null,
+    "(K) Additional comments continued": null
+}

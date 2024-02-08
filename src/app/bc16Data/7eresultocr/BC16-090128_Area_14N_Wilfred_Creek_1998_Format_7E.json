@@ -1,0 +1,165 @@
+{
+    "Year": "1998",
+    "Gazetted name": "WILFRED CREEK",
+    "RAB code": "92-3300",
+    "Area": "14-8",
+    "District": "03",
+    "Sub": "14N Comox",
+    "First local name": "COAL CREEK",
+    "Flows into": "MUD BAY (BAYNES SOUND)",
+    "Latitude": "49 28 59",
+    "Longitude": "124 47 48",
+    "Field Crew": "L. Box and J. Newman, E. Rosengard",
+    "Inspection dates": "Oct 19 Oct 21 Oct 28 Nov 05 Nov 11 Nov 17 Nov 23 Dec 01 Dec 08 Dec 14",
+    "(5) Escapement comments": "unselected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "selected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "selected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "selected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "80-90% of chums below Old Highway. Coho holding in a few pools in PBS section [Hatchery Intake to below Inland Highway] during Oct. low water. Later in fall seen spread throughout section, especially Hatchery Intake area.",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(2) CO Run 1 Reliability: A PBS crew did a weekly survey of this stream. An AUC estimate was used. (1) Other methods for PK Run 1: spot check (2) PK Run 1 Reliability: FBSES and Rosengard surveyed this stream at various times at appropriate areas. Only one pink was observed. The feeling is that the water was too low for pinks to access this system. No water was available from Omega as was previouly planned. Numbers of pinks were holding off the mouth in Aug. and Sept. This guardian believes that 18 Redds observed in the ponds of neighboring Bob Creek were probably Coal Creek pinks. Tsable River also had a low return this year. (2) CM Run 1 Reliability: Reliability not good because the lower area where 90% of the chums reside was only walked once during peak spawning period. (4) Describe basis for estimating total adults CM Run 1: 950 chums were sighted on one day in the lower reaches and about 100 were sighted around this time in the upper areas. Due to the large size of the return and the timing I feel that at least another full turnover of fish must have taken place. I feel the number is conservative . (13) Drought: Extremely low water late spring to early fall. (16) Fish access recommendations: Something should be done about the pink access at low water. A dry summer and increased gravel build-up has created a major problem. Also the historic mainstem has been plugged up so that flows go overland looking for a channel [diverted flow to south]. (18) Flow augmentation: An agreement was made last year for Omega to reintroduce some of its water to the creek to augment flows at low water. An increase in production and low water levels did not allow them to do it this year. High fry density noted this year by PBS crew. (20) On Salmon Distribution or Predator Interactions: Some mortalities by an otter noted on Coho. High fry density noted in PBS reach. Otherwise predator interactions appear normal except for seals targetting early pinks off mouth.",
+    "Person preparing report": "Eli Rosengard / Patrolman",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "3,2,1,7",
+            "N": "10",
+            "%Spawn habitat surveyed": "25",
+            "Rel": "5",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "477",
+            "Brood stock removals": "17"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "2,1,10",
+            "N": "5",
+            "%Spawn habitat surveyed": "80",
+            "Rel": "4",
+            "Enum Class": "3",
+            "Esc Code": "A.P."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "3,2,1",
+            "N": "10",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "3",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "2,000"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "11-20",
+            "Start month": "Nov",
+            "Start day": "1-10",
+            "Peak month": "Nov",
+            "Peak day": "1-10",
+            "End month": "Dec",
+            "End day": "1-10"
+        }
+    },
+    "Second local name": null,
+    "End date": null,
+    "Start date": null
+}

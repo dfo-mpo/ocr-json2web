@@ -1,0 +1,42 @@
+{
+    "Watershed Code": "93-4700",
+    "Gazetted name": "ICE RIVER",
+    "1st Local name": "ICEY RIVER",
+    "Flows into": "HOLMES INLET",
+    "year": "1992",
+    "Subdistrict": "24",
+    "Subarea": "24-2",
+    "Subd. name": "TOFINO",
+    "Dates of inspection": "OCT 28 6",
+    "Fishery Officer": "BRENDA PEPPIN",
+    "Duration of Spawning": {
+        "Coho 1": {
+            "Methods": "6",
+            "Reliability": "1",
+            "Est. Esc": "20"
+        },
+        "Chum 1": {
+            "Arrival": "OCT 01",
+            "Start": "OCT 15",
+            "Peak": "OCT 30",
+            "End": "OCT 30",
+            "Methods": "6",
+            "Reliability": "2",
+            "Est. Esc": "350"
+        }
+    },
+    "(K) Additional comments continued": null,
+    "(I) Habitat change": null,
+    "(K) Additional comments": null,
+    "(E) Comments on predators": null,
+    "(B) Particulars of Scouring": null,
+    "Signature": null,
+    "(A) Evidence of Erosion": null,
+    "(C) Water levels": null,
+    "(F) Egg digging": null,
+    "District": null,
+    "(D) Spawning distribution": null,
+    "(G) New obstructions": null,
+    "(H) recommended enhancement": null,
+    "2nd local name": null
+}

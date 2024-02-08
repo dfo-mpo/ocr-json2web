@@ -1,0 +1,46 @@
+{
+    "Watershed Code": "94-3800",
+    "1st Local name": "STILIQUE CREEK",
+    "Flows into": "JUSTKATLA INLET",
+    "year": "1992",
+    "Subarea": "1-6",
+    "Subd. name": "MASSET",
+    "(K) Additional comments": "This creek not inspected, but pinks have been observed in the estuary.",
+    "Signature": "John Well",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-2"
+        },
+        "Coho 1": {
+            "Est. Esc": "-2"
+        },
+        "Pink 1": {
+            "Est. Esc": "-2"
+        },
+        "Chum 1": {
+            "Arrival": "AUG B",
+            "Start": "SEP A",
+            "Peak": "SEP B",
+            "End": "OCT A"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "(E) Comments on predators": null,
+    "(C) Water levels": null,
+    "Gazetted name": null,
+    "2nd local name": null,
+    "District": null,
+    "(K) Additional comments continued": null,
+    "Dates of inspection": null,
+    "(G) New obstructions": null,
+    "(I) Habitat change": null,
+    "(H) recommended enhancement": null,
+    "(A) Evidence of Erosion": null,
+    "(D) Spawning distribution": null,
+    "Fishery Officer": null,
+    "(F) Egg digging": null,
+    "(B) Particulars of Scouring": null,
+    "Subdistrict": null
+}

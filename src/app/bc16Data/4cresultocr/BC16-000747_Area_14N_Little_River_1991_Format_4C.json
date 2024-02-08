@@ -1,0 +1,42 @@
+{
+    "Watershed code": "92 - 2770",
+    "Gazetted name": "LITTLE RIVER",
+    "Flows Into": "STRAIT OF GEORGIA",
+    "Year": "1991",
+    "District No.": "3",
+    "Statistical Area": "14 - 13",
+    "Subdistrict No.": "14N",
+    "Subdistrict Name": "COMOX, B. C.",
+    "(A) Enhancement or intense biological activities": "selected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NONE OBSERVED",
+    "Additional (B) Particulars of scouring of spawning beds": "NONE OBSERVED",
+    "Additional (C) Water levels flow": "LOW FLOWS IN SEPT. AND OCT. HIGH FLOWS IN NOV. AND LATE DEC - EARLY JAN.",
+    "Biological (D) Particulars of distribution": "COHO SPAWNING THROUGHOUTSYSTEM FROM MOUTH TO SMITHS FARM.",
+    "Biological (E) Comments on predators": "BIRDS, BEARS AND OTTERS",
+    "Biological (F) Evidence of digging eggs": "NONE OBSERVED",
+    "Biological (G) New obstruction": "NONE OBSERVED",
+    "Comments (K)": "EXCELLENT RETURN OF COHO TO THIS SYSTEM. FISH WERE BIGGER THAN AVERAGE. FINAL NUMBERS WERE OBTAINED FROM BRYAN ALLEN AND THE LITTLE RIVER ENHANCEMENT GROUP THIS GROUP CAPTURED 150 ADULT COHO FOR BROODSTOCK.",
+    "Dates of inspection (1)": "NUMEROUS INSPECTIONS BY LITTLE RIVER S.E.P. VOLUNTEERS",
+    "Date of inspection": null,
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "OCT:",
+            "Arrival day": "10",
+            "Start month": "OCT:",
+            "Start day": "20",
+            "Peak month": "NOV:",
+            "Peak day": "15",
+            "End month": "DEC:",
+            "End day": "30",
+            "Method": "1, 6 ELECTRO SHOCK",
+            "Reliability": "5",
+            "Estimated total No. on grounds": "1500"
+        }
+    },
+    "Second local name": null,
+    "First local name": null
+}

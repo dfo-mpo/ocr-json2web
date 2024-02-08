@@ -1,0 +1,37 @@
+{
+    "Watershed Code": "92-2640",
+    "Gazetted name": "SIMMS CREEK",
+    "Flows into": "into:DISCOUVERY PASSAGE",
+    "year": "1992",
+    "Subarea": "13-3",
+    "Subd. name": "CAMPBELL RIVER",
+    "Dates of inspection": "OCT 10 |1 DEC 10",
+    "(B) Particulars of Scouring": "Sub division development is and has and will have a heavey impack on this system which is causing heavey silt loads",
+    "(C) Water levels": "diversion of natural waters into storm dains",
+    "(D) Spawning distribution": "Upper water shed in area of Beaver Lodge Lands",
+    "(G) New obstructions": "Log Jam below Galarno impassable during low flows",
+    "Duration of Spawning": {
+        "Coho 1": {
+            "Arrival": "OCT 10"
+        },
+        "Chum 1": {
+            "Reliability": "2 -3"
+        },
+        "Chinook 1": {
+            "Reliability": "-3"
+        }
+    },
+    "1st Local name": null,
+    "(K) Additional comments continued": null,
+    "Fishery Officer": null,
+    "2nd local name": null,
+    "(E) Comments on predators": null,
+    "(A) Evidence of Erosion": null,
+    "Subdistrict": null,
+    "(F) Egg digging": null,
+    "District": null,
+    "(I) Habitat change": null,
+    "(K) Additional comments": null,
+    "Signature": null,
+    "(H) recommended enhancement": null
+}

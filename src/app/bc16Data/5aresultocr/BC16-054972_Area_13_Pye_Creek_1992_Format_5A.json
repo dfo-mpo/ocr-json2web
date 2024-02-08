@@ -1,0 +1,43 @@
+{
+    "Watershed Code": "92-1900",
+    "Gazetted name": "PYE CREEK",
+    "1st Local name": "LITTLE BEAR RIVER",
+    "Flows into": "JOHNSTONE STRAIT",
+    "year": "1992",
+    "Subarea": "13-28",
+    "Subd. name": "CAMPBELL RIVER",
+    "(K) Additional comments": "Stream not inspected in 1992",
+    "Fishery Officer": "R. Christiansen",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Est. Esc": "-2"
+        },
+        "Pink 1": {
+            "Est. Esc": "-2"
+        },
+        "Chum 1": {
+            "Est. Esc": "-1 110"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-2"
+        }
+    },
+    "(F) Egg digging": null,
+    "(I) Habitat change": null,
+    "(B) Particulars of Scouring": null,
+    "2nd local name": null,
+    "District": null,
+    "(D) Spawning distribution": null,
+    "Subdistrict": null,
+    "(E) Comments on predators": null,
+    "(K) Additional comments continued": null,
+    "Signature": null,
+    "Dates of inspection": null,
+    "(A) Evidence of Erosion": null,
+    "(C) Water levels": null,
+    "(G) New obstructions": null,
+    "(H) recommended enhancement": null
+}

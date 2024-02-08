@@ -1,0 +1,41 @@
+{
+    "Watershed Code": "code:43-0000-000-000-000-000-993",
+    "Gazetted name": "KITSUMKALUM RIVER - Lower",
+    "1st Local name": "RIVER",
+    "Flows into": "SKEENA RIVER",
+    "Subdistrict": "4B",
+    "Subarea": "4b",
+    "Subd. name": "TERRACE",
+    "(D) Spawning distribution": "over entire river",
+    "(K) Additional comments": "this river is very turbid making enumeration dificult extreme high water sep 29",
+    "Duration of Spawning": {
+        "Coho 1": {
+            "Arrival": "SEP C"
+        },
+        "Chum 1": {
+            "Arrival": "AUG B AUG B",
+            "Peak": "A"
+        },
+        "Chinook 1": {
+            "Arrival": "AUG C",
+            "Start": "A",
+            "Peak": "B",
+            "Reliability": "4"
+        }
+    },
+    "District": null,
+    "2nd local name": null,
+    "(H) recommended enhancement": null,
+    "(K) Additional comments continued": null,
+    "Fishery Officer": null,
+    "Signature": null,
+    "(A) Evidence of Erosion": null,
+    "(F) Egg digging": null,
+    "(B) Particulars of Scouring": null,
+    "(I) Habitat change": null,
+    "year": null,
+    "(E) Comments on predators": null,
+    "(C) Water levels": null,
+    "(G) New obstructions": null,
+    "Dates of inspection": null
+}

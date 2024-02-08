@@ -1,0 +1,41 @@
+{
+    "Department": "DEPARTMENT OF FISHERIES AND OCEANS",
+    "Report": "ANNUAL REPORT OF SALMON STREAMS AND SPAWNING POPULATIONS",
+    "Watershed code": "EAM IDENTIFICATI",
+    "First local name": "CORDELLA CREEK",
+    "Flows into": "S. W. INTO HEAD OF MINETTE RAY AT N. C.ND.",
+    "Year": "1990",
+    "District No.": "7",
+    "Statistical Area": "6",
+    "Subdistrict No.": "6N",
+    "Subdistrict Name": "KITIMAT",
+    "Physical Condition (A)": "N/O",
+    "Physical Condition (C)": "EXTREMELY LOW WATER LEVELS FROM AUGUST TO LATE SEPTEMBER HIGH WATER LEVELS IN LATE OCTOBER.",
+    "Biological Condition (D)": "COHO SALMON UN LOWER END 2KM FROM ESTUARY MOST CCHO OBSERVED CN LOWER",
+    "Biological Condition (E)": "MODERATE. END. FEW NEAR VILLAGE ROAD.",
+    "Biological Condition (F)": "N/O",
+    "Biological Condition (G)": "N/D",
+    "Comments on any other conditions": "MINIMAL STABILITY IN THIS SYSTEM AS A RESULT OF THIS AREA BEING LOGGED SEVERAL YEARS BACK, THE RIPARIAN ZONE ALONG THE STREAM IS NOT CAPABLE OF STABALIZING THE BANK DURING FRESHETS IN LATE OCTOBER.",
+    "shedcode": "31-8994",
+    "signature": "Fo angelo Loggia",
+    "Dates of Inspection": [
+        {
+            "Month": "OCT",
+            "Day": "31 NOV 20/"
+        }
+    ],
+    "Spawning Run Timing and Estimated Number": {
+        "Coho 1": {
+            "Arrival In Stream Month": "OCT",
+            "Arrival In Stream Day": "B",
+            "Spawning Start Month": "/OCT",
+            "Spawning Start Day": "C",
+            "Spawning Peak Month": "/OCT",
+            "Spawning Peak Day": ":30",
+            "Spawning End Month": "/NOV"
+        }
+    },
+    "namename": {},
+    "Gazetted name": null,
+    "Physical Condition (B)": null
+}

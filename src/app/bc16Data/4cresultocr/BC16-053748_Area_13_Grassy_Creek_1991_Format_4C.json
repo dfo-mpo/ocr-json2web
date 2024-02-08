@@ -1,0 +1,52 @@
+{
+    "Watershed code": "90-400-0",
+    "Gazetted name": "GRASSY CREEK",
+    "First local name": "Grassy Creek",
+    "Flows Into": "Loughborough Inlet",
+    "Year": "1991",
+    "District No.": "5",
+    "Statistical Area": "13-42",
+    "Subdistrict No.": "13",
+    "Subdistrict Name": "QUATHIASKI",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (C) Water levels flow": "Normal",
+    "Biological (D) Particulars of distribution": "stream bed Stream mouth to Jake",
+    "Biological (E) Comments on predators": "Bear, Wolf",
+    "Date of inspection": null,
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Peak month": "OCT:",
+            "End month": "NOV:",
+            "No. of observer": "2",
+            "Method": "1",
+            "Reliability": "UK",
+            "Estimated total No. on grounds": "10",
+            "Optimum escapement": "750"
+        },
+        "Pink 1": {
+            "Peak month": "OCT:",
+            "End month": "NOV:",
+            "No. of observer": "1",
+            "Method": "1"
+        },
+        "Chum 1": {
+            "Start month": "OCT:",
+            "Peak month": "NOI:",
+            "No. of observer": "2",
+            "Method": "1",
+            "Reliability": "100",
+            "Optimum escapement": "UK"
+        }
+    },
+    "Second local name": null,
+    "Biological (F) Evidence of digging eggs": null,
+    "Dates of inspection (1)": null,
+    "Additional (A) Evidence of erosion and silting": null,
+    "Biological (G) New obstruction": null,
+    "Comments (K)": null,
+    "Additional (B) Particulars of scouring of spawning beds": null
+}

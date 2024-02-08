@@ -1,0 +1,171 @@
+{
+    "Year": "2000",
+    "Gazetted name": "BONELL CREEK",
+    "RAB code": "92-4000",
+    "Area": "17-2",
+    "District": "03",
+    "Sub": "17 Nanaimo",
+    "First local name": "BRUNNEL CREEK",
+    "Flows into": "NANOOSE BAY",
+    "Latitude": "49 15 59",
+    "Longitude": "124 11 12",
+    "Field Crew": "Charles Thirkill & Chris Peters",
+    "Inspection dates": "Oct 16 Oct 23 Oct 30 Nov 08 Nov 13 Nov 20 Nov 27 Nov 29 Dec 04 Dec 11",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "The largest concentration of coho redds were observed in a 1, 200m area between Lussier Gravel Pit and the E&N Railway bridge.",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(2) CM Run 1 Reliability: Poor survey conditions for chum Nov. 27th and on due to high water flows. Surveyors were unable to accurately cout chum in the lower area of the stream. (5) General Comments on Escapement Estimation: Survey conducted on Nov. 11th was incomplete due to high, turbid waters; only the first 50m of the creek was surveyed from the bank - no fish observed. The creek was dry, except for some small isolated pools Oct. 16th, water had juststarted flowing on the Oct. 23rd survey. A few coho fry were observed in the isolated pools. (7) Enhancements: Some partial spanning rock weirs have been built by local streamkeeper group. (20) On Predator Interactions: two American Dippers, a Blue Heron and a eagle observed. Surveyors also observed bear scat on Nov. 13th and bear tracks (sow and cub) in the creek, travelling upstream on Dec. 11th. (20) On Salmon Distribution: Chum were observed in the lower part of the creek and coho were observed evenly throughout. (4) Describe basis for estimating total adults CO Run 1: AUC estimate using 14 day survey life. A zero count was added on 18 Dec 2000. (4) Describe basis for estimating total adults CM Run 1: Peak live plus dead was 32 on 13 Nov 2000. This was expanded to 35 for observer efficiency.",
+    "Person preparing report": "Steve Baillie",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "2",
+            "N": "7",
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "83",
+            "Jacks": "12"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "2",
+            "N": "6",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "2",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "35"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "21-31",
+            "Start month": "Nov",
+            "Start day": "1-10",
+            "Peak month": "Dec",
+            "Peak day": "1-10",
+            "End month": "Dec",
+            "End day": "1-10"
+        },
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "11-20",
+            "Start month": "Nov",
+            "Start day": "1-10",
+            "Peak month": "Nov",
+            "Peak day": "11-20",
+            "End month": "Nov",
+            "End day": "21-31"
+        }
+    },
+    "Second local name": null,
+    "End date": null,
+    "Start date": null
+}

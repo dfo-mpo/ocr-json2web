@@ -1,0 +1,37 @@
+{
+    "Watershed Code": "92-0300",
+    "Gazetted name": "NAHWITTI RIVER",
+    "Flows into": "into:GOLETAS CHNNEL",
+    "year": "1992",
+    "Subarea": "12-15",
+    "Subd. name": "SEYMOUR INLET",
+    "Dates of inspection": "AUG 20 AUG 27 SEP 08",
+    "(A) Evidence of Erosion": "Very minimal bank erosion.",
+    "(K) Additional comments": "Coho fry observed .5 mile to 1.5 mile upstream from mouth. Observations made by Quatse Hatchery staff during the year. Coho - Sept. and Oct; Pink - Oct .; Sockeye - early May.",
+    "Fishery Officer": "Murray McPherson",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "400"
+        },
+        "Coho 1": {
+            "Est. Esc": "40"
+        },
+        "Pink 1": {
+            "Est. Esc": "2000"
+        }
+    },
+    "1st Local name": null,
+    "(K) Additional comments continued": null,
+    "(I) Habitat change": null,
+    "(E) Comments on predators": null,
+    "(B) Particulars of Scouring": null,
+    "Signature": null,
+    "(C) Water levels": null,
+    "(F) Egg digging": null,
+    "(D) Spawning distribution": null,
+    "District": null,
+    "(G) New obstructions": null,
+    "(H) recommended enhancement": null,
+    "2nd local name": null,
+    "Subdistrict": null
+}

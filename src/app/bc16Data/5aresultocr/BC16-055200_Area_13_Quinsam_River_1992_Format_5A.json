@@ -1,0 +1,50 @@
+{
+    "Watershed Code": "92-2600-010",
+    "Flows into": "CAMPBELL RIVER",
+    "Subdistrict": "13",
+    "Subarea": "13-03",
+    "Subd. name": "Name:CAMPBELL RIVER",
+    "(D) Spawning distribution": "Hachery Use Coho 3000 Pink 12000 Chinook 2600 664 chinooks Transplated to Campbell River Channel",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Reliability": "5",
+            "Est. Esc": "50",
+            "Brood esc.": "8"
+        },
+        "Coho 1": {
+            "Reliability": "5",
+            "Est. Esc": "19084 26500",
+            "Jacks": "11520"
+        },
+        "Pink 1": {
+            "Reliability": "5",
+            "Est. Esc": "231588 438469"
+        },
+        "Chum 1": {
+            "Reliability": "5",
+            "Est. Esc": "200 104"
+        },
+        "Chinook 1": {
+            "Reliability": "5",
+            "Est. Esc": "4175 9925"
+        }
+    },
+    "(A) Evidence of Erosion": null,
+    "(H) recommended enhancement": null,
+    "(K) Additional comments": null,
+    "2nd local name": null,
+    "(C) Water levels": null,
+    "(B) Particulars of Scouring": null,
+    "Fishery Officer": null,
+    "(F) Egg digging": null,
+    "District": null,
+    "1st Local name": null,
+    "year": null,
+    "(E) Comments on predators": null,
+    "Dates of inspection": null,
+    "(I) Habitat change": null,
+    "(K) Additional comments continued": null,
+    "(G) New obstructions": null,
+    "Signature": null,
+    "Gazetted name": null
+}

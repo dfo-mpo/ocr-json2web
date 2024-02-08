@@ -1,0 +1,167 @@
+{
+    "Year": "1998",
+    "Gazetted name": "ROSEWALL CREEK",
+    "RAB code": "92-3400",
+    "Area": "14-8",
+    "District": "03",
+    "Sub": "14N Comox",
+    "Flows into": "BAYNES SOUND",
+    "Latitude": "49 28 3",
+    "Longitude": "124 46 37",
+    "Field Crew": "Eli Rosengard",
+    "Inspection dates": "Oct 27 Nov 04 Nov 18 Nov 28 Dec 09",
+    "(5) Escapement comments": "unselected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "selected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "selected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "selected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Co hold in pools below power lines and spawn mostly above. Chum spawn almost entirely below old fence. Massive chum run to all local streams.",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "selected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "selected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(4) Describe basis for estimating total adults CO Run 1: The basis this year is a combination of the historic technique and what I believe the future methodology will be. I looked at the numbers seen holding as well as available spawning and holding habitat that wasn't covered. The number used is a conservative figure. 80 male and 93 female were captured for brood stock by FSBES of which about 60 were later returned to the system because they took more than the agreed upon number. (2) CM Run 1 Reliability: Reliability based on frequency and completeness of the visits (4) Describe basis for estimating total adults CM Run 1: Estimates were based on conservative counts at regular intervals and a 7-10 day stream life. (7) Enhancements: Fanny Bay Salmon Enhancement Society continues to operate their hatchery program. D. Clough Contracting maintains continuity with previous Resource Restoration plan. Fry salvage from local systems resides here. Puntledge Hatchery captive brood program uses former Omega site. New bottling plant hasn't changed system enough to register complaints from local users that can be verified. (9) Upslope instability: Severe gravel build-up continues. Same problem in several Baynes Sound streams. (13) Drought: Extreme low water - Spring through early Fall (16) Fish access recommendations: Creek bed dry close to mouth during fall migration for short periods. With low water few chums get above the old fence. (20a) Predator counts by date and predator type: Normal local predators. Seals at mouth, light bear activity this year, and eagles. (21) Other Sampling Activities or Studies: brood stock capture and return. See above",
+    "Person preparing report": "Eli Rosengard Patrolman",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": ",2,1",
+            "N": "5",
+            "%Spawn habitat surveyed": "70",
+            "Rel": "3",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "700",
+            "Brood stock removals": "160",
+            "Jacks": "70"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "2,1",
+            "N": "5",
+            "%Spawn habitat surveyed": "95",
+            "Rel": "5",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "2,300"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "1-10"
+        },
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "11-20",
+            "Start month": "Oct",
+            "Start day": "21-31",
+            "Peak month": "Nov",
+            "Peak day": "1-10",
+            "End month": "Dec",
+            "End day": "11-20"
+        }
+    },
+    "End date": null,
+    "Start date": null,
+    "Second local name": null,
+    "First local name": null
+}

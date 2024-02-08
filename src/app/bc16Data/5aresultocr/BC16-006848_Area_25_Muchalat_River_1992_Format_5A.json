@@ -1,0 +1,34 @@
+{
+    "Watershed Code": "93-5500-300",
+    "Gazetted name": "MUCHALAT RIVER",
+    "1st Local name": "name:MUCHALAT RIVER SYSTEM",
+    "Flows into": "into:GOLD RIVER",
+    "year": "1992",
+    "Subarea": "25-1",
+    "Subd. name": "TAHSIS",
+    "Dates of inspection": "OCT 29",
+    "(A) Evidence of Erosion": "CONSTANT EROSION IN LOWER 2 - 3 KM OF THIS SYSTEM. HEAVY GRAVEL MOVEMENT.",
+    "(B) Particulars of Scouring": "N/O",
+    "(C) Water levels": "NORMAL - LOW",
+    "(D) Spawning distribution": "REASONABLE FOR SMALL NUMBER OF FISH.",
+    "(E) Comments on predators": "HEAVY BIRD",
+    "(F) Egg digging": "N/O",
+    "(G) New obstructions": "N/O",
+    "(K) Additional comments": "UPPER MUCHALAT RIVER TOTALS INCLUDED IN GOLD RIVER CONSOLIDATED TOTALS.",
+    "Fishery Officer": "F R CRABBE",
+    "Duration of Spawning": {
+        "Pink 1": {
+            "Est. Esc": "-3"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "(K) Additional comments continued": null,
+    "Signature": null,
+    "Subdistrict": null,
+    "District": null,
+    "2nd local name": null,
+    "(I) Habitat change": null,
+    "(H) recommended enhancement": null
+}

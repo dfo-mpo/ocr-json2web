@@ -1,0 +1,62 @@
+{
+    "Watershed Code": "code:93-6400",
+    "Gazetted name": "TAHSIS RIVER",
+    "Flows into": "TAHSIS INLET",
+    "year": "1992",
+    "Subarea": "25-16",
+    "Subd. name": "TAHSIS",
+    "Dates of inspection": "OCT 08 OCT 13 OCT 27",
+    "(A) Evidence of Erosion": "CONSTANT EROSION ON TAHSIS SYSTEM",
+    "(B) Particulars of Scouring": "N/O",
+    "(C) Water levels": "NORMAL",
+    "(D) Spawning distribution": "EXCELLENT DISTRIBUTION IN LOWER REACHES",
+    "(E) Comments on predators": "BIRD/BEAR",
+    "(F) Egg digging": "N/O",
+    "(G) New obstructions": "N/O",
+    "(K) Additional comments": "EXCELLENT RETURNS IN '92. ABOVE ESTIMATES DO NOT INCLUDE 23 FEMALE AND 40 MALE CHINOOK TAKEN AS BROOD STOCK BY TAHSIS P.I.P. HATCHERY.",
+    "Fishery Officer": "F R CRABBE",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Arrival": "OCT A",
+            "End": "DEC C",
+            "Methods": "1 4",
+            "Reliability": "1",
+            "Est. Esc": "50",
+            "Optimum Esc.": "2000"
+        },
+        "Pink 1": {
+            "Est. Esc": "-3"
+        },
+        "Chum 1": {
+            "Arrival": "OCT B",
+            "Start": "OCT B",
+            "Peak": "OCT C",
+            "End": "NOV C",
+            "Methods": "1 4",
+            "Reliability": "3",
+            "Est. Esc": "20300",
+            "Optimum Esc.": "12000"
+        },
+        "Chinook 1": {
+            "Arrival": "SEP B",
+            "Start": "SEP C",
+            "Peak": "SEP C",
+            "End": "NOV C",
+            "Methods": "1 4",
+            "Reliability": "3",
+            "Est. Esc": "1400",
+            "Optimum Esc.": "1500"
+        }
+    },
+    "1st Local name": null,
+    "(K) Additional comments continued": null,
+    "(I) Habitat change": null,
+    "Signature": null,
+    "District": null,
+    "(H) recommended enhancement": null,
+    "2nd local name": null,
+    "Subdistrict": null
+}

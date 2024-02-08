@@ -1,0 +1,39 @@
+{
+    "First local name": "WHITE ROCK PASS CREEK",
+    "Flows Into": "WHITE ROCK PASS",
+    "Year": "1991",
+    "District No.": "5",
+    "Statistical Area": "13-17",
+    "Subdistrict No.": "13",
+    "Subdistrict Name": "Quathiaski",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "U/K",
+    "Additional (B) Particulars of scouring of spawning beds": "U/K",
+    "Additional (C) Water levels flow": "NORMAL",
+    "Biological (D) Particulars of distribution": "bed LOWER 1/2 MILE",
+    "Biological (E) Comments on predators": "PUBLIC",
+    "Biological (F) Evidence of digging eggs": "N/O",
+    "Biological (G) New obstruction": "NONE",
+    "Date of inspection": [
+        {
+            "Month": "10-28 11-29"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "No. of observer": "2 2",
+            "Method": "1 1",
+            "Reliability": "2 2",
+            "Estimated total No. on grounds": "25 40"
+        }
+    },
+    "Dates of inspection (1)": null,
+    "Comments (K)": null,
+    "Watershed code": null,
+    "Gazetted name": null,
+    "Second local name": null
+}

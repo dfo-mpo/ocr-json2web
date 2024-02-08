@@ -1,0 +1,173 @@
+{
+    "Year": "1998",
+    "Gazetted name": "MILLARD CREEK",
+    "RAB code": "92-2830",
+    "Area": "14-1",
+    "District": "03",
+    "Sub": "14N Comox",
+    "First local name": "LARD CREEK",
+    "Flows into": "BAYNES SOUND",
+    "Latitude": "49 40 9",
+    "Longitude": "124 58 23",
+    "Field Crew": "L. Box and J.Newman, E. Rosengard",
+    "Inspection dates": "Sep 15 Sep 30 Oct 15 Oct 23 Oct 30 Nov 06 Nov 13 Nov 19 Nov 27 Dec 04 Dec 11",
+    "(5) Escapement comments": "unselected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "selected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "selected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "No chums seen above Island Highway. Co generally spawned below the junction of Piercy Creek and above the beaver dams.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(2) CO Run 1 Reliability: PBS crew performed weekly walks. (2) CM Run 1 Reliability: PBS crew walked to Salt. However water high and dark during peak spawning times. (4) Describe basis for estimating total adults CO Run 1: PBS crew made weekly observations and K. Simpson plugged it into AUC formula using medium stream life. (4) Describe basis for estimating total adults CM Run 1: Based on counts by PBS and extrapolations using 7-10 day stream life. (7) Enhancements: More habitat improvements at Porter property. Work at Old Island Highway culvert may not have been done properly. No brood stock taken this year. Reports of fish in Piercy Creek. (13) Drought: Extremely low water late spring to early fall. Fry salvage carried out but farmer reported hundreds of juveniles dead in pond. (15) General Comments on Unusual Conditions: Future construction of Inland Highway access road to Courtenay is going through this system with normal impact expected. (20) On Salmon Distribution or Predator Interactions: Predation assumed normal. Large seal population in the estuary.",
+    "Person preparing report": "Eli Rosengard / Patrolman",
+    "Bio Sampling": [
+        {
+            "Species": "CO",
+            "Comments": "PBS fry survey / August"
+        }
+    ],
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "3,2,1,7",
+            "N": "9",
+            "%Spawn habitat surveyed": "60",
+            "Rel": "5",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "179"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "2,1",
+            "N": "2",
+            "%Spawn habitat surveyed": "40",
+            "Rel": "3",
+            "Enum Class": "3",
+            "Esc Code": "A.P."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "3,2,1,7",
+            "N": "9",
+            "%Spawn habitat surveyed": "90",
+            "Rel": "4",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "250"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "21-31",
+            "Start month": "Nov",
+            "Start day": "1-10",
+            "Peak month": "Nov",
+            "Peak day": "21-31",
+            "End month": "Dec",
+            "End day": "1-10"
+        },
+        "CM 1": {
+            "Peak month": "Nov",
+            "Peak day": "11-20"
+        }
+    },
+    "Start date": null,
+    "End date": null,
+    "Second local name": null
+}

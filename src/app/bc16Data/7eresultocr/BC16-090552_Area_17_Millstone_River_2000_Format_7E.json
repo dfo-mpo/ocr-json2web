@@ -1,0 +1,170 @@
+{
+    "Year": "2000",
+    "Gazetted name": "MILLSTONE RIVER",
+    "RAB code": "92-4200",
+    "District": "03",
+    "Sub": "17 Nanaimo",
+    "First local name": "MILLSTREAM RIVER",
+    "Flows into": "NANAIMO HARBOUR",
+    "Latitude": "49 10 19",
+    "Longitude": "123 56 23",
+    "Field Crew": "Charles Thrikill & Chris Peters",
+    "Inspection dates": "Oct 16 Oct 18 Oct 19 Oct 26 Oct 29 Oct 31 Nov 08 Nov 23 Nov 27 Dec 06 Dec 12",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "selected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "selected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "selected",
+    "(15) General comments": "selected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: Dec. 12th, Surveyors noted that the Nanaimo River Hatchery staff were snorkelling and seining in the river. (6) General Comments on Run Timing: Surveyors reported that they had a reliable report of 10 coho adults jumping up the lower falls (the staircase) , 500m above the mouth on Oct. 17th. (7) Enhancements: Fish fence at railway culverts (850m upstream) is 90% installed but was not in operation during the Oct 16th. survey - fish still have access through the site. Nov. 8th, surveyors report that the fence was in operation. On Nov. 22nd, Salmon in the City caught 54 adults (22 female & 32 male) and 9 jack coho by beach seine - no fish were caught in the actual fence. (8) Unusual moralities: Two pre-spawn moralities, 500m above mouth, both adipose clipped - photos taken at 15:30 on Oct. 18th. (14) Flood: Heavy rain in early Dec. , water continues to be turbid on the Dec. 6th survey (72 hrs after the rain event) . (15) General Comments on Unusual Conditions: Oct 18th, first flush runoff slight odour. (20) On Predator Interactions: Mink observed just above tideway on Oct. 18th. Oct. 19th one Kingfisher and 8 seals at top of tideway and one seal observed chasing salmon in the estuary. Surveyors also observed Blue Heron, American Dippers and Kingfishers in the creek during the later surveys. (4) Describe basis for estimating total adults CO Run 1: This estimate is the peak count seen below the fence, plus the fence count. (4) Describe basis for estimating total adults CM Run 1: Peak count of live chum of 27 on 26 Oct 2000. Expanded for observer efficiency to 35.",
+    "Person preparing report": "Steve Baillie",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1,2",
+            "N": "8",
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "60",
+            "Jacks": "30"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "1,2",
+            "N": "5",
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "35"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "A.P."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "11-20",
+            "Start month": "Oct",
+            "Start day": "21-31",
+            "Peak month": "Nov",
+            "Peak day": "21-31",
+            "End month": "Dec",
+            "End day": "1-10"
+        },
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "11-20",
+            "Start month": "Oct",
+            "Start day": "21-31",
+            "Peak month": "Oct",
+            "Peak day": "21-31",
+            "End month": "Nov",
+            "End day": "1-10"
+        }
+    },
+    "Second local name": null,
+    "End date": null,
+    "Biological details particulars": null,
+    "Start date": null,
+    "Area": null
+}

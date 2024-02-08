@@ -1,0 +1,194 @@
+{
+    "Year": "1999",
+    "Gazetted name": "TSABLE RIVER",
+    "RAB code": "92-3000",
+    "Area": "14-8",
+    "District": "03",
+    "Sub": "14N Comox",
+    "Flows into": "BAYNES SOUND",
+    "Latitude": "49 31 10",
+    "Longitude": "124 49 52",
+    "Field Crew": "Lawrence Box, Jack Newman, Eli Roseng",
+    "Inspection dates": "Sep 14 Sep 24 Oct 07 Oct 14 Oct 22 Oct 29 Nov 03 Nov 12 Nov 15 Nov 22 Nov 29",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "selected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "selected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "selected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "selected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(2) CO Run 1 Reliability: Weekly enumeration. (5) General Comments on Escapement Estimation: Coho, Chum, Pink and Chinook were present during first survey (14 Oct 1999) . (2) CM Run 1 Reliability: Weekly enumeration. Estuary was not counted. (2) CN Run 1 Reliability: Only one enumeration at end of run. (4) Describe basis for estimating total adults CO Run 1: AUC estimate. Assumed survey life of 14 days. This total includes broodstock removal. Estimated numbers of Jack coho to be 10% of numbers of adult coho. (4) Describe basis for estimating total adults PK Run 1: On Sept. 24th, the pink Peak-Live + Dead was 1, 066) (Comment added by Eli Rosengard) (4) Describe basis for estimating total adults PK Run 1: Peak count was 104 live and 10 dead (14 Oct 1999) . (4) Describe basis for estimating total adults CM Run 1: Peak count was 997 on 15 Nov 1999. 50% countability. Increased escapement estimate to 3000 for system. (4) Describe basis for estimating total adults CN Run 1: only count was 14 Oct 1999. 34 adults and 4 jacks seen. (6) General Comments on Run Timing: Pink and Chinook were at end of run when surveys started. Coho and Chum were seen during first survey, however they were likely just starting their run. (7) Enhancements: Fanny Bay Enhancement Society took 25 coho for brood stock. 12 males, 13 females. 4 spawned out. Removed after the count. (22 Nov 1999. ) (10) Debris jams: Entrance to side channel plugged with gravel and debris. Water intake at new rearing channel still plugged with debris or inadequately levelled both under N/H Bridge. (Comment added by Eli Rosengard) (20a) Predator counts by date and predator type: Unknown number of bald eagles seen on 3 Nov 1999.",
+    "Person preparing report": "Steve Baillie",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "3",
+            "N": "6",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "4",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "948",
+            "Brood stock removals": "25",
+            "Jacks": "100"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "3",
+            "N": "1",
+            "%Spawn habitat surveyed": "50",
+            "Rel": "1",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "1,300"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "3",
+            "N": "8",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "4",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "3,000"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "3",
+            "N": "1",
+            "%Spawn habitat surveyed": "50",
+            "Rel": "1",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "75",
+            "Jacks": "10"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "1-10",
+            "Start month": "Nov",
+            "Start day": "1-10",
+            "Peak month": "Nov",
+            "Peak day": "1-10"
+        },
+        "PK 1": {
+            "Arrival month": "Aug",
+            "Arrival day": "1-10",
+            "Start month": "Sep",
+            "Start day": "11-20",
+            "Peak month": "Sep",
+            "Peak day": "21-31",
+            "End month": "Oct",
+            "End day": "11-20"
+        },
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "1-10",
+            "Start month": "Nov",
+            "Start day": "1-10",
+            "Peak month": "Nov",
+            "Peak day": "11-20",
+            "End month": "Dec",
+            "End day": "1-10"
+        },
+        "CN 1": {
+            "End month": "Oct",
+            "End day": "11-20"
+        }
+    },
+    "End date": null,
+    "First local name": null,
+    "Biological details particulars": null,
+    "Second local name": null,
+    "Start date": null
+}

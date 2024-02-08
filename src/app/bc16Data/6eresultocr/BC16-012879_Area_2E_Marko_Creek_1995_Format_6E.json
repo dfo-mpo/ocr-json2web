@@ -1,0 +1,57 @@
+{
+    "Bookmark": "BC16 1995",
+    "Watershed code": "95-1740",
+    "Gazetted name": "Marko Creek",
+    "Local name": "Marko Creek",
+    "Flows into": "Hutton Inlet - Jua 1 Perez Sound",
+    "Year": "1995",
+    "District number": "9",
+    "Statistical Area": "2-11",
+    "Subdistrict number": "Area 2 East",
+    "Subdistrict name": "Sandspit",
+    "Dates of inspection": "Sep 22 Oct 27",
+    "(A) Enhancement": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstructions": "unselected",
+    "(D) Large variation": "unselected",
+    "(E) High/low water": "unselected",
+    "Physical conditions (A) Evidence": "None observed.",
+    "Physical conditions (B) Particulars": "None observed.",
+    "Physical conditions (C) Water levels": "Consistently good water levels through the spawning period.",
+    "Biological conditions (D) Particulars": "No fish observed.",
+    "Person preparing": "David Beggs",
+    "Spawning run timing": {
+        "Coho 1": {
+            "Arrival month": "Sep",
+            "Spawning start month": "Sep",
+            "Spawning peak month": "Oct",
+            "Spawning end month": "Nov",
+            "Observers": "0",
+            "Methods": "1",
+            "Reliability": "3",
+            "Total on grounds": "N/O",
+            "Target escape": "10"
+        },
+        "Pink 1": {
+            "Observers": "0",
+            "Methods": "1",
+            "Total on grounds": "N/O",
+            "Target escape": "0"
+        },
+        "Chum 1": {
+            "Arrival month": "Sep",
+            "Spawning start month": "Sep",
+            "Spawning peak month": "Oct",
+            "Spawning end month": "Nov",
+            "Observers": "0",
+            "Methods": "1",
+            "Reliability": "3",
+            "Total on grounds": "N/O",
+            "Target escape": "100"
+        }
+    },
+    "Comments": null,
+    "Biological conditions (G) New obstructions": null,
+    "Biological conditions (F) Evidence": null,
+    "Biological conditions (E) Predators comments": null
+}

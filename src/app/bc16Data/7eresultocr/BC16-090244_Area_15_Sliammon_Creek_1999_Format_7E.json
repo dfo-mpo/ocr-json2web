@@ -1,0 +1,199 @@
+{
+    "Year": "1999",
+    "Gazetted name": "SLIAMMON CREEK",
+    "RAB code": "90-2910",
+    "Area": "15-2",
+    "District": "03",
+    "Sub": "15 Powell River",
+    "Flows into": "MALASPINA STRAIT",
+    "Latitude": "49 53 42",
+    "Longitude": "124 36 13",
+    "Field Crew": "Sliammon Hatchery Crew",
+    "Inspection dates": "Dec 03",
+    "Start date": "8/31/99",
+    "End date": "12/15/99",
+    "(5) Escapement comments": "unselected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Dec. 3/99 a tributary by the name of Wilde Creek was inspected by Dick Tritschler and Jerry Francis. Chum carcases were found at least 1km. up this system, It looks to be excellent coho habitat if it has summer flows.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(2) PK Run 1 Reliability: Inspected daily from Aug 31 to Sept. 27/99 (4) Describe basis for estimating total adults PK Run 1: Due to low water not fish were able to pass the counting fence. Daily inspections were done by the hatchery crew below the fence to the estuary and also in their spawning channel. The water levels were low and the water was clear so the counts are very accurate. (2) CM Run 1 Reliability: Fence was not in working order after Nov. 6/99 due to high flows. (3) CM Run 1 Enumeration Class: Most years the latter part of the run is estimated due to high flows over the counting fence. (4) Describe basis for estimating total adults CM Run 1: This count is based on a fence count of 8066, an estimate of 5500 above the fence during high water, an estimate of 2500 below the fence, and 1500 that were estimated in the spawning channel. (2) CO Run 1 Reliability: Most coho seemed to come in on the first high water and the fence was in good working order. (4) Describe basis for estimating total adults CO Run 1: 219 coho were counted at the fence, 31 coho were estimated to pass when the fence was out with high water. 10 coho were counted in the spawning channel, 5 spawned in system below fence. (2) CN Run 1 Reliability: Actual count above fence was 4, estimate based on carcasses washed down to the fence is 14. (4) Describe basis for estimating total adults CN Run 1: Based on fence count of 4, estimate of 10 above fence, 22 removed for brood stock. (4) Describe basis for estimating total adults CM Run 1: (7) Enhancements: Sliammon hatchery is incubating 2 million chum eggs this year, usually they do 1 million, and if ocean survival is good it will be interesting in the 2003. They took 250, 000 coho eggs and are incubating 100, 000 chinook eggs that were bought from the Lang creek hatchery, and 180, 00 chinook eggs of their own.",
+    "Person preparing report": "Dick Tritschler / Texada Belle",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "11",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "4",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "265",
+            "Brood stock removals": "184",
+            "Jacks": "4"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "1",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "5",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "360"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "11",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "3",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "18,723",
+            "Brood stock removals": "1,223"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "11",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "3",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "36",
+            "Brood stock removals": "22"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "1-10",
+            "Start month": "Oct",
+            "Start day": "11-20",
+            "Peak month": "Nov",
+            "Peak day": "11-20",
+            "End month": "Nov",
+            "End day": "21-31"
+        },
+        "PK 1": {
+            "Arrival month": "Aug",
+            "Arrival day": "21-31",
+            "Start month": "Sep",
+            "Start day": "1-10",
+            "Peak month": "Sep",
+            "Peak day": "11-20",
+            "End month": "Sep",
+            "End day": "21-31"
+        },
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "1-10",
+            "Start month": "Oct",
+            "Start day": "11-20",
+            "Peak month": "Nov",
+            "Peak day": "1-10",
+            "End month": "Dec",
+            "End day": "1-10"
+        },
+        "CN 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "1-10",
+            "Start month": "Oct",
+            "Start day": "1-10",
+            "Peak month": "Oct",
+            "Peak day": "11-20",
+            "End month": "Nov",
+            "End day": "1-10"
+        }
+    },
+    "Second local name": null,
+    "First local name": null
+}

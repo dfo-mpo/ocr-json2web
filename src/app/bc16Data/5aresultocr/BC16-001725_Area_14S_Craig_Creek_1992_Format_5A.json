@@ -1,0 +1,37 @@
+{
+    "Watershed Code": "92-3825",
+    "Gazetted name": "CRAIG CREEK",
+    "1st Local name": "BEAVER CREEK",
+    "Flows into": "GEORGIA STRAIT",
+    "year": "1992",
+    "District": "3",
+    "Subdistrict": "14",
+    "Subarea": "14-S",
+    "Subd. name": "QUALICUM",
+    "Dates of inspection": "NOV 2 DEC 7",
+    "(A) Evidence of Erosion": "NONE OBSERVED",
+    "(E) Comments on predators": "NORMAL",
+    "Fishery Officer": "J. A . MAC Donald",
+    "Duration of Spawning": {
+        "Coho 1": {
+            "Arrival": "NOV",
+            "Start": "NOV",
+            "Peak": "DEC",
+            "End": "JAN",
+            "Methods": "1,6",
+            "Reliability": "1",
+            "Est. Esc": "N.O."
+        }
+    },
+    "(I) Habitat change": null,
+    "(K) Additional comments": null,
+    "(F) Egg digging": null,
+    "Signature": null,
+    "(G) New obstructions": null,
+    "(B) Particulars of Scouring": null,
+    "(D) Spawning distribution": null,
+    "(K) Additional comments continued": null,
+    "2nd local name": null,
+    "(H) recommended enhancement": null,
+    "(C) Water levels": null
+}

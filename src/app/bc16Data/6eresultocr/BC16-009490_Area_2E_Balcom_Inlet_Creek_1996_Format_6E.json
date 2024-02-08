@@ -1,0 +1,57 @@
+{
+    "Bookmark": "BC16 1996",
+    "Watershed code": "95-9600-115",
+    "Gazetted name": "Balcom Creek",
+    "Local name": "Balcom Creek",
+    "Flows into": "Heater Harbour - Hecate Straits",
+    "Year": "1996",
+    "District number": "9",
+    "Statistical Area": "2-18",
+    "Subdistrict number": "Area 2 East",
+    "Subdistrict name": "Sandspit",
+    "Dates of inspection": "Oct 16",
+    "(A) Enhancement": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstructions": "unselected",
+    "(D) Large variation": "unselected",
+    "(E) High/low water": "unselected",
+    "Physical conditions (A) Evidence": "None Observed.",
+    "Physical conditions (B) Particulars": "None Observed.",
+    "Physical conditions (C) Water levels": "Consistently good water levels through the spawning period.",
+    "Biological conditions (D) Particulars": "No fish seen in this system this year. The escapement as recorded is from a small school of chums pushing at mouth.",
+    "Biological conditions (E) Predators comments": "Minimal impact.",
+    "Biological conditions (F) Evidence": "None Observed.",
+    "Biological conditions (G) New obstructions": "None",
+    "Comments": "Very poor return. The final number was probably higher than recorded, but I was unable to get to this system for a final walk towards the end of October.",
+    "Person preparing": "David Beggs",
+    "Spawning run timing": {
+        "Coho 1": {
+            "Observers": "0",
+            "Methods": "1",
+            "Reliability": "2",
+            "Total on grounds": "N/O",
+            "Target escape": "25"
+        },
+        "Pink 1": {
+            "Observers": "0",
+            "Methods": "1",
+            "Reliability": "2",
+            "Total on grounds": "N/O",
+            "Target escape": "0"
+        },
+        "Chum 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "C",
+            "Spawning start month": "Sep",
+            "Spawning peak month": "Oct",
+            "Spawning peak day": "B",
+            "Spawning end month": "Oct",
+            "Spawning end day": "C",
+            "Observers": "1",
+            "Methods": "1",
+            "Reliability": "2",
+            "Total on grounds": "10",
+            "Target escape": "750"
+        }
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "Bookmark": "BC16 1996 \u010c",
+    "Watershed code": "95-2000",
+    "Gazetted name": "Skaat Harbour L/H Creeks",
+    "Local name": "Skaat Harbour UH Creeks",
+    "Flows into": "Skaat Harbour - Burnaby Straits",
+    "Year": "1996",
+    "District number": "9",
+    "Statistical Area": "2-13",
+    "Subdistrict number": "Area 2 East",
+    "Subdistrict name": "Sandspit",
+    "Dates of inspection": "Sep 11 Oct 04 Oct 24",
+    "(A) Enhancement": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstructions": "unselected",
+    "(D) Large variation": "unselected",
+    "(E) High/low water": "unselected",
+    "Physical conditions (A) Evidence": "None observed.",
+    "Physical conditions (B) Particulars": "None observed.",
+    "Physical conditions (C) Water levels": "Consistently good water levels through the spawning period. Slight flooding during the last two weeks of October.",
+    "Biological conditions (D) Particulars": "Up to rock falls at 1.5 km.",
+    "Biological conditions (E) Predators comments": "Moderate impact from bears.",
+    "Biological conditions (F) Evidence": "None observed.",
+    "Comments": "This system was the main chum producer in the local area this year.",
+    "Person preparing": "David Beggs",
+    "Spawning run timing": {
+        "Coho 1": {
+            "Arrival month": "Sep",
+            "Spawning start month": "Sep",
+            "Spawning peak month": "Oct",
+            "Spawning end month": "Nov",
+            "Observers": "0",
+            "Methods": "1",
+            "Reliability": "2",
+            "Total on grounds": "N/O",
+            "Target escape": "100"
+        },
+        "Pink 1": {
+            "Observers": "0",
+            "Methods": "1",
+            "Reliability": "3",
+            "Total on grounds": "N/O",
+            "Target escape": "200"
+        },
+        "Chum 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "C",
+            "Spawning start month": "Oct",
+            "Spawning start day": "B",
+            "Spawning peak month": "Oct",
+            "Spawning peak day": "C",
+            "Spawning end month": "Nov",
+            "Spawning end day": "A",
+            "Observers": "3",
+            "Methods": "1",
+            "Reliability": "2",
+            "Total on grounds": "560",
+            "Target escape": "5,000"
+        }
+    },
+    "Biological conditions (G) New obstructions": null
+}

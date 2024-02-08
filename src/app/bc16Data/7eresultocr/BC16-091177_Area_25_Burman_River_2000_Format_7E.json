@@ -1,0 +1,192 @@
+{
+    "Year": "2000",
+    "Gazetted name": "BURMAN RIVER",
+    "RAB code": "93-5400",
+    "Area": "25-1",
+    "District": "04",
+    "Sub": "Tahsis",
+    "Flows into": "MATCHLEE BAY",
+    "Latitude": "49 36 41",
+    "Longitude": "126 2 44",
+    "Inspection dates": "Sep 18 Sep 26 Oct 05 Oct 13 Oct 26 Nov 13",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: Detailed information for each inspection available from Stock Assessment Division. Broodstock figure includes all fish removals from system, not just those used for brood. Survey area needs to be expanded to better enumerate coho that move well upstream of the current survey start point.",
+    "Person preparing report": "Rick Ferguson, StAD (250)756-7006",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "Methods": "3",
+            "N": "6",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "2",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "211",
+            "Brood stock removals": "0",
+            "Jacks": "16"
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "3",
+            "N": "6",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "1",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "750",
+            "Brood stock removals": "0",
+            "Jacks": "100"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "3",
+            "N": "6",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "3",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "2,231",
+            "Brood stock removals": "0"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "3",
+            "N": "5",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "3",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "149",
+            "Brood stock removals": "63",
+            "Jacks": "2"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "Methods": "3",
+            "N": "1",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "1",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "1",
+            "Brood stock removals": "0"
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "SK 1": {
+            "Arrival month": "Aug",
+            "Start month": "Sep",
+            "Peak month": "Oct",
+            "End month": "Dec"
+        },
+        "CO 1": {
+            "Arrival month": "Aug",
+            "Arrival day": "21-31",
+            "Start month": "Sep",
+            "Peak month": "Nov",
+            "End month": "Dec"
+        },
+        "CM 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "11-20"
+        },
+        "CN 1": {
+            "Arrival month": "Aug",
+            "Arrival day": "21-31"
+        }
+    },
+    "End date": null,
+    "Second local name": null,
+    "First local name": null,
+    "Start date": null,
+    "Field Crew": null,
+    "Biological details particulars": null
+}

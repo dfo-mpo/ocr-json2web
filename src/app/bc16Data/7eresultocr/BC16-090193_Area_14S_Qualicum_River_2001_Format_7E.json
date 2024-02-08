@@ -1,0 +1,177 @@
+{
+    "Year": "2001",
+    "Gazetted name": "QUALICUM RIVER",
+    "RAB code": "92-3500",
+    "Area": "14-5",
+    "District": "03",
+    "Sub": "14S Qualicum Beach",
+    "First local name": "BIG QUALICUM RIVER",
+    "Flows into": "GEORGIA STRAIT",
+    "Latitude": "49 23 54",
+    "Longitude": "124 36 30",
+    "Field Crew": "Hatchery staff",
+    "Start date": "9/12/01",
+    "End date": "12/20/01",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Normal.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: COHO - 12715 adipose clip, 6271 jack above fence; 1500 adipose clip, 150 jack below fence; 4244 adipose clip, 368 jack - broodstock; 13702 adipose clip, 8480 jacks - ESSR. CHUM - 149368 above fence, 13023 below; 928 broodstock and 5877 ESSR. CHINOOK - 3889 adipose clip, 567 jack above fence; 850 adipose clip, 100 jack below; broodstock 2337 adipose clip, 88 jack; Qualicum ESSR 2496 adipose clip, 308 jack. (7) Enhancements: Hatchery system.",
+    "Person preparing report": "Eli Rosengard",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1,2,11",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "5",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "14,215",
+            "Brood stock removals": "27,794",
+            "Jacks": "6,421"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "1,2,11",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "5",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "162,391",
+            "Brood stock removals": "6,805"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "1,2,11",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "5",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "4,739",
+            "Brood stock removals": "5,229",
+            "Jacks": "667"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "24",
+            "End month": "Dec",
+            "End day": "20"
+        },
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "22",
+            "Start month": "Oct",
+            "Start day": "30",
+            "Peak month": "Nov",
+            "Peak day": "20",
+            "End month": "Dec",
+            "End day": "20"
+        },
+        "CN 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "13"
+        }
+    },
+    "Second local name": null,
+    "Inspection dates": null
+}

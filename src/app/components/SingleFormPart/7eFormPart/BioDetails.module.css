@@ -1,0 +1,112 @@
+.wrapper {
+  border: 2px solid black;
+  margin: 0 0 10px 0;
+}
+.title {
+  margin-top: 10px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.part {
+  margin: 3px;
+  border: 1px solid black;
+  min-height: 100px;
+  padding: 5px;
+}
+.part2 {
+  margin: 3px;
+  border: 1px solid black;
+
+  padding: 5px;
+}
+
+.partDetailsTitle {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.juvenile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.unselected {
+  margin: 2px;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  border: 1px solid #000; /* Adjust border properties as needed */
+}
+
+.selected {
+  margin: 2px;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  border: 1px solid #000; /* Adjust border properties as needed */
+}
+
+.selected::before {
+  content: "✕"; /* You can use 'X' or any other symbol */
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 16px; /* Adjust font size as needed */
+  color: #000; /* Adjust color as needed */
+}
+
+.myList {
+  margin: 0;
+  padding: 4px;
+  list-style-type: none;
+}
+
+.inlineFlex {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.inlineFlex > div {
+  font-size: 0.8em;
+}
+
+.bioTitle {
+  font-weight: 600;
+  padding: 5px;
+}
+.part3 {
+  margin: 5px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.part4 {
+  margin: 5px;
+  font-size: 0.8em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.wrapper2 {
+  border: 2px solid black;
+  margin: 0 0 10px 0;
+  min-height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contactLoc {
+  display: flex;
+  justify-content: space-around;
+}
+.comments {
+  padding: 5px;
+}

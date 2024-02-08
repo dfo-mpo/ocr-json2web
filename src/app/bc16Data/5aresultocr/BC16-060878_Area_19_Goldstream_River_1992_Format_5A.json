@@ -1,0 +1,59 @@
+{
+    "Watershed Code": "92-5200",
+    "Gazetted name": "name:GOLDSTREAM RIVER",
+    "Flows into": "SAANICH INLET AT FINLAYSON ARM",
+    "year": "1992",
+    "Subarea": "19-12",
+    "Subd. name": "VICTORIA/SAANICH",
+    "Dates of inspection": "SEP 16 |1 OCT 16 |1 NOV 04 |1 SEP 25 |1 OCT 21 |1 NOV 13 |1 SEP 29 1 OCT 27 |1 NOV 25 1 OCT 08 |1 NOV 01 |1 1",
+    "(B) Particulars of Scouring": "Side channel that crosses Finlayson Rd. did not have any water in it this year.",
+    "(C) Water levels": "Prolonged drought and low GVWD reservoir levels resulted in abnormally low water levels up to late November.",
+    "(E) Comments on predators": "Some chinook were taken by otters.",
+    "(F) Egg digging": "Fewer chums that in previous yrs.spawned in upper reaches.Gravel downstream of Finlayson Rd.was dug up several times by sp. chums.",
+    "(G) New obstructions": "Log located 150 m up from Finlayson Bridge needs to be cut and removed from channel.",
+    "(H) recommended enhancement": "Re-establish flows in the side channel, clean spawning gravel in side channel.",
+    "(K) Additional comments": "See",
+    "Fishery Officer": "Stefan Beckmann",
+    "Duration of Spawning": {
+        "Coho 1": {
+            "Arrival": "OCT A",
+            "Start": "NOV A",
+            "Peak": "NOV C",
+            "End": "DEC C",
+            "Methods": "1",
+            "Reliability": "4",
+            "Est. Esc": "12",
+            "Brood esc.": "88",
+            "Optimum Esc.": "1000"
+        },
+        "Chum 1": {
+            "Arrival": "OCT A",
+            "Start": "OCT C",
+            "Peak": "NOV B",
+            "End": "DEC C",
+            "Methods": "1",
+            "Reliability": "4",
+            "Est. Esc": "17000",
+            "Brood esc.": "14500",
+            "Optimum Esc.": "15000"
+        },
+        "Chinook 1": {
+            "Arrival": "SEP B",
+            "Start": "OCT B",
+            "Methods": "1",
+            "Reliability": "3",
+            "Est. Esc": "8",
+            "Brood esc.": "19",
+            "Optimum Esc.": "500"
+        }
+    },
+    "District": null,
+    "2nd local name": null,
+    "(A) Evidence of Erosion": null,
+    "(D) Spawning distribution": null,
+    "Signature": null,
+    "(I) Habitat change": null,
+    "1st Local name": null,
+    "(K) Additional comments continued": null,
+    "Subdistrict": null
+}

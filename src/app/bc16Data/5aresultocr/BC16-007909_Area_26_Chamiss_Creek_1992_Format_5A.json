@@ -1,0 +1,57 @@
+{
+    "Watershed Code": "code:93-7580",
+    "Gazetted name": "name:CHAMISS CREEK",
+    "Flows into": "CHAMISS BAY",
+    "year": "1992",
+    "Subarea": "26-5",
+    "Subd. name": "KYUQUOT",
+    "Dates of inspection": "OCT 03 NOV 05 OCT 07 OCT 13 OCT 14",
+    "(D) Spawning distribution": "Up to log jam at 2 KM",
+    "(E) Comments on predators": "Fairly high predation by bears",
+    "(K) Additional comments": "Freezing conditions during the first 3 weeks of January caused abnormally low flows and may have affected chum egg survival",
+    "Fishery Officer": "R L SENGER",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT \u010c",
+            "Peak": "NOV B",
+            "End": "DEC C",
+            "Methods": "1",
+            "Reliability": "3",
+            "Est. Esc": "50",
+            "Optimum Esc.": "1000"
+        },
+        "Pink 1": {
+            "Est. Esc": "-3"
+        },
+        "Chum 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT A",
+            "Peak": "OCT C",
+            "End": "NOV B",
+            "Methods": "1",
+            "Reliability": "4",
+            "Est. Esc": "8000",
+            "Optimum Esc.": "10000"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "(I) Habitat change": null,
+    "(F) Egg digging": null,
+    "Signature": null,
+    "(G) New obstructions": null,
+    "(B) Particulars of Scouring": null,
+    "(A) Evidence of Erosion": null,
+    "1st Local name": null,
+    "Subdistrict": null,
+    "(K) Additional comments continued": null,
+    "2nd local name": null,
+    "(H) recommended enhancement": null,
+    "(C) Water levels": null,
+    "District": null
+}

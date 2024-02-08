@@ -1,0 +1,175 @@
+{
+    "Year": "1998",
+    "Gazetted name": "ENGLISHMAN RIVER",
+    "RAB code": "92-3800",
+    "Area": "14-5",
+    "District": "03",
+    "Sub": "14S Qualicum Beach",
+    "Flows into": "GEORGIA STRAIT",
+    "Latitude": "49 19 47",
+    "Longitude": "124 17 36",
+    "Field Crew": "Eli Rosengard, Horsefield - McKay",
+    "Inspection dates": "Oct 22 Oct 23 Oct 27 Oct 30 Nov 04 Nov 12 Nov 19 Nov 30 Dec 08 Dec 11 Dec 18",
+    "(5) Escapement comments": "unselected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "selected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "selected",
+    "(16) Fish access": "selected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "selected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Good Co return to Morrison Creek for spawning. Pk mostly at hatchery channel and just below top bridge. Chum spread throughout system and up to Morrison Creek.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "selected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "selected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(1) Other methods for CO Run 1: Brood capture. (2) PK Run 1 Reliability: Sufficient number of walks but this is a very large system and pinks may have spawned above area surveyed. (4) Describe basis for estimating total adults PK Run 1: 160 counted and 250 est. for system on Oct. 5 . Number is a conservative estimate and allows for fish missed. Anecdotal also speaks to poor run. Other earlier walks showed almost nothing. First year return from 750,000 released was disappointing. (7) Enhancements: New hatchery building built near old sight. Large extension to the Mac-Blo rearing channel created this year. Coho and chum found spawning in that area. Beaver dam blockage an on-going problem on this and hatchery channel as well. (13) Drought: Extreme low water from spring to early fall. (15) General Comments on Unusual Conditions: Ongoing problems of gravel movement with flashy nature of this system. (18) Flow augmentation: Intake to hatchery channel plugged up with mortality of about 70 coho brood stock. (16) Fish access recommendations: Monitoring of beaver dams a necessity. (20) On Salmon Distribution or Predator Interactions: FRBC money has been asked to fund assessment and downstream smolt survey this coming spring. (21) Other Sampling Activities or Studies: A PBS enumeration survey team of two persons evaluated the South Englishman and Morrison Creek as well as E. Rosengard surveying the mainstem and side channels. (2) CO Run 1 Reliability: No successful enumerations of the mainstem after Oct. Mid to late Nov. very high water. No observations above Confluence of Morrison. (3) CO Run 1 Enumeration Class: (4) basis for estimating total adults CO Run 1: This is a conservative guess based on numbers holding in late Oct. and fish in Morrison in late November. Fish probably moved high in the mainstem before Morrison had enough water to suck fish in [Nov. 15 flood] This system has not had reliable coho est. since swims were discontinued. (2) CM Run 1 Reliability: No time to walk the grounds systematically during peak migration. Mid-Nov rains made counts impossible for two weeks. This number is a guess based on early observations by myself, knowledge of the size of chum run to other systems, and discussions with hatchery staff and streamkeepers. (4) Describe basis for estimating total adults CM Run 1: Explained in previous box. (2) CN Run 1 Reliability: Only looked at incidental to pk and co observations. (3) CN Run 1 Enumeration Class:",
+    "Person preparing report": "Eli Rosengard / Patrolman",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "2,1,10",
+            "N": "11",
+            "%Spawn habitat surveyed": "35",
+            "Rel": "2",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "1,500",
+            "Brood stock removals": "70"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "2,1",
+            "N": "4",
+            "%Spawn habitat surveyed": "70",
+            "Rel": "3",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "350"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "2,1",
+            "N": "10",
+            "%Spawn habitat surveyed": "80",
+            "Rel": "2",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "8,000"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "1,2",
+            "N": "2",
+            "%Spawn habitat surveyed": "20",
+            "Rel": "1",
+            "Enum Class": "4",
+            "Esc Code": "A.P."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "PK 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "21-31",
+            "Start month": "Sep",
+            "Start day": "21-31",
+            "Peak month": "Oct",
+            "Peak day": "1-10",
+            "End month": "Oct",
+            "End day": "11-20"
+        },
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "11-20",
+            "Start month": "Oct",
+            "Start day": "21-31"
+        }
+    },
+    "First local name": null,
+    "Second local name": null,
+    "End date": null,
+    "Start date": null
+}

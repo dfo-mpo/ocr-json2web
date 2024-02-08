@@ -1,0 +1,146 @@
+{
+    "Year": "1998",
+    "Gazetted name": "DOVE CREEK",
+    "RAB code": "92-2800-010-020",
+    "District": "03",
+    "Sub": "14N Comox",
+    "Latitude": "49 44 50",
+    "Longitude": "125 5 4",
+    "Field Crew": "L. Box and J. Newman",
+    "Inspection dates": "Oct 15 Oct 23 Oct 30 Nov 06 Nov 13 Nov 18 Nov 27 Dec 04",
+    "(5) Escapement comments": "unselected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "selected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "selected",
+    "Biological details particulars": "Most spawning and holding took place in the upper reaches of section surveyed. Coho noted in trib. 2 near highway culvert. This system has never been thoroughly evaluated for enumeration purposes.",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "selected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "selected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "This system was chosen by Stock Assessment for a weekly spawner assessment. (7) Enhancements: Inland Highway is being constructed through this system with typical effects. Problems associated with this to be expected over the next few years. (13) Drought: Extremely low water late spring to early fall. Assessment in Sept. however found much fry thriving in pools. (19) Other restoration recommendations: A survey of this system is being planned by Tsolum River Task Force. (20) On Salmon Distribution or Predator Interactions: Assume normal predation, bears birds etc. Co. Ct and Rw juveniles noted in good numbers during fry trapping survey. Two Sthd adults noted by survey crew. (21) Other Sampling Activities or Studies: Details of fry trapping study in Comox office as well. (2) CO Run 1 Reliability: PBS crew did surveys and K. Simpson did AUC. However, about 75% of the system not surveyed. (4) Describe basis for estimating total adults CO Run 1: This is the section estimate that was surveyed. No extrapolation of this system was performed. No spawner records to compare this number to anyway.",
+    "Person preparing report": "Eli Rosengard / Patrolman",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "3,2,1",
+            "N": "8",
+            "%Spawn habitat surveyed": "25",
+            "Rel": "4",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "56"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {},
+    "End date": null,
+    "Area": null,
+    "Flows into": null,
+    "Start date": null,
+    "Second local name": null,
+    "First local name": null
+}

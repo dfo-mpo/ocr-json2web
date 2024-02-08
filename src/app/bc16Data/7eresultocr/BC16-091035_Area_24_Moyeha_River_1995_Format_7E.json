@@ -1,0 +1,203 @@
+{
+    "Year": "1995",
+    "Gazetted name": "MOYEHA RIVER",
+    "RAB code": "93-4300",
+    "Area": "24-5",
+    "District": "04",
+    "Sub": "24 Tofino",
+    "Flows into": "HERBERT INLET",
+    "Latitude": "49 25 8",
+    "Longitude": "125 54 27",
+    "Field Crew": "StAD",
+    "Inspection dates": "Sep 22 Oct 01 Oct 22 Oct 30",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "selected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Chums lower 3 km; scattered 3 km - 8 km pinks / sockeye; 8 km & lower pool outflow coho.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "selected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: Escapement estimates are mainstem estimates only (no tributaries). Detailed information for each inspection available from Stock Assessment Division. Additional partial surveys were conducted by W.R. Hickling but not included here. W.R. Hickling estimates for total number on grounds: sockeye - 100; coho - 2, 500; coho jacks - 300; pink - 50; chum - 6, 000; and chinook - 200. Good coho escapement - habitat and spawning unknown. Coho juveniles surveyed by W.R. Hickling during 1995. Two Atlantic salmon observed in system. (11) Bank erosion: During freshets: substrate shifts; pools filling; riffles appearing etc. (20) On Predator Interactions: Bear. (22) List Supplementary Documentation: BC16 originally prepared by Bruce A. Patten, StAD; reviewed by Rick Ferguson April 2000.",
+    "Person preparing report": "Rick Ferguson, StAD (250) 756-7006",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "Methods": "3",
+            "N": "4",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "2",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "205",
+            "Jacks": "44"
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "3",
+            "N": "4",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "2",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "1,370",
+            "Jacks": "179"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "3",
+            "N": "1",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "2",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "1"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "3",
+            "N": "4",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "2",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "2,556"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "3",
+            "N": "3",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "2",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "89",
+            "Jacks": "19"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "Methods": "3",
+            "N": "3",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "2",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "8"
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "Methods": "3",
+            "N": "2",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "2",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "2"
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "SK 1": {
+            "Arrival month": "Sep",
+            "Start month": "Oct",
+            "Start day": "21-31"
+        },
+        "CO 1": {
+            "Arrival month": "Sep"
+        },
+        "PK 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "1-10"
+        },
+        "CM 1": {
+            "Arrival month": "Sep",
+            "Start month": "Sep",
+            "Peak month": "Oct",
+            "End month": "Oct",
+            "End day": "21-31"
+        },
+        "CN 1": {
+            "Arrival month": "Sep"
+        },
+        "ST 1": {
+            "Arrival month": "Sep"
+        },
+        "AT 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "1-10"
+        }
+    },
+    "Start date": null,
+    "First local name": null,
+    "Second local name": null,
+    "End date": null
+}

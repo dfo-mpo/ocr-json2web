@@ -1,0 +1,45 @@
+{
+    "Watershed Code": "code:90-4000",
+    "Gazetted name": "name:GRASSY CREEK",
+    "Flows into": "LOUGHBOROUGH INLET",
+    "Subdistrict": "13",
+    "Subarea": "13-42",
+    "Subd. name": "CAMPBELL RIVER",
+    "Dates of inspection": "AUG 18 |1 SEP 09 |1 NOV. 11 |1",
+    "(C) Water levels": "normal in September, above normal in November",
+    "(D) Spawning distribution": "Pinks-tide level to one mile above bridge Chums-1/2 mile to 2 miles from ocean",
+    "(E) Comments on predators": "Bears",
+    "Fishery Officer": "G. Chiasson",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Est. Esc": "-2"
+        },
+        "Pink 1": {
+            "Reliability": "5"
+        },
+        "Chum 1": {
+            "Arrival": "AUG C OCT",
+            "Reliability": "2",
+            "Est. Esc": "2800 10000 1500 100"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "(F) Egg digging": null,
+    "(G) New obstructions": null,
+    "(H) recommended enhancement": null,
+    "District": null,
+    "(I) Habitat change": null,
+    "(K) Additional comments continued": null,
+    "Signature": null,
+    "(B) Particulars of Scouring": null,
+    "2nd local name": null,
+    "year": null,
+    "(A) Evidence of Erosion": null,
+    "(K) Additional comments": null,
+    "1st Local name": null
+}

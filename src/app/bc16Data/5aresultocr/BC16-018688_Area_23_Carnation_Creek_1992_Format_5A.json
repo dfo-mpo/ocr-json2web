@@ -1,0 +1,45 @@
+{
+    "Watershed Code": "93-2030",
+    "1st Local name": "name:CARNATION CREEK",
+    "Flows into": "into:NUMUKAMIS BAY",
+    "year": "1992",
+    "District": "04",
+    "Subarea": "23-4",
+    "Subd. name": "BARKLEY NITINAT",
+    "(A) Evidence of Erosion": "See Carnation Creek watershed study - considerable disturbance over last 15 years - STUDY AREA",
+    "(B) Particulars of Scouring": "as above",
+    "(H) recommended enhancement": "STUDY AREA - monitored under contract by B.C. Forest Service - contact Peter Tschaplinsky at 397-3025.",
+    "(K) Additional comments": "MOF ADVISES THEY FOUND SOME MIS-FILED DATE CONTACT PETER TSCHAPLINSKI 387-3025.",
+    "Fishery Officer": "B Rushton, AScT",
+    "Duration of Spawning": {
+        "Coho 1": {
+            "Arrival": "OCT",
+            "Methods": "10",
+            "Reliability": "3",
+            "Est. Esc": "150"
+        },
+        "Chum 1": {
+            "Arrival": "OCT",
+            "Methods": "10",
+            "Reliability": "2",
+            "Est. Esc": "# 493",
+            "Jacks": "REVISED NUMBER PER MOF RESEARCH"
+        },
+        "Chinook 1": {
+            "Methods": "10",
+            "Est. Esc": "1"
+        }
+    },
+    "(I) Habitat change": null,
+    "(K) Additional comments continued": null,
+    "(E) Comments on predators": null,
+    "Gazetted name": null,
+    "Signature": null,
+    "(C) Water levels": null,
+    "Dates of inspection": null,
+    "(F) Egg digging": null,
+    "(D) Spawning distribution": null,
+    "(G) New obstructions": null,
+    "2nd local name": null,
+    "Subdistrict": null
+}

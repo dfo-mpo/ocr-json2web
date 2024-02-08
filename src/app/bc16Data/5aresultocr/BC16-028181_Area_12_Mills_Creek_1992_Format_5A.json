@@ -1,0 +1,48 @@
+{
+    "Watershed Code": "92-1210",
+    "Gazetted name": "name:MILLS CREEK",
+    "1st Local name": "BEAR CREEK",
+    "year": "1992",
+    "Subarea": "12-19",
+    "Subd. name": "SEYMOUR INLET",
+    "Dates of inspection": "AUG 24 OCT 03 SEP 16 SEP 24 SEP 28",
+    "(A) Evidence of Erosion": "The creek silted badly after a rain. Silting came from logging road and dryland sort run-off.",
+    "(B) Particulars of Scouring": "Not excessive.",
+    "(C) Water levels": "Low water level in summer, but adequate during spawning periods.",
+    "(D) Spawning distribution": "Pinks were mostly below hatchery site and almost all contained below logging road. Chum below hatchery.",
+    "(E) Comments on predators": "Bears. This system has an active bear population.",
+    "(F) Egg digging": "None apparent.",
+    "(G) New obstructions": "No.",
+    "(K) Additional comments": "Coho begin arriving early at stream mouth. Subjected to heavy sportfish pressure and natural predators. A sanctuary boundary is needed to protect early stocks holding in estuary.",
+    "Fishery Officer": "Clifford Todd",
+    "Duration of Spawning": {
+        "Coho 1": {
+            "Start": "OCT C",
+            "Methods": "2",
+            "Est. Esc": "-2",
+            "Optimum Esc.": "2000"
+        },
+        "Pink 1": {
+            "Peak": "SEP C",
+            "End": "OCT C",
+            "Methods": "1 2",
+            "Reliability": "5",
+            "Est. Esc": "2000",
+            "Optimum Esc.": "5000"
+        },
+        "Chum 1": {
+            "Start": "SEP C",
+            "Peak": "OCT C",
+            "Est. Esc": "-2",
+            "Optimum Esc.": "1000"
+        }
+    },
+    "District": null,
+    "(H) recommended enhancement": null,
+    "(K) Additional comments continued": null,
+    "(I) Habitat change": null,
+    "Signature": null,
+    "2nd local name": null,
+    "Flows into": null,
+    "Subdistrict": null
+}

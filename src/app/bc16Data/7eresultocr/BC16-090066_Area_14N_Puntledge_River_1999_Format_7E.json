@@ -1,0 +1,216 @@
+{
+    "Year": "1999",
+    "Gazetted name": "PUNTLEDGE RIVER",
+    "RAB code": "92-2800",
+    "Area": "14",
+    "District": "03",
+    "Sub": "14N Comox",
+    "First local name": "COURTENAY RIVER",
+    "Flows into": "COMOX HARBOUR",
+    "Latitude": "49 40 48",
+    "Longitude": "124 58 32",
+    "Field Crew": "Hatchery Staff",
+    "Start date": "8/1/99",
+    "End date": "12/15/99",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "selected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "selected",
+    "(13) Unusual drought": "selected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "selected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Limited spawning area. Virtually all spawning occurs below the Hydro Station above the lower hatchery, below the fence (lower 1/3 of river) , and side channels.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(4) Describe basis for estimating total adults CO Run 1: River escapement below fence 800 + above fence 1,500 + Comox Lake 1,200 = a total escapement of 3,500 plus 1,943 jack, and brood removals include 4, 686 adults & 322 jacks. (4) Describe basis for estimating total adults PK Run 1: River escapement below fence 75,500 + above fence 14,500 + Comox Lake 0 = a total escapement of 90,000 and brood removals include 10, 000 adults. This is an exceptional year for pink returns. In past years pink returns have been inconsistent and we suspect that the Commercial Fisheries has an impact on returning spawners, this year there was no Commercial Fishery and the pink escapement reached a record high. (4) Describe basis for estimating total adults CM Run 1: River escapement below fence 82, 000 + above fence 0 + Comox Lake 0 = a total escapement of 82, 000 plus 1,266 fish removed for I.F.F. and brood removals include 3,331 female adults & 7,946 male adults. (4) Describe basis for estimating total adults CN Run 1: River escapement below fence 350 + above fence 75 + Comox Lake 0 = a total escapement of 425 and brood removals include 800 adults & 600 jacks. (4) Describe basis for estimating total adults CN Run 2: River escapement below fence 0 + above fence 50 + Comox Lake 0 = a total escapement of 50 and brood removals include 308 adults & 272 jacks. (5) General Comments on Escapement Estimation: Pretty good year compared to previous years. Favourable conditions and good spawner numbers due to abnormally large snow pack. Higher number of Chinook jacks seen, more than in previous years. (7) Enhancements: Major Hatchery facility on Puntledge River. River presently has three (3) side channels and there are more scheduled to be built. (8) Unusual mortalities: Lost 50% of broodstock due to requirements to inoculate against BKD. (11) Bank erosion: Siltation from Brown River (major tributary) due to active logging and highway development. (13) Drought: The lake had extremely low water levels in the fall. A couple of days of diminished flows in the river would impact the spawning salmon. (15) General Comments on Unusual Conditions: There was some large woody debris (LWD) but this was generally beneficial. (20) On Predator Interactions: Seals (fewer due to previous years seal cull program) ; poachers (always summer chinook and steelhead) ; recreational usage (salmon being harassed by swimmers in pools) ; and normal bear, eagle, vulture & mink.",
+    "Person preparing report": "Brian Munro - Puntledge Hatchery",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "Methods": "1,3,11",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "5",
+            "Enum Class": "4",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1,3,11",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "5",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "3,500",
+            "Brood stock removals": "4,686",
+            "Jacks": "1,943"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "1,3,11",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "5",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "90,000",
+            "Brood stock removals": "10,000"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "1,3,11",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "5",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "82,000",
+            "Brood stock removals": "11,277"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "1,3,11",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "5",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "50",
+            "Brood stock removals": "308"
+        },
+        "CN 2": {
+            "Methods": "1,3,11",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "5",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "425",
+            "Brood stock removals": "800"
+        },
+        "ST 1": {
+            "Methods": "1,3,11",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "5",
+            "Enum Class": "4",
+            "Esc Code": "A.P."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "Methods": "1,3,11",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "5",
+            "Enum Class": "4",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Aug",
+            "Arrival day": "21-31",
+            "Start month": "Sep",
+            "Start day": "21-31",
+            "Peak month": "Nov",
+            "Peak day": "11-20"
+        },
+        "PK 1": {
+            "Arrival month": "Aug",
+            "Arrival day": "1-10",
+            "Start month": "Sep",
+            "Start day": "11-20",
+            "Peak month": "Sep",
+            "Peak day": "21-31",
+            "End month": "Oct",
+            "End day": "11-20"
+        },
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "1-10",
+            "Start month": "Oct",
+            "Start day": "21-31",
+            "Peak month": "Nov",
+            "Peak day": "1-10",
+            "End month": "Nov",
+            "End day": "11-20"
+        },
+        "CN 1": {
+            "Start month": "Sep",
+            "Start day": "21-31",
+            "Peak month": "Oct",
+            "Peak day": "11-20",
+            "End month": "Oct",
+            "End day": "21-31"
+        },
+        "CN 2": {
+            "Arrival month": "Sep",
+            "Arrival day": "1-10",
+            "Start month": "Oct",
+            "Start day": "1-10",
+            "Peak month": "Oct",
+            "Peak day": "21-31",
+            "End month": "Nov",
+            "End day": "1-10"
+        }
+    },
+    "Inspection dates": null,
+    "Second local name": null
+}

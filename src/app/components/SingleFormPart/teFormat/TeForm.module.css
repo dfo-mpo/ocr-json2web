@@ -1,0 +1,77 @@
+.container {
+    width: 100%;
+    max-width: 1030px; /* For larger screens */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  /* Media query for tablets */
+  @media screen and (min-width: 768px) {
+    .container {
+      width: 95%;
+    }
+  }
+  
+  /* Media query for desktops */
+  @media screen and (min-width: 1024px) {
+    .container {
+      width: 90%;
+    }
+  }
+  
+  .headerBox {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  .header1 {
+    font-size: 1.1em;
+  }
+  .header2 {
+    font-size: 1.05em;
+  }
+  
+  .areaDates {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .streamID {
+    flex: 1;
+    flex-basis: 46%;
+  }
+  .areaDates {
+    flex: 1;
+    flex-basis: 46%;
+  }
+  
+  
+  
+  .linkStyle {
+    float:right;
+  
+   
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    color: #000;
+    border: 1px solid #ccc;
+    font-size: 0.8em;
+    font-weight: 600;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .linkStyle:hover {
+    background-color: #ddd;
+  
+    color: red;
+  }

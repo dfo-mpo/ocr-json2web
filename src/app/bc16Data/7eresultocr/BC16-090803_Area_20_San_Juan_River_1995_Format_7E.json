@@ -1,0 +1,195 @@
+{
+    "Year": "1995",
+    "Gazetted name": "SAN JUAN RIVER",
+    "RAB code": "93-1000",
+    "Area": "20-2",
+    "District": "06",
+    "Sub": "20 Sooke",
+    "Flows into": "PORT SAN JUAN",
+    "Latitude": "48 33 36",
+    "Longitude": "124 23 53",
+    "Field Crew": "San Juan Enhancement Society / Pachee",
+    "Inspection dates": "Aug 25 Oct 02 Nov 02 Nov 03",
+    "Start date": "9/1/95",
+    "End date": "10/8/95",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "selected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: San Juan Hatchery estimates 10,000 to 30,000 coho in system. Brood collected by San Juan Hatchery: 230 male & 228 females. Hatchery observed 1 pink. Chinook and steelhead escapement estimate from hatchery counts. Daily fence counts, tributary survey data and detailed information for each inspection available from Stock Assessment Division. Broodstock figure includes all fish removals from system, not just those used for brood. Unusual numbers of jacks: Proportion of chinook jacks = 29%. (7) Enhancements: San Juan Enhancement Society operates a fence and conducts broodstock removals. (22) BC16 originally prepared by Bruce A. Patten, StAD; reviewed by Rick Ferguson June 2000.",
+    "Person preparing report": "Rick Ferguson, StAD (250) 756-7006",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "3,4,11",
+            "N": "3",
+            "%Spawn habitat surveyed": "50",
+            "Rel": "1",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "19,542",
+            "Brood stock removals": "458"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "11",
+            "N": "1",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "1",
+            "Enum Class": "4",
+            "Esc Code": "A.C.",
+            "Est total adults": "1"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "3,11",
+            "N": "2",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "1",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "48"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "3,4,11",
+            "N": "4",
+            "%Spawn habitat surveyed": "80",
+            "Rel": "2",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "376",
+            "Brood stock removals": "334",
+            "Jacks": "290"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "Methods": "11",
+            "%Spawn habitat surveyed": "40",
+            "Rel": "1",
+            "Enum Class": "4",
+            "Esc Code": "A.C.",
+            "Est total adults": "10"
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "1-10",
+            "Start month": "Oct",
+            "Start day": "1-10",
+            "Peak month": "Oct",
+            "Peak day": "1-10",
+            "End month": "Nov",
+            "End day": "1-10"
+        },
+        "CM 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "21-31",
+            "Start month": "Sep",
+            "Start day": "21-31",
+            "Peak month": "Sep",
+            "Peak day": "21-31",
+            "End month": "Nov",
+            "End day": "1-10"
+        },
+        "CN 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "21-31",
+            "Start month": "Oct",
+            "Start day": "1-10",
+            "Peak month": "Oct",
+            "Peak day": "1-10",
+            "End month": "Nov",
+            "End day": "1-10"
+        }
+    },
+    "Biological details particulars": null,
+    "Second local name": null,
+    "First local name": null
+}

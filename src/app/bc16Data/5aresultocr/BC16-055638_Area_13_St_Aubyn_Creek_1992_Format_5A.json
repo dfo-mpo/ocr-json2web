@@ -1,0 +1,51 @@
+{
+    "Watershed Code": "92-2000-420",
+    "1st Local name": "CHRISTIE CREEK",
+    "Flows into": "into:OKISOLLO CHANNEL",
+    "Subarea": "13-10",
+    "Subd. name": "QUATHIASKI",
+    "Dates of inspection": "NOV 22 1",
+    "(D) Spawning distribution": "Mouth to falls",
+    "(E) Comments on predators": "Bears Birds",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Arrival": "NOV",
+            "Est. Esc": "-2"
+        },
+        "Pink 1": {
+            "Arrival": "AUG",
+            "Est. Esc": "-2"
+        },
+        "Chum 1": {
+            "Arrival": "NOV 22",
+            "Start": "NOV",
+            "Peak": "NOV",
+            "End": "DEC",
+            "Methods": "1",
+            "Reliability": "5",
+            "Est. Esc": "100 250"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "(K) Additional comments": null,
+    "District": null,
+    "2nd local name": null,
+    "(H) recommended enhancement": null,
+    "(K) Additional comments continued": null,
+    "Fishery Officer": null,
+    "Signature": null,
+    "Subdistrict": null,
+    "(A) Evidence of Erosion": null,
+    "Gazetted name": null,
+    "(F) Egg digging": null,
+    "(B) Particulars of Scouring": null,
+    "(I) Habitat change": null,
+    "year": null,
+    "(C) Water levels": null,
+    "(G) New obstructions": null
+}

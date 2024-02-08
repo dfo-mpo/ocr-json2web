@@ -1,0 +1,44 @@
+{
+    "Bookmark": "BC16 1995",
+    "Watershed code": "95-9600-300",
+    "Gazetted name": "Luxanna Creek",
+    "Local name": "Luxanna Creek",
+    "Flows into": "Luxanna Bay",
+    "Year": "1995",
+    "District number": "9",
+    "Statistical Area": "2-19",
+    "Subdistrict number": "Area 2 East",
+    "Subdistrict name": "Sandspit",
+    "Dates of inspection": "Nov 01",
+    "(A) Enhancement": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstructions": "unselected",
+    "(D) Large variation": "unselected",
+    "(E) High/low water": "unselected",
+    "Comments": "This creek was not walked this year.",
+    "Person preparing": "David Beggs",
+    "Spawning run timing": {
+        "Coho 1": {
+            "Observers": "0",
+            "Total on grounds": "N/I",
+            "Target escape": "100"
+        },
+        "Pink 1": {
+            "Observers": "0",
+            "Total on grounds": "N/I",
+            "Target escape": "50"
+        },
+        "Chum 1": {
+            "Observers": "0",
+            "Total on grounds": "N/1",
+            "Target escape": "100"
+        }
+    },
+    "Biological conditions (E) Predators comments": null,
+    "Biological conditions (F) Evidence": null,
+    "Biological conditions (G) New obstructions": null,
+    "Physical conditions (C) Water levels": null,
+    "Biological conditions (D) Particulars": null,
+    "Physical conditions (B) Particulars": null,
+    "Physical conditions (A) Evidence": null
+}

@@ -1,0 +1,51 @@
+{
+    "Watershed Code": "93-6390",
+    "Gazetted name": "LEINER RIVER",
+    "1st Local name": "RUSSIAN RIVER",
+    "Flows into": "TAHSIS INLET",
+    "year": "1992",
+    "District": "04",
+    "Subdistrict": "25",
+    "Subarea": "26-16",
+    "Subd. name": "TAHSIS",
+    "Dates of inspection": "OCT 07 OCT 13 OCT 27",
+    "(A) Evidence of Erosion": "LOWER REACH OF THIS SYSTEM IS IN CONSTANT CHANGE",
+    "(B) Particulars of Scouring": "STREAM COURSE HAS ALTERED ITSELF 3 TIMES IN FOUR YEARS",
+    "(D) Spawning distribution": "GOOD DISTRIBUTION - ALL SIDE CHANNELS ACTIVE",
+    "(E) Comments on predators": "BIRD/BEAR",
+    "(F) Egg digging": "N/O",
+    "(G) New obstructions": "N/O",
+    "(K) Additional comments": "SOME ROAD EROSION CREATING SILTATION TO SIDE CHANNELS. ABOVE ESTIMATES DO NOT INCLUDE 45 MALE & 50 FEMALE CHINOOK TAKEN AS BROOD STOCK BY P. I. P. HATCHERY IN TAHSIS",
+    "Fishery Officer": "F R CRABBE",
+    "Duration of Spawning": {
+        "Coho 1": {
+            "Est. Esc": "100",
+            "Optimum Esc.": "2000"
+        },
+        "Pink 1": {
+            "Est. Esc": "-3"
+        },
+        "Chum 1": {
+            "Arrival": "OCT B",
+            "Start": "B",
+            "Methods": "1 2 4",
+            "Reliability": "4",
+            "Est. Esc": "14000",
+            "Optimum Esc.": "14000"
+        },
+        "Chinook 1": {
+            "Arrival": "OCT A",
+            "End": "NOV",
+            "Methods": "1 2 4",
+            "Reliability": "4",
+            "Est. Esc": "350",
+            "Optimum Esc.": "500"
+        }
+    },
+    "(I) Habitat change": null,
+    "(K) Additional comments continued": null,
+    "Signature": null,
+    "(C) Water levels": null,
+    "(H) recommended enhancement": null,
+    "2nd local name": null
+}

@@ -1,0 +1,47 @@
+{
+    "Watershed Code": "code:90-3800-020",
+    "1st Local name": "HEMMING BAY CREEK",
+    "Flows into": "HEMMING BAY THURLOW ISL",
+    "year": "1992",
+    "Subarea": "13-29",
+    "Subd. name": "CAMPBELL RIVER",
+    "Dates of inspection": "AUG 31 OCT 06 |1 DEC 04",
+    "(C) Water levels": "normal",
+    "(D) Spawning distribution": "Coho-stream to Simmons lake and Mellin lake Chum-below dam and to falls on left side of stream",
+    "(G) New obstructions": "Beaver dams- notch or partially remove",
+    "Fishery Officer": "G. Chiasson",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Arrival": "NOV",
+            "Reliability": "3",
+            "Est. Esc": "50"
+        },
+        "Pink 1": {
+            "Est. Esc": "-3"
+        },
+        "Chum 1": {
+            "Arrival": "NOV",
+            "Reliability": "4",
+            "Est. Esc": "150 210"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "(K) Additional comments": null,
+    "(E) Comments on predators": null,
+    "(I) Habitat change": null,
+    "(F) Egg digging": null,
+    "(K) Additional comments continued": null,
+    "Signature": null,
+    "2nd local name": null,
+    "Subdistrict": null,
+    "Gazetted name": null,
+    "District": null,
+    "(B) Particulars of Scouring": null,
+    "(A) Evidence of Erosion": null,
+    "(H) recommended enhancement": null
+}

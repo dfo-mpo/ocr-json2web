@@ -1,0 +1,48 @@
+{
+    "Watershed Code": "93-7610",
+    "1st Local name": "name:MCKAY COVE CREEK",
+    "Flows into": "into:MCKAY COVE",
+    "Subarea": "26-6",
+    "Subd. name": "KYUQUOT",
+    "Fishery Officer": "R L SENGER",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Est. Esc": "-3"
+        },
+        "Pink 1": {
+            "Est. Esc": "-3"
+        },
+        "Chum 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT A",
+            "Peak": "OCT C",
+            "End": "NOV B",
+            "Est. Esc": "-2",
+            "Optimum Esc.": "3500"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "(B) Particulars of Scouring": null,
+    "2nd local name": null,
+    "(K) Additional comments continued": null,
+    "(K) Additional comments": null,
+    "Subdistrict": null,
+    "District": null,
+    "year": null,
+    "(C) Water levels": null,
+    "(E) Comments on predators": null,
+    "Dates of inspection": null,
+    "Signature": null,
+    "(F) Egg digging": null,
+    "Gazetted name": null,
+    "(D) Spawning distribution": null,
+    "(H) recommended enhancement": null,
+    "(I) Habitat change": null,
+    "(A) Evidence of Erosion": null,
+    "(G) New obstructions": null
+}

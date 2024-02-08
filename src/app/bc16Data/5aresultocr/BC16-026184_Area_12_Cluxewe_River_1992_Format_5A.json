@@ -1,0 +1,53 @@
+{
+    "Watershed Code": "92-1100",
+    "Gazetted name": "CLUXEWE RIVER",
+    "Flows into": "BROUGHTON STRAIT",
+    "year": "1992",
+    "Subarea": "12-17",
+    "Subd. name": "SEYMOUR INLET",
+    "Dates of inspection": "AUG 20 OCT 09 AUG 21 SEP 06 SEP 25",
+    "(A) Evidence of Erosion": "This system is in a constant state of erosion due to fall and spring freshets.",
+    "(B) Particulars of Scouring": "Yes, caused by debris build ups at high water times.",
+    "(C) Water levels": "Water levels for pink spawning were stable and the supply was adequate this year.",
+    "(D) Spawning distribution": "Pinks were distributed over the lower 5 km.",
+    "(E) Comments on predators": "This system supports a large number of black bears.",
+    "(F) Egg digging": "Not to any great extent.",
+    "(G) New obstructions": "Obstructions in lower areas below highway bridge create flood channels and rearing areas which dry in summer, killing fry.",
+    "(I) Habitat change": "Log jam under hydro transmission line removed in Sept. New garbage dump is situated adjacent to an estuary feeder stream.",
+    "(K) Additional comments": "Campsite expansion at mouth will increase angler days and have an effect on the estuary as well. System in need of more resources to enumerate and protect the coho returns.",
+    "Fishery Officer": "Don Wilson",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Optimum Esc.": "20000"
+        },
+        "Coho 1": {
+            "Arrival": "OCT A",
+            "Start": "OCT B",
+            "Peak": "NOV A",
+            "End": "DEC B",
+            "Methods": "146",
+            "Reliability": "2",
+            "Est. Esc": "-2",
+            "Optimum Esc.": "10000"
+        },
+        "Pink 1": {
+            "Reliability": "5",
+            "Est. Esc": "50000"
+        },
+        "Chum 1": {
+            "Arrival": "AUG B",
+            "Start": "SEP B",
+            "Peak": "SEP C",
+            "End": "OCT C",
+            "Methods": "146",
+            "Optimum Esc.": "100000"
+        }
+    },
+    "Subdistrict": null,
+    "(K) Additional comments continued": null,
+    "Signature": null,
+    "1st Local name": null,
+    "District": null,
+    "(H) recommended enhancement": null,
+    "2nd local name": null
+}

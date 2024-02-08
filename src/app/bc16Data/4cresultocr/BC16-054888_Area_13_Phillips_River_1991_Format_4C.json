@@ -1,0 +1,74 @@
+{
+    "Watershed code": "90-3900",
+    "Gazetted name": "PHILLIPS RIVER",
+    "First local name": "Phillips River",
+    "Flows Into": "Phillips Arm",
+    "Year": "1991",
+    "District No.": "5",
+    "Statistical Area": "13-24",
+    "Subdistrict No.": "13",
+    "Subdistrict Name": "QUATHIASKI",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Biological (D) Particulars of distribution": "the stream bed Most fish spawn in main channel. although Pinks and Chum utilize spawning channel.",
+    "Biological (E) Comments on predators": "Grizzlies & Black Bears",
+    "Biological (F) Evidence of digging eggs": "spawning fish",
+    "Comments (K)": "COMMENTS ON ANY OTHER CONDITIONS AFFECTING THIS STREAM",
+    "Date of inspection": null,
+    "Spawning run timing and estimated number": {
+        "Sock 1": {
+            "Arrival month": ":",
+            "Start month": "JUL",
+            "Peak month": "AUG",
+            "End month": "SEP:",
+            "No. of observer": "3",
+            "Method": "4",
+            "Estimated total No. on grounds": "5000",
+            "Optimum escapement": "20000"
+        },
+        "Coho 1": {
+            "Start month": "SEP:",
+            "Peak month": "OCT",
+            "End month": "NOV:",
+            "No. of observer": "1",
+            "Method": "4",
+            "Estimated total No. on grounds": "450",
+            "Optimum escapement": "3500"
+        },
+        "Pink 1": {
+            "Peak month": "NOV",
+            "End month": "DEC:",
+            "No. of observer": "4",
+            "Method": "4",
+            "Estimated total No. on grounds": "15000",
+            "Optimum escapement": "150000"
+        },
+        "Chum 1": {
+            "Start month": "SEP:",
+            "Peak month": "SEP:",
+            "End month": "OCT:",
+            "No. of observer": "2",
+            "Method": "4",
+            "Estimated total No. on grounds": "2500",
+            "Optimum escapement": "15000"
+        },
+        "Chin 1": {
+            "Start month": "AUG:",
+            "Peak month": "SEP:",
+            "End month": "SEP :",
+            "No. of observer": "6",
+            "Method": "4",
+            "Estimated total No. on grounds": "750-1000",
+            "Optimum escapement": "1500"
+        }
+    },
+    "Biological (G) New obstruction": null,
+    "Additional (B) Particulars of scouring of spawning beds": null,
+    "Dates of inspection (1)": null,
+    "Additional (C) Water levels flow": null,
+    "Second local name": null,
+    "Additional (A) Evidence of erosion and silting": null
+}

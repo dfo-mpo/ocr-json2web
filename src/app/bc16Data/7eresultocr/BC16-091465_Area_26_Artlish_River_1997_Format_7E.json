@@ -1,0 +1,184 @@
+{
+    "Year": "1997",
+    "Gazetted name": "ARTLISH RIVER",
+    "RAB code": "93-7370",
+    "Area": "26-4",
+    "District": "04",
+    "Sub": "26 Kyuquot",
+    "Flows into": "TAHSISH INLET",
+    "Latitude": "50 6 58",
+    "Longitude": "127 5 0",
+    "Inspection dates": "Aug 20 Sep 08 Sep 17 Sep 22 Oct 06 Oct 14 Oct 20 Oct 21 Nov 14",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "selected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "selected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: Escapement estimates are mainstem estimates only (no tributaries) . Detailed information for each inspection available from Stock Assessment Division. Unusual numbers of jacks: Proportion of coho jacks = 29%. Helicopter survey conducted on 1997/10/20. (14) Flood: Heavy rains caused high water flows during late Sep. / early Oct. and late Oct. / early Nov. (20) On Predator Interactions: One adult bear observed. (22) List Supplementary Documentation: BC16 originally prepared by Bruce A. Patten, StAD; reviewed by Rick Ferguson April 2000.",
+    "Person preparing report": "Rick Ferguson, StAD (250) 756-7006",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "Methods": "3",
+            "N": "7",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "2",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "329",
+            "Jacks": "13"
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "3, 6",
+            "N": "8",
+            "%Spawn habitat surveyed": "80",
+            "Rel": "1",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "678",
+            "Jacks": "271"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "3",
+            "N": "1",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "2",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "5"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "3, 6",
+            "N": "7",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "2",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "2,458"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "3",
+            "N": "7",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "3",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "402",
+            "Jacks": "107"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "Methods": "3",
+            "N": "6",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "1",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "8"
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "SK 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "1-10",
+            "Peak month": "Oct",
+            "Peak day": "1-10"
+        },
+        "CO 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "1-10"
+        },
+        "PK 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "1-10"
+        },
+        "CN 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "1-10"
+        },
+        "ST 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "11-20"
+        }
+    },
+    "First local name": null,
+    "Field Crew": null,
+    "Start date": null,
+    "Second local name": null,
+    "Biological details particulars": null,
+    "End date": null
+}

@@ -1,0 +1,176 @@
+{
+    "Year": "1999",
+    "RAB code": "90-1690",
+    "Area": "16-4",
+    "District": "03",
+    "Sub": "16 Pender Harbour",
+    "First local name": "PENDER HARBOUR CREEKS",
+    "Second local name": "PENDER HARBOUR CREEKS (3)",
+    "Flows into": "PENDER HARBOUR",
+    "Latitude": "49 38 22",
+    "Longitude": "123 58 58",
+    "Field Crew": "Jim Wilson, J.W., B.M., J.E.",
+    "Inspection dates": "Oct 14 Oct 20 Oct 21 Oct 27 Nov 02 Nov 17 Nov 29 Dec 07",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Most coho and chum spawning took place between Garden Bay Road bridge and Highway 101 bridge (Section 2-3) .",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "selected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(2) CO Run 1 Reliability: Weekly enumeration (5) General Comments on Escapement Estimation: Only Myers and Anderson creeks inspected. Estimated escapement is for these two systems only. Coho creek (trib of Anderson) will be added next year. These three Creeks (Anderson, Myers and Klein) should be reported separately. (4) Describe basis for estimating total adults CO Run 1: AUC estimate. Assumed 14-day survey life. Myers - 79 coho, Anderson 99 coho. Coho were seen during 5 inspections on Anderson, twice on Myers. The number of jacks was estimated by multiplying the portion of observed jacks to observed adults. (4) Describe basis for estimating total adults CM Run 1: Escapement estimated by taking the peak Live + Dead count for Myers and Anderson and increasing that number by 10%. Peak Live + Dead for Myers was 1027 (2 Nov 1999) and Anderson was 600 (2 Nov 1999) . (2) CN Run 1 Reliability: Only seen once. (4) Describe basis for estimating total adults CN Run 1: Observed number. One was adipose clipped, unknown origin. (20a) Predator counts by date and predator type: Anderson: 20 Oct - 1 bald eagle noted, 2 Nov - 1 bald eagle noted, 17 Nov - evidence of bears and otters, 29 Nov - 3 bald eagles noted and a comment about bear tracks everywhere. Myers: 27 Oct - 1 bald eagle noted, 17 Nov - 7 bald eagles, 1 otter noted, 29 Nov - 2 bald eagles, bear tracks,",
+    "Person preparing report": "Steve Baillie",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "2,3",
+            "N": "7",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "3",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "178",
+            "Jacks": "85"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "2,3",
+            "N": "9",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "3",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "1,800"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "2,3",
+            "N": "1",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "1",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "2"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "20",
+            "Start month": "Nov",
+            "Start day": "1-10",
+            "Peak month": "Nov",
+            "Peak day": "11-20",
+            "End month": "Dec",
+            "End day": "11-20"
+        },
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "20",
+            "Start month": "Oct",
+            "Start day": "21-31",
+            "Peak month": "Nov",
+            "Peak day": "1-10",
+            "End month": "Dec",
+            "End day": "1-10"
+        }
+    },
+    "Gazetted name": null,
+    "End date": null,
+    "Start date": null
+}

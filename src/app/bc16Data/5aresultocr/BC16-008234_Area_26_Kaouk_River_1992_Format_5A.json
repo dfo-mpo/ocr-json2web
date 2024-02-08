@@ -1,0 +1,78 @@
+{
+    "Watershed Code": "93-7300",
+    "Gazetted name": "KAOUK RIVER",
+    "1st Local name": "FAIR HARBOUR RIVER",
+    "Flows into": "FAIR HARBOUR",
+    "Subarea": "26-4",
+    "Subd. name": "KYUQUOT",
+    "Dates of inspection": "OCT 21 NOV 05",
+    "(D) Spawning distribution": "The chum spawn was concentrated in the middle and upper reaches of the river",
+    "(H) recommended enhancement": "Recommend chinook enhancement for this system",
+    "Fishery Officer": "R L SENGER",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT A",
+            "Peak": "OCT B",
+            "End": "OCT C",
+            "Methods": "4",
+            "Reliability": "2",
+            "Est. Esc": "-1",
+            "Optimum Esc.": "-2"
+        },
+        "Coho 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT C",
+            "Peak": "NOV B",
+            "End": "DEC C",
+            "Methods": "4",
+            "Reliability": "2",
+            "Est. Esc": "-1",
+            "Optimum Esc.": "3000"
+        },
+        "Pink 1": {
+            "Arrival": "AUG C",
+            "Start": "SEP A",
+            "Peak": "SEP B",
+            "End": "OCT A",
+            "Methods": "4",
+            "Reliability": "2",
+            "Est. Esc": "1",
+            "Optimum Esc.": "30000"
+        },
+        "Chum 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT A",
+            "Peak": "OCT C",
+            "End": "NOV B",
+            "Methods": "4",
+            "Reliability": "3",
+            "Est. Esc": "21000",
+            "Optimum Esc.": "25000"
+        },
+        "Chinook 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT A",
+            "Peak": "OCT B",
+            "End": "OCT C",
+            "Methods": "4",
+            "Reliability": "2",
+            "Est. Esc": "-1",
+            "Optimum Esc.": "10000"
+        }
+    },
+    "(I) Habitat change": null,
+    "(K) Additional comments": null,
+    "(F) Egg digging": null,
+    "Signature": null,
+    "(G) New obstructions": null,
+    "(B) Particulars of Scouring": null,
+    "(A) Evidence of Erosion": null,
+    "(E) Comments on predators": null,
+    "Subdistrict": null,
+    "(K) Additional comments continued": null,
+    "2nd local name": null,
+    "(C) Water levels": null,
+    "year": null,
+    "District": null
+}

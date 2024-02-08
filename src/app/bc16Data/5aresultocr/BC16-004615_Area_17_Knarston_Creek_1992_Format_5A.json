@@ -1,0 +1,35 @@
+{
+    "Watershed Code": "92-4050",
+    "Gazetted name": "KNARSTON CREEK",
+    "1st Local name": "BENWALDEN CREEK",
+    "Flows into": "into:GEORGIA STRAIT",
+    "year": "1992",
+    "Subarea": "17-18",
+    "Subd. name": "NANAIMO",
+    "Dates of inspection": "NOV 12 NOV 23 DEC 09 DEC 15",
+    "(C) Water levels": "Low water until November may have hinder Chum access to system",
+    "(K) Additional comments": "*watch urban development above highway for water quality and flow concerns.",
+    "Fishery Officer": "TOM PAWLOSKI",
+    "Duration of Spawning": {
+        "Coho 1": {
+            "Start": "NOV 20",
+            "Peak": "DEC 09",
+            "End": "DEC 30",
+            "Reliability": "4",
+            "Est. Esc": "10"
+        }
+    },
+    "2nd local name": null,
+    "(B) Particulars of Scouring": null,
+    "(I) Habitat change": null,
+    "(E) Comments on predators": null,
+    "(A) Evidence of Erosion": null,
+    "(G) New obstructions": null,
+    "(K) Additional comments continued": null,
+    "(H) recommended enhancement": null,
+    "(F) Egg digging": null,
+    "District": null,
+    "Signature": null,
+    "Subdistrict": null,
+    "(D) Spawning distribution": null
+}

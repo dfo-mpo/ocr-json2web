@@ -1,0 +1,70 @@
+{
+    "Watershed code": "92 - 3275",
+    "First local name": "BOB CREEK",
+    "Flows Into": "LITTLE BAY, BAYNES SOUND",
+    "Year": "1991",
+    "District No.": "3",
+    "Statistical Area": "14 - 8",
+    "Subdistrict No.": "14N",
+    "Subdistrict Name": "COMOX, B. C.",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NONE OBSERVED",
+    "Additional (B) Particulars of scouring of spawning beds": "NONE OBSERVED",
+    "Additional (C) Water levels flow": "LOW WATER IN SEPT. AND OCT. HIGH FLOWS IN AUG., NOV., AND LATE DEC. TO EARLY JAN.",
+    "Biological (D) Particulars of distribution": "CHUMS AND COHO SPAWN IN LOWER ONE THIRD OF THE SYSTEM.",
+    "Biological (E) Comments on predators": "BIRDS",
+    "Biological (F) Evidence of digging eggs": "NONE OBSERVED",
+    "Biological (G) New obstruction": "BEAVER DAM IN ESTUARY, PATROLMAN AND LOCALS HAVE REMOVED PARTS OF DAM TO ALLOW FISH PASSAGE UPSTREAM. LOOK AT REMOVING DAM NEXT SUMMER.",
+    "Comments (K)": "THIS SYSTEM PRODUCES BOTH COHO AND CHUMS EVERY YEAR. FISH ONLY USE APPROX. 150 TO 200 METERS OF STREAM FOR SPAWNING. THIS SYSTEM IS VERY SUSCEPTIBLE TO LOW FLOWS.",
+    "Date of inspection": [
+        {
+            "Month": "NOV",
+            "Day": "18"
+        },
+        {
+            "Month": "NOV",
+            "Day": "22"
+        },
+        {
+            "Month": "DEC",
+            "Day": "04"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "NOV:",
+            "Arrival day": "10",
+            "Start month": "NOV:",
+            "Start day": "15",
+            "Peak month": "DEC:",
+            "Peak day": "1",
+            "End month": "DEC:",
+            "End day": "15",
+            "No. of observer": "3",
+            "Method": "1",
+            "Reliability": "4",
+            "Estimated total No. on grounds": "25"
+        },
+        "Chum 1": {
+            "Arrival month": "NOV:",
+            "Arrival day": "15",
+            "Start month": "NOV:",
+            "Start day": "18",
+            "Peak month": "NOV:",
+            "Peak day": "30",
+            "End month": "DEC:",
+            "End day": "10",
+            "No. of observer": "3",
+            "Method": "1",
+            "Reliability": "4",
+            "Estimated total No. on grounds": "100"
+        }
+    },
+    "Dates of inspection (1)": null,
+    "Second local name": null,
+    "Gazetted name": null
+}

@@ -1,0 +1,52 @@
+{
+    "Watershed code": "91-2090",
+    "Gazetted name": "NAMU RIVER",
+    "First local name": "NAMU RIVER & LAKE",
+    "Flows Into": "FITZ HUGH SOUND (NAMU HARBOUR)",
+    "Year": "1992",
+    "District No.": "7",
+    "Statistical Area": "8",
+    "Subdistrict No.": "8",
+    "Subdistrict Name": "BELLA COOLA",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NIL",
+    "Additional (B) Particulars of scouring of spawning beds": "NIL",
+    "Additional (C) Water levels flow": "NORMAL",
+    "Biological (D) Particulars of distribution": "ALL SPECIES IN LAKE TRIBUTARIES.",
+    "Biological (E) Comments on predators": "NORMAL",
+    "Biological (F) Evidence of digging eggs": "NIL",
+    "Biological (G) New obstruction": "NIL",
+    "Date of inspection": [
+        {
+            "Month": "10",
+            "Day": "05"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Sock 1": {
+            "Arrival month": "JUN :",
+            "Arrival day": "A",
+            "Start month": "SEP :",
+            "Start day": "A",
+            "Peak month": "OCT:",
+            "Peak day": "A",
+            "End month": "NOV:",
+            "End day": "A",
+            "No. of observer": "1",
+            "Method": "1",
+            "Reliability": "2",
+            "Estimated total No. on grounds": "500",
+            "Optimum escapement": "7500"
+        },
+        "Coho 1": {
+            "Optimum escapement": "3500"
+        }
+    },
+    "Dates of inspection (1)": null,
+    "Second local name": null,
+    "Comments (K)": null
+}

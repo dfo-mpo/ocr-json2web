@@ -1,0 +1,53 @@
+{
+    "Watershed Code": "93-7595",
+    "Gazetted name": "name:BRITISH CREEK",
+    "Flows into": "into:CROWTHER CHANNEL",
+    "Subarea": "26-6",
+    "Subd. name": "KYUQUOT",
+    "Fishery Officer": "R L SENGER",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT C",
+            "Peak": "NOV B",
+            "End": "DEC C",
+            "Est. Esc": "-2",
+            "Optimum Esc.": "200"
+        },
+        "Pink 1": {
+            "Est. Esc": "-3"
+        },
+        "Chum 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT A",
+            "Peak": "OCT C",
+            "End": "NOV B",
+            "Est. Esc": "-2",
+            "Optimum Esc.": "500"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "(I) Habitat change": null,
+    "District": null,
+    "Subdistrict": null,
+    "(G) New obstructions": null,
+    "(B) Particulars of Scouring": null,
+    "year": null,
+    "Signature": null,
+    "(K) Additional comments": null,
+    "Dates of inspection": null,
+    "1st Local name": null,
+    "(D) Spawning distribution": null,
+    "(H) recommended enhancement": null,
+    "2nd local name": null,
+    "(C) Water levels": null,
+    "(E) Comments on predators": null,
+    "(F) Egg digging": null,
+    "(A) Evidence of Erosion": null,
+    "(K) Additional comments continued": null
+}

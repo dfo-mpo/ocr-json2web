@@ -1,0 +1,45 @@
+{
+    "Watershed Code": "92-2300-970",
+    "1st Local name": "name:CHONAT CREEK",
+    "Flows into": "into:OKISOLLO CHANNEL",
+    "year": "1992",
+    "Subarea": "13-12",
+    "Subd. name": "CAMPBELL RIVER",
+    "(D) Spawning distribution": "Lower Reaches",
+    "(E) Comments on predators": "Unknow",
+    "Fishery Officer": "Jack TRENT",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Arrival": "SEP",
+            "Est. Esc": "-2"
+        },
+        "Pink 1": {
+            "Est. Esc": "-3"
+        },
+        "Chum 1": {
+            "Arrival": "OCT",
+            "Est. Esc": "-2"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "(C) Water levels": null,
+    "Gazetted name": null,
+    "2nd local name": null,
+    "District": null,
+    "Signature": null,
+    "(K) Additional comments continued": null,
+    "Dates of inspection": null,
+    "(G) New obstructions": null,
+    "(I) Habitat change": null,
+    "(H) recommended enhancement": null,
+    "(A) Evidence of Erosion": null,
+    "(K) Additional comments": null,
+    "(F) Egg digging": null,
+    "(B) Particulars of Scouring": null,
+    "Subdistrict": null
+}

@@ -1,0 +1,196 @@
+{
+    "Year": "1997",
+    "Gazetted name": "LEINER RIVER",
+    "RAB code": "93-6390",
+    "Area": "26-1",
+    "District": "04",
+    "Sub": "Tahsis",
+    "First local name": "RUSSIAN RIVER",
+    "Flows into": "TAHSIS INLET",
+    "Latitude": "49 54 44",
+    "Longitude": "126 38 32",
+    "Inspection dates": "Sep 06 Sep 20 Oct 18 Oct 20 Oct 23 Nov 08 Nov 15 Dec 06",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "selected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "selected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: Escapement estimates are mainstem estimates only (no tributaries) . Detailed information for each inspection available from Stock Assessment Division. Broodstock figure includes all fish removals from system, not just those used for brood. Helicopter survey conducted on 1997/10/20. (14) Flood: Heavy rains caused high water flows during late Sep. / early Oct. and late Oct. / early Nov. (20) On Predator Interactions: One juvenille bear observed. (22) List Supplementary Documentation: BC16 originally prepared by Bruce A. Patten, StAD; reviewed by Rick Ferguson April 2000.",
+    "Person preparing report": "Rick Ferguson, StAD (250) 756-7006",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "Methods": "3, 6",
+            "N": "8",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "3",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "6,417",
+            "Jacks": "19"
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "3",
+            "N": "7",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "1",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "181",
+            "Jacks": "51"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "3",
+            "N": "3",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "2",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "7"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "3, 6",
+            "N": "7",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "2",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "3,573"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "3",
+            "N": "5",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "2",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "503",
+            "Brood stock removals": "13",
+            "Jacks": "9"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "Methods": "3",
+            "N": "5",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "2",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "10"
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "Methods": "3",
+            "N": "1",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "1",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "5"
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "SK 1": {
+            "Peak month": "Oct",
+            "Peak day": "11-20"
+        },
+        "CO 1": {
+            "Peak month": "Nov",
+            "Peak day": "11-20"
+        },
+        "PK 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "11-20",
+            "End month": "Nov",
+            "End day": "11-20"
+        },
+        "CM 1": {
+            "Peak month": "Oct",
+            "Peak day": "11-20",
+            "End month": "Nov",
+            "End day": "11-20"
+        },
+        "CN 1": {
+            "End month": "Oct",
+            "End day": "11-20"
+        },
+        "AT 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "11-20"
+        }
+    },
+    "Biological details particulars": null,
+    "Field Crew": null,
+    "Start date": null,
+    "End date": null,
+    "Second local name": null
+}

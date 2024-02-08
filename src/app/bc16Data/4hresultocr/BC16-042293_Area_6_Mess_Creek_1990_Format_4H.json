@@ -1,0 +1,43 @@
+{
+    "Department": "DEPARTMENT OF FISHERIES AND OCEANS",
+    "Report": "ANNUAL REPORT OF SALMON STREAMS AND SPAWNING POPULATIONS",
+    "Watershed code": "91-8990",
+    "Gazetted name": "M.E.S.S. CREEK",
+    "First local name": "M.E.S.S. CREEK",
+    "Flows into": "HEAD OF MINETTE BAY, N. END.",
+    "Year": "1990",
+    "District No.": "7",
+    "Statistical Area": "6",
+    "Subdistrict No.": "6N",
+    "Subdistrict Name": "KITIMAT",
+    "Physical Condition (C)": "EXTREMELY LOW WATER LEVELS FROM AUGUST 10 LATE SEPTEMBER HIGH WATER LEVELS IN LATE OCTOBER.",
+    "Biological Condition (F)": "N/0",
+    "Biological Condition (G)": "N/0",
+    "shedcode": "Watershed code",
+    "signature": "Fro Angelo Rogge Kitimat SI",
+    "Dates of Inspection": [
+        {
+            "Month": "OCT",
+            "Day": "29"
+        },
+        {
+            "Month": "NOV",
+            "Day": "20"
+        }
+    ],
+    "Spawning Run Timing and Estimated Number": {
+        "Coho 1": {
+            "Arrival In Stream Month": "SEPT",
+            "Arrival In Stream Day": ":8",
+            "Spawning Start Month": "/OCT",
+            "Spawning Start Day": ":A",
+            "Spawning Peak Month": "/NOV"
+        }
+    },
+    "namename": {},
+    "Biological Condition (D)": null,
+    "Comments on any other conditions": null,
+    "Physical Condition (B)": null,
+    "Biological Condition (E)": null,
+    "Physical Condition (A)": null
+}

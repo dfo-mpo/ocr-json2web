@@ -1,0 +1,150 @@
+{
+    "Year": "2001",
+    "Gazetted name": "BONSALL CREEK",
+    "RAB code": "92-4705",
+    "District": "03",
+    "Sub": "17 Nanaimo",
+    "Flows into": "STUART CHANNEL",
+    "Field Crew": "Charles Thirkill and Chris Peters",
+    "Inspection dates": "Oct 17 Oct 26 Nov 02 Nov 08 Nov 15 Nov 21 Nov 29 Dec 07 Dec 13",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(2) CO Run 1 Reliability: Area under the Curve used for escapement estimate, but conditions were only fair to good (50 - 65% countability) for the last 4 surveys. Lower section of creek was not inspected for three of these later surveys so these estimated counts were expanded using 80% system coverage; 470 to 588 on 21 Nov. , 386 to 483 on 29 Nov. , 120 to 150 on 13 Dec. (3) CO Run 1 Enumeration Class: Area under the Curve used but of lower quality due to viewing conditions and incomplete system coverage on the later surveys. (4) Describe basis for estimating total adults CO Run 1: Area Under the Curve calculation used with a 13.7 survey life (Cowie Cr. Study Fall 2001) . Survey on 15 Nov not used due to flooding conditions. (2) CM Run 1 Reliability: First four surveys had excellent conditions, however, observations from 15th, 21st, and 29th November were not used as the lower segments of the creek was not covered or there were flood conditions. (4) Describe basis for estimating total adults CM Run 1: Area under the Curve used but of lower quality due to viewing conditions and incomplete system coverage on the later surveys. AUC calculation used 15 days for the survey life and a zero count was added one week before and after the surveys were performed.",
+    "Person preparing report": "Ian Matthews",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CO 1": {
+            "Methods": "2",
+            "N": "9",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "3",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "1,184"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CM 1": {
+            "Methods": "2",
+            "N": "9",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "3",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "246"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.S."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {},
+    "Latitude": null,
+    "Area": null,
+    "Start date": null,
+    "First local name": null,
+    "Second local name": null,
+    "Biological details particulars": null,
+    "Longitude": null,
+    "End date": null
+}

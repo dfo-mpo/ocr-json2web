@@ -1,0 +1,50 @@
+{
+    "Watershed Code": "93-6500-585",
+    "1st Local name": "BLACK CREEK",
+    "Flows into": "INNER BASIN",
+    "year": "1992",
+    "District": "04",
+    "Subarea": "25-14",
+    "Subd. name": "TAHSIS",
+    "Dates of inspection": "OCT 27",
+    "(A) Evidence of Erosion": "N/O",
+    "(B) Particulars of Scouring": "N/O",
+    "(C) Water levels": "NORMAL - LOW",
+    "(D) Spawning distribution": "GOOD",
+    "(E) Comments on predators": "BEAR/BIRD",
+    "(F) Egg digging": "N/0",
+    "(G) New obstructions": "N/O",
+    "(K) Additional comments": "VERY PRODUCTIVE CREEK",
+    "Fishery Officer": "F R CRABBE",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Est. Esc": "-3"
+        },
+        "Pink 1": {
+            "Est. Esc": "-3"
+        },
+        "Chum 1": {
+            "Arrival": "OCT",
+            "Start": "OCT B",
+            "Peak": "OCT C",
+            "End": "NOV A",
+            "Methods": "4",
+            "Reliability": "3",
+            "Est. Esc": "20000",
+            "Optimum Esc.": "20000"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "(K) Additional comments continued": null,
+    "Signature": null,
+    "Subdistrict": null,
+    "2nd local name": null,
+    "Gazetted name": null,
+    "(I) Habitat change": null,
+    "(H) recommended enhancement": null
+}

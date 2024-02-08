@@ -1,0 +1,80 @@
+{
+    "Department": "DEPARTMENT OF FISHERIES AND OCEANS",
+    "Report": "ANNUAL REPOR OF SALMON STREAMS AND SPAUSING POPULATIONS",
+    "Watershed code": "91-9100",
+    "Gazetted name": "8I5H CREEK",
+    "First local name": "BISH CREEK",
+    "Flows into": "KITIMAT ARM - W. OF RALEY POINT",
+    "Year": "1990",
+    "District No.": "7",
+    "Statistical Area": "6",
+    "Subdistrict No.": "6N",
+    "Subdistrict Name": "KITIMAT",
+    "Physical Condition (A)": "N/0",
+    "Physical Condition (B)": "N/0",
+    "Physical Condition (C)": "EXTREMELY LOW WATER LEVELS FROM AUGUST TO LATE SEPTEMBER HIGH WATER LEVELS IN LATE OCTOBER_",
+    "Biological Condition (D)": "PINK, CHUM MAINLY CONCENTRATED ON LOWER REACHES. COHO THROUGH- OUT SYSTEM TO FALLS AI 6 MILES.",
+    "Biological Condition (E)": "MODERATE BY BEARS AND BIRDS.",
+    "Biological Condition (F)": "N/0",
+    "Biological Condition (G)": "N/0",
+    "Comments on any other conditions": "CHUM BROOD STOCK COLLECTION CONDUCTED BY HATCHERY CONTRACT STAFF IRITON LID. FRY OUT PLANTS CONDUCTED BY KITIMAT HATCHERY STAFF IN MARCH.",
+    "shedcode": "watershed",
+    "signature": "FIO angelo Roggen Kitemat AID",
+    "Dates of Inspection": [
+        {
+            "Month": "AUG_"
+        },
+        {
+            "Day": "10_/."
+        },
+        {
+            "Month": "SEPT_",
+            "Day": "21"
+        }
+    ],
+    "Spawning Run Timing and Estimated Number": {
+        "Coho 1": {
+            "Arrival In Stream Month": "AUG",
+            "Arrival In Stream Day": ":B",
+            "Spawning Start Month": "/AUG",
+            "Spawning Start Day": ":C",
+            "Spawning Peak Month": "/OCT",
+            "Spawning Peak Day": ":A",
+            "Spawning End Month": "/NOV",
+            "Methods": "10,4",
+            "Reliability": "2",
+            "Estimated Total on Grounds": "300"
+        },
+        "Pink 1": {
+            "Arrival In Stream Month": "JUL",
+            "Arrival In Stream Day": ":C",
+            "Spawning Start Month": "/AUG",
+            "Spawning Start Day": ":B",
+            "Spawning Peak Month": "/AUG",
+            "Spawning Peak Day": ":C",
+            "Spawning End Month": "/SEP",
+            "Spawning End Day": ":C",
+            "Methods": "10.4_",
+            "Estimated Total on Grounds": "15000",
+            "Optimum Escapements": "30,000"
+        },
+        "Chum 1": {
+            "Arrival In Stream Month": "AUG",
+            "Arrival In Stream Day": ":A",
+            "Spawning Start Month": "/AUG",
+            "Spawning Start Day": ":A",
+            "Spawning Peak Month": "/AUG",
+            "Spawning Peak Day": ":C",
+            "Spawning End Month": "/SEP",
+            "Spawning End Day": ":C",
+            "Methods": "10.4",
+            "Reliability": "-2",
+            "Estimated Total on Grounds": "8500",
+            "Optimum Escapements": "15,000 10,000"
+        },
+        "Chinook 1": {
+            "Optimum Escapements": "5,000"
+        }
+    },
+    "namename": {}
+}

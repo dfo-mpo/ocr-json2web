@@ -1,0 +1,181 @@
+{
+    "Year": "1998",
+    "Gazetted name": "QUALICUM RIVER",
+    "RAB code": "92-3500",
+    "Area": "14-5",
+    "District": "03",
+    "Sub": "14S Qualicum Beach",
+    "First local name": "BIG QUALICUM RIVER",
+    "Flows into": "GEORGIA STRAIT",
+    "Latitude": "49 23 54",
+    "Longitude": "124 36 30",
+    "Field Crew": "Hatchery Staff",
+    "Start date": "8/1/98",
+    "End date": "1/15/98",
+    "(5) Escapement comments": "unselected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "selected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "As per instructions Adult Count includes Jacks: (4) Describe basis for estimating total adults CN Run 1: fence count and below fence estimate. (4) Describe basis for estimating total adults CO Run 1: This is the hatchery count of the spawning escapement above and below fence. The return includes 2881 adults plus 4090 jacks given to the Qualicum Indian Band. Below fence is an estimate. (4) Describe basis for estimating total adults CM Run 1: This figure includes river and Spawning channel counts but does not include 33754 chums that went to the Qualicum Indian Band. (4) Describe basis for estimating total adults PK Run 1: Hatchery estimate of 5 fish spawning above the fence. (7) Enhancements: A new channel was put in below hatchery to the south of river. (13) Drought: Water flow controlled to this system. Extreme lack of precipitation late spring through early fall. (20) On Salmon Distribution or Predator Interactions: Normal radius boundary for sportfish. Although this year was non-posession for coho in salt and fresh water, an area was open for beachcasting later in the season that permitted taking coho. Large commercial chum fishery although through much of it 14-5 was closed. Enumeration class for all species is such because this writer is not aware of whether methodology is constant between years. [re: counts below fence] A BLANK BC16 WAS GIVEN TO HATCHERY STAFF TO REPORT PERTINENT CHANGES TO THE SYSTEM. Enumerations and run timing information was all that was reported. Since this writer did not work on this system the above is all that can be discussed.",
+    "Person preparing report": "Eli Rosengard / Patrolman",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Rel": "4",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "8"
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "%Spawn habitat surveyed": "0",
+            "Rel": "5",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "9,773",
+            "Brood stock removals": "2,692",
+            "Jacks": "5,853"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Rel": "5",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "5",
+            "Brood stock removals": "94"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "%Spawn habitat surveyed": "0",
+            "Rel": "5",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "208,007 3,611",
+            "Brood stock removals": "2,286",
+            "Jacks": "1,043"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Rel": "5",
+            "Enum Class": "3",
+            "Esc Code": "A.C."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "1-10",
+            "Peak month": "Nov",
+            "Peak day": "11-20",
+            "End month": "Dec",
+            "End day": "1-10"
+        },
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "1-10",
+            "Peak month": "Nov",
+            "Peak day": "11-20",
+            "End month": "Dec",
+            "End day": "21-31"
+        },
+        "CN 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "11-20",
+            "Peak month": "Oct",
+            "Peak day": "11-20",
+            "End month": "Nov",
+            "End day": "11-20"
+        }
+    },
+    "Second local name": null,
+    "Inspection dates": null,
+    "Biological details particulars": null
+}

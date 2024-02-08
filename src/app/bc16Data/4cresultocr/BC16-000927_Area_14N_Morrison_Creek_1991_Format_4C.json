@@ -1,0 +1,101 @@
+{
+    "Watershed code": "92 - 2800 - 020",
+    "Gazetted name": "MORRISON CREEK",
+    "Flows Into": "PUNTLEDGE RIVER",
+    "Year": "1991",
+    "District No.": "3",
+    "Statistical Area": "14 - 14",
+    "Subdistrict No.": "14N",
+    "Subdistrict Name": "COMOX, B. C.",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NONE OBSERVED",
+    "Additional (B) Particulars of scouring of spawning beds": "NONE OBSERVED",
+    "Additional (C) Water levels flow": "LOW WATER IN SEPT, AND OCT. HIGH FLOWS IN AUG., NOV., AND LATE DEC. TO EARLY JAN.",
+    "Biological (D) Particulars of distribution": "COHO and PINK THROUGHOUT THE SYSTEM, CHUM FROM FIRST STREET TO MOUTH.",
+    "Biological (E) Comments on predators": "BIRDS, BEARS, PUBLIC AND OTTERS.",
+    "Biological (F) Evidence of digging eggs": "NONE OBSERVED",
+    "Biological (G) New obstruction": "POSSIBLE PROBLEM OF DEBRIS BLOCKING CREEK AT THE PARK. THIS DEBRIS WILL BE REMOVED IN THE SPRING OR SUMMER.",
+    "Comments (K)": "HATCHERY STAFF TRANSPORTED 100 COHO AND 105 PINKS TO THE UPPER REACHES OF THIS SYSTEM. THIS SYSTEM IS A CONSISTANT PRODUCER OF PINKS AND CHUM.",
+    "Date of inspection": [
+        {
+            "Month": "SEPT",
+            "Day": "05"
+        },
+        {
+            "Month": "DLC",
+            "Day": "03"
+        },
+        {
+            "Month": "SEPT",
+            "Day": "21"
+        },
+        {
+            "Month": "DEC",
+            "Day": "12"
+        },
+        {
+            "Month": "SEPT",
+            "Day": "30"
+        },
+        {
+            "Month": "OCT",
+            "Day": "04"
+        },
+        {
+            "Month": "NOV",
+            "Day": "22"
+        },
+        {
+            "Month": "NOV",
+            "Day": "26"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "OCT:",
+            "Arrival day": "15",
+            "Start month": "OCT:",
+            "Start day": "30",
+            "Peak month": "NOV:",
+            "Peak day": "20",
+            "End month": "DEC:",
+            "End day": "15",
+            "Method": "1",
+            "Reliability": "5",
+            "Estimated total No. on grounds": "150"
+        },
+        "Pink 1": {
+            "Arrival month": "SEP:",
+            "Arrival day": "15",
+            "Start month": "SEP:",
+            "Start day": "20",
+            "Peak month": "OCT:",
+            "Peak day": "05",
+            "End month": "OCT:",
+            "End day": "15",
+            "Method": "1",
+            "Reliability": "5",
+            "Estimated total No. on grounds": "2100"
+        },
+        "Chum 1": {
+            "Arrival month": "NOV:",
+            "Arrival day": "15",
+            "Start month": "NOV:",
+            "Start day": "20",
+            "Peak month": "DEC:",
+            "Peak day": "01",
+            "End month": "DEC:",
+            "End day": "15",
+            "Method": "1",
+            "Reliability": "5",
+            "Estimated total No. on grounds": "1700"
+        }
+    },
+    "First local name": null,
+    "Second local name": null,
+    "Dates of inspection (1)": null
+}

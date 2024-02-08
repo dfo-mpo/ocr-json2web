@@ -1,0 +1,76 @@
+{
+  "Watershed code": ["Test", false],
+  "Gazetted name": ["Test", true],
+  "First local name": ["Test Test", false],
+  "Flows Into": ["Test Test Test", false],
+  "Year": ["1992", true],
+  "District No.": ["3", false],
+  "Statistical Area": ["14 - 13", false],
+  "Subdistrict No.": ["14N", true],
+  "Subdistrict Name": ["COMOX, B. C.", true],
+
+  "(A) Enhancement or intense biological activities": ["selected", false],
+  "(B) Unusual mortalities": ["unselected", true],
+  "(C) Obstruction or changes in habitat with recommendations": [
+    "unselected",
+    false
+  ],
+  "(D) Large variations in sex ratio or unusual number of jacks": [
+    "unselected",
+    true
+  ],
+  "(E) Unusual high or low water flow level during spawning period": [
+    "unselected",
+    true
+  ],
+  "Additional (A) Evidence of erosion and silting": ["NONE OBSERVED", false],
+  "Additional (B) Particulars of scouring of spawning beds": [
+    "NONE OBSERVED",
+    true
+  ],
+  "Additional (C) Water levels flow": [
+    "LOW FLOWS IN SEPT. AND OCT. HIGH FLOWS IN NOV. CAUSED FENCE TO BE REMOVED. HIGH FLOWS IN DEC AND JAN.",
+    true
+  ],
+  "Biological (D) Particulars of distribution": [
+    "COHO SPAWNING THROUGHOUT SYSTEM FROM FENCE TO ABOVE DUNCAN BAY LOGGING ROAD",
+    false
+  ],
+  "Biological (E) Comments on predators": ["BIRDS AND BEARS", false],
+  "Biological (F) Evidence of digging eggs": ["NONE OBSERVED", false],
+  "Biological (G) New obstruction": ["NONE OBSERVED", true],
+  "Comments (K)": [
+    "CONSTRUCTION OF A NEW COUNTING FENCE WAS CONDUCTED THIS SUMMER. NUMBERS WERE OBTAINED FROM DR. JIM IRVINE AT P.B.S. AFTER FENCE WAS REMOVED THE FINAL NUMBER WAS OBTAINED FROM TAG RECOVERIES AND FENCE COUNTS.",
+    true
+  ],
+  "Dates of inspection (1)": [
+    "FENCE UP IN MID OCT. TAG RECOVERIES TO LATE DEC.",
+    true
+  ],
+  "Date of inspection": [
+    {
+      "Month": ["SEP", true],
+      "Day": ["07", false]
+    },
+    {
+      "Month": ["SEP", false],
+      "Day": ["20", true]
+    }
+  ],
+  "Spawning run timing and estimated number": {
+    "Coho 1": {
+      "Arrival month": ["NOV:", true],
+      "Arrival day": ["1", false],
+      "Start month": ["NOV:", false],
+      "Start day": ["5", true],
+      "Peak month": ["NOV:", false],
+      "Peak day": ["25", false],
+      "End month": ["DEC:", true],
+      "End day": ["20", true],
+      "Method": ["9 Ct Fence", true],
+      "Reliability": ["5", true],
+      "Estimated total No. on grounds": ["3500 Ad 2132 Jks", false]
+    }
+  },
+  "Second local name": [null, false]
+}

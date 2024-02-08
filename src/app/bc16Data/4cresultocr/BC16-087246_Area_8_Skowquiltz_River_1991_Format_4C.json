@@ -1,0 +1,90 @@
+{
+    "Watershed code": "91-3400",
+    "Gazetted name": "SKOWQUILTZ RIVER",
+    "First local name": "SHOWILK RIVER",
+    "Second local name": "SOWILTZ RIVER",
+    "Flows Into": "SKOWQUILTZ BAY ( DEAN CHANNEL)",
+    "Year": "1991",
+    "District No.": "7",
+    "Statistical Area": "8",
+    "Subdistrict No.": "8",
+    "Subdistrict Name": "BELLA COOLA",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NIL",
+    "Additional (B) Particulars of scouring of spawning beds": "NIL",
+    "Additional (C) Water levels flow": "NORMAL",
+    "Biological (D) Particulars of distribution": "INTERTIDAL AND TO FALLS 4 KM.",
+    "Biological (E) Comments on predators": "NORMAL",
+    "Biological (F) Evidence of digging eggs": "NIL",
+    "Biological (G) New obstruction": "NIL",
+    "Date of inspection": [
+        {
+            "Month": "AUG",
+            "Day": "14"
+        },
+        {
+            "Month": "SEP",
+            "Day": "23"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Sock 1": {
+            "Arrival month": "AUG:",
+            "Start month": "SEP:",
+            "Peak month": "OCT:",
+            "End month": "OCT:",
+            "No. of observer": "1",
+            "Method": "2",
+            "Reliability": "1",
+            "Estimated total No. on grounds": "6",
+            "Optimum escapement": "UNK"
+        },
+        "Coho 1": {
+            "Arrival month": "SEP:",
+            "Start month": "SEP:",
+            "Peak month": "OCT:",
+            "End month": "NOV:",
+            "No. of observer": "1",
+            "Method": "2",
+            "Reliability": "1",
+            "Estimated total No. on grounds": "5",
+            "Optimum escapement": "1000"
+        },
+        "Pink 1": {
+            "Arrival month": "AUG:",
+            "Arrival day": "B",
+            "Start month": "AUG:",
+            "Start day": "B",
+            "Peak month": "SEP:",
+            "Peak day": "A",
+            "End month": "OCT:",
+            "End day": "A",
+            "No. of observer": "2",
+            "Method": "2",
+            "Reliability": "2",
+            "Estimated total No. on grounds": "100",
+            "Optimum escapement": "10000"
+        },
+        "Chum 1": {
+            "Arrival month": "SEP :",
+            "Arrival day": "A",
+            "Start month": "SEP :",
+            "Start day": "A",
+            "Peak month": "SEP:",
+            "Peak day": "B",
+            "End month": "OCT:",
+            "End day": "B",
+            "No. of observer": "1",
+            "Method": "2",
+            "Reliability": "2",
+            "Estimated total No. on grounds": "40",
+            "Optimum escapement": "10000"
+        }
+    },
+    "Dates of inspection (1)": null,
+    "Comments (K)": null
+}

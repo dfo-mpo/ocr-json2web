@@ -1,0 +1,38 @@
+{
+    "Watershed Code": "94-4100",
+    "Gazetted name": "name:COHOE CREEK",
+    "1st Local name": "COHOE CREEK",
+    "2nd local name": "name:QUUEN CHARLOTTE STRAIT",
+    "Flows into": "QUEEN CHARLOTTE STRAIT",
+    "Subarea": "12-13",
+    "Subd. name": "PORT HARDY",
+    "Dates of inspection": "AUG 30",
+    "(G) New obstructions": "Log jams halfway up creek, fish would be able to get through, though.",
+    "(K) Additional comments": "Very stable system.",
+    "Fishery Officer": "Trina Belcher",
+    "Duration of Spawning": {
+        "Coho 1": {
+            "Methods": "1 10",
+            "Reliability": "4",
+            "Est. Esc": "-1"
+        },
+        "Pink 1": {
+            "Methods": "1 10",
+            "Reliability": "4",
+            "Est. Esc": "-1"
+        }
+    },
+    "Subdistrict": null,
+    "(B) Particulars of Scouring": null,
+    "(C) Water levels": null,
+    "(I) Habitat change": null,
+    "(H) recommended enhancement": null,
+    "(K) Additional comments continued": null,
+    "District": null,
+    "(D) Spawning distribution": null,
+    "(E) Comments on predators": null,
+    "(A) Evidence of Erosion": null,
+    "year": null,
+    "Signature": null,
+    "(F) Egg digging": null
+}

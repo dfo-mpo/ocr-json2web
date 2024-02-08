@@ -1,0 +1,50 @@
+{
+    "Watershed Code": "90-3400",
+    "Gazetted name": "name:ORFORD RIVER",
+    "Flows into": "BUTE INLET",
+    "District": "05",
+    "Subarea": "13-22",
+    "Subd. name": "CAMPBELL RIVER",
+    "Dates of inspection": "JUL 21 |1 NOV 23 |4 AUG 28 |1 SEP 10 |4 OCT 26 |4",
+    "(A) Evidence of Erosion": "Channel silts up during winter rains",
+    "(C) Water levels": "normal",
+    "(D) Spawning distribution": "Channel 7000, clear water system 11000, main stem 7000",
+    "Fishery Officer": "G. Chiasson/C. Bunn",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Arrival": "SEP",
+            "Reliability": "3",
+            "Est. Esc": "200",
+            "Brood esc.": "50"
+        },
+        "Pink 1": {
+            "Start": "AUG",
+            "Reliability": "4",
+            "Est. Esc": "300"
+        },
+        "Chum 1": {
+            "Start": "AUG",
+            "Reliability": "3",
+            "Est. Esc": "25000 9500"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "(E) Comments on predators": null,
+    "(B) Particulars of Scouring": null,
+    "(F) Egg digging": null,
+    "(G) New obstructions": null,
+    "Signature": null,
+    "(H) recommended enhancement": null,
+    "(K) Additional comments continued": null,
+    "2nd local name": null,
+    "(K) Additional comments": null,
+    "(I) Habitat change": null,
+    "year": null,
+    "1st Local name": null,
+    "Subdistrict": null
+}

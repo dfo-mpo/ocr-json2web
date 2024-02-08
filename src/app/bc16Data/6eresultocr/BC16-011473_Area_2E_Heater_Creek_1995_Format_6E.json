@@ -1,0 +1,52 @@
+{
+    "Bookmark": "BC16 1995",
+    "Watershed code": "95-9600-060",
+    "Gazetted name": "Heater Creek",
+    "Local name": "Heater Creek",
+    "Flows into": "Heater Harbour - Hecate Straits",
+    "Year": "1995",
+    "District number": "9",
+    "Statistical Area": "2-18",
+    "Subdistrict number": "Area 2 East",
+    "Subdistrict name": "Sandspit",
+    "Dates of inspection": "Sep 11 Oct 02 Nov 01",
+    "(A) Enhancement": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstructions": "unselected",
+    "(D) Large variation": "unselected",
+    "(E) High/low water": "unselected",
+    "Physical conditions (A) Evidence": "None observed.",
+    "Physical conditions (B) Particulars": "None observed.",
+    "Physical conditions (C) Water levels": "Consistently good water levels through the spawning period.",
+    "Biological conditions (D) Particulars": "no fish observed.",
+    "Comments": "Poor return - consistent with the rest of the s ib-area. This creek was also inspected by the FPV Ji mes Sinclair.",
+    "Person preparing": "David Beggs",
+    "Spawning run timing": {
+        "Coho 1": {
+            "Observers": "0",
+            "Total on grounds": "N/O",
+            "Target escape": "150"
+        },
+        "Pink 1": {
+            "Observers": "0",
+            "Total on grounds": "N/O",
+            "Target escape": "50"
+        },
+        "Chum 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "C",
+            "Spawning start month": "Sep",
+            "Spawning start day": "C",
+            "Spawning peak month": "Oct",
+            "Spawning peak day": "B",
+            "Spawning end month": "Oct",
+            "Spawning end day": "C",
+            "Observers": "0",
+            "Total on grounds": "N/O",
+            "Target escape": "3,000"
+        }
+    },
+    "Biological conditions (F) Evidence": null,
+    "Biological conditions (E) Predators comments": null,
+    "Biological conditions (G) New obstructions": null
+}

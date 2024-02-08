@@ -1,0 +1,110 @@
+{
+    "Watershed code": "92 - 3000",
+    "Gazetted name": "TSABLE RIVER",
+    "Flows Into": "BAYNES SOUND",
+    "Year": "1991",
+    "District No.": "3",
+    "Statistical Area": "14 - 8",
+    "Subdistrict No.": "14N",
+    "Subdistrict Name": "COMOX, B. C.",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NONE OBSERVED",
+    "Additional (B) Particulars of scouring of spawning beds": "NONE OBSERVED",
+    "Additional (C) Water levels flow": "LOW WATER IN SEPT. AND OCT. HIGH FLOWS IN AUG., NOV., AND LATE DEC. TO EARLY JAN.",
+    "Biological (D) Particulars of distribution": "COHO AND PINKS THROUGHOUT WHOLE SYSTEM, CHINOOK IN MID TO UPPER REACHES AND CHUM FROM POWER LINES TO MOUTH.",
+    "Biological (E) Comments on predators": "BIRDS, BEARS, PUBLIC AND OTTERS.",
+    "Biological (F) Evidence of digging eggs": "NONE OBSERVED",
+    "Biological (G) New obstruction": "NONE OBSERVED",
+    "Comments (K)": "NEW SIDE CHANNEL WAS CONSTRUCTED THIS SUMMER JUST ABOVE PIPELINE CROSSING. THIS SIDE CHANNEL COULD BE AFFECTED BY EROSION OF NORTH BANK OF THE PIPELINE CROSSING. REMOVAL OF VEGETATION CREATED AN UNSTABLE SLOPE WITH POSSIBLE SLUMPING OF THE BANK. DURING HIGH FLOWS THIS SYSTEM IS VERY MUDDY AND BROWN IN COLOUR. THIS SUMMER A LARGE LOG JAM WAS REMOVED AT THE MOUTH OF THE RIVER TO STOP FLOODING.",
+    "Date of inspection": [
+        {
+            "Month": "AUG",
+            "Day": "26"
+        },
+        {
+            "Month": "SEPT",
+            "Day": "19"
+        },
+        {
+            "Month": "SEPT",
+            "Day": "26"
+        },
+        {
+            "Month": "OCT",
+            "Day": "17"
+        },
+        {
+            "Month": "OCT",
+            "Day": "29"
+        },
+        {
+            "Month": "NOV",
+            "Day": "29"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "AUG:",
+            "Arrival day": "25",
+            "Start month": "OCT:",
+            "Start day": "15",
+            "Peak month": "NOV:",
+            "Peak day": "15",
+            "End month": "DEC:",
+            "End day": "10",
+            "No. of observer": "6",
+            "Method": "1.2",
+            "Reliability": "5",
+            "Estimated total No. on grounds": "300"
+        },
+        "Pink 1": {
+            "Arrival month": "AUG:",
+            "Arrival day": "20",
+            "Start month": "AUG:",
+            "Start day": "30",
+            "Peak month": "|SEP :",
+            "Peak day": "25",
+            "End month": "OCT:",
+            "End day": "10",
+            "No. of observer": "4",
+            "Method": "1.2",
+            "Reliability": "5",
+            "Estimated total No. on grounds": "5000"
+        },
+        "Chum 1": {
+            "Arrival month": "OCT:",
+            "Arrival day": "10",
+            "Start month": "OCT:",
+            "Start day": "15",
+            "Peak month": "NOV:",
+            "Peak day": "15",
+            "End month": "DEC:",
+            "End day": "05",
+            "No. of observer": "3",
+            "Method": "1,2",
+            "Reliability": "5",
+            "Estimated total No. on grounds": "900"
+        },
+        "Chin 1": {
+            "Arrival month": "OCT:",
+            "Arrival day": "1",
+            "Start month": "OCT:",
+            "Start day": "10",
+            "Peak month": "OCT:",
+            "Peak day": "25",
+            "End month": "NOV:",
+            "End day": "05",
+            "No. of observer": "2",
+            "Method": "1,2",
+            "Reliability": "5",
+            "Estimated total No. on grounds": "50"
+        }
+    },
+    "Dates of inspection (1)": null,
+    "Second local name": null,
+    "First local name": null
+}

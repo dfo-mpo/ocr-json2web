@@ -1,0 +1,47 @@
+{
+    "Watershed Code": "code:90-4020",
+    "Gazetted name": "CREEK",
+    "Flows into": "into:LOUGHBOROUGH INLET",
+    "District": "05",
+    "Subarea": "13-43",
+    "Subd. name": "Name:CAMPBELL RIVER",
+    "Dates of inspection": "SEP 09 |1 NOV 12",
+    "(A) Evidence of Erosion": "High water in Nov. caused some bank erosion",
+    "(C) Water levels": "Sep .- normal Nov .- high",
+    "(D) Spawning distribution": "Pinks- 1/2 mile and up to falls Chums-beach to falls",
+    "(E) Comments on predators": "bears",
+    "Fishery Officer": "G. Chiasson",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Est. Esc": "-2"
+        },
+        "Pink 1": {
+            "Arrival": "SEP",
+            "Reliability": "4",
+            "Est. Esc": "4000 15000"
+        },
+        "Chum 1": {
+            "Arrival": "OCT",
+            "Reliability": "2",
+            "Est. Esc": "3000 300"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "1st Local name": null,
+    "(K) Additional comments continued": null,
+    "(G) New obstructions": null,
+    "2nd local name": null,
+    "(B) Particulars of Scouring": null,
+    "Subdistrict": null,
+    "(F) Egg digging": null,
+    "(I) Habitat change": null,
+    "(K) Additional comments": null,
+    "Signature": null,
+    "year": null,
+    "(H) recommended enhancement": null
+}

@@ -1,0 +1,37 @@
+{
+    "Watershed Code": "94-4900",
+    "Gazetted name": "HIELLEN RIVER",
+    "Flows into": "DIXON ENTRANCE",
+    "year": "1992",
+    "Subdistrict": "01",
+    "Subarea": "1-5",
+    "Subd. name": "MASSET",
+    "Dates of inspection": "AUG 10 AUG 23 SEP 06",
+    "(C) Water levels": "Normal",
+    "(D) Spawning distribution": "Pinks observed from 100m above estuary bridge, upstream to 1km.",
+    "(E) Comments on predators": "Bears, eagles.",
+    "(K) Additional comments": "Sports fishing continues to increase. Coho estimate based on sports fishermen's observations,",
+    "Signature": "Com Well",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Chum 1": {
+            "Optimum Esc.": "500"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "1st Local name": null,
+    "2nd local name": null,
+    "District": null,
+    "(K) Additional comments continued": null,
+    "(G) New obstructions": null,
+    "(I) Habitat change": null,
+    "(H) recommended enhancement": null,
+    "(A) Evidence of Erosion": null,
+    "Fishery Officer": null,
+    "(F) Egg digging": null,
+    "(B) Particulars of Scouring": null
+}

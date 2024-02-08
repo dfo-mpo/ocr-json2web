@@ -1,0 +1,68 @@
+{
+    "Watershed code": "91-2743",
+    "Gazetted name": "NOEICK RIVER",
+    "First local name": "NOOK RIVER",
+    "Second local name": "NOOCK RIVER",
+    "Flows Into": "SOUTH BENTINCK ARM",
+    "Year": "1991",
+    "District No.": "7",
+    "Statistical Area": "8",
+    "Subdistrict No.": "8",
+    "Subdistrict Name": "BELLA COOLA",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "HEAVY GLACIAL SILT LOAD",
+    "Additional (B) Particulars of scouring of spawning beds": "NIL",
+    "Additional (C) Water levels flow": "NORMAL",
+    "Biological (D) Particulars of distribution": "IMPASSABLE CANYON AND FALLS 10 KMS.",
+    "Biological (E) Comments on predators": "NORMAL",
+    "Biological (F) Evidence of digging eggs": "NIL",
+    "Biological (G) New obstruction": "NIL",
+    "Date of inspection": [
+        {
+            "Month": "AUG",
+            "Day": "18"
+        },
+        {
+            "Month": "SEP",
+            "Day": "03"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Estimated total No. on grounds": "N.I. N.O.",
+            "Optimum escapement": "3000 20000"
+        },
+        "Chum 1": {
+            "Arrival month": "AUG:",
+            "Arrival day": "C",
+            "Start month": "AUG:",
+            "Start day": "C",
+            "Peak month": "SEP:",
+            "Peak day": "A",
+            "End month": "SEP :",
+            "End day": "C",
+            "No. of observer": "1",
+            "Method": "4",
+            "Reliability": "1",
+            "Estimated total No. on grounds": "50",
+            "Optimum escapement": "10000"
+        },
+        "Chin 1": {
+            "Arrival month": "JUL",
+            "Start month": "AUG:",
+            "Peak month": "SEP:",
+            "End month": "SEP :",
+            "No. of observer": "1",
+            "Method": "4",
+            "Reliability": "1",
+            "Estimated total No. on grounds": "10",
+            "Optimum escapement": "500"
+        }
+    },
+    "Comments (K)": null,
+    "Dates of inspection (1)": null
+}

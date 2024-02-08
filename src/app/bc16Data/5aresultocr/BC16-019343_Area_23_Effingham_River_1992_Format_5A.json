@@ -1,0 +1,47 @@
+{
+    "Watershed Code": "code:93-2800",
+    "Gazetted name": "EFFINGHAM RIVER",
+    "Flows into": "EFFINGHAM INLET",
+    "Subarea": "23-6",
+    "Subd. name": "BARKLEY SOUND",
+    "Dates of inspection": "OCT 05 NOV 12 OCT 06 NOV 14 OCT 14 NOV 17 OCT 27 NOV 18",
+    "(C) Water levels": "Very low water levels up to spawning period. High water levels during spawning period.",
+    "(E) Comments on predators": "Seals in tidal portion of river.",
+    "(K) Additional comments": "Optimum escapement listed as 10000 for chums but this appears low River easily handled 17000. Inspected by Ross Hickling on behalf of Ucluelet Indian; Fishery Officer staff.",
+    "Fishery Officer": "B. Rushton, AScT",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Methods": "2",
+            "Est. Esc": "20"
+        },
+        "Coho 1": {
+            "Arrival": "OCT 01",
+            "Est. Esc": "300"
+        },
+        "Chum 1": {
+            "Arrival": "OCT 01",
+            "Start": "OCT 15",
+            "Methods": "1 4",
+            "Est. Esc": "17000",
+            "Optimum Esc.": "10000"
+        },
+        "Chinook 1": {
+            "Reliability": "1",
+            "Est. Esc": "10"
+        }
+    },
+    "(F) Egg digging": null,
+    "(G) New obstructions": null,
+    "(H) recommended enhancement": null,
+    "District": null,
+    "(I) Habitat change": null,
+    "Subdistrict": null,
+    "(K) Additional comments continued": null,
+    "Signature": null,
+    "(B) Particulars of Scouring": null,
+    "2nd local name": null,
+    "year": null,
+    "(A) Evidence of Erosion": null,
+    "(D) Spawning distribution": null,
+    "1st Local name": null
+}

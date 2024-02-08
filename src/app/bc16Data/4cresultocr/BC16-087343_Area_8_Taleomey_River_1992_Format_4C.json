@@ -1,0 +1,77 @@
+{
+    "Watershed code": "91-2738",
+    "Gazetted name": "TALE OMEY RIVER",
+    "Flows Into": "SOUTH BENTINCK ARM",
+    "Year": "1992",
+    "District No.": "7",
+    "Statistical Area": "8",
+    "Subdistrict No.": "8",
+    "Subdistrict Name": "BELLA COOLA",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "selected",
+    "Additional (A) Evidence of erosion and silting": "HEAVY GLACIAL SILT",
+    "Additional (B) Particulars of scouring of spawning beds": "UNKNOWN",
+    "Additional (C) Water levels flow": "ABNORMAL FLOOD ON OCT. 23",
+    "Biological (D) Particulars of distribution": "ALL SPECIBS THROUGHOUT",
+    "Biological (E) Comments on predators": "NORMAL BY BEARS, BIRDS & SEALS",
+    "Biological (F) Evidence of digging eggs": "NIL",
+    "Biological (G) New obstruction": "NIL",
+    "Date of inspection": [
+        {
+            "Month": "08",
+            "Day": "27"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Sock 1": {
+            "Peak month": "SEP",
+            "End month": "OCT:",
+            "No. of observer": "1",
+            "Reliability": "1",
+            "Estimated total No. on grounds": "1"
+        },
+        "Coho 1": {
+            "Estimated total No. on grounds": "N. I.",
+            "Optimum escapement": "3000"
+        },
+        "Pink 1": {
+            "Start day": "B",
+            "Peak month": ":",
+            "Peak day": "B",
+            "End month": "OCT:",
+            "End day": "A",
+            "No. of observer": "1",
+            "Reliability": "1",
+            "Estimated total No. on grounds": "900",
+            "Optimum escapement": "10000"
+        },
+        "Chum 1": {
+            "Start day": "B",
+            "Peak month": "SEP :",
+            "Peak day": "A",
+            "End month": "OCT:",
+            "End day": "A",
+            "No. of observer": "1",
+            "Reliability": "1",
+            "Estimated total No. on grounds": "100",
+            "Optimum escapement": "10000"
+        },
+        "Chin 1": {
+            "Arrival day": "B",
+            "Start day": "B",
+            "Peak month": "SEP :",
+            "Peak day": "B",
+            "End month": "OCT:",
+            "End day": "A",
+            "Estimated total No. on grounds": "N.O.",
+            "Optimum escapement": "500"
+        }
+    },
+    "Comments (K)": null,
+    "Second local name": null,
+    "First local name": null,
+    "Dates of inspection (1)": null
+}

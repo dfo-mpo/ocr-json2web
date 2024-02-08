@@ -1,0 +1,61 @@
+{
+    "Bookmark": "BC16 1995",
+    "Watershed code": "95-9400-820",
+    "Gazetted name": "Alder Island Creek",
+    "Local name": "Alder Island Creek",
+    "Flows into": "Lower Juan Perez Sound",
+    "Year": "1995",
+    "District number": "9",
+    "Statistical Area": "2-13",
+    "Subdistrict number": "Area 2 East",
+    "Subdistrict name": "Sandspit",
+    "Dates of inspection": "Sep 26 Oct 05 Oct 24",
+    "(A) Enhancement": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstructions": "unselected",
+    "(D) Large variation": "unselected",
+    "(E) High/low water": "unselected",
+    "Physical conditions (A) Evidence": "Course change in lower section, slight increase in accessability.",
+    "Physical conditions (B) Particulars": "The upper log jam has built up, and appeared to be impassable at the end of the spawning period. Fresh blowdown near mouth.",
+    "Physical conditions (C) Water levels": "Consistently good water levels through the spawning period. Slight flooding during the last two weeks of October.",
+    "Biological conditions (D) Particulars": "Up to log jam at 1 km.",
+    "Biological conditions (E) Predators comments": "Moderate impact from birds and bears.",
+    "Biological conditions (F) Evidence": "None observed.",
+    "Biological conditions (G) New obstructions": "The upper log jam must be monitored in future years to monitor changes. Some work should be done on it before next season. The blowdown at the mouth is not a problem at this time.",
+    "Comments": "Incredibly poor return of chum salmon - consistent with the rest of the sub-area.",
+    "Person preparing": "David Beggs",
+    "Spawning run timing": {
+        "Coho 1": {
+            "Arrival month": "Sep",
+            "Spawning start month": "Sep",
+            "Spawning peak month": "Oct",
+            "Spawning end month": "Nov",
+            "Observers": "0",
+            "Methods": "1",
+            "Reliability": "1",
+            "Total on grounds": "N/O",
+            "Target escape": "100"
+        },
+        "Pink 1": {
+            "Observers": "0",
+            "Methods": "1",
+            "Total on grounds": "N/O",
+            "Target escape": "10,000"
+        },
+        "Chum 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "C",
+            "Spawning start month": "Oct",
+            "Spawning start day": "A",
+            "Spawning peak month": "Oct",
+            "Spawning peak day": "C",
+            "Spawning end month": "Nov",
+            "Spawning end day": "A",
+            "Observers": "3",
+            "Methods": "1",
+            "Reliability": "2",
+            "Total on grounds": "40",
+            "Target escape": "5,000"
+        }
+    }
+}

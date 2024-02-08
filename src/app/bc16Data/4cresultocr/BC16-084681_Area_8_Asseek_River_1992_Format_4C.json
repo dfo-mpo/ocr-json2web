@@ -1,0 +1,82 @@
+{
+    "Watershed code": "91-2714",
+    "Gazetted name": "ASSEEK RIVER",
+    "First local name": "SEEK RIVER",
+    "Flows Into": "SOUTH BENTINCK ARM",
+    "Year": "1992",
+    "District No.": "7",
+    "Statistical Area": "8-12",
+    "Subdistrict No.": "8",
+    "Subdistrict Name": "Bella Coola",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NII",
+    "Additional (B) Particulars of scouring of spawning beds": "NIL",
+    "Additional (C) Water levels flow": "NORMAL SEASONAL FLUCTUATIONS.",
+    "Biological (D) Particulars of distribution": "LOWER 1 MILE.",
+    "Biological (E) Comments on predators": "BEARS, BIRDS, AND WOLVES. SEALS IN ESTUARY.",
+    "Date of inspection": [
+        {
+            "Month": "08",
+            "Day": "26"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Sock 1": {
+            "Arrival month": "AUG:",
+            "Arrival day": "B",
+            "Start month": "AUG:",
+            "Start day": "B",
+            "Peak month": "SEP :",
+            "Peak day": "B",
+            "End month": "OCT:",
+            "End day": "A",
+            "No. of observer": "1",
+            "Method": "1",
+            "Reliability": "1",
+            "Estimated total No. on grounds": "4",
+            "Optimum escapement": "50"
+        },
+        "Coho 1": {
+            "Estimated total No. on grounds": "N.I."
+        },
+        "Pink 1": {
+            "Arrival month": "AUG:",
+            "Arrival day": "A",
+            "Start month": "AUG:",
+            "Start day": "A",
+            "Peak month": "SEP :",
+            "Peak day": "A",
+            "End month": "SEP :",
+            "End day": "C",
+            "No. of observer": "1",
+            "Method": "1",
+            "Reliability": "2",
+            "Estimated total No. on grounds": "7500",
+            "Optimum escapement": "15000"
+        },
+        "Chum 1": {
+            "Arrival month": "AUG:",
+            "Arrival day": "B",
+            "Start month": "AUG:",
+            "Start day": "B",
+            "Peak month": "SEP :",
+            "Peak day": "A",
+            "End month": "SEP :",
+            "End day": "B",
+            "No. of observer": "1",
+            "Method": "1",
+            "Reliability": "1",
+            "Estimated total No. on grounds": "12",
+            "Optimum escapement": "1000"
+        }
+    },
+    "Second local name": null,
+    "Biological (G) New obstruction": null,
+    "Dates of inspection (1)": null,
+    "Biological (F) Evidence of digging eggs": null,
+    "Comments (K)": null
+}

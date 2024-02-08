@@ -1,0 +1,64 @@
+{
+    "Watershed Code": "93-6500-780",
+    "Gazetted name": "name:BRODICK CREEK",
+    "1st Local name": "name:GARDEN POINT CREEK",
+    "Flows into": "into:ESPERANZA INLET",
+    "year": "1992",
+    "Subarea": "25-13",
+    "Subd. name": "TAHSIS",
+    "Dates of inspection": "OCT 29",
+    "(A) Evidence of Erosion": "SOME SILTING FOUND IN LOWER REACH. UNABLE TO ASCERTAIN ORIGIN.",
+    "(B) Particulars of Scouring": "N/O",
+    "(C) Water levels": "NORMAL - LOW",
+    "(D) Spawning distribution": "GOOD",
+    "(E) Comments on predators": "BIRD/BEAR",
+    "(F) Egg digging": "N/O",
+    "(G) New obstructions": "SOME WINDTHROW, BUT PASSABLE",
+    "Fishery Officer": "F R CRABBE",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Arrival": "OCT B",
+            "Start": "NOV",
+            "Peak": "NOV C",
+            "End": "DEC B",
+            "Methods": "1",
+            "Reliability": "4",
+            "Est. Esc": "0",
+            "Optimum Esc.": "150"
+        },
+        "Pink 1": {
+            "Est. Esc": "-3"
+        },
+        "Chum 1": {
+            "Arrival": "OCT A",
+            "Start": "OCT B",
+            "Peak": "OCT C",
+            "End": "NOV B",
+            "Methods": "1",
+            "Reliability": "4",
+            "Est. Esc": "3500",
+            "Optimum Esc.": "2000"
+        },
+        "Chinook 1": {
+            "Arrival": "SEP B",
+            "Start": "SEP B",
+            "Peak": "OCT A",
+            "End": "OCT B",
+            "Methods": "1",
+            "Reliability": "4",
+            "Est. Esc": "2",
+            "Optimum Esc.": "-2"
+        }
+    },
+    "District": null,
+    "(H) recommended enhancement": null,
+    "(K) Additional comments continued": null,
+    "(I) Habitat change": null,
+    "(K) Additional comments": null,
+    "Signature": null,
+    "2nd local name": null,
+    "Subdistrict": null
+}

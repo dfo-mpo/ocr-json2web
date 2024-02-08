@@ -1,0 +1,53 @@
+{
+    "Watershed Code": "93-6000",
+    "Gazetted name": "name:SUCWOA RIVER",
+    "1st Local name": "name:BEAR RIVER",
+    "Flows into": "HE D BAY",
+    "Subarea": "25-5",
+    "Subd. name": "TAHSIS",
+    "Dates of inspection": "OCT 27",
+    "(A) Evidence of Erosion": "CONSIDERABLE POST - LOGGING EROSION & GRAVEL MOVEMENT ON THIS RIVER.",
+    "(C) Water levels": "NORMAL - LOW",
+    "(D) Spawning distribution": "GOOD DISTRIBUTION. ALL SIDE CHANNELS ACTIVE.",
+    "(E) Comments on predators": "BIRD/BEAR",
+    "(F) Egg digging": "N/0",
+    "(K) Additional comments": "HATCHERY BROOD STOCK NOT INCLUDED IN ABOVE TOTALS. CHUM: 1,437 MALE, 1,359 FEMALE = 2,796",
+    "Fishery Officer": "F R CRABBE",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Arrival": "OCT",
+            "Start": "NOV",
+            "Peak": "NOV C",
+            "End": "DEC B",
+            "Methods": "1 4",
+            "Reliability": "1",
+            "Est. Esc": "20"
+        },
+        "Pink 1": {
+            "Est. Esc": "-3"
+        },
+        "Chinook 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT B",
+            "Peak": "OCT C",
+            "End": "NOV A",
+            "Methods": "1 4",
+            "Reliability": "2",
+            "Est. Esc": "0",
+            "Optimum Esc.": "500"
+        }
+    },
+    "(I) Habitat change": null,
+    "District": null,
+    "Subdistrict": null,
+    "(G) New obstructions": null,
+    "(B) Particulars of Scouring": null,
+    "year": null,
+    "Signature": null,
+    "(H) recommended enhancement": null,
+    "2nd local name": null,
+    "(K) Additional comments continued": null
+}

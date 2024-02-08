@@ -1,0 +1,53 @@
+{
+    "Watershed Code": "93-7800",
+    "Gazetted name": "name:OUOUKINSH RIVER",
+    "Flows into": "OUOUKINSH INLET",
+    "year": "1992",
+    "Subarea": "26-9",
+    "Subd. name": "KYUQUOT",
+    "Dates of inspection": "OCT 15 1 OCT 17 OCT 21",
+    "(K) Additional comments": "There was a very good return of chums this year - the best in recent years",
+    "Fishery Officer": "R L SENGER",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Reliability": "2",
+            "Est. Esc": "100",
+            "Optimum Esc.": "1000"
+        },
+        "Pink 1": {
+            "Est. Esc": "-3"
+        },
+        "Chum 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT A",
+            "Peak": "OCT C",
+            "End": "NOV B",
+            "Methods": "1 4",
+            "Reliability": "3",
+            "Est. Esc": "13500",
+            "Optimum Esc.": "12000"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-1",
+            "Optimum Esc.": "2000"
+        }
+    },
+    "(E) Comments on predators": null,
+    "1st Local name": null,
+    "(C) Water levels": null,
+    "2nd local name": null,
+    "District": null,
+    "Signature": null,
+    "(K) Additional comments continued": null,
+    "(G) New obstructions": null,
+    "(I) Habitat change": null,
+    "(H) recommended enhancement": null,
+    "(A) Evidence of Erosion": null,
+    "(D) Spawning distribution": null,
+    "(F) Egg digging": null,
+    "(B) Particulars of Scouring": null,
+    "Subdistrict": null
+}

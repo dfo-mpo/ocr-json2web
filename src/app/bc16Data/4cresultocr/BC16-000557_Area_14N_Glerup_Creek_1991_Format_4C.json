@@ -1,0 +1,70 @@
+{
+    "Watershed code": "92 - 3200",
+    "Gazetted name": "COWIE CREEK",
+    "First local name": "COUGAR CREEK",
+    "Second local name": "COGAR SMITH CREEK",
+    "Flows Into": "BAYNES SOUND",
+    "Year": "1991",
+    "District No.": "3",
+    "Statistical Area": "14 - 8",
+    "Subdistrict No.": "14N",
+    "Subdistrict Name": "COMOX, B. C.",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NONE OBSERVED",
+    "Additional (B) Particulars of scouring of spawning beds": "NONE OBSERVED",
+    "Additional (C) Water levels flow": "LOW WATER IN SEPT. AND OCT. HIGH FLOWS IN AUG., NOV., AND LATE DEC. TO EARLY JAN.",
+    "Biological (D) Particulars of distribution": "COHO USE ALL OF THE SYSTEM CHUMS IN THE LOWER ONE THIRD OF THE SYSTEM.",
+    "Biological (E) Comments on predators": "BIRDS, BEARS AND OTTERS.",
+    "Biological (F) Evidence of digging eggs": "NONE OBSERVED",
+    "Biological (G) New obstruction": "NONE OBSERVED",
+    "Comments (K)": "THIS SYSTEM IS SUSCEPTIBLE TO LOW FLOWS DURING SUMMER AND FALL. FINAL NUMBERS WERE OBTAINED FROM DAVE CLOUGHI.",
+    "Date of inspection": [
+        {
+            "Month": "OCF",
+            "Day": "24"
+        },
+        {
+            "Month": "NOV",
+            "Day": "18"
+        },
+        {
+            "Month": "NOV",
+            "Day": "22"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "NOV:",
+            "Arrival day": "1",
+            "Start month": "NOV:",
+            "Start day": "10|",
+            "Peak month": "NOV:",
+            "Peak day": "21",
+            "End month": "DEC:",
+            "End day": "15",
+            "No. of observer": "3",
+            "Method": "1",
+            "Reliability": "4",
+            "Estimated total No. on grounds": "50"
+        },
+        "Chum 1": {
+            "Arrival month": "NOV:",
+            "Arrival day": "5",
+            "Start month": "NOV:",
+            "Start day": "10",
+            "Peak month": "NOV:",
+            "Peak day": "25",
+            "End month": "DEC:",
+            "End day": "10",
+            "No. of observer": "3",
+            "Method": "1",
+            "Reliability": "4",
+            "Estimated total No. on grounds": "50"
+        }
+    },
+    "Dates of inspection (1)": null
+}

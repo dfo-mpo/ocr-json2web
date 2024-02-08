@@ -1,0 +1,44 @@
+{
+    "Watershed Code": "92-1280",
+    "Gazetted name": "name:HYDE CREEK",
+    "Flows into": "BROUGHTON STRAIT",
+    "Subarea": "12-19",
+    "Subd. name": "SEYMOUR INLET",
+    "Dates of inspection": "SEP 28",
+    "(A) Evidence of Erosion": "Silting does occur from the industrial park above the highway.",
+    "(B) Particulars of Scouring": "Not evident.",
+    "(C) Water levels": "Adequate water this year.",
+    "(D) Spawning distribution": "Pinks lower 1 km this year.",
+    "(E) Comments on predators": "Bears frequent this system. Kids reported to have been snagging on occasions in stream.",
+    "(F) Egg digging": "None.",
+    "(G) New obstructions": "Log debris 250 metres up from mouth does not create useful pools but does detain fish to be eaten by bears.",
+    "(K) Additional comments": "System is a viable fish producer, but poor development practices have occured. More time needed to assess and protect these fish. Coho received no visits.",
+    "Fishery Officer": "Clifford Todd",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Optimum Esc.": "2000"
+        },
+        "Coho 1": {
+            "Optimum Esc.": "1000"
+        },
+        "Chum 1": {
+            "Arrival": "SEP A",
+            "Start": "SEP B",
+            "Peak": "OCT A",
+            "End": "OCT C",
+            "Methods": "2",
+            "Reliability": "4",
+            "Est. Esc": "100",
+            "Optimum Esc.": "5000"
+        }
+    },
+    "Subdistrict": null,
+    "year": null,
+    "(K) Additional comments continued": null,
+    "Signature": null,
+    "1st Local name": null,
+    "District": null,
+    "(H) recommended enhancement": null,
+    "(I) Habitat change": null,
+    "2nd local name": null
+}

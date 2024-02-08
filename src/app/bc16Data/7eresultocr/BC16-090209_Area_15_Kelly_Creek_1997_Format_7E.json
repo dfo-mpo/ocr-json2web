@@ -1,0 +1,159 @@
+{
+    "Year": "1997",
+    "Gazetted name": "KELLY CREEK",
+    "RAB code": "90-2725",
+    "Area": "15-1",
+    "District": "03",
+    "Sub": "15 Pender Harbour",
+    "First local name": "LANG CREEK",
+    "Second local name": "FIRNY CREEK",
+    "Flows into": "MALASPINA STRAIT",
+    "Field Crew": "Dick Tritschler",
+    "Inspection dates": "Oct 19 Oct 27 Nov 10 Nov 27",
+    "(5) Escapement comments": "unselected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "selected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "selected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "The first 4 to 5 metres are the prime chum spawning habitat but some go up to Highway 101 and just on the up stream side of it.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(2) Reliability: CO Run 1: Very hard to estimate total stock by the method used for numeration. (4) Describe basis for estimating total adults CO Run 1: This is not a total estimate but only the number observed on Nov. 27. (2) Reliability: CM Run 1: Four inspections and three during peak spawning; last inspection on Nov. 27 had 364 live chums were all getting old looking so don't think any more came into the system. (4) Describe basis for estimating total adults CM Run 1: Based on four inspections during the chum migration period. (7) Enhancements: A new culvert was installed on Highway 101 this summer and for the first time chums were able to cross the highway to spawn. The spawning area on the upper side of the highway consists of approximately 150m of gravel before the creek goes into an impassable canyon. (16) Fish access recommendations: Small log jam that consists of the roots of live trees that need a little clearing every year to make the passage easier for the chums. I do not recommend the removal of this blockage only the annual maintance. (18) Flow augmentation: Flows during the summer months have been reported low though desirable, and should be monitored. There are numerous water Licenses removing water during the summer months. (20) On Predator Interactions: Very few predators. Few eagles and seals off the mouth.",
+    "Person preparing report": "Dick Tritschler / Texada Belle",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "2",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "2",
+            "Enum Class": "4",
+            "Esc Code": "A.C.",
+            "Est total adults": "2"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "2",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "4",
+            "Enum Class": "4",
+            "Esc Code": "A.C.",
+            "Est total adults": "985"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "11-20",
+            "Start month": "Oct",
+            "Start day": "11-20",
+            "Peak month": "Nov",
+            "Peak day": "11-20",
+            "End month": "Dec",
+            "End day": "1-10"
+        }
+    },
+    "Latitude": null,
+    "Longitude": null,
+    "End date": null,
+    "Start date": null
+}

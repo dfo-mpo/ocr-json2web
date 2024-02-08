@@ -1,0 +1,40 @@
+{
+    "Department": "DEPARTMENT OF FISHERIES AND OCEANS",
+    "Report": "ANNUAL REPOR OF SALMON STREAMS AND SPAV ING POPULATIONS",
+    "Watershed code": "91-9000-100-050",
+    "First local name": "IRON-MINE CREEK",
+    "Flows into": "S.W. INTO WEDEENE RIVER",
+    "Year": "1990",
+    "District No.": "7",
+    "Statistical Area": "6",
+    "Subdistrict No.": "6N",
+    "Subdistrict Name": "KITIMAT",
+    "Physical Condition (C)": "EXTREMELY LOW WATER LEVELS FROM AUGUST TO LATE SEPTEMBER HIGH WATER LEVELS IN LATE OCTOBER.",
+    "Biological Condition (F)": "N/0",
+    "Biological Condition (G)": "N/O",
+    "signature": "angelo Log\u00eda",
+    "Dates of Inspection": [
+        {
+            "Month": "NOU",
+            "Day": "22"
+        }
+    ],
+    "Spawning Run Timing and Estimated Number": {
+        "Coho 1": {
+            "Arrival In Stream Month": "OCT",
+            "Arrival In Stream Day": ":C",
+            "Spawning Start Month": "/OCT",
+            "Spawning Start Day": ":C",
+            "Spawning Peak Month": "/NOV",
+            "Spawning Peak Day": ":B"
+        }
+    },
+    "namename": {},
+    "Physical Condition (A)": null,
+    "Biological Condition (D)": null,
+    "shedcode": null,
+    "Gazetted name": null,
+    "Physical Condition (B)": null,
+    "Comments on any other conditions": null,
+    "Biological Condition (E)": null
+}

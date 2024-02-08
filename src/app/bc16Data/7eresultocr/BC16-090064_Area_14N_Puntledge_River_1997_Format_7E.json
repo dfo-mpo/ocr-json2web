@@ -1,0 +1,163 @@
+{
+    "Year": "1997",
+    "Gazetted name": "PUNTLEDGE RIVER",
+    "RAB code": "92-2800",
+    "Area": "14",
+    "District": "03",
+    "Sub": "14N Comox",
+    "First local name": "COURTENAY RIVER",
+    "Flows into": "COMOX HARBOUR",
+    "Latitude": "49 40 48",
+    "Longitude": "124 58 32",
+    "Field Crew": "Hatchery Staff",
+    "Start date": "7/1/97",
+    "End date": "1/1/98",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "selected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "selected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "selected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Coho and Chums able to go through or around fence for much of their migration period.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(4) Describe basis for estimating total adults CN Run 2: CN run 1 is summer run. CN run 2 is fall run. (5) General Comments on Escapement Estimation: Numbers derived from hatchery. Hatchery provided information. Contact hatchery to verify numbers as given on this report. (6) General Comments on Run Timing: Contact hatchery to provide details on fence counts, swim ins, brood stock captures and numbers regarding run timing. (8) Unusual mortalities: Seal predation affects CN and PK runs. Riverine seals hunting right up to fence. (14) Flood: March 1997 flood adversely affects all Area 14 streams. Oct. 10 flood destroys 1/3 of fence and renders it ineffective for about a week until temporary patch could be put in place. (20) On Salmon Distribution or Predator Interactions: Excessive seal predation continues to have effects on chinook and pinks due to low levels for returns. Seal cull commenced this year. 39 animals shot. Continuation of cull is uncertain. Low abundance of pinks made it difficult for anglers and harvest appears to have been negligible by the local sport fleet.",
+    "Person preparing report": "Eli Rosengard / Patrolman",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1,2,3,11",
+            "%Spawn habitat surveyed": "25",
+            "Rel": "4",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "1,500",
+            "Brood stock removals": "4,730",
+            "Jacks": "1,097"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "1,2,3,5,1",
+            "%Spawn habitat surveyed": "90",
+            "Rel": "4",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "6,100",
+            "Brood stock removals": "2,800"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "1,2,5,11",
+            "%Spawn habitat surveyed": "90",
+            "Rel": "5",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "100,000",
+            "Brood stock removals": "4,864"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "1,2,3,11",
+            "%Spawn habitat surveyed": "75",
+            "Rel": "4",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "25",
+            "Brood stock removals": "290"
+        },
+        "CN 2": {
+            "Methods": "1,2,3,11",
+            "%Spawn habitat surveyed": "75",
+            "Rel": "4",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Est total adults": "323",
+            "Brood stock removals": "208"
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "A.P."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {},
+    "Inspection dates": null,
+    "Second local name": null
+}

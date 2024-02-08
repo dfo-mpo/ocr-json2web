@@ -1,0 +1,57 @@
+{
+    "Bookmark": "BC16 1995",
+    "Watershed code": "95-9300-270",
+    "Gazetted name": "Windy Bay Creek",
+    "Local name": "Windy Bay Creek",
+    "Flows into": "Hecate Strait",
+    "Year": "1995",
+    "District number": "9",
+    "Statistical Area": "2-11",
+    "Subdistrict number": "Area 2 East",
+    "Subdistrict name": "Sandspit",
+    "Dates of inspection": "Nov 05",
+    "(A) Enhancement": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstructions": "unselected",
+    "(D) Large variation": "unselected",
+    "(E) High/low water": "unselected",
+    "Comments": "This system was not walked this year.",
+    "Person preparing": "David Beggs",
+    "Spawning run timing": {
+        "Coho 1": {
+            "Arrival month": "Sep",
+            "Spawning start month": "Sep",
+            "Spawning peak month": "Oct",
+            "Spawning end month": "Nov",
+            "Observers": "0",
+            "Methods": "1",
+            "Reliability": "1",
+            "Total on grounds": "N/",
+            "Target escape": "500"
+        },
+        "Pink 1": {
+            "Observers": "0",
+            "Methods": "1",
+            "Total on grounds": "NA",
+            "Target escape": "70,000"
+        },
+        "Chum 1": {
+            "Arrival month": "Sep",
+            "Spawning start month": "Sep",
+            "Spawning peak month": "Oct",
+            "Spawning end month": "Nov",
+            "Observers": "0",
+            "Methods": "1",
+            "Reliability": "1",
+            "Total on grounds": "N/I",
+            "Target escape": "150"
+        }
+    },
+    "Biological conditions (F) Evidence": null,
+    "Physical conditions (A) Evidence": null,
+    "Physical conditions (B) Particulars": null,
+    "Biological conditions (E) Predators comments": null,
+    "Physical conditions (C) Water levels": null,
+    "Biological conditions (D) Particulars": null,
+    "Biological conditions (G) New obstructions": null
+}

@@ -1,0 +1,47 @@
+{
+    "Watershed code": "92-2640",
+    "Gazetted name": "SIMMS CREEK",
+    "First local name": "Simms Creek",
+    "Flows Into": "Discovery Passage",
+    "Year": "1991",
+    "District No.": "5",
+    "Statistical Area": "13-3",
+    "Subdistrict No.": "13",
+    "Subdistrict Name": "QUATHIASKI",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Biological (D) Particulars of distribution": "some spawning in lower reaches, majority upstream of South Alder Street.",
+    "Biological (E) Comments on predators": "Child & adult molestation and poaching of spawning fish.",
+    "Biological (G) New obstruction": "Recurring beaver dams throughout.",
+    "Date of inspection": [
+        {
+            "Day": "10 19"
+        },
+        {
+            "Day": "11"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "OCT:",
+            "Start month": "OCT:",
+            "Peak month": "NOI:",
+            "End month": "DEC:",
+            "No. of observer": "2",
+            "Method": "1",
+            "Reliability": "3",
+            "Estimated total No. on grounds": "60-100",
+            "Optimum escapement": "500"
+        }
+    },
+    "Second local name": null,
+    "Additional (C) Water levels flow": null,
+    "Dates of inspection (1)": null,
+    "Biological (F) Evidence of digging eggs": null,
+    "Comments (K)": null,
+    "Additional (B) Particulars of scouring of spawning beds": null,
+    "Additional (A) Evidence of erosion and silting": null
+}

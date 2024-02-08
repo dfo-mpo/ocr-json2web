@@ -1,0 +1,64 @@
+{
+    "Watershed Code": "94-3700",
+    "Gazetted name": "name:DATLAMEN CREEK",
+    "Flows into": "into:JUSTKATLA INLET",
+    "year": "1992",
+    "Subarea": "1-6",
+    "Subd. name": "MASSET",
+    "Dates of inspection": "AUG 09 AUG 23 AUG 12 AUG 25 AUG 15 AUG 27 AOG 21 SEP 01",
+    "(A) Evidence of Erosion": "Throughout logged section some undercutting, bed movement, log jams.",
+    "(D) Spawning distribution": "Pinks observed from estuary to 4 km upstream.",
+    "(E) Comments on predators": "Bears, eagles, and seals.",
+    "(F) Egg digging": "N/0",
+    "(G) New obstructions": "Some instream debris, but peak winter flows should remove these obstructions.",
+    "(K) Additional comments": "Coho estimates based on sports fishermen reports. Logging contin- wes in upper portion of watersheds. Road construction ongoing on west side of creek.",
+    "Fishery Officer": "Com Well",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT A",
+            "Peak": "OCT C",
+            "End": "NOV B",
+            "Methods": "1 10",
+            "Reliability": "1",
+            "Est. Esc": "BDO",
+            "Optimum Esc.": "5000"
+        },
+        "Pink 1": {
+            "Arrival": "AUG B",
+            "Start": "SEP A",
+            "Peak": "SEP B",
+            "End": "OCT A",
+            "Methods": "1 2 3",
+            "Reliability": "4",
+            "Est. Esc": "40000",
+            "Optimum Esc.": "30000"
+        },
+        "Chum 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT A",
+            "Peak": "OCT B",
+            "End": "OCT C",
+            "Methods": "1 6",
+            "Reliability": "1",
+            "Est. Esc": "-1",
+            "Optimum Esc.": "500"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "(C) Water levels": null,
+    "District": null,
+    "Signature": null,
+    "2nd local name": null,
+    "(H) recommended enhancement": null,
+    "(I) Habitat change": null,
+    "(B) Particulars of Scouring": null,
+    "(K) Additional comments continued": null,
+    "1st Local name": null,
+    "Subdistrict": null
+}

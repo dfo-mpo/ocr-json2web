@@ -1,0 +1,44 @@
+{
+    "Watershed Code": "94-4200",
+    "Gazetted name": "KUKDIS CREEK",
+    "1st Local name": "KUMDIS RIVER",
+    "Flows into": "into:MASSET INLET",
+    "year": "1992",
+    "Subarea": "1-6",
+    "Subd. name": "MASSET",
+    "(K) Additional comments": "Not inspected.",
+    "Fishery Officer": "Com Well",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Est. Esc": "-2",
+            "Optimum Esc.": "7000"
+        },
+        "Pink 1": {
+            "Est. Esc": "-2"
+        },
+        "Chum 1": {
+            "Est. Esc": "-2"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "Dates of inspection": null,
+    "(A) Evidence of Erosion": null,
+    "(E) Comments on predators": null,
+    "District": null,
+    "(H) recommended enhancement": null,
+    "(K) Additional comments continued": null,
+    "(I) Habitat change": null,
+    "(D) Spawning distribution": null,
+    "(C) Water levels": null,
+    "Signature": null,
+    "2nd local name": null,
+    "(G) New obstructions": null,
+    "(B) Particulars of Scouring": null,
+    "Subdistrict": null,
+    "(F) Egg digging": null
+}

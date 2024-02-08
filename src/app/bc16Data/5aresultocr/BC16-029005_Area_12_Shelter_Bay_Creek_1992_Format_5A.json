@@ -1,0 +1,40 @@
+{
+    "Gazetted name": "SHELTER BAY CREEK",
+    "2nd local name": "SHELTER BAY",
+    "Flows into": "SHELTER BAY",
+    "Subarea": "12-13",
+    "Subd. name": "PORT HARDY",
+    "Dates of inspection": "SEP 10 OCT 12",
+    "(K) Additional comments": "No fish observed in this creek.",
+    "Fishery Officer": "Murray McPherson",
+    "Duration of Spawning": {
+        "Coho 1": {
+            "Arrival": "SEP B",
+            "Start": "SEP C",
+            "Peak": "OCT C",
+            "End": "NOV B"
+        },
+        "Chum 1": {
+            "Arrival": "AUG C",
+            "Start": "SEP B",
+            "Peak": "SEP C",
+            "End": "OCT B"
+        }
+    },
+    "year": null,
+    "(G) New obstructions": null,
+    "(C) Water levels": null,
+    "Signature": null,
+    "District": null,
+    "(E) Comments on predators": null,
+    "(I) Habitat change": null,
+    "Subdistrict": null,
+    "Watershed Code": null,
+    "(B) Particulars of Scouring": null,
+    "(H) recommended enhancement": null,
+    "(F) Egg digging": null,
+    "1st Local name": null,
+    "(K) Additional comments continued": null,
+    "(A) Evidence of Erosion": null,
+    "(D) Spawning distribution": null
+}

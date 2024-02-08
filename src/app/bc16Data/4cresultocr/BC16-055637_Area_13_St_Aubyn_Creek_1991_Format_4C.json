@@ -1,0 +1,65 @@
+{
+    "Watershed code": "92-2000-420",
+    "Gazetted name": "UNNAMED",
+    "First local name": "Christie Creek",
+    "Flows Into": "Okisollo Channel",
+    "Year": "1991",
+    "District No.": "5",
+    "Statistical Area": "13-10",
+    "Subdistrict No.": "13",
+    "Subdistrict Name": "QUATHIASKI",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (C) Water levels flow": "8",
+    "Biological (D) Particulars of distribution": "mouth to falls",
+    "Biological (E) Comments on predators": "Bears, birds",
+    "Date of inspection": [
+        {
+            "Month": "9",
+            "Day": "9"
+        },
+        {
+            "Month": "12",
+            "Day": "1"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "SEP:",
+            "Start month": "SEP :",
+            "Peak month": "OCT:",
+            "End month": "NOV:",
+            "No. of observer": "2",
+            "Method": "1",
+            "Optimum escapement": "1000"
+        },
+        "Pink 1": {
+            "Arrival month": "AUG:",
+            "Start month": "SEP :",
+            "Peak month": "OCT:",
+            "End month": "OCT:",
+            "No. of observer": "2",
+            "Optimum escapement": "UK"
+        },
+        "Chum 1": {
+            "Arrival month": "OCT:",
+            "Start month": "OCT:",
+            "Peak month": "NOI:",
+            "End month": "NOV:",
+            "No. of observer": "2",
+            "Method": "1",
+            "Estimated total No. on grounds": "50",
+            "Optimum escapement": "1000"
+        }
+    },
+    "Comments (K)": null,
+    "Second local name": null,
+    "Additional (B) Particulars of scouring of spawning beds": null,
+    "Additional (A) Evidence of erosion and silting": null,
+    "Biological (F) Evidence of digging eggs": null,
+    "Biological (G) New obstruction": null,
+    "Dates of inspection (1)": null
+}

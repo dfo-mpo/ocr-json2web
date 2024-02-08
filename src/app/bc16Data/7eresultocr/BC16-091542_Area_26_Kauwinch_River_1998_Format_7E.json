@@ -1,0 +1,177 @@
+{
+    "Year": "1998",
+    "Gazetted name": "KAUWINCH RIVER",
+    "RAB code": "93-7470",
+    "Area": "26-5",
+    "District": "04",
+    "Sub": "26 Kyuquot",
+    "First local name": "COWPINCH RIVER",
+    "Second local name": "KAOOINCH RIVER",
+    "Flows into": "KASHUTL INLET",
+    "Latitude": "50 8 41",
+    "Longitude": "127 16 4",
+    "Inspection dates": "Sep 28 Oct 07 Oct 17 Oct 24 Oct 27 Nov 03 Nov 18",
+    "(5) Escapement comments": "unselected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "selected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "selected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(2) SK Run 1 Reliability: Big system. (2) CO Run 1 Reliability: Big system. (4) Describe basis for estimating total adults CO Run 1: Observed and estimated % of habitat estimated in pools. (2) CM Run 1 Reliability: Could be higher count than final estimate as system main stem is wide and fairly deep; therefore, estimate will allow for a % of habitat not covered. Not all area included in final estimate as it is assumed that much of the glide areas are not preferred habitat. (4) Describe basis for estimating total adults CM Run 1: See comment under \" (2) CM Run 1 Reliability\" (2) CN Run 1 Reliability: Big system. (4) Describe basis for estimating total adults CN Run 1: Number is completely arbitrary, could be anything. (21) Other Sampling Activities or Studies: \"Coho Juvenile Depletion Survey\" on creek entering estuary. Crew Chief: Ross Hickling. Adult enumeration separate from Kauwinch, local name of creek: Ballie Creek.",
+    "Person preparing report": "Ross Hickling",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "Methods": "1,2,3,4",
+            "%Spawn habitat surveyed": "35",
+            "Rel": "2",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1,2,3,4",
+            "%Spawn habitat surveyed": "25",
+            "Rel": "2",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "350",
+            "Jacks": "35"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "1,2,3,4",
+            "%Spawn habitat surveyed": "40",
+            "Rel": "3",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "1,2,3,4",
+            "%Spawn habitat surveyed": "70",
+            "Rel": "4",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "16,500"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "1,2,3,4",
+            "%Spawn habitat surveyed": "20",
+            "Rel": "1",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "20"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "1-10",
+            "Start month": "Oct",
+            "Start day": "21-31",
+            "Peak month": "Nov",
+            "Peak day": "11-20",
+            "End month": "Dec",
+            "End day": "11-20"
+        },
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "1-10",
+            "Start month": "Oct",
+            "Start day": "1-10",
+            "Peak month": "Oct",
+            "Peak day": "21-31",
+            "End month": "Nov",
+            "End day": "11-20"
+        }
+    },
+    "Field Crew": null,
+    "End date": null,
+    "Biological details particulars": null,
+    "Start date": null
+}

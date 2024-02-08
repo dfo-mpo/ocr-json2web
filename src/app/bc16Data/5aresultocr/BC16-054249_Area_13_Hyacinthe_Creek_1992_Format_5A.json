@@ -1,0 +1,42 @@
+{
+    "Watershed Code": "92-2300-270",
+    "1st Local name": "name:HYACINTHE BAY CREEK",
+    "Flows into": "HYACINTHE BAY",
+    "year": "1992",
+    "Subarea": "13-13",
+    "Subd. name": "CAMPBELL RIVER",
+    "Dates of inspection": "OCT 16 |1",
+    "(C) Water levels": "normal",
+    "(D) Spawning distribution": "Lower 1/2 Mile:",
+    "Fishery Officer": "J. Earl",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Est. Esc": "-2 200"
+        },
+        "Pink 1": {
+            "Est. Esc": "-2"
+        },
+        "Chum 1": {
+            "Arrival": "|OCT",
+            "Reliability": "3",
+            "Est. Esc": "725 1000"
+        }
+    },
+    "Gazetted name": null,
+    "(K) Additional comments continued": null,
+    "(H) recommended enhancement": null,
+    "2nd local name": null,
+    "(K) Additional comments": null,
+    "District": null,
+    "(E) Comments on predators": null,
+    "(G) New obstructions": null,
+    "Signature": null,
+    "(F) Egg digging": null,
+    "(B) Particulars of Scouring": null,
+    "Subdistrict": null,
+    "(I) Habitat change": null,
+    "(A) Evidence of Erosion": null
+}

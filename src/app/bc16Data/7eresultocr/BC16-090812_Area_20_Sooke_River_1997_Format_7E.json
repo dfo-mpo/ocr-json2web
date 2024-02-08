@@ -1,0 +1,214 @@
+{
+    "Year": "1997",
+    "Gazetted name": "SOOKE RIVER",
+    "RAB code": "93-0300",
+    "Area": "20-6",
+    "District": "06",
+    "Sub": "20 Sooke",
+    "Flows into": "SOOKE HARBOUR",
+    "Latitude": "48 23 4",
+    "Longitude": "123 41 53",
+    "Inspection dates": "Oct 17 Oct 23 Nov 06 Nov 14 Nov 21 Dec 04",
+    "(5) Escapement comments": "unselected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "selected",
+    "(15) General comments": "selected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Chum lower. Coho, chinook, sockeye and pink upper half.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "selected",
+    "Comments on condition": "(14) Flood: Sooke River came up fast twice. I don't know how much affect on eggs. (15) General Comments on Unusual Conditions: After spawning, flood level out red. Could not tell where the redds were. May be evidence of digging up eggs by later spawning fish on chum. (22) List Supplementary Documentation: BC16 originally prepared by Claude Routhier; reviewed by Ron Douglas April 2000.",
+    "Person preparing report": "Ron Douglas, CPV",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "Methods": "1,4",
+            "N": "2",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "4",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "8",
+            "Escapement Goal": "12"
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1,4",
+            "N": "2",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "4",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "60",
+            "Escapement Goal": "300"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "1,4",
+            "N": "2",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "4",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "6"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "1,4",
+            "N": "2",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "4",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "25,000",
+            "Escapement Goal": "30,000 2,500"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "2",
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "1,050"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "SK 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "21",
+            "Start month": "Oct",
+            "Start day": "21",
+            "Peak month": "Oct",
+            "Peak day": "25",
+            "End month": "Nov",
+            "End day": "1"
+        },
+        "CO 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "11",
+            "Start month": "Oct",
+            "Start day": "11",
+            "Peak month": "Oct",
+            "Peak day": "22",
+            "End month": "Nov",
+            "End day": "1"
+        },
+        "PK 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "20",
+            "Start month": "Oct",
+            "Start day": "25",
+            "Peak month": "Oct",
+            "Peak day": "28",
+            "End month": "Nov",
+            "End day": "1"
+        },
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "21",
+            "Start month": "Oct",
+            "Start day": "17",
+            "Peak month": "Oct",
+            "Peak day": "25",
+            "End month": "Nov",
+            "End day": "28"
+        },
+        "CN 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "7",
+            "Start month": "Oct",
+            "Start day": "7",
+            "Peak month": "Oct",
+            "Peak day": "17",
+            "End month": "Nov",
+            "End day": "6"
+        }
+    },
+    "Field Crew": null,
+    "Start date": null,
+    "First local name": null,
+    "Second local name": null,
+    "End date": null
+}

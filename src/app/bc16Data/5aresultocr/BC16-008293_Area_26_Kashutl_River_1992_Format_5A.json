@@ -1,0 +1,71 @@
+{
+    "Watershed Code": "93-7500",
+    "Gazetted name": "KASHUTL RIVER",
+    "1st Local name": "name:COCKSHUTTLE RIVER",
+    "Flows into": "KASHUTL INLET",
+    "year": "1992",
+    "Subarea": "26-5",
+    "Subd. name": "KYUQUOT",
+    "Dates of inspection": "SEP 19 OCT 03 OCT 15 OCT 21",
+    "(D) Spawning distribution": "Up to falls at 1 KM. Tributary in lower river had a very high return of chums",
+    "(K) Additional comments": "Freezing conditions during the first 3 weeks of January caused abnormally low flows and may have affected chum egg survival",
+    "Fishery Officer": "R L SENGER",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT A",
+            "Peak": "OCT C",
+            "End": "NOV B",
+            "Methods": "1 4",
+            "Reliability": "2",
+            "Est. Esc": "50",
+            "Optimum Esc.": "1000"
+        },
+        "Coho 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT C",
+            "Peak": "NOV B",
+            "End": "DEC C",
+            "Methods": "1 4",
+            "Reliability": "2",
+            "Est. Esc": "50",
+            "Optimum Esc.": "1000"
+        },
+        "Pink 1": {
+            "Est. Esc": "-3"
+        },
+        "Chum 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT A",
+            "Peak": "OCT C",
+            "End": "NOV B",
+            "Methods": "1 4",
+            "Reliability": "3",
+            "Est. Esc": "15000",
+            "Optimum Esc.": "12000"
+        },
+        "Chinook 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT A",
+            "Peak": "OCT B",
+            "End": "OCT C",
+            "Methods": "1 4",
+            "Reliability": "3",
+            "Est. Esc": "20",
+            "Optimum Esc.": "500"
+        }
+    },
+    "(I) Habitat change": null,
+    "(F) Egg digging": null,
+    "Signature": null,
+    "(G) New obstructions": null,
+    "(B) Particulars of Scouring": null,
+    "(A) Evidence of Erosion": null,
+    "(E) Comments on predators": null,
+    "Subdistrict": null,
+    "(K) Additional comments continued": null,
+    "2nd local name": null,
+    "(H) recommended enhancement": null,
+    "(C) Water levels": null,
+    "District": null
+}

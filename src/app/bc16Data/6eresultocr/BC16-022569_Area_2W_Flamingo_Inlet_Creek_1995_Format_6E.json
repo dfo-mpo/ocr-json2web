@@ -1,0 +1,60 @@
+{
+    "Bookmark": "BC16 1995",
+    "Watershed code": "95-4000",
+    "Gazetted name": "Flamingo Head Creek",
+    "Local name": "Flamingo Head Creek",
+    "Flows into": "Flamingo Inlet",
+    "Year": "1995",
+    "District number": "9",
+    "Statistical Area": "2-37",
+    "Subdistrict number": "Area 2 West",
+    "Subdistrict name": "Sandspit",
+    "Dates of inspection": "Sep 14 Oct 02 Nov 08",
+    "(A) Enhancement": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstructions": "unselected",
+    "(D) Large variation": "unselected",
+    "(E) High/low water": "unselected",
+    "Physical conditions (A) Evidence": "None Reported.",
+    "Physical conditions (B) Particulars": "None Reported.",
+    "Physical conditions (C) Water levels": "Consistentty good water levels through the spawning period.",
+    "Biological conditions (D) Particulars": "Spread to 1 km.",
+    "Biological conditions (E) Predators comments": "Moderale impact from birds and bears.",
+    "Biological conditions (F) Evidence": "None Reported.",
+    "Comments": "This creek was only walked by the crew of the \"Sooke Post\" this year.",
+    "Person preparing": "David Beggs",
+    "Spawning run timing": {
+        "Coho 1": {
+            "Arrival month": "Sep",
+            "Spawning start month": "Sep",
+            "Spawning peak month": "Oct",
+            "Spawning end month": "Nov",
+            "Observers": "0",
+            "Methods": "1",
+            "Reliability": "2",
+            "Total on grounds": "NO",
+            "Target escape": "200"
+        },
+        "Pink 1": {
+            "Observers": "0",
+            "Methods": "1",
+            "Total on grounds": "NIO",
+            "Target escape": "750"
+        },
+        "Chum 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "C",
+            "Spawning start month": "SGP",
+            "Spawning peak month": "Oct",
+            "Spawning peak day": "A",
+            "Spawning end month": "Oct",
+            "Spawning end day": "C",
+            "Observers": "3",
+            "Methods": "1",
+            "Reliability": "2",
+            "Total on grounds": "1,500",
+            "Target escape": "7,000"
+        }
+    },
+    "Biological conditions (G) New obstructions": null
+}

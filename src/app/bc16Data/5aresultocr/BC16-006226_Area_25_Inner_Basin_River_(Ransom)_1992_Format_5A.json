@@ -1,0 +1,50 @@
+{
+    "Watershed Code": "93-6500-580",
+    "1st Local name": "RANSOM CREEK",
+    "Flows into": "INNER BASIN",
+    "Subarea": "25-14",
+    "Subd. name": "TAHSIS",
+    "(A) Evidence of Erosion": "N/O",
+    "(B) Particulars of Scouring": "N/0",
+    "(C) Water levels": "NORMAL - LOW",
+    "(D) Spawning distribution": "GOOD DISTRIBUTION THROUGHOUT THIS SYSTEM",
+    "(E) Comments on predators": "HEAVY BIRD/BEAR",
+    "(F) Egg digging": "N/O",
+    "(G) New obstructions": "N/O",
+    "Fishery Officer": "F R CRABBE",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Est. Esc": "-3"
+        },
+        "Pink 1": {
+            "Est. Esc": "-3"
+        },
+        "Chum 1": {
+            "Arrival": "OCT B",
+            "Start": "OCT B",
+            "Peak": "OCT C",
+            "End": "NOV A",
+            "Methods": "4",
+            "Reliability": "3",
+            "Est. Esc": "5400",
+            "Optimum Esc.": "5000"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "(I) Habitat change": null,
+    "(K) Additional comments": null,
+    "District": null,
+    "(K) Additional comments continued": null,
+    "Dates of inspection": null,
+    "Signature": null,
+    "(H) recommended enhancement": null,
+    "2nd local name": null,
+    "Gazetted name": null,
+    "Subdistrict": null,
+    "year": null
+}

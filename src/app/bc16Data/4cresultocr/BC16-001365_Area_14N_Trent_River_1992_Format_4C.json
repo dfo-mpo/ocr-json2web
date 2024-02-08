@@ -1,0 +1,81 @@
+{
+    "Watershed code": "92 - 2900",
+    "Gazetted name": "TRENT RIVER",
+    "Flows Into": "COMOX HARBOUR",
+    "Year": "1992",
+    "District No.": "3",
+    "Statistical Area": "14 - 14",
+    "Subdistrict No.": "14N",
+    "Subdistrict Name": "COMOX, B. C.",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NONE OBSERVED",
+    "Additional (B) Particulars of scouring of spawning beds": "NONE OBSERVED",
+    "Additional (C) Water levels flow": "LOW WATER IN SEPT. AND EARLY OCT. HIGH FLOWS IN EARLY NOV. GOOD FALL FLOWS.",
+    "Biological (D) Particulars of distribution": "COHO AND PINK FROM MOUTH TO THE FALLS, CHUM IN LOWER ONE THIRD OF THE SYSTEM.",
+    "Biological (E) Comments on predators": "BIRDS. BEARS, PUBLIC AND OTTERS.",
+    "Biological (F) Evidence of digging eggs": "NONE OBSERVED",
+    "Biological (G) New obstruction": "NONE OBSERVED",
+    "Comments (K)": "DUE TO HIGH DARK WATER IN LATE OCT AND EARLY NOV COLLECTING FISH NUMBERS AND BROODSTOCK CAPTURE WAS VERY DIFFICULT TO COMPLETE. FINAL NUMBER'S WERE OBTAINED WITH THE HELP OF BRYAN ALLEN AND THE P.I.P. ENHANCEMNT GROUP. THIS GROUP CAPTURED 6-8 ADULT COHO FOR THEIR BROODSTACK PROJECT.",
+    "Date of inspection": [
+        {
+            "Month": "OCT",
+            "Day": "14"
+        },
+        {
+            "Month": "NOV",
+            "Day": "17"
+        },
+        {
+            "Month": "NOV",
+            "Day": "20"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "SEP:",
+            "Arrival day": "C",
+            "Start month": "OCT:",
+            "Start day": "B",
+            "Peak month": "NOV:",
+            "Peak day": "B",
+            "End month": "DEC:",
+            "End day": "B",
+            "Method": "1",
+            "Reliability": "4",
+            "Estimated total No. on grounds": "450"
+        },
+        "Pink 1": {
+            "Arrival month": "SEP:",
+            "Arrival day": "B",
+            "Start month": "SEP:",
+            "Start day": "B",
+            "Peak month": "SEP:",
+            "Peak day": "C",
+            "End month": "OCT:",
+            "End day": "A",
+            "Method": "1",
+            "Reliability": "4",
+            "Estimated total No. on grounds": "150"
+        },
+        "Chum 1": {
+            "Arrival month": "NOV:",
+            "Arrival day": "B",
+            "Start month": "NOV:",
+            "Start day": "B",
+            "Peak month": "DEC:",
+            "Peak day": "C",
+            "End month": "DEC:",
+            "End day": "A",
+            "Method": "- 1",
+            "Reliability": "4",
+            "Estimated total No. on grounds": "1000"
+        }
+    },
+    "Second local name": null,
+    "First local name": null,
+    "Dates of inspection (1)": null
+}

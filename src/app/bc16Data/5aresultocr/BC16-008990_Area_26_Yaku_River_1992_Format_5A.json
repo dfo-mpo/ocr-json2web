@@ -1,0 +1,50 @@
+{
+    "Watershed Code": "93-7430",
+    "1st Local name": "YAKU RIVER",
+    "Flows into": "TAHSISH INLET",
+    "Subarea": "26-4",
+    "Subd. name": "KYUQUOT",
+    "Dates of inspection": "OCT 21",
+    "(K) Additional comments": "Escapement information was provided by Intercan III Resources",
+    "Fishery Officer": "R L SENGER",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Est. Esc": "-2",
+            "Optimum Esc.": "100"
+        },
+        "Pink 1": {
+            "Est. Esc": "-3"
+        },
+        "Chum 1": {
+            "Arrival": "OCT A",
+            "Start": "OCT B",
+            "Peak": "OCT C",
+            "End": "NOV A",
+            "Reliability": "3",
+            "Est. Esc": "500",
+            "Optimum Esc.": "1500"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "(B) Particulars of Scouring": null,
+    "2nd local name": null,
+    "(K) Additional comments continued": null,
+    "Subdistrict": null,
+    "District": null,
+    "year": null,
+    "(C) Water levels": null,
+    "(E) Comments on predators": null,
+    "Signature": null,
+    "(F) Egg digging": null,
+    "Gazetted name": null,
+    "(D) Spawning distribution": null,
+    "(H) recommended enhancement": null,
+    "(I) Habitat change": null,
+    "(A) Evidence of Erosion": null,
+    "(G) New obstructions": null
+}

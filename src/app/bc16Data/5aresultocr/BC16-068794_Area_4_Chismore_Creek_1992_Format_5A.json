@@ -1,0 +1,41 @@
+{
+    "Watershed Code": "97-9300-060",
+    "1st Local name": "CHISMORE CREEK",
+    "Flows into": "CHISMORE PASS",
+    "year": "1992",
+    "Subdistrict": "4A",
+    "Subarea": "4-12",
+    "Subd. name": "SKEENA",
+    "Dates of inspection": "AUG 27 SEP 08 SEP 13 11 SEP 22 11",
+    "(C) Water levels": "High water levels during enumeration. Freezing weather and low water levels in January may have caused mortality.",
+    "Fishery Officer": "Shane Neiter",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Chum 1": {
+            "Arrival": "AUG 31",
+            "Start": "SEP 01",
+            "Peak": "SEP 15",
+            "End": "OCT 10",
+            "Methods": "1",
+            "Reliability": "1",
+            "Est. Esc": "250",
+            "Optimum Esc.": "3000"
+        }
+    },
+    "(F) Egg digging": null,
+    "(I) Habitat change": null,
+    "(B) Particulars of Scouring": null,
+    "2nd local name": null,
+    "District": null,
+    "(D) Spawning distribution": null,
+    "(E) Comments on predators": null,
+    "(K) Additional comments continued": null,
+    "Signature": null,
+    "(A) Evidence of Erosion": null,
+    "(G) New obstructions": null,
+    "Gazetted name": null,
+    "(K) Additional comments": null,
+    "(H) recommended enhancement": null
+}

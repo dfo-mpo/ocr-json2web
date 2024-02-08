@@ -1,0 +1,38 @@
+{
+    "Watershed Code": "93-1000-030",
+    "Gazetted name": "FALLS CREEK",
+    "1st Local name": "FALL CREEK",
+    "Flows into": "SAN JUAN RIVER",
+    "year": "1992",
+    "Subarea": "2",
+    "Subd. name": "SOOKE",
+    "Dates of inspection": "OCT 21 NOV 23",
+    "(A) Evidence of Erosion": "On January 24, 1993 siltation caused by slide on logging roads, WC1000 & WC2000. Slide resulted from heavy rain on frozen ground.",
+    "(B) Particulars of Scouring": "Not inspected since slide occurred.",
+    "(C) Water levels": "Normal flow",
+    "(D) Spawning distribution": "Coho can't go past falls.",
+    "(E) Comments on predators": "Blue Herons, Merganzers, and Bald Eagles.",
+    "(F) Egg digging": "None",
+    "(G) New obstructions": "Has not been inspected since slide occurred January 24th 1993.",
+    "(H) recommended enhancement": "None",
+    "(I) Habitat change": "None",
+    "(K) Additional comments": "Slide occurred January 24th 1993. Slide caused by heavy rain on frozen ground. Slide occurred on WC1000 and WC2000 in 30 year old timber.",
+    "Fishery Officer": "Roy Osselton",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Peak": "DEC"
+        },
+        "Coho 1": {
+            "Arrival": "NOV 14",
+            "Start": "NOV 17",
+            "Peak": "20",
+            "End": "DEC 30",
+            "Brood esc.": "10"
+        }
+    },
+    "District": null,
+    "Signature": null,
+    "(K) Additional comments continued": null,
+    "2nd local name": null,
+    "Subdistrict": null
+}

@@ -1,0 +1,212 @@
+{
+    "Year": "1998",
+    "Gazetted name": "PUNTLEDGE RIVER",
+    "RAB code": "92-2800",
+    "Area": "14",
+    "District": "03",
+    "Sub": "14N Comox",
+    "First local name": "COURTENAY RIVER",
+    "Flows into": "COMOX HARBOUR",
+    "Latitude": "49 40 48",
+    "Longitude": "124 58 32",
+    "Field Crew": "Hatchery Staff",
+    "Inspection dates": "Aug 15 Sep 01 Oct 01 Nov 01 Dec 01",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "selected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Pinks allowed to spawn above hatchery in enhanced channels. Chums must have spawned repeatedly in the same gravel below the hatchery. Otherwise normal distribution assumed.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "selected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "A copy of the BC16 form was presented to the Hatchery Staff. The following was all the information offered. No comments were supplyed re: derivation of numbers, habitat concerns or community issues. (4) Describe basis for estimating total adults CO Run 1: 400 transported to the Cruikshank River. (4) Describe basis for estimating total adults PK Run 1: 5000 above the fence and 5000 below 4000 Chum were trucked live to the Tsolum River (4) Describe basis for estimating total adults CN Run 1: This is the summer run. Of the 246 Summer Run Cn brood stock 36 were jacks. (4) Describe basis for estimating total adults CN Run 2: This is the Fall Run. Of the 360 Fall Run brood stock 69 were jacks. (5) General Comments on Escapement Estimation: Fence in operation from the first week of August to the middle of December. (7) Enhancements: A seal predation fence was installed at the 17th Street Bridge. After much study it was found overall to be unsuccessful and was removed around the beginning of Sept. A number of seals were culled this year near the fence but the number was fewer than last year. (13) Drought: Lake water approached a critical level during fall migration. Water temperatures would have been adversely affected during summer and early fall. (20a) Predator counts by date and predator type: Seals remain a problem to this system, especially the Cn and Sthd runs. (20) On Salmon Distribution or Predator Interactions: The river below the diversion dam and all its tributarys were declared a No Fishing area.",
+    "Person preparing report": "Eli Rosengard Patrolman",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "2,3,9",
+            "%Spawn habitat surveyed": "10",
+            "Rel": "4",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "4,200",
+            "Brood stock removals": "3,400"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "2,3",
+            "%Spawn habitat surveyed": "70",
+            "Rel": "3",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "10,000"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "2,9",
+            "%Spawn habitat surveyed": "70",
+            "Rel": "3",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "190,000",
+            "Brood stock removals": "5,000"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "1,2,9",
+            "%Spawn habitat surveyed": "40",
+            "Rel": "5",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "235",
+            "Brood stock removals": "246"
+        },
+        "CN 2": {
+            "Methods": "2,3,9",
+            "%Spawn habitat surveyed": "10",
+            "Rel": "5",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "315",
+            "Brood stock removals": "360"
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "A.P."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "1-10",
+            "Start month": "Nov",
+            "Start day": "1-10",
+            "Peak month": "Nov",
+            "Peak day": "11-20",
+            "End month": "Dec",
+            "End day": "11-20"
+        },
+        "PK 1": {
+            "Arrival month": "Aug",
+            "Arrival day": "1-10",
+            "Start month": "Aug",
+            "Start day": "11-20",
+            "Peak month": "Aug",
+            "Peak day": "21-31",
+            "End month": "Sep",
+            "End day": "1-10"
+        },
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "11-20",
+            "Start month": "Oct",
+            "Start day": "11-20",
+            "Peak month": "Nov",
+            "Peak day": "1-10",
+            "End month": "Nov",
+            "End day": "21-31"
+        },
+        "CN 1": {
+            "Arrival month": "May",
+            "Arrival day": "21-31",
+            "Start month": "Sep",
+            "Start day": "21-31",
+            "Peak month": "Oct",
+            "Peak day": "11-20",
+            "End month": "Oct",
+            "End day": "21-31"
+        },
+        "CN 2": {
+            "Arrival month": "Sep",
+            "Arrival day": "1-10",
+            "Start month": "Oct",
+            "Start day": "1-10",
+            "Peak month": "Oct",
+            "Peak day": "11-20",
+            "End month": "Oct",
+            "End day": "21-31"
+        }
+    },
+    "Start date": null,
+    "Second local name": null,
+    "End date": null
+}

@@ -1,0 +1,40 @@
+{
+    "Department": "DEPARTMENT OF FISHERIES AND ULEANS",
+    "Report": "ANNUAL REPORT OF SALMON STREAMS AND SPAWNING POPULATIONS",
+    "Watershed code": "91-8994",
+    "First local name": "CORDELLA CREEK",
+    "Flows into": "S.W. INTO HEAD OF MINETTE BAY AT N. END_",
+    "Year": "1987",
+    "District No.": "7",
+    "Statistical Area": "6",
+    "Subdistrict No.": "CN",
+    "Subdistrict Name": "KITIMAT",
+    "Physical Condition (A)": "N/O",
+    "Biological Condition (D)": "COHO SALMON ON LOWER END 2KM FROM ESTUARY MOST COND OBSERVES ON LOWEP END, FEW NEAR VILLAGE ROAD.",
+    "Biological Condition (E)": "MODERATE.",
+    "Biological Condition (F)": "N/O",
+    "shedcode": "Watershed code",
+    "signature": "F10 angelo Regi\u00e3o",
+    "Dates of Inspection": [
+        {
+            "Month": "OCT",
+            "Day": "27_1"
+        }
+    ],
+    "Spawning Run Timing and Estimated Number": {
+        "Coho 1": {
+            "Arrival In Stream Month": "OCT",
+            "Arrival In Stream Day": "B",
+            "Spawning Start Month": "/OCT",
+            "Spawning Start Day": "C",
+            "Spawning Peak Month": "/OCT",
+            "Spawning Peak Day": "30"
+        }
+    },
+    "namename": {},
+    "Biological Condition (G)": null,
+    "Physical Condition (C)": null,
+    "Gazetted name": null,
+    "Physical Condition (B)": null,
+    "Comments on any other conditions": null
+}

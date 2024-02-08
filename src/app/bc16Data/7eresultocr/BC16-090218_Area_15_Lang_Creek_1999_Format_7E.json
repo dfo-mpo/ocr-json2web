@@ -1,0 +1,158 @@
+{
+    "Year": "1999",
+    "Gazetted name": "LANG CREEK",
+    "RAB code": "90-2720",
+    "Area": "15-1",
+    "District": "03",
+    "Sub": "15 Pender Harbour",
+    "First local name": "WOLFSON CREEK",
+    "Second local name": "WOLFESON CREEK",
+    "Flows into": "MALASPINA STRAIT",
+    "Latitude": "49 46 35",
+    "Longitude": "124 22 8",
+    "Field Crew": "Powell River Salmon Society",
+    "Start date": "8/15/99",
+    "End date": "11/6/99",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: The Powell River Salmon Society has a fence and counting facility just up stream from Highway 101. They have done the numerations of this system for approximately the past 15 years. Two people are employed at the fence during the migration of the adult salmon. Salmon are stopped at the fence and then guided into a tank in a building there they are sorted, brood stock is held in this building in an elaborate holding system. The non-brood stock are released either into the spawning channel which is adjacent to the river or back into the river upstream of the fence. The spawning channel discharges into Lang Creek just downstream of the fence and is equipped with a fence of its own. Chums are counted through this fence during the heaviest migration of the chums. (2) CO Run 1 Reliability: Fence count (4) Describe basis for estimating total adults CO Run 1: Actual count at the fence. (4) Describe basis for estimating total adults PK Run 1: 168 pinks passed through the fence, 40 more were observed spawning downstream of the fence. Fence count: 75 males, 93 females (4) Describe basis for estimating total adults CM Run 1: This estimate may be conservative, as part of the count is estimates that were done during high water. (3) PK Run 1 Enumeration Class: The majority of the count is based on actual fence count however some estimates are used when water levels are in flooding conditions. (3) CM Run 1 Enumeration Class: The count is based on actual counts that are down at the fence however some estimates are made on weekends, and during flooding conditions. (3) CM Run 2 Enumeration Class: The chinooks were all counted during ideal conditions and every fish passed through the facility.",
+    "Person preparing report": "Dick Tritschler / Texada Belle",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "11",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "5",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "1,384",
+            "Brood stock removals": "230",
+            "Jacks": "58"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "11",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "5",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "208 10,686"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "11",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "4",
+            "Enum Class": "2",
+            "Esc Code": "A.C.",
+            "Brood stock removals": "507"
+        },
+        "CM 2": {
+            "Methods": "11",
+            "%Spawn habitat surveyed": "100",
+            "Rel": "5",
+            "Enum Class": "1",
+            "Esc Code": "A.C.",
+            "Est total adults": "876",
+            "Brood stock removals": "562",
+            "Jacks": "111"
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {},
+    "Biological details particulars": null,
+    "Inspection dates": null
+}

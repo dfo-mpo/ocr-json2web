@@ -1,0 +1,71 @@
+{
+    "Watershed code": "92 - 3410",
+    "Gazetted name": "McNAUGHTON CREEK",
+    "Flows Into": "COOK CREEK",
+    "Year": "1992",
+    "District No.": "3",
+    "Statistical Area": "14 - 8",
+    "Subdistrict No.": "14N",
+    "Subdistrict Name": "COMOX, B. C.",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "selected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NONE OBSERVED",
+    "Additional (B) Particulars of scouring of spawning beds": "NONE OBSERVED",
+    "Additional (C) Water levels flow": "LOW WATER IN SEPT. AND OCT. HIGH FLOWS IN EARLY NOV. GOOD FALL FLOWS",
+    "Biological (D) Particulars of distribution": "COHO USE LOWER ONE HALF OF THE SYSTEM, CHUMS BELOW THE HIGHWAY BRIDGE",
+    "Biological (E) Comments on predators": "BIRDS, BEARS AND OTTERS.",
+    "Biological (F) Evidence of digging eggs": "NONE OBSERVED",
+    "Biological (G) New obstruction": "NONE OBSERVED",
+    "Comments (K)": "THIS SYSTEM HAS EXCELENT SPAWNING POTENTIAL, HOWEVER IT IS RESTICTED BY BEAVER DAMS AND BUILD UP OF DEBRIS. REMOVAL OF THESE OBSTUCTIONS SHOULD BE LOOKED AT NEXT SUMMER. FISH CAN ONLY ACCESS DURING HIGH WATER.",
+    "Date of inspection": [
+        {
+            "Month": "OCT",
+            "Day": "21"
+        },
+        {
+            "Month": "OCT",
+            "Day": "28"
+        },
+        {
+            "Month": "NOV",
+            "Day": "13"
+        },
+        {
+            "Month": "NOV17"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "OCT:",
+            "Arrival day": "B",
+            "Start month": "OCT:",
+            "Start day": "C",
+            "Peak month": "NOV:",
+            "Peak day": "B",
+            "End month": "DEC:",
+            "End day": "B",
+            "Method": "1",
+            "Reliability": "4",
+            "Estimated total No. on grounds": "20"
+        },
+        "Chum 1": {
+            "Arrival month": "OCT:",
+            "Arrival day": "B",
+            "Start month": "OCT:",
+            "Start day": "C",
+            "Peak month": "NOV:",
+            "Peak day": "B",
+            "End month": "DEC:",
+            "End day": "A",
+            "Method": "1",
+            "Reliability": "4",
+            "Estimated total No. on grounds": "200"
+        }
+    },
+    "Second local name": null,
+    "First local name": null,
+    "Dates of inspection (1)": null
+}

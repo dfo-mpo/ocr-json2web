@@ -1,0 +1,50 @@
+{
+    "Watershed Code": "93-7100",
+    "Gazetted name": "name:KAPOOSE CREEK",
+    "1st Local name": "KAPOOSE RIVER",
+    "Flows into": "CLEAR PASSAGE",
+    "year": "1992",
+    "Subarea": "26-1",
+    "Subd. name": "KYUQUOT",
+    "Fishery Officer": "R L SENGER",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT C",
+            "Peak": "NOV B",
+            "End": "DEC C",
+            "Est. Esc": "-2",
+            "Optimum Esc.": "500"
+        },
+        "Pink 1": {
+            "Est. Esc": "-3"
+        },
+        "Chum 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT A",
+            "Peak": "OCT C",
+            "End": "NOV B",
+            "Est. Esc": "-2",
+            "Optimum Esc.": "500"
+        }
+    },
+    "(B) Particulars of Scouring": null,
+    "2nd local name": null,
+    "(K) Additional comments continued": null,
+    "(K) Additional comments": null,
+    "Subdistrict": null,
+    "District": null,
+    "(C) Water levels": null,
+    "(E) Comments on predators": null,
+    "Dates of inspection": null,
+    "Signature": null,
+    "(F) Egg digging": null,
+    "(D) Spawning distribution": null,
+    "(H) recommended enhancement": null,
+    "(I) Habitat change": null,
+    "(A) Evidence of Erosion": null,
+    "(G) New obstructions": null
+}

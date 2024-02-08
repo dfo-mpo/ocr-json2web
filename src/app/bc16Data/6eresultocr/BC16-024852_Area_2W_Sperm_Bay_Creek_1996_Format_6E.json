@@ -1,0 +1,45 @@
+{
+    "Bookmark": "BC16 1996",
+    "Watershed code": "95-3840",
+    "Gazetted name": "Sperm Bay CK.",
+    "Local name": "Sperm Bay CK.",
+    "Flows into": "Sperm Bay - Flamingo Inlet.",
+    "Year": "1996",
+    "District number": "g",
+    "Statistical Area": "2-36",
+    "Subdistrict number": "Area 2 West",
+    "Subdistrict name": "Sandspit",
+    "(A) Enhancement": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstructions": "unselected",
+    "(D) Large variation": "unselected",
+    "(E) High/low water": "unselected",
+    "Comments": "This creek was not inspected this year",
+    "Person preparing": "David Beggs",
+    "Spawning run timing": {
+        "Coho 1": {
+            "Methods": "0",
+            "Total on grounds": "NA",
+            "Target escape": "100"
+        },
+        "Pink 1": {
+            "Target escape": "0"
+        },
+        "Chum 1": {
+            "Arrival month": "Sep",
+            "Spawning start month": "Sep",
+            "Spawning peak month": "Oct",
+            "Observers": "Oct",
+            "Methods": "0",
+            "Target escape": "2,000"
+        }
+    },
+    "Physical conditions (C) Water levels": null,
+    "Biological conditions (D) Particulars": null,
+    "Physical conditions (B) Particulars": null,
+    "Biological conditions (F) Evidence": null,
+    "Biological conditions (E) Predators comments": null,
+    "Physical conditions (A) Evidence": null,
+    "Dates of inspection": null,
+    "Biological conditions (G) New obstructions": null
+}

@@ -1,0 +1,62 @@
+{
+    "Bookmark": "BC16 1996",
+    "Watershed code": "95-9400-730",
+    "Gazetted name": "Section Cove Creeks",
+    "Local name": "Section Cove Creeks",
+    "Flows into": "Section Cove - Juan Perez Sound",
+    "Year": "1996",
+    "District number": "9",
+    "Statistical Area": "2-13",
+    "Subdistrict number": "Area 2 East",
+    "Subdistrict name": "Sandspit",
+    "Dates of inspection": "Aug 16 Sep 11 Oct 03 Oct 23",
+    "(A) Enhancement": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstructions": "unselected",
+    "(D) Large variation": "unselected",
+    "(E) High/low water": "unselected",
+    "Physical conditions (A) Evidence": "None observed.",
+    "Physical conditions (B) Particulars": "Log/gravel jams have formed in both the L/H and the center branch.",
+    "Physical conditions (C) Water levels": "Consistently good water levels through the spawning period.",
+    "Biological conditions (D) Particulars": "Up to 600 m. in R/H branch. No live fish seen in the L/H or center branches, with only 2 carcasses found in the center branch. Majority of chums spawning in L/H branch.",
+    "Biological conditions (E) Predators comments": "Minimal impact.",
+    "Biological conditions (F) Evidence": "None observed.",
+    "Biological conditions (G) New obstructions": "Impassable log/gravel jam formed in L/H branch just above high tide, and a passable log/gravel jam has formed in the center branch at 20 m.",
+    "Comments": "The last walk was too early for an accurate final count.",
+    "Person preparing": "David Beggs",
+    "Spawning run timing": {
+        "Coho 1": {
+            "Arrival month": "Sep",
+            "Spawning start month": "Sep",
+            "Spawning peak month": "Oct",
+            "Spawning end month": "Nov",
+            "Observers": "0",
+            "Methods": "1",
+            "Reliability": "2",
+            "Total on grounds": "N/O",
+            "Target escape": "50"
+        },
+        "Pink 1": {
+            "Observers": "0",
+            "Methods": "1",
+            "Reliability": "3",
+            "Total on grounds": "N/O",
+            "Target escape": "0"
+        },
+        "Chum 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "C",
+            "Spawning start month": "Oct",
+            "Spawning start day": "A",
+            "Spawning peak month": "Oct",
+            "Spawning peak day": "C",
+            "Spawning end month": "Nov",
+            "Spawning end day": "A",
+            "Observers": "2",
+            "Methods": "1",
+            "Reliability": "2",
+            "Total on grounds": "55",
+            "Target escape": "1.500"
+        }
+    }
+}

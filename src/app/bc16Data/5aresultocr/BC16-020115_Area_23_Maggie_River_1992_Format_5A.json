@@ -1,0 +1,34 @@
+{
+    "Watershed Code": "93-3200",
+    "1st Local name": "name:MAGGIE RIVER SYSTEM",
+    "Flows into": "MACOAH PASSAGE",
+    "Subarea": "23-10",
+    "Subd. name": "BARKLEY SOUND",
+    "Dates of inspection": "AUG 14 1 SEP 10 |1",
+    "(C) Water levels": "Very low water levels up to spawning period; high water levels during spawning period.",
+    "(H) recommended enhancement": "Coho enhancement by Thornton Creek hatchery. Fishway.",
+    "(K) Additional comments": "Inspected by Thornton Creek hatchery. Chums not enumerated due to inclement weather conditions. Maggie River repaired again; this fishway should be replaced.",
+    "Fishery Officer": "B. Rushton, ASCT",
+    "Duration of Spawning": {
+        "Coho 1": {
+            "Arrival": "AUG 01",
+            "Methods": "1",
+            "Reliability": "2",
+            "Est. Esc": "600"
+        }
+    },
+    "(K) Additional comments continued": null,
+    "Gazetted name": null,
+    "(G) New obstructions": null,
+    "(B) Particulars of Scouring": null,
+    "Subdistrict": null,
+    "Signature": null,
+    "(E) Comments on predators": null,
+    "District": null,
+    "(A) Evidence of Erosion": null,
+    "(F) Egg digging": null,
+    "(I) Habitat change": null,
+    "2nd local name": null,
+    "(D) Spawning distribution": null,
+    "year": null
+}

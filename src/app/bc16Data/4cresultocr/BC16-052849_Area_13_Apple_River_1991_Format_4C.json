@@ -1,0 +1,42 @@
+{
+    "Watershed code": "90-4100",
+    "Gazetted name": "APPLE RIVER",
+    "First local name": "Apple River",
+    "Flows Into": "Loughborough Inlet, McBride Bay",
+    "Year": "1991",
+    "District No.": "5",
+    "Statistical Area": "13-43",
+    "Subdistrict No.": "13",
+    "Subdistrict Name": "QUATHIASKI",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "Normal glacial silting",
+    "Biological (D) Particulars of distribution": "Chinook in upper reaches. Chum mainly at 8 miles, Pinks 6-7 miles, Coho throughout",
+    "Biological (E) Comments on predators": "Bears, eagles",
+    "Biological (F) Evidence of digging eggs": "No",
+    "Biological (G) New obstruction": "Passable falls- 10 miles",
+    "Date of inspection": null,
+    "Spawning run timing and estimated number": {
+        "Sock 1": {
+            "Peak month": "AUG",
+            "No. of observer": "0"
+        },
+        "Coho 1": {
+            "No. of observer": "0"
+        },
+        "Pink 1": {
+            "Peak month": "NOL",
+            "No. of observer": "3",
+            "Reliability": "4-5",
+            "Estimated total No. on grounds": "10000"
+        }
+    },
+    "Dates of inspection (1)": null,
+    "Comments (K)": null,
+    "Additional (B) Particulars of scouring of spawning beds": null,
+    "Additional (C) Water levels flow": null,
+    "Second local name": null
+}

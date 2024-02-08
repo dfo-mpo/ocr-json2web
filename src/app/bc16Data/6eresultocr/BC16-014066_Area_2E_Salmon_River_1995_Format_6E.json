@@ -1,0 +1,61 @@
+{
+    "Bookmark": "BC16 1995",
+    "Watershed code": "95-1130",
+    "Gazetted name": "Salmon River",
+    "Local name": "Salmon River",
+    "Flows into": "McEchran Cove - Darwin Sound",
+    "Year": "1995",
+    "District number": "9",
+    "Statistical Area": "2-10",
+    "Subdistrict number": "Area 2 East",
+    "Subdistrict name": "Sandspit",
+    "Dates of inspection": "Sep 06 Sep 15 Sep 27 Oct 02 Oct 08 Oct 12 Oct 21 Oct 28 Nov 05 Nov 06",
+    "(A) Enhancement": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstructions": "unselected",
+    "(D) Large variation": "unselected",
+    "(E) High/low water": "unselected",
+    "Physical conditions (A) Evidence": "None observed.",
+    "Physical conditions (B) Particulars": "New blowdown at start of reds at cnr. at 600 m.",
+    "Physical conditions (C) Water levels": "Consistently good water levels through the spawning period. Slight flooding during the last two weeks of October.",
+    "Biological conditions (D) Particulars": "Chums spread to lake. Light utilization of upper 500 m.",
+    "Biological conditions (E) Predators comments": "High predatation from bears and eagles.",
+    "Biological conditions (F) Evidence": "None observed.",
+    "Biological conditions (G) New obstructions": "Blowdown does not seem to be a problem at this time.",
+    "Comments": "Dissapopinting return even though the early lest results were excellent. This has shown once again that the test results cannot accurately predict the final return. No commercial openings in Darwin sound, but 1,700 chums caught by test fishing vessel.",
+    "Person preparing": "David Beggs",
+    "Spawning run timing": {
+        "Coho 1": {
+            "Arrival month": "Sep",
+            "Spawning start month": "Sep",
+            "Spawning peak month": "Oct",
+            "Spawning end month": "Nov",
+            "Observers": "2",
+            "Methods": "1",
+            "Reliability": "2",
+            "Total on grounds": "10",
+            "Target escape": "750"
+        },
+        "Pink 1": {
+            "Observers": "0",
+            "Methods": "1",
+            "Total on grounds": "N/O",
+            "Target escape": "25,000"
+        },
+        "Chum 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "A",
+            "Spawning start month": "Sep",
+            "Spawning start day": "C",
+            "Spawning peak month": "Oct",
+            "Spawning peak day": "B",
+            "Spawning end month": "Nov",
+            "Spawning end day": "A",
+            "Observers": "9",
+            "Methods": "1",
+            "Reliability": "4",
+            "Total on grounds": "9,200",
+            "Target escape": "25,000"
+        }
+    }
+}

@@ -1,0 +1,166 @@
+{
+    "Year": "1999",
+    "Gazetted name": "ROBERTSON RIVER",
+    "RAB code": "92-4800-585",
+    "Area": "18",
+    "District": "03",
+    "Sub": "Duncan",
+    "Flows into": "COWICHAN LAKE",
+    "Field Crew": "Joy Hilliers, Greg Williams",
+    "Inspection dates": "Nov 10 Nov 12 Nov 17 Nov 19 Nov 23 Nov 25 Nov 29 Nov 30 Dec 01 Dec 13 Dec 21",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "selected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "unselected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "selected",
+    "Comments on condition": "(5) General Comments on Escapement Estimation: Various sites counted to make up total: Robertson River-from South Shore Road downstream to Bear Lake; Blind channel (DFO Habitat spawning channel) ; One Log bridge; 2.2km bridge. These seem to be areas where coho accumulate. (2) CO Run 1 Reliability: Not complete coverage of all accessible areas. (4) Describe basis for estimating total adults CO Run 1: AUC estimate. Used 12.9 days for survey life. Did not gross up from 70% spawn habitat surveyed. Coverage expansion could be incorrect. Returns were counted from South Shore Bridge d/s to Bear Lake, and at the new rearing channel, at One Log Bridge, and at 2.2km Bridge. Previous experience indicates that very few coho are found at other locations however in years when the run is larger the salmon will show up in unsurveyed areas. (4) Describe basis for estimating total adults CM Run 1: Blind channel Nov 19-only seen once (2) CT Run 1 Reliability: (4) Describe basis for estimating total adults CT Run 1: Robertson River- Nov 17 peak count. (7) Enhancements: CLSES removed 1 male and 1 female coho from Blind channel on Nov. 25; 3 male and 2 female coho removed on Nov 30. (14) Flood: Silt input from tributaries, from logging areas (Nov. 29) (22) List Supplementary Documentation: Previous escapement work done by Holtby. Available from S. Baillie.",
+    "Person preparing report": "StAD, Steve Baillie",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "2,3",
+            "%Spawn habitat surveyed": "70",
+            "Rel": "3",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "171",
+            "Brood stock removals": "7",
+            "Jacks": "20"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "2",
+            "N": "1",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "1",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "3"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "Methods": "2",
+            "N": "1",
+            "%Spawn habitat surveyed": "0",
+            "Rel": "1",
+            "Enum Class": "0",
+            "Esc Code": "A.C.",
+            "Est total adults": "16"
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Nov",
+            "Arrival day": "1-10",
+            "Start month": "Nov",
+            "Start day": "21-30",
+            "Peak month": "Nov",
+            "Peak day": "21-30",
+            "End month": "Dec",
+            "End day": "21-31"
+        }
+    },
+    "Latitude": null,
+    "Second local name": null,
+    "Longitude": null,
+    "First local name": null,
+    "End date": null,
+    "Biological details particulars": null,
+    "Start date": null
+}

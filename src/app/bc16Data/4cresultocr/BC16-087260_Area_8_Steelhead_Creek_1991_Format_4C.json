@@ -1,0 +1,79 @@
+{
+    "First local name": "STEELHEAD CREEK",
+    "Flows Into": "DEAN CHANNEL",
+    "Year": "1991",
+    "District No.": "7",
+    "Statistical Area": "8",
+    "Subdistrict No.": "8",
+    "Subdistrict Name": "BELLA COOLA",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NIL",
+    "Additional (B) Particulars of scouring of spawning beds": "NIL",
+    "Additional (C) Water levels flow": "NORMAL",
+    "Biological (D) Particulars of distribution": "THROUGHOUT TO IMPASSABLE FALLS AT 1 1/2 KM.",
+    "Biological (E) Comments on predators": "NORMAL",
+    "Biological (F) Evidence of digging eggs": "NIL",
+    "Biological (G) New obstruction": "NIL",
+    "Date of inspection": [
+        {
+            "Month": "SEP",
+            "Day": "07"
+        },
+        {
+            "Month": "SEP",
+            "Day": "23"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "SEP :",
+            "Start month": "SEP:",
+            "Peak month": "OCT:",
+            "End month": "NOV:",
+            "No. of observer": "1",
+            "Method": "1",
+            "Reliability": "1",
+            "Estimated total No. on grounds": "3",
+            "Optimum escapement": "NIL"
+        },
+        "Pink 1": {
+            "Arrival month": "SEP :",
+            "Arrival day": "A",
+            "Start month": "SEP:",
+            "Start day": "A",
+            "Peak month": "SEP :",
+            "Peak day": "B",
+            "End month": "OCT:",
+            "End day": "A",
+            "No. of observer": "1",
+            "Method": "1",
+            "Reliability": "2",
+            "Estimated total No. on grounds": "15",
+            "Optimum escapement": "NIL"
+        },
+        "Chum 1": {
+            "Arrival month": "SEP :",
+            "Arrival day": "A",
+            "Start month": "SEP :",
+            "Start day": "A",
+            "Peak month": "SEP :",
+            "Peak day": "B",
+            "End month": "OCT:",
+            "End day": "A",
+            "No. of observer": "1",
+            "Method": "1",
+            "Reliability": "2",
+            "Estimated total No. on grounds": "20",
+            "Optimum escapement": "NIL"
+        }
+    },
+    "Dates of inspection (1)": null,
+    "Second local name": null,
+    "Gazetted name": null,
+    "Comments (K)": null,
+    "Watershed code": null
+}

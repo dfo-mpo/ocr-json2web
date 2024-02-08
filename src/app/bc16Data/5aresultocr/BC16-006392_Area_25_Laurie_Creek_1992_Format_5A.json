@@ -1,0 +1,50 @@
+{
+    "Watershed Code": "93-6500-500",
+    "Gazetted name": "LAURIE CREEK",
+    "Flows into": "MARY BASIN",
+    "year": "1992",
+    "Subarea": "25-14",
+    "Subd. name": "TAHSIS",
+    "Dates of inspection": "OCT 27",
+    "(A) Evidence of Erosion": "N/O",
+    "(B) Particulars of Scouring": "N/O",
+    "(C) Water levels": "NORMAL",
+    "(D) Spawning distribution": "LOWER 200 - 300 METRES OF RIVER ONLY",
+    "(E) Comments on predators": "BIRD/BEAR",
+    "(F) Egg digging": "N/O",
+    "(G) New obstructions": "N/0",
+    "(K) Additional comments": "THIS SYSTEM EXPERIENCED A MAJOR SLIDE ABOVE ANADRAMOUS LIMITS IN 1989/90",
+    "Fishery Officer": "F R CRABBE",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Est. Esc": "-3"
+        },
+        "Pink 1": {
+            "Est. Esc": "-3"
+        },
+        "Chum 1": {
+            "Arrival": "OCT B",
+            "Start": "OCT B",
+            "Peak": "OCT C",
+            "End": "NOV A",
+            "Methods": "4",
+            "Reliability": "4",
+            "Est. Esc": "300",
+            "Optimum Esc.": "-2"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "2nd local name": null,
+    "Subdistrict": null,
+    "(I) Habitat change": null,
+    "(K) Additional comments continued": null,
+    "District": null,
+    "Signature": null,
+    "(H) recommended enhancement": null,
+    "1st Local name": null
+}

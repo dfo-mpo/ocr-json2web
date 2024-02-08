@@ -1,0 +1,39 @@
+{
+    "Watershed Code": "96-0850",
+    "Gazetted name": "LA HOU CREEK",
+    "1st Local name": "PEARL HARBOUR CREEK",
+    "Flows into": "BIG BAY",
+    "year": "1992",
+    "Subdistrict": "4A",
+    "Subarea": "4-8",
+    "Subd. name": "SKEENA",
+    "Dates of inspection": "SEP 01 11 SEP 12 11 OCT 01",
+    "(C) Water levels": "High water levels during enumeration. Freezing weather and low water levels in January may have caused mortality",
+    "Fishery Officer": "Shane Neifer",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Est. Esc": "-2",
+            "Optimum Esc.": "500"
+        },
+        "Chum 1": {
+            "Est. Esc": "1500",
+            "Optimum Esc.": "25000"
+        }
+    },
+    "(D) Spawning distribution": null,
+    "(E) Comments on predators": null,
+    "(B) Particulars of Scouring": null,
+    "(F) Egg digging": null,
+    "District": null,
+    "(G) New obstructions": null,
+    "Signature": null,
+    "(H) recommended enhancement": null,
+    "(K) Additional comments continued": null,
+    "(A) Evidence of Erosion": null,
+    "2nd local name": null,
+    "(K) Additional comments": null,
+    "(I) Habitat change": null
+}

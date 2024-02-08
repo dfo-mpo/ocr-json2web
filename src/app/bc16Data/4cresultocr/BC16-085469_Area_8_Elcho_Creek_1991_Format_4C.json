@@ -1,0 +1,53 @@
+{
+    "Watershed code": "91-3725",
+    "Gazetted name": "ELCHO CREEK",
+    "First local name": "ELCHO HARBOUR CREEK",
+    "Second local name": "ELCHO RIVER",
+    "Flows Into": "ELCHO HARBOUR (DEAN CHANNEL)",
+    "Year": "1991",
+    "District No.": "7",
+    "Statistical Area": "8",
+    "Subdistrict No.": "8",
+    "Subdistrict Name": "BELLA COOLA",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (A) Evidence of erosion and silting": "NIL",
+    "Additional (B) Particulars of scouring of spawning beds": "NIL",
+    "Additional (C) Water levels flow": "NORMAL SEASONAL FLUCTUATIONS.",
+    "Biological (D) Particulars of distribution": "PINK AND CHUM THROUGHOUT HEAVIEST CONCENTRATION IN UPPER REACHES.",
+    "Biological (E) Comments on predators": "NORMAL BY BEARS AND BIRDS.",
+    "Biological (F) Evidence of digging eggs": "NILI",
+    "Biological (G) New obstruction": "NII",
+    "Date of inspection": [
+        {
+            "Month": "AUG"
+        },
+        {
+            "Month": "OCT"
+        },
+        {
+            "Month": "OCT"
+        },
+        {
+            "Month": "SEP"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Sock 1": {
+            "No. of observer": "1",
+            "Estimated total No. on grounds": "15"
+        },
+        "Coho 1": {
+            "No. of observer": "3",
+            "Estimated total No. on grounds": "1100"
+        },
+        "Pink 1": {
+            "Estimated total No. on grounds": "4000"
+        }
+    },
+    "Comments (K)": null,
+    "Dates of inspection (1)": null
+}

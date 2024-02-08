@@ -1,0 +1,58 @@
+{
+    "Bookmark": "BC16 1996",
+    "Watershed code": "95-9400-185",
+    "Gazetted name": "Poole Inlet Creek",
+    "Local name": "Poole Inlet Creek",
+    "Flows into": "Poole Inlet - Skincuttle Inlet",
+    "Year": "1996",
+    "District number": "9",
+    "Statistical Area": "2-14",
+    "Subdistrict number": "Area 2 East",
+    "Subdistrict name": "Sandspit",
+    "Dates of inspection": "Sep 21",
+    "(A) Enhancement": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstructions": "unselected",
+    "(D) Large variation": "unselected",
+    "(E) High/low water": "unselected",
+    "Physical conditions (A) Evidence": "None observed.",
+    "Physical conditions (B) Particulars": "None observed.",
+    "Physical conditions (C) Water levels": "Consistently good water levels through the spawning period.",
+    "Biological conditions (D) Particulars": "Unknown.",
+    "Biological conditions (E) Predators comments": "None observed.",
+    "Biological conditions (F) Evidence": "None observed.",
+    "Biological conditions (G) New obstructions": "1",
+    "Comments": "This creek was not walked during the normal time that fish show in the system.",
+    "Person preparing": "David Beggs",
+    "Spawning run timing": {
+        "Coho 1": {
+            "Observers": "0",
+            "Methods": "1",
+            "Reliability": "1",
+            "Total on grounds": "N/O",
+            "Target escape": "50"
+        },
+        "Pink 1": {
+            "Observers": "0",
+            "Methods": "1",
+            "Reliability": "2",
+            "Total on grounds": "N/O",
+            "Target escape": "50"
+        },
+        "Chum 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "A",
+            "Spawning start month": "Oct",
+            "Spawning start day": "A",
+            "Spawning peak month": "Oct",
+            "Spawning peak day": "A",
+            "Spawning end month": "Oct",
+            "Spawning end day": "B",
+            "Observers": "0",
+            "Methods": "1",
+            "Reliability": "1",
+            "Total on grounds": "N/O",
+            "Target escape": "3,000"
+        }
+    }
+}

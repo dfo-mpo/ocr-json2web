@@ -1,0 +1,151 @@
+{
+    "Year": "2000",
+    "Gazetted name": "BLOODS CREEK",
+    "RAB code": "92-4100",
+    "Area": "17-1",
+    "District": "03",
+    "Sub": "17 Nanaimo",
+    "Flows into": "GEORGIA STRAIT",
+    "Latitude": "49 15 7",
+    "Longitude": "124 3 43",
+    "Field Crew": "Charles Thirkill, Chris Peters & R.B.",
+    "Inspection dates": "Nov 21 Dec 01 Dec 06",
+    "(5) Escapement comments": "selected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "unselected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "unselected",
+    "(13) Unusual drought": "unselected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Present SK": "unselected",
+    "Present CO": "selected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(2) CO Run 1 Reliability: Low reliability. Charles Thirkill and Chris Peters (Coho Survey Crew) made two inspections on Nov. 21st and Dec. 6th. On Nov. 21st the water levels were too low to allow fish access from the ocean, numerous juveniles salmonids seen, but no sign of adults. On Dec. 6th no live fish were observed, only one dead coho. 10 redds were seen near the estuary and no redds were observed near the island highway. (3) CO Run 1 Enumeration Class: Poor survey coverage and timing, therefore, absence vs presence has been entered as the enumeration class. (4) Describe basis for estimating total adults CO Run 1: On the survey Dec. 1st, Rick Hobbs observed 1 live and 4 dead coho and estimated that he saw 20% of the population. Using the expanded Peak-Live+Dead the ecapement estimate for coho has been adujusted from 40 down to 25. Rick commented on his Stream Inspection Log that a local resident observed 18 coho at one time. (5) General Comments on Escapement Estimation: BC16 previously submitted by Charter Patrolman Rick Hobbs, additional surveys added and Escapement numbers ajusted January 2002. Previous comment was: \"One visit only, no inspection in chum season. (20) On Predator Interactions: Hundreds of sea gulls observed at the mouth of the river on the Dec. 6th survey.",
+    "Person preparing report": "Brenda Wright (StAD)",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "2",
+            "N": "2",
+            "%Spawn habitat surveyed": "30",
+            "Rel": "1",
+            "Enum Class": "4",
+            "Esc Code": "A.C.",
+            "Est total adults": "25"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Nov",
+            "Arrival day": "21-31"
+        }
+    },
+    "First local name": null,
+    "Biological details particulars": null,
+    "Second local name": null,
+    "End date": null,
+    "Start date": null
+}

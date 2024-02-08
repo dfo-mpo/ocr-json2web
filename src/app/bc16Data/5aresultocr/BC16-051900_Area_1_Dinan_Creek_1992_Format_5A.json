@@ -1,0 +1,62 @@
+{
+    "Watershed Code": "94-3500",
+    "Gazetted name": "name:DINAN CREEK",
+    "1st Local name": "DINAN RIVER",
+    "Flows into": "MASSET INLET",
+    "Subarea": "1-6",
+    "Subd. name": "MASSET",
+    "Dates of inspection": "AVG 14 SEP 01 SEP 08",
+    "(C) Water levels": "Higher than normal.",
+    "(D) Spawning distribution": "Lower Kilometer.",
+    "Signature": "As Well",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT A",
+            "Peak": "OCT C",
+            "End": "NOV C",
+            "Methods": "1 6",
+            "Est. Esc": "-2",
+            "Optimum Esc.": "3000"
+        },
+        "Pink 1": {
+            "Arrival": "AUG C",
+            "Start": "SEP A",
+            "Peak": "SEP C",
+            "End": "OCT A",
+            "Methods": "1 2 3",
+            "Reliability": "2",
+            "Est. Esc": "200",
+            "Optimum Esc.": "20000"
+        },
+        "Chum 1": {
+            "Arrival": "OCT A",
+            "Start": "OCT B",
+            "Peak": "DCT C",
+            "End": "NOV A",
+            "Methods": "1 6",
+            "Est. Esc": "-2",
+            "Optimum Esc.": "500"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "(E) Comments on predators": null,
+    "2nd local name": null,
+    "District": null,
+    "(K) Additional comments continued": null,
+    "(G) New obstructions": null,
+    "(I) Habitat change": null,
+    "(H) recommended enhancement": null,
+    "(A) Evidence of Erosion": null,
+    "(K) Additional comments": null,
+    "year": null,
+    "Fishery Officer": null,
+    "(F) Egg digging": null,
+    "(B) Particulars of Scouring": null,
+    "Subdistrict": null
+}

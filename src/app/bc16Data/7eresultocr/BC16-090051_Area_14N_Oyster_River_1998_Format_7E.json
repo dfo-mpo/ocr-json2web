@@ -1,0 +1,196 @@
+{
+    "Year": "1998",
+    "Gazetted name": "OYSTER RIVER",
+    "RAB code": "92-2700",
+    "Area": "14-1",
+    "District": "03",
+    "Sub": "14N Comox",
+    "Flows into": "GEORGIA STRAIT",
+    "Latitude": "49 52 28",
+    "Longitude": "125 6 41",
+    "Field Crew": "Hatchery Staff, D. Swift, E. Rosengar",
+    "Inspection dates": "Sep 28 Sep 30",
+    "(5) Escapement comments": "unselected",
+    "(6) General comments": "unselected",
+    "(7) Enhancement": "selected",
+    "(8) Unusual mortalities": "unselected",
+    "(9) Upslope instability": "unselected",
+    "(10) Debris jams present": "unselected",
+    "(11) Severe bank erosion": "selected",
+    "(13) Unusual drought": "selected",
+    "(14) Flood": "unselected",
+    "(15) General comments": "unselected",
+    "(16) Fish access": "unselected",
+    "(17) Spawning site": "unselected",
+    "(18) Augementation": "unselected",
+    "(19) Other": "unselected",
+    "Biological details particulars": "Pinks spawned throughout system. York Rd. channel especially populated. Raven channel reported to be dry. Spawning in Hatchery channels observed but no concerted effort to do specific stream enumeration surveys on chums and coho.",
+    "Present SK": "unselected",
+    "Present CO": "unselected",
+    "Present PK": "unselected",
+    "Present CM": "unselected",
+    "Present CN": "unselected",
+    "Study SK": "unselected",
+    "Study CO": "unselected",
+    "Study PK": "unselected",
+    "Study CM": "unselected",
+    "Study CN": "unselected",
+    "Predators": "unselected",
+    "(20) General comments": "selected",
+    "(21) General comments not covered": "unselected",
+    "(22) Supplementary documentation": "unselected",
+    "Comments on condition": "(1) Other methods for CO Run 1: density during brood stock capture with net. (2) CO Run 1 Reliability: system too large and methods not defensible, but many people surveyed with info on this species. (3) CO Run 1 Enumeration Class: choosing a number rather than mere p/a seems more informative as long as number is relative to same type of observations other years. (4) Describe basis for estimating total adults CO Run 1: Discussion with Hatchery staff and DFO technician. (2) PK Run 1 Reliability: Good flight near peak spawn as well as inspection of major spawning channel. (4) Describe basis for estimating total adults PK Run 1: explained earlier (1) Other methods for CM Run 1: counts at fish trap (2) CM Run 1 Reliability: large system, high water near peak spawn made counts difficult. (4) Describe basis for estimating total adults CM Run 1: Discussions with volunteers and hatchery staff and DFO tech. Observations on river and in side channels. Could easily be out by 50% (1) Other methods for CN Run 1: brood capture with nets and observations at spawning grounds. (7) Enhancements: The Rippengale Habitat Restoration Channel, a 3 km. rearing channel, was built this year. The design and engineering worked out well. Much l.o.d. was introduced and spawning salmon of all species frequented the facility. It is located downstream of the hatchery and is connected to older channels. Two new assessment fences were built, one on #3 channel and one on the main channel, were constructed and can be used to count juvenile and adult salmon. (11) Bank erosion: A large clay bank has been sloughing in and causing downstream silting. Assessment will be done this year and a plan may be funded in the future to stabilize it. (13) Drought: Extremely low water - spring through early fall. (7) Enhancements: Entrance to Raven channel and York Rd. channel need work. Juvenile assessments planned for this spring subject to funding. (20) On Salmon Distribution or Predator Interactions: Extreme bear predation in York Rd channel during pink spawn. Normal sport fishery for pinks and coho off the shore. Saltwater fishery and instream coho fishery catch and release this year.",
+    "Person preparing report": "Eli Rosengard / Patrolman",
+    "Bio Sampling": null,
+    "Details affecting salmon escapement": {
+        "SK 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "SK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CO 1": {
+            "Methods": "1,2,102,3",
+            "%Spawn habitat surveyed": "20",
+            "Rel": "2",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "9,000"
+        },
+        "CO 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "PK 1": {
+            "Methods": "1,2,6",
+            "N": "3",
+            "%Spawn habitat surveyed": "90",
+            "Rel": "5",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "30,000"
+        },
+        "PK 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CM 1": {
+            "Methods": "1,10",
+            "%Spawn habitat surveyed": "20",
+            "Rel": "2",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "16,000"
+        },
+        "CM 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CN 1": {
+            "Methods": "1,2,3,6,1",
+            "%Spawn habitat surveyed": "0.15",
+            "Rel": "2",
+            "Enum Class": "3",
+            "Esc Code": "A.C.",
+            "Est total adults": "400"
+        },
+        "CN 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "ST 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "AT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.O."
+        },
+        "CT 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "CT 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 1": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        },
+        "TR 2": {
+            "%Spawn habitat surveyed": "0",
+            "Enum Class": "0",
+            "Esc Code": "N.I."
+        }
+    },
+    "Spawning run timing": {
+        "CO 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "11-20",
+            "Start month": "Oct",
+            "Start day": "11-20",
+            "Peak month": "Nov",
+            "Peak day": "1-10",
+            "End month": "Dec",
+            "End day": "11-20"
+        },
+        "PK 1": {
+            "Arrival month": "Aug",
+            "Arrival day": "21-31",
+            "Start month": "Sep",
+            "Start day": "11-20",
+            "Peak month": "Sep",
+            "Peak day": "21-31",
+            "End month": "Oct",
+            "End day": "11-20"
+        },
+        "CM 1": {
+            "Arrival month": "Oct",
+            "Arrival day": "11-20",
+            "Start month": "Oct",
+            "Start day": "21-31",
+            "Peak month": "Nov",
+            "Peak day": "11-20",
+            "End month": "Dec",
+            "End day": "11-20"
+        },
+        "CN 1": {
+            "Arrival month": "Sep",
+            "Arrival day": "1-10",
+            "Start month": "Oct",
+            "Start day": "1-10",
+            "Peak month": "Oct",
+            "Peak day": "10",
+            "End month": "Oct",
+            "End day": "21-31"
+        }
+    },
+    "End date": null,
+    "First local name": null,
+    "Second local name": null,
+    "Start date": null
+}

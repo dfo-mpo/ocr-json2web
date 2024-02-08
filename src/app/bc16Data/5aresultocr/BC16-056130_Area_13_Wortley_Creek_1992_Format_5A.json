@@ -1,0 +1,48 @@
+{
+    "Watershed Code": "90-4420",
+    "Gazetted name": "name:WORTLEY CREEK",
+    "1st Local name": "name:WORTLEY BAY CREEK",
+    "Flows into": "FORWARD HARBOUR",
+    "year": "1992",
+    "Subarea": "13-38",
+    "Subd. name": "Name:CAMPBELL RIVER",
+    "Dates of inspection": "AUG 19 SEP 08 |1 OCT 13 NOV 15 |1",
+    "(D) Spawning distribution": "Throughout creek to log bridge",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Est. Esc": "-1"
+        },
+        "Pink 1": {
+            "Arrival": "AUG 19",
+            "End": "OCT",
+            "Reliability": "5",
+            "Est. Esc": "35500",
+            "Brood esc.": "30000"
+        },
+        "Chum 1": {
+            "Arrival": "OCT 13",
+            "End": "NOV 15",
+            "Reliability": "5",
+            "Est. Esc": "900",
+            "Brood esc.": "2500"
+        }
+    },
+    "(F) Egg digging": null,
+    "District": null,
+    "(B) Particulars of Scouring": null,
+    "(E) Comments on predators": null,
+    "(C) Water levels": null,
+    "(K) Additional comments continued": null,
+    "Subdistrict": null,
+    "Fishery Officer": null,
+    "(H) recommended enhancement": null,
+    "(A) Evidence of Erosion": null,
+    "(K) Additional comments": null,
+    "2nd local name": null,
+    "Signature": null,
+    "(G) New obstructions": null,
+    "(I) Habitat change": null
+}

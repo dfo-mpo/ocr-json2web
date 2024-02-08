@@ -1,0 +1,43 @@
+{
+    "Watershed Code": "90-4200",
+    "Gazetted name": "STAFFORD RIVER",
+    "Flows into": "LOUGHBOROUGH INLET",
+    "Subdistrict": "13",
+    "Subarea": "13-43",
+    "Subd. name": "CAMPBELL RIVER",
+    "Dates of inspection": "AUG 21 :4 AUG 18 |1",
+    "(A) Evidence of Erosion": "nill in Stafford heavey erosion in Fraser creek caused by old logging bridge will be corrected by lgging contracter",
+    "(B) Particulars of Scouring": "Fraser River",
+    "(K) Additional comments": "This system is being opened up for logging in the upper water shed for the first time starting this year.",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Est. Esc": "-1"
+        },
+        "Pink 1": {
+            "Est. Esc": "10000 60000"
+        },
+        "Chum 1": {
+            "Est. Esc": "-1 150"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "Signature": null,
+    "(I) Habitat change": null,
+    "District": null,
+    "Fishery Officer": null,
+    "(G) New obstructions": null,
+    "(H) recommended enhancement": null,
+    "year": null,
+    "(E) Comments on predators": null,
+    "(C) Water levels": null,
+    "(F) Egg digging": null,
+    "2nd local name": null,
+    "(D) Spawning distribution": null,
+    "(K) Additional comments continued": null,
+    "1st Local name": null
+}

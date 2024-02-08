@@ -1,0 +1,61 @@
+{
+    "Watershed Code": "94-3540",
+    "1st Local name": "name:MCCLINTON CREEK",
+    "Flows into": "into:MASSET INLET",
+    "year": "1992",
+    "Subarea": "1-6",
+    "Subd. name": "MASSET",
+    "Dates of inspection": "SEP 01 SEP 07",
+    "(C) Water levels": "Low at time of inspection.",
+    "(D) Spawning distribution": "Estuary upstream to 500m.",
+    "(K) Additional comments": "Loyged creek banks beginning to green up.",
+    "Fishery Officer": "Amwell Nignature",
+    "Duration of Spawning": {
+        "Sockeye 1": {
+            "Est. Esc": "-3"
+        },
+        "Coho 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT A",
+            "Peak": "OCT C",
+            "End": "NOV C",
+            "Methods": "1 6",
+            "Est. Esc": "-1",
+            "Optimum Esc.": "3000"
+        },
+        "Pink 1": {
+            "Arrival": "SEP A",
+            "Start": "SEP A",
+            "Peak": "SEP C",
+            "End": "OCT A",
+            "Methods": "1 6",
+            "Est. Esc": "400",
+            "Optimum Esc.": "30000"
+        },
+        "Chum 1": {
+            "Arrival": "SEP C",
+            "Start": "OCT A",
+            "Peak": "OCT B",
+            "End": "NOV A",
+            "Methods": "1 6",
+            "Est. Esc": "-1",
+            "Optimum Esc.": "5000"
+        },
+        "Chinook 1": {
+            "Est. Esc": "-3"
+        }
+    },
+    "(K) Additional comments continued": null,
+    "Gazetted name": null,
+    "(G) New obstructions": null,
+    "(B) Particulars of Scouring": null,
+    "Subdistrict": null,
+    "Signature": null,
+    "(E) Comments on predators": null,
+    "District": null,
+    "(A) Evidence of Erosion": null,
+    "(F) Egg digging": null,
+    "(I) Habitat change": null,
+    "2nd local name": null,
+    "(H) recommended enhancement": null
+}

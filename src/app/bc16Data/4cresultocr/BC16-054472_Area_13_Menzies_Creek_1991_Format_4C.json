@@ -1,0 +1,69 @@
+{
+    "Watershed code": "92-2500",
+    "Gazetted name": "MENZI\u00c9S CREEK",
+    "First local name": "Menzies Creek",
+    "Flows Into": "Menzies Bay, Discovery Passage",
+    "Year": "1991",
+    "District No.": "5",
+    "Statistical Area": "13-3",
+    "Subdistrict No.": "13",
+    "Subdistrict Name": "QUATHIASKI",
+    "(A) Enhancement or intense biological activities": "unselected",
+    "(B) Unusual mortalities": "unselected",
+    "(C) Obstruction or changes in habitat with recommendations": "unselected",
+    "(D) Large variations in sex ratio or unusual number of jacks": "unselected",
+    "(E) Unusual high or low water flow level during spawning period": "unselected",
+    "Additional (C) Water levels flow": "water level good",
+    "Biological (D) Particulars of distribution": "over the stream bed",
+    "Biological (E) Comments on predators": "None (occaisional black bear activity if fish present)",
+    "Biological (G) New obstruction": "recurring beaver dams",
+    "Comments (K)": "ON ANY OTHER CONDITIONS AFFECTING THIS STREAM",
+    "Date of inspection": [
+        {
+            "Month": "10",
+            "Day": "19"
+        },
+        {
+            "Month": "11",
+            "Day": "27"
+        }
+    ],
+    "Spawning run timing and estimated number": {
+        "Coho 1": {
+            "Arrival month": "OCT:",
+            "Start month": "OCT:",
+            "Peak month": "OCT:",
+            "End month": "NOV:",
+            "No. of observer": "1",
+            "Method": "1",
+            "Reliability": "4-5",
+            "Estimated total No. on grounds": "UK",
+            "Optimum escapement": "500"
+        },
+        "Pink 1": {
+            "Start month": "SEP:",
+            "Peak month": "SEP:",
+            "End month": "OCT",
+            "No. of observer": "1",
+            "Method": "1",
+            "Reliability": "4-5",
+            "Estimated total No. on grounds": "UK",
+            "Optimum escapement": "UK"
+        },
+        "Chum 1": {
+            "Arrival month": "OCT:",
+            "Peak month": "NOV",
+            "End month": "NOV:",
+            "No. of observer": "1",
+            "Method": "1",
+            "Reliability": "4-5",
+            "Estimated total No. on grounds": "2",
+            "Optimum escapement": "1500"
+        }
+    },
+    "Biological (F) Evidence of digging eggs": null,
+    "Second local name": null,
+    "Additional (A) Evidence of erosion and silting": null,
+    "Additional (B) Particulars of scouring of spawning beds": null,
+    "Dates of inspection (1)": null
+}
