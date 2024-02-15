@@ -13,8 +13,11 @@
 }
 
 .myList li {
-  position: relative; 
-  padding-left: 30px; 
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+
 }
 
 .unselected::before {
@@ -61,4 +64,8 @@
 
 .isRed {
   color: red !important;
+}
+
+.isGreen {
+  color: green !important;
 }
