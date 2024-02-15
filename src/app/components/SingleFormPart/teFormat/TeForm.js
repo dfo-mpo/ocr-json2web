@@ -50,7 +50,7 @@ const TeForm = ({ items, folderName, fileName }) => {
  
   const resetEdit = () => {
     modifyCtx.updateIsEdit(false);
-    window.location.reload();
+    window.location.reload(); 
   };
 
   const saveHandler = () => {
