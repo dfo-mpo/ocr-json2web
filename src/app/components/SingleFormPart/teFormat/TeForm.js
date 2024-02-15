@@ -39,7 +39,8 @@ const TeForm = ({ items, folderName, fileName }) => {
       },
     });
     if (!Response.ok) {
-      throw new Error(Response.statusText);
+      alert("Failed to save. Please try again.");
+      
     } else {
    
       alert("Changes saved successfully!");
@@ -53,8 +54,8 @@ const TeForm = ({ items, folderName, fileName }) => {
   };
 
   const saveHandler = () => {
-    console.log( itemCtx)
-    // onSubmitHandler();
+
+    onSubmitHandler();
   };
 
   useEffect(() => {
