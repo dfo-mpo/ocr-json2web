@@ -63,10 +63,10 @@ const TeForm = ({ items, folderName, fileName }) => {
         <>
           {isEdit ? (
             <>
-              <button onClick={saveHandler} className={styles.editing}>
+              <button onClick={saveHandler} className={styles.saveChange}>
                 Save
               </button>
-              <button onClick={resetEdit} className={styles.editing}>
+              <button onClick={resetEdit} className={styles.cancelChange}>
                 Cancel
               </button>
             </>
