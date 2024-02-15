@@ -24,7 +24,7 @@ const TeForm = ({ items, folderName, fileName }) => {
 
   const onSubmitHandler = async () => {
    
- 
+
     const dataToSubmit = {
       folderName,
       fileName,
@@ -53,7 +53,8 @@ const TeForm = ({ items, folderName, fileName }) => {
   };
 
   const saveHandler = () => {
-    onSubmitHandler();
+    console.log( itemCtx)
+    // onSubmitHandler();
   };
 
   useEffect(() => {

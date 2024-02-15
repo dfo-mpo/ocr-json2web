@@ -104,9 +104,7 @@ const TableType1 = ({ items, folderName }) => {
               <EditableField
                 speciesName={item}
                 fieldName="Start day"
-                fieldValue={
-                  species["Start day"] ? species["Start day"][0] : ""
-                }
+                fieldValue={species["Start day"] ? species["Start day"][0] : ""}
                 isRed={species["Start day"] && species["Start day"][1]}
                 handleChange={handleChange}
               />
@@ -411,7 +409,7 @@ const TableType1 = ({ items, folderName }) => {
           <td colSpan="6">
             <div>
               (3) <br />
-              DATES of SPAWNING{" "}
+              DATES of SPAWNING
             </div>
             <div className={styles.columThree}>
               <span>START</span>
@@ -448,44 +446,46 @@ const TableType1 = ({ items, folderName }) => {
           <td>day</td>
         </tr>
         <tr>
-          <td rowSpan={2} className={styles.colOne}>
-            SOCKEYE 1
-            <br />2
-          </td>
+          <td className={styles.colOne}>SOCKEYE 1</td>
           {renderTable("Sockeye 1")}
         </tr>
-        <tr>{renderTable("Sockeye 2")}</tr>
         <tr>
-          <td rowSpan={2} className={styles.colOne}>
-            COHO 1 <br />2
-          </td>
+          <td className={styles.colOne}>2</td>
+          {renderTable("Sockeye 2")}
+        </tr>
+        <tr>
+          <td className={styles.colOne}>COHO 1</td>
           {renderTable("Coho 1")}
         </tr>
-        <tr>{renderTable("Coho 2")}</tr>
         <tr>
-          <td rowSpan={2} className={styles.colOne}>
-            PINK 1
-            <br />2
-          </td>
+          <td className={styles.colOne}>2</td>
+          {renderTable("Coho 2")}
+        </tr>
+        <tr>
+          <td className={styles.colOne}>PINK 1</td>
           {renderTable("Pink 1")}
         </tr>
-        <tr>{renderTable("Pink 2")}</tr>
         <tr>
-          <td rowSpan={2} className={styles.colOne}>
-            CHUM 1
-            <br />2
-          </td>
+          <td className={styles.colOne}>2</td>
+          {renderTable("Pink 2")}
+        </tr>
+        <tr>
+          <td className={styles.colOne}>CHUM 1</td>
           {renderTable("Chum 1")}
         </tr>
-        <tr>{renderTable("Chum 2")}</tr>
         <tr>
-          <td rowSpan={2} className={styles.colOne}>
-            CHINOOK 1
-            <br />2
-          </td>
+          <td className={styles.colOne}>2</td>
+          {renderTable("Chum 2")}
+        </tr>
+        <tr>
+          <td className={styles.colOne}>CHINOOK 1</td>
           {renderTable("Chinook 1")}
         </tr>
-        <tr>{renderTable("Chinook 2")}</tr>
+
+        <tr>
+          <td className={styles.colOne}>2</td>
+          {renderTable("Chinook 2")}
+        </tr>
       </tbody>
     </table>
   );

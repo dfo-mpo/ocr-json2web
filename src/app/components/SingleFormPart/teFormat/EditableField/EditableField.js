@@ -10,6 +10,7 @@ const EditableField = ({
 }) => {
   const [isEditing, setIsEditing] = useState(false);
 
+
   let stylingClass = "";
   switch (isRed) {
     case true:
