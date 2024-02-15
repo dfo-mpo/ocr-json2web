@@ -22,15 +22,38 @@ const TeForm = ({ items, folderName, fileName }) => {
     update(items, folderName, fileName);
   }, []);
 
+  const onSubmitHandler = async () => {
+   
+ 
+    const dataToSubmit = {
+      folderName,
+      fileName,
+      jsonData: itemCtx,
+    };
+
+    const Response = await fetch("/api/modify", {
+      method: "POST",
+      body: JSON.stringify(dataToSubmit),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+    if (!Response.ok) {
+      throw new Error(Response.statusText);
+    } else {
+   
+      alert("Changes saved successfully!");
+      modifyCtx.updateIsEdit(false);
+    }
+  };
+ 
   const resetEdit = () => {
     modifyCtx.updateIsEdit(false);
     window.location.reload();
   };
 
   const saveHandler = () => {
-    console.log("saveHandler");
-    console.log("itemCtx", itemCtx);
-    modifyCtx.updateIsEdit(false);
+    onSubmitHandler();
   };
 
   useEffect(() => {
