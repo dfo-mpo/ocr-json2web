@@ -72,11 +72,10 @@ const Dates = ({ items, folderName }) => {
       };
     });
   };
-  let newitemCtx = {...itemCtx}
-
+  let newitemCtx = { ...itemCtx };
 
   const deleteDateHandler = (key) => {
-    newitemCtx["Date of inspection"].splice(key, 1)
+    newitemCtx["Date of inspection"].splice(key, 1);
     updateItem(() => {
       return newitemCtx;
     });
@@ -92,7 +91,7 @@ const Dates = ({ items, folderName }) => {
     <div className={styles.StreamBox}>
       <div className={styles.title}>
         DATES OF INSPECTION
-        <button onClick={addDateHandler} className={styles.addButton}>
+        <button onClick={addDateHandler} className={styles.addRemoveButton}>
           +
         </button>
         {/* <button onClick={deleteDateHandler} className={styles.addButton}>
@@ -102,7 +101,7 @@ const Dates = ({ items, folderName }) => {
 
       <div className={styles.dates}>
         <>
-          <div>
+          <div className={styles.dateText}>
             {dates[0]
               ? dates.map((date, key) => (
                   <span key={key}>
@@ -117,8 +116,8 @@ const Dates = ({ items, folderName }) => {
                       handleChange={handleDateChange}
                     />
                     <button
-                      onClick={()=> deleteDateHandler(key)}
-                      className={styles.addButton}
+                      onClick={() => deleteDateHandler(key)}
+                      className={styles.addRemoveButton}
                     >
                       -
                     </button>

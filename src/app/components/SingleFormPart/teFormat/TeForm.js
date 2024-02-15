@@ -23,8 +23,8 @@ const TeForm = ({ items, folderName, fileName }) => {
   }, []);
 
   const resetEdit = () => {
-    update(items, folderName, fileName);
     modifyCtx.updateIsEdit(false);
+    window.location.reload();
   };
 
   const saveHandler = () => {

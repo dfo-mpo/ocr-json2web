@@ -10,6 +10,7 @@ const modifyContext = createContext({
   updateFolderName: (folderName) => { },
   updateFileName: (fileName) => { },
   updateIsEdit: (isEdit) => { },
+  updateSingleSpeciesData: (singleSpeciesData) => { },
 });
 
 export function ModifyContextProvider({ children }) {
@@ -17,6 +18,7 @@ export function ModifyContextProvider({ children }) {
   const [folderName, setFolderName] = useState("");
   const [fileName, setFileName] = useState("");
   const [isEdit, setIsEdit] = useState(false);
+
 
   function update(item, folderName, fileName) {
     setItem(item);
@@ -36,6 +38,8 @@ export function ModifyContextProvider({ children }) {
   function updateIsEdit(isEdit) {
     setIsEdit(isEdit);
   }
+
+
 
 
   const ctxValue = {

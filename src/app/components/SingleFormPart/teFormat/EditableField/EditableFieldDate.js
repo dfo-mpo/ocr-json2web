@@ -61,7 +61,7 @@ const EditableFieldDate = ({
             defaultValue={fieldValueD}
             onChange={handleChange}
           />
-          <button onClick={() => setIsEditing(false)}>Done</button>
+          <button className={styles.done} onClick={() => setIsEditing(false)}>Done</button>
         </>
       ) : (
         <>
