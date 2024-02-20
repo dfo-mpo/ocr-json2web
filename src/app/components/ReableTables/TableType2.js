@@ -5,6 +5,7 @@ const TableType2 = ({ items, folderName, fileName, formSetting, myStyle }) => {
   const tableName = formSetting.tableName;
   const tableData = formSetting.tableData;
   const itemName = formSetting.itemName;
+  const insideTableName = formSetting.insideTableName;
 
   const dates = items[itemName];
 
@@ -12,6 +13,7 @@ const TableType2 = ({ items, folderName, fileName, formSetting, myStyle }) => {
     <div style={myStyle}>
       {tableName && <div className={styles.title}>{tableName}</div>}
       <div className={styles.myTable}>
+      {insideTableName && <div className={styles.title2}>{insideTableName}</div>}
         <div>
           {dates
             ? dates.map((date, index) => {

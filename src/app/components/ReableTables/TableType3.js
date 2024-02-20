@@ -4,6 +4,7 @@ import styles from "./TableType3.module.css";
 const TableType3 = ({ items, folderName, fileName, formSetting, myStyle }) => {
   const tableName = formSetting.tableName;
   const tableData = formSetting.tableData;
+  const insideTableName = formSetting.insideTableName;
 
   return (
     <div style={myStyle}>
@@ -14,8 +15,9 @@ const TableType3 = ({ items, folderName, fileName, formSetting, myStyle }) => {
           <div key={index}>
             {items[data.key] && (
               <div className={styles.myTable}>
-                <span>{data.fieldName} </span>
-                <span>{items[data.key]}</span>
+                {insideTableName && <div className={styles.title2}>{insideTableName}</div>}
+                <div>{data.fieldName} </div>
+                <div>{items[data.key]}</div>
               </div>
             )}
           </div>

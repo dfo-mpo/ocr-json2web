@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./Form.module.css";
-import formSetting from "../formSetting.json";
+// import formSetting from "../formSetting.json";
 import TableType1 from "./ReableTables/TableType1";
 import TableType2 from "./ReableTables/TableType2";
 import TableType3 from "./ReableTables/TableType3";
 import TableType4 from "./ReableTables/TableType4";
 
-const Form = ({ items, folderName, fileName }) => {
+const Form = ({ items, folderName, fileName, formSetting }) => {
   const title = formSetting.title;
   const subtitle = formSetting.subtitle;
 
