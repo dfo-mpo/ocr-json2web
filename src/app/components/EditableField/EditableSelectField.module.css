@@ -1,0 +1,16 @@
+.isRed {
+  color: red !important;
+}
+
+.isGreen {
+  color: green !important;
+}
+
+.imageBox{
+  display: flex;
+  align-items: center;
+  
+}
+.input {
+  width: 100px;
+}

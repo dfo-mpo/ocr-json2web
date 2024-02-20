@@ -1,0 +1,288 @@
+{
+  "title": "DEPARTMENT OF FISHERIES AND OCEANS",
+  "subtitle": "ANNUAL REPORT OF SALMON STREAMS AND SPAWNING POPULATION",
+  "style": {
+    "display": "grid",
+    "gap": "10px"
+  },
+  "4cresultocr": [
+    {
+      "tableType": "TableType1",
+      "tableName": "STREAM IDENTIFICATION",
+      "style": {
+        "gridColumnStart": 1,
+        "gridColumnEnd": 2,
+        "gridRowStart": 1,
+        "gridRowEnd": 3,
+        "alignSelf": "center"
+      },
+      "tableData": [
+        {
+          "fieldName": "Watershed Code",
+          "key": "Watershed code"
+        },
+        {
+          "fieldName": "Gazetted Name",
+          "key": "Gazetted name"
+        },
+        {
+          "fieldName": "First Local Name",
+          "key": "First local name"
+        },
+        {
+          "fieldName": "Second Local Name",
+          "key": "Second local name"
+        },
+        {
+          "fieldName": "Flows Into",
+          "key": "Flows Into"
+        }
+      ]
+    },
+    {
+      "tableType": "TableType1",
+      "tableName": "",
+      "style": {
+        "gridColumnStart": 2,
+        "gridColumnEnd": 4,
+        "gridRowStart": 1,
+        "gridRowEnd": 2
+      },
+      "tableData": [
+        {
+          "fieldName": "Year",
+          "key": "Year"
+        },
+        {
+          "fieldName": "District Number",
+          "key": "District No."
+        },
+        {
+          "fieldName": "Statistical Area",
+          "key": "Statistical Area"
+        },
+        {
+          "fieldName": "Subdistrict Number",
+          "key": "Subdistrict No."
+        },
+        {
+          "fieldName": "Subdistrict Name",
+          "key": "Subdistrict Name"
+        }
+      ]
+    },
+    {
+      "tableType": "TableType2",
+      "tableName": "DATES OF INSPECTION ",
+      "itemName": "Date of inspection",
+      "style": {
+        "gridColumnStart": 2,
+        "gridColumnEnd": 4,
+        "gridRowStart": 2,
+        "gridRowEnd": 3
+      },
+      "tableData": [
+        {
+          "fieldName": "Month",
+          "key": "Month"
+        },
+        {
+          "fieldName": "Day",
+          "key": "Day"
+        }
+      ]
+    },
+    {
+      "tableType": "TableType3",
+      "tableName": "",
+      "style": {
+        "gridColumnStart": 2,
+        "gridColumnEnd": 4,
+        "gridRowStart": 3,
+        "gridRowEnd": 4
+      },
+      "tableData": [
+        {
+          "fieldName": "",
+          "key": "Dates of inspection (1)"
+        }
+      ]
+    },
+
+    {
+      "tableType": "TableType4",
+      "tableName": "ADDITIONAL COMMENTS",
+      "subTableName": "PHYSICAL CONDITION of SPAWNING GROUNDS",
+      "style": {
+        "gridColumnStart": 1,
+        "gridColumnEnd": 4
+      },
+      "tableData": [
+        {
+          "fieldName": "(A) Evidence of erosion and silting. Give extent or percent of stream bed affected:",
+          "key": "Additional (A) Evidence of erosion and silting"
+        },
+        {
+          "fieldName": "(B) Particulars of scouring of spawning beds or change in course of stream:",
+          "key": "Additional (B) Particulars of scouring of spawning beds"
+        },
+        {
+          "fieldName": "(C) Water levels flow, normal, abnormal. If abnormal, details should be given:",
+          "key": "Additional (C) Water levels flow"
+        }
+      ]
+    },
+    {
+      "tableType": "TableType4",
+      "tableName": "",
+      "subTableName": "BIOLOGICAL CONDITIONS",
+      "style": {
+        "gridColumnStart": 1,
+        "gridColumnEnd": 4
+      },
+      "tableData": [
+        {
+          "fieldName": "(D) Particulars of distribution of salmon over stream bed:",
+          "key": "Biological (D) Particulars of distribution"
+        },
+        {
+          "fieldName": "(E) Comments on predators:",
+          "key": "Biological (E) Comments on predators"
+        },
+        {
+          "fieldName": "(F) Evidence of digging up eggs by late spawning fish:",
+          "key": "Biological (F) Evidence of digging eggs"
+        },
+        {
+          "fieldName": "(G) New obstructions (nature and recommendations):",
+          "key": "Biological (G) New obstruction"
+        }
+      ]
+    },
+    {
+      "tableType": "TableType4",
+      "tableName": "COMMENTS ON ANY OTHER CONDITIONS AFFECTING THIS STREAM",
+      "subTableName": "",
+      "style": {
+        "gridColumnStart": 1,
+        "gridColumnEnd": 4
+      },
+      "tableData": [
+        {
+          "fieldName": "",
+          "key": "Comments (K)"
+        }
+      ]
+    }
+  ],
+  "4hresultocr": [
+    {
+      "tableType": "TableType1",
+      "tableName": "STREAM IDENTIFICATION",
+      "tableData": [
+        {
+          "fieldName": "Watershed Code",
+          "key": "Watershed code"
+        },
+        {
+          "fieldName": "Gazetted Name",
+          "key": "Gazetted name"
+        },
+        {
+          "fieldName": "First Local Name",
+          "key": "First local name"
+        },
+        {
+          "fieldName": "Second Local Name",
+          "key": "Second local name"
+        },
+        {
+          "fieldName": "Flows Into",
+          "key": "Flows into"
+        }
+      ]
+    },
+    {
+      "tableType": "TableType1",
+      "tableName": "",
+      "tableData": [
+        {
+          "fieldName": "Year",
+          "key": "Year"
+        },
+        {
+          "fieldName": "District Number",
+          "key": "District No."
+        },
+        {
+          "fieldName": "Statistical Area",
+          "key": "Statistical Area"
+        },
+        {
+          "fieldName": "Subdistrict Number",
+          "key": "Subdistrict No."
+        },
+        {
+          "fieldName": "Subdistrict Name",
+          "key": "Subdistrict Name"
+        }
+      ]
+    }
+  ],
+  "7eresultocr": [
+    {
+      "tableType": "TableType1",
+      "tableName": "STREAM IDENTIFICATION",
+      "tableData": [
+        {
+          "fieldName": "Year",
+          "key": "Year"
+        },
+        {
+          "fieldName": "Area",
+          "key": "Area"
+        },
+        {
+          "fieldName": "District",
+          "key": "District"
+        },
+        {
+          "fieldName": "Sub",
+          "key": "Sub"
+        },
+        {
+          "fieldName": "RAB Code",
+          "key": "RAB code"
+        },
+        {
+          "fieldName": "Gazetted Name",
+          "key": "Gazetted name"
+        },
+        {
+          "fieldName": "First Local Name",
+          "key": "First local name"
+        },
+        {
+          "fieldName": "Second Local Name",
+          "key": "Second local name"
+        },
+        {
+          "fieldName": "Flows Into",
+          "key": "Flows into"
+        },
+        {
+          "fieldName": "Latitude",
+          "key": "Latitude"
+        },
+        {
+          "fieldName": "Longitude",
+          "key": "Longitude"
+        },
+        {
+          "fieldName": "Filed Crew",
+          "key": "Field Crew"
+        }
+      ]
+    }
+  ]
+}

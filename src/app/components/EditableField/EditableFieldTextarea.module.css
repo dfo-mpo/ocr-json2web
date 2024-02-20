@@ -1,0 +1,12 @@
+.isRed {
+  color: red !important;
+
+}
+
+.isGreen {
+  color: green !important;
+}
+
+.textField textarea {
+  width: 100%;
+}

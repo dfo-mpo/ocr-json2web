@@ -3,6 +3,10 @@ import path from "path";
 import FileNameList from "./FileNameList";
 import Link from "next/link";
 import styles from "./FileNameReader.module.css";
+
+// this component reads the file names and folder name from the bc16Data folder 
+// then combines the file names and folder names as an array of objects: [ {folderName: folderName, fileName: fileName},  ....]
+// and displays file names in a list on the Home page. 
 const FileNameReader = async () => {
   try {
     // Define the path to the target folder

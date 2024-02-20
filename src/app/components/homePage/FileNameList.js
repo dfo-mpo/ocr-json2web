@@ -1,9 +1,9 @@
 "use client";
 import { useState, useEffect, use } from "react";
 import Image from "next/image";
-import verified from "../../../public/images/verified.svg";
-import error from "../../../public/images/error.svg";
-import modifiedIcon from "../../../public/images/modified.svg";
+import verified from "../../../../public/images/verified.svg";
+import error from "../../../../public/images/error.svg";
+import modifiedIcon from "../../../../public/images/modified.svg";
 import Link from "next/link";
 import FileSearch from "./FileSearch";
 import styles from "./FileNameList.module.css";
@@ -11,7 +11,7 @@ import styles from "./FileNameList.module.css";
 const FileNameList = ({ filesByFolder }) => {
   const [fileSearch, setFileSearch] = useState(filesByFolder);
   const [pageNumber, setPageNumber] = useState(1);
-  const [verifiedFilejson, setVerifiedFilejson] = useState([]);
+  const [fileStatusJson, setFileStatusJson] = useState([]);
   const pageSize = 25;
   const totalPages = Math.ceil(fileSearch.length / pageSize);
   const startIndex = (pageNumber - 1) * pageSize;
@@ -29,10 +29,10 @@ const FileNameList = ({ filesByFolder }) => {
   const uniqueFolderNames = [
     ...new Set(filesByFolder.map((item) => item.folderName)),
   ];
-
+  //fetching the fileName that are verified
   const asyncFetch = async () => {
     setIsReload(true);
-    const Response = await fetch("/api/verifiedFile", {
+    const Response = await fetch("/api/fileStatus", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -57,7 +57,7 @@ const FileNameList = ({ filesByFolder }) => {
             // Parse the JSON string into an object
             const dataObject = JSON.parse(jsonString);
 
-            setVerifiedFilejson(dataObject);
+            setFileStatusJson(dataObject);
             setIsReload(false);
           }
         } catch (error) {
@@ -76,12 +76,9 @@ const FileNameList = ({ filesByFolder }) => {
   }, []);
 
   useEffect(() => {
-
-    
-    // Create a map from verifiedFilejson for efficient lookup based on fileName
-    // Create a map from verifiedFilejson for efficient lookup based on fileName
+    // Create a map from fileStatusJson for efficient lookup based on fileName
     const verifiedMap = new Map(
-      verifiedFilejson.map(({ fileName, verified, error, isModified }) => [
+      fileStatusJson.map(({ fileName, verified, error, isModified }) => [
         fileName,
         { verified, error, isModified },
       ])
@@ -95,7 +92,7 @@ const FileNameList = ({ filesByFolder }) => {
     setNewfilesByFolder(updatedFilesByFolder);
     setFileSearch(updatedFilesByFolder);
     onSearchHandler2(searchParams,updatedFilesByFolder);
-  }, [verifiedFilejson]);
+  }, [fileStatusJson]);
   //getting unique area names
   const areas = filesByFolder
     .map((item) => {
@@ -139,7 +136,6 @@ const FileNameList = ({ filesByFolder }) => {
       );
     }
 
-    
     setFileSearch(filteredFiles);
     setPageNumber(1);
   };

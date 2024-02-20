@@ -39,9 +39,6 @@ export function ModifyContextProvider({ children }) {
     setIsEdit(isEdit);
   }
 
-
-
-
   const ctxValue = {
     item,
     update: update,

@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  max-width: 1030px; /* For larger screens */
+  margin: 0 auto; /* Center the container */
+}
+
+/* Media query for tablets */
+@media screen and (min-width: 768px) {
+  .container {
+    width: 95%;
+  }
+}
+
+/* Media query for desktops */
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+}
+
+.headerBox {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+.header1 {
+  font-size: 1.1em;
+}
+.header2 {
+  font-size: 1.05em;
+}
+

@@ -84,7 +84,7 @@ const File = async ({ searchParams }) => {
             folderName={folderName}
             items={jsonData}
             fileName={fileName}
-            verified={verified}
+            // verified={verified}
           />
           <Iframe pdfFolderName={pdfFolderName} fileName={fileName} />
         </div>
