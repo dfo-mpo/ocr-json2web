@@ -30,7 +30,6 @@ const TableType1 = ({
                 <td>
                   <EditableField
                     isFlag=""
-                    fileName={fileName}
                     fieldName={data.key}
                     fieldValue={items[data.key]}
                     handleChange={handleChange}
