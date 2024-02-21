@@ -4,6 +4,7 @@ import Form from "./Form";
 import { useState, useEffect, use } from "react";
 import styles from "./FormRender.module.css";
 
+
 const FormRender = ({ items, folderName, fileName }) => {
   const [isForm, setIsForm] = useState(true);
   const [formSetting, setFormSetting] = useState({});
@@ -34,7 +35,7 @@ const FormRender = ({ items, folderName, fileName }) => {
             const jsonString = new TextDecoder().decode(value);
             // Parse the JSON string into an object
             const dataObject = JSON.parse(jsonString);
-            console.log("dataObject", dataObject);
+        
             setFormSetting(dataObject);
             setIsReload(false);
           }

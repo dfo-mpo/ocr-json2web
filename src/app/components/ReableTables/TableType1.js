@@ -1,9 +1,22 @@
 import React from "react";
 import styles from "./TableType1.module.css";
+import EditableField from "../EditableField/EditableField";
 
-const TableType1 = ({ items, folderName, fileName, formSetting, myStyle }) => {
+const TableType1 = ({
+  items,
+  folderName,
+  fileName,
+  formSetting,
+  myStyle,
+  onEdit,
+}) => {
   const tableName = formSetting.tableName;
   const tableData = formSetting.tableData;
+  let updateJson = { ...items };
+  const handleChange = (event) => {
+    updateJson[event.target.name] = event.target.value;
+    onEdit(updateJson);
+  };
 
   return (
     <div style={myStyle}>
@@ -14,7 +27,15 @@ const TableType1 = ({ items, folderName, fileName, formSetting, myStyle }) => {
             return (
               <tr key={index}>
                 <td>{data.fieldName}</td>
-                <td>{items[data.key]}</td>
+                <td>
+                  <EditableField
+                    isFlag=""
+                    fileName={fileName}
+                    fieldName={data.key}
+                    fieldValue={items[data.key]}
+                    handleChange={handleChange}
+                  />
+                </td>
               </tr>
             );
           })}

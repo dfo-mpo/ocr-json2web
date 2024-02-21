@@ -4,15 +4,14 @@ import styles from "./EditableField.module.css";
 const EditableField = ({
   fieldName,
   fieldValue,
-  isRed,
-  handleChange,
-  speciesName,
+  isFlag,
+  handleChange
 }) => {
   const [isEditing, setIsEditing] = useState(false);
 
 
   let stylingClass = "";
-  switch (isRed) {
+  switch (isFlag) {
     case true:
       break;
     case false:
@@ -36,7 +35,6 @@ const EditableField = ({
       {isEditing ? (
         <input
           className={styles.input}
-          speciesname={speciesName ? speciesName : ""}
           type="text"
           name={fieldName}
           defaultValue={fieldValue}

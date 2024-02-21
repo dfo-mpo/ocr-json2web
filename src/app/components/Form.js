@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 import styles from "./Form.module.css";
 // import formSetting from "../formSetting.json";
 import TableType1 from "./ReableTables/TableType1";
@@ -9,9 +9,35 @@ import TableType4 from "./ReableTables/TableType4";
 const Form = ({ items, folderName, fileName, formSetting }) => {
   const title = formSetting.title;
   const subtitle = formSetting.subtitle;
+  const [updateJson, setUpdateJson] = useState(items);
+  const [isEditing, setIsEditing] = useState(false);
 
+  const changeHandler = (value) => {
+    setIsEditing(true);
+    setUpdateJson(value);
+  };
+
+  const saveHandler = () => {
+    setIsEditing(false);
+    alert("Save function is not implemented yet");
+  };
+  const resetEdit = () => {
+    console.log(updateJson);
+    setIsEditing(false);
+    window.location.reload();
+  };
   return (
     <div className={styles.container}>
+      {isEditing ? (
+        <>
+          <button onClick={saveHandler} className={styles.saveChange}>
+            Save
+          </button>
+          <button onClick={resetEdit} className={styles.cancelChange}>
+            Cancel
+          </button>
+        </>
+      ) : null}
       <div className={styles.header}>
         {title && <div className={styles.header1}>{title}</div>}
         {subtitle && <div className={styles.header2}>{subtitle}</div>}
@@ -24,10 +50,11 @@ const Form = ({ items, folderName, fileName, formSetting }) => {
               <TableType1
                 myStyle={formSettingItem.style}
                 key={index}
-                items={items}
+                items={updateJson}
                 folderName={folderName}
                 fileName={fileName}
                 formSetting={formSettingItem}
+                onEdit={changeHandler}
               />
             );
           } else if (formSettingItem.tableType === "TableType2") {
@@ -35,7 +62,7 @@ const Form = ({ items, folderName, fileName, formSetting }) => {
               <TableType2
                 myStyle={formSettingItem.style}
                 key={index}
-                items={items}
+                items={updateJson}
                 folderName={folderName}
                 fileName={fileName}
                 formSetting={formSettingItem}
@@ -46,7 +73,7 @@ const Form = ({ items, folderName, fileName, formSetting }) => {
               <TableType3
                 myStyle={formSettingItem.style}
                 key={index}
-                items={items}
+                items={updateJson}
                 folderName={folderName}
                 fileName={fileName}
                 formSetting={formSettingItem}
@@ -57,7 +84,7 @@ const Form = ({ items, folderName, fileName, formSetting }) => {
               <TableType4
                 myStyle={formSettingItem.style}
                 key={index}
-                items={items}
+                items={updateJson}
                 folderName={folderName}
                 fileName={fileName}
                 formSetting={formSettingItem}
