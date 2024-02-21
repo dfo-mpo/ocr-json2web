@@ -18,11 +18,11 @@ const Form = ({ items, folderName, fileName, formSetting }) => {
   };
 
   const saveHandler = () => {
+    console.log(updateJson);
     setIsEditing(false);
     alert("Save function is not implemented yet");
   };
   const resetEdit = () => {
-    console.log(updateJson);
     setIsEditing(false);
     window.location.reload();
   };
