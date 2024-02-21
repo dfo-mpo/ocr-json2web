@@ -4,13 +4,13 @@ import styles from "./EditableFieldTextarea.module.css";
 const EditableFieldTextarea = ({
   fieldName,
   fieldValue,
-  isRed,
+  isFlag,
   handleChange,
 }) => {
   const [isEditing, setIsEditing] = useState(false);
 
   let stylingClass = "";
-  switch (isRed) {
+  switch (isFlag) {
     case true:
       break;
     case false:
@@ -33,7 +33,6 @@ const EditableFieldTextarea = ({
     >
       {isEditing ? (
         <textarea
-          type="text"
           name={fieldName}
           defaultValue={fieldValue}
           onBlur={() => setIsEditing(false)}

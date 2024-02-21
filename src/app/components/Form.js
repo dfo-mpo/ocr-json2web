@@ -77,6 +77,7 @@ const Form = ({ items, folderName, fileName, formSetting }) => {
                 folderName={folderName}
                 fileName={fileName}
                 formSetting={formSettingItem}
+                onEdit={changeHandler}
               />
             );
           } else if (formSettingItem.tableType === "TableType4") {
@@ -88,6 +89,7 @@ const Form = ({ items, folderName, fileName, formSetting }) => {
                 folderName={folderName}
                 fileName={fileName}
                 formSetting={formSettingItem}
+                onEdit={changeHandler}
               />
             );
           }
