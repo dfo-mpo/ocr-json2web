@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./TableType4.module.css";
-
-const TableType4 = ({ items, folderName, fileName, formSetting, myStyle }) => {
+import styles from "./TableType5.module.css";
+//duplicate from tableType4, working on this one
+const TableType5 = ({ items, folderName, fileName, formSetting, myStyle }) => {
   const tableName = formSetting.tableName;
   const insideTableName = formSetting.insideTableName;
   const tableData = formSetting.tableData;
@@ -28,4 +28,4 @@ const TableType4 = ({ items, folderName, fileName, formSetting, myStyle }) => {
   );
 };
 
-export default TableType4;
+export default TableType5;
