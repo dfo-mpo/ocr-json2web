@@ -11,6 +11,8 @@ import verifiedIcon from "../../../public/images/verified.svg";
 import modifiedIcon from "../../../public/images/modified.svg";
 import VerifiedFile from "./VerifiedFile";
 const File = async ({ searchParams }) => {
+
+  // this is the Form page
   const fileName = searchParams.fileName;
   const folderName = searchParams.folderName;
   const verified = searchParams.verified;
