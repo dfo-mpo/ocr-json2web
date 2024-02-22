@@ -13,7 +13,7 @@ import VerifiedFile from "./VerifiedFile";
 const File = async ({ searchParams }) => {
 
   // this is the Form page
-  const fileName = searchParams.fileName;
+const fileName = searchParams.fileName;
   const folderName = searchParams.folderName;
   const verified = searchParams.verified;
   const error = searchParams.error;
