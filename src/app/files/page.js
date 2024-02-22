@@ -1,8 +1,8 @@
-import Link from "next/link";
+"use client";
 import FormRender from "../components/FormRender";
 import styles from "./page.module.css";
 import ErrorReport from "./ErrorReport";
-import { promises as fs } from "fs";
+
 import LogoHeader from "../components/LogoHeader";
 import Iframe from "./Iframe";
 import Image from "next/image";
@@ -10,7 +10,12 @@ import errorIcon from "../../../public/images/error.svg";
 import verifiedIcon from "../../../public/images/verified.svg";
 import modifiedIcon from "../../../public/images/modified.svg";
 import VerifiedFile from "./VerifiedFile";
-const File = async ({ searchParams }) => {
+import { useState, useEffect, use } from "react";
+const File = ({ searchParams }) => {
+  const [isLoading, setIsLoading] = useState(true);
+  const [isFormsettingReady, setIsFormsettingReady] = useState(true);
+  const [jsonData, setJsonData] = useState({});
+  const [formSetting, setFormSetting] = useState({});
 
   // this is the Form page
   const fileName = searchParams.fileName;
@@ -19,51 +24,115 @@ const File = async ({ searchParams }) => {
   const error = searchParams.error;
   const isModified = searchParams.isModified;
 
-  const format6e = folderName == "6eresultocr";
-  const format4c = folderName == "4cresultocr";
-  const format4h = folderName == "4hresultocr";
-  const format5a = folderName == "5aresultocr";
-  const format7e = folderName == "7eresultocr";
-  const pdfFolderName = format6e
-    ? "6etest"
-    : format4c
-    ? "4ctest"
-    : format4h
-    ? "4hrun"
-    : format5a
-    ? "5atest"
-    : format7e
-    ? "7etest"
-    : "";
+  const submitData = {
+    fileName: fileName,
+    folderName: folderName,
 
-  try {
-    const filePath =
-      process.cwd() + `/src/app/bc16Data/${folderName}/${fileName}`;
-    const fileContent = await fs.readFile(filePath, "utf8");
-    const jsonData = JSON.parse(fileContent);
+  };
 
-    return (
-      <div>
-        <title>{folderName}</title>
-        {/* <title>{fileName.replace(".json", "").replace(/_/g, " ").replace(/BC16-\d+ /g, '')}</title> */}
-        <LogoHeader />
-        {/* <Link className={styles.backButton} href="/">
+  //fetch json data from blob 
+  const asyncFetch = async () => {
+    setIsLoading(true);
+    const Response = await fetch("/api/jsonData", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(submitData)
+    });
+    if (!Response.ok) {
+      throw new Error(Response.statusText);
+    } else {
+      const reader = Response.body.getReader();
+      const readData = async () => {
+        try {
+          while (true) {
+            const { done, value } = await reader.read();
+            if (done) {
+              break;
+            }
+            // `value` contains the chunk of data as a Uint8Array
+            const jsonString = new TextDecoder().decode(value);
+            // Parse the JSON string into an object
+            const dataObject = JSON.parse(jsonString);
+            setJsonData(dataObject);
+            setIsLoading(false);
+          }
+        } catch (error) {
+          console.error("Error reading response:", error);
+        } finally {
+          reader.releaseLock(); // Release the reader's lock when done
+        }
+      };
+      readData();
+    }
+  };
+
+  const asyncFetchFormSetting = async () => {
+    setIsFormsettingReady(true);
+    const Response = await fetch("/api/formSetting", {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+    if (!Response.ok) {
+      throw new Error(Response.statusText);
+    } else if (Response.status === 203) {
+      console.log("No data");
+    } else {
+      const reader = Response.body.getReader();
+      const readData = async () => {
+        try {
+          while (true) {
+            const { done, value } = await reader.read();
+            if (done) {
+              break;
+            }
+            // `value` contains the chunk of data as a Uint8Array
+            const jsonString = new TextDecoder().decode(value);
+            // Parse the JSON string into an object
+            const dataObject = JSON.parse(jsonString);
+        
+            setFormSetting(dataObject);
+            setIsFormsettingReady(false);
+          }
+        } catch (error) {
+          console.error("Error reading response:", error);
+        } finally {
+          reader.releaseLock(); // Release the reader's lock when done
+        }
+      };
+      readData();
+    }
+  };
+
+  useEffect(() => {
+    asyncFetch();
+    asyncFetchFormSetting();
+    
+  }, []);
+
+  return (
+    <div>
+      <title>{folderName}</title>
+      {/* <title>{fileName.replace(".json", "").replace(/_/g, " ").replace(/BC16-\d+ /g, '')}</title> */}
+      <LogoHeader />
+      {/* <Link className={styles.backButton} href="/">
           Back
         </Link> */}
-        <h5 className={styles.fileName}>
-          File Name: {fileName.replace(/_/g, " ").replace(".json", "")}{" "}
-          {verified && (
-            <Image src={verifiedIcon} alt="verified" width={20} height={20} />
-          )}{" "}
-          {error && (
-            <Image src={errorIcon} alt="error" width={15} height={15} />
-          )}
-          {isModified && (
-            <Image src={modifiedIcon} alt="modified" height={23} width={23} />
-          )}
-        </h5>
+      <h5 className={styles.fileName}>
+        File Name: {fileName.replace(/_/g, " ").replace(".json", "")}{" "}
+        {verified && (
+          <Image src={verifiedIcon} alt="verified" width={20} height={20} />
+        )}{" "}
+        {error && <Image src={errorIcon} alt="error" width={15} height={15} />}
+        {isModified && (
+          <Image src={modifiedIcon} alt="modified" height={23} width={23} />
+        )}
+      </h5>
 
-        {/* <Link
+      {/* <Link
           className={styles.linkStyle}
           rel="noopener noreferrer"
           target="_blank"
@@ -74,27 +143,31 @@ const File = async ({ searchParams }) => {
         >
           PDF Version
         </Link> */}
-        <ErrorReport fileName={fileName} folderName={folderName} />
-        <br />
-        <VerifiedFile
-          fileName={fileName}
-          folderName={folderName}
-          verified={verified}
-        />
-        <div className={styles.container}>
-          <FormRender
-            folderName={folderName}
-            items={jsonData}
+      {(isLoading||isFormsettingReady) ? (
+        <div>Loading...</div>
+      ) : (
+        <>
+          <ErrorReport fileName={fileName} folderName={folderName} />
+          <br />
+          <VerifiedFile
             fileName={fileName}
-            // verified={verified}
+            folderName={folderName}
+            verified={verified}
           />
-          <Iframe pdfFolderName={pdfFolderName} fileName={fileName} />
-        </div>
-      </div>
-    );
-  } catch (error) {
-    console.error(error);
-  }
+          <div className={styles.container}>
+            <FormRender
+              folderName={folderName}
+              items={jsonData}
+              fileName={fileName}
+              formSetting={formSetting}
+              // verified={verified}
+            />
+            <Iframe   formSetting={formSetting}   folderName={folderName} fileName={fileName} />
+          </div>
+        </>
+      )}
+    </div>
+  );
 };
 
 export default File;
