@@ -15,10 +15,6 @@ export async function POST(request) {
     const containerClient = blobService.getContainerClient(folderName);
     const blockBlobClient = containerClient.getBlockBlobClient(fileName);
     // // Generate a blob name based on the folder name
-
-    // const blockBlobClient = containerClient.getBlockBlobClient(blobName);
-    // Define an array to store the combined content
-
     // Check if the blob already exists
     const blobExists = await blockBlobClient.exists();
 

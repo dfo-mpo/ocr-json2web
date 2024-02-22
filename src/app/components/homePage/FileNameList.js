@@ -29,6 +29,28 @@ const FileNameList = ({ filesByFolder }) => {
   const uniqueFolderNames = [
     ...new Set(filesByFolder.map((item) => item.folderName)),
   ];
+
+
+
+  const asyncFetchTest = async () => {
+    setIsReload(true);
+    const Response = await fetch("/api/testapi", {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },
+
+    });
+    if (!Response.ok) {
+      throw new Error(Response.statusText);
+    } else if (Response.status === 203) {
+      console.log("No data");
+    } else {
+      
+    }
+  };
+
+
   //fetching the fileName that are verified
   const asyncFetch = async () => {
     setIsReload(true);
@@ -73,6 +95,7 @@ const FileNameList = ({ filesByFolder }) => {
 
   useEffect(() => {
     asyncFetch();
+    asyncFetchTest();
   }, []);
 
   useEffect(() => {
