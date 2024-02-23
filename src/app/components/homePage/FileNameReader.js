@@ -1,58 +1,96 @@
-import { promises as fs } from "fs";
-import path from "path";
+"use client";
+
 import FileNameList from "./FileNameList";
 import Link from "next/link";
 import styles from "./FileNameReader.module.css";
+import { useState, useEffect } from "react";
 
-// this component reads the file names and folder name from the bc16Data folder 
+// this component reads the file names and folder name from the bc16Data folder
 // then combines the file names and folder names as an array of objects: [ {folderName: folderName, fileName: fileName},  ....]
-// and displays file names in a list on the Home page. 
-const FileNameReader = async () => {
-  try {
-    // Define the path to the target folder
-    const folderPath = process.cwd() + "/src/app/bc16Data/";
-    // Read all folder names within the target directory
-    const folderNames = await fs.readdir(folderPath);
-    // Array to hold file details grouped by folder
-    const filesByFolder = [];
-    // Iterate through each folder to gather file details
-    for (const folderName of folderNames) {
-      // Construct the full path to the current folder
-      const directoryPath = path.join(folderPath, folderName);
-      // Read all file names within the current folder
-      const files = await fs.readdir(directoryPath);
-      // Add file details to the array
-      filesByFolder.push(
-        ...files.map((fileName) => ({
-          folderName: folderName,
-          fileName: fileName,
-        }))
-      );
-    }
+// and displays file names in a list on the Home page.
 
-    // Sort the array of file details by file name
-    filesByFolder.sort((a, b) => a.fileName.localeCompare(b.fileName));
-    // Return the component with the list of file details
-    return (
-      <>
-        <FileNameList filesByFolder={filesByFolder} />
-        <div className={styles.errorLink}>
-          <Link
-            href={{
-              pathname: "/errorlog/",
-              query: { folderNames: JSON.stringify(folderNames) },
-            }}
-          >
-            Error Log
-          </Link>
-        </div>
-      </>
-    );
-  } catch (error) {
-    // Log and throw any errors encountered
-    console.error("Error reading file names:", error);
-    throw error;
-  }
+const FileNameReader = () => {
+  const [isLoading, setIsLoading] = useState(false);
+  const [fetchResult, setFetchResult] = useState([]);
+  const [folderNames, setFolderNames] = useState([]);
+
+  const asyncFetch = async () => {
+    setIsLoading(true);
+    const Response = await fetch("/api/fileName", {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+    if (!Response.ok) {
+      throw new Error(Response.statusText);
+    } else if (Response.status === 203) {
+      console.log("No data");
+    } else {
+      const reader = Response.body.getReader();
+
+      const readData = async () => {
+        try {
+          let jsonString = "";
+
+          while (true) {
+            const { done, value } = await reader.read();
+            if (done) {
+              // Process the entire JSON when the stream is complete
+              const dataObject = JSON.parse(jsonString);
+              setFetchResult(dataObject);
+
+              // Extract unique folder names
+              const uniqueFolderNames = [
+                ...new Set(dataObject.map((item) => item.folderName)),
+              ];
+              setFolderNames(uniqueFolderNames);
+              setIsLoading(false);
+              break;
+            }
+
+            // Concatenate the chunks into a single string
+            jsonString += new TextDecoder().decode(value);
+          }
+        } catch (error) {
+          console.error("Error reading response:", error);
+        } finally {
+          reader.releaseLock(); // Release the reader's lock when done
+        }
+      };
+
+      readData();
+    }
+  };
+
+  useEffect(() => {
+    asyncFetch();
+  }, []);
+
+  // Sort the array of file details by file name
+
+  // Return the component with the list of file details
+  return (
+    <>
+      {isLoading ? (
+        <div>Loading...</div>
+      ) : (
+        <>
+          <FileNameList filesByFolder={fetchResult} />
+          <div className={styles.errorLink}>
+            <Link
+              href={{
+                pathname: "/errorlog/",
+                query: { folderNames: folderNames },
+              }}
+            >
+              Error Log
+            </Link>
+          </div>
+        </>
+      )}
+    </>
+  );
 };
 
 export default FileNameReader;

@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import styles from "./page.module.css";
 
 const ErrorLog = ({ searchParams }) => {
-  const folderNames = JSON.parse(searchParams.folderNames);
+  const folderNames = searchParams.folderNames;
   const [errorArray, setErrorArray] = useState([]);
   const [selectErrorArray, setSelectErrorArray] = useState([]);
   
