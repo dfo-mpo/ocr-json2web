@@ -1,0 +1,13 @@
+.selectContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.logContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 6fr 6fr; /* Three columns in each row */
+  gap: 20px; /* Adjust the gap as needed */
+  border: 1px solid #ccc;
+}

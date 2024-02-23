@@ -2,35 +2,36 @@
 import FormRender from "../components/FormRender";
 import styles from "./page.module.css";
 import ErrorReport from "./ErrorReport";
-
+import Link from "next/link";
 import LogoHeader from "../components/LogoHeader";
 import Iframe from "./Iframe";
 import Image from "next/image";
 import errorIcon from "../../../public/images/error.svg";
 import verifiedIcon from "../../../public/images/verified.svg";
 import modifiedIcon from "../../../public/images/modified.svg";
-import VerifiedFile from "./VerifiedFile";
+import VerifiedFile from "./VerifiedFile1";
+import VerifiedButton from "./VerifiedButton";
 import { useState, useEffect, use } from "react";
 const File = ({ searchParams }) => {
   const [isLoading, setIsLoading] = useState(true);
   const [isFormsettingReady, setIsFormsettingReady] = useState(true);
   const [jsonData, setJsonData] = useState({});
   const [formSetting, setFormSetting] = useState({});
+  const [verified, setVerified] = useState(false);
 
   // this is the Form page
   const fileName = searchParams.fileName;
   const folderName = searchParams.folderName;
-  const verified = searchParams.verified;
-  const error = searchParams.error;
-  const isModified = searchParams.isModified;
+
+  const error = searchParams.error === "true";
+  const isModified = searchParams.isModified === "true";
 
   const submitData = {
     fileName: fileName,
     folderName: folderName,
-
   };
 
-  //fetch json data from blob 
+  //fetch json data from blob
   const asyncFetch = async () => {
     setIsLoading(true);
     const Response = await fetch("/api/jsonData", {
@@ -38,7 +39,7 @@ const File = ({ searchParams }) => {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(submitData)
+      body: JSON.stringify(submitData),
     });
     if (!Response.ok) {
       throw new Error(Response.statusText);
@@ -55,6 +56,7 @@ const File = ({ searchParams }) => {
             const jsonString = new TextDecoder().decode(value);
             // Parse the JSON string into an object
             const dataObject = JSON.parse(jsonString);
+            setVerified(dataObject.verified);
             setJsonData(dataObject);
             setIsLoading(false);
           }
@@ -93,7 +95,7 @@ const File = ({ searchParams }) => {
             const jsonString = new TextDecoder().decode(value);
             // Parse the JSON string into an object
             const dataObject = JSON.parse(jsonString);
-        
+
             setFormSetting(dataObject);
             setIsFormsettingReady(false);
           }
@@ -110,9 +112,7 @@ const File = ({ searchParams }) => {
   useEffect(() => {
     asyncFetch();
     asyncFetchFormSetting();
-    
   }, []);
-
   return (
     <div>
       <title>{folderName}</title>
@@ -122,37 +122,31 @@ const File = ({ searchParams }) => {
           Back
         </Link> */}
       <h5 className={styles.fileName}>
-        File Name: {fileName.replace(/_/g, " ").replace(".json", "")}{" "}
+        File Name: {fileName.replace(/_/g, " ").replace(".json", "")}
         {verified && (
           <Image src={verifiedIcon} alt="verified" width={20} height={20} />
-        )}{" "}
+        )}
         {error && <Image src={errorIcon} alt="error" width={15} height={15} />}
         {isModified && (
           <Image src={modifiedIcon} alt="modified" height={23} width={23} />
         )}
       </h5>
 
-      {/* <Link
-          className={styles.linkStyle}
-          rel="noopener noreferrer"
-          target="_blank"
-          href={`https://bc16teststorage.blob.core.windows.net/${pdfFolderName}/${fileName.replace(
-            ".json",
-            ".pdf"
-          )}`}
-        >
-          PDF Version
-        </Link> */}
-      {(isLoading||isFormsettingReady) ? (
+      {isLoading || isFormsettingReady ? (
         <div>Loading...</div>
       ) : (
         <>
-          <ErrorReport fileName={fileName} folderName={folderName} />
+          <ErrorReport
+            fileName={fileName}
+            folderName={folderName}
+            reFetch={asyncFetch}
+          />
           <br />
-          <VerifiedFile
+          <VerifiedButton
             fileName={fileName}
             folderName={folderName}
             verified={verified}
+            reFetch={asyncFetch}
           />
           <div className={styles.container}>
             <FormRender
@@ -162,7 +156,25 @@ const File = ({ searchParams }) => {
               formSetting={formSetting}
               // verified={verified}
             />
-            <Iframe   formSetting={formSetting}   folderName={folderName} fileName={fileName} />
+            <Link
+              className={styles.linkStyle}
+              rel="noopener noreferrer"
+              target="_blank"
+              href={{
+                pathname: "/viewJson/",
+                query: {
+                  folderName: folderName,
+                  fileName: fileName,
+                },
+              }}
+            >
+              View Json
+            </Link>
+            <Iframe
+              formSetting={formSetting}
+              folderName={folderName}
+              fileName={fileName}
+            />
           </div>
         </>
       )}

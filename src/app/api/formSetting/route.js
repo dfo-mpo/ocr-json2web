@@ -1,41 +1,31 @@
-
 // fetch the data from the blob storage, combine them and return the data to the frontend
-// data contain the file name and the folder name and verified data 
+// data contain the file name and the folder name and verified data
 import { BlobServiceClient } from "@azure/storage-blob";
 
 export async function GET() {
-
-
+  const connectionString = process.env.AZURE_STORAGE_CONNECTION_STRING;
+  // jsondata is container name which storage the data by folder
+  const containerName = "websiteinfo";
+  const fileName = "formSetting.json";
   try {
-    const SAS_URL = process.env.NEXT_PUBLIC_SAS_URL;
+    // Create a BlobServiceClient
+    const blobServiceClient =
+      BlobServiceClient.fromConnectionString(connectionString);
+    // Get a container client from the BlobServiceClient
+    const containerClient = blobServiceClient.getContainerClient(containerName);
 
-    const blobService = new BlobServiceClient(SAS_URL);
-
-    const containerClient = blobService.getContainerClient("formSetting");
-    const blobName = 'formSetting.json';
-
-    // Get the blockBlobClient for the generated blobName
-    const blockBlobClient = containerClient.getBlockBlobClient(blobName);
-
-    // Check if the blob already exists
+    const blockBlobClient = containerClient.getBlockBlobClient(fileName);
     const blobExists = await blockBlobClient.exists();
-    let data = {};
+
     if (blobExists) {
-      // Blob exists, fetch its content
+      //   // Blob exists, fetch its content
       const response = await blockBlobClient.downloadToBuffer();
-      data = JSON.parse(response.toString()); // Assuming the content is JSON
-
+      const blobContent = JSON.parse(response.toString());
+      const updatedJsonData = JSON.stringify(blobContent, null, 2);
+      return new Response(updatedJsonData, { status: 200 });
+    } else {
+      throw new Error("Blob does not exist");
     }
-    else{
-      return new Response("No data", { status: 203 });
-    }
-    // Convert the updated data
-
-    const updatedJsonData = JSON.stringify(data, null, 2);
-
-    // Upload the updated JSON data to the blob
-
-    return new Response(updatedJsonData, { status: 200 });
   } catch (error) {
     console.error("Caught an outside error:", error);
     return new Response(error.message, { status: 500 });

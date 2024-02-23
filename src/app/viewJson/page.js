@@ -1,7 +1,7 @@
 import React from "react";
 import fs from "fs/promises";
 import styles from "./page.module.css";
-import ModifyForm from "./ModifyForm";
+import ViewJson from "./ViewJson";
 
 const page = async ({ searchParams }) => {
   const { folderName, fileName } = searchParams;
@@ -14,7 +14,7 @@ const page = async ({ searchParams }) => {
     return (
       <div className={styles.container}>
         <div className={styles.fileName}>File Name: {fileName}</div>
-        <ModifyForm jsonData={jsonData} folderName ={folderName} fileName={fileName} />
+        <ViewJson jsonData={jsonData} folderName ={folderName} fileName={fileName} />
         <div className={styles.note}>Note: Any changes made here are saved to the storage blob and will not reflect in the web application.</div>
         
       </div>

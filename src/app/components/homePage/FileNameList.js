@@ -8,7 +8,7 @@ import Link from "next/link";
 import FileSearch from "./FileSearch";
 import styles from "./FileNameList.module.css";
 
-const FileNameList = ({ filesByFolder }) => {
+const FileNameList = ({ filesByFolder, fileStatus}) => {
   const [fileSearch, setFileSearch] = useState(filesByFolder);
   const [pageNumber, setPageNumber] = useState(1);
   const [fileStatusJson, setFileStatusJson] = useState([]);
@@ -49,6 +49,7 @@ const FileNameList = ({ filesByFolder }) => {
       throw new Error(Response.statusText);
     } else if (Response.status === 203) {
       console.log("No data");
+      setIsReload(false);
     } else {
       const reader = Response.body.getReader();
       const readData = async () => {
@@ -62,7 +63,7 @@ const FileNameList = ({ filesByFolder }) => {
             const jsonString = new TextDecoder().decode(value);
             // Parse the JSON string into an object
             const dataObject = JSON.parse(jsonString);
-
+            fileStatus(dataObject);
             setFileStatusJson(dataObject);
             setIsReload(false);
           }

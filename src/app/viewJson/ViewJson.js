@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
-import styles from "./ModifyForm.module.css";
-const ModifyForm = async ({ jsonData, folderName, fileName }) => {
+import styles from "./ViewJson.module.css";
+const ViewJson = async ({ jsonData, folderName, fileName }) => {
   const onSubmitHandler = async (event) => {
     event.preventDefault();
     const newJsonData = JSON.parse(event.target.jsonData.value);
@@ -42,4 +42,4 @@ const ModifyForm = async ({ jsonData, folderName, fileName }) => {
   );
 };
 
-export default ModifyForm;
+export default ViewJson;

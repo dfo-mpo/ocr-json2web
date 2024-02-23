@@ -6,6 +6,7 @@ import TableType1 from "./ReableTables/TableType1";
 import TableType2 from "./ReableTables/TableType2";
 import TableType3 from "./ReableTables/TableType3";
 import TableType4 from "./ReableTables/TableType4";
+import TableType6 from "./ReableTables/TableType6";
 
 const Form = ({ items, folderName, fileName, formSetting }) => {
   const title = formSetting.title;
@@ -84,6 +85,18 @@ const Form = ({ items, folderName, fileName, formSetting }) => {
           } else if (formSettingItem.tableType === "TableType4") {
             return (
               <TableType4
+                myStyle={formSettingItem.style}
+                key={index}
+                items={updateJson}
+                folderName={folderName}
+                fileName={fileName}
+                formSetting={formSettingItem}
+                onEdit={changeHandler}
+              />
+            );
+          } else if (formSettingItem.tableType === "TableType6") {
+            return (
+              <TableType6
                 myStyle={formSettingItem.style}
                 key={index}
                 items={updateJson}

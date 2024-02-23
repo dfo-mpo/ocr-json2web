@@ -9,7 +9,7 @@ import Image from "next/image";
 import errorIcon from "../../../public/images/error.svg";
 import verifiedIcon from "../../../public/images/verified.svg";
 import modifiedIcon from "../../../public/images/modified.svg";
-import VerifiedFile from "./VerifiedFile";
+import VerifiedFile from "./VerifiedFile1";
 const File = async ({ searchParams }) => {
 
   // this is the Form page

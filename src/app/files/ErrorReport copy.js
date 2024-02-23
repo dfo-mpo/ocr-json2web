@@ -7,7 +7,7 @@ import { useFormState } from "react-dom";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import error from "../../../public/images/error.svg";
-const ErrorReport = ({ folderName, fileName, reFetch }) => {
+const ErrorReport = ({ folderName, fileName }) => {
   const router = useRouter();
   const [isError, setIsError] = useState(false);
   const [isToggled, setIsToggled] = useState(false);
@@ -72,7 +72,7 @@ const ErrorReport = ({ folderName, fileName, reFetch }) => {
       return;
     }
 
-    const Response = await fetch("/api/errorStatus", {
+    const Response = await fetch("/api/errorReport", {
       method: "POST",
       body: JSON.stringify(submitData),
       headers: {
@@ -87,7 +87,6 @@ const ErrorReport = ({ folderName, fileName, reFetch }) => {
       alert("Success");
       setIsError(false);
       setIsToggled(false);
-      reFetch();
       setSubmitData({
         fileName: fileName,
         folderName: folderName,

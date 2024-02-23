@@ -4,6 +4,7 @@ import FileNameList from "./FileNameList";
 import Link from "next/link";
 import styles from "./FileNameReader.module.css";
 import { useState, useEffect } from "react";
+import LogPage from "./LogPage";
 
 // this component reads the file names and folder name from the bc16Data folder
 // then combines the file names and folder names as an array of objects: [ {folderName: folderName, fileName: fileName},  ....]
@@ -13,7 +14,11 @@ const FileNameReader = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [fetchResult, setFetchResult] = useState([]);
   const [folderNames, setFolderNames] = useState([]);
-
+  const [isLog, setIsLog] = useState(false);
+  const [fileStatus, setFileStatus] = useState([]);
+  const fileStatusHandler = (data) => {
+    setFileStatus(data);
+  };
   const asyncFetch = async () => {
     setIsLoading(true);
     const Response = await fetch("/api/fileName", {
@@ -76,17 +81,19 @@ const FileNameReader = () => {
         <div>Loading...</div>
       ) : (
         <>
-          <FileNameList filesByFolder={fetchResult} />
-          <div className={styles.errorLink}>
-            <Link
-              href={{
-                pathname: "/errorlog/",
-                query: { folderNames: folderNames },
-              }}
-            >
-              Error Log
-            </Link>
-          </div>
+          {isLog ? (
+            <LogPage fileStatus={fileStatus}
+            folderNames = {folderNames}
+            />
+          ) : (
+            <FileNameList
+              filesByFolder={fetchResult}
+              fileStatus={fileStatusHandler}
+            />
+          )}
+          <button className={styles.logButton} onClick={() => setIsLog(!isLog)}>
+            {isLog ? "Close" : "Show Log"}
+          </button>
         </>
       )}
     </>

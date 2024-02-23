@@ -25,24 +25,11 @@ const SingleForm = ({ items, folderName, fileName }) => {
   const format7e = folderName == "7eresultocr";
 
   /* delete this once is Tan reviewed */
-  const formatTe = folderName == "teresultocr"; //TODO: delete this once is Tan reviewed
+  const formatTe = folderName == "teresultocr"; 
 
   return (
     <div className={styles.container}>
-      <Link
-        className={styles.linkStyle}
-        rel="noopener noreferrer"
-        target="_blank"
-        href={{
-          pathname: "/modify/",
-          query: {
-            folderName: folderName,
-            fileName: fileName,
-          },
-        }}
-      >
-        Modify
-      </Link>
+
       <div className={styles.header}>
         <div className={styles.header1}>DEPARTMENT OF FISHERIES AND OCEANS</div>
         <div className={styles.header2}>
@@ -55,8 +42,8 @@ const SingleForm = ({ items, folderName, fileName }) => {
           <TeForm items={items} folderName={folderName} fileName ={fileName}/>
         </ModifyContextProvider>
       )}
-      {/* //TODO: delete this once is Tan reviewed */}
-      {!formatTe && ( //TODO: delete this once is Tan reviewed
+    
+      {!formatTe && ( 
         <>
           <div className={styles.headerBox}>
             <div className={styles.streamID}>
