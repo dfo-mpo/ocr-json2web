@@ -3,58 +3,13 @@ import SingleForm from "./SingleForm";
 import Form from "./Form";
 import { useState, useEffect, use } from "react";
 import styles from "./FormRender.module.css";
+//TODO: remove import formSetting from "../formSetting.json"
 import formSetting from "../formSetting.json"
-
+//TODO: add formSetting as a prop
 const FormRender = ({ items, folderName, fileName }) => {
-  console.log(formSetting);
+ 
   const [isForm, setIsForm] = useState(true);
-  //TODO: turn this back on
-  // const [formSetting, setFormSetting] = useState({});
-  //TODO: turn this to true 
-  const [isReload, setIsReload] = useState(false);
-
-//TODO: turn this back on
-  // const asyncFetch = async () => {
-  //   setIsReload(true);
-  //   const Response = await fetch("/api/formSetting", {
-  //     method: "GET",
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //     },
-  //   });
-  //   if (!Response.ok) {
-  //     throw new Error(Response.statusText);
-  //   } else if (Response.status === 203) {
-  //     console.log("No data");
-  //   } else {
-  //     const reader = Response.body.getReader();
-  //     const readData = async () => {
-  //       try {
-  //         while (true) {
-  //           const { done, value } = await reader.read();
-  //           if (done) {
-  //             break;
-  //           }
-  //           // `value` contains the chunk of data as a Uint8Array
-  //           const jsonString = new TextDecoder().decode(value);
-  //           // Parse the JSON string into an object
-  //           const dataObject = JSON.parse(jsonString);
-        
-  //           setFormSetting(dataObject);
-  //           setIsReload(false);
-  //         }
-  //       } catch (error) {
-  //         console.error("Error reading response:", error);
-  //       } finally {
-  //         reader.releaseLock(); // Release the reader's lock when done
-  //       }
-  //     };
-  //     readData();
-  //   }
-  // };
-  // useEffect(() => {
-  //   asyncFetch();
-  // }, []);
+ 
   
   return (
     <>
@@ -69,7 +24,7 @@ const FormRender = ({ items, folderName, fileName }) => {
         <SingleForm folderName={folderName} fileName={fileName} items={items} />
       )}
       {isForm && (
-        isReload ? (<div>Loading...</div>) : (<Form folderName={folderName} formSetting = {formSetting} fileName={fileName} items={items} />)
+        <Form folderName={folderName} formSetting = {formSetting} fileName={fileName} items={items} />
       )}
     </>
   );

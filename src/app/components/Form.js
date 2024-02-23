@@ -1,3 +1,4 @@
+"use client";
 import { useState } from "react";
 import styles from "./Form.module.css";
 // import formSetting from "../formSetting.json";
