@@ -106,7 +106,7 @@ const FileNameList = ({ filesByFolder, fileStatus }) => {
     if (keyword !== "") {
       filteredFiles = filteredFiles.filter((file) =>
         file.fileName
-          .replace(/_/, " ")
+          .replace(/_/g, " ")
           .toLowerCase()
           .includes(keyword.toLowerCase())
       );
@@ -131,7 +131,7 @@ const FileNameList = ({ filesByFolder, fileStatus }) => {
     if (keyword !== "") {
       filteredFiles = filteredFiles.filter((file) =>
         file.fileName
-          .replace(/_/, " ")
+          .replace(/_/g, " ")
           .toLowerCase()
           .includes(keyword.toLowerCase())
       );

@@ -16,10 +16,10 @@ function FileSearch(props) {
 
   const handleChange = (event) => {
     const { name, value } = event.target;
-    const trimmedValue = value.trim();
+    
     setSearchResults({
       ...searchResults,
-      [name]: trimmedValue,
+      [name]: value,
     });
   };
 
