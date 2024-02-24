@@ -2,11 +2,11 @@
 import { useState } from "react";
 import styles from "./Form.module.css";
 // import formSetting from "../formSetting.json";
-import TableType1 from "./ReableTables/TableType1";
-import TableType2 from "./ReableTables/TableType2";
-import TableType3 from "./ReableTables/TableType3";
-import TableType4 from "./ReableTables/TableType4";
-import TableType6 from "./ReableTables/TableType6";
+import TableType1 from "./ReusableTables/TableType1";
+import TableType2 from "./ReusableTables/TableType2";
+import TableType3 from "./ReusableTables/TableType3";
+import TableType4 from "./ReusableTables/TableType4";
+import TableType6 from "./ReusableTables/TableType6";
 
 const Form = ({ items, folderName, fileName, formSetting }) => {
   const title = formSetting.title;
@@ -19,10 +19,31 @@ const Form = ({ items, folderName, fileName, formSetting }) => {
     setUpdateJson(value);
   };
 
+  const onClickHandler = async (updateJson) => {
+    const Response = await fetch("/api/saveModified", {
+      method: "POST",
+      body: JSON.stringify({
+        folderName: folderName,
+        fileName: fileName,
+        data: updateJson,
+      }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+
+    if (!Response.ok) {
+      setIsEditing(false);
+      alert("Error");
+    } else {
+      setIsEditing(false);
+      alert("Success");
+    }
+  };
+
   const saveHandler = () => {
-    console.log(updateJson);
-    setIsEditing(false);
-    alert("Save function is not implemented yet");
+
+    onClickHandler(updateJson);
   };
   const resetEdit = () => {
     setIsEditing(false);

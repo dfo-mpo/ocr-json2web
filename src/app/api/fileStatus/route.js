@@ -6,6 +6,7 @@ export async function POST(request) {
   const folderName = await request.json();
 
 
+
   const connectionString = process.env.AZURE_STORAGE_CONNECTION_STRING;
 
   const containerName = "websiteinfo";

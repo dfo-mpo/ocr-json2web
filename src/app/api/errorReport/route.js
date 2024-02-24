@@ -1,3 +1,5 @@
+
+//TODO: can be deleted
 //sending error report to blob storage
 import { BlobServiceClient } from "@azure/storage-blob";
 

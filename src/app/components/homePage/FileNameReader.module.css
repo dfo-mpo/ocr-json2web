@@ -13,7 +13,7 @@
 .logButton {
   position: absolute;
   bottom: 20px;
-  right: 50%;
+  left: 10px;
 }
 .logButton:hover {
   color: red;

@@ -20,6 +20,9 @@ export async function POST(request) {
   const containerName = "websiteinfo";
   //connect to jsondata container to update verified status in the json file
   const containerName2 = "jsondata";
+
+  //connect to jsondatamodified container to update verified status in the json file
+  const containerName3 = "jsondatamodified";
   try {
     // Create a BlobServiceClient
     const blobServiceClient =
@@ -27,20 +30,18 @@ export async function POST(request) {
     // Get a container client from the BlobServiceClient
     // Get a container client from the BlobServiceClient
     const containerClient = blobServiceClient.getContainerClient(containerName);
-    //connect to jsondata container t
+    //connect to jsondata container
     const containerClient2 =
       blobServiceClient.getContainerClient(containerName2);
-
 
     const blockBlobClient2 = containerClient2.getBlockBlobClient(
       `${folderName}/${fileName}`
     );
 
-    
     //open json file
 
     const blobExists2 = await blockBlobClient2.exists();
-  
+
     if (blobExists2) {
       const existingData2 = await blockBlobClient2.downloadToBuffer();
       const existingJson2 = existingData2.toString();
@@ -51,11 +52,44 @@ export async function POST(request) {
       const updatedJsonData2 = JSON.stringify(jsonData, null, 2);
       // Upload the updated JSON data to the blob
       try {
-        await blockBlobClient2.upload(updatedJsonData2, updatedJsonData2.length);
+        await blockBlobClient2.upload(
+          updatedJsonData2,
+          updatedJsonData2.length
+        );
       } catch (error) {
         throw new Error(error.message);
       }
-    
+    }
+
+    //connect to jsondatamodified container
+    const containerClient3 =
+      blobServiceClient.getContainerClient(containerName3);
+
+    const blockBlobClient3 = containerClient3.getBlockBlobClient(
+      `${folderName}/${fileName}`
+    );
+
+    //open json file from jsondatamodified container
+
+    const blobExists3 = await blockBlobClient3.exists();
+
+    if (blobExists3) {
+      const existingData3 = await blockBlobClient3.downloadToBuffer();
+      const existingJson3 = existingData3.toString();
+      let jsonData = JSON.parse(existingJson3);
+
+      // update or add verified status to existing json file
+      jsonData = { ...jsonData, verified: true };
+      const updatedJsonData3 = JSON.stringify(jsonData, null, 2);
+      // Upload the updated JSON data to the blob
+      try {
+        await blockBlobClient3.upload(
+          updatedJsonData3,
+          updatedJsonData3.length
+        );
+      } catch (error) {
+        throw new Error(error.message);
+      }
     }
 
     // Generate a blob name based on the folder name

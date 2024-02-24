@@ -16,18 +16,7 @@ const LogPage = ({ fileStatus, folderNames }) => {
     }
   };
 
-  const handleChange2 = (event) => {
-    if (event.target.value === "all") {
-      setFilterData(fileStatus);
-    } else {
-      const filteredData = filterData.filter((item) => {
-       const value = event.target.value 
-        console.log(item[value]);
-        return item.value
-      });
-      setFilterData(filteredData);
-    }
-  }
+
   return (
     <div>
       <div>
@@ -47,13 +36,6 @@ const LogPage = ({ fileStatus, folderNames }) => {
       </div>
 
       <div className={styles.container}>
-        <div className={styles.selectContainer}>
-          <select className={styles.select} onChange={handleChange2}>
-            <option value="all">All</option>
-            <option value="verified">Verified</option>
-            <option value="error">Error</option>
-          </select>
-        </div>
         {filterData.map((item, index) => {
           return (
             <div key={index} className={styles.logContainer}>

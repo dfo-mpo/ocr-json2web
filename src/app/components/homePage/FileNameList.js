@@ -86,9 +86,9 @@ const FileNameList = ({ filesByFolder, fileStatus}) => {
   useEffect(() => {
     // Create a map from fileStatusJson for efficient lookup based on fileName
     const verifiedMap = new Map(
-      fileStatusJson.map(({ fileName, verified, error, isModified }) => [
+      fileStatusJson.map(({ fileName, verified, error, modified }) => [
         fileName,
-        { verified, error, isModified },
+        { verified, error, modified },
       ])
     );
 
@@ -228,7 +228,7 @@ const FileNameList = ({ filesByFolder, fileStatus}) => {
                   fileName: file.fileName,
                   verified: file.verified,
                   error: file.error,
-                  isModified: file.isModified,
+                  modified: file.modified,
                 },
               }}
             >
@@ -239,7 +239,7 @@ const FileNameList = ({ filesByFolder, fileStatus}) => {
               {file.error && (
                 <Image src={error} alt="error" height={17} width={17} />
               )}
-              {file.isModified && (
+              {file.modified && (
                 <Image
                   src={modifiedIcon}
                   alt="modified"

@@ -40,17 +40,9 @@
   align-items: center;
   margin-bottom: 50px;
 }
-
-
-.modifiedLink{
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: red;
-}
-
-.modifiedLink :hover{
-
-  text-decoration: underline;
+.version{
+  margin-left: 10px;
+  font-size: 1em;
+  color: #ff0000;
   font-weight: 600;
 }
