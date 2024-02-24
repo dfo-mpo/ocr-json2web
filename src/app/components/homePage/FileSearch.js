@@ -4,25 +4,15 @@ import styles from "./FileSearch.module.css";
 
 function FileSearch(props) {
   const [searchResults, setSearchResults] = useState({
-    area: "",
-    waterbody: "",
-    year: "",
-    format: "",
+    keyword: "",
+    folder: "",
   });
 
   const folderName = props.folderName.sort();
 
-  const areas = props.areas;
-  areas.sort((a, b) => {
-    const numA = parseInt(a.split("_")[1]);
-    const numB = parseInt(b.split("_")[1]);
-    return numA - numB;
-  });
+  const keywordRef = useRef(null);
 
-  const areaRef = useRef(null);
-  const waterbodyRef = useRef(null);
-  const yearRef = useRef(null);
-  const formatRef = useRef(null);
+  const folderRef = useRef(null);
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -41,50 +31,34 @@ function FileSearch(props) {
   const handleReset = (event) => {
     event.preventDefault();
     setSearchResults({
-      area: "",
-      waterbody: "",
-      year: "",
-      format: "",
+      keyword: "",
+      folder: "",
     });
 
     // Clear input values or select options
-    areaRef.current.value = "";
-    waterbodyRef.current.value = "";
-    yearRef.current.value = "";
-    formatRef.current.value = "";
+
+    keywordRef.current.value = "";
+
+    folderRef.current.value = "";
 
     props.onSearch({
-      area: "",
-      waterbody: "",
-      year: "",
-      format: "",
+      keyword: "",
+
+      folder: "",
     });
   };
 
   return (
     <div className={styles.allWrapper}>
       <div className={styles.wrapper}>
-        <label htmlFor="area">Area</label>
-        <select id="area" name="area" onChange={handleChange} ref={areaRef}>
-          <option defaultValue value="">
-            All
-          </option>
-          {areas.map((area, index) => {
-            return (
-              <option key={index} value={area.toLowerCase()}>
-                {area.replace(/_/g, " ")}
-              </option>
-            );
-          })}
-        </select>
-        <label htmlFor="waterbody">Waterbody</label>
+        <label htmlFor="keyword">Keyword</label>
         <input
-          name="waterbody"
+          name="keyword"
           onChange={handleChange}
-          id="waterbody"
+          id="keyword"
           type="text"
-          placeholder="Search Name"
-          ref={waterbodyRef}
+          placeholder="Search by keyword"
+          ref={keywordRef}
           onKeyDown={(event) => {
             if (event.key === "Enter") {
               // Check if Enter key is pressed
@@ -93,45 +67,20 @@ function FileSearch(props) {
             }
           }}
         />
-        <label htmlFor="year">Year</label>
-        <input
-          id="year"
-          name="year"
-          onChange={handleChange}
-          type="number"
-          placeholder="1990"
-          ref={yearRef}
-          onKeyDown={(event) => {
-            if (event.key === "Enter") {
-              // Check if Enter key is pressed
-              event.preventDefault(); // Prevent default form submission
-              handleSubmit(event); // Call the search function
-            }
-          }}
-        />
-        <label htmlFor="format">Format</label>
+        <label htmlFor="folder">Folder</label>
         <select
-          id="format"
-          name="format"
+          id="folder"
+          name="folder"
           onChange={handleChange}
-          ref={formatRef}
+          ref={folderRef}
         >
           <option defaultValue value="">
             All
           </option>
-          {/* <option value="Format_4C">4C</option>
-          <option value="Format_4H">4H</option>
-          <option value="Format_5A">5A</option>
-          <option value="Format_6E">6E</option>
-          <option value="Format_7E">7E</option> */}
-
           {folderName.map((folderName, index) => {
             return (
-              <option
-                key={index}
-                value={`Format_${folderName.substring(0, 2).toUpperCase()}`}
-              >
-                {folderName.substring(0, 2).toUpperCase()}
+              <option key={index} value={folderName}>
+                {folderName}
               </option>
             );
           })}

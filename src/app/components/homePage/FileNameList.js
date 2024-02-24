@@ -8,7 +8,7 @@ import Link from "next/link";
 import FileSearch from "./FileSearch";
 import styles from "./FileNameList.module.css";
 
-const FileNameList = ({ filesByFolder, fileStatus}) => {
+const FileNameList = ({ filesByFolder, fileStatus }) => {
   const [fileSearch, setFileSearch] = useState(filesByFolder);
   const [pageNumber, setPageNumber] = useState(1);
   const [fileStatusJson, setFileStatusJson] = useState([]);
@@ -19,21 +19,15 @@ const FileNameList = ({ filesByFolder, fileStatus}) => {
   const [newfilesByFolder, setNewfilesByFolder] = useState(filesByFolder);
   const [isReload, setIsReload] = useState(false);
   const [searchParams, setSearchParams] = useState({
-    area: "",
-    waterbody: "",
-    year: "",
-    format: "",
+    keyword: "",
+
+    folder: "",
   });
 
   // Extract unique folder names
   const uniqueFolderNames = [
     ...new Set(filesByFolder.map((item) => item.folderName)),
   ];
-
-
-
-
-
 
   //fetching the firle status
   const asyncFetch = async () => {
@@ -80,7 +74,6 @@ const FileNameList = ({ filesByFolder, fileStatus}) => {
 
   useEffect(() => {
     asyncFetch();
-
   }, []);
 
   useEffect(() => {
@@ -99,83 +92,54 @@ const FileNameList = ({ filesByFolder, fileStatus}) => {
     });
     setNewfilesByFolder(updatedFilesByFolder);
     setFileSearch(updatedFilesByFolder);
-    onSearchHandler2(searchParams,updatedFilesByFolder);
+    onSearchHandler2(searchParams, updatedFilesByFolder);
   }, [fileStatusJson]);
-  //getting unique area names
-  const areas = filesByFolder
-    .map((item) => {
-      const match = item.fileName.match(/Area_(\d+[A-Z]?)/);
-      return match ? match[0] : null;
-    })
-    .filter((value, index, self) => {
-      return value && self.indexOf(value) === index;
-    });
 
   const currentPageFiles = fileSearch.slice(startIndex, endIndex);
 
   const onSearchHandler = (searchResults) => {
-    const { area, waterbody, year, format } = searchResults;
+    const { keyword, folder } = searchResults;
     setSearchParams(searchResults);
 
     let filteredFiles = newfilesByFolder;
 
-    if (area !== "") {
-      filteredFiles = filteredFiles.filter((file) =>
-        file.fileName.toLowerCase().includes(area.toLowerCase() + "_")
-      );
-    }
-    if (waterbody !== "") {
+    if (keyword !== "") {
       filteredFiles = filteredFiles.filter((file) =>
         file.fileName
-          .replace(/_/g, " ")
+          .replace(/_/, " ")
           .toLowerCase()
-          .includes(waterbody.toLowerCase())
-      );
-    }
-    if (year !== "") {
-      filteredFiles = filteredFiles.filter((file) =>
-        file.fileName.includes("_" + year + "_")
+          .includes(keyword.toLowerCase())
       );
     }
 
-    if (format !== "") {
-      filteredFiles = filteredFiles.filter((file) =>
-        file.fileName.includes(format)
+    if (folder !== "") {
+      filteredFiles = filteredFiles.filter(
+        (file) => file.folderName === folder
       );
     }
 
     setFileSearch(filteredFiles);
     setPageNumber(1);
   };
-
+//onSearchHandler2 is when the click reload button, the search result will be still the same
   const onSearchHandler2 = (searchResults, newdata) => {
-    const { area, waterbody, year, format } = searchResults;
+    const { keyword, folder } = searchResults;
     setSearchParams(searchResults);
 
     let filteredFiles = newdata;
 
-    if (area !== "") {
-      filteredFiles = filteredFiles.filter((file) =>
-        file.fileName.toLowerCase().includes(area.toLowerCase() + "_")
-      );
-    }
-    if (waterbody !== "") {
+    if (keyword !== "") {
       filteredFiles = filteredFiles.filter((file) =>
         file.fileName
-          .replace(/_/g, " ")
+          .replace(/_/, " ")
           .toLowerCase()
-          .includes(waterbody.toLowerCase())
+          .includes(keyword.toLowerCase())
       );
     }
-    if (year !== "") {
-      filteredFiles = filteredFiles.filter((file) =>
-        file.fileName.includes("_" + year + "_")
-      );
-    }
-    if (format !== "") {
-      filteredFiles = filteredFiles.filter((file) =>
 
-        file.fileName.includes(format)
+    if (folder !== "") {
+      filteredFiles = filteredFiles.filter(
+        (file) => file.folderName === folder
       );
     }
 
@@ -200,14 +164,11 @@ const FileNameList = ({ filesByFolder, fileStatus}) => {
   };
   return (
     <div className={styles.container}>
-      <FileSearch areas={areas} folderName={uniqueFolderNames} onSearch={onSearchHandler} />
+      <FileSearch folderName={uniqueFolderNames} onSearch={onSearchHandler} />
 
       <div className={styles.listWrapper}>
         <div className={styles.reloadBtnWrapper}>
-          <button
-            className={styles.reloadBtn}
-            onClick={asyncFetch}
-          >
+          <button className={styles.reloadBtn} onClick={asyncFetch}>
             {isReload ? "Loading" : "Reload"}
           </button>
         </div>
@@ -226,9 +187,6 @@ const FileNameList = ({ filesByFolder, fileStatus}) => {
                 query: {
                   folderName: file.folderName,
                   fileName: file.fileName,
-                  verified: file.verified,
-                  error: file.error,
-                  modified: file.modified,
                 },
               }}
             >

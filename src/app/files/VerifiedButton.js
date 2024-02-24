@@ -10,13 +10,6 @@ const VerifiedButton = ({ folderName, fileName, verified, reFetch }) => {
   //   });
   const [isToggled, setIsToggled] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
-  const passwordRef = useRef(null);
-
-  useEffect(() => {
-    if (isToggled) {
-      passwordRef.current.focus();
-    }
-  }, [isToggled]);
 
   const onClickHandler = async (e) => {
     const submitData = {
@@ -24,7 +17,6 @@ const VerifiedButton = ({ folderName, fileName, verified, reFetch }) => {
       fileName: e.target.fileName.value,
       verified: e.target.verified.value,
     };
-  
 
     const Response = await fetch("/api/verifiedStatus", {
       method: "POST",
@@ -43,14 +35,7 @@ const VerifiedButton = ({ folderName, fileName, verified, reFetch }) => {
       reFetch();
     }
   };
-  const onPasswordHandler = (e) => {
-    const password = document.getElementById("password").value;
-    if (password === "123") {
-      onClickHandler(e);
-    } else {
-      alert("Wrong Password");
-    }
-  };
+
   return (
     <>
       {isToggled && (
@@ -63,18 +48,11 @@ const VerifiedButton = ({ folderName, fileName, verified, reFetch }) => {
             className={styles.errorWindow}
             onSubmit={(e) => {
               e.preventDefault();
-              onPasswordHandler(e);
+              onClickHandler(e);
             }}
           >
             <div className={styles.passwordWrap}>
-              <label htmlFor="password">Password</label>
-
-              <input
-                type="password"
-                id="password"
-                ref={passwordRef}
-                name="password"
-              />
+              Are you sure to verify this file?
             </div>
 
             <input
@@ -90,11 +68,9 @@ const VerifiedButton = ({ folderName, fileName, verified, reFetch }) => {
               value={fileName}
             />
             <input type="hidden" id="verified" name="verified" value="true" />
-            {isSuccess && <p className={styles.success}>Submit Successfully</p>}
+
             <div className={styles.buttonWrapper}>
-              <button className={styles.submit} type="submit">
-                Submit
-              </button>
+              <button className={styles.submit}>Submit</button>
               <button
                 className={styles.cancel}
                 onClick={() => {

@@ -60,7 +60,7 @@ const File = ({ searchParams }) => {
             const jsonString = new TextDecoder().decode(value);
             // Parse the JSON string into an object
             const dataObject = JSON.parse(jsonString);
-            setVerified(dataObject.verified);
+     
             setJsonData(dataObject);
             setIsLoading(false);
           }
