@@ -16,6 +16,9 @@ export async function POST(request) {
       folderName: folderName,
       fileName: fileName,
       modified: true,
+      error: false,
+      errorInfo: [],
+      verified: false,
     },
   ];
 
@@ -74,7 +77,7 @@ export async function POST(request) {
       const jsonData = JSON.stringify(statusData, null, 2);
       //     // Upload the new JSON array to the blob
       try {
-        await blockBlobClient.upload(jsonData, jsonData.length);
+        await blockBlobClient2.upload(jsonData, jsonData.length);
       } catch (error) {
         throw new Error(error.message);
       }

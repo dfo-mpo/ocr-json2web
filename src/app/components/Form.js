@@ -8,7 +8,7 @@ import TableType3 from "./ReusableTables/TableType3";
 import TableType4 from "./ReusableTables/TableType4";
 import TableType6 from "./ReusableTables/TableType6";
 
-const Form = ({ items, folderName, fileName, formSetting }) => {
+const Form = ({ items, folderName, fileName, formSetting, saveChange }) => {
   const title = formSetting.title;
   const subtitle = formSetting.subtitle;
   const [updateJson, setUpdateJson] = useState(items);
@@ -38,6 +38,7 @@ const Form = ({ items, folderName, fileName, formSetting }) => {
     } else {
       setIsEditing(false);
       alert("Success");
+      saveChange();
     }
   };
 

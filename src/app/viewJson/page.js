@@ -1,26 +1,72 @@
-import React from "react";
-import fs from "fs/promises";
+"use client";
+import { useState, useEffect } from "react";
+
 import styles from "./page.module.css";
 import ViewJson from "./ViewJson";
 
-const page = async ({ searchParams }) => {
+const page = ({ searchParams }) => {
   const { folderName, fileName } = searchParams;
-  try {
-    const filePath =
-      process.cwd() + `/src/app/bc16Data/${folderName}/${fileName}`;
-    const fileContent = await fs.readFile(filePath, "utf8");
-    const jsonData = JSON.parse(fileContent);
+  const [isLoading, setIsLoading] = useState(true);
+  const [jsonData, setJsonData] = useState({});
 
-    return (
-      <div className={styles.container}>
-        <div className={styles.fileName}>File Name: {fileName}</div>
-        <ViewJson jsonData={jsonData} folderName ={folderName} fileName={fileName} />
-        <div className={styles.note}>Note: Any changes made here are saved to the storage blob and will not reflect in the web application.</div>
-        
-      </div>
-    );
-  } catch (error) {
-    return <div>error</div>;
-  }
+  //fetch json data from blob
+  const asyncFetch = async () => {
+    setIsLoading(true);
+    const Response = await fetch("/api/jsonData", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        fileName: fileName,
+        folderName: folderName,
+      }),
+    });
+    if (!Response.ok) {
+      throw new Error(Response.statusText);
+    } else {
+      const reader = Response.body.getReader();
+      const readData = async () => {
+        try {
+          while (true) {
+            const { done, value } = await reader.read();
+            if (done) {
+              break;
+            }
+            // `value` contains the chunk of data as a Uint8Array
+            const jsonString = new TextDecoder().decode(value);
+            // Parse the JSON string into an object
+            const dataObject = JSON.parse(jsonString);
+
+            setJsonData(dataObject);
+            setIsLoading(false);
+          }
+        } catch (error) {
+          console.error("Error reading response:", error);
+        } finally {
+          reader.releaseLock(); // Release the reader's lock when done
+        }
+      };
+      readData();
+    }
+  };
+  useEffect(() => {
+    asyncFetch();
+  }, []);
+
+  return (
+    <div className={styles.container}>
+      <div className={styles.fileName}>File Name: {fileName}</div>
+      {isLoading ? (
+        <div>Loading...</div>
+      ) : (
+        <ViewJson
+          jsonData={jsonData}
+          folderName={folderName}
+          fileName={fileName}
+        />
+      )}
+    </div>
+  );
 };
 export default page;

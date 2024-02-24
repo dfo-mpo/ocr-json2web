@@ -2,24 +2,25 @@
 import FormRender from "../components/FormRender";
 import styles from "./page.module.css";
 
+import VerifiedButton from "../files/VerifiedButton";
 import Link from "next/link";
 import LogoHeader from "../components/LogoHeader";
-import Iframe from "./Iframe";
+import Iframe from "../files/Iframe";
+import Image from "next/image";
 
+import verifiedIcon from "../../../public/images/verified.svg";
 import { useState, useEffect } from "react";
-
 
 const File = ({ searchParams }) => {
   const [isLoading, setIsLoading] = useState(true);
   const [isFormsettingReady, setIsFormsettingReady] = useState(true);
   const [jsonData, setJsonData] = useState({});
   const [formSetting, setFormSetting] = useState({});
-
+  const [verified, setVerified] = useState(false);
 
   // this is the Form page
   const fileName = searchParams.fileName;
   const folderName = searchParams.folderName;
-
 
   const submitData = {
     fileName: fileName,
@@ -51,7 +52,7 @@ const File = ({ searchParams }) => {
             const jsonString = new TextDecoder().decode(value);
             // Parse the JSON string into an object
             const dataObject = JSON.parse(jsonString);
-     
+            setVerified(dataObject.verified);
             setJsonData(dataObject);
             setIsLoading(false);
           }
@@ -64,6 +65,7 @@ const File = ({ searchParams }) => {
       readData();
     }
   };
+
 
   const asyncFetchFormSetting = async () => {
     setIsFormsettingReady(true);
@@ -90,7 +92,7 @@ const File = ({ searchParams }) => {
             const jsonString = new TextDecoder().decode(value);
             // Parse the JSON string into an object
             const dataObject = JSON.parse(jsonString);
-
+    
             setFormSetting(dataObject);
             setIsFormsettingReady(false);
           }
@@ -118,6 +120,9 @@ const File = ({ searchParams }) => {
         </Link> */}
       <h5 className={styles.fileName}>
         File Name: {fileName.replace(/_/g, " ").replace(".json", "")}
+        {verified && (
+          <Image src={verifiedIcon} alt="verified" width={20} height={20} />
+        )}
         <span className={styles.version}>(Modified Version)</span>
       </h5>
 
@@ -126,6 +131,12 @@ const File = ({ searchParams }) => {
       ) : (
         <>
           <div className={styles.container}>
+          <VerifiedButton
+            fileName={fileName}
+            folderName={folderName}
+            verified={verified}
+            reFetch={asyncFetch}
+          />
             <FormRender
               folderName={folderName}
               items={jsonData}
@@ -133,20 +144,7 @@ const File = ({ searchParams }) => {
               formSetting={formSetting}
               // verified={verified}
             />
-            <Link
-              className={styles.linkStyle}
-              rel="noopener noreferrer"
-              target="_blank"
-              href={{
-                pathname: "/viewJson/",
-                query: {
-                  folderName: folderName,
-                  fileName: fileName,
-                },
-              }}
-            >
-              View Json
-            </Link>
+
             <Iframe
               formSetting={formSetting}
               folderName={folderName}

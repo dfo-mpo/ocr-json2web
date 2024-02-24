@@ -1,17 +1,17 @@
 "use client";
 import React from "react";
 import styles from "./ViewJson.module.css";
-const ViewJson = async ({ jsonData, folderName, fileName }) => {
+const ViewJson =  ({ jsonData, folderName, fileName }) => {
   const onSubmitHandler = async (event) => {
     event.preventDefault();
     const newJsonData = JSON.parse(event.target.jsonData.value);
     const dataToSubmit = {
-      folderName,
-      fileName,
-      jsonData: newJsonData,
+      folderName: folderName,
+      fileName: fileName,
+      data: newJsonData,
     };
 
-    const Response = await fetch("/api/modify", {
+    const Response = await fetch("/api/saveModified", {
       method: "POST",
       body: JSON.stringify(dataToSubmit),
       headers: {

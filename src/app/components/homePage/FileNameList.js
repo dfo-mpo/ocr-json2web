@@ -35,7 +35,7 @@ const FileNameList = ({ filesByFolder, fileStatus}) => {
 
 
 
-  //fetching the fileName that are verified
+  //fetching the firle status
   const asyncFetch = async () => {
     setIsReload(true);
     const Response = await fetch("/api/fileStatus", {

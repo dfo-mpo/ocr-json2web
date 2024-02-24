@@ -2,8 +2,6 @@ import { useState } from "react";
 import styles from "./LogPage.module.css";
 
 const LogPage = ({ fileStatus, folderNames }) => {
-
-
   const [filterData, setFilterData] = useState(fileStatus);
   const handleChange = (event) => {
     if (event.target.value === "all") {
@@ -15,7 +13,6 @@ const LogPage = ({ fileStatus, folderNames }) => {
       setFilterData(filteredData);
     }
   };
-
 
   return (
     <div>
@@ -39,11 +36,11 @@ const LogPage = ({ fileStatus, folderNames }) => {
         {filterData.map((item, index) => {
           return (
             <div key={index} className={styles.logContainer}>
-              {item.verified ? (
-                <div className={styles.verified}>Verified</div>
-              ) : (
-                <div className={styles.notVerified}>Error</div>
-              )}
+              <div>
+                {item.verified && <div>Verified</div>}
+                {item.error && <div>Error</div>}
+                {item.modified && <div>Modified</div>}
+              </div>
               <div>{item.folderName}</div>
               <div>{item.fileName}</div>
               <div>

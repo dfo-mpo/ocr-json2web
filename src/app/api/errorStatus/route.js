@@ -21,7 +21,7 @@ export async function POST(request) {
     //connect to jsondata container to update verified status in the json file
     const containerName2 = "jsondata";
 
-
+    const containerName3 = "jsondatamodified";
     
   try {
     // Create a BlobServiceClient
@@ -56,6 +56,35 @@ export async function POST(request) {
      throw new Error(error.message);
    }
  
+ } //connect to jsondatamodified container
+ const containerClient3 =
+   blobServiceClient.getContainerClient(containerName3);
+
+ const blockBlobClient3 = containerClient3.getBlockBlobClient(
+   `${folderName}/${fileName}`
+ );
+
+ //open json file from jsondatamodified container
+
+ const blobExists3 = await blockBlobClient3.exists();
+
+ if (blobExists3) {
+   const existingData3 = await blockBlobClient3.downloadToBuffer();
+   const existingJson3 = existingData3.toString();
+   let jsonData = JSON.parse(existingJson3);
+
+   // update or add verified status to existing json file
+   jsonData = { ...jsonData, verified: false };
+   const updatedJsonData3 = JSON.stringify(jsonData, null, 2);
+   // Upload the updated JSON data to the blob
+   try {
+     await blockBlobClient3.upload(
+       updatedJsonData3,
+       updatedJsonData3.length
+     );
+   } catch (error) {
+     throw new Error(error.message);
+   }
  }
 
 

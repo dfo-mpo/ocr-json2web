@@ -9,7 +9,7 @@ import Image from "next/image";
 import errorIcon from "../../../public/images/error.svg";
 import verifiedIcon from "../../../public/images/verified.svg";
 import modifiedIcon from "../../../public/images/modified.svg";
-import VerifiedFile from "./VerifiedFile1";
+
 import VerifiedButton from "./VerifiedButton";
 import { useState, useEffect } from "react";
 
@@ -19,13 +19,16 @@ const File = ({ searchParams }) => {
   const [jsonData, setJsonData] = useState({});
   const [formSetting, setFormSetting] = useState({});
   const [verified, setVerified] = useState(false);
+  const [fileStatusJson, setFileStatusJson] = useState([]);
+  const [modified, setModified] = useState(false);
+  const [error, setError] = useState(false);
 
   // this is the Form page
   const fileName = searchParams.fileName;
   const folderName = searchParams.folderName;
 
-  const error = searchParams.error === "true";
-  const modified = searchParams.modified === "true";
+  // const error = searchParams.error === "true";
+  // const modified = searchParams.modified === "true";
 
   const submitData = {
     fileName: fileName,
@@ -110,9 +113,56 @@ const File = ({ searchParams }) => {
     }
   };
 
+  //fetching the firle status
+  const asyncFetchStatus = async () => {
+    const Response = await fetch("/api/fileStatus", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify([folderName]),
+    });
+    if (!Response.ok) {
+      throw new Error(Response.statusText);
+    } else if (Response.status === 203) {
+      console.log("No data");
+    } else {
+      const reader = Response.body.getReader();
+      const readData = async () => {
+        try {
+          while (true) {
+            const { done, value } = await reader.read();
+            if (done) {
+              break;
+            }
+            // `value` contains the chunk of data as a Uint8Array
+            const jsonString = new TextDecoder().decode(value);
+            // Parse the JSON string into an object
+            const dataObject = JSON.parse(jsonString);
+
+            dataObject.forEach((item) => {
+              if (item.fileName === fileName) {
+                setVerified(item.verified);
+                setModified(item.modified);
+                setError(item.error);
+              }
+            });
+          }
+        } catch (error) {
+          console.error("Error reading response:", error);
+        } finally {
+          reader.releaseLock(); // Release the reader's lock when done
+        }
+      };
+
+      readData();
+    }
+  };
+
   useEffect(() => {
     asyncFetch();
     asyncFetchFormSetting();
+    asyncFetchStatus();
   }, []);
   return (
     <div>
@@ -130,7 +180,7 @@ const File = ({ searchParams }) => {
         {error && <Image src={errorIcon} alt="error" width={15} height={15} />}
         {modified && (
           <Link
-          className={styles.modifiedLink}
+            className={styles.modifiedLink}
             rel="noopener noreferrer"
             target="_blank"
             href={{
@@ -154,14 +204,14 @@ const File = ({ searchParams }) => {
           <ErrorReport
             fileName={fileName}
             folderName={folderName}
-            reFetch={asyncFetch}
+            reFetch={asyncFetchStatus}
           />
           <br />
           <VerifiedButton
             fileName={fileName}
             folderName={folderName}
             verified={verified}
-            reFetch={asyncFetch}
+            reFetch={asyncFetchStatus}
           />
           <div className={styles.container}>
             <FormRender
@@ -169,6 +219,7 @@ const File = ({ searchParams }) => {
               items={jsonData}
               fileName={fileName}
               formSetting={formSetting}
+              reFetch={asyncFetchStatus}
               // verified={verified}
             />
             <Link
