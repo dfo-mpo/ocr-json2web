@@ -56,6 +56,7 @@ const page = ({ searchParams }) => {
 
   return (
     <div className={styles.container}>
+            <title>{`Json: ${fileName.replace(".json", "").replace(/_/g, " ")}`}</title>
       <div className={styles.fileName}>File Name: {fileName}</div>
       {isLoading ? (
         <div>Loading...</div>
