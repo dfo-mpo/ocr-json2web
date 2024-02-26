@@ -45,9 +45,9 @@ const Form = ({ items, folderName, fileName, formSetting, saveChange, cancelChan
   const saveHandler = () => {
     console.log(updateJson);
     //TODO: delete this line 
-    setIsEditing(false); alert("Success, testing locally now");
+    // setIsEditing(false); alert("Success, testing locally now");
     //TODO: uncomment this line to enable save button
-    // onClickHandler(updateJson);
+    onClickHandler(updateJson);
   };
   const resetEdit = () => {
     setIsEditing(false);
