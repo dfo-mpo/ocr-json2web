@@ -166,8 +166,8 @@ const File = ({ searchParams }) => {
   }, []);
   return (
     <div>
-      <title>{folderName}</title>
-      {/* <title>{fileName.replace(".json", "").replace(/_/g, " ").replace(/BC16-\d+ /g, '')}</title> */}
+      {/* <title>{folderName}</title> */}
+      <title>{fileName.replace(".json", "").replace(/_/g, " ")}</title>
       <LogoHeader />
       {/* <Link className={styles.backButton} href="/">
           Back
