@@ -52,7 +52,7 @@ const File = ({ searchParams }) => {
             const jsonString = new TextDecoder().decode(value);
             // Parse the JSON string into an object
             const dataObject = JSON.parse(jsonString);
-            setVerified(dataObject.verified);
+
             setJsonData(dataObject);
             setIsLoading(false);
           }
@@ -65,7 +65,51 @@ const File = ({ searchParams }) => {
       readData();
     }
   };
+   //fetching the firle status
+   const asyncFetchStatus = async () => {
+    const Response = await fetch("/api/fileStatus", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify([folderName]),
+    });
+    if (!Response.ok) {
+      throw new Error(Response.statusText);
+    } else if (Response.status === 203) {
+      console.log("No data");
+    } else {
+      const reader = Response.body.getReader();
+      const readData = async () => {
+        try {
+          while (true) {
+            const { done, value } = await reader.read();
+            if (done) {
+              break;
+            }
+            // `value` contains the chunk of data as a Uint8Array
+            const jsonString = new TextDecoder().decode(value);
+            // Parse the JSON string into an object
+            const dataObject = JSON.parse(jsonString);
 
+            dataObject.forEach((item) => {
+              if (item.fileName === fileName) {
+                setVerified(item.verified);
+                setModified(item.modified);
+                setError(item.error);
+              }
+            });
+          }
+        } catch (error) {
+          console.error("Error reading response:", error);
+        } finally {
+          reader.releaseLock(); // Release the reader's lock when done
+        }
+      };
+
+      readData();
+    }
+  };
 
   const asyncFetchFormSetting = async () => {
     setIsFormsettingReady(true);
@@ -92,7 +136,7 @@ const File = ({ searchParams }) => {
             const jsonString = new TextDecoder().decode(value);
             // Parse the JSON string into an object
             const dataObject = JSON.parse(jsonString);
-    
+
             setFormSetting(dataObject);
             setIsFormsettingReady(false);
           }
@@ -109,6 +153,7 @@ const File = ({ searchParams }) => {
   useEffect(() => {
     asyncFetch();
     asyncFetchFormSetting();
+    asyncFetchStatus();
   }, []);
   return (
     <div>
@@ -131,18 +176,19 @@ const File = ({ searchParams }) => {
       ) : (
         <>
           <div className={styles.container}>
-          <VerifiedButton
-            fileName={fileName}
-            folderName={folderName}
-            verified={verified}
-            reFetch={asyncFetch}
-          />
+            <VerifiedButton
+              fileName={fileName}
+              folderName={folderName}
+              verified={verified}
+              reFetch={asyncFetchStatus}
+            />
             <FormRender
               folderName={folderName}
               items={jsonData}
               fileName={fileName}
               formSetting={formSetting}
-              // verified={verified}
+              reFetch={asyncFetchStatus}
+              reFetchJson={asyncFetch}
             />
 
             <Iframe
