@@ -17,7 +17,7 @@ const TableType4 = ({
   let updateJson = { ...items };
   const handleChange = (event) => {
     updateJson[event.target.name] = event.target.value;
-    console.log(updateJson);
+  
     onEdit(updateJson);
   };
 

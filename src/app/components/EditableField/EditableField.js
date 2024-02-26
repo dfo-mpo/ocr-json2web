@@ -9,12 +9,11 @@ const EditableField = ({
 }) => {
   const [isEditing, setIsEditing] = useState(false);
 
-
   let stylingClass = "";
   switch (isFlag) {
-    case true:
+    case 0:
       break;
-    case false:
+    case 1:
       stylingClass = styles.isRed;
       break;
     case 2:

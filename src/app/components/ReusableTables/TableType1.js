@@ -15,6 +15,9 @@ const TableType1 = ({
   let updateJson = { ...items };
   const handleChange = (event) => {
     updateJson[event.target.name] = event.target.value;
+    //TODO: Json with flag
+    // updateJson[event.target.name][0] = event.target.value;
+    // updateJson[event.target.name][3] = 2;
     onEdit(updateJson);
   };
 
@@ -29,9 +32,13 @@ const TableType1 = ({
                 <td>{data.fieldName}</td>
                 <td>
                   <EditableField
-                    isFlag=""
+                    isFlag= ""
+                    //TODO: items[data.key][3] for TAN's json version
+                    // isFlag={items[data.key][3]}
                     fieldName={data.key}
                     fieldValue={items[data.key]}
+                    //TODO: items[data.key][0] for TAN's json version
+                    // fieldValue={items[data.key][0]}
                     handleChange={handleChange}
                   />
                 </td>

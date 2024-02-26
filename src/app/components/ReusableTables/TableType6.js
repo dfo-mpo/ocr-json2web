@@ -1,63 +1,51 @@
 import React from "react";
-
 import styles from "./TableType6.module.css";
-
-import EditableField from "../EditableField/EditableField";
+import EditableCheckField from "../EditableField/EditableCheckField";
 
 const TableType6 = ({
   items,
-
   folderName,
-
   fileName,
-
   formSetting,
-
   myStyle,
-
   onEdit,
 }) => {
   const tableName = formSetting.tableName;
-
   const tableData = formSetting.tableData;
+  let updateJson = { ...items };
+  const handleChange = (key, selected) => {
+    const value = selected ? "selected" : "unselected";
+    updateJson[key] = value;
+    //TODO: Json with flag
+    // updateJson[key][0] = value;
+    // updateJson[key][3] = 2;
 
-  const handleChange = (key, checked) => {
-    const updateJson = { ...items, [key]: checked ? "checked" : "unchecked" };
+    // const updateJson = {
+    //   ...items,
+    //   [key]: selected ? "selected" : "unselected",
 
     onEdit(updateJson);
   };
 
   return (
     <div style={myStyle}>
-      {" "}
-      {}
       {tableName && <div className={styles.title}>{tableName}</div>}
       <div className={styles.wrapper}>
-        {" "}
-        {}
         <ul className={styles.myList}>
           {tableData.map((data, index) => (
             <li key={index} className={styles.tableRow}>
-              <label
-                htmlFor={`checkbox-${index}`}
-                className={styles.checkboxLabel}
-              >
-                <input
-                  id={`checkbox-${index}`}
-                  type="checkbox"
-                  className={styles.hiddenCheckbox}
-                  checked={items[data.key] === "checked"}
-                  onChange={(e) => handleChange(data.key, e.target.checked)}
-                />
-
-                <div
-                  className={`${styles.customCheckbox} ${
-                    items[data.key] === "checked" ? styles.checked : ""
-                  }`}
-                ></div>
-
-                {data.fieldName}
-              </label>
+              <EditableCheckField
+                key={index}
+                isFlag= ""
+                //TODO: items[data.key][3] for TAN's json version
+                // isFlag={items[data.key][3]}
+                fieldName={data.fieldName}
+                fieldValue={items[data.key]}
+                //TODO: items[data.key][0] for TAN's json version
+                // fieldValue={items[data.key][0]}
+                handleChange={(e) => handleChange(data.key, e.target.checked)}
+                index={index}
+              />
             </li>
           ))}
         </ul>

@@ -6,11 +6,15 @@ import styles from "./FormRender.module.css";
 //TODO: remove import formSetting from "../formSetting.json"
 import formSetting from "../formSetting.json"
 //TODO: add formSetting as a prop
-const FormRender = ({ items, folderName, fileName, reFetch }) => {
+const FormRender = ({ items, folderName, fileName, reFetch, reFetchJson }) => {
  
   const [isForm, setIsForm] = useState(true);
   const saveChange = () => {
     reFetch();
+  };
+
+  const cancelChange = () => {
+    reFetchJson();
   };
  
   
@@ -28,7 +32,9 @@ const FormRender = ({ items, folderName, fileName, reFetch }) => {
         <SingleForm folderName={folderName} fileName={fileName} items={items} />
       )}
       {isForm && (
-        <Form folderName={folderName} formSetting = {formSetting} fileName={fileName} items={items} saveChange= {saveChange}/>
+        <Form folderName={folderName} formSetting = {formSetting} fileName={fileName} items={items} saveChange= {saveChange}
+        cancelChange={cancelChange}
+        />
       )}
     </>
   );

@@ -15,9 +15,9 @@ const EditableFieldDate = ({
 
   let stylingClassM = "";
   switch (isRedM) {
-    case true:
+    case 0:
       break;
-    case false:
+    case 1:
       stylingClassM = styles.isRed;
       break;
     case 2:

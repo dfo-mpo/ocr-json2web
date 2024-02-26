@@ -33,28 +33,36 @@ const LogPage = ({ fileStatus, folderNames }) => {
       </div>
 
       <div className={styles.container}>
-        {filterData.map((item, index) => {
-          return (
-            <div key={index} className={styles.logContainer}>
-              <div>
-                {item.verified && <div>Verified</div>}
-                {item.error && <div>Error</div>}
-                {item.modified && <div>Modified</div>}
+        {filterData.length === 0 ? (
+          <div
+            className={styles.noData}
+          >No Data</div>
+        ) : (
+          filterData.map((item, index) => {
+            return (
+              <div key={index} className={styles.logContainer}>
+                <div>
+                  {item.verified && <div>Verified</div>}
+                  {item.error && <div>Error</div>}
+                  {item.modified && <div>Modified</div>}
+                </div>
+                <div>{item.folderName}</div>
+                <div>{item.fileName}</div>
+                <div>
+                  {item.errorInfo.map((errorInfo, index) => {
+                    return (
+                      <div key={index} className={styles.errorInfo}>
+                        <div>
+                          Error Description: {errorInfo.errorDescription}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
-              <div>{item.folderName}</div>
-              <div>{item.fileName}</div>
-              <div>
-                {item.errorInfo.map((errorInfo, index) => {
-                  return (
-                    <div key={index} className={styles.errorInfo}>
-                      <div>Error Description: {errorInfo.errorDescription}</div>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-          );
-        })}
+            );
+          })
+        )}
       </div>
     </div>
   );

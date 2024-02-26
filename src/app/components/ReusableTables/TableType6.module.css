@@ -1,89 +1,20 @@
 .wrapper {
-
-    border: 2px solid black;
-
-  }
+  border: 2px solid black;
+}
 
 .title {
+  font-weight: bold;
+  text-decoration: underline;
+}
 
-    font-weight: bold;
+.myTable {
+  border: 1px solid black;
+  padding: 10px;
+  margin-right: 65px;
+}
 
-    text-decoration: underline;
-
- 
-
-  }
-
- 
-
-  .myTable {
-
-    border: 1px solid black;
-
-    padding: 10px;
-
-    margin-right: 65px;
-
- 
-
-  }
-
- 
-
-  .tableRow {
-
-    display: flex;
-
-    align-items: center;
-
-    margin-bottom: 5px;
-
-  }
-
- 
-
-  .checkboxLabel {
-
-    display: flex;
-
-    align-items: center;
-
-    gap: 10px;
-
-  }
-
- 
-
-  .customCheckbox {
-
-    display: inline-block;
-
-    width: 20px;
-
-    height: 20px;
-
-    background: white;
-
-    border: 1px solid black;
-
-    margin-right: 10px;
-
-    cursor: pointer;
-
-  }
-
- 
-
-  .customCheckbox.checked {
-
-    background: black;
-
-  }
-
- 
-
-  .hiddenCheckbox {
-
-    display: none;
-
-  }
+.tableRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}

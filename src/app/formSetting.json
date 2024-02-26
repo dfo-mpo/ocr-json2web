@@ -1,6 +1,14 @@
 {
   "title": "DEPARTMENT OF FISHERIES AND OCEANS",
   "subtitle": "ANNUAL REPORT OF SALMON STREAMS AND SPAWNING POPULATION",
+  "showPDF": true,
+  "PDFurl": {
+    "4cresultocr": "https://bc16website.blob.core.windows.net/scannedpdf/4ctest/",
+    "4hresultocr": "https://bc16website.blob.core.windows.net/scannedpdf/4hrun/",
+    "5aresultocr": "https://bc16website.blob.core.windows.net/scannedpdf/5atest/",
+    "6eresultocr": "https://bc16website.blob.core.windows.net/scannedpdf/6etest/",
+    "7eresultocr": "https://bc16website.blob.core.windows.net/scannedpdf/7etest/"
+  },
   "style": {
     "display": "grid",
     "gap": "10px"
@@ -290,278 +298,291 @@
   "6eresultocr": [
     {
       "tableType": "TableType1",
-
       "tableName": "STREAM IDENTIFICATION",
-
       "style": {
         "gridColumnStart": 1,
-
         "gridColumnEnd": 2,
-
         "gridRowStart": 1,
-
         "gridRowEnd": 3,
-
         "alignSelf": "center"
       },
-
       "tableData": [
         {
           "fieldName": "Watershed Code",
-
           "key": "Watershed code"
         },
-
         {
           "fieldName": "Gazetted Name",
-
           "key": "Gazetted name"
         },
 
         {
           "fieldName": "Local Name",
-
           "key": "Local name"
         },
-
         {
           "fieldName": "Flows Into",
-
           "key": "Flows into"
         }
       ]
     },
-
     {
       "tableType": "TableType1",
-
       "tableName": "",
-
       "style": {
         "gridColumnStart": 2,
-
         "gridColumnEnd": 3,
-
         "gridRowStart": 1,
-
         "gridRowEnd": 2
       },
-
       "tableData": [
         {
           "fieldName": "Year",
-
           "key": "Year"
         },
-
         {
           "fieldName": "District Number",
-
           "key": "District number"
         },
-
         {
           "fieldName": "Statistical Area",
-
           "key": "Statistical Area"
         }
       ]
     },
-
     {
       "tableType": "TableType1",
-
       "tableName": "",
-
       "style": {
         "gridColumnStart": 3,
-
         "gridColumnEnd": 4,
-
         "gridRowStart": 1,
-
         "gridRowEnd": 2
       },
 
       "tableData": [
         {
           "fieldName": "Subdistrict Name",
-
           "key": "Subdistrict number"
         },
-
         {
           "fieldName": "Subdistrict Name",
-
           "key": "Subdistrict name"
         }
       ]
     },
-
     {
       "tableType": "TableType3",
-
       "tableName": "DATES OF INSPECTION ",
-
       "insideTableName": "",
-
       "style": {
         "gridColumnStart": 2,
-
         "gridColumnEnd": 4,
-
         "gridRowStart": 2,
-
         "gridRowEnd": 4
       },
-
       "tableData": [
         {
           "fieldName": "",
-
           "key": "Dates of inspection"
         }
       ]
     },
-
     {
       "tableType": "TableType6",
-
       "tableName": "UNUSUAL CONDITIONS",
-
       "style": {
         "gridColumnStart": 1,
-
         "gridColumnEnd": 4
       },
-
       "tableData": [
         {
           "fieldName": "(A) Enhancement activities or intense biological activities.",
-
           "key": "(A) Enhancement"
         },
-
         {
           "fieldName": "(B) Unusual Mortalities.",
-
           "key": "(B) Unusual mortalities"
         },
-
         {
           "fieldName": "(C) Obstructions or changes in habitat with recommendations.",
-
           "key": "(C) Obstructions"
         },
-
         {
           "fieldName": "(D) Large variation in sex ratio or unusual number of jacks.",
-
           "key": "(D) Large variation"
         },
-
         {
           "fieldName": "(E) High/low water flow level during spawning.",
-
           "key": "(E) High/low water"
         }
       ]
     },
-
     {
       "tableType": "TableType4",
-
       "tableName": "ADDITIONAL COMMENTS",
-
       "insideTableName": "PHYSICAL CONDITION of SPAWNING GROUNDS",
-
       "style": {
         "gridColumnStart": 1,
-
         "gridColumnEnd": 4
       },
-
       "tableData": [
         {
           "fieldName": "(A) Evidence of erosion and silting. Give extent or percent of stream bed affected:",
-
           "key": "Physical conditions (A) Evidence"
         },
-
         {
           "fieldName": "(B) Particulars of scouring of spawning beds or change in course of stream:",
-
           "key": "Physical conditions (B) Particulars"
         },
-
         {
           "fieldName": "(C) Water levels flow, normal, abnormal. If abnormal, details should be given:",
-
           "key": "Physical conditions (C) Water levels"
         }
       ]
     },
-
     {
       "tableType": "TableType4",
-
       "tableName": "",
-
       "insideTableName": "BIOLOGICAL CONDITIONS",
-
       "style": {
         "gridColumnStart": 1,
-
         "gridColumnEnd": 4
       },
-
       "tableData": [
         {
           "fieldName": "(D) Particulars of distribution of salmon over stream bed:",
-
           "key": "Biological conditions (D) Particulars"
         },
-
         {
           "fieldName": "(E) Comments on predators:",
-
           "key": "Biological conditions (E) Predators comments"
         },
-
         {
           "fieldName": "(F) Evidence of digging up eggs by late spawning fish:",
-
           "key": "Biological conditions (F) Evidence"
         },
-
         {
           "fieldName": "(G) New obstructions (nature and recommendations):",
-
           "key": "Biological conditions (G) New obstructions"
         }
       ]
     },
-
     {
       "tableType": "TableType3",
-
       "tableName": "COMMENTS ON ANY OTHER CONDITIONS AFFECTING THIS STREAM",
-
       "subTableName": "",
-
       "style": {
         "gridColumnStart": 1,
-
         "gridColumnEnd": 4
       },
-
       "tableData": [
         {
           "fieldName": "",
-
           "key": "Comments"
         }
       ]
     }
+  ],
+  "testformat": [
+    {
+      "tableType": "TableType1",
+      "tableName": "STREAM IDENTIFICATION",
+      "tableData": [
+        {
+          "fieldName": "Year",
+          "key": "Year"
+        },
+        {
+          "fieldName": "Area",
+          "key": "Area"
+        },
+        {
+          "fieldName": "District",
+          "key": "District"
+        },
+        {
+          "fieldName": "Sub",
+          "key": "Sub"
+        },
+        {
+          "fieldName": "RAB Code",
+          "key": "RAB code"
+        },
+        {
+          "fieldName": "Gazetted Name",
+          "key": "Gazetted name"
+        },
+        {
+          "fieldName": "First Local Name",
+          "key": "First local name"
+        },
+        {
+          "fieldName": "Second Local Name",
+          "key": "Second local name"
+        },
+        {
+          "fieldName": "Flows Into",
+          "key": "Flows into"
+        },
+        {
+          "fieldName": "Latitude",
+          "key": "Latitude"
+        },
+        {
+          "fieldName": "Longitude",
+          "key": "Longitude"
+        },
+        {
+          "fieldName": "Filed Crew",
+          "key": "Field Crew"
+        }
+      ]
+    },
+    {
+      "tableType": "TableType6",
+      "tableName": "UNUSUAL CONDITIONS",
+      "style": {
+        "gridColumnStart": 1,
+        "gridColumnEnd": 4
+      },
+      "tableData": [
+        {
+          "fieldName": "(7) Enhancement activities or intense biological activities",
+          "key": "(7) Enhancement"
+        },
+        {
+          "fieldName": "(8) Unusual mortalities",
+          "key": "(8) Unusual mortalities"
+        },
+        {
+          "fieldName": "(9) Upslope instability",
+          "key": "(9) Upslope instability"
+        },
+        {
+          "fieldName": "(10) Debris jams present which could become a debris torrent",
+          "key": "(10) Debris jams present"
+        },
+        {
+          "fieldName": "(11) Severe bank erosion",
+          "key": "(11) Severe bank erosion"
+        },
+      
+        {
+          "fieldName": "(12) Percent (%) of spawning habitat degradation: Unusual (13) Drought ",
+          "key": "(13) Unusual drought"
+        },
+        {
+          "fieldName": "(14) or Flood impacts on spawning or egg incubation success of salmon this year",
+          "key": "(14) Flood"
+        },
+        {
+          "fieldName": "(15) GENERAL COMMENTS ON UNUSUAL CONDITIONS",
+          "key": "(15) General comments"
+        }
+      ]
+    }
+
+
   ]
 }

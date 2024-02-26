@@ -8,7 +8,7 @@ import TableType3 from "./ReusableTables/TableType3";
 import TableType4 from "./ReusableTables/TableType4";
 import TableType6 from "./ReusableTables/TableType6";
 
-const Form = ({ items, folderName, fileName, formSetting, saveChange }) => {
+const Form = ({ items, folderName, fileName, formSetting, saveChange, cancelChange }) => {
   const title = formSetting.title;
   const subtitle = formSetting.subtitle;
   const [updateJson, setUpdateJson] = useState(items);
@@ -43,12 +43,15 @@ const Form = ({ items, folderName, fileName, formSetting, saveChange }) => {
   };
 
   const saveHandler = () => {
-
-    onClickHandler(updateJson);
+    console.log(updateJson);
+    //TODO: delete this line 
+    setIsEditing(false); alert("Success, testing locally now");
+    //TODO: uncomment this line to enable save button
+    // onClickHandler(updateJson);
   };
   const resetEdit = () => {
     setIsEditing(false);
-    window.location.reload();
+    cancelChange();
   };
   return (
     <div className={styles.container}>

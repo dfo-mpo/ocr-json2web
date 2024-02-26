@@ -220,6 +220,7 @@ const File = ({ searchParams }) => {
               fileName={fileName}
               formSetting={formSetting}
               reFetch={asyncFetchStatus}
+              reFetchJson={asyncFetch}
               // verified={verified}
             />
             <Link
