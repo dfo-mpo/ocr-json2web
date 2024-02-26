@@ -38,7 +38,7 @@ const File = ({ searchParams }) => {
   //fetch json data from blob
   const asyncFetch = async () => {
     setIsLoading(true);
-    const Response = await fetch("/api/jsonData", {
+    const Response = await fetch("/api/jsonDataModified", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -184,7 +184,7 @@ const File = ({ searchParams }) => {
             rel="noopener noreferrer"
             target="_blank"
             href={{
-              pathname: "/filesModified/",
+              pathname: "/filesOriginal/",
               query: {
                 fileName: fileName,
                 folderName: folderName,
@@ -192,7 +192,7 @@ const File = ({ searchParams }) => {
             }}
           >
             <Image src={modifiedIcon} alt="modified" height={23} width={23} />
-            <span>View Modified Version</span>
+            <span>View Original Version</span>
           </Link>
         )}
       </h5>

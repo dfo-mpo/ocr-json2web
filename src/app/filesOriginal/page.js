@@ -30,7 +30,7 @@ const File = ({ searchParams }) => {
   //fetch json data from blob
   const asyncFetch = async () => {
     setIsLoading(true);
-    const Response = await fetch("/api/jsonDataModified", {
+    const Response = await fetch("/api/jsonData", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -157,8 +157,8 @@ const File = ({ searchParams }) => {
   }, []);
   return (
     <div>
-      <title>{folderName}</title>
-      {/* <title>{fileName.replace(".json", "").replace(/_/g, " ").replace(/BC16-\d+ /g, '')}</title> */}
+      {/* <title>{folderName}</title> */}
+      <title>{`Original Version: ${fileName.replace(".json", "").replace(/_/g, " ")}`}</title>
       <LogoHeader />
       {/* <Link className={styles.backButton} href="/">
           Back
@@ -168,7 +168,7 @@ const File = ({ searchParams }) => {
         {verified && (
           <Image src={verifiedIcon} alt="verified" width={20} height={20} />
         )}
-        <span className={styles.version}>(Modified Version)</span>
+        <span className={styles.version}>(Original Version)</span>
       </h5>
 
       {isLoading || isFormsettingReady ? (
