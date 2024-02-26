@@ -7,7 +7,7 @@ export async function GET() {
   // You need to set up these variables with your values
   const connectionString = process.env.AZURE_STORAGE_CONNECTION_STRING;
   // jsondata is container name which storage the data by folder 
-  const containerName = "jsondata";
+  const containerName = "jsondatamodified";
   try {
     // Create a BlobServiceClient
     const blobServiceClient =
