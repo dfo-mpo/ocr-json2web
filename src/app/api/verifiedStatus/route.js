@@ -34,32 +34,32 @@ export async function POST(request) {
     const containerClient2 =
       blobServiceClient.getContainerClient(containerName2);
 
-    const blockBlobClient2 = containerClient2.getBlockBlobClient(
-      `${folderName}/${fileName}`
-    );
+    // const blockBlobClient2 = containerClient2.getBlockBlobClient(
+    //   `${folderName}/${fileName}`
+    // );
 
     //open json file
 
-    const blobExists2 = await blockBlobClient2.exists();
+    // const blobExists2 = await blockBlobClient2.exists();
 
-    if (blobExists2) {
-      const existingData2 = await blockBlobClient2.downloadToBuffer();
-      const existingJson2 = existingData2.toString();
-      let jsonData = JSON.parse(existingJson2);
+    // if (blobExists2) {
+    //   const existingData2 = await blockBlobClient2.downloadToBuffer();
+    //   const existingJson2 = existingData2.toString();
+    //   let jsonData = JSON.parse(existingJson2);
 
-      // update or add verified status to existing json file
-      jsonData = { ...jsonData, verified: true };
-      const updatedJsonData2 = JSON.stringify(jsonData, null, 2);
-      // Upload the updated JSON data to the blob
-      try {
-        await blockBlobClient2.upload(
-          updatedJsonData2,
-          updatedJsonData2.length
-        );
-      } catch (error) {
-        throw new Error(error.message);
-      }
-    }
+    //   // update or add verified status to existing json file
+    //   jsonData = { ...jsonData, verified: true };
+    //   const updatedJsonData2 = JSON.stringify(jsonData, null, 2);
+    //   // Upload the updated JSON data to the blob
+    //   try {
+    //     await blockBlobClient2.upload(
+    //       updatedJsonData2,
+    //       updatedJsonData2.length
+    //     );
+    //   } catch (error) {
+    //     throw new Error(error.message);
+    //   }
+    // }
 
     //connect to jsondatamodified container
     const containerClient3 =
