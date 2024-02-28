@@ -12,7 +12,7 @@ const page = ({ searchParams }) => {
   //fetch json data from blob
   const asyncFetch = async () => {
     setIsLoading(true);
-    const Response = await fetch("/api/jsonData", {
+    const Response = await fetch("/api/jsonDataModified", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

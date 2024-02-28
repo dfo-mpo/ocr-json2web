@@ -1,41 +1,40 @@
-.myTable{
-  border:  2px solid black;
+.myTable {
+  border: 2px solid black;
   border-collapse: collapse;
   width: 100%;
   padding: 10px 10px;
 }
 
-
-.title{
+.title {
+  display: flex;
+  align-items: center;
   font-weight: 600;
 }
 
-.isRed{
+.isRed {
   color: red;
 }
 
-
-
-
-.myTable td, .myTable th {
-  border: 1px solid black;
-  text-align: center;
-  width: 100px;
-  overflow: hidden;
+.title2 {
+  margin-bottom: 5px;
+  font-weight: 550;
+  text-decoration: underline;
 }
 
-
-
-
-.myTable th {
-  text-align: center;
-  background-color: #f2f2f2;
-  font-weight: bold;
+.addRemoveButton {
+  margin: 0 5px;
+  background-color: transparent;
+  color: #000;
+  border: 0.8px solid #ccc;
+  font-size: 0.8em;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-.dateContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.addRemoveButton:hover {
+  background-color: #ddd;
+  color: red;
 }
-

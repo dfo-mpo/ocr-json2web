@@ -1,61 +1,87 @@
 import React from "react";
 import styles from "./TableType2.module.css";
-import EditableFieldDate from "../EditableField/EditableFieldDate";
+import EditableFieldDate2 from "../EditableField/EditableFieldDate2";
 
-const TableType2 = ({ items, formSetting, myStyle, onEdit }) => {
-  const { tableName, itemName } = formSetting;
+const TableType2 = ({
+  items,
+  folderName,
+  fileName,
+  formSetting,
+  myStyle,
+  onEdit,
+}) => {
+  const tableName = formSetting.tableName;
+  const tableData = formSetting.tableData;
+  const itemName = formSetting.itemName;
+  const insideTableName = formSetting.insideTableName;
 
-
-  const handleMonthChange = (index, newMonth) => {
-    let updatedItems = [...items[itemName]];
-    if (!updatedItems[index]) {
-      updatedItems[index] = { Month: "", Day: "" };
-    }
-  
-    updatedItems[index].Month = newMonth;
-    onEdit({ ...items, [itemName]: updatedItems });
+  const dates = items[itemName];
+  let updateJson = { ...items };
+  const handleDateChange = (event) => {
+    const index = event.target.getAttribute("index");
+    const { name, value } = event.target;
+   
+    updateJson[itemName][index][name] = value;
+    onEdit(updateJson);
   };
 
-  const handleDayChange = (index, newDay) => {
-    let updatedItems = [...items[itemName]];
-    if (!updatedItems[index]) {
-      updatedItems[index] = { Month: "", Day: "" };
-    }
-    updatedItems[index].Day = newDay;
-    onEdit({ ...items, [itemName]: updatedItems });
+  const addDateHandler = () => {
+    let newDate = {};
+    tableData.map((data, index) => (newDate[data.key] = data.fieldName));
+    updateJson[itemName].push(newDate);
+    onEdit(updateJson);
   };
 
-  const itemData = items[itemName] || [];
+  const removeDateHandler = (index) => {
+    updateJson[itemName].splice(index, 1);
+    onEdit(updateJson);
+  };
 
   return (
     <div style={myStyle}>
-      {tableName && <div className={styles.title}>{tableName}</div>}
-      <table className={styles.myTable}>
-        <tbody>
-          {Array.from({ length: 6 }).map((_, rowIndex) => (
-            <tr key={rowIndex}>
-              {Array.from({ length: 3 }).map((_, colIndex) => {
-                const cellIndex = rowIndex * 3 + colIndex;
-                const dateObject = itemData[cellIndex] || {};
-                
+      {tableName && (
+        <div className={styles.title}>
+          {tableName}
+          <button className={styles.addRemoveButton} onClick={addDateHandler}>
+            +
+          </button>
+        </div>
+      )}
+
+      <div className={styles.myTable}>
+        {insideTableName && (
+          <div className={styles.title2}>{insideTableName}</div>
+        )}
+
+        <div>
+          {dates
+            ? dates.map((date, arrayIndex) => {
                 return (
-                  <td key={colIndex} className={styles.tableCell}>
-                    <EditableFieldDate
-                      index={cellIndex}
-                      isFlagM=""
-                      isFlagD=""
-                      initialMonth={dateObject.Month || ""}
-                      initialDay={dateObject.Day || ""}
-                      onMonthChange={handleMonthChange}
-                      onDayChange={handleDayChange}
-                    />
-                  </td>
+                  <div key={arrayIndex}>
+                    {tableData.map((data, index) => {
+                      return (
+                        <EditableFieldDate2
+                          key={index}
+                          index={arrayIndex}
+                          fieldName={data.key}
+                          fieldValue={date[data.key]}
+                          isFlag=""
+                          handleChange={handleDateChange}
+                        />
+                      );
+                    })}
+                    <button
+                      className={styles.addRemoveButton}
+                      onClick={() => removeDateHandler(arrayIndex)}
+                    >
+                      -
+                    </button>
+                  </div>
                 );
-              })}
-            </tr>
-          ))}
-        </tbody>
-      </table>
+              })
+            : null}
+        </div>
+      </div>
     </div>
   );
 };
