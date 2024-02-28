@@ -80,7 +80,6 @@ Display Example:
 
 
 ## TableType3
-Only show up when there is content (null), if there is not content, the table is not render on the page.
 ```
   {
       "tableType": "TableType3",

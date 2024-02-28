@@ -79,7 +79,6 @@
         }
       ]
     },
-
     {
       "tableType": "TableTypeComb",
       "tableName": "",
@@ -112,7 +111,7 @@
           ]
         },
         {
-          "tableType": "TableType3",
+          "tableType": "TableType4",
           "tableName": "",
           "insideTableName": "",
           "style": {
