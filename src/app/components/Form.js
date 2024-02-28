@@ -6,6 +6,8 @@ import TableType1 from "./ReusableTables/TableType1";
 import TableType2 from "./ReusableTables/TableType2";
 import TableType3 from "./ReusableTables/TableType3";
 import TableType4 from "./ReusableTables/TableType4";
+import TableType5 from "./ReusableTables/TableType5";
+import TableType5_2 from "./ReusableTables/TableType5_2";
 import TableType6 from "./ReusableTables/TableType6";
 
 const Form = ({ items, folderName, fileName, formSetting, saveChange, cancelChange }) => {
@@ -93,6 +95,7 @@ const Form = ({ items, folderName, fileName, formSetting, saveChange, cancelChan
                 folderName={folderName}
                 fileName={fileName}
                 formSetting={formSettingItem}
+                onEdit={changeHandler}
               />
             );
           } else if (formSettingItem.tableType === "TableType3") {
@@ -119,7 +122,31 @@ const Form = ({ items, folderName, fileName, formSetting, saveChange, cancelChan
                 onEdit={changeHandler}
               />
             );
-          } else if (formSettingItem.tableType === "TableType6") {
+          } else if (formSettingItem.tableType === "TableType5") {
+            return (
+              <TableType5
+                myStyle={formSettingItem.style}
+                key={index}
+                items={updateJson}
+                folderName={folderName}
+                fileName={fileName}
+                formSetting={formSettingItem}
+                onEdit={changeHandler}
+              />
+            );
+          }else if (formSettingItem.tableType === "TableType5_2") {
+            return (
+              <TableType5_2
+                myStyle={formSettingItem.style}
+                key={index}
+                items={updateJson}
+                folderName={folderName}
+                fileName={fileName}
+                formSetting={formSettingItem}
+                onEdit={changeHandler}
+              />
+            );
+          }  else if (formSettingItem.tableType === "TableType6") {
             return (
               <TableType6
                 myStyle={formSettingItem.style}

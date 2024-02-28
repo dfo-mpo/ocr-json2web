@@ -1,75 +1,70 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import styles from "./EditableFieldDate.module.css";
 
 const EditableFieldDate = ({
-  fieldNameM,
-  fieldValueM,
-  isRedM,
-  fieldNameD,
-  fieldValueD,
-  isRedD,
-  handleChange,
   index,
+  initialMonth = '',
+  initialDay = '',
+  onMonthChange,
+  onDayChange,
+  isFlagM,
+  isFlagD,
 }) => {
   const [isEditing, setIsEditing] = useState(false);
+  const containerRef = useRef(null);
 
-  let stylingClassM = "";
-  switch (isRedM) {
-    case 0:
-      break;
-    case 1:
-      stylingClassM = styles.isRed;
-      break;
-    case 2:
-      stylingClassM = styles.isGreen;
-      break;
-    default:
-      // Handle other cases if needed
-      break;
-  }
-  let stylingClassD = "";
-  switch (isRedD) {
-    case true:
-      break;
-    case false:
-      stylingClassD = styles.isRed;
-      break;
-    case 2:
-      stylingClassD = styles.isGreen;
-      break;
-    default:
-      // Handle other cases if needed
-      break;
-  }
+  const handleMonthChange = (e) => {
+    onMonthChange(index, e.target.value);
+  };
+
+  const handleDayChange = (e) => {
+    onDayChange(index, e.target.value);
+  };
+
+  const monthClass = isFlagM === 1 ? styles.isRed : isFlagM === 2 ? styles.isGreen : '';
+  const dayClass = isFlagD === 1 ? styles.isRed : isFlagD === 2 ? styles.isGreen : '';
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (containerRef.current && !containerRef.current.contains(event.target)) {
+        setIsEditing(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [containerRef]);
+
   return (
-    <span onDoubleClick={() => setIsEditing(true)}>
+    <div ref={containerRef} onDoubleClick={() => setIsEditing(true)} className={styles.fieldContainer}>
       {isEditing ? (
         <>
           <input
-            index={index}
             type="text"
-            name={fieldNameM}
-            defaultValue={fieldValueM}
-            onChange={handleChange}
+            name={`Month-${index}`}
+            defaultValue={initialMonth}
+            onChange={handleMonthChange}
+            className={`${styles.input} ${monthClass}`}
             autoFocus
           />
-          /
+          <span>/</span>
           <input
-            index={index}
             type="text"
-            name={fieldNameD}
-            defaultValue={fieldValueD}
-            onChange={handleChange}
+            name={`Day-${index}`}
+            defaultValue={initialDay}
+            onChange={handleDayChange}
+            className={`${styles.input} ${dayClass}`}
           />
-          <button className={styles.done} onClick={() => setIsEditing(false)}>Done</button>
         </>
       ) : (
-        <>
-          <span className={stylingClassM}>{fieldValueM}</span>/
-          <span className={stylingClassD}>{fieldValueD}</span>
-        </>
+        <span>
+          <span className={monthClass}>{initialMonth}</span>/
+          <span className={dayClass}>{initialDay}</span>
+        </span>
       )}
-    </span>
+    </div>
   );
 };
 

@@ -118,6 +118,162 @@
         }
       ]
     },
+    {
+      "tableType": "TableType5_2",
+      "tableName": "SPAWNING RUN TIMING AND ESTIMATED NUMBER",
+      "itemName": "Spawning run timing and estimated number",
+      "style": {
+        "gridColumnStart": 1,
+        "gridColumnEnd": 4
+      },
+      "tableHeader": [
+        [
+          {
+            "fieldName": "SPECIES",
+            "rowItem": "",
+            "key": "",
+            "span": {
+              "rowSpan": 2
+            }
+          },
+          {
+            "fieldName": "ARRIVAL IN STREAM",
+            "rowItem": "",
+            "key": "",
+            "span": {
+              "colSpan": 2
+            }
+          },
+          {
+            "fieldName": "DATES of SPAWNING",
+            "rowItem": "",
+            "key": "",
+            "span": {
+              "colSpan": 6
+            }
+          },
+          {
+            "fieldName": "NO. of OBSER.",
+            "rowItem": "",
+            "key": "",
+            "span": {
+              "rowSpan": 2
+            }
+          },
+          {
+            "fieldName": "METHOD",
+            "rowItem": "",
+            "key": "",
+            "span": {
+              "rowSpan": 2
+            }
+          },
+          {
+            "fieldName": "RELIABILITY",
+            "rowItem": "",
+            "key": "",
+            "span": {
+              "rowSpan": 2
+            }
+          },
+          {
+            "fieldName": "EST. TO. NO. ON GROUNDS",
+            "rowItem": "",
+            "key": "",
+            "span": {
+              "rowSpan": 2
+            }
+          },
+          {
+            "fieldName": "OPTIMUM ESCAPEMENT",
+            "rowItem": "",
+            "key": "",
+            "span": {
+              "rowSpan": 2
+            }
+          }
+        ],
+        [
+          {
+            "fieldName": "Month",
+            "rowItem": "",
+            "key": "",
+            "span": {}
+          },
+          {
+            "fieldName": "Day",
+            "rowItem": "",
+            "key": "",
+            "span": {}
+          },
+          {
+            "fieldName": "Start Month",
+            "rowItem": "",
+            "key": "",
+            "span": {}
+          },
+          {
+            "fieldName": "Start Day",
+            "rowItem": "",
+            "key": "",
+            "span": {}
+          },
+          {
+            "fieldName": "Peak Month",
+            "rowItem": "",
+            "key": "",
+            "span": {}
+          },
+          {
+            "fieldName": "Peak Day",
+            "rowItem": "",
+            "key": "",
+            "span": {}
+          },
+          {
+            "fieldName": "End Month",
+            "rowItem": "",
+            "key": "",
+            "span": {}
+          },
+          {
+            "fieldName": "End Day",
+            "rowItem": "",
+            "key": "",
+            "span": {}
+          }
+        ]
+      ],
+      "tableData": {
+        "item": [
+          { "fieldName": "SOCK1", "itemName": "Sock 1" },
+          { "fieldName": "SOCK2", "itemName": "Sock 2" },
+          { "fieldName": "COHO1", "itemName": "Coho 1" },
+          { "fieldName": "COHO2", "itemName": "Coho 2" },
+          { "fieldName": "PINK1", "itemName": "Pink 1" },
+          { "fieldName": "PINK2", "itemName": "Pink 2" },
+          { "fieldName": "CHUM1", "itemName": "Chum 1" },
+          { "fieldName": "CHUM2", "itemName": "Chum 2" },
+          { "fieldName": "CHIN1", "itemName": "Chin 1" },
+          { "fieldName": "CHIN2", "itemName": "Chin 2" }
+        ],
+        "key": [
+          { "key": "Arrival month" },
+          { "key": "Arrival day" },
+          { "key": "Start month" },
+          { "key": "Start day" },
+          { "key": "Peak month" },
+          { "key": "Peak day" },
+          { "key": "End month" },
+          { "key": "End day" },
+          { "key": "No. of observer" },
+          { "key": "Method" },
+          { "key": "Reliability" },
+          { "key": "Estimated total No. on grounds" },
+          { "key": "Optimum escapement" }
+        ]
+      }
+    },
 
     {
       "tableType": "TableType4",
@@ -567,7 +723,7 @@
           "fieldName": "(11) Severe bank erosion",
           "key": "(11) Severe bank erosion"
         },
-      
+
         {
           "fieldName": "(12) Percent (%) of spawning habitat degradation: Unusual (13) Drought ",
           "key": "(13) Unusual drought"
@@ -582,7 +738,6 @@
         }
       ]
     }
-
-
-  ]
+  ],
+  "teresultocr": []
 }

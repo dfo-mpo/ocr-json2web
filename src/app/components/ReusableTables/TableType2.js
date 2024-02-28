@@ -1,33 +1,61 @@
 import React from "react";
 import styles from "./TableType2.module.css";
+import EditableFieldDate from "../EditableField/EditableFieldDate";
 
-const TableType2 = ({ items, folderName, fileName, formSetting, myStyle }) => {
-  const tableName = formSetting.tableName;
-  const tableData = formSetting.tableData;
-  const itemName = formSetting.itemName;
-  const insideTableName = formSetting.insideTableName;
+const TableType2 = ({ items, formSetting, myStyle, onEdit }) => {
+  const { tableName, itemName } = formSetting;
 
-  const dates = items[itemName];
+
+  const handleMonthChange = (index, newMonth) => {
+    let updatedItems = [...items[itemName]];
+    if (!updatedItems[index]) {
+      updatedItems[index] = { Month: "", Day: "" };
+    }
+  
+    updatedItems[index].Month = newMonth;
+    onEdit({ ...items, [itemName]: updatedItems });
+  };
+
+  const handleDayChange = (index, newDay) => {
+    let updatedItems = [...items[itemName]];
+    if (!updatedItems[index]) {
+      updatedItems[index] = { Month: "", Day: "" };
+    }
+    updatedItems[index].Day = newDay;
+    onEdit({ ...items, [itemName]: updatedItems });
+  };
+
+  const itemData = items[itemName] || [];
 
   return (
     <div style={myStyle}>
       {tableName && <div className={styles.title}>{tableName}</div>}
-      <div className={styles.myTable}>
-      {insideTableName && <div className={styles.title2}>{insideTableName}</div>}
-        <div>
-          {dates
-            ? dates.map((date, index) => {
+      <table className={styles.myTable}>
+        <tbody>
+          {Array.from({ length: 6 }).map((_, rowIndex) => (
+            <tr key={rowIndex}>
+              {Array.from({ length: 3 }).map((_, colIndex) => {
+                const cellIndex = rowIndex * 3 + colIndex;
+                const dateObject = itemData[cellIndex] || {};
+                
                 return (
-                  <div key={index}>
-                    {tableData.map((data, index) => {
-                      return <span key={index}>{date[data.key]} </span>;
-                    })}
-                  </div>
+                  <td key={colIndex} className={styles.tableCell}>
+                    <EditableFieldDate
+                      index={cellIndex}
+                      isFlagM=""
+                      isFlagD=""
+                      initialMonth={dateObject.Month || ""}
+                      initialDay={dateObject.Day || ""}
+                      onMonthChange={handleMonthChange}
+                      onDayChange={handleDayChange}
+                    />
+                  </td>
                 );
-              })
-            : null}
-        </div>
-      </div>
+              })}
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
   );
 };
