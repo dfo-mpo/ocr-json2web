@@ -2,7 +2,14 @@ import React from "react";
 import styles from "./TableType3.module.css";
 import EditableFieldTextarea from "../EditableField/EditableFieldTextarea";
 
-const TableType3 = ({ items, folderName, fileName, formSetting, myStyle, onEdit }) => {
+const TableType3 = ({
+  items,
+  folderName,
+  fileName,
+  formSetting,
+  myStyle,
+  onEdit,
+}) => {
   const tableName = formSetting.tableName;
   const tableData = formSetting.tableData;
   const insideTableName = formSetting.insideTableName;
@@ -11,7 +18,6 @@ const TableType3 = ({ items, folderName, fileName, formSetting, myStyle, onEdit 
     updateJson[event.target.name] = event.target.value;
     onEdit(updateJson);
   };
-  
 
   return (
     <div style={myStyle}>
@@ -20,19 +26,19 @@ const TableType3 = ({ items, folderName, fileName, formSetting, myStyle, onEdit 
       {tableData.map((data, index) => {
         return (
           <div key={index}>
-            {items[data.key] && (
-              <div className={styles.myTable}>
-                {insideTableName && <div className={styles.title2}>{insideTableName}</div>}
-                <div>{data.fieldName} </div>
-                <EditableFieldTextarea 
-                  key={index}
-                  isFlag= ''
-                  fieldName={data.key}
-                  fieldValue={items[data.key]}
-                  handleChange={handleChange}
-                />
-              </div>
-            )}
+            <div className={styles.myTable}>
+              {insideTableName && (
+                <div className={styles.title2}>{insideTableName}</div>
+              )}
+              <div>{data.fieldName} </div>
+              <EditableFieldTextarea
+                key={index}
+                isFlag=""
+                fieldName={data.key}
+                fieldValue={items[data.key]}
+                handleChange={handleChange}
+              />
+            </div>
           </div>
         );
       })}

@@ -9,6 +9,7 @@ import TableType4 from "./ReusableTables/TableType4";
 import TableType5 from "./ReusableTables/TableType5";
 import TableType5_2 from "./ReusableTables/TableType5_2";
 import TableType6 from "./ReusableTables/TableType6";
+import TableTypeComb from "./ReusableTables/TableTypeComb";
 
 const Form = ({ items, folderName, fileName, formSetting, saveChange, cancelChange }) => {
   const title = formSetting.title;
@@ -156,6 +157,19 @@ const Form = ({ items, folderName, fileName, formSetting, saveChange, cancelChan
                 fileName={fileName}
                 formSetting={formSettingItem}
                 onEdit={changeHandler}
+              />
+            );
+          }else if (formSettingItem.tableType === "TableTypeComb") {
+            return (
+              <TableTypeComb
+                myStyle={formSettingItem.style}
+                key={index}
+                updateJson={updateJson}
+                folderName={folderName}
+                fileName={fileName}
+                formSetting={formSettingItem}
+                onEdit={changeHandler}
+
               />
             );
           }

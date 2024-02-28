@@ -79,45 +79,56 @@
         }
       ]
     },
+
     {
-      "tableType": "TableType2",
-      "tableName": "DATES OF INSPECTION ",
-      "insideTableName": "",
-      "itemName": "Date of inspection",
+      "tableType": "TableTypeComb",
+      "tableName": "",
       "style": {
+        "display": "grid",
         "gridColumnStart": 2,
         "gridColumnEnd": 4,
         "gridRowStart": 2,
         "gridRowEnd": 3
       },
-      "tableData": [
+      "insideFormSetting": [
         {
-          "fieldName": "MM",
-          "key": "Month"
+          "tableType": "TableType2",
+          "tableName": "DATES OF INSPECTION ",
+          "insideTableName": "",
+          "itemName": "Date of inspection",
+          "style": {
+            "gridColumnStart": 1,
+            "gridColumnEnd": 2
+          },
+          "tableData": [
+            {
+              "fieldName": "MM",
+              "key": "Month"
+            },
+            {
+              "fieldName": "DD",
+              "key": "Day"
+            }
+          ]
         },
         {
-          "fieldName": "DD",
-          "key": "Day"
+          "tableType": "TableType3",
+          "tableName": "",
+          "insideTableName": "",
+          "style": {
+            "gridColumnStart": 1,
+            "gridColumnEnd": 2
+          },
+          "tableData": [
+            {
+              "fieldName": "",
+              "key": "Dates of inspection (1)"
+            }
+          ]
         }
       ]
     },
-    {
-      "tableType": "TableType3",
-      "tableName": "",
-      "insideTableName": "",
-      "style": {
-        "gridColumnStart": 2,
-        "gridColumnEnd": 4,
-        "gridRowStart": 3,
-        "gridRowEnd": 4
-      },
-      "tableData": [
-        {
-          "fieldName": "",
-          "key": "Dates of inspection (1)"
-        }
-      ]
-    },
+
     {
       "tableType": "TableType5_2",
       "tableName": "SPAWNING RUN TIMING AND ESTIMATED NUMBER",
@@ -640,9 +651,7 @@
       ]
     }
   ],
-  "5aresultocr":[
-
-  ],
+  "5aresultocr": [],
   "testformat": [
     {
       "tableType": "TableType1",

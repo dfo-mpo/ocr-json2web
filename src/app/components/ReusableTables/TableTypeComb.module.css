@@ -1,0 +1,13 @@
+.myTable {
+  border: 2px solid black;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.wrapper {
+  border: 2px solid black;
+}
