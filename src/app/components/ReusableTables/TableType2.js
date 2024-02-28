@@ -20,12 +20,15 @@ const TableType2 = ({
   const handleDateChange = (event) => {
     const index = event.target.getAttribute("index");
     const { name, value } = event.target;
-   
+
     updateJson[itemName][index][name] = value;
     onEdit(updateJson);
   };
 
   const addDateHandler = () => {
+    if (!updateJson[itemName]) {
+      updateJson[itemName] = [];
+    }
     let newDate = {};
     tableData.map((data, index) => (newDate[data.key] = data.fieldName));
     updateJson[itemName].push(newDate);
@@ -53,7 +56,7 @@ const TableType2 = ({
           <div className={styles.title2}>{insideTableName}</div>
         )}
 
-        <div className={styles. dateDisplay}>
+        <div className={styles.dateDisplay}>
           {dates
             ? dates.map((date, arrayIndex) => {
                 return (

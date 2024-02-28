@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "./TableType2.module.css";
+import styles from "./TableType2_1.module.css";
 import EditableFieldDate from "../EditableField/EditableFieldDate";
 
-const TableType2 = ({ items, formSetting, myStyle, onEdit }) => {
+const TableType2_1 = ({ items, formSetting, myStyle, onEdit }) => {
   const { tableName, itemName } = formSetting;
 
 
@@ -60,4 +60,4 @@ const TableType2 = ({ items, formSetting, myStyle, onEdit }) => {
   );
 };
 
-export default TableType2;
+export default TableType2_1;
