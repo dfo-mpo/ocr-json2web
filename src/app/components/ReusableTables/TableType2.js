@@ -53,7 +53,7 @@ const TableType2 = ({
           <div className={styles.title2}>{insideTableName}</div>
         )}
 
-        <div>
+        <div className={styles. dateDisplay}>
           {dates
             ? dates.map((date, arrayIndex) => {
                 return (

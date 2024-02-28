@@ -38,3 +38,11 @@
   background-color: #ddd;
   color: red;
 }
+.dateDisplay {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dateDisplay > div {
+  width: 33%;
+}
