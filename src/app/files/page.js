@@ -11,7 +11,7 @@ import verifiedIcon from "../../../public/images/verified.svg";
 import modifiedIcon from "../../../public/images/modified.svg";
 
 import VerifiedButton from "./VerifiedButton";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 const File = ({ searchParams }) => {
   const [isLoading, setIsLoading] = useState(true);
@@ -22,10 +22,20 @@ const File = ({ searchParams }) => {
   const [fileStatusJson, setFileStatusJson] = useState([]);
   const [modified, setModified] = useState(false);
   const [error, setError] = useState(false);
+  const [pageHeight, setPageHeight] = useState(1500);
 
   // this is the Form page
   const fileName = searchParams.fileName;
   const folderName = searchParams.folderName;
+
+  const myContainer = useRef(null);
+
+  useEffect(() => {
+    if (myContainer.current) {
+      const height = myContainer.current.clientHeight;
+      setPageHeight(height);
+    }
+  });
 
   // const error = searchParams.error === "true";
   // const modified = searchParams.modified === "true";
@@ -60,7 +70,7 @@ const File = ({ searchParams }) => {
             const jsonString = new TextDecoder().decode(value);
             // Parse the JSON string into an object
             const dataObject = JSON.parse(jsonString);
-     
+
             setJsonData(dataObject);
             setIsLoading(false);
           }
@@ -165,7 +175,7 @@ const File = ({ searchParams }) => {
     asyncFetchStatus();
   }, []);
   return (
-    <div>
+    <div className={styles.allPage}>
       {/* <title>{folderName}</title> */}
       <title>{fileName.replace(".json", "").replace(/_/g, " ")}</title>
       <LogoHeader />
@@ -213,7 +223,7 @@ const File = ({ searchParams }) => {
             verified={verified}
             reFetch={asyncFetchStatus}
           />
-          <div className={styles.container}>
+          <div className={styles.container} ref={myContainer}>
             <FormRender
               folderName={folderName}
               items={jsonData}
@@ -241,6 +251,7 @@ const File = ({ searchParams }) => {
               formSetting={formSetting}
               folderName={folderName}
               fileName={fileName}
+              pageHeight={pageHeight}
             />
           </div>
         </>

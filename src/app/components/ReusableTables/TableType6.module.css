@@ -1,10 +1,13 @@
 .wrapper {
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 .title {
   font-weight: bold;
   text-decoration: underline;
+}
+.myList{
+  padding: 0 10px;
 }
 
 .myTable {
@@ -17,4 +20,9 @@
   display: flex;
   align-items: center;
   margin-bottom: 5px;
+}
+.title2 {
+  margin: 5px;
+  font-weight: 510;
+  text-decoration: underline;
 }

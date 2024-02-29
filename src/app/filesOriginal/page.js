@@ -156,7 +156,7 @@ const File = ({ searchParams }) => {
     asyncFetchStatus();
   }, []);
   return (
-    <div>
+    <div className={styles.allPage}>
       {/* <title>{folderName}</title> */}
       <title>{`Original Version: ${fileName.replace(".json", "").replace(/_/g, " ")}`}</title>
       <LogoHeader />

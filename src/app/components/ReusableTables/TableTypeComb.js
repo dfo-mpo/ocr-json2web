@@ -7,6 +7,7 @@ import TableType4 from "./TableType4";
 import TableType5 from "./TableType5";
 import TableType5_2 from "./TableType5_2";
 import TableType6 from "./TableType6";
+import TableType7 from "./TableType7";
 
 const TableTypeComb = ({
   updateJson,
@@ -17,7 +18,7 @@ const TableTypeComb = ({
   onEdit,
 }) => {
   const tableName = formSetting.tableName;
-
+const insideTableName = formSetting.insideTableName;
   const insideFormSetting = formSetting.insideFormSetting;
 
   const changeHandler = (newJson) => {
@@ -28,6 +29,7 @@ const TableTypeComb = ({
     <div style={myStyle}>
       {tableName && <div className={styles.title}>{tableName}</div>}
       <div className={styles.wrapper}>
+        {insideTableName&& <div className={styles.title2}>{insideTableName}</div>}
         <div style={formSetting.style && formSetting.style}>
           {insideFormSetting.map((formSettingItem, index) => {
             if (formSettingItem.tableType === "TableType1") {
@@ -114,7 +116,19 @@ const TableTypeComb = ({
                   onEdit={changeHandler}
                 />
               );
-            } else if (formSettingItem.tableType === "TableTypeComb") {
+            } else if (formSettingItem.tableType === "TableType7") {
+              return (
+                <TableType7
+                  myStyle={formSettingItem.style}
+                  key={index}
+                  items={updateJson}
+                  folderName={folderName}
+                  fileName={fileName}
+                  formSetting={formSettingItem}
+                  onEdit={changeHandler}
+                />
+              );
+            }else if (formSettingItem.tableType === "TableTypeComb") {
               return (
                 <TableTypeComb
                   myStyle={formSettingItem.style}

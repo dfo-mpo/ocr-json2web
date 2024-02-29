@@ -80,48 +80,20 @@ Display Example:
 
 
 ## TableType3
-```
-  {
-      "tableType": "TableType3",
-      "tableName": "",
-      "style": {},
-      "tableData": [
-        {
-          "fieldName": "",
-          "key": "Dates of inspection (1)"
-        }
-      ]
-    }
-```
 
-```
- {"Dates of inspection (1)": "NOT INSPECTED THIS YEAR"}
+all field names is on the first row
 
-```
-
-
->	
->	Example
->	
-|                         |
-|-------------------------|
-| NOT INSPECTED THIS YEAR |
-
-
-
-
-```
- {    "Dates of inspection (1)": null}
-```
->	Example: nothing on the page
 
 
 ## TableType4
 For: a single list of key:value pair 
 
-## TableType5
-working on it, for spawning table
+## TableType5_2
+For complicated table
 
 ## TableType6
 For the check box ( check box on the left)
 
+
+## TableType7
+filed name and value all in one row

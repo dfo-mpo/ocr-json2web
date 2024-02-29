@@ -10,8 +10,16 @@ import TableType5 from "./ReusableTables/TableType5";
 import TableType5_2 from "./ReusableTables/TableType5_2";
 import TableType6 from "./ReusableTables/TableType6";
 import TableTypeComb from "./ReusableTables/TableTypeComb";
+import TableType7 from "./ReusableTables/TableType7";
 
-const Form = ({ items, folderName, fileName, formSetting, saveChange, cancelChange }) => {
+const Form = ({
+  items,
+  folderName,
+  fileName,
+  formSetting,
+  saveChange,
+  cancelChange,
+}) => {
   const title = formSetting.title;
   const subtitle = formSetting.subtitle;
   const [updateJson, setUpdateJson] = useState(items);
@@ -47,7 +55,7 @@ const Form = ({ items, folderName, fileName, formSetting, saveChange, cancelChan
 
   const saveHandler = () => {
     console.log(updateJson);
-    //TODO: delete this line 
+    //TODO: delete this line
     // setIsEditing(false); alert("Success, testing locally now");
     //TODO: uncomment this line to enable save button
     onClickHandler(updateJson);
@@ -135,7 +143,7 @@ const Form = ({ items, folderName, fileName, formSetting, saveChange, cancelChan
                 onEdit={changeHandler}
               />
             );
-          }else if (formSettingItem.tableType === "TableType5_2") {
+          } else if (formSettingItem.tableType === "TableType5_2") {
             return (
               <TableType5_2
                 myStyle={formSettingItem.style}
@@ -147,7 +155,7 @@ const Form = ({ items, folderName, fileName, formSetting, saveChange, cancelChan
                 onEdit={changeHandler}
               />
             );
-          }  else if (formSettingItem.tableType === "TableType6") {
+          } else if (formSettingItem.tableType === "TableType6") {
             return (
               <TableType6
                 myStyle={formSettingItem.style}
@@ -159,7 +167,19 @@ const Form = ({ items, folderName, fileName, formSetting, saveChange, cancelChan
                 onEdit={changeHandler}
               />
             );
-          }else if (formSettingItem.tableType === "TableTypeComb") {
+          } else if (formSettingItem.tableType === "TableType7") {
+            return (
+              <TableType7
+                myStyle={formSettingItem.style}
+                key={index}
+                items={updateJson}
+                folderName={folderName}
+                fileName={fileName}
+                formSetting={formSettingItem}
+                onEdit={changeHandler}
+              />
+            );
+          } else if (formSettingItem.tableType === "TableTypeComb") {
             return (
               <TableTypeComb
                 myStyle={formSettingItem.style}
@@ -169,7 +189,6 @@ const Form = ({ items, folderName, fileName, formSetting, saveChange, cancelChan
                 fileName={fileName}
                 formSetting={formSettingItem}
                 onEdit={changeHandler}
-
               />
             );
           }

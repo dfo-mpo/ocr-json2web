@@ -6,8 +6,12 @@
   color: green !important;
 }
 
-.content {
-}
+
 .input {
-  width: 100%;
+  width: 80%;
+}
+
+.content {
+  min-width: 60px;
+  background-color: aliceblue;
 }

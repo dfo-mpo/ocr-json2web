@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "./TableType3.module.css";
+import styles from "./TableType7.module.css";
 import EditableField from "../EditableField/EditableField";
 
-const TableType3 = ({
+const TableType7 = ({
   items,
   folderName,
   fileName,
@@ -12,6 +12,7 @@ const TableType3 = ({
 }) => {
   const tableName = formSetting.tableName;
   const tableData = formSetting.tableData;
+  const insideTableName = formSetting.insideTableName;
   let updateJson = { ...items };
   const handleChange = (event) => {
     updateJson[event.target.name] = event.target.value;
@@ -24,7 +25,11 @@ const TableType3 = ({
   return (
     <div style={myStyle}>
       {tableName && <div className={styles.title}>{tableName}</div>}
-      <div className={styles.myTable}>
+      <div className={styles.myTableBox}>
+        {insideTableName && (
+          <div className={styles.title2}>{insideTableName}</div>
+        )}
+        <div className={styles.myTable}>
         {tableData.map((data, index) => {
           return (
             <div key={index} className={styles.keyPair}>
@@ -44,8 +49,9 @@ const TableType3 = ({
           );
         })}
       </div>
+      </div>
     </div>
   );
 };
 
-export default TableType3;
+export default TableType7;

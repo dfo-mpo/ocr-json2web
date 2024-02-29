@@ -1,12 +1,18 @@
 import React from "react";
 import styles from "./TableType5.module.css";
 import EditableFieldForTable from "../EditableField/EditableFieldForTable";
-const TableType5 = ({ items, folderName, fileName, formSetting, myStyle, onEdit }) => {
+const TableType5 = ({
+  items,
+  folderName,
+  fileName,
+  formSetting,
+  myStyle,
+  onEdit,
+}) => {
   const tableName = formSetting.tableName;
   const tableData = formSetting.tableData;
   const allOjb = formSetting.itemName;
   const itemOjb = items[allOjb];
-
 
   let updateJson = { ...items };
   const handleChange = (event) => {
@@ -17,6 +23,9 @@ const TableType5 = ({ items, folderName, fileName, formSetting, myStyle, onEdit 
     const singleItem = {
       [itemName]: {},
     };
+    if(!updateJson[allOjb]){
+      updateJson[allOjb] = {};
+    }
 
     if (!updateJson[allOjb][itemName]) {
       updateJson[allOjb] = {
@@ -45,15 +54,17 @@ const TableType5 = ({ items, folderName, fileName, formSetting, myStyle, onEdit 
                     return (
                       <td key={index} rowSpan={rowSpan} colSpan={colSpan}>
                         {data.key ? (
-                           <EditableFieldForTable
-                          itemName={rowItem}
-                          filedKey={data.key }
-                          fieldValue={
-                            itemOjb[rowItem] ? itemOjb[rowItem][data.key ] : ""
-                          }
-                          isFlag=""
-                          handleChange={handleChange}
-                        />
+                          <EditableFieldForTable
+                            itemName={rowItem}
+                            filedKey={data.key}
+                            fieldValue={
+                              itemOjb && itemOjb[rowItem]
+                                ? itemOjb[rowItem][data.key]
+                                : ""
+                            }
+                            isFlag=""
+                            handleChange={handleChange}
+                          />
                         ) : (
                           <span className={styles.tdFieldName}>
                             {data.fieldName}

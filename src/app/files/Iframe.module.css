@@ -1,23 +1,16 @@
 .iframe {
-  height: 1500px;
+  height: 2000px;
   width: 100%;
   border: none;
   margin-left: 5px;
 }
 
-.iframe7e {
-  height: 2500px;
-  width: 100%;
-  border: none;
-  margin-left: 5px;
-}
 .showButton {
   opacity: 0.6;
   position: fixed;
   bottom: 50px;
   right: 20px;
- 
-  
+
   z-index: 1;
   background-color: #fff;
   border-radius: 24px;

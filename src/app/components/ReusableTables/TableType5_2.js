@@ -24,6 +24,9 @@ const TableType5_2 = ({
     const singleItem = {
       [itemName]: {},
     };
+    if (!updateJson[allOjb]) {
+      updateJson[allOjb] = {};
+    }
 
     if (!updateJson[allOjb][itemName]) {
       updateJson[allOjb] = {
@@ -67,30 +70,34 @@ const TableType5_2 = ({
                 </tr>
               );
             })}
-            {tableData.item.map((data, index) => {
-              const rowItem = data.itemName;
-              return (
-                <tr key={index}>
-                  <td className={styles.tdFieldName}>{data.fieldName}</td>
-                  {tableData.key.map((data, index) => {
-                    const key = data.key;
-                    return (
-                      <td key={index}>
-                        <EditableFieldForTable
-                          itemName={rowItem}
-                          filedKey={key}
-                          fieldValue={
-                            itemOjb[rowItem] ? itemOjb[rowItem][key] : ""
-                          }
-                          isFlag=""
-                          handleChange={handleChange}
-                        />
-                      </td>
-                    );
-                  })}
-                </tr>
-              );
-            })}
+            {Object.keys(tableData).length === 0
+              ? null
+              : tableData.item.map((data, index) => {
+                  const rowItem = data.itemName;
+                  return (
+                    <tr key={index}>
+                      <td className={styles.tdFieldName}>{data.fieldName}</td>
+                      {tableData.key.map((data, index) => {
+                        const key = data.key;
+                        return (
+                          <td key={index}>
+                            <EditableFieldForTable
+                              itemName={rowItem}
+                              filedKey={key}
+                              fieldValue={
+                                itemOjb && itemOjb[rowItem]
+                                  ? itemOjb[rowItem][key]
+                                  : ""
+                              }
+                              isFlag=""
+                              handleChange={handleChange}
+                            />
+                          </td>
+                        );
+                      })}
+                    </tr>
+                  );
+                })}
           </tbody>
         </table>
       </>

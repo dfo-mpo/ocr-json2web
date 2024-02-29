@@ -25,7 +25,7 @@ const EditableField = ({
   }
   return (
     <div
-      className={`${styles.content} ${stylingClass}`}
+      className={`${!fieldValue&&styles.content} ${stylingClass}`}
       onDoubleClick={() => setIsEditing(true)}
       onBlur={() => {
         setIsEditing(false);
@@ -42,7 +42,7 @@ const EditableField = ({
           autoFocus
         />
       ) : (
-        <span className={stylingClass}> {fieldValue || "\u200B"} </span>
+        <span className={` ${stylingClass}`}> {fieldValue || "\u00A0"} </span>
       )}
     </div>
   );
