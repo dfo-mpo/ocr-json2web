@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./TableType5.module.css";
 import EditableFieldForTable from "../EditableField/EditableFieldForTable";
-const TableType5_2 = ({
+const TableType5_1 = ({
   items,
   folderName,
   fileName,
@@ -10,7 +10,6 @@ const TableType5_2 = ({
   onEdit,
 }) => {
   const tableName = formSetting.tableName;
-  const tableHeader = formSetting.tableHeader;
   const tableData = formSetting.tableData;
   const allOjb = formSetting.itemName;
   const itemOjb = items[allOjb];
@@ -24,7 +23,7 @@ const TableType5_2 = ({
     const singleItem = {
       [itemName]: {},
     };
-    if (!updateJson[allOjb]) {
+    if(!updateJson[allOjb]){
       updateJson[allOjb] = {};
     }
 
@@ -37,13 +36,14 @@ const TableType5_2 = ({
     updateJson[allOjb][itemName][key] = value;
     onEdit(updateJson);
   };
+
   return (
     <div style={myStyle}>
       <>
         {tableName && <div className={styles.title}>{tableName}</div>}
         <table className={styles.myTable}>
           <tbody>
-            {tableHeader.map((data, index) => {
+            {tableData.map((data, index) => {
               return (
                 <tr key={index}>
                   {data.map((data, index) => {
@@ -54,11 +54,17 @@ const TableType5_2 = ({
                     return (
                       <td key={index} rowSpan={rowSpan} colSpan={colSpan}>
                         {data.key ? (
-                          itemOjb[rowItem] ? (
-                            itemOjb[rowItem][data.key]
-                          ) : (
-                            ""
-                          )
+                          <EditableFieldForTable
+                            itemName={rowItem}
+                            filedKey={data.key}
+                            fieldValue={
+                              itemOjb && itemOjb[rowItem]
+                                ? itemOjb[rowItem][data.key]
+                                : ""
+                            }
+                            isFlag=""
+                            handleChange={handleChange}
+                          />
                         ) : (
                           <span className={styles.tdFieldName}>
                             {data.fieldName}
@@ -70,34 +76,6 @@ const TableType5_2 = ({
                 </tr>
               );
             })}
-            {Object.keys(tableData).length === 0
-              ? null
-              : tableData.item.map((data, index) => {
-                  const rowItem = data.itemName;
-                  return (
-                    <tr key={index}>
-                      <td className={styles.tdFieldName}>{data.fieldName}</td>
-                      {tableData.key.map((data, index) => {
-                        const key = data.key;
-                        return (
-                          <td key={index}>
-                            <EditableFieldForTable
-                              itemName={rowItem}
-                              filedKey={key}
-                              fieldValue={
-                                itemOjb && itemOjb[rowItem]
-                                  ? itemOjb[rowItem][key]
-                                  : ""
-                              }
-                              isFlag=""
-                              handleChange={handleChange}
-                            />
-                          </td>
-                        );
-                      })}
-                    </tr>
-                  );
-                })}
           </tbody>
         </table>
       </>
@@ -105,4 +83,4 @@ const TableType5_2 = ({
   );
 };
 
-export default TableType5_2;
+export default TableType5_1;

@@ -133,7 +133,7 @@
 
     {
       "note": "This is Spawning Run Timing and Estimated Number table",
-      "tableType": "TableType5_2",
+      "tableType": "TableType5",
       "tableName": "SPAWNING RUN TIMING AND ESTIMATED NUMBER",
       "itemName": "Spawning run timing and estimated number",
       "style": {
@@ -474,7 +474,7 @@
     },
     {
       "note": "This is Spawning Run Timing and Estimated Number table",
-      "tableType": "TableType5_2",
+      "tableType": "TableType5",
       "tableName": "SPAWNING RUN TIMING AND ESTIMATED NUMBER",
       "itemName": "Spawning Run Timing and Estimated Number",
       "style": {
@@ -771,7 +771,7 @@
     },
     {
       "note": "This is Spawning Run Timing and Estimated Number table",
-      "tableType": "TableType5_2",
+      "tableType": "TableType5",
       "tableName": "SPAWNING RUN TIMING AND ESTIMATED NUMBER",
       "itemName": "Duration of Spawning",
       "style": {
@@ -1070,7 +1070,7 @@
     },
     {
       "note": "This is Spawning Run Timing and Estimated Number table",
-      "tableType": "TableType5_2",
+      "tableType": "TableType5",
       "tableName": "SPAWNING RUN TIMING AND ESTIMATED NUMBER",
       "itemName": "Spawning run timing",
       "style": {
@@ -1479,7 +1479,7 @@
     },
     {
       "note": "This is Spawning Run Timing and Estimated Number table",
-      "tableType": "TableType5_2",
+      "tableType": "TableType5",
       "tableName": "DETAILS AFFECTING ESCAPEMENT ESTIMATION",
       "itemName": "Details affecting salmon escapement",
       "style": {
@@ -1592,7 +1592,7 @@
     },
     {
       "note": "This is Spawning Run Timing and Estimated Number table",
-      "tableType": "TableType5_2",
+      "tableType": "TableType5",
       "tableName": "SPAWNING RUN TIMING",
       "itemName": "Spawning run timing",
       "style": {
@@ -1819,7 +1819,6 @@
         }
       ]
     },
-
     {
       "note": "",
       "tableType": "TableTypeComb",
@@ -2041,7 +2040,7 @@
       },
       "insideFormSetting": [
         {
-          "tableType": "TableType5_2",
+          "tableType": "TableType5",
           "tableName": "",
           "itemName": "Bio Sampling",
           "style": {
@@ -2169,104 +2168,6 @@
       ]
     }
   ],
-  "testformat": [
-    {
-      "tableType": "TableType1",
-      "tableName": "STREAM IDENTIFICATION",
-      "tableData": [
-        {
-          "fieldName": "Year",
-          "key": "Year"
-        },
-        {
-          "fieldName": "Area",
-          "key": "Area"
-        },
-        {
-          "fieldName": "District",
-          "key": "District"
-        },
-        {
-          "fieldName": "Sub",
-          "key": "Sub"
-        },
-        {
-          "fieldName": "RAB Code",
-          "key": "RAB code"
-        },
-        {
-          "fieldName": "Gazetted Name",
-          "key": "Gazetted name"
-        },
-        {
-          "fieldName": "First Local Name",
-          "key": "First local name"
-        },
-        {
-          "fieldName": "Second Local Name",
-          "key": "Second local name"
-        },
-        {
-          "fieldName": "Flows Into",
-          "key": "Flows into"
-        },
-        {
-          "fieldName": "Latitude",
-          "key": "Latitude"
-        },
-        {
-          "fieldName": "Longitude",
-          "key": "Longitude"
-        },
-        {
-          "fieldName": "Filed Crew",
-          "key": "Field Crew"
-        }
-      ]
-    },
-    {
-      "tableType": "TableType6",
-      "tableName": "UNUSUAL CONDITIONS",
-      "style": {
-        "gridColumnStart": 1,
-        "gridColumnEnd": 4
-      },
-      "tableData": [
-        {
-          "fieldName": "(7) Enhancement activities or intense biological activities",
-          "key": "(7) Enhancement"
-        },
-        {
-          "fieldName": "(8) Unusual mortalities",
-          "key": "(8) Unusual mortalities"
-        },
-        {
-          "fieldName": "(9) Upslope instability",
-          "key": "(9) Upslope instability"
-        },
-        {
-          "fieldName": "(10) Debris jams present which could become a debris torrent",
-          "key": "(10) Debris jams present"
-        },
-        {
-          "fieldName": "(11) Severe bank erosion",
-          "key": "(11) Severe bank erosion"
-        },
-
-        {
-          "fieldName": "(12) Percent (%) of spawning habitat degradation: Unusual (13) Drought ",
-          "key": "(13) Unusual drought"
-        },
-        {
-          "fieldName": "(14) or Flood impacts on spawning or egg incubation success of salmon this year",
-          "key": "(14) Flood"
-        },
-        {
-          "fieldName": "(15) GENERAL COMMENTS ON UNUSUAL CONDITIONS",
-          "key": "(15) General comments"
-        }
-      ]
-    }
-  ],
+  "testformat": [],
   "teresultocr": []
 }

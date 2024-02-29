@@ -5,7 +5,6 @@ import TableType2 from "./TableType2";
 import TableType3 from "./TableType3";
 import TableType4 from "./TableType4";
 import TableType5 from "./TableType5";
-import TableType5_2 from "./TableType5_2";
 import TableType6 from "./TableType6";
 import TableType7 from "./TableType7";
 
@@ -18,7 +17,7 @@ const TableTypeComb = ({
   onEdit,
 }) => {
   const tableName = formSetting.tableName;
-const insideTableName = formSetting.insideTableName;
+  const insideTableName = formSetting.insideTableName;
   const insideFormSetting = formSetting.insideFormSetting;
 
   const changeHandler = (newJson) => {
@@ -29,7 +28,9 @@ const insideTableName = formSetting.insideTableName;
     <div style={myStyle}>
       {tableName && <div className={styles.title}>{tableName}</div>}
       <div className={styles.wrapper}>
-        {insideTableName&& <div className={styles.title2}>{insideTableName}</div>}
+        {insideTableName && (
+          <div className={styles.title2}>{insideTableName}</div>
+        )}
         <div style={formSetting.style && formSetting.style}>
           {insideFormSetting.map((formSettingItem, index) => {
             if (formSettingItem.tableType === "TableType1") {
@@ -92,18 +93,6 @@ const insideTableName = formSetting.insideTableName;
                   onEdit={changeHandler}
                 />
               );
-            } else if (formSettingItem.tableType === "TableType5_2") {
-              return (
-                <TableType5_2
-                  myStyle={formSettingItem.style}
-                  key={index}
-                  items={updateJson}
-                  folderName={folderName}
-                  fileName={fileName}
-                  formSetting={formSettingItem}
-                  onEdit={changeHandler}
-                />
-              );
             } else if (formSettingItem.tableType === "TableType6") {
               return (
                 <TableType6
@@ -128,7 +117,7 @@ const insideTableName = formSetting.insideTableName;
                   onEdit={changeHandler}
                 />
               );
-            }else if (formSettingItem.tableType === "TableTypeComb") {
+            } else if (formSettingItem.tableType === "TableTypeComb") {
               return (
                 <TableTypeComb
                   myStyle={formSettingItem.style}
