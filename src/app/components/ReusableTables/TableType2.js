@@ -9,6 +9,7 @@ const TableType2 = ({
   formSetting,
   myStyle,
   onEdit,
+  insideStyle,
 }) => {
   const tableName = formSetting.tableName;
   const tableData = formSetting.tableData;
@@ -51,7 +52,7 @@ const TableType2 = ({
         </div>
       )}
 
-      <div className={styles.myTable}>
+      <div className={styles.myTable} style={insideStyle}>
         {insideTableName && (
           <div className={styles.title2}>{insideTableName}</div>
         )}

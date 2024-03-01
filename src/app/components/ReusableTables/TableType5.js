@@ -8,6 +8,7 @@ const TableType5 = ({
   formSetting,
   myStyle,
   onEdit,
+  insideStyle,
 }) => {
   const tableName = formSetting.tableName;
   const tableHeader = formSetting.tableHeader;
@@ -41,7 +42,7 @@ const TableType5 = ({
     <div style={myStyle}>
       <>
         {tableName && <div className={styles.title}>{tableName}</div>}
-        <table className={styles.myTable}>
+        <table className={styles.myTable} style={insideStyle}>
           <tbody>
             {tableHeader.map((data, index) => {
               return (

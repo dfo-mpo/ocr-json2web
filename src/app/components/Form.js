@@ -83,9 +83,11 @@ const Form = ({
         {formSetting[folderName].map((formSettingItem, index) => {
           if (formSettingItem.tableType === "TableType1") {
             // console.log("formSettingItem", formSettingItem.style);
+            console.log( formSettingItem)
             return (
               <TableType1
                 myStyle={formSettingItem.style}
+                insideStyle = {formSettingItem.insideStyle}
                 key={index}
                 items={updateJson}
                 folderName={folderName}
@@ -98,6 +100,7 @@ const Form = ({
             return (
               <TableType2
                 myStyle={formSettingItem.style}
+                insideStyle = {formSettingItem.insideStyle}
                 key={index}
                 items={updateJson}
                 folderName={folderName}
@@ -110,6 +113,7 @@ const Form = ({
             return (
               <TableType3
                 myStyle={formSettingItem.style}
+                insideStyle = {formSettingItem.insideStyle}
                 key={index}
                 items={updateJson}
                 folderName={folderName}
@@ -122,6 +126,7 @@ const Form = ({
             return (
               <TableType4
                 myStyle={formSettingItem.style}
+                insideStyle = {formSettingItem.insideStyle}
                 key={index}
                 items={updateJson}
                 folderName={folderName}
@@ -134,6 +139,7 @@ const Form = ({
             return (
               <TableType5
                 myStyle={formSettingItem.style}
+                insideStyle = {formSettingItem.insideStyle}
                 key={index}
                 items={updateJson}
                 folderName={folderName}
@@ -146,6 +152,7 @@ const Form = ({
             return (
               <TableType6
                 myStyle={formSettingItem.style}
+                insideStyle = {formSettingItem.insideStyle}
                 key={index}
                 items={updateJson}
                 folderName={folderName}
@@ -158,6 +165,7 @@ const Form = ({
             return (
               <TableType7
                 myStyle={formSettingItem.style}
+                insideStyle = {formSettingItem.insideStyle}
                 key={index}
                 items={updateJson}
                 folderName={folderName}
@@ -170,6 +178,7 @@ const Form = ({
             return (
               <TableTypeComb
                 myStyle={formSettingItem.style}
+                insideStyle = {formSettingItem.insideStyle}
                 key={index}
                 updateJson={updateJson}
                 folderName={folderName}

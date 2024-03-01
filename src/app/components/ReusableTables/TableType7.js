@@ -9,6 +9,7 @@ const TableType7 = ({
   formSetting,
   myStyle,
   onEdit,
+  insideStyle,
 }) => {
   const tableName = formSetting.tableName;
   const tableData = formSetting.tableData;
@@ -25,7 +26,7 @@ const TableType7 = ({
   return (
     <div style={myStyle}>
       {tableName && <div className={styles.title}>{tableName}</div>}
-      <div className={styles.myTableBox}>
+      <div className={styles.myTableBox} style={insideStyle}>
         {insideTableName && (
           <div className={styles.title2}>{insideTableName}</div>
         )}

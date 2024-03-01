@@ -9,6 +9,7 @@ const TableType1 = ({
   formSetting,
   myStyle,
   onEdit,
+  insideStyle,
 }) => {
   const tableName = formSetting.tableName;
   const tableData = formSetting.tableData;
@@ -21,10 +22,12 @@ const TableType1 = ({
     onEdit(updateJson);
   };
 
+ 
+
   return (
     <div style={myStyle}>
       {tableName && <div className={styles.title}>{tableName}</div>}
-      <table className={styles.myTable}>
+      <table className={styles.myTable} style={insideStyle}>
         <tbody>
           {tableData.map((data, index) => {
             return (
@@ -32,7 +35,7 @@ const TableType1 = ({
                 <td>{data.fieldName}</td>
                 <td>
                   <EditableField
-                    isFlag= ""
+                    isFlag=""
                     //TODO: items[data.key][3] for TAN's json version
                     // isFlag={items[data.key][3]}
                     fieldName={data.key}

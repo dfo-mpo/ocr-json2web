@@ -11,13 +11,14 @@
   },
   "style": {
     "display": "grid",
-    "gap": "10px"
+    "gap": "2px"
   },
   "4cresultocr": [
     {
       "note": "This is Stream Identification table",
       "tableType": "TableType1",
       "tableName": "STREAM IDENTIFICATION",
+      "insideStyle": {},
       "style": {
         "gridColumnStart": 1,
         "gridColumnEnd": 2,
@@ -102,6 +103,9 @@
             "gridColumnStart": 1,
             "gridColumnEnd": 2
           },
+          "insideStyle": {
+            "border": "0px"
+          },
           "tableData": [
             {
               "fieldName": "MM",
@@ -120,6 +124,10 @@
           "style": {
             "gridColumnStart": 1,
             "gridColumnEnd": 2
+          },
+          "insideStyle": {
+            "border": "0px",
+            "borderTop":"1px solid black"
           },
           "tableData": [
             {
@@ -140,6 +148,7 @@
         "gridColumnStart": 1,
         "gridColumnEnd": 4
       },
+      
       "tableHeader": [
         [
           {
@@ -772,7 +781,7 @@
     {
       "note": "This is Spawning Run Timing and Estimated Number table",
       "tableType": "TableType5",
-      "tableName": "SPAWNING RUN TIMING AND ESTIMATED NUMBER",
+      "tableName": "",
       "itemName": "Duration of Spawning",
       "style": {
         "gridColumnStart": 1,
@@ -926,8 +935,8 @@
     },
     {
       "tableType": "TableType4",
-      "tableName": "",
-      "insideTableName": "BIOLOGICAL CONDITIONS",
+      "tableName": "BIOLOGICAL CONDITIONS",
+      "insideTableName": "",
       "style": {
         "gridColumnStart": 1,
         "gridColumnEnd": 4
@@ -961,7 +970,7 @@
     },
     {
       "tableType": "TableType4",
-      "tableName": "COMMENTS ON ANY OTHER CONDITIONS AFFECTING THIS STREAM",
+      "tableName": "ADDITIONAL COMMENTS CONCERNING THIS STREAM",
       "subTableName": "",
       "style": {
         "gridColumnStart": 1,
@@ -1326,8 +1335,11 @@
       "tableType": "TableType3",
       "tableName": "",
       "style": {
-        "gridColumnStart": 3,
+        "gridColumnStart": 2,
         "gridColumnEnd": 5
+      },
+      "insideStyle": {
+        "border": "0px solid black"
       },
       "tableData": [
         {
@@ -1360,6 +1372,9 @@
         {
           "tableType": "TableType7",
           "tableName": "",
+          "insideStyle": {
+            "border": "0px"
+          },
           "style": {
             "gridColumnStart": 1,
             "gridColumnEnd": 2
@@ -1386,6 +1401,11 @@
             "gridColumnStart": 1,
             "gridColumnEnd": 2
           },
+          "insideStyle": {
+            "border": "0",
+            "borderTop": "1px solid black"
+          },
+
           "tableData": [
             {
               "fieldName": "First Local Name",
@@ -1435,6 +1455,10 @@
             "gridColumnStart": 1,
             "gridColumnEnd": 2
           },
+          "insideStyle": {
+            "border": "0",
+            "borderBottom": "1px solid black"
+          },
           "tableData": [
             {
               "fieldName": "",
@@ -1448,6 +1472,10 @@
           "style": {
             "gridColumnStart": 1,
             "gridColumnEnd": 2
+          },
+          "insideStyle": {
+            "border": "0",
+            "borderTop": "1px solid black"
           },
           "tableData": [
             {
@@ -1466,10 +1494,15 @@
       "tableType": "TableType6",
       "tableName": "",
       "insideTableName": "",
+
       "style": {
         "gridColumnStart": 2,
         "gridColumnEnd": 5
       },
+      "insideStyle": {
+        "border": "0px"
+      },
+
       "tableData": [
         {
           "fieldName": "(5)ESCAPEMENT ESTIMATION COMMENTS",
@@ -1582,6 +1615,9 @@
       "style": {
         "gridColumnStart": 2,
         "gridColumnEnd": 5
+      },
+      "insideStyle": {
+        "border": "0px"
       },
       "tableData": [
         {
@@ -1779,6 +1815,7 @@
         "gridColumnStart": 1,
         "gridColumnEnd": 5
       },
+
       "insideFormSetting": [
         {
           "tableType": "TableType6",
@@ -1786,6 +1823,9 @@
           "style": {
             "gridColumnStart": 1,
             "gridColumnEnd": 2
+          },
+          "insideStyle": {
+            "border": "0px"
           },
           "tableData": [
             {
@@ -1804,6 +1844,9 @@
           "style": {
             "gridColumnStart": 2,
             "gridColumnEnd": 3
+          },
+          "insideStyle": {
+            "border": "0px"
           },
           "tableData": [
             {
@@ -1837,6 +1880,9 @@
             "gridColumnStart": 1,
             "gridColumnEnd": 2
           },
+          "insideStyle": {
+            "border": "0px"
+          },
           "tableData": [
             {
               "fieldName": "Particulars of distribution of spawning salmon over the stream bed:",
@@ -1847,21 +1893,28 @@
         {
           "tableType": "TableTypeComb",
           "tableName": "",
-          "insideTableName": "Juvenile observations",
+          "insideTableName": "",
           "style": {
             "display": "grid",
 
             "gridColumnStart": 1,
             "gridColumnEnd": 5
           },
+          "insideStyle": {
+            "border": "0px",
+            "borderTop": "1px solid black"
+          },
           "insideFormSetting": [
             {
               "tableType": "TableType6",
               "tableName": "",
-              "insideTableName": "Species",
+              "insideTableName": "Juvenile observations",
               "style": {
                 "gridColumnStart": 1,
                 "gridColumnEnd": 2
+              },
+              "insideStyle": {
+                "border": "0px"
               },
               "tableData": [
                 {
@@ -1883,6 +1936,9 @@
                 "gridColumnStart": 2,
                 "gridColumnEnd": 3
               },
+              "insideStyle": {
+                "border": "0px"
+              },
               "tableData": [
                 {
                   "fieldName": "",
@@ -1901,6 +1957,9 @@
               "style": {
                 "gridColumnStart": 3,
                 "gridColumnEnd": 4
+              },
+              "insideStyle": {
+                "border": "0px"
               },
               "tableData": [
                 {
@@ -1921,6 +1980,9 @@
                 "gridColumnStart": 4,
                 "gridColumnEnd": 5
               },
+              "insideStyle": {
+                "border": "0px"
+              },
               "tableData": [
                 {
                   "fieldName": "",
@@ -1940,6 +2002,9 @@
                 "gridColumnStart": 5,
                 "gridColumnEnd": 6
               },
+              "insideStyle": {
+                "border": "0px"
+              },
               "tableData": [
                 {
                   "fieldName": "",
@@ -1958,6 +2023,9 @@
               "style": {
                 "gridColumnStart": 6,
                 "gridColumnEnd": 7
+              },
+              "insideStyle": {
+                "border": "0px"
               },
               "tableData": [
                 {
@@ -1979,6 +2047,10 @@
           "style": {
             "gridColumnStart": 1,
             "gridColumnEnd": 2
+          },
+          "insideStyle": {
+            "border": "0px",
+            "borderTop": "1px solid black"
           },
           "tableData": [
             {
@@ -2003,6 +2075,10 @@
             "gridColumnStart": 1,
             "gridColumnEnd": 5
           },
+          "insideStyle": {
+            "border": "0px",
+            "borderTop": "1px solid black"
+          },
           "tableData": [
             {
               "fieldName": "Predator (bears, eagles or seals) counts available for one or more survey dates",
@@ -2017,6 +2093,10 @@
           "style": {
             "gridColumnStart": 1,
             "gridColumnEnd": 2
+          },
+          "insideStyle": {
+            "border": "0px",
+            "borderTop": "1px solid black"
           },
           "tableData": [
             {
@@ -2046,6 +2126,10 @@
           "style": {
             "gridColumnStart": 1,
             "gridColumnEnd": 2
+          },
+          "insideStyle": {
+            "border": "0px",
+            "borderTop": "1px solid black"
           },
           "tableHeader": [
             [
@@ -2109,6 +2193,9 @@
             "gridColumnStart": 1,
             "gridColumnEnd": 2
           },
+          "insideStyle": {
+            "border": "0px"
+          },
           "tableData": [
             {
               "fieldName": "Contact",
@@ -2128,6 +2215,10 @@
             "gridColumnStart": 1,
             "gridColumnEnd": 2
           },
+          "insideStyle": {
+            "border": "0px",
+            "borderTop": "1px solid black"
+          },
           "tableData": [
             {
               "fieldName": "(21) GENERAL COMMENTS ON SAMPLING ACTIVITIES OR STUDIES NOT COVERED ABOVE",
@@ -2144,6 +2235,9 @@
       "style": {
         "gridColumnStart": 1,
         "gridColumnEnd": 5
+      },
+      "insideStyle": {
+        "border": "0px"
       },
       "tableData": [
         {

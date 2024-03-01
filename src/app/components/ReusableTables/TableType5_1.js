@@ -1,3 +1,4 @@
+//This is similar to TableType5, but it need to write all the rows one by one. Not using for now 
 import React from "react";
 import styles from "./TableType5.module.css";
 import EditableFieldForTable from "../EditableField/EditableFieldForTable";

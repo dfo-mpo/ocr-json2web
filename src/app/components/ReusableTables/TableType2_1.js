@@ -1,3 +1,4 @@
+//hard corded table for month and day, not using for now
 import React from "react";
 import styles from "./TableType2_1.module.css";
 import EditableFieldDate from "../EditableField/EditableFieldDate";

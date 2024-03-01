@@ -15,6 +15,7 @@ const TableTypeComb = ({
   formSetting,
   myStyle,
   onEdit,
+  insideStyle,
 }) => {
   const tableName = formSetting.tableName;
   const insideTableName = formSetting.insideTableName;
@@ -27,7 +28,7 @@ const TableTypeComb = ({
   return (
     <div style={myStyle}>
       {tableName && <div className={styles.title}>{tableName}</div>}
-      <div className={styles.wrapper}>
+      <div className={styles.wrapper} style={insideStyle}>
         {insideTableName && (
           <div className={styles.title2}>{insideTableName}</div>
         )}
@@ -37,6 +38,7 @@ const TableTypeComb = ({
               return (
                 <TableType1
                   myStyle={formSettingItem.style}
+                  insideStyle={formSettingItem.insideStyle}
                   key={index}
                   items={updateJson}
                   folderName={folderName}
@@ -49,6 +51,7 @@ const TableTypeComb = ({
               return (
                 <TableType2
                   myStyle={formSettingItem.style}
+                  insideStyle={formSettingItem.insideStyle}
                   key={index}
                   items={updateJson}
                   folderName={folderName}
@@ -61,6 +64,7 @@ const TableTypeComb = ({
               return (
                 <TableType3
                   myStyle={formSettingItem.style}
+                  insideStyle={formSettingItem.insideStyle}
                   key={index}
                   items={updateJson}
                   folderName={folderName}
@@ -73,6 +77,7 @@ const TableTypeComb = ({
               return (
                 <TableType4
                   myStyle={formSettingItem.style}
+                  insideStyle={formSettingItem.insideStyle}
                   key={index}
                   items={updateJson}
                   folderName={folderName}
@@ -85,6 +90,7 @@ const TableTypeComb = ({
               return (
                 <TableType5
                   myStyle={formSettingItem.style}
+                  insideStyle={formSettingItem.insideStyle}
                   key={index}
                   items={updateJson}
                   folderName={folderName}
@@ -97,6 +103,7 @@ const TableTypeComb = ({
               return (
                 <TableType6
                   myStyle={formSettingItem.style}
+                  insideStyle={formSettingItem.insideStyle}
                   key={index}
                   items={updateJson}
                   folderName={folderName}
@@ -109,6 +116,7 @@ const TableTypeComb = ({
               return (
                 <TableType7
                   myStyle={formSettingItem.style}
+                  insideStyle={formSettingItem.insideStyle}
                   key={index}
                   items={updateJson}
                   folderName={folderName}
@@ -121,6 +129,7 @@ const TableTypeComb = ({
               return (
                 <TableTypeComb
                   myStyle={formSettingItem.style}
+                  insideStyle={formSettingItem.insideStyle}
                   key={index}
                   updateJson={updateJson}
                   folderName={folderName}
