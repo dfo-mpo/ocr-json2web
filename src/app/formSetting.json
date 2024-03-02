@@ -7,7 +7,13 @@
     "4hresultocr": "https://bc16website.blob.core.windows.net/scannedpdf/4hrun/",
     "5aresultocr": "https://bc16website.blob.core.windows.net/scannedpdf/5atest/",
     "6eresultocr": "https://bc16website.blob.core.windows.net/scannedpdf/6etest/",
-    "7eresultocr": "https://bc16website.blob.core.windows.net/scannedpdf/7etest/"
+    "7eresultocr": "https://bc16website.blob.core.windows.net/scannedpdf/7etest/",
+    "5bresultocr":"https://bc16website.blob.core.windows.net/scannedpdf/5atest/",
+    "5dresultocr":"https://bc16website.blob.core.windows.net/scannedpdf/5btest/",
+    "7aresultocr":"https://bc16website.blob.core.windows.net/scannedpdf/7atest/",
+    "7bresultocr":"https://bc16website.blob.core.windows.net/scannedpdf/7btest/",
+    "7cresultocr":"https://bc16website.blob.core.windows.net/scannedpdf/7ctest/",
+    "7dresultocr":"https://bc16website.blob.core.windows.net/scannedpdf/7dtest/"
   },
   "style": {
     "display": "grid",
@@ -2263,5 +2269,15 @@
     }
   ],
   "testformat": [],
-  "teresultocr": []
+  "5bresultocr":[],
+  "5dresultocr":[],
+  "7aresultocr":[],
+  "7bresultocr":[],
+  "7cresultocr":[],
+  "7dresultocr":[]
+
+
+
+
+
 }
