@@ -53,7 +53,7 @@ const Form = ({
   };
 
   const saveHandler = () => {
-    console.log(updateJson);
+   
     //TODO: delete this line
     // setIsEditing(false); alert("Success, testing locally now");
     //TODO: uncomment this line to enable save button
@@ -83,7 +83,7 @@ const Form = ({
         {formSetting[folderName].map((formSettingItem, index) => {
           if (formSettingItem.tableType === "TableType1") {
             // console.log("formSettingItem", formSettingItem.style);
-            console.log( formSettingItem)
+        
             return (
               <TableType1
                 myStyle={formSettingItem.style}

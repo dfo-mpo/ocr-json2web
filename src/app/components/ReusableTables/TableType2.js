@@ -21,8 +21,8 @@ const TableType2 = ({
   const handleDateChange = (event) => {
     const index = event.target.getAttribute("index");
     const { name, value } = event.target;
-
-    updateJson[itemName][index][name] = value;
+    // updateJson[itemName][index][name] = value;
+    updateJson[itemName][index][name][0] = value;
     onEdit(updateJson);
   };
 
@@ -31,7 +31,8 @@ const TableType2 = ({
       updateJson[itemName] = [];
     }
     let newDate = {};
-    tableData.map((data, index) => (newDate[data.key] = data.fieldName));
+    // tableData.map((data, index) => (newDate[data.key] = data.fieldName));
+    tableData.map((data, index) => (newDate[data.key][0] = data.fieldName));
     updateJson[itemName].push(newDate);
     onEdit(updateJson);
   };
@@ -68,7 +69,8 @@ const TableType2 = ({
                           key={index}
                           index={arrayIndex}
                           fieldName={data.key}
-                          fieldValue={date[data.key]}
+                          // fieldValue={date[data.key]}
+                          fieldValue={date[data.key][0]}
                           isFlag=""
                           handleChange={handleDateChange}
                         />

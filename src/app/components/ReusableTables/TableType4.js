@@ -17,8 +17,8 @@ const TableType4 = ({
 
   let updateJson = { ...items };
   const handleChange = (event) => {
-    updateJson[event.target.name] = event.target.value;
-  
+    // updateJson[event.target.name] = event.target.value;
+    updateJson[event.target.name][0] = event.target.value;
     onEdit(updateJson);
   };
 
@@ -40,7 +40,8 @@ const TableType4 = ({
                       key={index}
                       isFlag= ''
                       fieldName={data.key}
-                      fieldValue={items[data.key]}
+                      // fieldValue={items[data.key]}
+                      fieldValue={items[data.key]?items[data.key][0]: ''}
                       handleChange={handleChange}
                     />
                   </div>

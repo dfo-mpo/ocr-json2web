@@ -35,7 +35,7 @@ const TableType5 = ({
         ...singleItem,
       };
     }
-    updateJson[allOjb][itemName][key] = value;
+    updateJson[allOjb][itemName][key][0] = value;
     onEdit(updateJson);
   };
   return (
@@ -56,7 +56,7 @@ const TableType5 = ({
                       <td key={index} rowSpan={rowSpan} colSpan={colSpan}>
                         {data.key ? (
                           itemOjb[rowItem] ? (
-                            itemOjb[rowItem][data.key]
+                            itemOjb[rowItem][data.key][0]
                           ) : (
                             ""
                           )
@@ -86,8 +86,8 @@ const TableType5 = ({
                               itemName={rowItem}
                               filedKey={key}
                               fieldValue={
-                                itemOjb && itemOjb[rowItem]
-                                  ? itemOjb[rowItem][key]
+                                itemOjb && itemOjb[rowItem]&&itemOjb[rowItem][key]
+                                  ? itemOjb[rowItem][key][0]
                                   : ""
                               }
                               isFlag=""

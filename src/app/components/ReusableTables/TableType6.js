@@ -20,9 +20,9 @@ const TableType6 = ({
     const selected = event.target.checked;
     const value = selected ? "selected" : "unselected";
 
-    updateJson[key] = value;
+    // updateJson[key] = value;
     //TODO: Json with flag
-    // updateJson[key][0] = value;
+    updateJson[key][0] = value;
     // updateJson[key][3] = 2;
 
     // const updateJson = {
@@ -46,9 +46,9 @@ const TableType6 = ({
                 // isFlag={items[data.key][3]}
                 fieldName={data.key}
                 fieldText={data.fieldName}
-                fieldValue={items[data.key]}
+                // fieldValue={items[data.key]}
                 //TODO: items[data.key][0] for TAN's json version
-                // fieldValue={items[data.key][0]}
+                fieldValue={items[data.key]?items[data.key][0]: ''}
                 handleChange={handleChange}
                 
               />
