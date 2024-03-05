@@ -1,6 +1,6 @@
 .textarea {
-  width: 80vw;
-  height: 80vh;
+  max-width: 70vw;
+  margin-bottom: 100px;
 }
 
 .buttonWrap{

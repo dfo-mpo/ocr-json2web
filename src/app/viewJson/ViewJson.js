@@ -1,7 +1,11 @@
 "use client";
 import React from "react";
 import styles from "./ViewJson.module.css";
-const ViewJson =  ({ jsonData, folderName, fileName }) => {
+import JsonView from "@uiw/react-json-view";
+import JsonViewEditor from "@uiw/react-json-view/editor";
+import { lightTheme } from "@uiw/react-json-view/light";
+
+const ViewJson = ({ jsonData, folderName, fileName }) => {
   const onSubmitHandler = async (event) => {
     event.preventDefault();
     const newJsonData = JSON.parse(event.target.jsonData.value);
@@ -28,16 +32,18 @@ const ViewJson =  ({ jsonData, folderName, fileName }) => {
   };
   return (
     <form onSubmit={onSubmitHandler}>
-      <textarea
+      {/* <textarea
         name="jsonData"
         className={styles.textarea}
         defaultValue={JSON.stringify(jsonData, null, 2)}
-      ></textarea>
-      <div className={styles.buttonWrap}>
+      ></textarea> */}
+      <JsonView  className={styles.textarea} value={jsonData} displayDataTypes={false} collapsed={1} 
+      shortenTextAfterLength ={0}/>
+      {/* <div className={styles.buttonWrap}>
         <button type="submit" className={styles.button}>
           Save
         </button>
-      </div>
+      </div> */}
     </form>
   );
 };
