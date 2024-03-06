@@ -49,7 +49,6 @@ export async function GET() {
 
 
     const updatedJsonData = JSON.stringify(dataObject, null, 2);
- 
 
     // Upload the updated JSON data to the blob
 

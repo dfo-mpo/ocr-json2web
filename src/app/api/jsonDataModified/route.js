@@ -26,11 +26,13 @@ export async function POST(request) {
     if (blobExists) {
       //   // Blob exists, fetch its content
       const response = await blockBlobClient.downloadToBuffer();
+     
       const blobContent = JSON.parse(response.toString());
+       
       const updatedJsonData = JSON.stringify(blobContent, null, 2);
       return new Response(updatedJsonData, { status: 200 });
     } else {
-      throw new Error("Blob does not exist");
+      throw new Error("Blob does not exist")
     }
     // const SAS_URL = process.env.NEXT_JSONDATA_SAS_URL;
 
