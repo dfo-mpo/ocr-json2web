@@ -42,19 +42,36 @@ const File = ({ searchParams }) => {
     } else {
       const reader = Response.body.getReader();
       const readData = async () => {
+        // try {
+        //   while (true) {
+        //     const { done, value } = await reader.read();
+        //     if (done) {
+        //       break;
+        //     }
+        //     // `value` contains the chunk of data as a Uint8Array
+        //     const jsonString = new TextDecoder().decode(value);
+        //     // Parse the JSON string into an object
+        //     const dataObject = JSON.parse(jsonString);
+
+        //     setJsonData(dataObject);
+        //     setIsLoading(false);
+        //   }
         try {
+          let jsonString = "";
+
           while (true) {
             const { done, value } = await reader.read();
             if (done) {
+              // Process the entire JSON when the stream is complete
+              const dataObject = JSON.parse(jsonString);
+              console.log(dataObject);
+              setJsonData(dataObject);
+              setIsLoading(false);
               break;
             }
-            // `value` contains the chunk of data as a Uint8Array
-            const jsonString = new TextDecoder().decode(value);
-            // Parse the JSON string into an object
-            const dataObject = JSON.parse(jsonString);
 
-            setJsonData(dataObject);
-            setIsLoading(false);
+            // Concatenate the chunks into a single string
+            jsonString += new TextDecoder().decode(value);
           }
         } catch (error) {
           console.error("Error reading response:", error);
@@ -81,24 +98,46 @@ const File = ({ searchParams }) => {
     } else {
       const reader = Response.body.getReader();
       const readData = async () => {
+        // try {
+        //   while (true) {
+        //     const { done, value } = await reader.read();
+        //     if (done) {
+        //       break;
+        //     }
+        //     // `value` contains the chunk of data as a Uint8Array
+        //     const jsonString = new TextDecoder().decode(value);
+        //     // Parse the JSON string into an object
+        //     const dataObject = JSON.parse(jsonString);
+
+        //     dataObject.forEach((item) => {
+        //       if (item.fileName === fileName) {
+        //         setVerified(item.verified);
+        //         setModified(item.modified);
+        //         setError(item.error);
+        //       }
+        //     });
+        //   }
+
         try {
+          let jsonString = "";
+
           while (true) {
             const { done, value } = await reader.read();
             if (done) {
+              // Process the entire JSON when the stream is complete
+              const dataObject = JSON.parse(jsonString);
+              dataObject.forEach((item) => {
+                if (item.fileName === fileName) {
+                  setVerified(item.verified);
+                  setModified(item.modified);
+                  setError(item.error);
+                }
+              });
               break;
             }
-            // `value` contains the chunk of data as a Uint8Array
-            const jsonString = new TextDecoder().decode(value);
-            // Parse the JSON string into an object
-            const dataObject = JSON.parse(jsonString);
 
-            dataObject.forEach((item) => {
-              if (item.fileName === fileName) {
-                setVerified(item.verified);
-                setModified(item.modified);
-                setError(item.error);
-              }
-            });
+            // Concatenate the chunks into a single string
+            jsonString += new TextDecoder().decode(value);
           }
         } catch (error) {
           console.error("Error reading response:", error);
@@ -126,19 +165,36 @@ const File = ({ searchParams }) => {
     } else {
       const reader = Response.body.getReader();
       const readData = async () => {
+        // try {
+        //   while (true) {
+        //     const { done, value } = await reader.read();
+        //     if (done) {
+        //       break;
+        //     }
+        //     // `value` contains the chunk of data as a Uint8Array
+        //     const jsonString = new TextDecoder().decode(value);
+        //     // Parse the JSON string into an object
+        //     const dataObject = JSON.parse(jsonString);
+
+        //     setFormSetting(dataObject);
+        //     setIsFormsettingReady(false);
+        //   }
         try {
+          let jsonString = "";
+
           while (true) {
             const { done, value } = await reader.read();
             if (done) {
+              // Process the entire JSON when the stream is complete
+              const dataObject = JSON.parse(jsonString);
+
+              setFormSetting(dataObject);
+              setIsFormsettingReady(false);
               break;
             }
-            // `value` contains the chunk of data as a Uint8Array
-            const jsonString = new TextDecoder().decode(value);
-            // Parse the JSON string into an object
-            const dataObject = JSON.parse(jsonString);
 
-            setFormSetting(dataObject);
-            setIsFormsettingReady(false);
+            // Concatenate the chunks into a single string
+            jsonString += new TextDecoder().decode(value);
           }
         } catch (error) {
           console.error("Error reading response:", error);
