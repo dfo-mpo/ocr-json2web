@@ -38,7 +38,9 @@ const ViewJson = ({ jsonData, folderName, fileName }) => {
         defaultValue={JSON.stringify(jsonData, null, 2)}
       ></textarea> */}
       <JsonView  className={styles.textarea} value={jsonData} displayDataTypes={false} collapsed={1} 
-      shortenTextAfterLength ={0}/>
+      shortenTextAfterLength ={0}
+      quotes= '' 
+      />
       {/* <div className={styles.buttonWrap}>
         <button type="submit" className={styles.button}>
           Save

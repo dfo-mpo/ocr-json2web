@@ -1,5 +1,5 @@
 .myTable {
-  border: 2px solid black;
+  border: 1px solid black;
   box-sizing: border-box;
   width: 100%;
 }
@@ -9,7 +9,7 @@
 }
 
 .wrapper {
-  border: 2px solid black;
+  border: 1px solid black;
 }
 .title2 {
   margin: 5px;

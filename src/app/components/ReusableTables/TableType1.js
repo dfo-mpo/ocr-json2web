@@ -30,8 +30,6 @@ const TableType1 = ({
       <table className={styles.myTable} style={insideStyle}>
         <tbody>
           {tableData.map((data, index) => {
-            console.log(items[data.key])
-            console.log(data.key)
             return (
               <tr key={index}>
                 <td>{data.fieldName}</td>

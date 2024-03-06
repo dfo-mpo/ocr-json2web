@@ -17,6 +17,7 @@ const TableType2 = ({
   const insideTableName = formSetting.insideTableName;
 
   const dates = items[itemName];
+
   let updateJson = { ...items };
   const handleDateChange = (event) => {
     const index = event.target.getAttribute("index");
@@ -70,7 +71,7 @@ const TableType2 = ({
                           index={arrayIndex}
                           fieldName={data.key}
                           // fieldValue={date[data.key]}
-                          fieldValue={date[data.key][0]}
+                          fieldValue={(date&&date[data.key])?date[data.key][0]:""}
                           isFlag=""
                           handleChange={handleDateChange}
                         />
