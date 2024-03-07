@@ -23,6 +23,7 @@ const FileNameList = ({ filesByFolder, fileStatus }) => {
 
     folder: "",
   });
+   console.log(filesByFolder);
 
   // Extract unique folder names
   const uniqueFolderNames = [
@@ -78,6 +79,7 @@ const FileNameList = ({ filesByFolder, fileStatus }) => {
 
   useEffect(() => {
     // Create a map from fileStatusJson for efficient lookup based on fileName
+
     const verifiedMap = new Map(
       fileStatusJson.map(({ fileName, verified, error, modified }) => [
         fileName,
@@ -190,7 +192,7 @@ const FileNameList = ({ filesByFolder, fileStatus }) => {
                 },
               }}
             >
-              {file.fileName.replace(/_/g, " ").replace(".json", "")}
+              {file.fileName&&file.fileName.replace(/_/g, " ").replace(".json", "")}
               {file.verified && (
                 <Image src={verified} alt="verified" height={25} width={25} />
               )}

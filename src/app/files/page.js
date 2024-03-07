@@ -85,7 +85,7 @@ const File = ({ searchParams }) => {
             if (done) {
               // Process the entire JSON when the stream is complete
               const dataObject = JSON.parse(jsonString);
-              console.log(dataObject);
+            
               setJsonData(dataObject);
               setIsLoading(false);
               break;

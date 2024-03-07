@@ -5,7 +5,9 @@ const EditableField = ({
   fieldName,
   fieldValue,
   isFlag,
-  handleChange
+  handleChange,
+  // onMouseEnter,
+  // onMouseLeave
 }) => {
   const [isEditing, setIsEditing] = useState(false);
 
@@ -25,11 +27,13 @@ const EditableField = ({
   }
   return (
     <div
-      className={`${!fieldValue&&styles.content} ${stylingClass}`}
+      className={`${!fieldValue && styles.content} ${stylingClass}`}
       onDoubleClick={() => setIsEditing(true)}
       onBlur={() => {
         setIsEditing(false);
       }}
+      // onMouseEnter={onMouseEnter}
+      // onMouseLeave={onMouseLeave}
     >
       {isEditing ? (
         <input

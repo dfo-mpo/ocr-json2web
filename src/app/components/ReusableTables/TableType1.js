@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 import styles from "./TableType1.module.css";
 import EditableField from "../EditableField/EditableField";
 
@@ -21,8 +21,18 @@ const TableType1 = ({
     // updateJson[event.target.name][3] = 2;
     onEdit(updateJson);
   };
+  // const [isHovered, setHovered] = useState(false);
+  // const [polygon , setPolygon] = useState({});
 
- 
+  // const handleHover = (e) => {
+  //   setPolygon(e);
+  //   console.log(polygon);
+  //   setHovered(true);
+  // };
+
+  // const handleLeave = () => {
+  //   setHovered(false);
+  // };
 
   return (
     <div style={myStyle}>
@@ -35,13 +45,17 @@ const TableType1 = ({
                 <td>{data.fieldName}</td>
                 <td>
                   <EditableField
+                    // onMouseEnter={() =>
+                    //   handleHover(items[data.key] ? items[data.key][1] : "")
+                    // }
+                    // onMouseLeave={handleLeave}
                     isFlag=""
                     //TODO: items[data.key][3] for TAN's json version
                     // isFlag={items[data.key][3]}
                     fieldName={data.key}
                     // fieldValue={items[data.key]}
                     //TODO: items[data.key][0] for TAN's json version
-                    fieldValue={items[data.key]?items[data.key][0]: ''}
+                    fieldValue={items[data.key] ? items[data.key][0] : ""}
                     handleChange={handleChange}
                   />
                 </td>
