@@ -10,6 +10,7 @@ import TableType5 from "./ReusableTables/TableType5";
 import TableType6 from "./ReusableTables/TableType6";
 import TableTypeComb from "./ReusableTables/TableTypeComb";
 import TableType7 from "./ReusableTables/TableType7";
+import TableType8 from "./ReusableTables/TableType8";
 
 const Form = ({
   items,
@@ -55,6 +56,7 @@ const Form = ({
   const saveHandler = () => {
    
     //TODO: delete this line
+    // console.log(updateJson);
     // setIsEditing(false); alert("Success, testing locally now");
     //TODO: uncomment this line to enable save button
     onClickHandler(updateJson);
@@ -174,7 +176,21 @@ const Form = ({
                 onEdit={changeHandler}
               />
             );
-          } else if (formSettingItem.tableType === "TableTypeComb") {
+          }else if (formSettingItem.tableType === "TableType8") {
+            return (
+              <TableType8
+                myStyle={formSettingItem.style}
+                insideStyle = {formSettingItem.insideStyle}
+                key={index}
+                items={updateJson}
+                folderName={folderName}
+                fileName={fileName}
+                formSetting={formSettingItem}
+                onEdit={changeHandler}
+              />
+            );
+          }  
+          else if (formSettingItem.tableType === "TableTypeComb") {
             return (
               <TableTypeComb
                 myStyle={formSettingItem.style}

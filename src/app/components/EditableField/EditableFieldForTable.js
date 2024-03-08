@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./EditableFieldForTable.module.css";
 
 const EditableFieldForTable = ({
-  filedKey,
+  fieldKey,
   fieldValue,
   isRed,
   handleChange,
@@ -37,7 +37,7 @@ const EditableFieldForTable = ({
           className={styles.input}
           itemname={itemName}
           type="text"
-          name={filedKey}
+          name={fieldKey}
           defaultValue={fieldValue}
           onBlur={() => setIsEditing(false)}
           onChange={handleChange}

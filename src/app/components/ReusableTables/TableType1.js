@@ -41,9 +41,9 @@ const TableType1 = ({
         <tbody>
           {tableData.map((data, index) => {
             return (
-              <tr key={index}>
-                <td>{data.fieldName}</td>
-                <td>
+              <tr key={index} >
+                <td style={insideStyle}>{data.fieldName}</td>
+                <td style={insideStyle}>
                   <EditableField
                     // onMouseEnter={() =>
                     //   handleHover(items[data.key] ? items[data.key][1] : "")

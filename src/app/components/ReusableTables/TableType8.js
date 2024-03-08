@@ -17,26 +17,36 @@ const TableType8 = ({
   const itemOjb = items[allOjb];
 
   let updateJson = { ...items };
-  const handleChange = (event) => {
-    const itemName = event.target.getAttribute("itemname");
+  const handleChange = (event, index) => {
+    // const itemName = event.target.getAttribute("itemname");
     const key = event.target.name;
     const value = event.target.value;
 
-    const singleItem = {
-      [itemName]: {},
-    };
-    if (!updateJson[allOjb]) {
-      updateJson[allOjb] = {};
-    }
-
-    if (!updateJson[allOjb][itemName]) {
-      updateJson[allOjb] = {
-        ...updateJson[allOjb],
-        ...singleItem,
+    if (updateJson[allOjb][index][key]) {
+      updateJson[allOjb][index][key][0] = value;
+    } else {
+      updateJson[allOjb][index] = {
+        ...updateJson[allOjb][index],
+        [key]: [value, {}, ""],
       };
     }
-    updateJson[allOjb][itemName][key][0] = value;
     onEdit(updateJson);
+
+    // const singleItem = {
+    //   [itemName]: {},
+    // };
+    // if (!updateJson[allOjb]) {
+    //   updateJson[allOjb] = {};
+    // }
+
+    // if (!updateJson[allOjb][itemName]) {
+    //   updateJson[allOjb] = {
+    //     ...updateJson[allOjb],
+    //     ...singleItem,
+    //   };
+    // }
+    // updateJson[allOjb][itemName][key][0] = value;
+    // onEdit(updateJson);
   };
   return (
     <div style={myStyle}>
@@ -71,34 +81,28 @@ const TableType8 = ({
                 </tr>
               );
             })}
-            {Object.keys(tableData).length === 0
-              ? null
-              : tableData.item.map((data, index) => {
-                  const rowItem = data.itemName;
-                  return (
-                    <tr key={index}>
-                      <td className={styles.tdFieldName}>{data.fieldName}</td>
-                      {tableData.key.map((data, index) => {
-                        const key = data.key;
-                        return (
-                          <td key={index}>
-                            <EditableFieldForTable
-                              itemName={rowItem}
-                              filedKey={key}
-                              fieldValue={
-                                itemOjb && itemOjb[rowItem]&&itemOjb[rowItem][key]
-                                  ? itemOjb[rowItem][key][0]
-                                  : ""
-                              }
-                              isFlag=""
-                              handleChange={handleChange}
-                            />
-                          </td>
-                        );
-                      })}
-                    </tr>
-                  );
-                })}
+            {itemOjb &&
+              itemOjb.map((item, index) => {
+                return (
+                  <tr key={index}>
+                    {Object.keys(tableData).length === 0
+                      ? null
+                      : tableData.key.map((data, dataIndex) => {
+                          return (
+                            <td key={dataIndex}>
+                              <EditableFieldForTable
+                                fieldKey={data.key}
+                                fieldValue={
+                                  item[data.key] ? item[data.key][0] : ""
+                                }
+                                handleChange={() => handleChange(event, index)}
+                              />
+                            </td>
+                          );
+                        })}
+                  </tr>
+                );
+              })}
           </tbody>
         </table>
       </>
