@@ -22,7 +22,7 @@ const FormRender = ({ items, folderName, fileName, reFetch, reFetchJson,formSett
       items={items}
       saveChange={saveChange}
       cancelChange={cancelChange}
-    />
+    /> 
   );
 };
 
