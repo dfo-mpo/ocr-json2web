@@ -1,0 +1,287 @@
+{
+  "title": "",
+  "subtitle": "",
+  "showPDF": true,
+  "PDFurl": {
+    "format1": "https://docintelltest.blob.core.windows.net/pdf/format1/"
+  },
+  "style": {
+    "display": "grid",
+    "gap": "20px"
+  },
+  "format1": [
+    {
+      "tableType": "TableType1",
+      "style": {
+        "gridColumnStart": 1,
+        "gridColumnEnd": 2,
+        "alignSelf": "center"
+      },
+      "insideStyle": {
+        "border": "0px solid black"
+      },
+      "tableData": [
+        {
+          "fieldName": "Slip #:",
+          "key": "Slip number"
+        }
+      ]
+    },
+    {
+      "tableType": "TableType1",
+      "style": {
+        "gridColumnStart": 3,
+        "gridColumnEnd": 5,
+        "alignSelf": "center"
+      },
+      "insideStyle": {
+        "border": "0px"
+      },
+      "tableData": [
+        {
+          "fieldName": "CFV #",
+          "key": "CFV"
+        },
+        {
+          "fieldName": "CFV name:",
+          "key": "CFV name"
+        }
+      ]
+    },
+    {
+      "tableType": "TableType1",
+      "style": {
+        "gridColumnStart": 5,
+        "gridColumnEnd": 6
+      },
+      "insideStyle": {
+        "border": "0px"
+      },
+      "tableData": [
+        {
+          "fieldName": "Landing Date:",
+          "key": "Landing date"
+        }
+      ]
+    },
+    {
+      "tableType": "TableType1",
+      "style": {
+        "gridColumnStart": 1,
+        "gridColumnEnd": 3,
+        "gridRowStart": 2,
+        "gridRowEnd": 3,
+        "alignSelf": "center"
+      },
+      "insideStyle": {
+        "border": "0px"
+      },
+      "tableData": [
+        {
+          "fieldName": "",
+          "key": "Company name"
+        },
+        {
+          "fieldName": "",
+          "key": "Company address"
+        }
+      ]
+    },
+    {
+      "tableType": "TableType1",
+      "style": {
+        "gridColumnStart": 5,
+        "gridColumnEnd": 5,
+        "gridRowStart": 2,
+        "gridRowEnd": 3
+      },
+      "insideStyle": {
+        "border": "0px"
+      },
+      "tableData": [
+        {
+          "fieldName": "Reference #:",
+          "key": "Reference number"
+        }
+      ]
+    },
+    {
+      "tableType": "TableType1",
+      "style": {
+        "gridColumnStart": 1,
+        "gridColumnEnd": 3
+      },
+      "insideStyle": {
+        "border": "0px"
+      },
+      "tableData": [
+        {
+          "fieldName": "Gear:",
+          "key": "Gear"
+        },
+        {
+          "fieldName": "Area:",
+          "key": "Area"
+        }
+      ]
+    },
+    {
+      "tableType": "TableType1",
+      "style": {
+        "gridColumnStart": 4,
+        "gridColumnEnd": 5
+      },
+      "insideStyle": {
+        "border": "0px"
+      },
+      "tableData": [
+        {
+          "fieldName": "Trip length:",
+          "key": "Trip length"
+        },
+        {
+          "fieldName": "Days:",
+          "key": "Days"
+        }
+      ]
+    },
+    {
+      "note": "",
+      "tableType": "TableType8",
+      "tableName": "",
+      "itemName": "Species caught",
+      "style": {
+        "gridColumnStart": 1,
+        "gridColumnEnd": 6
+      },
+
+      "tableHeader": [
+        [
+          {
+            "fieldName": "Species",
+            "key": "",
+            "span": {}
+          },
+
+          {
+            "fieldName": "Weight",
+            "key": "",
+            "span": {}
+          },
+          {
+            "fieldName": "Price",
+            "key": "",
+            "span": {}
+          },
+          {
+            "fieldName": "Value",
+            "key": "",
+            "span": {}
+          }
+        ]
+      ],
+      "tableData": {
+        "key": [
+          { "key": "Species" },
+          { "key": "Weight" },
+          { "key": "Price" },
+          { "key": "Value" }
+        ]
+      }
+    },
+    {
+      "tableType": "TableType1",
+      "style": {
+        "gridColumnStart": 4,
+        "gridColumnEnd": 6
+      },
+      "insideStyle": {
+        "border": "0px"
+      },
+      "tableData": [
+        {
+          "fieldName": "Total gross value:",
+          "key": "Total gross value"
+        },
+        {
+          "fieldName": "Levy:",
+          "key": "Levy"
+        },
+        {
+          "fieldName": "Tax:",
+          "key": "Tax"
+        },
+        {
+          "fieldName": "E.I.:",
+          "key": "EI"
+        },
+        {
+          "fieldName": "Total Net:",
+          "key": "Total net"
+        }
+      ]
+    },
+    {
+      "note": "",
+      "tableType": "TableType8",
+      "tableName": "",
+      "itemName": "Share table region",
+      "style": {
+        "gridColumnStart": 1,
+        "gridColumnEnd": 6
+      },
+
+      "tableHeader": [
+        [
+          {
+            "fieldName": "Name",
+            "key": "",
+            "span": {}
+          },
+
+          {
+            "fieldName": "Type",
+            "key": "",
+            "span": {}
+          },
+          {
+            "fieldName": "Gross",
+            "key": "",
+            "span": {}
+          },
+          {
+            "fieldName": "Levy",
+            "key": "",
+            "span": {}
+          },
+          {
+            "fieldName": "Tax",
+            "key": "",
+            "span": {}
+          },
+          {
+            "fieldName": "E.I.:",
+            "key": "",
+            "span": {}
+          },
+          {
+            "fieldName": "Net:",
+            "key": "",
+            "span": {}
+          }
+        ]
+      ],
+      "tableData": {
+        "key": [
+          { "key": "Name" },
+          { "key": "Type" },
+          { "key": "Gross" },
+          { "key": "Levy" },
+          { "key": "Tax" },
+          { "key": "EI" },
+          { "key": "Net" }
+        ]
+      }
+    }
+  ]
+}

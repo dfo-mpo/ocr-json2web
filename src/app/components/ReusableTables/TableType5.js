@@ -21,7 +21,9 @@ const TableType5 = ({
     const itemName = event.target.getAttribute("itemname");
     const key = event.target.name;
     const value = event.target.value;
-
+console.log('itemName',itemName)
+console.log('key',key)
+console.log('value',value)
     const singleItem = {
       [itemName]: {},
     };
@@ -35,6 +37,7 @@ const TableType5 = ({
         ...singleItem,
       };
     }
+    
     updateJson[allOjb][itemName][key][0] = value;
     onEdit(updateJson);
   };
@@ -84,7 +87,7 @@ const TableType5 = ({
                           <td key={index}>
                             <EditableFieldForTable
                               itemName={rowItem}
-                              filedKey={key}
+                              fieldKey={key}
                               fieldValue={
                                 itemOjb && itemOjb[rowItem]&&itemOjb[rowItem][key]
                                   ? itemOjb[rowItem][key][0]
