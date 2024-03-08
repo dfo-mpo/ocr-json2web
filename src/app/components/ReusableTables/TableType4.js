@@ -18,7 +18,15 @@ const TableType4 = ({
   let updateJson = { ...items };
   const handleChange = (event) => {
     // updateJson[event.target.name] = event.target.value;
-    updateJson[event.target.name][0] = event.target.value;
+    // updateJson[event.target.name][0] = event.target.value;
+    if (updateJson[event.target.name]) {
+      updateJson[event.target.name][0] = event.target.value;
+    } else {
+      updateJson ={
+        ...updateJson,
+        [event.target.name]: [event.target.value, {}, ""]
+    }
+    }
     onEdit(updateJson);
   };
 
