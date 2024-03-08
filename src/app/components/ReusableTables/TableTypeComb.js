@@ -7,6 +7,7 @@ import TableType4 from "./TableType4";
 import TableType5 from "./TableType5";
 import TableType6 from "./TableType6";
 import TableType7 from "./TableType7";
+import TableType8 from "./TableType8";
 
 const TableTypeComb = ({
   updateJson,
@@ -115,6 +116,19 @@ const TableTypeComb = ({
             } else if (formSettingItem.tableType === "TableType7") {
               return (
                 <TableType7
+                  myStyle={formSettingItem.style}
+                  insideStyle={formSettingItem.insideStyle}
+                  key={index}
+                  items={updateJson}
+                  folderName={folderName}
+                  fileName={fileName}
+                  formSetting={formSettingItem}
+                  onEdit={changeHandler}
+                />
+              );
+            } else if (formSettingItem.tableType === "TableType8") {
+              return (
+                <TableType8
                   myStyle={formSettingItem.style}
                   insideStyle={formSettingItem.insideStyle}
                   key={index}
