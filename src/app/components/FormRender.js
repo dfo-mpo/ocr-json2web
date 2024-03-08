@@ -11,7 +11,7 @@ const FormRender = ({
   fileName,
   reFetch,
   reFetchJson,
-  formSetting,
+  formSetting
 }) => {
   const saveChange = () => {
     reFetch();
