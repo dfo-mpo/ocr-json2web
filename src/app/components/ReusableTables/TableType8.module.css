@@ -50,3 +50,26 @@
   font-size: 0.86em;
 
 }
+
+.removeItemTd{
+  border: 0px !important;
+
+}
+.addRemoveButton {
+  margin: 0 ;
+  background-color: transparent;
+  color: #000;
+  border: 0.8px solid #ccc;
+  font-size: 0.8em;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.addRemoveButton:hover {
+  background-color: #ddd;
+  color: red;
+  cursor: pointer;
+}

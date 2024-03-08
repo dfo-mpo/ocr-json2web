@@ -15,6 +15,16 @@ const TableType8 = ({
   const tableData = formSetting.tableData;
   const allOjb = formSetting.itemName;
   const itemOjb = items[allOjb];
+  const addNewItem = () => {
+    updateJson[allOjb].push({});
+    onEdit(updateJson);
+  };
+
+  const removeItem = (index) => {
+    updateJson[allOjb].splice(index, 1);
+
+    onEdit(updateJson);
+  };
 
   let updateJson = { ...items };
   const handleChange = (event, index) => {
@@ -100,11 +110,23 @@ const TableType8 = ({
                             </td>
                           );
                         })}
+
+                
+                      <button
+                        onClick={() => removeItem(index)}
+                        className={styles.addRemoveButton}
+                      >
+                        -
+                      </button>
+                    
                   </tr>
                 );
               })}
           </tbody>
         </table>
+        <button onClick={addNewItem} className={styles.addRemoveButton}>
+          Add Item
+        </button>
       </>
     </div>
   );

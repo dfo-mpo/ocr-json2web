@@ -7,7 +7,7 @@
   },
   "style": {
     "display": "grid",
-    "gap": "10px"
+    "gap": "20px"
   },
   "format1": [
     {
@@ -16,6 +16,9 @@
         "gridColumnStart": 1,
         "gridColumnEnd": 2,
         "alignSelf": "center"
+      },
+      "insideStyle": {
+        "border": "0px solid black"
       },
       "tableData": [
         {
@@ -28,13 +31,20 @@
       "tableType": "TableType1",
       "style": {
         "gridColumnStart": 3,
-        "gridColumnEnd": 4,
+        "gridColumnEnd": 5,
         "alignSelf": "center"
+      },
+      "insideStyle": {
+        "border": "0px"
       },
       "tableData": [
         {
           "fieldName": "CFV #",
           "key": "CFV"
+        },
+        {
+          "fieldName": "CFV name:",
+          "key": "CFV name"
         }
       ]
     },
@@ -42,8 +52,10 @@
       "tableType": "TableType1",
       "style": {
         "gridColumnStart": 5,
-        "gridColumnEnd": 6,
-        "alignSelf": "center"
+        "gridColumnEnd": 6
+      },
+      "insideStyle": {
+        "border": "0px"
       },
       "tableData": [
         {
@@ -55,15 +67,61 @@
     {
       "tableType": "TableType1",
       "style": {
-        "gridColumnStart": 3,
-        "gridColumnEnd": 4,
+        "gridColumnStart": 1,
+        "gridColumnEnd": 3,
         "gridRowStart": 2,
-        "gridRowEnd": 3
+        "gridRowEnd": 3,
+        "alignSelf": "center"
+      },
+      "insideStyle": {
+        "border": "0px"
       },
       "tableData": [
         {
-          "fieldName": "CFV name:",
-          "key": "CFV name"
+          "fieldName": "",
+          "key": "Company name"
+        },
+        {
+          "fieldName": "",
+          "key": "Company address"
+        }
+      ]
+    },
+    {
+      "tableType": "TableType1",
+      "style": {
+        "gridColumnStart": 5,
+        "gridColumnEnd": 5,
+        "gridRowStart": 2,
+        "gridRowEnd": 3
+      },
+      "insideStyle": {
+        "border": "0px"
+      },
+      "tableData": [
+        {
+          "fieldName": "Reference #:",
+          "key": "Reference number"
+        }
+      ]
+    },
+    {
+      "tableType": "TableType1",
+      "style": {
+        "gridColumnStart": 1,
+        "gridColumnEnd": 3
+      },
+      "insideStyle": {
+        "border": "0px"
+      },
+      "tableData": [
+        {
+          "fieldName": "Gear:",
+          "key": "Gear"
+        },
+        {
+          "fieldName": "Area:",
+          "key": "Area"
         }
       ]
     },
@@ -71,15 +129,19 @@
       "tableType": "TableType1",
       "style": {
         "gridColumnStart": 4,
-        "gridColumnEnd": 5,
-        "gridRowStart": 3,
-        "gridRowEnd": 4,
-        "alignSelf": "center"
+        "gridColumnEnd": 5
+      },
+      "insideStyle": {
+        "border": "0px"
       },
       "tableData": [
         {
-          "fieldName": "Reference #:",
-          "key": "Reference number"
+          "fieldName": "Trip length:",
+          "key": "Trip length"
+        },
+        {
+          "fieldName": "Days:",
+          "key": "Days"
         }
       ]
     },
@@ -92,6 +154,7 @@
         "gridColumnStart": 1,
         "gridColumnEnd": 6
       },
+
       "tableHeader": [
         [
           {
@@ -118,14 +181,46 @@
         ]
       ],
       "tableData": {
-
         "key": [
           { "key": "Species" },
           { "key": "Weight" },
           { "key": "Price" },
           { "key": "Value" }
-      ]
+        ]
       }
+    },
+    {
+      "tableType": "TableType1",
+      "style": {
+        "gridColumnStart": 4,
+        "gridColumnEnd": 6
+      },
+      "insideStyle": {
+        "border": "0px"
+      },
+      "tableData": [
+        {
+          "fieldName": "Total gross value:",
+          "key": "Total gross value"
+        },
+        {
+          "fieldName": "Levy:",
+          "key": "Levy"
+        },
+        {
+          "fieldName": "Tax:",
+          "key": "Tax"
+        },
+        {
+          "fieldName": "E.I.:",
+          "key": "EI"
+        },
+        {
+          "fieldName": "Total Net:",
+          "key": "Total net"
+        }
+
+      ]
     }
   ]
 }
