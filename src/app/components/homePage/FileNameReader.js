@@ -44,7 +44,6 @@ const FileNameReader = () => {
               // Process the entire JSON when the stream is complete
               const dataObject = JSON.parse(jsonString);
               setFetchResult(dataObject);
-              
               // Extract unique folder names
               const uniqueFolderNames = [
                 ...new Set(dataObject.map((item) => item.folderName)),

@@ -23,12 +23,13 @@ const FileNameList = ({ filesByFolder, fileStatus }) => {
 
     folder: "",
   });
-   console.log(filesByFolder);
-
+   
   // Extract unique folder names
   const uniqueFolderNames = [
     ...new Set(filesByFolder.map((item) => item.folderName)),
   ];
+
+
 
   //fetching the firle status
   const asyncFetch = async () => {

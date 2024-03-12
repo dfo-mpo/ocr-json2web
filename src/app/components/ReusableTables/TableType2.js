@@ -32,8 +32,12 @@ const TableType2 = ({
       updateJson[itemName] = [];
     }
     let newDate = {};
+
     // tableData.map((data, index) => (newDate[data.key] = data.fieldName));
-    tableData.map((data, index) => (newDate[data.key][0] = data.fieldName));
+    tableData.map(
+      (data, index) => (newDate[data.key] = [data.fieldName, {}, null])
+    );
+
     updateJson[itemName].push(newDate);
     onEdit(updateJson);
   };
@@ -71,7 +75,9 @@ const TableType2 = ({
                           index={arrayIndex}
                           fieldName={data.key}
                           // fieldValue={date[data.key]}
-                          fieldValue={(date&&date[data.key])?date[data.key][0]:""}
+                          fieldValue={
+                            date && date[data.key] ? date[data.key][0] : ""
+                          }
                           isFlag=""
                           handleChange={handleDateChange}
                         />
