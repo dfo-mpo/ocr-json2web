@@ -117,69 +117,52 @@
         "gridColumnStart": 1,
         "gridColumnEnd": 4
       },
-
       "tableHeader": [
         [
           {
             "fieldName": "SPECIES",
-            "rowItem": "",
-            "key": "",
             "span": {
               "rowSpan": 2
             }
           },
           {
             "fieldName": "ARRIVAL IN STREAM",
-            "rowItem": "",
-            "key": "",
             "span": {
               "colSpan": 2
             }
           },
           {
             "fieldName": "DATES of SPAWNING",
-            "rowItem": "",
-            "key": "",
             "span": {
               "colSpan": 6
             }
           },
           {
             "fieldName": "NO. of OBSER.",
-            "rowItem": "",
-            "key": "",
             "span": {
               "rowSpan": 2
             }
           },
           {
             "fieldName": "METHOD",
-            "rowItem": "",
-            "key": "",
             "span": {
               "rowSpan": 2
             }
           },
           {
             "fieldName": "RELIABILITY",
-            "rowItem": "",
-            "key": "",
             "span": {
               "rowSpan": 2
             }
           },
           {
             "fieldName": "EST. TO. NO. ON GROUNDS",
-            "rowItem": "",
-            "key": "",
             "span": {
               "rowSpan": 2
             }
           },
           {
             "fieldName": "OPTIMUM ESCAPEMENT",
-            "rowItem": "",
-            "key": "",
             "span": {
               "rowSpan": 2
             }
@@ -188,50 +171,34 @@
         [
           {
             "fieldName": "Month",
-            "rowItem": "",
-            "key": "",
             "span": {}
           },
           {
             "fieldName": "Day",
-            "rowItem": "",
-            "key": "",
             "span": {}
           },
           {
             "fieldName": "Start Month",
-            "rowItem": "",
-            "key": "",
             "span": {}
           },
           {
             "fieldName": "Start Day",
-            "rowItem": "",
-            "key": "",
             "span": {}
           },
           {
             "fieldName": "Peak Month",
-            "rowItem": "",
-            "key": "",
             "span": {}
           },
           {
             "fieldName": "Peak Day",
-            "rowItem": "",
-            "key": "",
             "span": {}
           },
           {
             "fieldName": "End Month",
-            "rowItem": "",
-            "key": "",
             "span": {}
           },
           {
             "fieldName": "End Day",
-            "rowItem": "",
-            "key": "",
             "span": {}
           }
         ]
@@ -1309,12 +1276,13 @@
     {
       "tableType": "TableType3",
       "tableName": "",
+      "insideTableName": "",
       "style": {
         "gridColumnStart": 2,
         "gridColumnEnd": 5
       },
       "insideStyle": {
-        "border": "0px solid black"
+        "border": "0px"
       },
       "tableData": [
         {
@@ -2945,7 +2913,7 @@
             "key": "",
             "span": {
               "colSpan": 2,
-              "rowSpan":2
+              "rowSpan": 2
             }
           },
           {
@@ -3027,7 +2995,7 @@
             "rowItem": "",
             "key": "",
             "span": {
-              "colSpan":2
+              "colSpan": 2
             }
           },
           {
@@ -3035,7 +3003,7 @@
             "rowItem": "",
             "key": "",
             "span": {
-              "colSpan":2
+              "colSpan": 2
             }
           },
           {
@@ -3043,8 +3011,7 @@
             "rowItem": "",
             "key": "",
             "span": {
-              "colSpan":2
-
+              "colSpan": 2
             }
           }
         ],

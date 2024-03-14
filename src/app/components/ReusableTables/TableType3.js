@@ -13,6 +13,7 @@ const TableType3 = ({
 }) => {
   const tableName = formSetting.tableName;
   const tableData = formSetting.tableData;
+  const insideTableName = formSetting.insideTableName;
   let updateJson = { ...items };
   const handleChange = (event) => {
     // updateJson[event.target.name] = event.target.value;
@@ -23,10 +24,10 @@ const TableType3 = ({
     if (updateJson[event.target.name]) {
       updateJson[event.target.name][0] = event.target.value;
     } else {
-      updateJson ={
+      updateJson = {
         ...updateJson,
-        [event.target.name]: [event.target.value, {}, ""]
-    }
+        [event.target.name]: [event.target.value, {}, ""],
+      };
     }
     onEdit(updateJson);
   };
@@ -35,6 +36,9 @@ const TableType3 = ({
     <div style={myStyle}>
       {tableName && <div className={styles.title}>{tableName}</div>}
       <div className={styles.myTable} style={insideStyle}>
+        {insideTableName && (
+          <div className={styles.title2}>{insideTableName}</div>
+        )}
         {tableData.map((data, index) => {
           return (
             <div key={index} className={styles.keyPair}>
@@ -47,7 +51,7 @@ const TableType3 = ({
                 fieldName={data.key}
                 // fieldValue={items[data.key]}
                 //TODO: items[data.key][0] for TAN's json version
-                fieldValue={items[data.key]?items[data.key][0]: ''}
+                fieldValue={items[data.key] ? items[data.key][0] : ""}
                 handleChange={handleChange}
               />
             </div>
