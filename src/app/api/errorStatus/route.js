@@ -19,9 +19,9 @@ export async function POST(request) {
 
   const containerName = "websiteinfo";
     //connect to jsondata container to update verified status in the json file
-    const containerName2 = "jsondata";
 
-    const containerName3 = "jsondatamodified";
+    const containerName3 = "json";
+    const subContainerName3 = "jsondatamodified";
     
   try {
     // Create a BlobServiceClient
@@ -63,7 +63,7 @@ export async function POST(request) {
    blobServiceClient.getContainerClient(containerName3);
 
  const blockBlobClient3 = containerClient3.getBlockBlobClient(
-   `${folderName}/${fileName}`
+   `${subContainerName3}/${folderName}/${fileName}`
  );
 
  //open json file from jsondatamodified container
