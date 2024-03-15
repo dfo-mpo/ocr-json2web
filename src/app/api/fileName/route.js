@@ -17,8 +17,8 @@ export async function GET() {
     const containerClient = blobServiceClient.getContainerClient(containerName);
     // List blobs in the container
     let dataObject = [];
-
-    
+ 
+     
     for await (const blob of containerClient.listBlobsFlat()) {
       const fullFileName = blob.name;
  
