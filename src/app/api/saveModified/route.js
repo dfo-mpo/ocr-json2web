@@ -7,7 +7,7 @@ export async function POST(request) {
 
   const connectionString = process.env.AZURE_STORAGE_CONNECTION_STRING;
   // jsondata is container name which storage the data by folder
-  const mainContainerName = process.env.CONTAINER_NAME;
+  const mainContainerName = process.env.DIRECTOR_NAME;
 
   const containerName = "json";
   const subContainerName = "jsondatamodified";

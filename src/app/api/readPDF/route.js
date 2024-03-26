@@ -9,7 +9,7 @@ export async function POST(request) {
   // jsondata is container name which storage the data by folder
   const containerName = "pdf";
   const subContainerName = "population"
-  const mainContainerName = process.env.CONTAINER_NAME;
+  const mainContainerName = process.env.DIRECTOR_NAME;
 
   try {
     // Create a BlobServiceClient

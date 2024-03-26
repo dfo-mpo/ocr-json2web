@@ -16,7 +16,7 @@ export async function POST(request) {
   ];
 
   const connectionString = process.env.AZURE_STORAGE_CONNECTION_STRING;
-  const mainContainerName = process.env.CONTAINER_NAME;
+  const mainContainerName = process.env.DIRECTOR_NAME;
 
   const containerName = "websiteinfo";
     //connect to jsondata container to update verified status in the json file
