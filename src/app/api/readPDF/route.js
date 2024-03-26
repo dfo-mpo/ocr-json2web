@@ -8,16 +8,18 @@ export async function POST(request) {
   const connectionString = process.env.AZURE_STORAGE_CONNECTION_STRING;
   // jsondata is container name which storage the data by folder
   const containerName = "pdf";
+  const subContainerName = "population"
+  const mainContainerName = process.env.CONTAINER_NAME;
 
   try {
     // Create a BlobServiceClient
     const blobServiceClient =
       BlobServiceClient.fromConnectionString(connectionString);
     // Get a container client from the BlobServiceClient
-    const containerClient = blobServiceClient.getContainerClient(containerName);
+    const containerClient = blobServiceClient.getContainerClient(`${mainContainerName}/${containerName}`);
 
     const blockBlobClient = containerClient.getBlockBlobClient(
-      `${folderName}/${fileName}`
+      `${subContainerName}/${folderName}/${fileName}`
     );
     const blobExists = await blockBlobClient.exists();
 
