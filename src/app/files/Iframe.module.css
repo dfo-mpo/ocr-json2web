@@ -5,6 +5,15 @@
   margin-left: 5px;
 }
 
+.noData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  color: #e90303;
+}
+
 .showButton {
   opacity: 0.6;
   position: fixed;
