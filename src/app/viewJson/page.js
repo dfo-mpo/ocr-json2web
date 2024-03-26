@@ -27,19 +27,35 @@ const page = ({ searchParams }) => {
     } else {
       const reader = Response.body.getReader();
       const readData = async () => {
+        // try {
+        //   while (true) {
+        //     const { done, value } = await reader.read();
+        //     if (done) {
+        //       break;
+        //     }
+        //     // `value` contains the chunk of data as a Uint8Array
+        //     const jsonString = new TextDecoder().decode(value);
+        //     // Parse the JSON string into an object
+        //     const dataObject = JSON.parse(jsonString);
+
+        //     setJsonData(dataObject);
+        //     setIsLoading(false);
+        //   }
         try {
+          let jsonString = "";
+
           while (true) {
             const { done, value } = await reader.read();
             if (done) {
+              // Process the entire JSON when the stream is complete
+              const dataObject = JSON.parse(jsonString);
+              setJsonData(dataObject);
+              setIsLoading(false);
               break;
             }
-            // `value` contains the chunk of data as a Uint8Array
-            const jsonString = new TextDecoder().decode(value);
-            // Parse the JSON string into an object
-            const dataObject = JSON.parse(jsonString);
 
-            setJsonData(dataObject);
-            setIsLoading(false);
+            // Concatenate the chunks into a single string
+            jsonString += new TextDecoder().decode(value);
           }
         } catch (error) {
           console.error("Error reading response:", error);
@@ -56,7 +72,9 @@ const page = ({ searchParams }) => {
 
   return (
     <div className={styles.container}>
-            <title>{`Json: ${fileName.replace(".json", "").replace(/_/g, " ")}`}</title>
+      <title>{`Json: ${fileName
+        .replace(".json", "")
+        .replace(/_/g, " ")}`}</title>
       <div className={styles.fileName}>File Name: {fileName}</div>
       {isLoading ? (
         <div>Loading...</div>
