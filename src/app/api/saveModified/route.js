@@ -7,6 +7,8 @@ export async function POST(request) {
 
   const connectionString = process.env.AZURE_STORAGE_CONNECTION_STRING;
   // jsondata is container name which storage the data by folder
+  const mainContainerName = process.env.DIRECTOR_NAME;
+
   const containerName = "json";
   const subContainerName = "jsondatamodified";
   const containerName2 = "websiteinfo";
@@ -28,11 +30,11 @@ export async function POST(request) {
       BlobServiceClient.fromConnectionString(connectionString);
     // Get a container client from the BlobServiceClient
     const containerClient = blobServiceClient.getContainerClient(
-      `${containerName}/${subContainerName}/${folderName}`
+      `${mainContainerName}/${containerName}/${subContainerName}/${folderName}`
     );
     //update to fileStatus container
     const containerClient2 =
-      blobServiceClient.getContainerClient(containerName2);
+      blobServiceClient.getContainerClient(`${mainContainerName}/${containerName2}`);
     const blobName = `${folderName}.json`;
 
     const blockBlobClient2 = containerClient2.getBlockBlobClient(

@@ -5,6 +5,8 @@ import { BlobServiceClient } from "@azure/storage-blob";
 export async function GET() {
   const connectionString = process.env.AZURE_STORAGE_CONNECTION_STRING;
   // jsondata is container name which storage the data by folder
+  const mainContainerName = process.env.DIRECTOR_NAME;
+
   const containerName = "websiteinfo";
   const fileName = "formSetting.json";
   try {
@@ -12,7 +14,7 @@ export async function GET() {
     const blobServiceClient =
       BlobServiceClient.fromConnectionString(connectionString);
     // Get a container client from the BlobServiceClient
-    const containerClient = blobServiceClient.getContainerClient(containerName);
+    const containerClient = blobServiceClient.getContainerClient(`${mainContainerName}/${containerName}`);
 
     const blockBlobClient = containerClient.getBlockBlobClient(fileName);
     const blobExists = await blockBlobClient.exists();

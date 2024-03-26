@@ -3,10 +3,12 @@
 import { BlobServiceClient } from "@azure/storage-blob";
 
 export async function GET() {
-
   // You need to set up these variables with your values
   const connectionString = process.env.AZURE_STORAGE_CONNECTION_STRING;
-  // jsondata is container name which storage the data by folder 
+  // jsondata is container name which storage the data by folder
+
+  const mainContainerName = process.env.DIRECTOR_NAME;
+
   const containerName = "json";
   // const subContainerName = "jsondatamodified";
   try {
@@ -14,15 +16,16 @@ export async function GET() {
     const blobServiceClient =
       BlobServiceClient.fromConnectionString(connectionString);
     // Get a container client from the BlobServiceClient
-    const containerClient = blobServiceClient.getContainerClient(containerName);
+    const containerClient = blobServiceClient.getContainerClient(mainContainerName
+    );
     // List blobs in the container
     let dataObject = [];
- 
-     
-    for await (const blob of containerClient.listBlobsFlat()) {
+    const directoryPath = "json/jsondatamodified/"
+
+    for await (const blob of containerClient.listBlobsFlat({ prefix: directoryPath })) {
       const fullFileName = blob.name;
- 
-      let [subContainerName, folderName, fileName] = fullFileName.split("/");
+
+      let [json,jsondatamodified, folderName, fileName] = fullFileName.split("/");
       dataObject.push({ folderName, fileName });
       // const extension = fullFileName.split('.').pop();
       // const blobClient = containerClient.getBlobClient(blob.name);
@@ -48,7 +51,6 @@ export async function GET() {
       });  
     */
     }
-
 
     const updatedJsonData = JSON.stringify(dataObject, null, 2);
 

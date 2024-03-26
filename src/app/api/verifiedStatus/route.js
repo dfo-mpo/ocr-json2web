@@ -16,6 +16,7 @@ export async function POST(request) {
   ];
 
   const connectionString = process.env.AZURE_STORAGE_CONNECTION_STRING;
+  const mainContainerName = process.env.DIRECTOR_NAME;
 
   const containerName = "websiteinfo";
   //connect to jsondata container to update verified status in the json file
@@ -32,7 +33,7 @@ export async function POST(request) {
       BlobServiceClient.fromConnectionString(connectionString);
     // Get a container client from the BlobServiceClient
     // Get a container client from the BlobServiceClient
-    const containerClient = blobServiceClient.getContainerClient(containerName);
+    const containerClient = blobServiceClient.getContainerClient(`${mainContainerName}/${containerName}`);
     //connect to jsondata container
     // const containerClient2 =
     //   blobServiceClient.getContainerClient(containerName2);
@@ -66,7 +67,7 @@ export async function POST(request) {
 
     //connect to jsondatamodified container
     const containerClient3 =
-      blobServiceClient.getContainerClient(containerName3);
+      blobServiceClient.getContainerClient(`${mainContainerName}/${containerName3}`);
 
     const blockBlobClient3 = containerClient3.getBlockBlobClient(
       `${subContainerName3}/${folderName}/${fileName}`

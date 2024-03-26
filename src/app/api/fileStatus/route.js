@@ -5,6 +5,7 @@ import { BlobServiceClient } from "@azure/storage-blob";
 export async function POST(request) {
   const folderName = await request.json();
 
+  const mainContainerName = process.env.DIRECTOR_NAME;
 
 
   const connectionString = process.env.AZURE_STORAGE_CONNECTION_STRING;
@@ -17,7 +18,7 @@ export async function POST(request) {
       BlobServiceClient.fromConnectionString(connectionString);
     // Get a container client from the BlobServiceClient
     // Get a container client from the BlobServiceClient
-    const containerClient = blobServiceClient.getContainerClient(containerName);
+    const containerClient = blobServiceClient.getContainerClient(`${mainContainerName}/${containerName}`);
 
     let combinedData = [];
     await Promise.all(
