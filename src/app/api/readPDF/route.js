@@ -1,7 +1,7 @@
 //fetch the JSON data from the blob storage based on the folder name and file name
 import { BlobServiceClient } from "@azure/storage-blob";
 
-export async function POST(request) {
+export async function POST(request) { 
   const dataJson = await request.json();
   const { folderName, fileName } = dataJson;
 
