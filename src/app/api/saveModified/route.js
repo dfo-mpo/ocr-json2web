@@ -34,7 +34,7 @@ export async function POST(request) {
     );
     //update to fileStatus container
     const containerClient2 =
-      blobServiceClient.getContainerClient(containerName2);
+      blobServiceClient.getContainerClient(`${mainContainerName}/${containerName2}`);
     const blobName = `${folderName}.json`;
 
     const blockBlobClient2 = containerClient2.getBlockBlobClient(
