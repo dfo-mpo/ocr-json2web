@@ -23,6 +23,7 @@ const File = ({ searchParams }) => {
   const [modified, setModified] = useState(false);
   const [error, setError] = useState(false);
   const [pageHeight, setPageHeight] = useState(1500);
+  const [isFormSetting, setIsFormSetting] = useState();
 
   // this is the Form page
   const fileName = searchParams.fileName;
@@ -85,7 +86,7 @@ const File = ({ searchParams }) => {
             if (done) {
               // Process the entire JSON when the stream is complete
               const dataObject = JSON.parse(jsonString);
-            
+
               setJsonData(dataObject);
               setIsLoading(false);
               break;
@@ -116,6 +117,8 @@ const File = ({ searchParams }) => {
       throw new Error(Response.statusText);
     } else if (Response.status === 203) {
       console.log("No data");
+      setIsFormSetting(false);
+      setIsFormsettingReady(false);
     } else {
       const reader = Response.body.getReader();
       const readData = async () => {
@@ -154,7 +157,7 @@ const File = ({ searchParams }) => {
         } catch (error) {
           console.error("Error reading response:", error);
         } finally {
-          reader.releaseLock(); // Release the reader's lock when 
+          reader.releaseLock(); // Release the reader's lock when
         }
       };
       readData();
@@ -269,6 +272,13 @@ const File = ({ searchParams }) => {
 
       {isLoading || isFormsettingReady ? (
         <div>Loading...</div>
+      ) : isFormSetting === false ? (
+        <div
+          className={styles.error}
+        >
+          FormSetting.json file does not exist. Please return to the home page
+          and click on 'Update Settings'.
+        </div>
       ) : (
         <>
           <ErrorReport

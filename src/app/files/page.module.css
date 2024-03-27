@@ -1,4 +1,4 @@
-.allPage{
+.allPage {
   margin-bottom: 200px;
 }
 
@@ -15,7 +15,11 @@
   justify-content: center; /* Horizontally centers the content */
   margin: 0 auto; /* Centers the container horizontally */
 }
- 
+.error {
+  color: red;
+
+  margin: auto;
+}
 .linkStyle {
   position: absolute;
   top: 10px;
@@ -45,16 +49,14 @@
   margin-bottom: 50px;
 }
 
-
-.modifiedLink{
+.modifiedLink {
   display: flex;
   align-items: center;
   text-decoration: none;
   color: red;
 }
 
-.modifiedLink :hover{
-
+.modifiedLink :hover {
   text-decoration: underline;
   font-weight: 600;
 }

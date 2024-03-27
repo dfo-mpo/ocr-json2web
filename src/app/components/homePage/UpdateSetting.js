@@ -26,7 +26,7 @@ const UpdateSetting = (folderNames) => {
         className={styles.importButton}
         onClick={() => setIsToggled(!isToggled)}
       >
-        update setting
+        Update Settings
       </button>
       {isToggled && (
         <>
