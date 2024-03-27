@@ -24,6 +24,8 @@ const page = ({ searchParams }) => {
     });
     if (!Response.ok) {
       throw new Error(Response.statusText);
+    } else if (Response.status === 203) {
+      console.log("No data");
     } else {
       const reader = Response.body.getReader();
       const readData = async () => {
@@ -49,18 +51,18 @@ const page = ({ searchParams }) => {
             if (done) {
               // Process the entire JSON when the stream is complete
               const dataObject = JSON.parse(jsonString);
+              console.log(dataObject);
               setJsonData(dataObject);
               setIsLoading(false);
               break;
             }
-
             // Concatenate the chunks into a single string
             jsonString += new TextDecoder().decode(value);
           }
         } catch (error) {
           console.error("Error reading response:", error);
         } finally {
-          reader.releaseLock(); // Release the reader's lock when done
+          reader.releaseLock(); // Release the reader's lock when 
         }
       };
       readData();

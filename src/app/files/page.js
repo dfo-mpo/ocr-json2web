@@ -154,7 +154,7 @@ const File = ({ searchParams }) => {
         } catch (error) {
           console.error("Error reading response:", error);
         } finally {
-          reader.releaseLock(); // Release the reader's lock when done
+          reader.releaseLock(); // Release the reader's lock when 
         }
       };
       readData();
