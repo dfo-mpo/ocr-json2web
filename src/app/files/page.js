@@ -237,11 +237,12 @@ const File = ({ searchParams }) => {
     asyncFetchFormSetting();
     asyncFetchStatus();
   }, []);
+
   return (
     <div className={styles.allPage}>
-      {/* <title>{folderName}</title> */}
       <title>{fileName.replace(".json", "").replace(/_/g, " ")}</title>
       <LogoHeader />
+
       {/* <Link className={styles.backButton} href="/">
           Back
         </Link> */}
@@ -273,9 +274,7 @@ const File = ({ searchParams }) => {
       {isLoading || isFormsettingReady ? (
         <div>Loading...</div>
       ) : isFormSetting === false ? (
-        <div
-          className={styles.error}
-        >
+        <div className={styles.error}>
           FormSetting.json file does not exist. Please return to the home page
           and click on 'Update Settings'.
         </div>
@@ -316,6 +315,20 @@ const File = ({ searchParams }) => {
               }}
             >
               View Json
+            </Link>
+
+            <Link
+              className={styles.linkStyle2}
+              rel="noopener noreferrer"
+              target="_blank"
+              href={{
+                pathname: "/formSetting/",
+                query: {
+                  folderName: folderName,
+                },
+              }}
+            >
+              Add Table
             </Link>
             <Iframe
               formSetting={formSetting}
