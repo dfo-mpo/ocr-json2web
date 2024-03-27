@@ -5,6 +5,7 @@ import Link from "next/link";
 import styles from "./FileNameReader.module.css";
 import { useState, useEffect } from "react";
 import LogPage from "./LogPage";
+import UpdateSetting from "./UpdateSetting";
 
 // this component reads the file names and folder name from the bc16Data folder
 // then combines the file names and folder names as an array of objects: [ {folderName: folderName, fileName: fileName},  ....]
@@ -76,14 +77,13 @@ const FileNameReader = () => {
   // Return the component with the list of file details
   return (
     <>
+    
       {isLoading ? (
         <div>Loading...</div>
       ) : (
         <>
           {isLog ? (
-            <LogPage fileStatus={fileStatus}
-            folderNames = {folderNames}
-            />
+            <LogPage fileStatus={fileStatus} folderNames={folderNames} />
           ) : (
             <FileNameList
               filesByFolder={fetchResult}
@@ -93,6 +93,7 @@ const FileNameReader = () => {
           <button className={styles.logButton} onClick={() => setIsLog(!isLog)}>
             {isLog ? "Close" : "Show Log"}
           </button>
+          <UpdateSetting folderNames={folderNames} />
         </>
       )}
     </>
