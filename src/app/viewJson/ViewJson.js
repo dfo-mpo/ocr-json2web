@@ -30,6 +30,7 @@ const ViewJson = ({ jsonData, folderName, fileName }) => {
       window.close();
     }
   };
+  console.log("jsonData", jsonData);
   return (
     <form onSubmit={onSubmitHandler}>
       {/* <textarea
