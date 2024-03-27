@@ -14,14 +14,14 @@ const formSetting = ({ searchParams }) => {
   if (tableType === "Title") {
     form = <TitleForm />;
   } else if (tableType === "TableType1") {
-    form = <Table1Form />;
+    form = <Table1Form folderName={folderName}/>;
   }
 
   return (
     <>
       <div>{folderName}</div>
       <select onChange={changeHandler}>
-        <option value=""></option>
+        <option value="">Chose One</option>
         <option value="Title">Title</option>
         <option value="TableType1">Table type1</option>
         <option value="TableType2">Table type2</option>

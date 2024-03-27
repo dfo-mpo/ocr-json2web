@@ -1,9 +1,6 @@
-import { useState, useEffect } from "react";
 import styles from "./TitleForm.module.css";
 
 const TitleForm = () => {
-  const [submitData, setSubmitData] = useState();
-
   const submitHandler = async (e) => {
     const title = e.target.title.value;
     const subtitle = e.target.subtitle.value;
