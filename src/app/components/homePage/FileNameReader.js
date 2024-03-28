@@ -77,7 +77,7 @@ const FileNameReader = () => {
   // Return the component with the list of file details
   return (
     <>
-    
+        
       {isLoading ? (
         <div>Loading...</div>
       ) : (
