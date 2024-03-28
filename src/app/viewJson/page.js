@@ -62,7 +62,7 @@ const page = ({ searchParams }) => {
         } catch (error) {
           console.error("Error reading response:", error);
         } finally {
-          reader.releaseLock(); // Release the reader's lock when 
+          reader.releaseLock(); // Release the reader's lock when
         }
       };
       readData();

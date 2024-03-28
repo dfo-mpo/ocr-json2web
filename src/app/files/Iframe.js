@@ -7,6 +7,15 @@ const Iframe = ({ fileName, formSetting, folderName, pageHeight }) => {
   const [isLoading, setIsLoading] = useState(false);
   const [pdfUrl, setPdfUrl] = useState();
   const [isPdf, setIsPdf] = useState(true);
+
+  const [newPageHeight, setNewPageHeight] = useState(pageHeight);
+
+  useEffect(() => {
+    if (pageHeight < 1000) {
+      setNewPageHeight(1000);
+    }
+  }, [pageHeight]);
+
   // const showPDF = formSetting.showPDF;
 
   // const pdfUrl = formSetting.PDFurl[folderName];
@@ -65,7 +74,7 @@ const Iframe = ({ fileName, formSetting, folderName, pageHeight }) => {
             <iframe
               className={styles.iframe}
               src={pdfUrl}
-              style={{ height: pageHeight }}
+              style={{ height: newPageHeight }}
             >
               This browser does not support PDFs. Please download the PDF to
               view it.

@@ -26,7 +26,7 @@ export async function GET() {
       const updatedJsonData = JSON.stringify(blobContent, null, 2);
       return new Response(updatedJsonData, { status: 200 });
     } else {
-      throw new Error("Blob does not exist");
+      return new Response("Blob not found", { status: 203 });
     }
   } catch (error) {
     console.error("Caught an outside error:", error);
