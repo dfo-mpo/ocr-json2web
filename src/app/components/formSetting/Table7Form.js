@@ -1,7 +1,7 @@
 import { useState } from "react";
-import styles from "./Table2Form.module.css";
+import styles from "./Table7Form.module.css";
 
-const Table2Form = ({ folderName }) => {
+const Table7Form = ({ folderName }) => {
   const [count, setCount] = useState(1);
   const handleRemoveInputGroup = () => {
     // Ensure count doesn't go below 1
@@ -22,9 +22,9 @@ const Table2Form = ({ folderName }) => {
     const borderBottom = e.target.borderBottom.value;
     const borderLeft = e.target.borderLeft.value;
     const borderRight = e.target.borderRight.value;
-    const justifySelf = e.target.justifySelf.value;
     const insideTableName = e.target.insideTableName.value;
-    const itemName = e.target.itemName.value;
+
+    const justifySelf = e.target.justifySelf.value;
 
     const style = {
       gridColumnStart: gridColumnStart,
@@ -56,7 +56,6 @@ const Table2Form = ({ folderName }) => {
         tableType: tableType,
         tableName: tableName,
         insideTableName: insideTableName,
-        itemName: itemName,
         style: style,
         insideStyle: insideStyle,
         tableData: tableData,
@@ -78,7 +77,7 @@ const Table2Form = ({ folderName }) => {
     setCount(count + 1);
   };
 
-  const tableDataComponent = (i) => {
+  const tableDataComponen = (i) => {
     return (
       <div className={styles.inputGroupAll}>
         <div className={styles.inputGroup}>
@@ -105,19 +104,20 @@ const Table2Form = ({ folderName }) => {
         submitHandler(e);
       }}
     >
-      <div className={styles.title}>Table Type 2 Form</div>
-      <input type="hidden" name="tableType" value="TableType2" />
+      <div className={styles.title}>Table Type 7 Form</div>
+      <input type="hidden" name="tableType" value="TableType7" />
       <div className={styles.inputGroup}>
         <label htmlFor="tableName">Table Name</label>
-        <input id="tableName" name="tableName" type="text" />
+        <input
+          id="tableName"
+          name="tableName"
+          type="text"
+         
+        />
       </div>
       <div className={styles.inputGroup}>
         <label htmlFor="insideTableName">Inside Table Name</label>
         <input id="insideTableName" name="insideTableName" type="text" />
-      </div>
-      <div className={styles.inputGroup}>
-        <label htmlFor="itemName">Item Name</label>
-        <input id="itemName" name="itemName" type="text" />
       </div>
 
       <div className={styles.styleSection}>
@@ -232,7 +232,7 @@ const Table2Form = ({ folderName }) => {
         )}
 
         {[...Array(count)].map((_, index) => (
-          <div key={index}>{tableDataComponent(index)}</div>
+          <div key={index}>{tableDataComponen(index)}</div>
         ))}
       </div>
 
@@ -250,4 +250,4 @@ const Table2Form = ({ folderName }) => {
   );
 };
 
-export default Table2Form;
+export default Table7Form;

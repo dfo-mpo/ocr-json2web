@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "./Table1Form.module.css";
+import styles from "./Table3Form.module.css";
 
 const Table3Form = ({ folderName }) => {
   const [count, setCount] = useState(1);

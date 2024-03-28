@@ -4,12 +4,15 @@ import TitleForm from "../components/formSetting/TitleForm";
 import Table1Form from "../components/formSetting/Table1Form";
 import Table2Form from "../components/formSetting/Table2Form";
 import Table3Form from "../components/formSetting/Table3Form";
+import Table4Form from "../components/formSetting/Table4Form";
+import Table5Form from "../components/formSetting/Table5Form";
+import Table6Form from "../components/formSetting/Table6Form";
+import Table7Form from "../components/formSetting/Table7Form";
 const formSetting = ({ searchParams }) => {
   const { folderName } = searchParams;
   const [tableType, setTableType] = useState("");
   const changeHandler = (e) => {
     setTableType(e.target.value);
-    console.log(tableType);
   };
 
   let form = null;
@@ -21,6 +24,14 @@ const formSetting = ({ searchParams }) => {
     form = <Table2Form folderName={folderName} />;
   } else if (tableType === "TableType3") {
     form = <Table3Form folderName={folderName} />;
+  } else if (tableType === "TableType4") {
+    form = <Table4Form folderName={folderName} />;
+  } else if (tableType === "TableType5") {
+    form = <Table5Form folderName={folderName} />;
+  } else if (tableType === "TableType6") {
+    form = <Table6Form folderName={folderName} />;
+  } else if (tableType === "TableType7") {
+    form = <Table7Form folderName={folderName} />;
   }
 
   return (
