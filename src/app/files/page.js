@@ -240,6 +240,7 @@ const File = ({ searchParams }) => {
     asyncFetchStatus();
   }, []);
 
+
   return (
     <div className={styles.allPage}>
       <title>{fileName.replace(".json", "").replace(/_/g, " ")}</title>
@@ -282,6 +283,7 @@ const File = ({ searchParams }) => {
         </div>
       ) : (
         <>
+        <button onClick={asyncFetch}>Refresh</button>
           <ErrorReport
             fileName={fileName}
             folderName={folderName}
