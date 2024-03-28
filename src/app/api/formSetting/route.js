@@ -2,7 +2,7 @@
 // data contain the file name and the folder name and verified data
 import { BlobServiceClient } from "@azure/storage-blob";
 
-export async function GET() {
+export async function POST(request) {
   const connectionString = process.env.AZURE_STORAGE_CONNECTION_STRING;
   // jsondata is container name which storage the data by folder
   const mainContainerName = process.env.DIRECTOR_NAME;
