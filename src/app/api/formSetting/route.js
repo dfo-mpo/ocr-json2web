@@ -21,7 +21,6 @@ export async function POST(request) {
       return new Response(updatedJsonData, {
         status: 200,
         headers: {
-          'Cache-Control': 'no-cache',
           'Content-Type': 'application/json'
         }
       });
