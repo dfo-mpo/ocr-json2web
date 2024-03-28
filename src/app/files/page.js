@@ -108,11 +108,10 @@ const File = ({ searchParams }) => {
   const asyncFetchFormSetting = async () => {
     setIsFormsettingReady(true);
     const Response = await fetch("/api/formSetting", {
-      method: "POST",
+      method: "GET",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify("test"),
     });
     if (!Response.ok) {
       throw new Error(Response.statusText);
