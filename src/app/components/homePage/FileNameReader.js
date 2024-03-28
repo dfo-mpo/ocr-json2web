@@ -23,10 +23,11 @@ const FileNameReader = () => {
   const asyncFetch = async () => {
     setIsLoading(true);
     const Response = await fetch("/api/fileName", {
-      method: "GET",
+      method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
+      body: JSON.stringify("test"),
     });
     if (!Response.ok) {
       throw new Error(Response.statusText);

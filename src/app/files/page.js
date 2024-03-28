@@ -108,10 +108,11 @@ const File = ({ searchParams }) => {
   const asyncFetchFormSetting = async () => {
     setIsFormsettingReady(true);
     const Response = await fetch("/api/formSetting", {
-      method: "GET",
+      method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
+      body: JSON.stringify("test"),
     });
     if (!Response.ok) {
       throw new Error(Response.statusText);
@@ -283,7 +284,7 @@ const File = ({ searchParams }) => {
         </div>
       ) : (
         <>
-        <button onClick={asyncFetch}>Refresh</button>
+
           <ErrorReport
             fileName={fileName}
             folderName={folderName}
