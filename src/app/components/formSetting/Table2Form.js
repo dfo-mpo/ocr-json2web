@@ -1,7 +1,7 @@
 import { useState } from "react";
-import styles from "./Table1Form.module.css";
+import styles from "./Table2Form.module.css";
 
-const Table1Form = ({ folderName }) => {
+const Table2Form = ({ folderName }) => {
   const [count, setCount] = useState(1);
   const handleRemoveInputGroup = () => {
     // Ensure count doesn't go below 1
@@ -22,8 +22,9 @@ const Table1Form = ({ folderName }) => {
     const borderBottom = e.target.borderBottom.value;
     const borderLeft = e.target.borderLeft.value;
     const borderRight = e.target.borderRight.value;
-
     const justifySelf = e.target.justifySelf.value;
+    const insideTableName = e.target.insideTableName.value;
+    const itemName = e.target.itemName.value;
 
     const style = {
       gridColumnStart: gridColumnStart,
@@ -54,6 +55,8 @@ const Table1Form = ({ folderName }) => {
         folderName: folderName,
         tableType: tableType,
         tableName: tableName,
+        insideTableName: insideTableName,
+        itemName: itemName,
         style: style,
         insideStyle: insideStyle,
         tableData: tableData,
@@ -102,16 +105,19 @@ const Table1Form = ({ folderName }) => {
         submitHandler(e);
       }}
     >
-      <div className={styles.title}>Table Type 1 Form</div>
-      <input type="hidden" name="tableType" value="TableType1" />
+      <div className={styles.title}>Table Type 2 Form</div>
+      <input type="hidden" name="tableType" value="TableType2" />
       <div className={styles.inputGroup}>
         <label htmlFor="tableName">Table Name</label>
-        <input
-          id="tableName"
-          name="tableName"
-          type="text"
-          placeholder="tableName"
-        />
+        <input id="tableName" name="tableName" type="text" />
+      </div>
+      <div className={styles.inputGroup}>
+        <label htmlFor="insideTableName">Inside Table Name</label>
+        <input id="insideTableName" name="insideTableName" type="text" />
+      </div>
+      <div className={styles.inputGroup}>
+        <label htmlFor="itemName">Item Name</label>
+        <input id="itemName" name="itemName" type="text" />
       </div>
 
       <div className={styles.styleSection}>
@@ -244,4 +250,4 @@ const Table1Form = ({ folderName }) => {
   );
 };
 
-export default Table1Form;
+export default Table2Form;

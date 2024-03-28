@@ -2,6 +2,8 @@
 import React, { useState } from "react";
 import TitleForm from "../components/formSetting/TitleForm";
 import Table1Form from "../components/formSetting/Table1Form";
+import Table2Form from "../components/formSetting/Table2Form";
+import Table3Form from "../components/formSetting/Table3Form";
 const formSetting = ({ searchParams }) => {
   const { folderName } = searchParams;
   const [tableType, setTableType] = useState("");
@@ -14,7 +16,11 @@ const formSetting = ({ searchParams }) => {
   if (tableType === "Title") {
     form = <TitleForm />;
   } else if (tableType === "TableType1") {
-    form = <Table1Form folderName={folderName}/>;
+    form = <Table1Form folderName={folderName} />;
+  } else if (tableType === "TableType2") {
+    form = <Table2Form folderName={folderName} />;
+  } else if (tableType === "TableType3") {
+    form = <Table3Form folderName={folderName} />;
   }
 
   return (

@@ -77,7 +77,13 @@ const TitleForm = () => {
       </div>
       <div className={styles.buttonWrapper}>
         <button className={styles.submit}>Submit</button>
-        <button className={styles.cancel}>Cancel</button>
+        <button
+          type="button"
+          onClick={() => window.close()}
+          className={styles.cancel}
+        >
+          Cancel
+        </button>
       </div>
     </form>
   );

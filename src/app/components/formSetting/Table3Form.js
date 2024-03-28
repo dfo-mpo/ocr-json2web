@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "./Table1Form.module.css";
 
-const Table1Form = ({ folderName }) => {
+const Table3Form = ({ folderName }) => {
   const [count, setCount] = useState(1);
   const handleRemoveInputGroup = () => {
     // Ensure count doesn't go below 1
@@ -22,6 +22,7 @@ const Table1Form = ({ folderName }) => {
     const borderBottom = e.target.borderBottom.value;
     const borderLeft = e.target.borderLeft.value;
     const borderRight = e.target.borderRight.value;
+    const insideTableName = e.target.insideTableName.value;
 
     const justifySelf = e.target.justifySelf.value;
 
@@ -54,6 +55,7 @@ const Table1Form = ({ folderName }) => {
         folderName: folderName,
         tableType: tableType,
         tableName: tableName,
+        insideTableName: insideTableName,
         style: style,
         insideStyle: insideStyle,
         tableData: tableData,
@@ -102,8 +104,8 @@ const Table1Form = ({ folderName }) => {
         submitHandler(e);
       }}
     >
-      <div className={styles.title}>Table Type 1 Form</div>
-      <input type="hidden" name="tableType" value="TableType1" />
+      <div className={styles.title}>Table Type 3 Form</div>
+      <input type="hidden" name="tableType" value="TableType3" />
       <div className={styles.inputGroup}>
         <label htmlFor="tableName">Table Name</label>
         <input
@@ -112,6 +114,10 @@ const Table1Form = ({ folderName }) => {
           type="text"
           placeholder="tableName"
         />
+      </div>
+      <div className={styles.inputGroup}>
+        <label htmlFor="insideTableName">Inside Table Name</label>
+        <input id="insideTableName" name="insideTableName" type="text" />
       </div>
 
       <div className={styles.styleSection}>
@@ -244,4 +250,4 @@ const Table1Form = ({ folderName }) => {
   );
 };
 
-export default Table1Form;
+export default Table3Form;

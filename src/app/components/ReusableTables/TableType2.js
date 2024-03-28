@@ -49,19 +49,15 @@ const TableType2 = ({
 
   return (
     <div style={myStyle}>
-      {tableName && (
-        <div className={styles.title}>
-          {tableName}
-          <button className={styles.addRemoveButton} onClick={addDateHandler}>
-            +
-          </button>
-        </div>
-      )}
+      {tableName && <div className={styles.title}>{tableName}</div>}
 
       <div className={styles.myTable} style={insideStyle}>
         {insideTableName && (
           <div className={styles.title2}>{insideTableName}</div>
         )}
+        <button className={styles.addRemoveButton} onClick={addDateHandler}>
+          +
+        </button>
 
         <div className={styles.dateDisplay}>
           {dates
