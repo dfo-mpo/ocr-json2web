@@ -129,7 +129,7 @@ const File = ({ searchParams }) => {
               dataObject.forEach((item) => {
                 if (item.fileName === fileName) {
                   setVerified(item.verified);
-                  setModified(item.modified);
+                
                   setError(item.error);
                 }
               });
@@ -153,7 +153,7 @@ const File = ({ searchParams }) => {
   const asyncFetchFormSetting = async () => {
     setIsFormsettingReady(true);
     const Response = await fetch("/api/formSetting", {
-      method: "GET",
+      method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
