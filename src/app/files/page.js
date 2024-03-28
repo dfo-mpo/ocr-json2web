@@ -148,6 +148,8 @@ const File = ({ searchParams }) => {
 
               setFormSetting(dataObject);
               setIsFormsettingReady(false);
+              console.log("it loading");
+              console.log(dataObject);
               break;
             }
 
