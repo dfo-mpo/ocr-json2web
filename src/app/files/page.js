@@ -283,7 +283,7 @@ const File = ({ searchParams }) => {
         </div>
       ) : (
         <>
-        <button onClick={asyncFetch}>Refresh</button>
+        <button onClick={asyncFetchFormSetting}>Refresh</button>
           <ErrorReport
             fileName={fileName}
             folderName={folderName}
