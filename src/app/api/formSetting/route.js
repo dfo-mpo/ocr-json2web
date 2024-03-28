@@ -25,7 +25,7 @@ export async function POST(request) {
         }
       });
     } else {
-      return new Response("Blob not found", { status: 404 });
+      return new Response("Blob not found", { status: 203 });
     }
   } catch (error) {
     console.error("Caught an outside error:", error);
