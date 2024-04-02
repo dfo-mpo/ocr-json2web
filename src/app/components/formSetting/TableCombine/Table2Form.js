@@ -1,8 +1,7 @@
 import { useState } from "react";
-import styles from "./Table1Form.module.css";
-import FormSettingButton from "./FormSettingButton";
+import styles from "./Table2Form.module.css";
 
-const Table1Form = ({ folderName }) => {
+const Table2Form = ({ folderName, onRemove }) => {
   const [count, setCount] = useState(1);
   const handleRemoveInputGroup = () => {
     // Ensure count doesn't go below 1
@@ -23,8 +22,9 @@ const Table1Form = ({ folderName }) => {
     const borderBottom = e.target.borderBottom.value;
     const borderLeft = e.target.borderLeft.value;
     const borderRight = e.target.borderRight.value;
-
     const justifySelf = e.target.justifySelf.value;
+    const insideTableName = e.target.insideTableName.value;
+    const itemName = e.target.itemName.value;
 
     const style = {
       gridColumnStart: gridColumnStart,
@@ -34,7 +34,6 @@ const Table1Form = ({ folderName }) => {
       alignSelf: alignSelf,
       justifySelf: justifySelf,
     };
-   
 
     const insideStyle = {
       borderTop: borderTop,
@@ -50,34 +49,24 @@ const Table1Form = ({ folderName }) => {
       });
     }
 
-    const Response = await fetch("/api/saveFormSettingTable", {
-      method: "POST",
-      body: JSON.stringify({
-        folderName: folderName,
-        tableType: tableType,
-        tableName: tableName,
-        style: style,
-        insideStyle: insideStyle,
-        tableData: tableData,
-      }),
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
-
-    if (!Response.ok) {
-      alert("Error");
-    } else {
-      alert("Success");
-      window.close();
-    }
+    const submitData = {
+      folderName: folderName,
+      tableType: tableType,
+      tableName: tableName,
+      insideTableName: insideTableName,
+      itemName: itemName,
+      style: style,
+      insideStyle: insideStyle,
+      tableData: tableData,
+    };
+    console.log("table2", submitData);
   };
 
   const handleAddInputGroup = () => {
     setCount(count + 1);
   };
 
-  const tableDataComponen = (i) => {
+  const tableDataComponent = (i) => {
     return (
       <div className={styles.inputGroupAll}>
         <div className={styles.inputGroup}>
@@ -96,6 +85,9 @@ const Table1Form = ({ folderName }) => {
       </div>
     );
   };
+  const removeTable = () => {
+    onRemove();
+  };
   return (
     <form
       className={styles.container}
@@ -104,16 +96,24 @@ const Table1Form = ({ folderName }) => {
         submitHandler(e);
       }}
     >
-      <div className={styles.title}>Table Type 1 Form</div>
-      <input type="hidden" name="tableType" value="TableType1" />
+      {onRemove && (
+        <button onClick={removeTable} type="button">
+          Remove
+        </button>
+      )}
+      <div className={styles.title}>Table Type 2 Form</div>
+      <input type="hidden" name="tableType" value="TableType2" />
       <div className={styles.inputGroup}>
         <label htmlFor="tableName">Table Name</label>
-        <input
-          id="tableName"
-          name="tableName"
-          type="text"
-          placeholder="tableName"
-        />
+        <input id="tableName" name="tableName" type="text" />
+      </div>
+      <div className={styles.inputGroup}>
+        <label htmlFor="insideTableName">Inside Table Name</label>
+        <input id="insideTableName" name="insideTableName" type="text" />
+      </div>
+      <div className={styles.inputGroup}>
+        <label htmlFor="itemName">Item Name</label>
+        <input id="itemName" name="itemName" type="text" />
       </div>
 
       <div className={styles.styleSection}>
@@ -228,23 +228,11 @@ const Table1Form = ({ folderName }) => {
         )}
 
         {[...Array(count)].map((_, index) => (
-          <div key={index}>{tableDataComponen(index)}</div>
+          <div key={index}>{tableDataComponent(index)}</div>
         ))}
       </div>
-      <FormSettingButton />
-{/* 
-      <div className={styles.buttonWrapper}>
-        <button className={styles.submit}>Submit</button>
-        <button
-          type="button"
-          onClick={() => window.close()}
-          className={styles.cancel}
-        >
-          Cancel
-        </button>
-      </div> */}
     </form>
   );
 };
 
-export default Table1Form;
+export default Table2Form;

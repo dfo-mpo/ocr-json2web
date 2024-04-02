@@ -1,15 +1,46 @@
 import { useState } from "react";
-import styles from "./Table1Form.module.css";
-import FormSettingButton from "./FormSettingButton";
+import styles from "./Table8Form.module.css";
 
-const Table1Form = ({ folderName }) => {
-  const [count, setCount] = useState(1);
-  const handleRemoveInputGroup = () => {
-    // Ensure count doesn't go below 1
-    if (count > 1) {
-      setCount(count - 1);
+const Table8Form = ({ folderName }) => {
+  const [headerKeyCount, setHeaderKeyCount] = useState(1);
+ 
+  const [headRowCount, setHeadRowCount] = useState(1);
+  const [headerFieldCount, setHeaderFieldCount] = useState([1]);
+
+  const handleAddInputGroup = (rowIndex) => {
+    const updatedCounts = [...headerFieldCount];
+    updatedCounts[rowIndex] += 1;
+    setHeaderFieldCount(updatedCounts);
+  };
+
+  const handleRemoveInputGroup = (rowIndex) => {
+    const updatedCounts = [...headerFieldCount];
+    if (updatedCounts[rowIndex] > 1) {
+      updatedCounts[rowIndex] -= 1;
+      setHeaderFieldCount(updatedCounts);
     }
   };
+  const removeHeaderRow = () => {
+    if (headRowCount > 1) {
+      setHeadRowCount(headRowCount - 1);
+      setHeaderFieldCount(headerFieldCount.slice(0, -1));
+    }
+  };
+  const handlerHeaderRow = () => {
+    setHeadRowCount(headRowCount + 1);
+    setHeaderFieldCount([...headerFieldCount, 1]);
+  };
+
+  const handleAddHeaderKey = () => {
+    setHeaderKeyCount(headerKeyCount + 1);
+  };
+  const handleRemoveHeaderKey = () => {
+    if (headerKeyCount > 1) {
+      setHeaderKeyCount(headerKeyCount - 1);
+    }
+  };
+
+
 
   const submitHandler = async (e) => {
     const tableType = e.target.tableType.value;
@@ -23,8 +54,9 @@ const Table1Form = ({ folderName }) => {
     const borderBottom = e.target.borderBottom.value;
     const borderLeft = e.target.borderLeft.value;
     const borderRight = e.target.borderRight.value;
-
     const justifySelf = e.target.justifySelf.value;
+
+    const itemName = e.target.itemName.value;
 
     const style = {
       gridColumnStart: gridColumnStart,
@@ -34,7 +66,6 @@ const Table1Form = ({ folderName }) => {
       alignSelf: alignSelf,
       justifySelf: justifySelf,
     };
-   
 
     const insideStyle = {
       borderTop: borderTop,
@@ -42,24 +73,44 @@ const Table1Form = ({ folderName }) => {
       borderLeft: borderLeft,
       borderRight: borderRight,
     };
-    const tableData = [];
-    for (let i = 0; i < count; i++) {
-      tableData.push({
-        fieldName: e.target["fieldName" + i].value,
-        key: e.target["key" + i].value,
+    const tableHeader = [];
+    for (let i = 0; i < headRowCount; i++) {
+      const header = [];
+      for (let j = 0; j < headerFieldCount[i]; j++) {
+        header.push({
+          fieldName: e.target[`fieldName${i}-${j}`].value,
+          span: {
+            colSpan: e.target[`colSpan${i}-${j}`].value,
+            rowSpan: e.target[`rowSpan${i}-${j}`].value,
+          },
+        });
+      }
+      tableHeader.push(header);
+    }
+    const headerKey = [];
+    for (let i = 0; i < headerKeyCount; i++) {
+      headerKey.push({
+        key: e.target[`headerKey${i}`].value,
       });
     }
 
+    const submitData = {
+      folderName: folderName,
+      tableType: tableType,
+      tableName: tableName,
+      itemName: itemName,
+      style: style,
+      insideStyle: insideStyle,
+      tableHeader: tableHeader,
+      tableData: {
+        key: headerKey,
+      },
+    };
+   
+
     const Response = await fetch("/api/saveFormSettingTable", {
       method: "POST",
-      body: JSON.stringify({
-        folderName: folderName,
-        tableType: tableType,
-        tableName: tableName,
-        style: style,
-        insideStyle: insideStyle,
-        tableData: tableData,
-      }),
+      body: JSON.stringify(submitData),
       headers: {
         "Content-Type": "application/json",
       },
@@ -73,26 +124,61 @@ const Table1Form = ({ folderName }) => {
     }
   };
 
-  const handleAddInputGroup = () => {
-    setCount(count + 1);
-  };
-
-  const tableDataComponen = (i) => {
-    return (
-      <div className={styles.inputGroupAll}>
+  const tableHeaderComponent = (rowIndex) => {
+    return [...Array(headerFieldCount[rowIndex])].map((_, index) => (
+      <div className={styles.inputGroupAll} key={index}>
         <div className={styles.inputGroup}>
-          <label htmlFor={`fieldName${i}`}>fieldName</label>
+          <label htmlFor={`fieldName${rowIndex}-${index}`}>fieldName</label>
           <input
-            id={`fieldName${i}`}
-            name={`fieldName${i}`}
+            id={`fieldName${rowIndex}-${index}`}
+            name={`fieldName${rowIndex}-${index}`}
             type="text"
             placeholder=""
           />
         </div>
         <div className={styles.inputGroup}>
-          <label htmlFor={`key${i}`}>key</label>
-          <input id={`key${i}`} name={`key${i}`} type="text" />
+          <label htmlFor={`colSpan${rowIndex}-${index}`}>colSpan</label>
+          <input
+            id={`colSpan${rowIndex}-${index}`}
+            name={`colSpan${rowIndex}-${index}`}
+            defaultValue={1}
+            type="number"
+          />
         </div>
+        <div className={styles.inputGroup}>
+          <label htmlFor={`rowSpan${rowIndex}-${index}`}>rowSpan</label>
+          <input
+            id={`rowSpan${rowIndex}-${index}`}
+            name={`rowSpan${rowIndex}-${index}`}
+            type="number"
+            defaultValue={1}
+          />
+        </div>
+      </div>
+    ));
+  };
+
+  const headerRow = (rowIndex) => {
+    return (
+      <div className={styles.headerRow}>
+        <div className={styles.rowNumber}>Row {rowIndex + 1}</div>
+        <button onClick={() => handleAddInputGroup(rowIndex)} type="button">
+          +
+        </button>
+        <button onClick={() => handleRemoveInputGroup(rowIndex)} type="button">
+          -
+        </button>
+        {tableHeaderComponent(rowIndex)}
+      </div>
+    );
+  };
+
+
+  const tableDataKey = (i) => {
+    return (
+      <div className={styles.inputGroup}>
+        <label htmlFor={`headerKey${i}`}>key</label>
+        <input id={`headerKey${i}`} name={`headerKey${i}`} type="text" />
       </div>
     );
   };
@@ -104,16 +190,15 @@ const Table1Form = ({ folderName }) => {
         submitHandler(e);
       }}
     >
-      <div className={styles.title}>Table Type 1 Form</div>
-      <input type="hidden" name="tableType" value="TableType1" />
+      <div className={styles.title}>Table Type 8 Form</div>
+      <input type="hidden" name="tableType" value="TableType8" />
       <div className={styles.inputGroup}>
         <label htmlFor="tableName">Table Name</label>
-        <input
-          id="tableName"
-          name="tableName"
-          type="text"
-          placeholder="tableName"
-        />
+        <input id="tableName" name="tableName" type="text" />
+      </div>
+      <div className={styles.inputGroup}>
+        <label htmlFor="itemName">Item Name</label>
+        <input id="itemName" name="itemName" type="text" />
       </div>
 
       <div className={styles.styleSection}>
@@ -217,22 +302,37 @@ const Table1Form = ({ folderName }) => {
         </div>
       </div>
       <div className={styles.styleSection}>
-        <div className={styles.styleName}>Table Data</div>
-        <button onClick={handleAddInputGroup} type="button">
-          +
-        </button>
-        {count > 1 && (
-          <button onClick={handleRemoveInputGroup} type="button">
-            -
+        <div className={styles.styleName}>
+          Table Header
+          <button onClick={handlerHeaderRow} type="button">
+            Add Row
           </button>
-        )}
-
-        {[...Array(count)].map((_, index) => (
-          <div key={index}>{tableDataComponen(index)}</div>
+          <button onClick={removeHeaderRow} type="button">
+            Delete Row
+          </button>
+        </div>
+        {[...Array(headRowCount)].map((_, index) => (
+          <div key={index}>{headerRow(index)}</div>
         ))}
       </div>
-      <FormSettingButton />
-{/* 
+
+      <div className={styles.tableDataTitle}>Table Data</div>
+
+      <div className={styles.tableDataWrapper}>
+        <div className={styles.tableDataSubtitle}>Header Key</div>
+        <button onClick={handleAddHeaderKey} type="button">
+          +
+        </button>
+
+        <button onClick={handleRemoveHeaderKey} type="button">
+          -
+        </button>
+
+        {[...Array(headerKeyCount)].map((_, index) => (
+          <div key={index}>{tableDataKey(index)}</div>
+        ))}
+      </div>
+     
       <div className={styles.buttonWrapper}>
         <button className={styles.submit}>Submit</button>
         <button
@@ -242,9 +342,9 @@ const Table1Form = ({ folderName }) => {
         >
           Cancel
         </button>
-      </div> */}
+      </div>
     </form>
   );
 };
 
-export default Table1Form;
+export default Table8Form;

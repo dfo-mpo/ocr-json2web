@@ -1,0 +1,105 @@
+/* TitleForm.module.css */
+
+.container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.inputGroup {
+  margin-bottom: 15px;
+}
+
+.inputGroup label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.inputGroup input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.styleSection {
+  margin-top: 20px;
+}
+
+.styleSection label {
+  margin-right: 10px;
+}
+
+.styleSection input {
+}
+.inputGroupAll {
+  display: flex;
+  column-gap: 10px;
+  flex-wrap: wrap;
+}
+.inputGroupAll div {
+  width: calc(25% - 10px); /* Adjust width for margin or padding */
+}
+.inputGroupAll2 {
+  display: flex;
+  column-gap: 10px;
+  flex-wrap: wrap;
+}
+.inputGroupAll2 div {
+  width: calc(50% - 10px); /* Adjust width for margin or padding */
+}
+.styleName {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.cancel {
+  margin: 0 10px;
+  padding: 10px;
+  height: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: #9e0000;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.submit {
+  margin: 0 10px;
+  padding: 10px;
+  height: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: #2c3e50;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.submit:hover {
+  background-color: #067bf0;
+}
+.cancel:hover {
+  background-color: #ff0000;
+}

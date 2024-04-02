@@ -8,6 +8,8 @@ import Table4Form from "../components/formSetting/Table4Form";
 import Table5Form from "../components/formSetting/Table5Form";
 import Table6Form from "../components/formSetting/Table6Form";
 import Table7Form from "../components/formSetting/Table7Form";
+import Table8Form from "../components/formSetting/Table8Form";
+import TableCombForm from "../components/formSetting/TableCombForm";
 const formSetting = ({ searchParams }) => {
   const { folderName } = searchParams;
   const [tableType, setTableType] = useState("");
@@ -32,6 +34,10 @@ const formSetting = ({ searchParams }) => {
     form = <Table6Form folderName={folderName} />;
   } else if (tableType === "TableType7") {
     form = <Table7Form folderName={folderName} />;
+  } else if (tableType === "TableType8") {
+    form = <Table8Form folderName={folderName} />;
+  } else if (tableType === "TableTypeComb") {
+    form = <TableCombForm folderName={folderName} />;
   }
 
   return (

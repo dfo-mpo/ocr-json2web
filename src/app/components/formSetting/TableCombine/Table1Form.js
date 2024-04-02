@@ -1,8 +1,8 @@
 import { useState } from "react";
 import styles from "./Table1Form.module.css";
-import FormSettingButton from "./FormSettingButton";
+import SaveButton from "./SaveButton";
 
-const Table1Form = ({ folderName }) => {
+const Table1Form = ({ onRemove, onSave }) => {
   const [count, setCount] = useState(1);
   const handleRemoveInputGroup = () => {
     // Ensure count doesn't go below 1
@@ -11,7 +11,7 @@ const Table1Form = ({ folderName }) => {
     }
   };
 
-  const submitHandler = async (e) => {
+  const submitHandler =  (e) => {
     const tableType = e.target.tableType.value;
     const tableName = e.target.tableName.value;
     const gridColumnStart = e.target.gridColumnStart.value;
@@ -34,7 +34,6 @@ const Table1Form = ({ folderName }) => {
       alignSelf: alignSelf,
       justifySelf: justifySelf,
     };
-   
 
     const insideStyle = {
       borderTop: borderTop,
@@ -50,36 +49,24 @@ const Table1Form = ({ folderName }) => {
       });
     }
 
-    const Response = await fetch("/api/saveFormSettingTable", {
-      method: "POST",
-      body: JSON.stringify({
-        folderName: folderName,
-        tableType: tableType,
-        tableName: tableName,
-        style: style,
-        insideStyle: insideStyle,
-        tableData: tableData,
-      }),
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
-
-    if (!Response.ok) {
-      alert("Error");
-    } else {
-      alert("Success");
-      window.close();
-    }
+    const submitData = {
+      tableType: tableType,
+      tableName: tableName,
+      style: style,
+      insideStyle: insideStyle,
+      tableData: tableData,
+      isSaved: true,
+    };
+    onSave(submitData);
   };
 
   const handleAddInputGroup = () => {
     setCount(count + 1);
   };
 
-  const tableDataComponen = (i) => {
+  const tableDataComponent = (i) => {
     return (
-      <div className={styles.inputGroupAll}>
+      <div className={styles.inputGroupAll2}>
         <div className={styles.inputGroup}>
           <label htmlFor={`fieldName${i}`}>fieldName</label>
           <input
@@ -96,6 +83,10 @@ const Table1Form = ({ folderName }) => {
       </div>
     );
   };
+
+  const removeTable = () => {
+    onRemove();
+  };
   return (
     <form
       className={styles.container}
@@ -104,6 +95,12 @@ const Table1Form = ({ folderName }) => {
         submitHandler(e);
       }}
     >
+      {onRemove && (
+        <button onClick={removeTable} type="button">
+          Remove
+        </button>
+      )}
+
       <div className={styles.title}>Table Type 1 Form</div>
       <input type="hidden" name="tableType" value="TableType1" />
       <div className={styles.inputGroup}>
@@ -228,21 +225,10 @@ const Table1Form = ({ folderName }) => {
         )}
 
         {[...Array(count)].map((_, index) => (
-          <div key={index}>{tableDataComponen(index)}</div>
+          <div key={index}>{tableDataComponent(index)}</div>
         ))}
       </div>
-      <FormSettingButton />
-{/* 
-      <div className={styles.buttonWrapper}>
-        <button className={styles.submit}>Submit</button>
-        <button
-          type="button"
-          onClick={() => window.close()}
-          className={styles.cancel}
-        >
-          Cancel
-        </button>
-      </div> */}
+      <SaveButton  />
     </form>
   );
 };
