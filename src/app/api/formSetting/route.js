@@ -4,7 +4,7 @@ import { BlobServiceClient } from "@azure/storage-blob";
 
 export async function POST(request) {
   const connectionString = process.env.AZURE_STORAGE_CONNECTION_STRING;
-  const mainContainerName = process.env.DIRECTOR_NAME;
+  const mainContainerName = process.env.DIRECTORY_NAME;
   const containerName = "websiteinfo";
   const fileName = "formSetting.json";
   try {

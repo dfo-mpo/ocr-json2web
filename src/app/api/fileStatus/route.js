@@ -5,7 +5,7 @@ import { BlobServiceClient } from "@azure/storage-blob";
 export async function POST(request) {
   const folderName = await request.json();
 
-  const mainContainerName = process.env.DIRECTOR_NAME;
+  const mainContainerName = process.env.DIRECTORY_NAME;
 
 
   const connectionString = process.env.AZURE_STORAGE_CONNECTION_STRING;
