@@ -35,6 +35,15 @@
   box-sizing: border-box;
 }
 
+.inputGroup select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
 .styleSection {
   margin-top: 20px;
 }
@@ -47,17 +56,31 @@
 }
 .inputGroupAll {
   display: flex;
-  justify-content: space-between;
+  column-gap: 10px;
   flex-wrap: wrap;
 }
 .inputGroupAll div {
-  width: calc(33.33% - 10px); /* Adjust width for margin or padding */
+  width: calc(25% - 10px); /* Adjust width for margin or padding */
+}
+.inputGroupAll2 {
+  display: flex;
+  column-gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+.inputGroupAll2 div {
+  width: calc(50% - 10px); /* Adjust width for margin or padding */
 }
 .styleName {
   margin-bottom: 10px;
+  margin-top: 20px;
   font-weight: bold;
 }
 
+.insideStyleNote {
+  color: #ff0000;
+  text-align: center;
+}
 .buttonWrapper {
   display: flex;
   justify-content: center;

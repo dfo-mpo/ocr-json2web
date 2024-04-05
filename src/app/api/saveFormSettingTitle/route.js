@@ -29,8 +29,8 @@ export async function POST(request) {
 
       // Append new data to existing JSON array
       existingJsonObj = {
-        ...existingJsonObj,
         ...dataJson,
+        ...existingJsonObj,
       };
 
       // Convert the updated data to JSON string

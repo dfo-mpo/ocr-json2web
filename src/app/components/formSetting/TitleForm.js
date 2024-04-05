@@ -4,7 +4,6 @@ const TitleForm = () => {
   const submitHandler = async (e) => {
     const title = e.target.title.value;
     const subtitle = e.target.subtitle.value;
-    const display = e.target.display.value;
     const gap = e.target.gap.value;
 
     const Response = await fetch("/api/saveFormSettingTitle", {
@@ -13,7 +12,7 @@ const TitleForm = () => {
         title: title,
         subtitle: subtitle,
         style: {
-          display: display,
+          display: "grid",
           gap: gap,
         },
       }),
@@ -39,6 +38,7 @@ const TitleForm = () => {
       }}
     >
       <div className={styles.title}>Title Form</div>
+      <div className={styles.note}> Note: Enter the title and subtitle only once for all formats/schemas </div>
       <div className={styles.inputGroup}>
         <label htmlFor="title">Title</label>
         <input id="title" name="title" type="text" placeholder="Title" />
@@ -54,16 +54,7 @@ const TitleForm = () => {
       </div>
       <div className={styles.styleSection}>
         <div className={styles.styleName}>Style</div>
-        <div className={styles.inputGroup}>
-          <label htmlFor="display">display</label>
-          <input
-            id="display"
-            name="display"
-            type="text"
-            placeholder="grid"
-            defaultValue="grid"
-          />
-        </div>
+
         <div className={styles.inputGroup}>
           <label htmlFor="gap">gap</label>
           <input

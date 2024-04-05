@@ -1,7 +1,8 @@
 import { useState } from "react";
-import styles from "./Table2Form.module.css";
+import styles from "./Table4Form.module.css";
+import SaveButton from "./SaveButton";
 
-const Table2Form = ({ folderName }) => {
+const Table4Form = ({ onRemove, onSave }) => {
   const [count, setCount] = useState(1);
   const handleRemoveInputGroup = () => {
     // Ensure count doesn't go below 1
@@ -22,9 +23,9 @@ const Table2Form = ({ folderName }) => {
     const borderBottom = e.target.borderBottom.value;
     const borderLeft = e.target.borderLeft.value;
     const borderRight = e.target.borderRight.value;
-    const justifySelf = e.target.justifySelf.value;
     const insideTableName = e.target.insideTableName.value;
-    const itemName = e.target.itemName.value;
+
+    const justifySelf = e.target.justifySelf.value;
 
     const style = {
       gridColumnStart: gridColumnStart,
@@ -49,40 +50,27 @@ const Table2Form = ({ folderName }) => {
       });
     }
 
-    const Response = await fetch("/api/saveFormSettingTable", {
-      method: "POST",
-      body: JSON.stringify({
-        folderName: folderName,
-        tableType: tableType,
-        tableName: tableName,
-        insideTableName: insideTableName,
-        itemName: itemName,
-        style: style,
-        insideStyle: insideStyle,
-        tableData: tableData,
-      }),
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
-
-    if (!Response.ok) {
-      alert("Error");
-    } else {
-      alert("Success");
-      window.close();
-    }
+    const submitData = {
+      tableType: tableType,
+      tableName: tableName,
+      insideTableName: insideTableName,
+      style: style,
+      insideStyle: insideStyle,
+      tableData: tableData,
+      isSaved: true,
+    };
+    onSave(submitData);
   };
 
   const handleAddInputGroup = () => {
     setCount(count + 1);
   };
 
-  const tableDataComponent = (i) => {
+  const tableDataComponen = (i) => {
     return (
       <div className={styles.inputGroupAll2}>
         <div className={styles.inputGroup}>
-          <label htmlFor={`fieldName${i}`}>fieldName (Display Name)</label>
+          <label htmlFor={`fieldName${i}`}>fieldName</label>
           <input
             id={`fieldName${i}`}
             name={`fieldName${i}`}
@@ -91,11 +79,15 @@ const Table2Form = ({ folderName }) => {
           />
         </div>
         <div className={styles.inputGroup}>
-          <label htmlFor={`key${i}`}>key (from Json)</label>
+          <label htmlFor={`key${i}`}>key</label>
           <input id={`key${i}`} name={`key${i}`} type="text" />
         </div>
       </div>
     );
+  };
+
+  const removeTable = () => {
+    onRemove();
   };
   return (
     <form
@@ -105,8 +97,13 @@ const Table2Form = ({ folderName }) => {
         submitHandler(e);
       }}
     >
-      <div className={styles.title}>Table Type 2 Form</div>
-      <input type="hidden" name="tableType" value="TableType2" />
+      {onRemove && (
+        <button onClick={removeTable} type="button">
+          Remove
+        </button>
+      )}
+      <div className={styles.title}>Table Type 4 Form</div>
+      <input type="hidden" name="tableType" value="TableType4" />
       <div className={styles.inputGroup}>
         <label htmlFor="tableName">Table Name</label>
         <input id="tableName" name="tableName" type="text" />
@@ -114,10 +111,6 @@ const Table2Form = ({ folderName }) => {
       <div className={styles.inputGroup}>
         <label htmlFor="insideTableName">Inside Table Name</label>
         <input id="insideTableName" name="insideTableName" type="text" />
-      </div>
-      <div className={styles.inputGroup}>
-        <label htmlFor="itemName">Item Name (from Json)</label>
-        <input id="itemName" name="itemName" type="text" />
       </div>
 
       <div className={styles.styleSection}>
@@ -164,38 +157,19 @@ const Table2Form = ({ folderName }) => {
         <div className={styles.inputGroupAll}>
           <div className={styles.inputGroup}>
             <label htmlFor="borderTop">borderTop</label>
-            <input
-              id="borderTop"
-              name="borderTop"
-              type="text"
-
-            />
+            <input id="borderTop" name="borderTop" type="text" />
           </div>
           <div className={styles.inputGroup}>
             <label htmlFor="borderBottom">borderBottom</label>
-            <input
-              id="borderBottom"
-              name="borderBottom"
-              type="text"
-            />
+            <input id="borderBottom" name="borderBottom" type="text" />
           </div>
           <div className={styles.inputGroup}>
             <label htmlFor="borderLeft">borderLeft</label>
-            <input
-              id="borderLeft"
-              name="borderLeft"
-              type="text"
-  
-            />
+            <input id="borderLeft" name="borderLeft" type="text" />
           </div>
           <div className={styles.inputGroup}>
             <label htmlFor="borderRight">borderRight</label>
-            <input
-              id="borderRight"
-              name="borderRight"
-              type="text"
-
-            />
+            <input id="borderRight" name="borderRight" type="text" />
           </div>
         </div>
         <div className={styles.insideStyleNote}>
@@ -216,22 +190,13 @@ const Table2Form = ({ folderName }) => {
         )}
 
         {[...Array(count)].map((_, index) => (
-          <div key={index}>{tableDataComponent(index)}</div>
+          <div key={index}>{tableDataComponen(index)}</div>
         ))}
       </div>
 
-      <div className={styles.buttonWrapper}>
-        <button className={styles.submit}>Submit</button>
-        <button
-          type="button"
-          onClick={() => window.close()}
-          className={styles.cancel}
-        >
-          Cancel
-        </button>
-      </div>
+      <SaveButton />
     </form>
   );
 };
 
-export default Table2Form;
+export default Table4Form;

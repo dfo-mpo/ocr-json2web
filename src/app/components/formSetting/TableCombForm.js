@@ -2,6 +2,12 @@ import { useState, useRef } from "react";
 import styles from "./TableCombForm.module.css";
 import Table1Form from "./TableCombine/Table1Form";
 import Table2Form from "./TableCombine/Table2Form";
+import Table3Form from "./TableCombine/Table3Form";
+import Table4Form from "./TableCombine/Table4Form";
+import Table5Form from "./TableCombine/Table5Form";
+import Table6Form from "./TableCombine/Table6Form";
+import Table7Form from "./TableCombine/Table7Form";
+import Table8Form from "./TableCombine/Table8Form";
 import FormSettingButton from "./FormSettingButton";
 import CommonFields from "./CommonFields";
 import SaveButtonComb from "./TableCombine/SaveButtonComb";
@@ -114,6 +120,20 @@ const TableCombForm = ({ folderName, onRemove, onSave }) => {
       };
 
       console.log(submitData);
+      const Response = await fetch("/api/saveFormSettingTable", {
+        method: "POST",
+        body: JSON.stringify(submitData),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+
+      if (!Response.ok) {
+        alert("Error");
+      } else {
+        alert("Success");
+        window.close();
+      }
     }
   };
 
@@ -126,69 +146,54 @@ const TableCombForm = ({ folderName, onRemove, onSave }) => {
     setInsideFormSetting(newInsideFormSetting);
   };
 
+  const FormComponents = {
+    TableType1: Table1Form,
+    TableType2: Table2Form,
+    TableType3: Table3Form,
+    TableType4: Table4Form,
+    TableType5: Table5Form,
+    TableType6: Table6Form,
+    TableType7: Table7Form,
+    TableType8: Table8Form,
+    TableTypeComb: TableCombForm,
+  };
+
   const insideFormSettingComponents = insideFormSetting.map((table, index) => {
-    if (table.tableType === "TableType1") {
-      const isSave = table.isSaved;
-      const backdrop = table.isSaved ? styles.backdrop : styles.notSaved;
-      return (
-        <div key={index} className={styles.backdropParent}>
-          {isSave && (
-            <>
-              <div className={styles.successSave}>
-                The form has been successfully saved.{" "}
-              </div>
-              <button
-                className={styles.editButton}
-                onClick={() => editHandler(index)}
-              >
-                Edit
-              </button>
-            </>
-          )}
-          <div className={backdrop}></div>
-          <Table1Form
-            key={index}
-            onRemove={() => removeTableHandler(index)}
-            onSave={(data) => onSaveHandler(data, index)}
-          />
-        </div>
-      );
-    } else if (table.tableType === "TableType2") {
-      return (
-        <Table2Form
+    const isSave = table.isSaved;
+    const FormComponent = FormComponents[table.tableType];
+    const backdrop = isSave ? styles.backdrop : styles.notSaved;
+    const successSaveClass =
+      table.tableType === "TableTypeComb"
+        ? styles.successSave2
+        : styles.successSave;
+    const editButtonClass =
+      table.tableType === "TableTypeComb"
+        ? styles.editButton2
+        : styles.editButton;
+
+    return (
+      <div key={index} className={styles.backdropParent}>
+        {isSave && (
+          <>
+            <div className={successSaveClass}>
+              The form has been successfully saved.
+            </div>
+            <button
+              className={editButtonClass}
+              onClick={() => editHandler(index)}
+            >
+              Edit
+            </button>
+          </>
+        )}
+        <div className={backdrop}></div>
+        <FormComponent
           key={index}
           onRemove={() => removeTableHandler(index)}
           onSave={(data) => onSaveHandler(data, index)}
         />
-      );
-    } else if (table.tableType === "TableTypeComb") {
-      const isSave = table.isSaved;
-      const backdrop = table.isSaved ? styles.backdrop2 : styles.notSaved;
-      return (
-        <div key={index} className={styles.backdropParent}>
-          {isSave && (
-            <>
-              <div className={styles.successSave}>
-                
-                The form has been successfully saved.{" "}
-              </div>
-              <button
-                className={styles.editButton2}
-                onClick={() => editHandler(index)}
-              >
-                Edit
-              </button>
-            </>
-          )}
-          <div className={backdrop}></div>
-          <TableCombForm
-            key={index}
-            onRemove={() => removeTableHandler(index)}
-            onSave={(data) => onSaveHandler(data, index)}
-          />
-        </div>
-      );
-    }
+      </div>
+    );
   });
 
   const removeTable = () => {

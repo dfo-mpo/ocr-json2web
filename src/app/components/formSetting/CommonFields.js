@@ -75,8 +75,8 @@ const CommonFields = ({ folderName, onCommonFiled }) => {
             <input
               id="gridColumnStart"
               name="gridColumnStart"
-              type="text"
-              placeholder="1"
+              type="number"
+      
               onChange={onChange}
               ref={gridColumnStartRef}
             />
@@ -86,8 +86,7 @@ const CommonFields = ({ folderName, onCommonFiled }) => {
             <input
               id="gridColumnEnd"
               name="gridColumnEnd"
-              type="text"
-              placeholder="1"
+              type="number"
               onChange={onChange}
               ref={gridColumnEndRef}
             />
@@ -97,8 +96,7 @@ const CommonFields = ({ folderName, onCommonFiled }) => {
             <input
               id="gridRowStart"
               name="gridRowStart"
-              type="text"
-              placeholder="1"
+              type="number"
               onChange={onChange}
               ref={gridRowStartRef}
             />
@@ -108,8 +106,7 @@ const CommonFields = ({ folderName, onCommonFiled }) => {
             <input
               id="gridRowEnd"
               name="gridRowEnd"
-              type="text"
-              placeholder="1"
+              type="number"
               onChange={onChange}
               ref={gridRowEndRef}
             />
@@ -124,7 +121,7 @@ const CommonFields = ({ folderName, onCommonFiled }) => {
               onChange={onChange}
               ref={alignSelfRef}
             >
-              <option value=""></option>
+              <option value="">Default</option>
               <option value="start">start</option>
               <option value="end">end</option>
               <option value="center">center</option>
@@ -140,7 +137,7 @@ const CommonFields = ({ folderName, onCommonFiled }) => {
               onChange={onChange}
               ref={justifySelfRef}
             >
-              <option value=""></option>
+              <option value="">Default</option>
               <option value="start">start</option>
               <option value="end">end</option>
               <option value="center">center</option>
@@ -155,7 +152,7 @@ const CommonFields = ({ folderName, onCommonFiled }) => {
               id="borderTop"
               name="borderTop"
               type="text"
-              placeholder="1px solid black or 0"
+
               onChange={onChange}
               ref={borderTopRef}
             />
@@ -166,7 +163,7 @@ const CommonFields = ({ folderName, onCommonFiled }) => {
               id="borderBottom"
               name="borderBottom"
               type="text"
-              placeholder="1px solid black or 0"
+      
               onChange={onChange}
               ref={borderBottomRef}
             />
@@ -177,7 +174,7 @@ const CommonFields = ({ folderName, onCommonFiled }) => {
               id="borderLeft"
               name="borderLeft"
               type="text"
-              placeholder="1px solid black or 0"
+          
               onChange={onChange}
               ref={borderLeftRef}
             />
@@ -188,12 +185,13 @@ const CommonFields = ({ folderName, onCommonFiled }) => {
               id="borderRight"
               name="borderRight"
               type="text"
-              placeholder="1px solid black or 0"
+         
               onChange={onChange}
               ref={borderRightRef}
             />
           </div>
         </div>
+        <div className={styles.insideStyleNote}>Note: The default value for inside style is '1px solid black'. Leave the fields empty to retain the default value. Enter '0' to remove the outer border. </div>
       </div>
     </>
   );

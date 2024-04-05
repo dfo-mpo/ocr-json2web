@@ -17,6 +17,25 @@
   font-weight: bold;
   margin-bottom: 10px;
 }
+.rowNumber{
+  font-size: 0.9em;
+  color: #b6b6b6;
+  
+}
+
+.headerRow {
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.tableDataWrapper {
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
 
 .inputGroup {
   margin-bottom: 15px;
@@ -34,15 +53,6 @@
   border-radius: 5px;
   box-sizing: border-box;
 }
-
-.styleSection {
-  margin-top: 20px;
-}
-
-.styleSection label {
-  margin-right: 10px;
-}
-
 .inputGroup select {
   width: 100%;
   padding: 8px;
@@ -55,6 +65,16 @@
   color: #ff0000;
   text-align: center;
 }
+
+.styleSection {
+  margin-top: 20px;
+}
+
+.styleSection label {
+  margin-right: 10px;
+}
+
+
 .inputGroupAll {
   display: flex;
   column-gap: 10px;
@@ -67,12 +87,16 @@
   display: flex;
   column-gap: 10px;
   flex-wrap: wrap;
+  margin-top: 5px;
 }
 .inputGroupAll2 div {
   width: calc(50% - 10px); /* Adjust width for margin or padding */
 }
+
+
+
 .styleName {
-  margin-bottom: 10px;
+  margin: 10px 0;
   font-weight: bold;
 }
 
@@ -112,4 +136,14 @@
 }
 .cancel:hover {
   background-color: #ff0000;
+}
+.tableDataTitle{
+  font-weight: bold;
+  font-size: 1em;
+  margin: 20px 0 0 0;
+}
+.tableDataSubtitle{
+  font-size: 0.9em;
+  color: #000000;
+  margin: 3px 0 3px 0;
 }

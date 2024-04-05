@@ -79,7 +79,7 @@ const Table3Form = ({ folderName }) => {
 
   const tableDataComponen = (i) => {
     return (
-      <div className={styles.inputGroupAll}>
+      <div className={styles.inputGroupAll2}>
         <div className={styles.inputGroup}>
           <label htmlFor={`fieldName${i}`}>fieldName</label>
           <input
@@ -128,8 +128,7 @@ const Table3Form = ({ folderName }) => {
             <input
               id="gridColumnStart"
               name="gridColumnStart"
-              type="text"
-              placeholder="1"
+              type="number"
             />
           </div>
           <div className={styles.inputGroup}>
@@ -137,8 +136,7 @@ const Table3Form = ({ folderName }) => {
             <input
               id="gridColumnEnd"
               name="gridColumnEnd"
-              type="text"
-              placeholder="1"
+              type="number"
             />
           </div>
           <div className={styles.inputGroup}>
@@ -146,8 +144,8 @@ const Table3Form = ({ folderName }) => {
             <input
               id="gridRowStart"
               name="gridRowStart"
-              type="text"
-              placeholder="1"
+              type="number"
+ 
             />
           </div>
           <div className={styles.inputGroup}>
@@ -155,15 +153,14 @@ const Table3Form = ({ folderName }) => {
             <input
               id="gridRowEnd"
               name="gridRowEnd"
-              type="text"
-              placeholder="1"
+              type="number"
             />
           </div>
           <div className={styles.inputGroup}>
             <label htmlFor="alignSelf">alignSelf</label>
 
             <select id="alignSelf" name="alignSelf">
-              <option value=""></option>
+              <option value="">Default</option>
               <option value="start">start</option>
               <option value="end">end</option>
               <option value="center">center</option>
@@ -173,7 +170,7 @@ const Table3Form = ({ folderName }) => {
           <div className={styles.inputGroup}>
             <label htmlFor="justifySelf">justifySelf</label>
             <select id="justifySelf" name="justifySelf">
-              <option value=""></option>
+              <option value="">Default</option>
               <option value="start">start</option>
               <option value="end">end</option>
               <option value="center">center</option>
@@ -188,7 +185,7 @@ const Table3Form = ({ folderName }) => {
               id="borderTop"
               name="borderTop"
               type="text"
-              placeholder="1px solid black or 0"
+     
             />
           </div>
           <div className={styles.inputGroup}>
@@ -197,7 +194,7 @@ const Table3Form = ({ folderName }) => {
               id="borderBottom"
               name="borderBottom"
               type="text"
-              placeholder="1px solid black or 0"
+
             />
           </div>
           <div className={styles.inputGroup}>
@@ -206,7 +203,7 @@ const Table3Form = ({ folderName }) => {
               id="borderLeft"
               name="borderLeft"
               type="text"
-              placeholder="1px solid black or 0"
+
             />
           </div>
           <div className={styles.inputGroup}>
@@ -215,10 +212,11 @@ const Table3Form = ({ folderName }) => {
               id="borderRight"
               name="borderRight"
               type="text"
-              placeholder="1px solid black or 0"
+
             />
           </div>
         </div>
+        <div className={styles.insideStyleNote}>Note: The default value for inside style is '1px solid black'. Leave the fields empty to retain the default value. Enter '0' to remove the outer border. </div>
       </div>
       <div className={styles.styleSection}>
         <div className={styles.styleName}>Table Data</div>

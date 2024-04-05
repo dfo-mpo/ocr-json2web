@@ -35,14 +35,6 @@
   box-sizing: border-box;
 }
 
-.styleSection {
-  margin-top: 20px;
-}
-
-.styleSection label {
-  margin-right: 10px;
-}
-
 .inputGroup select {
   width: 100%;
   padding: 8px;
@@ -51,10 +43,15 @@
   box-sizing: border-box;
   background-color: white;
 }
-.insideStyleNote {
-  color: #ff0000;
-  text-align: center;
+
+.styleSection {
+  margin-top: 20px;
 }
+
+.styleSection label {
+  margin-right: 10px;
+}
+
 .inputGroupAll {
   display: flex;
   column-gap: 10px;
@@ -67,15 +64,21 @@
   display: flex;
   column-gap: 10px;
   flex-wrap: wrap;
+  margin-top: 5px;
 }
 .inputGroupAll2 div {
   width: calc(50% - 10px); /* Adjust width for margin or padding */
 }
 .styleName {
   margin-bottom: 10px;
+  margin-top: 20px;
   font-weight: bold;
 }
 
+.insideStyleNote {
+  color: #ff0000;
+  text-align: center;
+}
 .buttonWrapper {
   display: flex;
   justify-content: center;

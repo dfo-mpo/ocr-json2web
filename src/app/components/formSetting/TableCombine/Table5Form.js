@@ -1,7 +1,8 @@
 import { useState } from "react";
 import styles from "./Table5Form.module.css";
+import SaveButton from "./SaveButton";
 
-const Table5Form = ({ folderName }) => {
+const Table5Form = ({ onRemove, onSave }) => {
   const [headerKeyCount, setHeaderKeyCount] = useState(1);
   const [columnItemCount, setColumnItemCount] = useState(1);
   const [headRowCount, setHeadRowCount] = useState(1);
@@ -109,7 +110,6 @@ const Table5Form = ({ folderName }) => {
     }
 
     const submitData = {
-      folderName: folderName,
       tableType: tableType,
       tableName: tableName,
       itemName: itemName,
@@ -120,30 +120,19 @@ const Table5Form = ({ folderName }) => {
         item: colItem,
         key: headerKey,
       },
+      isSaved: true,
     };
-   
 
-    const Response = await fetch("/api/saveFormSettingTable", {
-      method: "POST",
-      body: JSON.stringify(submitData),
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
-
-    if (!Response.ok) {
-      alert("Error");
-    } else {
-      alert("Success");
-      window.close();
-    }
+    onSave(submitData);
   };
 
   const tableHeaderComponent = (rowIndex) => {
     return [...Array(headerFieldCount[rowIndex])].map((_, index) => (
       <div className={styles.inputGroupAll} key={index}>
         <div className={styles.inputGroup}>
-          <label htmlFor={`fieldName${rowIndex}-${index}`}>fieldName (Display Name)</label>
+          <label htmlFor={`fieldName${rowIndex}-${index}`}>
+            fieldName (Display Name)
+          </label>
           <input
             id={`fieldName${rowIndex}-${index}`}
             name={`fieldName${rowIndex}-${index}`}
@@ -215,6 +204,11 @@ const Table5Form = ({ folderName }) => {
       </div>
     );
   };
+
+  const removeTable = () => {
+    onRemove();
+  };
+
   return (
     <form
       className={styles.container}
@@ -223,6 +217,11 @@ const Table5Form = ({ folderName }) => {
         submitHandler(e);
       }}
     >
+      {onRemove && (
+        <button onClick={removeTable} type="button">
+          Remove
+        </button>
+      )}
       <div className={styles.title}>Table Type 5 Form</div>
       <input type="hidden" name="tableType" value="TableType5" />
       <div className={styles.inputGroup}>
@@ -239,35 +238,19 @@ const Table5Form = ({ folderName }) => {
         <div className={styles.inputGroupAll}>
           <div className={styles.inputGroup}>
             <label htmlFor="gridColumnStart">gridColumnStart</label>
-            <input
-              id="gridColumnStart"
-              name="gridColumnStart"
-              type="number"
-            />
+            <input id="gridColumnStart" name="gridColumnStart" type="number" />
           </div>
           <div className={styles.inputGroup}>
             <label htmlFor="gridColumnEnd">gridColumnEnd</label>
-            <input
-              id="gridColumnEnd"
-              name="gridColumnEnd"
-              type="number"
-            />
+            <input id="gridColumnEnd" name="gridColumnEnd" type="number" />
           </div>
           <div className={styles.inputGroup}>
             <label htmlFor="gridRowStart">gridRowStart</label>
-            <input
-              id="gridRowStart"
-              name="gridRowStart"
-              type="number"
-            />
+            <input id="gridRowStart" name="gridRowStart" type="number" />
           </div>
           <div className={styles.inputGroup}>
             <label htmlFor="gridRowEnd">gridRowEnd</label>
-            <input
-              id="gridRowEnd"
-              name="gridRowEnd"
-              type="number"
-            />
+            <input id="gridRowEnd" name="gridRowEnd" type="number" />
           </div>
           <div className={styles.inputGroup}>
             <label htmlFor="alignSelf">alignSelf</label>
@@ -294,42 +277,26 @@ const Table5Form = ({ folderName }) => {
         <div className={styles.inputGroupAll}>
           <div className={styles.inputGroup}>
             <label htmlFor="borderTop">borderTop</label>
-            <input
-              id="borderTop"
-              name="borderTop"
-              type="text"
-            
-            />
+            <input id="borderTop" name="borderTop" type="text" />
           </div>
           <div className={styles.inputGroup}>
             <label htmlFor="borderBottom">borderBottom</label>
-            <input
-              id="borderBottom"
-              name="borderBottom"
-              type="text"
-     
-            />
+            <input id="borderBottom" name="borderBottom" type="text" />
           </div>
           <div className={styles.inputGroup}>
             <label htmlFor="borderLeft">borderLeft</label>
-            <input
-              id="borderLeft"
-              name="borderLeft"
-              type="text"
-        
-            />
+            <input id="borderLeft" name="borderLeft" type="text" />
           </div>
           <div className={styles.inputGroup}>
             <label htmlFor="borderRight">borderRight</label>
-            <input
-              id="borderRight"
-              name="borderRight"
-              type="text"
-   
-            />
+            <input id="borderRight" name="borderRight" type="text" />
           </div>
         </div>
-        <div className={styles.insideStyleNote}>Note: The default value for inside style is '1px solid black'. Leave the fields empty to retain the default value. Enter '0' to remove the outer border. </div>
+        <div className={styles.insideStyleNote}>
+          Note: The default value for inside style is '1px solid black'. Leave
+          the fields empty to retain the default value. Enter '0' to remove the
+          outer border.{" "}
+        </div>
       </div>
       <div className={styles.styleSection}>
         <div className={styles.styleName}>
@@ -378,16 +345,7 @@ const Table5Form = ({ folderName }) => {
         ))}
       </div>
 
-      <div className={styles.buttonWrapper}>
-        <button className={styles.submit}>Submit</button>
-        <button
-          type="button"
-          onClick={() => window.close()}
-          className={styles.cancel}
-        >
-          Cancel
-        </button>
-      </div>
+      <SaveButton />
     </form>
   );
 };

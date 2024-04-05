@@ -5,7 +5,12 @@ export async function POST(request) {
   const dataJson = await request.json();
   const { folderNames } = dataJson;
 
-  const folderObject = {};
+  const folderObject = {
+    style: {
+      display: "grid",
+      gap: "2px",
+    },
+  };
   folderNames.forEach((name) => {
     folderObject[name] = [];
   });
@@ -32,7 +37,7 @@ export async function POST(request) {
       const existingData = await blockBlobClient.downloadToBuffer();
       const existingJson = existingData.toString();
       let existingJsonObj = JSON.parse(existingJson);
-      console.log(existingJsonObj);
+
       // Iterate over the keys of folderObject
       for (const key in folderObject) {
         // Check if the key exists in existingJsonObj
@@ -41,7 +46,18 @@ export async function POST(request) {
           existingJsonObj[key] = [];
         }
       }
-      console.log(existingJsonObj);
+
+      if (!existingJsonObj["style"]) {
+        // Append new data to existing JSON object
+        existingJsonObj = {
+          style: {
+            display: "grid",
+            gap: "2px",
+          },
+          ...existingJsonObj,
+        };
+      }
+
       // Convert the updated data to JSON string
       let uploadJson = JSON.stringify(existingJsonObj, null, 2);
 
@@ -55,6 +71,7 @@ export async function POST(request) {
     } else {
       // If blob doesn't exist, create a new JSON object
       const jsonData = JSON.stringify(folderObject, null, 2);
+
       // Upload the new JSON object to the blob
       try {
         await blockBlobClient.upload(jsonData, jsonData.length);

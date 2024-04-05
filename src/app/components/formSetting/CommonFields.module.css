@@ -22,6 +22,16 @@
   box-sizing: border-box;
 }
 
+.inputGroup select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+
 .styleSection {
   margin-top: 20px;
 }
@@ -30,8 +40,7 @@
   margin-right: 10px;
 }
 
-.styleSection input {
-}
+
 .inputGroupAll {
   display: flex;
   column-gap: 10px;
@@ -43,4 +52,8 @@
 .styleName {
   margin-bottom: 10px;
   font-weight: bold;
+}
+.insideStyleNote {
+  color: #ff0000;
+  text-align: center;
 }

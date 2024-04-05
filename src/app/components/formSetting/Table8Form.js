@@ -3,7 +3,7 @@ import styles from "./Table8Form.module.css";
 
 const Table8Form = ({ folderName }) => {
   const [headerKeyCount, setHeaderKeyCount] = useState(1);
- 
+
   const [headRowCount, setHeadRowCount] = useState(1);
   const [headerFieldCount, setHeaderFieldCount] = useState([1]);
 
@@ -39,8 +39,6 @@ const Table8Form = ({ folderName }) => {
       setHeaderKeyCount(headerKeyCount - 1);
     }
   };
-
-
 
   const submitHandler = async (e) => {
     const tableType = e.target.tableType.value;
@@ -106,7 +104,6 @@ const Table8Form = ({ folderName }) => {
         key: headerKey,
       },
     };
-   
 
     const Response = await fetch("/api/saveFormSettingTable", {
       method: "POST",
@@ -128,7 +125,9 @@ const Table8Form = ({ folderName }) => {
     return [...Array(headerFieldCount[rowIndex])].map((_, index) => (
       <div className={styles.inputGroupAll} key={index}>
         <div className={styles.inputGroup}>
-          <label htmlFor={`fieldName${rowIndex}-${index}`}>fieldName</label>
+          <label htmlFor={`fieldName${rowIndex}-${index}`}>
+            fieldName (Display Name)
+          </label>
           <input
             id={`fieldName${rowIndex}-${index}`}
             name={`fieldName${rowIndex}-${index}`}
@@ -173,11 +172,10 @@ const Table8Form = ({ folderName }) => {
     );
   };
 
-
   const tableDataKey = (i) => {
     return (
       <div className={styles.inputGroup}>
-        <label htmlFor={`headerKey${i}`}>key</label>
+        <label htmlFor={`headerKey${i}`}>key (from Json)</label>
         <input id={`headerKey${i}`} name={`headerKey${i}`} type="text" />
       </div>
     );
@@ -206,45 +204,25 @@ const Table8Form = ({ folderName }) => {
         <div className={styles.inputGroupAll}>
           <div className={styles.inputGroup}>
             <label htmlFor="gridColumnStart">gridColumnStart</label>
-            <input
-              id="gridColumnStart"
-              name="gridColumnStart"
-              type="text"
-              placeholder="1"
-            />
+            <input id="gridColumnStart" name="gridColumnStart" type="number" />
           </div>
           <div className={styles.inputGroup}>
             <label htmlFor="gridColumnEnd">gridColumnEnd</label>
-            <input
-              id="gridColumnEnd"
-              name="gridColumnEnd"
-              type="text"
-              placeholder="1"
-            />
+            <input id="gridColumnEnd" name="gridColumnEnd" type="number" />
           </div>
           <div className={styles.inputGroup}>
             <label htmlFor="gridRowStart">gridRowStart</label>
-            <input
-              id="gridRowStart"
-              name="gridRowStart"
-              type="text"
-              placeholder="1"
-            />
+            <input id="gridRowStart" name="gridRowStart" type="number" />
           </div>
           <div className={styles.inputGroup}>
             <label htmlFor="gridRowEnd">gridRowEnd</label>
-            <input
-              id="gridRowEnd"
-              name="gridRowEnd"
-              type="text"
-              placeholder="1"
-            />
+            <input id="gridRowEnd" name="gridRowEnd" type="number" />
           </div>
           <div className={styles.inputGroup}>
             <label htmlFor="alignSelf">alignSelf</label>
 
             <select id="alignSelf" name="alignSelf">
-              <option value=""></option>
+              <option value="">Default</option>
               <option value="start">start</option>
               <option value="end">end</option>
               <option value="center">center</option>
@@ -254,7 +232,7 @@ const Table8Form = ({ folderName }) => {
           <div className={styles.inputGroup}>
             <label htmlFor="justifySelf">justifySelf</label>
             <select id="justifySelf" name="justifySelf">
-              <option value=""></option>
+              <option value="">Default</option>
               <option value="start">start</option>
               <option value="end">end</option>
               <option value="center">center</option>
@@ -265,40 +243,25 @@ const Table8Form = ({ folderName }) => {
         <div className={styles.inputGroupAll}>
           <div className={styles.inputGroup}>
             <label htmlFor="borderTop">borderTop</label>
-            <input
-              id="borderTop"
-              name="borderTop"
-              type="text"
-              placeholder="1px solid black or 0"
-            />
+            <input id="borderTop" name="borderTop" type="text" />
           </div>
           <div className={styles.inputGroup}>
             <label htmlFor="borderBottom">borderBottom</label>
-            <input
-              id="borderBottom"
-              name="borderBottom"
-              type="text"
-              placeholder="1px solid black or 0"
-            />
+            <input id="borderBottom" name="borderBottom" type="text" />
           </div>
           <div className={styles.inputGroup}>
             <label htmlFor="borderLeft">borderLeft</label>
-            <input
-              id="borderLeft"
-              name="borderLeft"
-              type="text"
-              placeholder="1px solid black or 0"
-            />
+            <input id="borderLeft" name="borderLeft" type="text" />
           </div>
           <div className={styles.inputGroup}>
             <label htmlFor="borderRight">borderRight</label>
-            <input
-              id="borderRight"
-              name="borderRight"
-              type="text"
-              placeholder="1px solid black or 0"
-            />
+            <input id="borderRight" name="borderRight" type="text" />
           </div>
+        </div>
+        <div className={styles.insideStyleNote}>
+          Note: The default value for inside style is '1px solid black'. Leave
+          the fields empty to retain the default value. Enter '0' to remove the
+          outer border.{" "}
         </div>
       </div>
       <div className={styles.styleSection}>
@@ -332,7 +295,7 @@ const Table8Form = ({ folderName }) => {
           <div key={index}>{tableDataKey(index)}</div>
         ))}
       </div>
-     
+
       <div className={styles.buttonWrapper}>
         <button className={styles.submit}>Submit</button>
         <button

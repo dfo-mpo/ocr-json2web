@@ -79,9 +79,9 @@ const Table7Form = ({ folderName }) => {
 
   const tableDataComponen = (i) => {
     return (
-      <div className={styles.inputGroupAll}>
+      <div className={styles.inputGroupAll2}>
         <div className={styles.inputGroup}>
-          <label htmlFor={`fieldName${i}`}>fieldName</label>
+          <label htmlFor={`fieldName${i}`}>fieldName (Display Name)</label>
           <input
             id={`fieldName${i}`}
             name={`fieldName${i}`}
@@ -90,7 +90,7 @@ const Table7Form = ({ folderName }) => {
           />
         </div>
         <div className={styles.inputGroup}>
-          <label htmlFor={`key${i}`}>key</label>
+          <label htmlFor={`key${i}`}>key (from Json)</label>
           <input id={`key${i}`} name={`key${i}`} type="text" />
         </div>
       </div>
@@ -108,12 +108,7 @@ const Table7Form = ({ folderName }) => {
       <input type="hidden" name="tableType" value="TableType7" />
       <div className={styles.inputGroup}>
         <label htmlFor="tableName">Table Name</label>
-        <input
-          id="tableName"
-          name="tableName"
-          type="text"
-         
-        />
+        <input id="tableName" name="tableName" type="text" />
       </div>
       <div className={styles.inputGroup}>
         <label htmlFor="insideTableName">Inside Table Name</label>
@@ -125,45 +120,25 @@ const Table7Form = ({ folderName }) => {
         <div className={styles.inputGroupAll}>
           <div className={styles.inputGroup}>
             <label htmlFor="gridColumnStart">gridColumnStart</label>
-            <input
-              id="gridColumnStart"
-              name="gridColumnStart"
-              type="text"
-              placeholder="1"
-            />
+            <input id="gridColumnStart" name="gridColumnStart" type="number" />
           </div>
           <div className={styles.inputGroup}>
             <label htmlFor="gridColumnEnd">gridColumnEnd</label>
-            <input
-              id="gridColumnEnd"
-              name="gridColumnEnd"
-              type="text"
-              placeholder="1"
-            />
+            <input id="gridColumnEnd" name="gridColumnEnd" type="number" />
           </div>
           <div className={styles.inputGroup}>
             <label htmlFor="gridRowStart">gridRowStart</label>
-            <input
-              id="gridRowStart"
-              name="gridRowStart"
-              type="text"
-              placeholder="1"
-            />
+            <input id="gridRowStart" name="gridRowStart" type="number" />
           </div>
           <div className={styles.inputGroup}>
             <label htmlFor="gridRowEnd">gridRowEnd</label>
-            <input
-              id="gridRowEnd"
-              name="gridRowEnd"
-              type="text"
-              placeholder="1"
-            />
+            <input id="gridRowEnd" name="gridRowEnd" type="number" />
           </div>
           <div className={styles.inputGroup}>
             <label htmlFor="alignSelf">alignSelf</label>
 
             <select id="alignSelf" name="alignSelf">
-              <option value=""></option>
+              <option value="">Default</option>
               <option value="start">start</option>
               <option value="end">end</option>
               <option value="center">center</option>
@@ -173,7 +148,7 @@ const Table7Form = ({ folderName }) => {
           <div className={styles.inputGroup}>
             <label htmlFor="justifySelf">justifySelf</label>
             <select id="justifySelf" name="justifySelf">
-              <option value=""></option>
+              <option value="">Default</option>
               <option value="start">start</option>
               <option value="end">end</option>
               <option value="center">center</option>
@@ -184,40 +159,25 @@ const Table7Form = ({ folderName }) => {
         <div className={styles.inputGroupAll}>
           <div className={styles.inputGroup}>
             <label htmlFor="borderTop">borderTop</label>
-            <input
-              id="borderTop"
-              name="borderTop"
-              type="text"
-              placeholder="1px solid black or 0"
-            />
+            <input id="borderTop" name="borderTop" type="text" />
           </div>
           <div className={styles.inputGroup}>
             <label htmlFor="borderBottom">borderBottom</label>
-            <input
-              id="borderBottom"
-              name="borderBottom"
-              type="text"
-              placeholder="1px solid black or 0"
-            />
+            <input id="borderBottom" name="borderBottom" type="text" />
           </div>
           <div className={styles.inputGroup}>
             <label htmlFor="borderLeft">borderLeft</label>
-            <input
-              id="borderLeft"
-              name="borderLeft"
-              type="text"
-              placeholder="1px solid black or 0"
-            />
+            <input id="borderLeft" name="borderLeft" type="text" />
           </div>
           <div className={styles.inputGroup}>
             <label htmlFor="borderRight">borderRight</label>
-            <input
-              id="borderRight"
-              name="borderRight"
-              type="text"
-              placeholder="1px solid black or 0"
-            />
+            <input id="borderRight" name="borderRight" type="text" />
           </div>
+        </div>
+        <div className={styles.insideStyleNote}>
+          Note: The default value for inside style is '1px solid black'. Leave
+          the fields empty to retain the default value. Enter '0' to remove the
+          outer border.{" "}
         </div>
       </div>
       <div className={styles.styleSection}>

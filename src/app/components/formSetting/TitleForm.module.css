@@ -27,6 +27,12 @@
   margin-bottom: 5px;
   
 }
+.note {
+  
+  color: #ff0000;
+  text-align: center;
+
+}
 
 .inputGroup input {
   width: 100%;
@@ -44,8 +50,7 @@
   margin-right: 10px;
 }
 
-.styleSection input {
-}
+
 
 .styleName {
   margin-bottom: 10px;
