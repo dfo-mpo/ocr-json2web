@@ -20,10 +20,11 @@ const TableType1 = ({
 
     if (updateJson[event.target.name]) {
       updateJson[event.target.name][0] = event.target.value;
+      updateJson[event.target.name][4] = 2;
     } else {
       updateJson ={
         ...updateJson,
-        [event.target.name]: [event.target.value, {}, ""]
+        [event.target.name]: [event.target.value, {}, "","",2]
     }
     }
 
@@ -58,7 +59,7 @@ const TableType1 = ({
                     //   handleHover(items[data.key] ? items[data.key][1] : "")
                     // }
                     // onMouseLeave={handleLeave}
-                    isFlag=""
+                    isFlag={items[data.key] ? items[data.key][4] : ""}
                     //TODO: items[data.key][3] for TAN's json version
                     // isFlag={items[data.key][3]}
                     fieldName={data.key}

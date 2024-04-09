@@ -7,6 +7,7 @@ import TableType2 from "./ReusableTables/TableType2";
 import TableType3 from "./ReusableTables/TableType3";
 import TableType4 from "./ReusableTables/TableType4";
 import TableType5 from "./ReusableTables/TableType5";
+import TableType5_reverse from "./ReusableTables/TableType5_reverse";
 import TableType6 from "./ReusableTables/TableType6";
 import TableTypeComb from "./ReusableTables/TableTypeComb";
 import TableType7 from "./ReusableTables/TableType7";
@@ -150,7 +151,24 @@ const Form = ({
                 onEdit={changeHandler}
               />
             );
-          } else if (formSettingItem.tableType === "TableType6") {
+          } else if (formSettingItem.tableType === "TableType5_reverse") {
+            return (
+              <TableType5_reverse
+                myStyle={formSettingItem.style}
+                insideStyle = {formSettingItem.insideStyle}
+                key={index}
+                items={updateJson}
+                folderName={folderName}
+                fileName={fileName}
+                formSetting={formSettingItem}
+                onEdit={changeHandler}
+              />
+            );
+          } 
+          
+          
+          
+          else if (formSettingItem.tableType === "TableType6") {
             return (
               <TableType6
                 myStyle={formSettingItem.style}

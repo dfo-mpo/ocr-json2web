@@ -34,10 +34,11 @@ const TableType8 = ({
 
     if (updateJson[allOjb][index][key]) {
       updateJson[allOjb][index][key][0] = value;
+      updateJson[allOjb][index][key][4] = 2;
     } else {
       updateJson[allOjb][index] = {
         ...updateJson[allOjb][index],
-        [key]: [value, {}, ""],
+        [key]: [value, {}, "", "", 2],
       };
     }
     onEdit(updateJson);
@@ -102,6 +103,7 @@ const TableType8 = ({
                             <td key={dataIndex}>
                               <EditableFieldForTable
                                 fieldKey={data.key}
+                                isFlag={item[data.key] ? item[data.key][4] : ""}
                                 fieldValue={
                                   item[data.key] ? item[data.key][0] : ""
                                 }
@@ -111,14 +113,12 @@ const TableType8 = ({
                           );
                         })}
 
-                
-                      <button
-                        onClick={() => removeItem(index)}
-                        className={styles.addRemoveButton}
-                      >
-                        -
-                      </button>
-                    
+                    <button
+                      onClick={() => removeItem(index)}
+                      className={styles.addRemoveButton}
+                    >
+                      -
+                    </button>
                   </tr>
                 );
               })}

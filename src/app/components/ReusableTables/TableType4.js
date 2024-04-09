@@ -21,11 +21,12 @@ const TableType4 = ({
     // updateJson[event.target.name][0] = event.target.value;
     if (updateJson[event.target.name]) {
       updateJson[event.target.name][0] = event.target.value;
+      updateJson[event.target.name][4] = 2;
     } else {
-      updateJson ={
+      updateJson = {
         ...updateJson,
-        [event.target.name]: [event.target.value, {}, ""]
-    }
+        [event.target.name]: [event.target.value, {}, "", "", 2],
+      };
     }
     onEdit(updateJson);
   };
@@ -46,10 +47,10 @@ const TableType4 = ({
                   <div className={styles.subList}>
                     <EditableFieldTextarea
                       key={index}
-                      isFlag= ''
+                      isFlag={items[data.key] ? items[data.key][4] : ""}
                       fieldName={data.key}
                       // fieldValue={items[data.key]}
-                      fieldValue={items[data.key]?items[data.key][0]: ''}
+                      fieldValue={items[data.key] ? items[data.key][0] : ""}
                       handleChange={handleChange}
                     />
                   </div>

@@ -22,7 +22,15 @@ const TableType6 = ({
 
     // updateJson[key] = value;
     //TODO: Json with flag
-    updateJson[key][0] = value;
+    if (!updateJson[key]) {
+      updateJson = {
+        ...updateJson,
+        [key]: [value, {}, "", "", 2],
+      };
+    } else {
+      updateJson[key][0] = value;
+      updateJson[key][4] = 2;
+    }
     // updateJson[key][3] = 2;
 
     // const updateJson = {
@@ -36,21 +44,22 @@ const TableType6 = ({
     <div style={myStyle}>
       {tableName && <div className={styles.title}>{tableName}</div>}
       <div className={styles.wrapper} style={insideStyle}>
-        { insideTableName && <div className={styles.title2}>{insideTableName}</div> }
+        {insideTableName && (
+          <div className={styles.title2}>{insideTableName}</div>
+        )}
         <ul className={styles.myList}>
           {tableData.map((data, index) => (
             <li key={index} className={styles.tableRow}>
               <EditableCheckField
-                isFlag=""
+                isFlag={items[data.key] ? items[data.key][4] : ""}
                 //TODO: items[data.key][3] for TAN's json version
                 // isFlag={items[data.key][3]}
                 fieldName={data.key}
                 fieldText={data.fieldName}
                 // fieldValue={items[data.key]}
                 //TODO: items[data.key][0] for TAN's json version
-                fieldValue={items[data.key]?items[data.key][0]: ''}
+                fieldValue={items[data.key] ? items[data.key][0] : ""}
                 handleChange={handleChange}
-                
               />
             </li>
           ))}

@@ -1455,7 +1455,7 @@
     },
     {
       "note": "This is Spawning Run Timing and Estimated Number table",
-      "tableType": "TableType5",
+      "tableType": "TableType5_reverse",
       "tableName": "DETAILS AFFECTING ESCAPEMENT ESTIMATION",
       "itemName": "Details affecting salmon escapement",
       "style": {
@@ -1463,6 +1463,35 @@
         "gridColumnEnd": 5
       },
       "tableHeader": [
+        {
+          "fieldName": "water use",
+          "itemName": ""
+        },
+
+        {
+          "fieldName": "CO1",
+          "itemName": "CO 1"
+        },
+        {
+          "fieldName": "CO2",
+          "itemName": "CO 2"
+        }
+      ],
+      "tableData": [
+    
+          { "fieldName": "Methods", "key": "Methods" },
+          { "fieldName": "%Spawn habitat surveyed", "key": "%Spawn habitat surveyed" },
+          { "fieldName": "Rel", "key": "Rel" },
+          { "fieldName": "Enum Class", "key": "Enum Class" },
+          { "fieldName": "Esc Code", "key": "Esc Code" },
+          { "fieldName": "Est total adult", "key": "Est total adults" },
+          { "fieldName": "Brood stock removals", "key": "Brood stock removals" },
+          { "fieldName": "Jacks", "key": "Jacks" },
+          { "fieldName": "ESc Goal", "key": "ESc Goal" }
+        
+      ],
+
+      "tableHeader2": [
         [
           {
             "fieldName": "Sp",
@@ -1517,7 +1546,7 @@
           }
         ]
       ],
-      "tableData": {
+      "tableData2": {
         "item": [
           { "fieldName": "SK1", "itemName": "SK 1" },
           { "fieldName": "SK2", "itemName": "SK 2" },

@@ -21,9 +21,9 @@ const TableType5 = ({
     const itemName = event.target.getAttribute("itemname");
     const key = event.target.name;
     const value = event.target.value;
-console.log('itemName',itemName)
-console.log('key',key)
-console.log('value',value)
+    console.log("itemName", itemName);
+    console.log("key", key);
+    console.log("value", value);
     const singleItem = {
       [itemName]: {},
     };
@@ -37,8 +37,13 @@ console.log('value',value)
         ...singleItem,
       };
     }
-    
-    updateJson[allOjb][itemName][key][0] = value;
+
+    if (!updateJson[allOjb][itemName][key]) {
+      updateJson[allOjb][itemName][key] = [value, {}, "", "", 2];
+    } else {
+      updateJson[allOjb][itemName][key][0] = value;
+      updateJson[allOjb][itemName][key][4] = 2;
+    }
     onEdit(updateJson);
   };
   return (
@@ -89,11 +94,19 @@ console.log('value',value)
                               itemName={rowItem}
                               fieldKey={key}
                               fieldValue={
-                                itemOjb && itemOjb[rowItem]&&itemOjb[rowItem][key]
+                                itemOjb &&
+                                itemOjb[rowItem] &&
+                                itemOjb[rowItem][key]
                                   ? itemOjb[rowItem][key][0]
                                   : ""
                               }
-                              isFlag=""
+                              isFlag={
+                                itemOjb &&
+                                itemOjb[rowItem] &&
+                                itemOjb[rowItem][key]
+                                  ? itemOjb[rowItem][key][4]
+                                  : ""
+                              }
                               handleChange={handleChange}
                             />
                           </td>

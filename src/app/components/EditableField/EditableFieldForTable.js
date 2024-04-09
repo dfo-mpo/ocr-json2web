@@ -4,17 +4,17 @@ import styles from "./EditableFieldForTable.module.css";
 const EditableFieldForTable = ({
   fieldKey,
   fieldValue,
-  isRed,
+  isFlag,
   handleChange,
   itemName,
 }) => {
   const [isEditing, setIsEditing] = useState(false);
 
   let stylingClass = "";
-  switch (isRed) {
-    case true:
+  switch (isFlag) {
+    case 0:
       break;
-    case false:
+    case 1:
       stylingClass = styles.isRed;
       break;
     case 2:
