@@ -233,6 +233,134 @@
       }
     },
     {
+      "note": "",
+      "tableType": "TableTypeComb",
+      "tableName": "Test",
+      "style": {
+        "display": "grid",
+        "gridColumnStart": "1",
+        "gridColumnEnd": "5",
+        "gridRowStart": "",
+        "gridRowEnd": "",
+        "alignSelf": "center"
+      },
+      "insideFormSetting": [
+        {
+          "tableType": "TableType6_multi",
+          "tableName": "Test",
+          "style": {
+            "gridColumnStart": 1,
+            "gridColumnEnd": 3,
+            "fontSize": "12px"
+          },
+          "tableData": [
+            {
+              "fieldName": "water Sample teskdlkfasdj fa:",
+              "key": [
+                {
+                  "displayName": "Yes",
+                  "key": "Unusual Condition (B)"
+                },
+                {
+                  "displayName": "No",
+                  "key": "Unusual Condition (D)"
+                }
+              ]
+            },
+            {
+              "fieldName": "water Sample:",
+              "key": [
+                {
+                  "displayName": "Yes",
+                  "key": "Unusual Condition (B)"
+                },
+                {
+                  "displayName": "No",
+                  "key": "Unusual Condition (D)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tableType": "TableType6_multi",
+          "tableName": "Test",
+          "style": {
+            "gridColumnStart": 3,
+            "gridColumnEnd": 4,
+            "fontSize": "12px"
+          },
+          "tableData": [
+            {
+              "fieldName": "water Sample teskdlkfasdj fa:",
+              "key": [
+                {
+                  "displayName": "Yes",
+                  "key": "Unusual Condition (B)"
+                },
+                {
+                  "displayName": "No",
+                  "key": "Unusual Condition (D)"
+                }
+              ]
+            },
+            {
+              "fieldName": "water Sample:",
+              "key": [
+                {
+                  "displayName": "Yes",
+                  "key": "Unusual Condition (B)"
+                },
+                {
+                  "displayName": "No",
+                  "key": "Unusual Condition (D)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tableType": "TableType6_multi",
+          "tableName": "Test",
+          "style": {
+            "gridColumnStart": 4,
+            "gridColumnEnd": 5,
+            "fontSize": "12px"
+          },
+          "tableData": [
+            {
+              "fieldName": "water Sample teskdlkfasdj fa:",
+              "key": [
+                {
+                  "displayName": "Yes",
+                  "key": "Unusual Condition (B)"
+                },
+                {
+                  "displayName": "No",
+                  "key": "Unusual Condition (D)"
+                }
+              ]
+            },
+            {
+              "fieldName": "water Sample:",
+              "key": [
+                {
+                  "displayName": "Yes",
+                  "key": "Unusual Condition (B)"
+                },
+                {
+                  "displayName": "No",
+                  "key": "Unusual Condition (D)"
+                }
+              ]
+            }
+          ]
+        }
+       
+       
+      ]
+    },
+    {
       "tableType": "TableType6_multi",
       "tableName": "Test",
       "style": {

@@ -4,9 +4,8 @@
 
 .title {
   font-weight: bold;
-
 }
-.myList{
+.myList {
   padding: 0 10px;
 }
 
@@ -24,5 +23,10 @@
 .title2 {
   margin: 5px;
   font-weight: 510;
-
+}
+.selectedBox {
+  display: flex;
+}
+.filedName {
+  width: 100%;
 }

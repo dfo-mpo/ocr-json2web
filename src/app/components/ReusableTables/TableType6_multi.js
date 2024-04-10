@@ -56,6 +56,7 @@ const TableType6_multi = ({
             return (
               <li key={index} className={styles.tableRow}>
                 <div className={styles.filedName}>{data.fieldName}</div>
+                <div className ={styles.selectedBox}>
                 {data.key &&
                   data.key.map((key, index) => {
                     return (
@@ -72,6 +73,7 @@ const TableType6_multi = ({
                       />
                     );
                   })}
+                </div>
               </li>
             );
           })}
