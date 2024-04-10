@@ -15,8 +15,8 @@ const TableType6_multi = ({
   const tableData = formSetting.tableData;
   const insideTableName = formSetting.insideTableName;
 
-  const fontSize = formSetting.style.fontSize;
-  console.log("fontSize", fontSize);
+
+
   let updateJson = { ...items };
   const handleChange = (event) => {
     const key = event.target.name;
@@ -52,7 +52,7 @@ const TableType6_multi = ({
         )}
         <ul className={styles.myList}>
           {tableData.map((data, index) => {
-            console.log("data", data);
+     
             return (
               <li key={index} className={styles.tableRow}>
                {data.fieldName&& <div className={styles.filedName}>{data.fieldName}</div>}
@@ -61,6 +61,7 @@ const TableType6_multi = ({
                   data.key.map((key, index) => {
                     return (
                       <EditableCheckField
+                        key={index}
                         isFlag={items[key.key] ? items[key.key][4] : ""}
                         //TODO: items[data.key][3] for TAN's json version
                         // isFlag={items[data.key][3]}

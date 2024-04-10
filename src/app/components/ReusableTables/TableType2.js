@@ -17,6 +17,8 @@ const TableType2 = ({
   const insideTableName = formSetting.insideTableName;
 
   const dates = items[itemName];
+  console.log("dates", dates.map((date) => date));
+
 
   let updateJson = { ...items };
   const handleDateChange = (event) => {

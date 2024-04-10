@@ -61,7 +61,6 @@ const TableType8 = ({
   };
   return (
     <div style={myStyle}>
-      
       <>
         {tableName && <div className={styles.title}>{tableName}</div>}
         <button onClick={addNewItem} className={styles.addRemoveButton}>
@@ -116,19 +115,19 @@ const TableType8 = ({
                             </td>
                           );
                         })}
-
-                    <button
-                      onClick={() => removeItem(index)}
-                      className={styles.addRemoveButton}
-                    >
-                      -
-                    </button>
+                    <td>
+                      <button
+                        onClick={() => removeItem(index)}
+                        className={styles.addRemoveButton}
+                      >
+                        -
+                      </button>
+                    </td>
                   </tr>
                 );
               })}
           </tbody>
         </table>
-
       </>
     </div>
   );
