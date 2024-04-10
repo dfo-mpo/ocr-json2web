@@ -1,0 +1,28 @@
+.wrapper {
+  border: 1px solid black;
+}
+
+.title {
+  font-weight: bold;
+
+}
+.myList{
+  padding: 0 10px;
+}
+
+.myTable {
+  border: 1px solid black;
+  padding: 10px;
+  margin-right: 65px;
+}
+
+.tableRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.title2 {
+  margin: 5px;
+  font-weight: 510;
+
+}

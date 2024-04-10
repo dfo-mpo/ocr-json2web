@@ -7,6 +7,7 @@ import TableType4 from "./TableType4";
 import TableType5 from "./TableType5";
 import TableType5_reverse from "./TableType5_reverse";
 import TableType6 from "./TableType6";
+import TableType6_multi from "./TableType6_multi";
 import TableType7 from "./TableType7";
 import TableType8 from "./TableType8";
 
@@ -117,6 +118,19 @@ const TableTypeComb = ({
             } else if (formSettingItem.tableType === "TableType6") {
               return (
                 <TableType6
+                  myStyle={formSettingItem.style}
+                  insideStyle={formSettingItem.insideStyle}
+                  key={index}
+                  items={updateJson}
+                  folderName={folderName}
+                  fileName={fileName}
+                  formSetting={formSettingItem}
+                  onEdit={changeHandler}
+                />
+              );
+            } else if (formSettingItem.tableType === "TableType6_multi") {
+              return (
+                <TableType6_multi
                   myStyle={formSettingItem.style}
                   insideStyle={formSettingItem.insideStyle}
                   key={index}

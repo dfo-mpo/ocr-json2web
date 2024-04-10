@@ -49,6 +49,10 @@ const TableCombForm = ({ folderName, onRemove, onSave }) => {
   };
   //adding the table type to the inside form setting when the add button is clicked
   const addTableHandler = () => {
+    if (tableType === "") {
+      alert("Please select a table");
+      return;
+    }
     setInsideFormSetting([...insideFormSetting, { tableType: tableType }]);
     setTableType("");
   };

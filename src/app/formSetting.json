@@ -107,7 +107,6 @@
         }
       ]
     },
-
     {
       "note": "This is Spawning Run Timing and Estimated Number table",
       "tableType": "TableType5",
@@ -234,32 +233,39 @@
       }
     },
     {
-      "tableType": "TableType6",
-      "tableName": "UNUSUAL CONDITIONS",
+      "tableType": "TableType6_multi",
+      "tableName": "Test",
       "style": {
         "gridColumnStart": 1,
-        "gridColumnEnd": 4
+        "gridColumnEnd": 4,
+        "fontSize": "12px"
       },
       "tableData": [
         {
-          "fieldName": "(A) Enhancement activities or intense biological activities.",
-          "key": "Unusual Condition (A)"
+          "fieldName": "water Sample teskdlkfasdj fa:",
+          "key": [
+            {
+              "displayName": "Yes",
+              "key": "Unusual Condition (B)"
+            },
+            {
+              "displayName": "No",
+              "key": "Unusual Condition (D)"
+            }
+          ]
         },
         {
-          "fieldName": "(B) Unusual Mortalities.",
-          "key": "Unusual Condition (B)"
-        },
-        {
-          "fieldName": "(C) Obstructions or changes in habitat with recommendations.",
-          "key": "Unusual Condition (C)"
-        },
-        {
-          "fieldName": "(D) Large variation in sex ratio or unusual number of jacks.",
-          "key": "Unusual Condition (D)"
-        },
-        {
-          "fieldName": "(E) High/low water flow level during spawning.",
-          "key": "Unusual Condition (E)"
+          "fieldName": "water Sample:",
+          "key": [
+            {
+              "displayName": "Yes",
+              "key": "Unusual Condition (B)"
+            },
+            {
+              "displayName": "No",
+              "key": "Unusual Condition (D)"
+            }
+          ]
         }
       ]
     },
@@ -1478,17 +1484,18 @@
         }
       ],
       "tableData": [
-    
-          { "fieldName": "Methods", "key": "Methods" },
-          { "fieldName": "%Spawn habitat surveyed", "key": "%Spawn habitat surveyed" },
-          { "fieldName": "Rel", "key": "Rel" },
-          { "fieldName": "Enum Class", "key": "Enum Class" },
-          { "fieldName": "Esc Code", "key": "Esc Code" },
-          { "fieldName": "Est total adult", "key": "Est total adults" },
-          { "fieldName": "Brood stock removals", "key": "Brood stock removals" },
-          { "fieldName": "Jacks", "key": "Jacks" },
-          { "fieldName": "ESc Goal", "key": "ESc Goal" }
-        
+        { "fieldName": "Methods", "key": "Methods" },
+        {
+          "fieldName": "%Spawn habitat surveyed",
+          "key": "%Spawn habitat surveyed"
+        },
+        { "fieldName": "Rel", "key": "Rel" },
+        { "fieldName": "Enum Class", "key": "Enum Class" },
+        { "fieldName": "Esc Code", "key": "Esc Code" },
+        { "fieldName": "Est total adult", "key": "Est total adults" },
+        { "fieldName": "Brood stock removals", "key": "Brood stock removals" },
+        { "fieldName": "Jacks", "key": "Jacks" },
+        { "fieldName": "ESc Goal", "key": "ESc Goal" }
       ],
 
       "tableHeader2": [

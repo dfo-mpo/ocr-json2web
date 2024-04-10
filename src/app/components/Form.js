@@ -9,6 +9,7 @@ import TableType4 from "./ReusableTables/TableType4";
 import TableType5 from "./ReusableTables/TableType5";
 import TableType5_reverse from "./ReusableTables/TableType5_reverse";
 import TableType6 from "./ReusableTables/TableType6";
+import TableType6_multi from "./ReusableTables/TableType6_multi";
 import TableTypeComb from "./ReusableTables/TableTypeComb";
 import TableType7 from "./ReusableTables/TableType7";
 import TableType8 from "./ReusableTables/TableType8";
@@ -55,7 +56,6 @@ const Form = ({
   };
 
   const saveHandler = () => {
-   
     //TODO: delete this line
     // console.log(updateJson);
     // setIsEditing(false); alert("Success, testing locally now");
@@ -86,11 +86,11 @@ const Form = ({
         {formSetting[folderName].map((formSettingItem, index) => {
           if (formSettingItem.tableType === "TableType1") {
             // console.log("formSettingItem", formSettingItem.style);
-        
+
             return (
               <TableType1
                 myStyle={formSettingItem.style}
-                insideStyle = {formSettingItem.insideStyle}
+                insideStyle={formSettingItem.insideStyle}
                 key={index}
                 items={updateJson}
                 folderName={folderName}
@@ -103,7 +103,7 @@ const Form = ({
             return (
               <TableType2
                 myStyle={formSettingItem.style}
-                insideStyle = {formSettingItem.insideStyle}
+                insideStyle={formSettingItem.insideStyle}
                 key={index}
                 items={updateJson}
                 folderName={folderName}
@@ -116,7 +116,7 @@ const Form = ({
             return (
               <TableType3
                 myStyle={formSettingItem.style}
-                insideStyle = {formSettingItem.insideStyle}
+                insideStyle={formSettingItem.insideStyle}
                 key={index}
                 items={updateJson}
                 folderName={folderName}
@@ -129,7 +129,7 @@ const Form = ({
             return (
               <TableType4
                 myStyle={formSettingItem.style}
-                insideStyle = {formSettingItem.insideStyle}
+                insideStyle={formSettingItem.insideStyle}
                 key={index}
                 items={updateJson}
                 folderName={folderName}
@@ -142,7 +142,7 @@ const Form = ({
             return (
               <TableType5
                 myStyle={formSettingItem.style}
-                insideStyle = {formSettingItem.insideStyle}
+                insideStyle={formSettingItem.insideStyle}
                 key={index}
                 items={updateJson}
                 folderName={folderName}
@@ -155,7 +155,7 @@ const Form = ({
             return (
               <TableType5_reverse
                 myStyle={formSettingItem.style}
-                insideStyle = {formSettingItem.insideStyle}
+                insideStyle={formSettingItem.insideStyle}
                 key={index}
                 items={updateJson}
                 folderName={folderName}
@@ -164,15 +164,24 @@ const Form = ({
                 onEdit={changeHandler}
               />
             );
-          } 
-          
-          
-          
-          else if (formSettingItem.tableType === "TableType6") {
+          } else if (formSettingItem.tableType === "TableType6") {
             return (
               <TableType6
                 myStyle={formSettingItem.style}
-                insideStyle = {formSettingItem.insideStyle}
+                insideStyle={formSettingItem.insideStyle}
+                key={index}
+                items={updateJson}
+                folderName={folderName}
+                fileName={fileName}
+                formSetting={formSettingItem}
+                onEdit={changeHandler}
+              />
+            );
+          } else if (formSettingItem.tableType === "TableType6_multi") {
+            return (
+              <TableType6_multi
+                myStyle={formSettingItem.style}
+                insideStyle={formSettingItem.insideStyle}
                 key={index}
                 items={updateJson}
                 folderName={folderName}
@@ -185,7 +194,7 @@ const Form = ({
             return (
               <TableType7
                 myStyle={formSettingItem.style}
-                insideStyle = {formSettingItem.insideStyle}
+                insideStyle={formSettingItem.insideStyle}
                 key={index}
                 items={updateJson}
                 folderName={folderName}
@@ -194,11 +203,11 @@ const Form = ({
                 onEdit={changeHandler}
               />
             );
-          }else if (formSettingItem.tableType === "TableType8") {
+          } else if (formSettingItem.tableType === "TableType8") {
             return (
               <TableType8
                 myStyle={formSettingItem.style}
-                insideStyle = {formSettingItem.insideStyle}
+                insideStyle={formSettingItem.insideStyle}
                 key={index}
                 items={updateJson}
                 folderName={folderName}
@@ -207,12 +216,11 @@ const Form = ({
                 onEdit={changeHandler}
               />
             );
-          }  
-          else if (formSettingItem.tableType === "TableTypeComb") {
+          } else if (formSettingItem.tableType === "TableTypeComb") {
             return (
               <TableTypeComb
                 myStyle={formSettingItem.style}
-                insideStyle = {formSettingItem.insideStyle}
+                insideStyle={formSettingItem.insideStyle}
                 key={index}
                 updateJson={updateJson}
                 folderName={folderName}
