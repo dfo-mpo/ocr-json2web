@@ -61,8 +61,12 @@ const TableType8 = ({
   };
   return (
     <div style={myStyle}>
+      
       <>
         {tableName && <div className={styles.title}>{tableName}</div>}
+        <button onClick={addNewItem} className={styles.addRemoveButton}>
+          Add Item
+        </button>
         <table className={styles.myTable} style={insideStyle}>
           <tbody>
             {tableHeader.map((data, index) => {
@@ -124,9 +128,7 @@ const TableType8 = ({
               })}
           </tbody>
         </table>
-        <button onClick={addNewItem} className={styles.addRemoveButton}>
-          Add Item
-        </button>
+
       </>
     </div>
   );
