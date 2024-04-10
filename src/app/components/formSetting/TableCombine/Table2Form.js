@@ -66,7 +66,9 @@ const Table2Form = ({ onRemove, onSave  }) => {
   const handleAddInputGroup = () => {
     setCount(count + 1);
   };
-
+  const removeTable = () => {
+    onRemove();
+  };
   const tableDataComponent = (i) => {
     return (
       <div className={styles.inputGroupAll2}>
@@ -94,6 +96,11 @@ const Table2Form = ({ onRemove, onSave  }) => {
         submitHandler(e);
       }}
     >
+            {onRemove && (
+        <button onClick={removeTable} type="button">
+          Remove
+        </button>
+      )}
       <div className={styles.title}>Table Type 2 Form</div>
       <input type="hidden" name="tableType" value="TableType2" />
       <div className={styles.inputGroup}>

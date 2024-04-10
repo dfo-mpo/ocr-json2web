@@ -55,7 +55,7 @@ const TableType6_multi = ({
             console.log("data", data);
             return (
               <li key={index} className={styles.tableRow}>
-                <div className={styles.filedName}>{data.fieldName}</div>
+               {data.fieldName&& <div className={styles.filedName}>{data.fieldName}</div>}
                 <div className ={styles.selectedBox}>
                 {data.key &&
                   data.key.map((key, index) => {
