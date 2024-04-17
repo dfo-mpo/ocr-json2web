@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./TableType7.module.css";
 import EditableField from "../EditableField/EditableField";
-
+import Link from "next/link";
 const TableType7 = ({
   items,
   folderName,
@@ -9,7 +9,8 @@ const TableType7 = ({
   formSetting,
   myStyle,
   onEdit,
-  insideStyle,
+  insideStyle,  isEditingTable,
+  formSettingIndex,
 }) => {
   const tableName = formSetting.tableName;
   const tableData = formSetting.tableData;
@@ -31,6 +32,31 @@ const TableType7 = ({
     }
     }
     onEdit(updateJson);
+  };
+  const onDelete = async () => {
+    let confirmDelete = window.confirm(
+      "Are you sure you want to delete this table?"
+    );
+
+    if (confirmDelete) {
+      const Response = await fetch("/api/DeleteTable", {
+        method: "POST",
+        body: JSON.stringify({
+          folderName: folderName,
+          formSettingIndex: formSettingIndex,
+        }),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+
+      if (!Response.ok) {
+        alert("Error");
+      } else {
+        alert("Success");
+        window.location.reload();
+      }
+    }
   };
 
   return (
@@ -61,6 +87,28 @@ const TableType7 = ({
         })}
       </div>
       </div>
+
+      {isEditingTable && (
+        <div>
+          <Link
+            className={styles.linkButton}
+            rel="noopener noreferrer"
+            target="_blank"
+            href={{
+              pathname: "/editSingleTable/",
+              query: {
+                formSettingIndex: formSettingIndex,
+                folderName: folderName,
+              },
+            }}
+          >
+            Edit
+          </Link>
+          <button onClick={onDelete} className={styles.button}>
+            Delete
+          </button>
+        </div>
+      )}
     </div>
   );
 };

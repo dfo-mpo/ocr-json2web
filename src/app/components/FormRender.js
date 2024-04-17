@@ -5,7 +5,15 @@ import styles from "./FormRender.module.css";
 //TODO: remove import formSetting from "../formSetting.json"
 // import formSetting from "../formSetting.json";
 //TODO: add formSetting as a prop
-const FormRender = ({ items, folderName, fileName, reFetch, reFetchJson,  formSetting }) => {
+const FormRender = ({
+  items,
+  folderName,
+  fileName,
+  reFetch,
+  reFetchJson,
+  formSetting,
+  isEditingTable,
+}) => {
   const saveChange = () => {
     reFetch();
   };
@@ -16,6 +24,7 @@ const FormRender = ({ items, folderName, fileName, reFetch, reFetchJson,  formSe
 
   return (
     <Form
+      isEditingTable={isEditingTable}
       folderName={folderName}
       formSetting={formSetting}
       fileName={fileName}

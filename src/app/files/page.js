@@ -24,6 +24,7 @@ const File = ({ searchParams }) => {
   const [error, setError] = useState(false);
   const [pageHeight, setPageHeight] = useState(1500);
   const [isFormSetting, setIsFormSetting] = useState();
+  const [isEditingTable, setIsEditingTable] = useState(false);
 
   // this is the Form page
   const fileName = searchParams.fileName;
@@ -137,7 +138,7 @@ const File = ({ searchParams }) => {
         //     setFormSetting(dataObject);
         //     setIsFormsettingReady(false);
         //   }
-   
+
         try {
           let jsonString = "";
 
@@ -150,7 +151,7 @@ const File = ({ searchParams }) => {
               setFormSetting(dataObject);
               setIsFormsettingReady(false);
               console.log("it loading");
-         
+
               break;
             }
 
@@ -241,7 +242,6 @@ const File = ({ searchParams }) => {
     asyncFetchStatus();
   }, []);
 
-
   return (
     <div className={styles.allPage}>
       <title>{fileName.replace(".json", "").replace(/_/g, " ")}</title>
@@ -298,6 +298,7 @@ const File = ({ searchParams }) => {
           />
           <div className={styles.container} ref={myContainer}>
             <FormRender
+              isEditingTable={isEditingTable}
               folderName={folderName}
               items={jsonData}
               fileName={fileName}
@@ -334,6 +335,14 @@ const File = ({ searchParams }) => {
             >
               Add Table
             </Link>
+            <button
+              className={styles.linkStyle3}
+              onClick={() => {
+                setIsEditingTable(!isEditingTable);
+              }}
+            >
+              {isEditingTable ? "Close Editing" : "Edit Table"}
+            </button>
             <Iframe
               formSetting={formSetting}
               folderName={folderName}

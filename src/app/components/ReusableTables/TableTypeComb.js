@@ -10,6 +10,7 @@ import TableType6 from "./TableType6";
 import TableType6_multi from "./TableType6_multi";
 import TableType7 from "./TableType7";
 import TableType8 from "./TableType8";
+import Link from "next/link";
 
 const TableTypeComb = ({
   updateJson,
@@ -18,7 +19,8 @@ const TableTypeComb = ({
   formSetting,
   myStyle,
   onEdit,
-  insideStyle,
+  insideStyle,  isEditingTable,
+  formSettingIndex,
 }) => {
   const tableName = formSetting.tableName;
   const insideTableName = formSetting.insideTableName;
@@ -26,6 +28,31 @@ const TableTypeComb = ({
 
   const changeHandler = (newJson) => {
     onEdit(newJson);
+  };
+  const onDelete = async () => {
+    let confirmDelete = window.confirm(
+      "Are you sure you want to delete this table?"
+    );
+
+    if (confirmDelete) {
+      const Response = await fetch("/api/DeleteTable", {
+        method: "POST",
+        body: JSON.stringify({
+          folderName: folderName,
+          formSettingIndex: formSettingIndex,
+        }),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+
+      if (!Response.ok) {
+        alert("Error");
+      } else {
+        alert("Success");
+        window.location.reload();
+      }
+    }
   };
 
   return (
@@ -184,6 +211,27 @@ const TableTypeComb = ({
           })}
         </div>
       </div>
+      {isEditingTable && (
+        <div>
+          <Link
+            className={styles.linkButton}
+            rel="noopener noreferrer"
+            target="_blank"
+            href={{
+              pathname: "/editSingleTable/",
+              query: {
+                formSettingIndex: formSettingIndex,
+                folderName: folderName,
+              },
+            }}
+          >
+            Edit
+          </Link>
+          <button onClick={onDelete} className={styles.button}>
+            Delete
+          </button>
+        </div>
+      )}
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./TableType8.module.css";
 import EditableFieldForTable from "../EditableField/EditableFieldForTable";
+import Link from "next/link";
 const TableType8 = ({
   items,
   folderName,
@@ -8,7 +9,8 @@ const TableType8 = ({
   formSetting,
   myStyle,
   onEdit,
-  insideStyle,
+  insideStyle,  isEditingTable,
+  formSettingIndex,
 }) => {
   const tableName = formSetting.tableName;
   const tableHeader = formSetting.tableHeader;
@@ -59,6 +61,33 @@ const TableType8 = ({
     // updateJson[allOjb][itemName][key][0] = value;
     // onEdit(updateJson);
   };
+
+  const onDelete = async () => {
+    let confirmDelete = window.confirm(
+      "Are you sure you want to delete this table?"
+    );
+
+    if (confirmDelete) {
+      const Response = await fetch("/api/DeleteTable", {
+        method: "POST",
+        body: JSON.stringify({
+          folderName: folderName,
+          formSettingIndex: formSettingIndex,
+        }),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+
+      if (!Response.ok) {
+        alert("Error");
+      } else {
+        alert("Success");
+        window.location.reload();
+      }
+    }
+  };
+
   return (
     <div style={myStyle}>
       <>
@@ -129,6 +158,28 @@ const TableType8 = ({
           </tbody>
         </table>
       </>
+
+      {isEditingTable && (
+        <div>
+          <Link
+            className={styles.linkButton}
+            rel="noopener noreferrer"
+            target="_blank"
+            href={{
+              pathname: "/editSingleTable/",
+              query: {
+                formSettingIndex: formSettingIndex,
+                folderName: folderName,
+              },
+            }}
+          >
+            Edit
+          </Link>
+          <button onClick={onDelete} className={styles.button}>
+            Delete
+          </button>
+        </div>
+      )}
     </div>
   );
 };

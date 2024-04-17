@@ -118,3 +118,10 @@
 
   opacity: 1;
 }
+
+
+.error {
+  color: red;
+  font-size: 1.1em;
+  margin-top: 5px;
+}

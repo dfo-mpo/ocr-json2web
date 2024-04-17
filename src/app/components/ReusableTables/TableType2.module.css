@@ -46,3 +46,26 @@
 .dateDisplay > div {
   width: 33%;
 }
+.linkButton {
+  display: inline-block;
+  padding: 2px 5px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8em;
+  margin-right: 2px;
+}
+
+.button {
+  display: inline-block;
+  padding: 2px 5px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8em;
+}

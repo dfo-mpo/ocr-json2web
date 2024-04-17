@@ -1,6 +1,7 @@
 import { useState } from "react";
 import styles from "./TableType1.module.css";
 import EditableField from "../EditableField/EditableField";
+import Link from "next/link";
 
 const TableType1 = ({
   items,
@@ -10,6 +11,8 @@ const TableType1 = ({
   myStyle,
   onEdit,
   insideStyle,
+  isEditingTable,
+  formSettingIndex,
 }) => {
   const tableName = formSetting.tableName;
   const tableData = formSetting.tableData;
@@ -22,27 +25,41 @@ const TableType1 = ({
       updateJson[event.target.name][0] = event.target.value;
       updateJson[event.target.name][4] = 2;
     } else {
-      updateJson ={
+      updateJson = {
         ...updateJson,
-        [event.target.name]: [event.target.value, {}, "","",2]
-    }
+        [event.target.name]: [event.target.value, {}, "", "", 2],
+      };
     }
 
     // updateJson[event.target.name][3] = 2;
     onEdit(updateJson);
   };
-  // const [isHovered, setHovered] = useState(false);
-  // const [polygon , setPolygon] = useState({});
 
-  // const handleHover = (e) => {
-  //   setPolygon(e);
-  //   console.log(polygon);
-  //   setHovered(true);
-  // };
+  const onDelete = async () => {
+    let confirmDelete = window.confirm(
+      "Are you sure you want to delete this table?"
+    );
 
-  // const handleLeave = () => {
-  //   setHovered(false);
-  // };
+    if (confirmDelete) {
+      const Response = await fetch("/api/DeleteTable", {
+        method: "POST",
+        body: JSON.stringify({
+          folderName: folderName,
+          formSettingIndex: formSettingIndex,
+        }),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+
+      if (!Response.ok) {
+        alert("Error");
+      } else {
+        alert("Success");
+        window.location.reload();
+      }
+    }
+  };
 
   return (
     <div style={myStyle}>
@@ -74,6 +91,28 @@ const TableType1 = ({
           })}
         </tbody>
       </table>
+
+      {isEditingTable && (
+        <div>
+          <Link
+            className={styles.linkButton}
+            rel="noopener noreferrer"
+            target="_blank"
+            href={{
+              pathname: "/editSingleTable/",
+              query: {
+                formSettingIndex: formSettingIndex,
+                folderName: folderName,
+              },
+            }}
+          >
+            Edit
+          </Link>
+          <button onClick={onDelete} className={styles.button}>
+            Delete
+          </button>
+        </div>
+      )}
     </div>
   );
 };

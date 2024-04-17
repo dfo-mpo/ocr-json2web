@@ -21,6 +21,7 @@ const Form = ({
   formSetting,
   saveChange,
   cancelChange,
+  isEditingTable,
 }) => {
   const title = formSetting.title;
   const subtitle = formSetting.subtitle;
@@ -82,156 +83,185 @@ const Form = ({
         {title && <div className={styles.header1}>{title}</div>}
         {subtitle && <div className={styles.header2}>{subtitle}</div>}
       </div>
-      <div style={formSetting.style && formSetting.style}>
-        {formSetting[folderName].map((formSettingItem, index) => {
-          if (formSettingItem.tableType === "TableType1") {
-            // console.log("formSettingItem", formSettingItem.style);
+      {formSetting[folderName] ? (
+        <div style={formSetting.style && formSetting.style}>
+          {formSetting[folderName].map((formSettingItem, index) => {
+            if (formSettingItem.tableType === "TableType1") {
+              // console.log("formSettingItem", formSettingItem.style);
 
-            return (
-              <TableType1
-                myStyle={formSettingItem.style}
-                insideStyle={formSettingItem.insideStyle}
-                key={index}
-                items={updateJson}
-                folderName={folderName}
-                fileName={fileName}
-                formSetting={formSettingItem}
-                onEdit={changeHandler}
-              />
-            );
-          } else if (formSettingItem.tableType === "TableType2") {
-            return (
-              <TableType2
-                myStyle={formSettingItem.style}
-                insideStyle={formSettingItem.insideStyle}
-                key={index}
-                items={updateJson}
-                folderName={folderName}
-                fileName={fileName}
-                formSetting={formSettingItem}
-                onEdit={changeHandler}
-              />
-            );
-          } else if (formSettingItem.tableType === "TableType3") {
-            return (
-              <TableType3
-                myStyle={formSettingItem.style}
-                insideStyle={formSettingItem.insideStyle}
-                key={index}
-                items={updateJson}
-                folderName={folderName}
-                fileName={fileName}
-                formSetting={formSettingItem}
-                onEdit={changeHandler}
-              />
-            );
-          } else if (formSettingItem.tableType === "TableType4") {
-            return (
-              <TableType4
-                myStyle={formSettingItem.style}
-                insideStyle={formSettingItem.insideStyle}
-                key={index}
-                items={updateJson}
-                folderName={folderName}
-                fileName={fileName}
-                formSetting={formSettingItem}
-                onEdit={changeHandler}
-              />
-            );
-          } else if (formSettingItem.tableType === "TableType5") {
-            return (
-              <TableType5
-                myStyle={formSettingItem.style}
-                insideStyle={formSettingItem.insideStyle}
-                key={index}
-                items={updateJson}
-                folderName={folderName}
-                fileName={fileName}
-                formSetting={formSettingItem}
-                onEdit={changeHandler}
-              />
-            );
-          } else if (formSettingItem.tableType === "TableType5_reverse") {
-            return (
-              <TableType5_reverse
-                myStyle={formSettingItem.style}
-                insideStyle={formSettingItem.insideStyle}
-                key={index}
-                items={updateJson}
-                folderName={folderName}
-                fileName={fileName}
-                formSetting={formSettingItem}
-                onEdit={changeHandler}
-              />
-            );
-          } else if (formSettingItem.tableType === "TableType6") {
-            return (
-              <TableType6
-                myStyle={formSettingItem.style}
-                insideStyle={formSettingItem.insideStyle}
-                key={index}
-                items={updateJson}
-                folderName={folderName}
-                fileName={fileName}
-                formSetting={formSettingItem}
-                onEdit={changeHandler}
-              />
-            );
-          } else if (formSettingItem.tableType === "TableType6_multi") {
-            return (
-              <TableType6_multi
-                myStyle={formSettingItem.style}
-                insideStyle={formSettingItem.insideStyle}
-                key={index}
-                items={updateJson}
-                folderName={folderName}
-                fileName={fileName}
-                formSetting={formSettingItem}
-                onEdit={changeHandler}
-              />
-            );
-          } else if (formSettingItem.tableType === "TableType7") {
-            return (
-              <TableType7
-                myStyle={formSettingItem.style}
-                insideStyle={formSettingItem.insideStyle}
-                key={index}
-                items={updateJson}
-                folderName={folderName}
-                fileName={fileName}
-                formSetting={formSettingItem}
-                onEdit={changeHandler}
-              />
-            );
-          } else if (formSettingItem.tableType === "TableType8") {
-            return (
-              <TableType8
-                myStyle={formSettingItem.style}
-                insideStyle={formSettingItem.insideStyle}
-                key={index}
-                items={updateJson}
-                folderName={folderName}
-                fileName={fileName}
-                formSetting={formSettingItem}
-                onEdit={changeHandler}
-              />
-            );
-          } else if (formSettingItem.tableType === "TableTypeComb") {
-            return (
-              <TableTypeComb
-                myStyle={formSettingItem.style}
-                insideStyle={formSettingItem.insideStyle}
-                key={index}
-                updateJson={updateJson}
-                folderName={folderName}
-                fileName={fileName}
-                formSetting={formSettingItem}
-                onEdit={changeHandler}
-              />
-            );
-          }
-        })}
-      </div>
+              return (
+                <TableType1
+                  myStyle={formSettingItem.style}
+                  insideStyle={formSettingItem.insideStyle}
+                  key={index}
+                  items={updateJson}
+                  folderName={folderName}
+                  fileName={fileName}
+                  formSetting={formSettingItem}
+                  onEdit={changeHandler}
+                  isEditingTable={isEditingTable}
+                  formSettingIndex={index}
+                />
+              );
+            } else if (formSettingItem.tableType === "TableType2") {
+              return (
+                <TableType2
+                  myStyle={formSettingItem.style}
+                  insideStyle={formSettingItem.insideStyle}
+                  key={index}
+                  items={updateJson}
+                  folderName={folderName}
+                  fileName={fileName}
+                  formSetting={formSettingItem}
+                  onEdit={changeHandler}
+                  formSettingIndex={index}
+                  isEditingTable={isEditingTable}
+                />
+              );
+            } else if (formSettingItem.tableType === "TableType3") {
+              return (
+                <TableType3
+                  myStyle={formSettingItem.style}
+                  insideStyle={formSettingItem.insideStyle}
+                  key={index}
+                  items={updateJson}
+                  folderName={folderName}
+                  fileName={fileName}
+                  formSetting={formSettingItem}
+                  onEdit={changeHandler}
+                  isEditingTable={isEditingTable}
+                  formSettingIndex={index}
+                />
+              );
+            } else if (formSettingItem.tableType === "TableType4") {
+              return (
+                <TableType4
+                  myStyle={formSettingItem.style}
+                  insideStyle={formSettingItem.insideStyle}
+                  key={index}
+                  items={updateJson}
+                  folderName={folderName}
+                  fileName={fileName}
+                  formSetting={formSettingItem}
+                  onEdit={changeHandler}
+                  isEditingTable={isEditingTable}
+                  formSettingIndex={index}
+                />
+              );
+            } else if (formSettingItem.tableType === "TableType5") {
+              return (
+                <TableType5
+                  myStyle={formSettingItem.style}
+                  insideStyle={formSettingItem.insideStyle}
+                  key={index}
+                  items={updateJson}
+                  folderName={folderName}
+                  fileName={fileName}
+                  formSetting={formSettingItem}
+                  onEdit={changeHandler}
+                  isEditingTable={isEditingTable}
+                  formSettingIndex={index}
+                />
+              );
+            } else if (formSettingItem.tableType === "TableType5_reverse") {
+              return (
+                <TableType5_reverse
+                  myStyle={formSettingItem.style}
+                  insideStyle={formSettingItem.insideStyle}
+                  key={index}
+                  items={updateJson}
+                  folderName={folderName}
+                  fileName={fileName}
+                  formSetting={formSettingItem}
+                  onEdit={changeHandler}
+                  isEditingTable={isEditingTable}
+                  formSettingIndex={index}
+                />
+              );
+            } else if (formSettingItem.tableType === "TableType6") {
+              return (
+                <TableType6
+                  myStyle={formSettingItem.style}
+                  insideStyle={formSettingItem.insideStyle}
+                  key={index}
+                  items={updateJson}
+                  folderName={folderName}
+                  fileName={fileName}
+                  formSetting={formSettingItem}
+                  onEdit={changeHandler}
+                  isEditingTable={isEditingTable}
+                  formSettingIndex={index}
+                />
+              );
+            } else if (formSettingItem.tableType === "TableType6_multi") {
+              return (
+                <TableType6_multi
+                  myStyle={formSettingItem.style}
+                  insideStyle={formSettingItem.insideStyle}
+                  key={index}
+                  items={updateJson}
+                  folderName={folderName}
+                  fileName={fileName}
+                  formSetting={formSettingItem}
+                  onEdit={changeHandler}
+                  isEditingTable={isEditingTable}
+                  formSettingIndex={index}
+                />
+              );
+            } else if (formSettingItem.tableType === "TableType7") {
+              return (
+                <TableType7
+                  myStyle={formSettingItem.style}
+                  insideStyle={formSettingItem.insideStyle}
+                  key={index}
+                  items={updateJson}
+                  folderName={folderName}
+                  fileName={fileName}
+                  formSetting={formSettingItem}
+                  onEdit={changeHandler}
+                  isEditingTable={isEditingTable}
+                  formSettingIndex={index}
+                />
+              );
+            } else if (formSettingItem.tableType === "TableType8") {
+              return (
+                <TableType8
+                  myStyle={formSettingItem.style}
+                  insideStyle={formSettingItem.insideStyle}
+                  key={index}
+                  items={updateJson}
+                  folderName={folderName}
+                  fileName={fileName}
+                  formSetting={formSettingItem}
+                  onEdit={changeHandler}
+                  isEditingTable={isEditingTable}
+                  formSettingIndex={index}
+                />
+              );
+            } else if (formSettingItem.tableType === "TableTypeComb") {
+              return (
+                <TableTypeComb
+                  myStyle={formSettingItem.style}
+                  insideStyle={formSettingItem.insideStyle}
+                  key={index}
+                  updateJson={updateJson}
+                  folderName={folderName}
+                  fileName={fileName}
+                  formSetting={formSettingItem}
+                  onEdit={changeHandler}
+                  isEditingTable={isEditingTable}
+                  formSettingIndex={index}
+                />
+              );
+            }
+          })}
+        </div>
+      ) : (
+        <div className={styles.error}>
+          Folder Name does not exist. Please return to the home page and click
+          on 'Update Settings'.
+        </div>
+      )}
     </div>
   );
 };
