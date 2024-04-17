@@ -104,7 +104,7 @@ export default function EditSingleTable({ searchParams }) {
       <div className={styles.saveButtonWrapper}>
         <div
         className={styles.note}
-        >Note: Please ensure to click the green checkmark after editing each field! </div>
+        >Note: Please ensure to click the green checkmark or press 'Enter' after editing each field! </div>
         <button
           className={styles.saveButton}
           onClick={() => {
