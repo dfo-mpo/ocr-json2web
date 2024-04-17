@@ -1613,10 +1613,7 @@
       ],
       "tableData": [
         { "fieldName": "Methods", "key": "Methods" },
-        {
-          "fieldName": "%Spawn habitat surveyed",
-          "key": "%Spawn habitat surveyed"
-        },
+        { "fieldName": "%Spawn habitat surveyed", "key": "%Spawn habitat surveyed"  },
         { "fieldName": "Rel", "key": "Rel" },
         { "fieldName": "Enum Class", "key": "Enum Class" },
         { "fieldName": "Esc Code", "key": "Esc Code" },
@@ -1624,96 +1621,7 @@
         { "fieldName": "Brood stock removals", "key": "Brood stock removals" },
         { "fieldName": "Jacks", "key": "Jacks" },
         { "fieldName": "ESc Goal", "key": "ESc Goal" }
-      ],
-
-      "tableHeader2": [
-        [
-          {
-            "fieldName": "Sp",
-            "key": "",
-            "span": {}
-          },
-
-          {
-            "fieldName": "(1) Methods",
-            "key": "",
-            "span": {}
-          },
-          {
-            "fieldName": "%Spawn habitat surveyed",
-            "key": "",
-            "span": {}
-          },
-          {
-            "fieldName": "(2) Rel",
-            "key": "",
-            "span": {}
-          },
-          {
-            "fieldName": "(3) Enum Class",
-            "key": "",
-            "span": {}
-          },
-          {
-            "fieldName": "Esc Code",
-            "key": "",
-            "span": {}
-          },
-          {
-            "fieldName": "(4) Est. total adults",
-            "key": "",
-            "span": {}
-          },
-          {
-            "fieldName": "Brood stock removals",
-            "key": "",
-            "span": {}
-          },
-          {
-            "fieldName": "Jacks",
-            "key": "",
-            "span": {}
-          },
-          {
-            "fieldName": "Escapement Goal",
-            "key": "",
-            "span": {}
-          }
-        ]
-      ],
-      "tableData2": {
-        "item": [
-          { "fieldName": "SK1", "itemName": "SK 1" },
-          { "fieldName": "SK2", "itemName": "SK 2" },
-          { "fieldName": "CO1", "itemName": "CO 1" },
-          { "fieldName": "CO2", "itemName": "CO 2" },
-          { "fieldName": "PK1", "itemName": "PK 1" },
-          { "fieldName": "PK2", "itemName": "PK 2" },
-          { "fieldName": "CM1", "itemName": "CM 1" },
-          { "fieldName": "CM2", "itemName": "CM 2" },
-          { "fieldName": "CN1", "itemName": "CN 1" },
-          { "fieldName": "CN2", "itemName": "CN 2" },
-          { "fieldName": "ST1", "itemName": "ST 1" },
-          { "fieldName": "ST2", "itemName": "ST 2" },
-          { "fieldName": "AT1", "itemName": "AT 1" },
-          { "fieldName": "AT2", "itemName": "AT 2" },
-          { "fieldName": "CT1", "itemName": "CT 1" },
-          { "fieldName": "CT2", "itemName": "CT 2" },
-          { "fieldName": "TR1", "itemName": "TR 1" },
-          { "fieldName": "TR2", "itemName": "TR 2" }
-        ],
-        "key": [
-          { "key": "Methods" },
-          { "key": "%Spawn habitat surveyed" },
-          { "key": "Rel" },
-          { "key": "Enum Class" },
-          { "key": "Esc Code" },
-          { "key": "Est total adults" },
-          { "key": "Brood stock removals" },
-          { "key": "Jacks" },
-          { "key": "ESc Goal" }
-        ]
-      }
+      ]
     },
     {
       "tableType": "TableType6",

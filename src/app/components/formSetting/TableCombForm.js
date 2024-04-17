@@ -5,7 +5,9 @@ import Table2Form from "./TableCombine/Table2Form";
 import Table3Form from "./TableCombine/Table3Form";
 import Table4Form from "./TableCombine/Table4Form";
 import Table5Form from "./TableCombine/Table5Form";
+import Table5FormReverse from "./TableCombine/Table5FormReverse";
 import Table6Form from "./TableCombine/Table6Form";
+import Table6MultiForm from "./TableCombine/Table6MultiForm";
 import Table7Form from "./TableCombine/Table7Form";
 import Table8Form from "./TableCombine/Table8Form";
 import FormSettingButton from "./FormSettingButton";
@@ -66,6 +68,7 @@ const TableCombForm = ({ folderName, onRemove, onSave }) => {
   const onSaveHandler = (data, index) => {
     const newInsideFormSetting = [...insideFormSetting];
     newInsideFormSetting[index] = { ...data };
+    console.log("newInsideFormSetting", newInsideFormSetting);
     setInsideFormSetting(newInsideFormSetting);
   };
   // if the tableCom is inside of the tableCom then the save button will be used
@@ -123,7 +126,6 @@ const TableCombForm = ({ folderName, onRemove, onSave }) => {
         insideFormSetting: insideFormSetting,
       };
 
-      console.log(submitData);
       const Response = await fetch("/api/saveFormSettingTable", {
         method: "POST",
         body: JSON.stringify(submitData),
@@ -156,7 +158,9 @@ const TableCombForm = ({ folderName, onRemove, onSave }) => {
     TableType3: Table3Form,
     TableType4: Table4Form,
     TableType5: Table5Form,
+    TableType5_reverse: Table5FormReverse,
     TableType6: Table6Form,
+    TableType6_multi: Table6MultiForm,
     TableType7: Table7Form,
     TableType8: Table8Form,
     TableTypeComb: TableCombForm,
@@ -226,7 +230,9 @@ const TableCombForm = ({ folderName, onRemove, onSave }) => {
         <option value="TableType3">Table type3</option>
         <option value="TableType4">Table type4</option>
         <option value="TableType5">Table type5</option>
+        <option value = "TableType5_reverse">Table type5 Reverse</option>
         <option value="TableType6">Table type6</option>
+        <option value="TableType6_multi">Table type6 Multi</option>
         <option value="TableType7">Table type7</option>
         <option value="TableType8">Table type8</option>
         <option value="TableTypeComb">Table combine</option>

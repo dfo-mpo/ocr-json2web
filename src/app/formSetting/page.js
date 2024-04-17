@@ -6,7 +6,9 @@ import Table2Form from "../components/formSetting/Table2Form";
 import Table3Form from "../components/formSetting/Table3Form";
 import Table4Form from "../components/formSetting/Table4Form";
 import Table5Form from "../components/formSetting/Table5Form";
+import Table5FormReverse from "../components/formSetting/Table5FormReverse";
 import Table6Form from "../components/formSetting/Table6Form";
+import Table6MultiForm from "../components/formSetting/Table6MultiForm";
 import Table7Form from "../components/formSetting/Table7Form";
 import Table8Form from "../components/formSetting/Table8Form";
 import TableCombForm from "../components/formSetting/TableCombForm";
@@ -30,8 +32,12 @@ const formSetting = ({ searchParams }) => {
     form = <Table4Form folderName={folderName} />;
   } else if (tableType === "TableType5") {
     form = <Table5Form folderName={folderName} />;
+  } else if (tableType === "TableType5_reverse") {
+    form = <Table5FormReverse folderName={folderName} />;
   } else if (tableType === "TableType6") {
     form = <Table6Form folderName={folderName} />;
+  } else if (tableType === "TableType6_Multi") {
+    form = <Table6MultiForm folderName={folderName} />;
   } else if (tableType === "TableType7") {
     form = <Table7Form folderName={folderName} />;
   } else if (tableType === "TableType8") {
@@ -51,7 +57,9 @@ const formSetting = ({ searchParams }) => {
         <option value="TableType3">Table type3</option>
         <option value="TableType4">Table type4</option>
         <option value="TableType5">Table type5</option>
+        <option value="TableType5_reverse">Table type5 reverse</option>
         <option value="TableType6">Table type6</option>
+        <option value="TableType6_Multi">Table type6 Multi</option>
         <option value="TableType7">Table type7</option>
         <option value="TableType8">Table type8</option>
         <option value="TableTypeComb">Table combine</option>
