@@ -69,7 +69,7 @@ const TableType1 = ({
           {tableData.map((data, index) => {
             return (
               <tr key={index}>
-                <td style={insideStyle}>{data.fieldName}</td>
+                {data.fieldName && <td style={insideStyle}>{data.fieldName}</td>}
                 <td style={insideStyle}>
                   <EditableField
                     // onMouseEnter={() =>
