@@ -71,7 +71,7 @@ const TableType6_multi = ({
   };
 
   return (
-    <div style={myStyle}>
+    <div style={myStyle} >
       {tableName && <div className={styles.title}>{tableName}</div>}
       <div className={styles.wrapper} style={insideStyle}>
         {insideTableName && (
