@@ -15,6 +15,7 @@ const TableType1 = ({
   formSettingIndex,
 }) => {
   const tableName = formSetting.tableName;
+  const insideTableName = formSetting.insideTableName;
   const tableData = formSetting.tableData;
   let updateJson = { ...items };
   const handleChange = (event) => {
@@ -65,12 +66,13 @@ const TableType1 = ({
     <div style={myStyle}>
       {tableName && <div className={styles.title}>{tableName}</div>}
       <table className={styles.myTable} style={insideStyle}>
+        {insideTableName && <div className={`${styles.title} ${styles.insideTitle}`}>{insideTableName}</div>}
         <tbody>
           {tableData.map((data, index) => {
             return (
               <tr key={index}>
                 {data.fieldName && <td style={insideStyle}>{data.fieldName}</td>}
-                <td style={insideStyle}>
+                {data.key && <td style={insideStyle}>
                   <EditableField
                     // onMouseEnter={() =>
                     //   handleHover(items[data.key] ? items[data.key][1] : "")
@@ -85,7 +87,7 @@ const TableType1 = ({
                     fieldValue={items[data.key] ? items[data.key][0] : ""}
                     handleChange={handleChange}
                   />
-                </td>
+                </td>}
               </tr>
             );
           })}

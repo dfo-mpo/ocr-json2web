@@ -14,6 +14,7 @@ const Table1Form = ({ folderName }) => {
   const submitHandler = async (e) => {
     const tableType = e.target.tableType.value;
     const tableName = e.target.tableName.value;
+    const insideTableName = e.target.insideTableName.value;
     const gridColumnStart = e.target.gridColumnStart.value;
     const gridColumnEnd = e.target.gridColumnEnd.value;
     const gridRowStart = e.target.gridRowStart.value;
@@ -55,6 +56,7 @@ const Table1Form = ({ folderName }) => {
         folderName: folderName,
         tableType: tableType,
         tableName: tableName,
+        insideTableName: insideTableName,
         style: style,
         insideStyle: insideStyle,
         tableData: tableData,
@@ -112,6 +114,16 @@ const Table1Form = ({ folderName }) => {
           name="tableName"
           type="text"
           placeholder="tableName"
+        />
+      </div>
+
+      <div className={styles.inputGroup}>
+        <label htmlFor="insideTableName">Inside Table Name</label>
+        <input
+          id="insideTableName"
+          name="insideTableName"
+          type="text"
+          placeholder="insideTableName"
         />
       </div>
 
