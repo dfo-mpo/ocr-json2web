@@ -90,7 +90,7 @@ const TableType5 = ({
                     const rowSpan = span && span.rowSpan ? span.rowSpan : 1;
                     const colSpan = span && span.colSpan ? span.colSpan : 1;
                     return (
-                      <td key={index} rowSpan={rowSpan} colSpan={colSpan}>
+                      <>
                         {data.key ? (
                           itemOjb[rowItem] ? (
                             itemOjb[rowItem][data.key][0]
@@ -98,11 +98,15 @@ const TableType5 = ({
                             ""
                           )
                         ) : (
-                          <span className={styles.tdFieldName}>
-                            {data.fieldName}
-                          </span>
+                          data.fieldName && (
+                            <td key={index} rowSpan={rowSpan} colSpan={colSpan}>
+                              <span className={styles.tdFieldName}>
+                                {data.fieldName}
+                              </span>
+                            </td>
+                          )
                         )}
-                      </td>
+                      </>
                     );
                   })}
                 </tr>
@@ -114,7 +118,7 @@ const TableType5 = ({
                   const rowItem = data.itemName;
                   return (
                     <tr key={index}>
-                      <td className={styles.tdFieldName}>{data.fieldName}</td>
+                      {data.fieldName && <td className={styles.tdFieldName}>{data.fieldName}</td>}
                       {tableData.key.map((data, index) => {
                         const key = data.key;
                         return (

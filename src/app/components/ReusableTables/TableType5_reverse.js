@@ -85,7 +85,7 @@ const TableType5_reverse = ({
             <tr>
               {tableHeader.map((header, index) => {
                 return (
-                  <td className={styles.tdFieldName} key={index}>
+                  header.fieldName && <td className={styles.tdFieldName} key={index}>
                     {header.fieldName}
                   </td>
                 );
@@ -106,6 +106,8 @@ const TableType5_reverse = ({
                     const dataKey = data.key;
 
                     return (
+                      <>
+                      {index===0 && data.fieldName && <td className={styles.tdFieldName}>{data.fieldName}</td>}
                       <td key={index}>
                         {header.itemName === "" ? (
                           <span className={styles.tdFieldName}>
@@ -138,6 +140,7 @@ const TableType5_reverse = ({
                           />
                         )}
                       </td>
+                      </>
                     );
                   })}
                 </tr>
