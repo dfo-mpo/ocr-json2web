@@ -1,11 +1,13 @@
-.myTable {
+.myBox {
   border: 1px solid black;
   border-collapse: collapse;
+}
+
+.myTable {
   width: 100%;
 }
 
 .myTable tr td {
-  border-bottom: 1px solid black;
   padding: 0 10px;
 }
 

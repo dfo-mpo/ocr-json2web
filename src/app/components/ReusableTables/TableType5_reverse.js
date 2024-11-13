@@ -40,11 +40,11 @@ const TableType5_reverse = ({
         ...singleItem,
       };
     }
-    if (!updateJson[allOjb][itemName][key]) {
-      updateJson[allOjb][itemName][key] = [value, {}, "", "", "", 2];
+    if (!updateJson[allOjb][key][itemName]) {
+      updateJson[allOjb][key][itemName] = [value, {}, "", "", "", 2];
     } else {
-      updateJson[allOjb][itemName][key][0] = value;
-      updateJson[allOjb][itemName][key][4] = 2;
+      updateJson[allOjb][key][itemName][0] = value;
+      updateJson[allOjb][key][itemName][4] = 2;
     }
 
     // updateJson[allOjb][itemName][key][0] = value;
@@ -99,9 +99,9 @@ const TableType5_reverse = ({
                     // console.log("header", header);
                     // console.log("headerFiled", header.itemName);
 
-                    // console.log("data", data.key);
+                    // console.log("data", data);
 
-                    // console.log("obj", itemOjb[header.itemName]);
+                    // console.log("obj", itemOjb[index][header.itemName]);
                     const itemName = header.itemName;
                     const dataKey = data.key;
 
@@ -117,21 +117,31 @@ const TableType5_reverse = ({
                           //   itemOjb[header.itemName][data.key] &&
                           //   itemOjb[header.itemName][data.key][0]}
                           // </div>
+                          // <>
+                          // {
+                          //   console.log(itemName)}
+                            
+                          //     {
+                          //       console.log(itemOjb)}
+                          //       {
+                          //   console.log(dataKey)}
+                          //   {console.log(itemOjb[dataKey])
+                          // }
+                          // </>
+                          
                           <EditableFieldForTable
                             itemName={itemName}
                             fieldKey={dataKey}
                             fieldValue={
-                              itemOjb &&
-                              itemOjb[itemName] &&
-                              itemOjb[itemName][dataKey]
-                                ? itemOjb[itemName][dataKey][0]
+                              itemOjb[dataKey] &&
+                              itemOjb[dataKey][itemName]
+                                ? itemOjb[dataKey][itemName][0]
                                 : ""
                             }
                             isFlag={
-                              itemOjb &&
-                              itemOjb[itemName] &&
-                              itemOjb[itemName][dataKey]
-                                ? itemOjb[itemName][dataKey][4]
+                              itemOjb[dataKey] &&
+                              itemOjb[dataKey][itemName]
+                                ? itemOjb[dataKey][itemName][0]
                                 : ""
                             }
                             handleChange={handleChange}

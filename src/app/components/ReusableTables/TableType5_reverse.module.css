@@ -28,6 +28,10 @@
   font-weight: 400;
 }
 
+.myTable div {
+  text-align: left;
+  padding-left: 4px;
+}
 .myTable td {
   height: 1.2em;
   border-collapse: collapse;
@@ -48,7 +52,8 @@
 .tdFieldName{
   font-weight: 600;
   font-size: 0.86em;
-
+  text-align: start;
+  padding-left: 4px;
 }
 
 .linkButton {
