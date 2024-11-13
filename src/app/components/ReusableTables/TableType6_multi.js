@@ -70,8 +70,13 @@ const TableType6_multi = ({
     }
   };
 
+  const combinedStyle = {  
+    ...myStyle,  
+    ...insideStyle  
+  };
+
   return (
-    <div style={myStyle} >
+    <div style={combinedStyle} className={styles.myBox}>
       {tableName && <div className={styles.title}>{tableName}</div>}
       <div className={styles.wrapper} style={insideStyle}>
         {insideTableName && (

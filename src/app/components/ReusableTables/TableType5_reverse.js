@@ -133,12 +133,14 @@ const TableType5_reverse = ({
                             itemName={itemName}
                             fieldKey={dataKey}
                             fieldValue={
+                              itemOjb &&
                               itemOjb[dataKey] &&
                               itemOjb[dataKey][itemName]
                                 ? itemOjb[dataKey][itemName][0]
                                 : ""
                             }
                             isFlag={
+                              itemOjb &&
                               itemOjb[dataKey] &&
                               itemOjb[dataKey][itemName]
                                 ? itemOjb[dataKey][itemName][0]
