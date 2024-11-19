@@ -107,8 +107,6 @@ const TableType5_reverse = ({
                     const dataKey = data.key;
 
                     return (
-                      <>
-                      {index===0 && data.fieldName && <td className={styles.tdFieldName}>{data.fieldName}</td>}
                       <td key={index}>
                         {header.itemName === "" ? (
                           <span className={styles.tdFieldName}>
@@ -141,7 +139,6 @@ const TableType5_reverse = ({
                           </div>
                         )}
                       </td>
-                      </>
                     );
                   })}
                 </tr>
