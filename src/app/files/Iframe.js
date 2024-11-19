@@ -8,15 +8,15 @@ const Iframe = ({ fileName, formSetting, folderName, pageHeight }) => {
   const [pdfUrl, setPdfUrl] = useState();
   const [isPdf, setIsPdf] = useState(true);
 
-  const [newPageHeight, setNewPageHeight] = useState(pageHeight);
+  const [newPageHeight, setNewPageHeight] = useState(1000);
   console.log("pageHeight", pageHeight);
 
   useEffect(() => {
-    if (pageHeight < 1000) {
-      setNewPageHeight(1000);
-    } else {
-      setNewPageHeight(pageHeight);
-    }
+    // if (pageHeight < 1000) {
+    //   setNewPageHeight(1000);
+    // } else {
+    //   setNewPageHeight(pageHeight);
+    // }
   }, [pageHeight]);
 
   // const showPDF = formSetting.showPDF;

@@ -16,7 +16,7 @@ const TableType6_multi = ({
   const tableName = formSetting.tableName;
   const tableData = formSetting.tableData;
   const insideTableName = formSetting.insideTableName;
-
+  const stackFields = formSetting.stackFields;
 
 
   let updateJson = { ...items };
@@ -94,6 +94,7 @@ const TableType6_multi = ({
                         // isFlag={items[data.key][3]}
                         fieldName={key.key}
                         fieldText={key.displayName}
+                        stackFields={stackFields === "true"}
                         // fieldValue={items[data.key]}
                         //TODO: items[data.key][0] for TAN's json version
                         fieldValue={items[key.key] ? items[key.key][0] : ""}

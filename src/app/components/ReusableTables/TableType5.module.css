@@ -28,12 +28,16 @@
   font-weight: 400;
 }
 
+.myTableBoxed td {
+  border: 1px solid rgb(143, 143, 143);
+}
 .myTable td {
   height: 1.2em;
   border-collapse: collapse;
-  border: 1px solid rgb(143, 143, 143);
+  border-bottom: 1px solid rgb(143, 143, 143);
   width: auto;
   font-size: 0.8em;
+  min-width: 35px;
 }
 .myTable {
   text-align: center;
@@ -48,8 +52,14 @@
 .tdFieldName{
   font-weight: 600;
   font-size: 0.86em;
-
 }
+
+.tdRowName {
+  font-size: 0.68em !important;
+  text-align: start;
+  padding-left: 5px;
+}
+
 .linkButton {
   display: inline-block;
   padding: 2px 5px;

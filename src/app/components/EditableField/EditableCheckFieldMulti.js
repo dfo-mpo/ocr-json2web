@@ -4,6 +4,7 @@ import styles from "./EditableCheckFieldMulti.module.css";
 const EditableCheckFieldMulti = ({
   fieldName,
   fieldValue,
+  stackFields,
   isFlag,
   handleChange,
   fieldText,
@@ -25,7 +26,7 @@ const EditableCheckFieldMulti = ({
       break;
   }
   return (
-    <label htmlFor={fieldName} className={styles.checkboxLabel}>
+    <label htmlFor={fieldName} className={`${styles.checkboxLabel} ${stackFields ? styles.stackFields : ''}`}>
       <input
         id={fieldName}
         type="checkbox"

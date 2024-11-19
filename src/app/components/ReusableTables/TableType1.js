@@ -9,6 +9,7 @@ const TableType1 = ({
   fileName,
   formSetting,
   myStyle,
+  selfStyle,
   onEdit,
   insideStyle,
   isEditingTable,
@@ -62,10 +63,15 @@ const TableType1 = ({
     }
   };
 
+  const combinedStyle = {  
+    ...myStyle,  
+    ...insideStyle  
+  }; 
+
   return (
-    <div style={myStyle}>
+    <div style={combinedStyle} className={styles.myBox}>
       {tableName && <div className={styles.title}>{tableName}</div>}
-      <table className={styles.myTable} style={insideStyle}>
+      <table className={styles.myTable} style={selfStyle}>
         {insideTableName && <div className={`${styles.title} ${styles.insideTitle}`}>{insideTableName}</div>}
         <tbody>
           {tableData.map((data, index) => {

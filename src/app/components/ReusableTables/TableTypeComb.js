@@ -55,19 +55,30 @@ const TableTypeComb = ({
     }
   };
 
+  const combInsideStyle = {
+    display: myStyle.alignSelf !== '' ? 'flex' : 'block',
+    ...insideStyle
+  }
+
+  const {alignSelf, ...combineMyStyle} = myStyle
+
   return (
-    <div style={myStyle}>
+    <div style={combineMyStyle}>
       {tableName && <div className={styles.title}>{tableName}</div>}
-      <div className={styles.wrapper} style={insideStyle}>
+      <div className={styles.wrapper} style={combInsideStyle}>
         {insideTableName && (
           <div className={styles.title2}>{insideTableName}</div>
         )}
         <div style={formSetting.style && formSetting.style}>
           {insideFormSetting.map((formSettingItem, index) => {
             if (formSettingItem.tableType === "TableType1") {
+              const { alignSelf, justifySelf, ...otherStyles } = formSettingItem.style;
+              const selfStyle = {alignSelf, justifySelf}
+
               return (
                 <TableType1
-                  myStyle={formSettingItem.style}
+                  myStyle={otherStyles}
+                  selfStyle={selfStyle}
                   insideStyle={formSettingItem.insideStyle}
                   key={index}
                   items={updateJson}

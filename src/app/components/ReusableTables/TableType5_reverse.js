@@ -14,6 +14,7 @@ const TableType5_reverse = ({
 }) => {
   const tableName = formSetting.tableName;
   const tableHeader = formSetting.tableHeader;
+  const displayFieldNames = formSetting.displayFieldNames;
 
   const tableData = formSetting.tableData;
   const allOjb = formSetting.itemName;
@@ -82,7 +83,7 @@ const TableType5_reverse = ({
         {tableName && <div className={styles.title}>{tableName}</div>}
         <table className={styles.myTable} style={insideStyle}>
           <tbody>
-            <tr>
+            {/* <tr>
               {tableHeader.map((header, index) => {
                 return (
                   <td className={styles.tdFieldName} key={index}>
@@ -90,7 +91,7 @@ const TableType5_reverse = ({
                   </td>
                 );
               })}
-            </tr>
+            </tr> */}
 
             {tableData.map((data, index) => {
               return (
@@ -112,30 +113,30 @@ const TableType5_reverse = ({
                             {data.fieldName}
                           </span>
                         ) : (
-                          // <div>
-                          // {itemOjb[header.itemName] &&
-                          //   itemOjb[header.itemName][data.key] &&
-                          //   itemOjb[header.itemName][data.key][0]}
-                          // </div>
-                          <EditableFieldForTable
-                            itemName={itemName}
-                            fieldKey={dataKey}
-                            fieldValue={
-                              itemOjb &&
-                              itemOjb[itemName] &&
-                              itemOjb[itemName][dataKey]
-                                ? itemOjb[itemName][dataKey][0]
-                                : ""
-                            }
-                            isFlag={
-                              itemOjb &&
-                              itemOjb[itemName] &&
-                              itemOjb[itemName][dataKey]
-                                ? itemOjb[itemName][dataKey][4]
-                                : ""
-                            }
-                            handleChange={handleChange}
-                          />
+                          <div className={displayFieldNames === "true"? styles.contentContainer : styles.editFieldContainer}>
+                            <div style={{display: displayFieldNames === "true"? '' : 'none'}}>
+                                {data.key}
+                            </div>
+                            <EditableFieldForTable
+                              itemName={itemName}
+                              fieldKey={dataKey}
+                              fieldValue={
+                                itemOjb &&
+                                itemOjb[itemName] &&
+                                itemOjb[itemName][dataKey]
+                                  ? itemOjb[itemName][dataKey][0]
+                                  : ""
+                              }
+                              isFlag={
+                                itemOjb &&
+                                itemOjb[itemName] &&
+                                itemOjb[itemName][dataKey]
+                                  ? itemOjb[itemName][dataKey][4]
+                                  : ""
+                              }
+                              handleChange={handleChange}
+                            />
+                          </div>
                         )}
                       </td>
                     );

@@ -15,6 +15,7 @@ const TableType5 = ({
   const tableName = formSetting.tableName;
   const tableHeader = formSetting.tableHeader;
   const tableData = formSetting.tableData;
+  const hideSideLines = formSetting.hideSideLines;
   const allOjb = formSetting.itemName;
   const itemOjb = items[allOjb];
 
@@ -79,7 +80,7 @@ const TableType5 = ({
     <div style={myStyle}>
       <>
         {tableName && <div className={styles.title}>{tableName}</div>}
-        <table className={styles.myTable} style={insideStyle}>
+        <table className={`${styles.myTable} ${hideSideLines === 'true'? '' : styles.myTableBoxed}`} style={insideStyle}>
           <tbody>
             {tableHeader.map((data, index) => {
               return (
@@ -90,7 +91,7 @@ const TableType5 = ({
                     const rowSpan = span && span.rowSpan ? span.rowSpan : 1;
                     const colSpan = span && span.colSpan ? span.colSpan : 1;
                     return (
-                      <td key={index} rowSpan={rowSpan} colSpan={colSpan}>
+                      <td key={index} rowSpan={rowSpan} colSpan={colSpan} style={{display: data.fieldName ? '' : 'none'}}>
                         {data.key ? (
                           itemOjb[rowItem] ? (
                             itemOjb[rowItem][data.key][0]
@@ -98,7 +99,7 @@ const TableType5 = ({
                             ""
                           )
                         ) : (
-                          <span className={styles.tdFieldName}>
+                          <span className={styles.tdFieldName} >
                             {data.fieldName}
                           </span>
                         )}
@@ -114,7 +115,7 @@ const TableType5 = ({
                   const rowItem = data.itemName;
                   return (
                     <tr key={index}>
-                      <td className={styles.tdFieldName}>{data.fieldName}</td>
+                      <td className={styles.tdRowName} style={{display: data.fieldName ? '' : 'none'}}>{data.fieldName}</td>
                       {tableData.key.map((data, index) => {
                         const key = data.key;
                         return (

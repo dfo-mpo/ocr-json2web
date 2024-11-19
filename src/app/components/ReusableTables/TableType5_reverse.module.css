@@ -28,12 +28,16 @@
   font-weight: 400;
 }
 
+.myTable td div {
+  min-width: 35px;
+}
 .myTable td {
   height: 1.2em;
   border-collapse: collapse;
   border: 1px solid rgb(143, 143, 143);
   width: auto;
   font-size: 0.8em;
+  min-width: 35px;
 }
 .myTable {
   text-align: center;
@@ -42,7 +46,16 @@
   width: 100%;
 }
 
+.contentContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
+.contentContainer div:first-child {
+  margin-right: 5px;
+  font-weight: bold;
+}
 
 
 .tdFieldName{

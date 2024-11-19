@@ -88,10 +88,13 @@ const Form = ({
           {formSetting[folderName].map((formSettingItem, index) => {
             if (formSettingItem.tableType === "TableType1") {
               // console.log("formSettingItem", formSettingItem.style);
+              const { alignSelf, justifySelf, ...otherStyles } = formSettingItem.style;
+              const selfStyle = {alignSelf, justifySelf}
 
               return (
                 <TableType1
-                  myStyle={formSettingItem.style}
+                  myStyle={otherStyles}
+                  selfStyle={selfStyle}
                   insideStyle={formSettingItem.insideStyle}
                   key={index}
                   items={updateJson}

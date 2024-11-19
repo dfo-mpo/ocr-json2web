@@ -1,7 +1,9 @@
 .container {
   width: 100%;
-  max-width: 1030px; /* For larger screens */
+  display: 'inline-table !important';
+  /* max-width: 1030px; For larger screens */
   margin: 0 auto; /* Center the container */
+
 }
 
 /* Media query for tablets */
