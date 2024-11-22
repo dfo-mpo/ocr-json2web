@@ -27,6 +27,7 @@
 }
 .selectedBox {
   display: flex;
+  flex-grow: 1;
 }
 .filedName {
   width: 100%;
