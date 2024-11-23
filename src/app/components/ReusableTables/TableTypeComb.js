@@ -10,6 +10,8 @@ import TableType6 from "./TableType6";
 import TableType6_multi from "./TableType6_multi";
 import TableType7 from "./TableType7";
 import TableType8 from "./TableType8";
+import TableType9 from "./TableType9";
+import TableType10 from "./TableType10";
 import Link from "next/link";
 
 const TableTypeComb = ({
@@ -25,6 +27,7 @@ const TableTypeComb = ({
   const tableName = formSetting.tableName;
   const insideTableName = formSetting.insideTableName;
   const insideFormSetting = formSetting.insideFormSetting;
+  const evenColumns = formSetting.evenColumns;
 
   const changeHandler = (newJson) => {
     onEdit(newJson);
@@ -69,7 +72,7 @@ const TableTypeComb = ({
         {insideTableName && (
           <div className={styles.title2}>{insideTableName}</div>
         )}
-        <div style={formSetting.style && formSetting.style}>
+        <div style={formSetting.style && formSetting.style} className={evenColumns ? styles.evenColumns : ''}>
           {insideFormSetting.map((formSettingItem, index) => {
             if (formSettingItem.tableType === "TableType1") {
               const { alignSelf, justifySelf, ...otherStyles } = formSettingItem.style;
@@ -195,6 +198,32 @@ const TableTypeComb = ({
             } else if (formSettingItem.tableType === "TableType8") {
               return (
                 <TableType8
+                  myStyle={formSettingItem.style}
+                  insideStyle={formSettingItem.insideStyle}
+                  key={index}
+                  items={updateJson}
+                  folderName={folderName}
+                  fileName={fileName}
+                  formSetting={formSettingItem}
+                  onEdit={changeHandler}
+                />
+              );
+            } else if (formSettingItem.tableType === "TableType9") {
+              return (
+                <TableType9
+                  myStyle={formSettingItem.style}
+                  insideStyle={formSettingItem.insideStyle}
+                  key={index}
+                  items={updateJson}
+                  folderName={folderName}
+                  fileName={fileName}
+                  formSetting={formSettingItem}
+                  onEdit={changeHandler}
+                />
+              );
+            } else if (formSettingItem.tableType === "TableType10") {
+              return (
+                <TableType10
                   myStyle={formSettingItem.style}
                   insideStyle={formSettingItem.insideStyle}
                   key={index}

@@ -1,0 +1,89 @@
+.wrapper {
+  border: 1px solid black;
+}
+
+.title {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.title2 {
+  margin: 5px;
+  font-weight: 550;
+
+}
+
+.myList {
+  margin: 0;
+  padding: 10px;
+  list-style-type: none;
+}
+.myList li {
+  font-weight: 550;
+}
+
+.subList {
+  padding: 10px 0 10px 10px;
+  font-size: 0.85em;
+  font-weight: 400;
+}
+
+.myTableBoxed td {
+  border: 1px solid rgb(143, 143, 143);
+}
+.myTable td {
+  height: 1.2em;
+  border-collapse: collapse;
+  border-bottom: 1px solid rgb(143, 143, 143);
+  width: auto;
+  font-size: 0.8em;
+  min-width: 35px;
+}
+.myTable {
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 100%;
+}
+
+
+
+
+.tdFieldName{
+  font-weight: 600;
+  font-size: 0.86em;
+}
+
+.tdRowName {
+  font-size: 0.68em !important;
+  padding-left: 5px;
+}
+
+.position {
+  font-weight: bold;
+  font-size: large;
+}
+
+.linkButton {
+  display: inline-block;
+  padding: 2px 5px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8em;
+  margin-right: 2px;
+}
+
+.button {
+  display: inline-block;
+  padding: 2px 5px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8em;
+}

@@ -18,6 +18,8 @@ const TableType1 = ({
   const tableName = formSetting.tableName;
   const insideTableName = formSetting.insideTableName;
   const tableData = formSetting.tableData;
+  const smallText = formSetting.smallText;
+  const smallTitle = formSetting.smallTitle;
   let updateJson = { ...items };
   const handleChange = (event) => {
     // updateJson[event.target.name] = event.target.value;
@@ -70,13 +72,13 @@ const TableType1 = ({
 
   return (
     <div style={combinedStyle} className={styles.myBox}>
-      {tableName && <div className={styles.title}>{tableName}</div>}
+      {tableName && <div className={styles.title} style={{fontSize: smallTitle ? '0.86em' : ''}}>{tableName}</div>}
       <table className={styles.myTable} style={selfStyle}>
-        {insideTableName && <div className={`${styles.title} ${styles.insideTitle}`}>{insideTableName}</div>}
+        {insideTableName && <div className={`${styles.title} ${styles.insideTitle}`} style={{fontSize: smallTitle ? '0.86em' : ''}}>{insideTableName}</div>}
         <tbody>
           {tableData.map((data, index) => {
             return (
-              <tr key={index}>
+              <tr key={index} className={smallText === 'true' ? styles.smallText : ''}>
                 {data.fieldName && <td style={insideStyle}>{data.fieldName}</td>}
                 {data.key && <td style={insideStyle}>
                   <EditableField

@@ -13,6 +13,8 @@ import TableType6_multi from "./ReusableTables/TableType6_multi";
 import TableTypeComb from "./ReusableTables/TableTypeComb";
 import TableType7 from "./ReusableTables/TableType7";
 import TableType8 from "./ReusableTables/TableType8";
+import TableType9 from "./ReusableTables/TableType9";
+import TableType10 from "./ReusableTables/TableType10";
 
 const Form = ({
   items,
@@ -229,6 +231,36 @@ const Form = ({
             } else if (formSettingItem.tableType === "TableType8") {
               return (
                 <TableType8
+                  myStyle={formSettingItem.style}
+                  insideStyle={formSettingItem.insideStyle}
+                  key={index}
+                  items={updateJson}
+                  folderName={folderName}
+                  fileName={fileName}
+                  formSetting={formSettingItem}
+                  onEdit={changeHandler}
+                  isEditingTable={isEditingTable}
+                  formSettingIndex={index}
+                />
+              );
+            } else if (formSettingItem.tableType === "TableType9") {
+              return (
+                <TableType9
+                  myStyle={formSettingItem.style}
+                  insideStyle={formSettingItem.insideStyle}
+                  key={index}
+                  items={updateJson}
+                  folderName={folderName}
+                  fileName={fileName}
+                  formSetting={formSettingItem}
+                  onEdit={changeHandler}
+                  isEditingTable={isEditingTable}
+                  formSettingIndex={index}
+                />
+              );
+            } else if (formSettingItem.tableType === "TableType10") {
+              return (
+                <TableType10
                   myStyle={formSettingItem.style}
                   insideStyle={formSettingItem.insideStyle}
                   key={index}
