@@ -14,6 +14,7 @@ const TableType6_multi = ({
   formSettingIndex,
 }) => {
   const tableName = formSetting.tableName;
+  const smallText = formSetting.smallText;
   const tableData = formSetting.tableData;
   const insideTableName = formSetting.insideTableName;
   const stackFields = formSetting.stackFields;
@@ -82,8 +83,8 @@ const TableType6_multi = ({
      
             return (
               <li key={index} className={styles.tableRow}>
-               {data.fieldName&& <div className={styles.filedName}>{data.fieldName}</div>}
-                <div className ={styles.selectedBox}>
+               {data.fieldName&& <div className={styles.filedName} style={{fontSize: smallText? '0.78em' : ''}}>{data.fieldName}</div>}
+                <div className ={styles.selectedBox} style={{fontSize: smallText? '0.78em' : ''}}>
                 {data.key &&
                   data.key.map((key, index) => {
                     return (

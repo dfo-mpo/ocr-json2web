@@ -25,6 +25,7 @@ const TableTypeComb = ({
   formSettingIndex,
 }) => {
   const tableName = formSetting.tableName;
+  const smallTitle = formSetting.smallTitle;
   const insideTableName = formSetting.insideTableName;
   const insideFormSetting = formSetting.insideFormSetting;
   const evenColumns = formSetting.evenColumns;
@@ -70,7 +71,7 @@ const TableTypeComb = ({
       {tableName && <div className={styles.title}>{tableName}</div>}
       <div className={styles.wrapper} style={combInsideStyle}>
         {insideTableName && (
-          <div className={styles.title2}>{insideTableName}</div>
+          <div className={styles.title2} style={{fontSize: smallTitle === 'true'? '0.80em' : ''}}>{insideTableName}</div>
         )}
         <div style={formSetting.style && formSetting.style} className={evenColumns ? styles.evenColumns : ''}>
           {insideFormSetting.map((formSettingItem, index) => {

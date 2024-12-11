@@ -3,7 +3,10 @@
 }
 
 .title {
-  margin-top: 10px;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: fit-content;
   font-weight: 600;
 }
 
@@ -44,10 +47,14 @@
   border-collapse: collapse;
   border: 1px solid black;
   width: 100%;
+  /* table-layout: fixed; */
 }
 
 
-
+.smallerText {
+  font-weight: 600;
+  font-size: 0.76em !important;
+}
 
 .tdFieldName{
   font-weight: 600;

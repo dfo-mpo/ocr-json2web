@@ -14,6 +14,7 @@ const TableType6 = ({
   formSettingIndex,
 }) => {
   const tableName = formSetting.tableName;
+  const row = formSetting.row;
   const tableData = formSetting.tableData;
   const insideTableName = formSetting.insideTableName;
   let updateJson = { ...items };
@@ -68,9 +69,9 @@ const TableType6 = ({
   };
 
   return (
-    <div style={myStyle}>
+    <div style={myStyle} class={styles.grid}>
       {tableName && <div className={styles.title}>{tableName}</div>}
-      <div className={styles.wrapper} style={insideStyle}>
+      <div className={row === 'true'? styles.row : styles.wrapper} style={insideStyle}>
         {insideTableName && (
           <div className={styles.title2}>{insideTableName}</div>
         )}

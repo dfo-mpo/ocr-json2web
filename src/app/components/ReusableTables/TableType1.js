@@ -74,13 +74,13 @@ const TableType1 = ({
     <div style={combinedStyle} className={styles.myBox}>
       {tableName && <div className={styles.title} style={{fontSize: smallTitle ? '0.86em' : ''}}>{tableName}</div>}
       <table className={styles.myTable} style={selfStyle}>
-        {insideTableName && <div className={`${styles.title} ${styles.insideTitle}`} style={{fontSize: smallTitle ? '0.86em' : ''}}>{insideTableName}</div>}
+        {insideTableName && <div className={`${styles.title} ${styles.insideTitle}`} style={{fontSize: smallTitle && smallText ? '0.74em' : smallTitle? '0.86em' : ''}}>{insideTableName}</div>}
         <tbody>
           {tableData.map((data, index) => {
             return (
               <tr key={index} className={smallText === 'true' ? styles.smallText : ''}>
-                {data.fieldName && <td style={insideStyle}>{data.fieldName}</td>}
-                {data.key && <td style={insideStyle}>
+                {data.fieldName && <td style={{fontSize: smallTitle && smallText && !tableName && !insideTableName? '1.1em' : '' }}>{data.fieldName}</td>}
+                {data.key && <td>
                   <EditableField
                     // onMouseEnter={() =>
                     //   handleHover(items[data.key] ? items[data.key][1] : "")

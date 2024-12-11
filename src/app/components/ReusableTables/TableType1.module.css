@@ -11,7 +11,11 @@
 .smallText {
   font-size: 0.68em;
   font-weight: 600;
-  text-align: center;
+  /* text-align: center; */
+}
+
+.smallText > td:first-child {
+  min-width: 136px;
 }
 
 .myTable tr td {

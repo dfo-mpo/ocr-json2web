@@ -2,6 +2,31 @@
   border: 1px solid black;
 }
 
+.row {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+}
+
+.row > div:first-child {
+  font-size: 0.72em;
+  width: 44%;
+  height: fit-content;
+}
+
+.row > ul:nth-child(2) {
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+.row li {
+  width: 20px;
+}
+
+.grid {
+  display: grid;
+}
+
 .title {
   font-weight: bold;
 
