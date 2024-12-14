@@ -296,7 +296,7 @@ const File = ({ searchParams }) => {
             verified={verified}
             reFetch={asyncFetchStatus}
           />
-          <div className={styles.container} ref={myContainer}>
+          <div className={styles.container} style={{flexDirection: folderName === 'qcfm-rec-purchaseslips-1'? 'row' : 'column'}} ref={myContainer}>
             <FormRender
               isEditingTable={isEditingTable}
               folderName={folderName}
