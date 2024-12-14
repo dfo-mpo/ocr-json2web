@@ -15,37 +15,42 @@ const TableType5 = ({
   const tableName = formSetting.tableName;
   const tableHeader = formSetting.tableHeader;
   const tableData = formSetting.tableData;
+  const sideTableName = formSetting.sideTableName;
   const hideSideLines = formSetting.hideSideLines;
   const allOjb = formSetting.itemName;
+  const secondOjb = formSetting.secondItemName;
+  const secondItemOjb = items[secondOjb];
   const itemOjb = items[allOjb];
 
   let updateJson = { ...items };
-  const handleChange = (event) => {
+  const handleChange = (event, isSecondObject) => {
     const itemName = event.target.getAttribute("itemname");
     const key = event.target.name;
     const value = event.target.value;
+    console.log(event.target);
     console.log("itemName", itemName);
     console.log("key", key);
     console.log("value", value);
+    const ojb = isSecondObject === 'true'? secondOjb : allOjb;
     const singleItem = {
       [itemName]: {},
     };
-    if (!updateJson[allOjb]) {
-      updateJson[allOjb] = {};
+    if (!updateJson[ojb]) {
+      updateJson[ojb] = {};
     }
 
-    if (!updateJson[allOjb][itemName]) {
-      updateJson[allOjb] = {
-        ...updateJson[allOjb],
+    if (!updateJson[ojb][itemName]) {
+      updateJson[ojb] = {
+        ...updateJson[ojb],
         ...singleItem,
       };
     }
 
-    if (!updateJson[allOjb][itemName][key]) {
-      updateJson[allOjb][itemName][key] = [value, {}, "", "", 2];
+    if (!updateJson[ojb][itemName][key]) {
+      updateJson[ojb][itemName][key] = [value, {}, "", "", 2];
     } else {
-      updateJson[allOjb][itemName][key][0] = value;
-      updateJson[allOjb][itemName][key][4] = 2;
+      updateJson[ojb][itemName][key][0] = value;
+      updateJson[ojb][itemName][key][4] = 2;
     }
     onEdit(updateJson);
   };
@@ -80,73 +85,88 @@ const TableType5 = ({
     <div style={myStyle}>
       <>
         {tableName && <div className={styles.title}>{tableName}</div>}
-        <table className={`${styles.myTable} ${hideSideLines === 'true'? '' : styles.myTableBoxed}`} style={insideStyle}>
-          <tbody>
-            {tableHeader.map((data, index) => {
-              return (
-                <tr key={index}>
-                  {data.map((data, index) => {
-                    const rowItem = data.rowItem;
-                    const span = data.span;
-                    const rowSpan = span && span.rowSpan ? span.rowSpan : 1;
-                    const colSpan = span && span.colSpan ? span.colSpan : 1;
-                    return (
-                      <td key={index} rowSpan={rowSpan} colSpan={colSpan} style={{display: data.fieldName ? '' : 'none'}}>
-                        {data.key ? (
-                          itemOjb[rowItem] ? (
-                            itemOjb[rowItem][data.key][0]
+        <div style={{display: 'flex'}}>
+          {sideTableName && 
+            <span className={styles.sideTableName}>
+              {sideTableName}
+            </span>
+          }
+          <table className={`${styles.myTable} ${hideSideLines === 'true'? '' : styles.myTableBoxed}`} style={insideStyle}>
+            <tbody>
+            
+              {tableHeader.map((data, index) => {
+                return (
+                  <tr key={index}>
+                    {data.map((data, index) => {
+                      const rowItem = data.rowItem;
+                      const span = data.span;
+                      const rowSpan = span && span.rowSpan ? span.rowSpan : 1;
+                      const colSpan = span && span.colSpan ? span.colSpan : 1;
+                      return (
+                        <td key={index} rowSpan={rowSpan} colSpan={colSpan} style={{display: data.fieldName ? '' : 'none'}}>
+                          {data.key ? (
+                            itemOjb[rowItem] ? (
+                              itemOjb[rowItem][data.key][0]
+                            ) : (
+                              ""
+                            )
                           ) : (
-                            ""
-                          )
-                        ) : (
-                          <span className={styles.tdFieldName} >
-                            {data.fieldName}
-                          </span>
-                        )}
-                      </td>
+                            <span className={styles.tdFieldName} >
+                              {data.fieldName}
+                            </span>
+                          )}
+                        </td>
+                      );
+                    })}
+                  </tr>
+                );
+              })}
+              {Object.keys(tableData).length === 0
+                ? null
+                : tableData.item.map((data, index) => {
+                    const rowItem = data.itemName;
+                    const secondRowItem = data.secondItem;
+                    const ojb = secondRowItem === 'true'? secondItemOjb : itemOjb
+                    return (
+                      <tr key={index}>
+                        <td className={styles.tdRowName} style={{display: data.fieldName ? '' : 'none'}}>{data.fieldName}</td>
+                        {tableData.key.map((data, index) => {
+                          const key = data.key;
+                          return (
+                            <td key={index}>
+                              {secondRowItem && key === "Espèce"? 
+                                <div>REJETS - DISCARD</div>
+                              :
+                                <EditableFieldForTable
+                                  itemName={rowItem}
+                                  fieldKey={key}
+                                  fieldValue={
+                                    ojb &&
+                                    ojb[rowItem] &&
+                                    ojb[rowItem][key]
+                                      ? ojb[rowItem][key][0]
+                                      : ""
+                                  }
+                                  isFlag={
+                                    ojb &&
+                                    ojb[rowItem] &&
+                                    ojb[rowItem][key]
+                                      ? ojb[rowItem][key][4]
+                                      : ""
+                                  }
+                                  handleChange={(e) => handleChange(e, secondRowItem)}
+                                />
+                              }
+                            </td>
+                          );
+                        })}
+                      </tr>
                     );
                   })}
-                </tr>
-              );
-            })}
-            {Object.keys(tableData).length === 0
-              ? null
-              : tableData.item.map((data, index) => {
-                  const rowItem = data.itemName;
-                  return (
-                    <tr key={index}>
-                      <td className={styles.tdRowName} style={{display: data.fieldName ? '' : 'none'}}>{data.fieldName}</td>
-                      {tableData.key.map((data, index) => {
-                        const key = data.key;
-                        return (
-                          <td key={index}>
-                            <EditableFieldForTable
-                              itemName={rowItem}
-                              fieldKey={key}
-                              fieldValue={
-                                itemOjb &&
-                                itemOjb[rowItem] &&
-                                itemOjb[rowItem][key]
-                                  ? itemOjb[rowItem][key][0]
-                                  : ""
-                              }
-                              isFlag={
-                                itemOjb &&
-                                itemOjb[rowItem] &&
-                                itemOjb[rowItem][key]
-                                  ? itemOjb[rowItem][key][4]
-                                  : ""
-                              }
-                              handleChange={handleChange}
-                            />
-                          </td>
-                        );
-                      })}
-                    </tr>
-                  );
-                })}
-          </tbody>
-        </table>
+            </tbody>
+          </table>
+        </div>
+        
       </>
       {isEditingTable && (
         <div>

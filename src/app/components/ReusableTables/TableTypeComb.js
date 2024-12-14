@@ -27,6 +27,7 @@ const TableTypeComb = ({
   const tableName = formSetting.tableName;
   const smallTitle = formSetting.smallTitle;
   const insideTableName = formSetting.insideTableName;
+  const lowerTableName = formSetting.lowerTableName;
   const insideFormSetting = formSetting.insideFormSetting;
   const evenColumns = formSetting.evenColumns;
 
@@ -68,8 +69,8 @@ const TableTypeComb = ({
 
   return (
     <div style={combineMyStyle}>
-      {tableName && <div className={styles.title}>{tableName}</div>}
-      <div className={styles.wrapper} style={combInsideStyle}>
+      {tableName && <div className={`${styles.title} ${lowerTableName === 'true'? styles.lower:''}`}>{tableName}</div>}
+      <div className={`${styles.wrapper} ${lowerTableName === 'true'? styles.negativeMargin:''}`} style={combInsideStyle}>
         {insideTableName && (
           <div className={styles.title2} style={{fontSize: smallTitle === 'true'? '0.80em' : ''}}>{insideTableName}</div>
         )}

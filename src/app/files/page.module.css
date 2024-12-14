@@ -14,7 +14,6 @@
   display: flex;
   justify-content: center; /* Horizontally centers the content */
   margin: 0 auto; /* Centers the container horizontally */
-  flex-direction: column;
 }
 .error {
   color: red;

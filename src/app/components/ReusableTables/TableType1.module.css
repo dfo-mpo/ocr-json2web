@@ -58,3 +58,10 @@
   cursor: pointer;
   font-size: 0.8em;
 }
+
+.centerContent {
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}

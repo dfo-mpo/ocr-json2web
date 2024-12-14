@@ -15,6 +15,7 @@ const TableType6 = ({
 }) => {
   const tableName = formSetting.tableName;
   const row = formSetting.row;
+  const noFlex = formSetting.noFlex;
   const tableData = formSetting.tableData;
   const insideTableName = formSetting.insideTableName;
   let updateJson = { ...items };
@@ -75,15 +76,19 @@ const TableType6 = ({
         {insideTableName && (
           <div className={styles.title2}>{insideTableName}</div>
         )}
-        <ul className={styles.myList}>
+        <ul className={`${styles.myList} ${row === '3'? styles.row3 : ''}`} style={{display: noFlex? 'block':''}}>
           {tableData.map((data, index) => (
-            <li key={index} className={styles.tableRow}>
+            <li key={index} className={styles.tableRow} style={{display: noFlex? 'block':''}}>
               <EditableCheckField
                 isFlag={items[data.key] ? items[data.key][4] : ""}
                 //TODO: items[data.key][3] for TAN's json version
                 // isFlag={items[data.key][3]}
                 fieldName={data.key}
                 fieldText={data.fieldName}
+                fieldText2={data.fieldName2}
+                boxName={data.boxName}
+                fieldCode={data.endingCode}
+                textFirst={row === "3"}
                 // fieldValue={items[data.key]}
                 //TODO: items[data.key][0] for TAN's json version
                 fieldValue={items[data.key] ? items[data.key][0] : ""}

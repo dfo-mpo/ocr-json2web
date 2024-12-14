@@ -114,8 +114,8 @@ const TableType5_reverse = ({
                           </span>
                         ) : (
                           <div className={displayFieldNames === "true"? styles.contentContainer : styles.editFieldContainer}>
-                            <div style={{display: displayFieldNames === "true"? '' : 'none'}}>
-                                {data.key}
+                            <div style={{display: displayFieldNames === "true"? '' : 'none', fontSize: '0.86em'}}>
+                                {data.fieldName}
                             </div>
                             <EditableFieldForTable
                               itemName={itemName}

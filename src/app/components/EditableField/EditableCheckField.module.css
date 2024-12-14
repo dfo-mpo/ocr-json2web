@@ -25,7 +25,28 @@
   justify-content: center;
  
 }
+.boxName {
+  width: 30px;
+  margin-left: auto;
+  font-size: 0.8em;
+}
 
+.smallText {
+  font-size: 0.74em;
+}
+
+.codeCheckbox {
+  margin-left: -10px;
+  margin-right: 8px;
+  padding-left: 2px;
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  background: rgb(232, 232, 232);
+  border: 1px solid black;
+  border-left: 0;
+  line-height: 18px;
+}
 
 .hiddenCheckbox {
   display: none;

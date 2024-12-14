@@ -7,6 +7,10 @@ const EditableCheckField = ({
   isFlag,
   handleChange,
   fieldText,
+  fieldText2,
+  boxName,
+  fieldCode,
+  textFirst,
   index,
 }) => {
   let isSelected = fieldValue === "selected";
@@ -26,6 +30,14 @@ const EditableCheckField = ({
   }
   return (
     <label htmlFor={fieldName} className={styles.checkboxLabel}>
+      {textFirst &&
+        <span className={`${stylingClass} ${styles.fieldTextStyle} ${fieldText2? styles.smallText : ''}`}>
+          {fieldText2? (<>{fieldText} <br/> {fieldText2}</>)
+          :
+          {fieldText}
+          }
+        </span>
+      }
       <input
         id={fieldName}
         type="checkbox"
@@ -34,14 +46,26 @@ const EditableCheckField = ({
         defaultChecked={isSelected}
         onChange={handleChange}
       />
+      {boxName && 
+        <div className={styles.boxName}>
+          {boxName}
+        </div>
+      }
       {fieldName && (
         <div
           className={`${styles.customCheckbox} ${isSelected && styles.checked}`}
         ></div>
       )}
-      <span className={`${stylingClass} ${styles.fieldTextStyle}`}>
-        {fieldText}
-      </span>
+      {fieldCode && 
+        <div className={styles.codeCheckbox}>
+          {fieldCode}
+        </div>
+      }
+      {!textFirst &&
+        <span className={`${stylingClass} ${styles.fieldTextStyle}`}>
+          {fieldText}
+        </span>
+      }
     </label>
   );
 };
