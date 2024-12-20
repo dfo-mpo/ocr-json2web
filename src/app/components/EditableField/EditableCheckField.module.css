@@ -11,9 +11,26 @@
   background: white;
   border: 1px solid black;
   cursor: pointer;
+  margin-top:auto;
+  margin-bottom: auto;
 }
 .customCheckbox:hover {
   background: rgb(255, 173, 173);
+}
+
+.type4Text {
+  font-size: 0.74em;
+  font-weight: 550;
+  text-align: start;
+  margin-right: auto;
+}
+
+.type4Box {
+  height: 15px;
+}
+
+.type4Box::before {
+ line-height: 14px;
 }
 
 .checked::before {
@@ -25,6 +42,12 @@
   justify-content: center;
  
 }
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
 .boxName {
   width: 30px;
   margin-left: auto;

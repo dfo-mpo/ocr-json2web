@@ -1,8 +1,9 @@
 import React from "react";
-import styles from "./TableType9.module.css";
+import styles from "./TableType11.module.css";
 import EditableFieldForTable from "../EditableField/EditableFieldForTable";
+import EditableCheckField from "../EditableField/EditableCheckField";
 import Link from "next/link";
-const TableType9 = ({
+const TableType11 = ({
   items,
   folderName,
   fileName,
@@ -16,12 +17,38 @@ const TableType9 = ({
   const subType = formSetting.subType;
   const tableHeader = formSetting.tableHeader;
   const tableData = formSetting.tableData;
+  const table2Data = formSetting.table2Data;
+  const table3Data = formSetting.table3Data;
   const hideSideLines = formSetting.hideSideLines;
   const allOjb = formSetting.itemName;
   const itemOjb = items[allOjb];
   const position = subType === "3" ? ["Premier engin levé / First gear hauled", "Dernier engin levé / Last gear hauled"] : subType === "2" ? ["Premier engin levé / First gear lift off", "Premier engin levé / First gear lift off"] : ["Premier casier / First trap", "Dernier casier / Last trap"]
-
+  const effort = ['Numbre de casiers utilisés / Number of traps used'];
   let updateJson = { ...items };
+  const handleChange2 = (event) => {
+    const key = event.target.name;
+    const selected = event.target.checked;
+    const value = selected ? "selected" : "unselected";
+
+    // updateJson[key] = value;
+    //TODO: Json with flag
+    if (!updateJson[key]) {
+      updateJson = {
+        ...updateJson,
+        [key]: [value, {}, "", "", 2],
+      };
+    } else {
+      updateJson[key][0] = value;
+      updateJson[key][4] = 2;
+    }
+    // updateJson[key][3] = 2;
+
+    // const updateJson = {
+    //   ...items,
+    //   [key]: selected ? "selected" : "unselected",
+
+    onEdit(updateJson);
+  };
   const handleChange = (event) => {
     const itemName = event.target.getAttribute("itemname");
     const key = event.target.name;
@@ -92,27 +119,60 @@ const TableType9 = ({
                     const span = data.span;
                     const rowSpan = span && span.rowSpan ? span.rowSpan : 1;
                     const colSpan = span && span.colSpan ? span.colSpan : 1;
-                    const thickTop = subType === '4' && rowIndex === 1;
-                    const thickBorderNormal = (colSpan > 1 && colIndex > 6)  || (rowIndex === 1 && colIndex % 3 === 2);
-                    const thickBorderType2 = (colSpan > 1 && colIndex > 5)  || (rowIndex === 1 && colIndex < 4 && colIndex !== 2);
-                    const thickBorderType3 = (rowIndex === 0 && [7, 13].includes(colIndex))  || (rowIndex === 1 && colIndex === 3);
-                    const thickBorderType4 = (colSpan > 1 && rowIndex === 0) || (rowIndex === 1 && [2,8,13].includes(colIndex));
-                    const thickBorderRow = subType === "4"? thickBorderType4 : subType === '3'? thickBorderType3 : subType === '2'? thickBorderType2 : thickBorderNormal;
+                    const thickTop = rowIndex < 2;
+                    const thickBorderRow = (rowIndex === 0)  || (rowIndex === 1 && [1,2,7].includes(colIndex));
+
                     return (
                       <td key={colIndex} rowSpan={rowSpan} colSpan={colSpan} 
-                        style={{display: data.fieldName ? '' : 'none', borderLeft: thickBorderRow ? '2px solid black' : '', maxWidth: rowIndex === 0 && [6,12].includes(colIndex) ? '180px' : '', minWidth: '45px', borderTop: thickTop? '2px solid black': ''}}
+                        style={{display: data.fieldName ? '' : 'none', borderLeft: thickBorderRow ? '2px solid black' : '', maxWidth: rowIndex === 0 && [6,12].includes(colIndex) ? '180px' : '', minWidth: '45px', borderTop: thickTop? '3px solid black':''}}
                         className={([4,5,6,7,8,9,10,11,12].includes(colIndex) && subType === '3')? styles.smallerText : ''}>
-                        {data.key ? (
+                        {data.key && !["Second table", "Third table"].includes(data.fieldName) ? (
                           itemOjb[rowItem] ? (
                             itemOjb[rowItem][data.key][0]
                           ) : (
                             ""
                           )
                         ) : (
-                          <span className={data.fieldName === "Position" ? styles.position :  (rowIndex > 0) ? styles.smallerText :  styles.tdFieldName} >
-                            {data.fieldName}
-                          </span>
+                           data.fieldName === 'Second table' ? (
+                            table2Data.map((data) => {
+                              return(
+                                <EditableCheckField
+                                  isFlag={items[data.key] ? items[data.key][4] : ""}
+                                  fieldName={data.key}
+                                  fieldText={data.fieldName}
+                                  // fieldText2={data.fieldName2}
+                                  // boxName={data.boxName}
+                                  textFirst={true}
+                                  type={'4'}
+                                  fieldValue={items[data.key] ? items[data.key][0] : ""}
+                                  handleChange={handleChange2}
+                                />
+                              )
+                            })
+                            
+                           ) : data.fieldName === 'Third table' ? (
+                              table3Data.map((data) => {
+                                return(
+                                  <EditableCheckField
+                                    isFlag={items[data.key] ? items[data.key][4] : ""}
+                                    fieldName={data.key}
+                                    fieldText={data.fieldName}
+                                    // fieldText2={data.fieldName2}
+                                    // boxName={data.boxName}
+                                    textFirst={true}
+                                    type={'5'}
+                                    fieldValue={items[data.key] ? items[data.key][0] : ""}
+                                    handleChange={handleChange2}
+                                  />
+                                )
+                              })
+                           ) : (
+                            <span className={(rowIndex > 0) ? styles.smallerText :  styles.tdFieldName} >
+                              {data.fieldName}
+                            </span>
+                           )
                         )}
+                        
                       </td>
                     );
                   })}
@@ -128,18 +188,15 @@ const TableType9 = ({
                       <td className={styles.tdRowName} style={{display: data.fieldName ? '' : 'none'}}>{data.fieldName}</td>
                       {tableData.key.map((data, colIndex) => {
                         const key = data.key;
-                        const mergeCell = colIndex > 6 || colIndex === 0 || (["2", "3"].includes(subType) && colIndex > 5) || (subType === '4' && colIndex > 4);
+                        const mergeCell = colIndex < 2 || (colIndex > 7 && colIndex < 11);
+                        const mergeCol = colIndex 
                         const lastTrapRow = rowIndex % 2 === 1;
-                        const thickTop = ["2", "3"].includes(subType) && rowIndex === 0;
-                        const thickBorderNormal = mergeCell && colIndex % 3 === 1;
-                        const thickBorderType2 = mergeCell && colIndex % 2 === 0 && colIndex !== 0;
-                        const thickBorderType3 = mergeCell && [6,12].includes(colIndex);
-                        const thickBorderType4 = [1,7,12].includes(colIndex);
-                        const thickBorderRow = subType === '4'? thickBorderType4 : subType === "3"? thickBorderType3 : subType === "2"? thickBorderType2 : thickBorderNormal;
+                        const thickTop = (rowIndex !== 0 || colIndex > 7) && rowIndex % 2 === 0; 
+                        const thickBorderRow = [1,2,8].includes(colIndex);
 
                         return (
-                          <td key={colIndex} rowSpan={mergeCell ? 2 : 1} style={{display: (mergeCell && lastTrapRow) ? 'none' : '', borderLeft: thickBorderRow ? '2px solid black' : '', borderTop: thickTop ? '2px solid black' : ''}}>
-                            { colIndex !== 1 ? (
+                          <td key={colIndex} rowSpan={mergeCell ? 2 : 1}  colSpan={colIndex === 5 ? 2 : 1} style={{display: (mergeCell && lastTrapRow) || colIndex === 6 ? 'none' : '', borderLeft: thickBorderRow ? '2px solid black' : '', borderTop: thickTop ? '2px solid black' : ''}}>
+                            { !(colIndex === 2 || colIndex === 8)? (
                               <EditableFieldForTable
                               itemName={rowItem}
                               fieldKey={key}
@@ -160,7 +217,7 @@ const TableType9 = ({
                               handleChange={handleChange}
                             />
                             ) :
-                            ( <div style={{fontSize: subType === '3'? '0.74em' : '0.86em'}}>{position[rowIndex % 2]}</div>)
+                            ( <div style={{fontSize: '0.74em'}}>{colIndex === 2? position[rowIndex % 2] : effort[0]}</div>)
                             }
                             
                           </td>
@@ -197,4 +254,4 @@ const TableType9 = ({
   );
 };
 
-export default TableType9;
+export default TableType11;

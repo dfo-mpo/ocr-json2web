@@ -19,6 +19,8 @@ const TableType1 = ({
   const insideTableName = formSetting.insideTableName;
   const tableData = formSetting.tableData;
   const smallText = formSetting.smallText;
+  const width = formSetting.width;
+  const centerText = formSetting.centerText;
   const smallTitle = formSetting.smallTitle;
   const centerContent = formSetting.centerContent;
   let updateJson = { ...items };
@@ -68,7 +70,7 @@ const TableType1 = ({
 
   const combinedStyle = {  
     ...myStyle,  
-    ...insideStyle  
+    ...insideStyle,
   }; 
 
   return (

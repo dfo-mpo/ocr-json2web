@@ -12,6 +12,7 @@ import TableType7 from "./TableType7";
 import TableType8 from "./TableType8";
 import TableType9 from "./TableType9";
 import TableType10 from "./TableType10";
+import TableType11 from "./TableType11";
 import Link from "next/link";
 
 const TableTypeComb = ({
@@ -226,6 +227,19 @@ const TableTypeComb = ({
             } else if (formSettingItem.tableType === "TableType10") {
               return (
                 <TableType10
+                  myStyle={formSettingItem.style}
+                  insideStyle={formSettingItem.insideStyle}
+                  key={index}
+                  items={updateJson}
+                  folderName={folderName}
+                  fileName={fileName}
+                  formSetting={formSettingItem}
+                  onEdit={changeHandler}
+                />
+              );
+            } else if (formSettingItem.tableType === "TableType11") {
+              return (
+                <TableType11
                   myStyle={formSettingItem.style}
                   insideStyle={formSettingItem.insideStyle}
                   key={index}

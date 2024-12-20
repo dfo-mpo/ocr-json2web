@@ -15,6 +15,7 @@ const TableType10 = ({
   const tableName = formSetting.tableName;
   const rowName = formSetting.rowName;
   const tableData = formSetting.tableData;
+  const type = formSetting.type;
   const hideSideLines = formSetting.hideSideLines;
   const allOjb = formSetting.itemName;
   const itemOjb = items[allOjb];
@@ -107,29 +108,31 @@ const TableType10 = ({
           <tbody>
             <div>
               <div className={styles.topRow}>
-                <div className={styles.titleBox}>
+                <div className={`${styles.titleBox} ${["2","4"].includes(type)? styles.type2TitleBox : type === "3"? styles.type3TitleBox : ''}`} style={{borderRight: type === '4'? '0':''}}>
                   {tableName && <div className={styles.title}>{tableName}</div>}
-                  { returnEditFeild(tableData.key[0].key) }
+                  {type !== "3" && returnEditFeild(tableData.key[0].key) }
                 </div>
-                <div className={styles.codeBox}>
-                  { returnEditFeild(tableData.key[1].key) }
-                </div>
+                {!["3","4"].includes(type) &&
+                  <div className={styles.codeBox} style={{width: ["2"].includes(type)? "40%":""}}>
+                    { returnEditFeild(tableData.key[1].key) }
+                  </div>
+                }
               </div>
               <div className={styles.bottomRow}>
-                <div style={{width: "25%"}}>
-                  { returnEditFeild(tableData.key[2].key) }
+                <div style={{width: ["2","3","4"].includes(type)? "28%":"25%"}}>
+                  { returnEditFeild(tableData.key[type === '3'? 0 : type === '4'? 1 : 2].key) }
                 </div>
-                <div style={{width: "25%", fontSize: '0.64em', fontWeight: '500'}}>
-                  { returnEditFeild(tableData.key[3].key) }
+                <div style={{width: ["2","3","4"].includes(type)? "28%":"25%", fontSize: '0.64em', fontWeight: '500'}}>
+                  { returnEditFeild(tableData.key[type === '3'? 1 : type === '4'? 2 : 3].key) }
                 </div>
-                <div style={{width: "15%"}}>
-                  { returnEditFeild(tableData.key[4].key) }
+                <div style={{width: ["2","3","4"].includes(type)? "10.5%":"15%"}}>
+                  { returnEditFeild(tableData.key[type === '3'? 2 : type === '4'? 3 : 4].key) }
                 </div>
-                <div style={{width: "25%"}}>
-                  { returnEditFeild(tableData.key[5].key) }
+                <div style={{width: ["2","3","4"].includes(type)? "28%":"25%"}}>
+                  { returnEditFeild(tableData.key[type === '3'? 3 : type === '4'? 4 : 5].key) }
                 </div>
                 <div style={{width: "10%"}}>
-                  { returnEditFeild(tableData.key[6].key) }
+                  { returnEditFeild(tableData.key[type === '3'? 4 : type === '4'? 5 : 6].key) }
                 </div>
               </div>
             </div>

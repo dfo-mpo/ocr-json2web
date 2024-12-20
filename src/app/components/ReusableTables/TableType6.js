@@ -15,6 +15,7 @@ const TableType6 = ({
 }) => {
   const tableName = formSetting.tableName;
   const row = formSetting.row;
+  const type = formSetting.type;
   const noFlex = formSetting.noFlex;
   const tableData = formSetting.tableData;
   const insideTableName = formSetting.insideTableName;
@@ -88,7 +89,8 @@ const TableType6 = ({
                 fieldText2={data.fieldName2}
                 boxName={data.boxName}
                 fieldCode={data.endingCode}
-                textFirst={row === "3"}
+                textFirst={row === "3" || type === "3"}
+                type={type}
                 // fieldValue={items[data.key]}
                 //TODO: items[data.key][0] for TAN's json version
                 fieldValue={items[data.key] ? items[data.key][0] : ""}

@@ -8,6 +8,7 @@ const EditableCheckField = ({
   handleChange,
   fieldText,
   fieldText2,
+  type,
   boxName,
   fieldCode,
   textFirst,
@@ -28,44 +29,61 @@ const EditableCheckField = ({
       // Handle other cases if needed
       break;
   }
+
+  const returnContent = (() => {
+    return(
+      <>
+        <input
+          id={fieldName}
+          type="checkbox"
+          className={styles.hiddenCheckbox}
+          name={fieldName}
+          defaultChecked={isSelected}
+          onChange={handleChange}
+        />
+        <div className={type === '3'? styles.flex:''} style={{flexDirection: type === '3'? 'row':''}}>
+          {boxName && 
+            <div className={styles.boxName}>
+              {boxName}
+            </div>
+          }
+          {fieldName && (
+            <div
+              className={`${styles.customCheckbox} ${isSelected && styles.checked} ${type === '4'? styles.type4Box :''}`}
+            ></div>
+          )}
+        </div>
+        {fieldCode && 
+          <div className={styles.codeCheckbox}>
+            {fieldCode}
+          </div>
+        }
+        {!textFirst &&
+          <span className={`${stylingClass} ${styles.fieldTextStyle}`}>
+            {fieldText}
+          </span>
+        }
+      </>
+    )
+  })
+  
   return (
-    <label htmlFor={fieldName} className={styles.checkboxLabel}>
+    <label htmlFor={fieldName} className={`${styles.checkboxLabel} ${type === '3'? styles.flex: ''}`}>
       {textFirst &&
-        <span className={`${stylingClass} ${styles.fieldTextStyle} ${fieldText2? styles.smallText : ''}`}>
-          {fieldText2? (<>{fieldText} <br/> {fieldText2}</>)
+        <span className={`${stylingClass} ${styles.fieldTextStyle} ${fieldText2? styles.smallText : ''} ${['4','5'].includes(type)? styles.type4Text :''}`}>
+          {fieldText2 && typeof fieldText === 'string'? (<>{fieldText} <br/> {fieldText2}</>)
           :
-          {fieldText}
+          fieldText && typeof fieldText === 'string'? fieldText
+          :
+          <></>
           }
         </span>
       }
-      <input
-        id={fieldName}
-        type="checkbox"
-        className={styles.hiddenCheckbox}
-        name={fieldName}
-        defaultChecked={isSelected}
-        onChange={handleChange}
-      />
-      {boxName && 
-        <div className={styles.boxName}>
-          {boxName}
-        </div>
-      }
-      {fieldName && (
-        <div
-          className={`${styles.customCheckbox} ${isSelected && styles.checked}`}
-        ></div>
-      )}
-      {fieldCode && 
-        <div className={styles.codeCheckbox}>
-          {fieldCode}
-        </div>
-      }
-      {!textFirst &&
-        <span className={`${stylingClass} ${styles.fieldTextStyle}`}>
-          {fieldText}
-        </span>
-      }
+      {type === '3'? 
+      <div>
+        {returnContent()}
+      </div>:
+      returnContent()}
     </label>
   );
 };

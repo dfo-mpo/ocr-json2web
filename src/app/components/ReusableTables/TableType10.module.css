@@ -13,6 +13,23 @@
   border-right: 1px solid black;
 }
 
+.type2TitleBox {
+  width: 70%;
+  flex-direction: row;
+  display: flex;
+}
+
+.type3TitleBox {
+  width: 100%;
+  border-right: 0;
+  text-align: start;
+}
+
+.type2TitleBox > div:first-child {
+  margin-right: 7px;
+  text-align: center;
+}
+
 .topRow {
   border-bottom: 1px solid black;
   display: flex;

@@ -15,6 +15,7 @@ const TableType5 = ({
   const tableName = formSetting.tableName;
   const tableHeader = formSetting.tableHeader;
   const tableData = formSetting.tableData;
+  const type = formSetting.type;
   const sideTableName = formSetting.sideTableName;
   const hideSideLines = formSetting.hideSideLines;
   const allOjb = formSetting.itemName;
@@ -87,11 +88,11 @@ const TableType5 = ({
         {tableName && <div className={styles.title}>{tableName}</div>}
         <div style={{display: 'flex'}}>
           {sideTableName && 
-            <span className={styles.sideTableName}>
+            <span className={styles.sideTableName} style={{width: sideTableName.length > 40? 'auto': '', borderTop: insideStyle.borderTop, borderLeft: insideStyle.borderLeft, borderBottom: insideStyle.borderBottom}}>
               {sideTableName}
             </span>
           }
-          <table className={`${styles.myTable} ${hideSideLines === 'true'? '' : styles.myTableBoxed}`} style={insideStyle}>
+          <table className={`${styles.myTable} ${hideSideLines === 'true'? '' : styles.myTableBoxed} ${type === "2"? styles.thickBorder : ""}`} style={insideStyle}>
             <tbody>
             
               {tableHeader.map((data, index) => {
@@ -123,42 +124,52 @@ const TableType5 = ({
               })}
               {Object.keys(tableData).length === 0
                 ? null
-                : tableData.item.map((data, index) => {
-                    const rowItem = data.itemName;
+                : 
+                  tableData.item.map((data, rowIndex) => {
+                    let rowItem = data.itemName;
                     const secondRowItem = data.secondItem;
-                    const ojb = secondRowItem === 'true'? secondItemOjb : itemOjb
+                    const ojb = secondRowItem === 'true'? secondItemOjb : itemOjb;
                     return (
-                      <tr key={index}>
+                      <tr key={rowIndex}>
                         <td className={styles.tdRowName} style={{display: data.fieldName ? '' : 'none'}}>{data.fieldName}</td>
-                        {tableData.key.map((data, index) => {
+                        {tableData.key.map((data, colIndex) => {
+                          if (type === '2' && rowIndex === 1) {
+                            data = tableData.key.find(obj => obj.key === 'Longitude');
+                            rowItem = "ROW1";
+                          }
+                          
                           const key = data.key;
-                          return (
-                            <td key={index}>
-                              {secondRowItem && key === "Espèce"? 
-                                <div>REJETS - DISCARD</div>
-                              :
-                                <EditableFieldForTable
-                                  itemName={rowItem}
-                                  fieldKey={key}
-                                  fieldValue={
-                                    ojb &&
-                                    ojb[rowItem] &&
-                                    ojb[rowItem][key]
-                                      ? ojb[rowItem][key][0]
-                                      : ""
-                                  }
-                                  isFlag={
-                                    ojb &&
-                                    ojb[rowItem] &&
-                                    ojb[rowItem][key]
-                                      ? ojb[rowItem][key][4]
-                                      : ""
-                                  }
-                                  handleChange={(e) => handleChange(e, secondRowItem)}
-                                />
-                              }
-                            </td>
-                          );
+                          const colSpan = colIndex === 3? 2 : 1;
+                          const rowSpan = ['Latitude', 'Longitude'].includes(key)? 1 : 2
+                          if (rowIndex === 0 && key !== 'Longitude' || rowIndex === 1 && colIndex === 0 || type !== '2') {
+                            return (
+                              <td rowSpan={type === "2"? rowSpan : ''} colSpan={type === "2"? colSpan: ''} key={colIndex}>
+                                {secondRowItem && key === "Espèce"? 
+                                  <div>REJETS - DISCARD</div>
+                                :
+                                  <EditableFieldForTable
+                                    itemName={rowItem}
+                                    fieldKey={key}
+                                    fieldValue={
+                                      ojb &&
+                                      ojb[rowItem] &&
+                                      ojb[rowItem][key]
+                                        ? ojb[rowItem][key][0]
+                                        : ""
+                                    }
+                                    isFlag={
+                                      ojb &&
+                                      ojb[rowItem] &&
+                                      ojb[rowItem][key]
+                                        ? ojb[rowItem][key][4]
+                                        : ""
+                                    }
+                                    handleChange={(e) => handleChange(e, secondRowItem)}
+                                  />
+                                }
+                              </td>
+                            );
+                          }              
                         })}
                       </tr>
                     );
