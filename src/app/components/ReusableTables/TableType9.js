@@ -17,6 +17,7 @@ const TableType9 = ({
   const tableHeader = formSetting.tableHeader;
   const tableData = formSetting.tableData;
   const hideSideLines = formSetting.hideSideLines;
+  const codeRow = formSetting.codeRow;
   const allOjb = formSetting.itemName;
   const itemOjb = items[allOjb];
   const position = subType === "3" ? ["Premier engin levé / First gear hauled", "Dernier engin levé / Last gear hauled"] : subType === "2" ? ["Premier engin levé / First gear lift off", "Premier engin levé / First gear lift off"] : ["Premier casier / First trap", "Dernier casier / Last trap"]
@@ -95,14 +96,34 @@ const TableType9 = ({
                     const thickTop = subType === '4' && rowIndex === 1;
                     const thickBorderNormal = (colSpan > 1 && colIndex > 6)  || (rowIndex === 1 && colIndex % 3 === 2);
                     const thickBorderType2 = (colSpan > 1 && colIndex > 5)  || (rowIndex === 1 && colIndex < 4 && colIndex !== 2);
-                    const thickBorderType3 = (rowIndex === 0 && [7, 13].includes(colIndex))  || (rowIndex === 1 && colIndex === 3);
+                    const thickBorderType3 = (rowIndex === 0 && [7, 13].includes(colIndex))  || (rowIndex === 1 && [2,5].includes(colIndex));
                     const thickBorderType4 = (colSpan > 1 && rowIndex === 0) || (rowIndex === 1 && [2,8,13].includes(colIndex));
                     const thickBorderRow = subType === "4"? thickBorderType4 : subType === '3'? thickBorderType3 : subType === '2'? thickBorderType2 : thickBorderNormal;
                     return (
                       <td key={colIndex} rowSpan={rowSpan} colSpan={colSpan} 
                         style={{display: data.fieldName ? '' : 'none', borderLeft: thickBorderRow ? '2px solid black' : '', maxWidth: rowIndex === 0 && [6,12].includes(colIndex) ? '180px' : '', minWidth: '45px', borderTop: thickTop? '2px solid black': ''}}
                         className={([4,5,6,7,8,9,10,11,12].includes(colIndex) && subType === '3')? styles.smallerText : ''}>
-                        {data.key ? (
+                        {codeRow && data.fieldName && ['Espèce visée','Type engin'].includes(data.fieldName)? 
+                        <EditableFieldForTable
+                          itemName={codeRow}
+                          fieldKey={data.fieldName}
+                          fieldValue={
+                            itemOjb &&
+                            itemOjb[codeRow] &&
+                            itemOjb[codeRow][data.fieldName]
+                              ? itemOjb[codeRow][data.fieldName][0]
+                              : ""
+                          }
+                          isFlag={
+                            itemOjb &&
+                            itemOjb[codeRow] &&
+                            itemOjb[codeRow][data.fieldName]
+                              ? itemOjb[codeRow][data.fieldName][4]
+                              : ""
+                          }
+                          handleChange={handleChange}
+                        />
+                        : data.key ? (
                           itemOjb[rowItem] ? (
                             itemOjb[rowItem][data.key][0]
                           ) : (
