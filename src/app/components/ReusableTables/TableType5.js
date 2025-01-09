@@ -127,6 +127,8 @@ const TableType5 = ({
                 : 
                   tableData.item.map((data, rowIndex) => {
                     let rowItem = data.itemName;
+                    const titleRow1 = data.titleRow1;
+                    const titleRow2 = data.titleRow2;
                     const secondRowItem = data.secondItem;
                     const ojb = secondRowItem === 'true'? secondItemOjb : itemOjb;
                     return (
@@ -145,6 +147,8 @@ const TableType5 = ({
                             return (
                               <td rowSpan={type === "2"? rowSpan : ''} colSpan={type === "2"? colSpan: ''} key={colIndex}>
                                 {secondRowItem && key === "Espèce"? 
+                                  titleRow1? <><div style={{fontSize:'0.78em'}}>{titleRow1}</div><div style={{fontSize:'0.78em'}}>{titleRow2}</div></>
+                                  :
                                   <div>REJETS - DISCARD</div>
                                 :
                                   <EditableFieldForTable
