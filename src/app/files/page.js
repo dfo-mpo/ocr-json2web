@@ -1,5 +1,4 @@
 "use client";
-import FormRender from "../components/FormRender";
 import styles from "./page.module.css";
 import ErrorReport from "./ErrorReport";
 import Link from "next/link";
@@ -297,16 +296,7 @@ const File = ({ searchParams }) => {
             reFetch={asyncFetchStatus}
           />
           <div className={styles.container} ref={myContainer}>
-            <FormRender
-              isEditingTable={isEditingTable}
-              folderName={folderName}
-              items={jsonData}
-              fileName={fileName}
-              formSetting={formSetting}
-              reFetch={asyncFetchStatus}
-              reFetchJson={asyncFetch}
-              // verified={verified}
-            />
+            {/* This return statement will contain calls the React elements created for the 2 other containers */}
             <Link
               className={styles.linkStyle}
               rel="noopener noreferrer"
