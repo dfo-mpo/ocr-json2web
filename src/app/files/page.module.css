@@ -91,3 +91,24 @@
   text-decoration: underline;
   font-weight: 600;
 }
+
+.layoutContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+}
+
+.middlePanel {
+  width: 60%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.panelHeader {
+  font-weight: bold;
+  margin-bottom: 10px;
+}

@@ -4,6 +4,8 @@ import ErrorReport from "./ErrorReport";
 import Link from "next/link";
 import LogoHeader from "../components/LogoHeader";
 import Iframe from "./Iframe";
+import LeftPanel from "./LeftPanel";
+import RightPanel from "./RightPanel";
 import Image from "next/image";
 import errorIcon from "../../../public/images/error.svg";
 import verifiedIcon from "../../../public/images/verified.svg";
@@ -240,7 +242,7 @@ const File = ({ searchParams }) => {
     asyncFetchFormSetting();
     asyncFetchStatus();
   }, []);
-
+  
   return (
     <div className={styles.allPage}>
       <title>{fileName.replace(".json", "").replace(/_/g, " ")}</title>
@@ -312,7 +314,7 @@ const File = ({ searchParams }) => {
               View Json
             </Link>
 
-            <Link
+            {/* <Link
               className={styles.linkStyle2}
               rel="noopener noreferrer"
               target="_blank"
@@ -332,13 +334,30 @@ const File = ({ searchParams }) => {
               }}
             >
               {isEditingTable ? "Close Editing" : "Edit Table"}
-            </button>
-            <Iframe
-              formSetting={formSetting}
-              folderName={folderName}
-              fileName={fileName}
-              pageHeight={pageHeight}
-            />
+            </button> */}
+            
+            <div className={styles.layoutContainer} style={{ maxHeight: pageHeight }}>
+
+              <LeftPanel
+                pageHeight={pageHeight}
+              />
+
+              <div className={styles.middlePanel}>
+                <div className={styles.panelHeader}>Polygon Overlay</div>
+                <Iframe
+                  formSetting={formSetting}
+                  folderName={folderName}
+                  fileName={fileName}
+                  pageHeight={pageHeight}
+                />
+              </div>
+
+              <RightPanel
+                pageHeight={pageHeight}
+              />
+
+            </div>
+            
           </div>
         </>
       )}
