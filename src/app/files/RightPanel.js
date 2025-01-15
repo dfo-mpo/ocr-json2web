@@ -2,7 +2,7 @@
 import styles from "./RightPanel.module.css";
 import { useState, useEffect, useRef } from "react";
 
-const RightPanel = ({ pageHeight }) => {
+const RightPanel = ({ pageHeight, nullFields }) => {
   const [newPageHeight, setNewPageHeight] = useState(pageHeight);
   console.log("pageHeight", pageHeight);
 
@@ -17,14 +17,15 @@ const RightPanel = ({ pageHeight }) => {
   return (
     <>
     <div className={styles.rightPanel}>
-      <div className={styles.panelHeader}>Null Field List</div>
-        {/* TODO: Create dynamic list */}
-        <div className={styles.nullFieldItem}>Plant/packer/collector</div>
-        <div className={styles.nullFieldItem}>FISHERMAN'S SIGNATURE</div>
-        <div className={styles.nullFieldItem}>Plant/packer/collector</div>
-        <div className={styles.nullFieldItem}>FISHERMAN'S SIGNATURE</div>
-        <div className={styles.nullFieldItem}>Plant/packer/collector</div>
-        <div className={styles.nullFieldItem}>FISHERMAN'S SIGNATURE</div>
+      <h4>Null Field List</h4>
+      
+      {Object.keys(nullFields).map((nullField) => (
+        <div 
+          key={nullField} 
+          className={styles.nullFieldItem}>
+            {nullField}
+        </div>
+      ))}
     </div>
     </>
   );

@@ -7,15 +7,11 @@
   overflow-y: auto;
 }
 
-.panelHeader {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
 .nullFieldItem {
   margin-bottom: 12px;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #fff;
+  color: #6c757d;
 }

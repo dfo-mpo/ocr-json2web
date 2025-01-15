@@ -14,6 +14,16 @@ import modifiedIcon from "../../../public/images/modified.svg";
 import VerifiedButton from "./VerifiedButton";
 import { useState, useEffect, useRef } from "react";
 
+// Function to generate polygon bounding box color
+const getRandomColor = () => {
+  const letters = "0123456789ABCDEF";
+  let color = "#";
+  for (let i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+};
+
 const File = ({ searchParams }) => {
   const [isLoading, setIsLoading] = useState(true);
   const [isFormsettingReady, setIsFormsettingReady] = useState(true);
@@ -26,6 +36,124 @@ const File = ({ searchParams }) => {
   const [pageHeight, setPageHeight] = useState(1500);
   const [isFormSetting, setIsFormSetting] = useState();
   const [isEditingTable, setIsEditingTable] = useState(false);
+
+  // TODO: Use JSON data
+  // TODO: Filter data with coordinates or null
+  // TODO: With coordinate - feed LeftPanel
+  // TODO: Without coordinate - feed RightPanel
+
+  const [polygons, setPolygons] = useState({
+    "Label Name 1": [
+      "Label Text 1 Lorem ipsum odor amet, consectetuer adipiscing elit. Neque risus fames turpis tortor porttitor pellentesque non.",
+      [
+        {
+          "x1": 0.6979,
+          "y1": 1.9254
+        },
+        {
+          "x2": 2.6138,
+          "y2": 1.9173
+        },
+        {
+          "x3": 2.6178,
+          "y3": 2.8708
+        },
+        {
+          "x4": 0.7019,
+          "y4": 2.8789
+        }
+      ],
+      1,
+      0.622,
+      1
+    ],
+    "Label Name 2": [
+      "Label Text 2",
+      [
+        {
+          "x1": 0.6979,
+          "y1": 1.9254
+        },
+        {
+          "x2": 2.6138,
+          "y2": 1.9173
+        },
+        {
+          "x3": 2.6178,
+          "y3": 2.8708
+        },
+        {
+          "x4": 0.7019,
+          "y4": 2.8789
+        }
+      ],
+      1,
+      0.622,
+      1
+    ],
+    "Label Name 3": [
+      "Label Text 3",
+      [
+        {
+          "x1": 0.6979,
+          "y1": 1.9254
+        },
+        {
+          "x2": 2.6138,
+          "y2": 1.9173
+        },
+        {
+          "x3": 2.6178,
+          "y3": 2.8708
+        },
+        {
+          "x4": 0.7019,
+          "y4": 2.8789
+        }
+      ],
+      1,
+      0.622,
+      1
+    ]
+  });
+
+  const [nullFields, setNullFields] = useState({
+    "Null Field 1 Null": [
+      null,
+      [],
+      null,
+      0.932,
+      0
+    ],
+    "Null Field 2 Null Null": [
+      null,
+      [],
+      null,
+      0.97,
+      0
+    ]
+  })
+
+  const [polygonColors, setPolygonColors] = useState({});
+
+  useEffect(() => {
+    if (Object.keys(polygonColors).length === 0) {
+      const colors = Object.keys(polygons).reduce((acc, polygon) => {
+        acc[polygon] = getRandomColor();
+        return acc;
+      }, {});
+      setPolygonColors(colors);
+    }
+  }, [polygons]);
+
+  // TODO: Update JSON
+  const handleUpdatePolygon = (polygon, newText) => {
+    setPolygons((prevPolygons) => {
+      const updatedPolygons = { ...prevPolygons };
+      updatedPolygons[polygon][0] = newText;
+      return updatedPolygons;
+    });
+  };
 
   // this is the Form page
   const fileName = searchParams.fileName;
@@ -340,10 +468,13 @@ const File = ({ searchParams }) => {
 
               <LeftPanel
                 pageHeight={pageHeight}
+                polygons={polygons}
+                polygonColors={polygonColors}
+                handleUpdatePolygon={handleUpdatePolygon}
               />
 
               <div className={styles.middlePanel}>
-                <div className={styles.panelHeader}>Polygon Overlay</div>
+                <h4>Polygon Overlay</h4>
                 <Iframe
                   formSetting={formSetting}
                   folderName={folderName}
@@ -354,6 +485,7 @@ const File = ({ searchParams }) => {
 
               <RightPanel
                 pageHeight={pageHeight}
+                nullFields={nullFields}
               />
 
             </div>

@@ -2,11 +2,9 @@
 import styles from "./LeftPanel.module.css";
 import { useState, useEffect, useRef } from "react";
 
-const LeftPanel = ({ pageHeight }) => {
+const LeftPanel = ({ pageHeight, polygons, polygonColors, handleUpdatePolygon }) => {
   const [newPageHeight, setNewPageHeight] = useState(pageHeight);
   console.log("pageHeight", pageHeight);
-
-  const [color, setColor] = useState();
 
   useEffect(() => {
     if (pageHeight < 1000) {
@@ -16,193 +14,46 @@ const LeftPanel = ({ pageHeight }) => {
     }
   }, [pageHeight]);
 
-  // Temporary function added to generate random color for label names
-  function getRandomColor() {
-    const letters = '0123456789ABCDEF';
-    let color = '#';
-    for (let i = 0; i < 6; i++) {
-      color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
-  }
+  // Use Ref to adjust textarea height when loading
+  const textAreaRefs = useRef({});
 
   useEffect(() => {
-    setColor(getRandomColor());
-  }, [])
+    Object.keys(polygons).forEach((polygon) => {
+      const textArea = textAreaRefs.current[polygon];
+      if (textArea) {
+        textArea.style.height = "auto";
+        textArea.style.height = `${textArea.scrollHeight}px`;
+      }
+    });
+  }, [polygons]);
   
   return (
     <>
     <div className={styles.leftPanel}>
-      <div className={styles.panelHeader}>Polygon List</div>
+      <h4>Polygon List</h4>
 
-      {/* TODO: Create dynamic list */}
-      <div className={styles.polygonItem}>
-        <div className={styles.labelName}>
-          <span className={styles.colorCircle} style={{ backgroundColor: getRandomColor() }}></span>
-          Harvester's Name
-        </div>
-        <div className={styles.labelText}>Luong's Investements Ltd. 2015-2633 Simpson Road Richmond, BC V6X 0B9 Tel: 604-254-8066</div>
-      </div>
+      {Object.keys(polygons).map((polygon) => {
+        const label = polygons[polygon];
+        const labelText = label[0];
+        const color = polygonColors[polygon];
 
-      <div className={styles.polygonItem}>
-        <div className={styles.labelName}>
-          <span className={styles.colorCircle} style={{ backgroundColor: getRandomColor() }}></span>
-          VRN
-        </div>
-        <div className={styles.labelText}>Ocean Prince III / 30881</div>
-      </div>
+        return (
+          <div key={polygon} className={styles.polygonItem}>
+            <div className={styles.labelName}>
+              <span className={styles.colorCircle} style={{ backgroundColor: color }}></span>
+              {polygon}
+            </div>
+            <textarea
+              ref={(el) => (textAreaRefs.current[polygon] = el)}
+              className={styles.labelText}
+              value={labelText}
+              onChange={(e) => handleUpdatePolygon(polygon, e.target.value)}
+              rows={1}
+            />
+          </div>
+        )
 
-      <div className={styles.polygonItem}>
-        <div className={styles.labelName}>
-          <span className={styles.colorCircle} style={{ backgroundColor: getRandomColor() }}></span>
-          Fish slip #
-        </div>
-        <div className={styles.labelText}>2020016923</div>
-      </div>
-
-      <div className={styles.polygonItem}>
-        <div className={styles.labelName}>
-          <span className={styles.colorCircle} style={{ backgroundColor: getRandomColor() }}></span>
-          Harvester's Name
-        </div>
-        <div className={styles.labelText}>Luong's Investements Ltd. 2015-2633 Simpson Road Richmond, BC V6X 0B9 Tel: 604-254-8066</div>
-      </div>
-
-      <div className={styles.polygonItem}>
-        <div className={styles.labelName}>
-          <span className={styles.colorCircle} style={{ backgroundColor: getRandomColor() }}></span>
-          VRN
-        </div>
-        <div className={styles.labelText}>Ocean Prince III / 30881</div>
-      </div>
-
-      <div className={styles.polygonItem}>
-        <div className={styles.labelName}>
-          <span className={styles.colorCircle} style={{ backgroundColor: getRandomColor() }}></span>
-          Fish slip #
-        </div>
-        <div className={styles.labelText}>2020016923</div>
-      </div>
-
-      <div className={styles.polygonItem}>
-        <div className={styles.labelName}>
-          <span className={styles.colorCircle} style={{ backgroundColor: getRandomColor() }}></span>
-          Harvester's Name
-        </div>
-        <div className={styles.labelText}>Luong's Investements Ltd. 2015-2633 Simpson Road Richmond, BC V6X 0B9 Tel: 604-254-8066</div>
-      </div>
-
-      <div className={styles.polygonItem}>
-        <div className={styles.labelName}>
-          <span className={styles.colorCircle} style={{ backgroundColor: getRandomColor() }}></span>
-          VRN
-        </div>
-        <div className={styles.labelText}>Ocean Prince III / 30881</div>
-      </div>
-
-      <div className={styles.polygonItem}>
-        <div className={styles.labelName}>
-          <span className={styles.colorCircle} style={{ backgroundColor: getRandomColor() }}></span>
-          Fish slip #
-        </div>
-        <div className={styles.labelText}>2020016923</div>
-      </div>
-
-      <div className={styles.polygonItem}>
-        <div className={styles.labelName}>
-          <span className={styles.colorCircle} style={{ backgroundColor: getRandomColor() }}></span>
-          Harvester's Name
-        </div>
-        <div className={styles.labelText}>Luong's Investements Ltd. 2015-2633 Simpson Road Richmond, BC V6X 0B9 Tel: 604-254-8066</div>
-      </div>
-
-      <div className={styles.polygonItem}>
-        <div className={styles.labelName}>
-          <span className={styles.colorCircle} style={{ backgroundColor: getRandomColor() }}></span>
-          VRN
-        </div>
-        <div className={styles.labelText}>Ocean Prince III / 30881</div>
-      </div>
-
-      <div className={styles.polygonItem}>
-        <div className={styles.labelName}>
-          <span className={styles.colorCircle} style={{ backgroundColor: getRandomColor() }}></span>
-          Fish slip #
-        </div>
-        <div className={styles.labelText}>2020016923</div>
-      </div>
-
-      <div className={styles.polygonItem}>
-        <div className={styles.labelName}>
-          <span className={styles.colorCircle} style={{ backgroundColor: getRandomColor() }}></span>
-          Harvester's Name
-        </div>
-        <div className={styles.labelText}>Luong's Investements Ltd. 2015-2633 Simpson Road Richmond, BC V6X 0B9 Tel: 604-254-8066</div>
-      </div>
-
-      <div className={styles.polygonItem}>
-        <div className={styles.labelName}>
-          <span className={styles.colorCircle} style={{ backgroundColor: getRandomColor() }}></span>
-          VRN
-        </div>
-        <div className={styles.labelText}>Ocean Prince III / 30881</div>
-      </div>
-
-      <div className={styles.polygonItem}>
-        <div className={styles.labelName}>
-          <span className={styles.colorCircle} style={{ backgroundColor: getRandomColor() }}></span>
-          Fish slip #
-        </div>
-        <div className={styles.labelText}>2020016923</div>
-      </div>
-
-      <div className={styles.polygonItem}>
-        <div className={styles.labelName}>
-          <span className={styles.colorCircle} style={{ backgroundColor: getRandomColor() }}></span>
-          Harvester's Name
-        </div>
-        <div className={styles.labelText}>Luong's Investements Ltd. 2015-2633 Simpson Road Richmond, BC V6X 0B9 Tel: 604-254-8066</div>
-      </div>
-
-      <div className={styles.polygonItem}>
-        <div className={styles.labelName}>
-          <span className={styles.colorCircle} style={{ backgroundColor: getRandomColor() }}></span>
-          VRN
-        </div>
-        <div className={styles.labelText}>Ocean Prince III / 30881</div>
-      </div>
-
-      <div className={styles.polygonItem}>
-        <div className={styles.labelName}>
-          <span className={styles.colorCircle} style={{ backgroundColor: getRandomColor() }}></span>
-          Fish slip #
-        </div>
-        <div className={styles.labelText}>2020016923</div>
-      </div>
-
-      <div className={styles.polygonItem}>
-        <div className={styles.labelName}>
-          <span className={styles.colorCircle} style={{ backgroundColor: getRandomColor() }}></span>
-          Harvester's Name
-        </div>
-        <div className={styles.labelText}>Luong's Investements Ltd. 2015-2633 Simpson Road Richmond, BC V6X 0B9 Tel: 604-254-8066</div>
-      </div>
-
-      <div className={styles.polygonItem}>
-        <div className={styles.labelName}>
-          <span className={styles.colorCircle} style={{ backgroundColor: getRandomColor() }}></span>
-          VRN
-        </div>
-        <div className={styles.labelText}>Ocean Prince III / 30881</div>
-      </div>
-
-      <div className={styles.polygonItem}>
-        <div className={styles.labelName}>
-          <span className={styles.colorCircle} style={{ backgroundColor: getRandomColor() }}></span>
-          Fish slip #
-        </div>
-        <div className={styles.labelText}>2020016923</div>
-      </div>
+      })}
       
     </div>
 
