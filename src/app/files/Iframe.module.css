@@ -50,3 +50,24 @@
   color: #174ea6;
   opacity: 1;
 }
+
+/* Iframe.module.css */  
+.container {  
+  position: relative;  
+}  
+  
+.iframe {  
+  width: 100%;  
+  border: none;  
+}  
+  
+.box {  
+  position: absolute;  
+  border: 2px solid;  
+  pointer-events: none; /* Make sure boxes don't interfere with iframe interactions */  
+}  
+  
+.noData {  
+  text-align: center;  
+  margin-top: 20px;  
+} 

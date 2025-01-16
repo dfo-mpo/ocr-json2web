@@ -71,20 +71,20 @@ const File = ({ searchParams }) => {
       "Label Text 2",
       [
         {
-          "x1": 0.6979,
-          "y1": 1.9254
+          "x1": 3.3751,
+          "y1": 1.9288
         },
         {
-          "x2": 2.6138,
-          "y2": 1.9173
+            "x2": 4.7251,
+            "y2": 1.9288
         },
         {
-          "x3": 2.6178,
-          "y3": 2.8708
+            "x3": 4.7251,
+            "y3": 2.081
         },
         {
-          "x4": 0.7019,
-          "y4": 2.8789
+            "x4": 3.3751,
+            "y4": 2.081
         }
       ],
       1,
@@ -95,20 +95,20 @@ const File = ({ searchParams }) => {
       "Label Text 3",
       [
         {
-          "x1": 0.6979,
-          "y1": 1.9254
+          "x1": 6.8567,
+          "y1": 1.6851
         },
         {
-          "x2": 2.6138,
-          "y2": 1.9173
+            "x2": 7.5672,
+            "y2": 1.6801
         },
         {
-          "x3": 2.6178,
-          "y3": 2.8708
+            "x3": 7.5681,
+            "y3": 1.807
         },
         {
-          "x4": 0.7019,
-          "y4": 2.8789
+            "x4": 6.8576,
+            "y4": 1.8121
         }
       ],
       1,
@@ -476,10 +476,11 @@ const File = ({ searchParams }) => {
               <div className={styles.middlePanel}>
                 <h4>Polygon Overlay</h4>
                 <Iframe
-                  formSetting={formSetting}
                   folderName={folderName}
                   fileName={fileName}
                   pageHeight={pageHeight}
+                  json={polygons}
+                  polygonColours={polygonColors}
                 />
               </div>
 
