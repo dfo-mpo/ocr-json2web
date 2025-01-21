@@ -1,4 +1,4 @@
-.leftPanel {
+.polygonList {
   width: 20%;
   padding: 10px;
   background-color: #f9f9f9;
@@ -27,6 +27,8 @@
 }
 
 .labelName {
+  display: flex;
+  gap: 8px;
   margin-bottom: 4px;
 }
 
@@ -34,7 +36,9 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  margin-right: 8px;
+  flex-shrink: 0;
+  align-self: flex-start;
+  margin-top: 6px;
 }
 
 .labelText {

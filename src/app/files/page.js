@@ -4,8 +4,8 @@ import ErrorReport from "./ErrorReport";
 import Link from "next/link";
 import LogoHeader from "../components/LogoHeader";
 import Iframe from "./Iframe";
-import LeftPanel from "./LeftPanel";
-import RightPanel from "./RightPanel";
+import PolygonList from "./PolygonList";
+import NullFieldList from "./NullFieldList";
 import Image from "next/image";
 import errorIcon from "../../../public/images/error.svg";
 import verifiedIcon from "../../../public/images/verified.svg";
@@ -36,123 +36,54 @@ const File = ({ searchParams }) => {
   const [pageHeight, setPageHeight] = useState(1500);
   const [isFormSetting, setIsFormSetting] = useState();
   const [isEditingTable, setIsEditingTable] = useState(false);
-
-  // TODO: Use JSON data
-  // TODO: Filter data with coordinates or null
-  // TODO: With coordinate - feed LeftPanel
-  // TODO: Without coordinate - feed RightPanel
-
-  const [polygons, setPolygons] = useState({
-    "Label Name 1": [
-      "Label Text 1 Lorem ipsum odor amet, consectetuer adipiscing elit. Neque risus fames turpis tortor porttitor pellentesque non.",
-      [
-        {
-          "x1": 0.6979,
-          "y1": 1.9254
-        },
-        {
-          "x2": 2.6138,
-          "y2": 1.9173
-        },
-        {
-          "x3": 2.6178,
-          "y3": 2.8708
-        },
-        {
-          "x4": 0.7019,
-          "y4": 2.8789
-        }
-      ],
-      1,
-      0.622,
-      1
-    ],
-    "Label Name 2": [
-      "Label Text 2",
-      [
-        {
-          "x1": 3.3751,
-          "y1": 1.9288
-        },
-        {
-            "x2": 4.7251,
-            "y2": 1.9288
-        },
-        {
-            "x3": 4.7251,
-            "y3": 2.081
-        },
-        {
-            "x4": 3.3751,
-            "y4": 2.081
-        }
-      ],
-      1,
-      0.622,
-      1
-    ],
-    "Label Name 3": [
-      "Label Text 3",
-      [
-        {
-          "x1": 6.8567,
-          "y1": 1.6851
-        },
-        {
-            "x2": 7.5672,
-            "y2": 1.6801
-        },
-        {
-            "x3": 7.5681,
-            "y3": 1.807
-        },
-        {
-            "x4": 6.8576,
-            "y4": 1.8121
-        }
-      ],
-      1,
-      0.622,
-      1
-    ]
-  });
-
-  const [nullFields, setNullFields] = useState({
-    "Null Field 1 Null": [
-      null,
-      [],
-      null,
-      0.932,
-      0
-    ],
-    "Null Field 2 Null Null": [
-      null,
-      [],
-      null,
-      0.97,
-      0
-    ]
-  })
-
+  
   const [polygonColors, setPolygonColors] = useState({});
 
   useEffect(() => {
     if (Object.keys(polygonColors).length === 0) {
-      const colors = Object.keys(polygons).reduce((acc, polygon) => {
+      const colors = Object.keys(jsonData).reduce((acc, polygon) => {
         acc[polygon] = getRandomColor();
         return acc;
       }, {});
       setPolygonColors(colors);
     }
-  }, [polygons]);
+  }, [jsonData]);
+  
+  // TODO: feature to write the new value to the container
+  const handleUpdatePolygon = (label, newValue) => {
+    const updatePolygon = (data, targetKeys) => {
+      const updatedData = { ...data };
+      // Handle nested keys
+      const [currKey, ...remainingKeys] = targetKeys;
+  
+      if (!currKey) return updatedData;
+  
+      if (remainingKeys.length === 0) {
+        // For nested keys. Check if key is final.
+        if (updatedData[currKey]) {
+          updatedData[currKey] = [
+            // Update label text to new value 
+            newValue,
+            // Keep the remaining of the json data object
+            ...updatedData[currKey].slice(1),
+          ];
+        }
+      } else {
+        // Recursion to handle nested objects
+        if (typeof updatedData[currKey][0] === "object" && updatedData[currKey][0] != null) {
+          updatedData[currKey][0] = updatePolygon(
+            updatedData[currKey][0],
+            remainingKeys
+          );
+        }
+      }
+  
+      return updatedData;
+    };
 
-  // TODO: Update JSON
-  const handleUpdatePolygon = (polygon, newText) => {
-    setPolygons((prevPolygons) => {
-      const updatedPolygons = { ...prevPolygons };
-      updatedPolygons[polygon][0] = newText;
-      return updatedPolygons;
-    });
+    // Split the nested keys as an array
+    const keyList = label.split(" - ");
+    setJsonData((prev) => updatePolygon(prev, keyList));
   };
 
   // this is the Form page
@@ -466,27 +397,27 @@ const File = ({ searchParams }) => {
             
             <div className={styles.layoutContainer} style={{ maxHeight: pageHeight }}>
 
-              <LeftPanel
+              <PolygonList
                 pageHeight={pageHeight}
-                polygons={polygons}
+                json={jsonData}
                 polygonColors={polygonColors}
                 handleUpdatePolygon={handleUpdatePolygon}
               />
 
-              <div className={styles.middlePanel}>
+              <div className={styles.polygonOverlay}>
                 <h4>Polygon Overlay</h4>
                 <Iframe
                   folderName={folderName}
                   fileName={fileName}
                   pageHeight={pageHeight}
-                  json={polygons}
+                  json={jsonData}
                   polygonColours={polygonColors}
                 />
               </div>
 
-              <RightPanel
+              <NullFieldList
                 pageHeight={pageHeight}
-                nullFields={nullFields}
+                json={jsonData}
               />
 
             </div>
