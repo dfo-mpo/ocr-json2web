@@ -1,63 +1,73 @@
-"use client";
-import styles from "./Iframe.module.css";
-import { useState, useEffect, useRef } from "react";
-
-const Iframe = ({ fileName, folderName, pageHeight, json, polygonColours }) => {
-  const [isLoading, setIsLoading] = useState(false);
-  const [pdfUrl, setPdfUrl] = useState();
-  const [isPdf, setIsPdf] = useState(true);
-  const [newPageHeight, setNewPageHeight] = useState(pageHeight);
-  const [boxes, setBoxes] = useState([]); 
-
-  useEffect(() => {
-    if (pageHeight < 1000) {
-      setNewPageHeight(1000);
-    } else {
-      setNewPageHeight(pageHeight);
-    }
-  }, [pageHeight]);
-
-  let pdfName = fileName.replace(".json", ".pdf");
-  const submitData = {
-    fileName: pdfName,
-    folderName: folderName,
-  };
-
-  //fetch pdf data from blob
-  const asyncFetch = async () => {
-    setIsLoading(true);
-    const Response = await fetch("/api/readPDF", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(submitData),
-    });
-    if (!Response.ok) {
-      setIsPdf(false);
-      throw new Error(Response.statusText);
-    } else if (Response.status === 203) {
-      console.log("No data");
-      setIsPdf(false);
-    } else {
-      // Convert the response to a blob
-
-      // const pdfBuffer = await Response.arrayBuffer();
-      const pdf = await Response.blob();
-      const blob = new Blob([pdf], { type: "application/pdf" });
-      const url = URL.createObjectURL(blob);
-      setPdfUrl(url);
+"use client";  
+import styles from "./Iframe.module.css";  
+import { useState, useEffect, useRef } from "react";  
+import * as pdfjsLib from "pdfjs-dist";  
+import "pdfjs-dist/web/pdf_viewer.css";    
+  
+// You will need to set the workerSrc for PDF.js  
+pdfjsLib.GlobalWorkerOptions.workerSrc = new URL(  
+  'pdfjs-dist/build/pdf.worker.min.mjs',  
+  import.meta.url  
+).toString();  
+  
+const Iframe = ({ fileName, folderName, pageHeight, json, polygonColours }) => {  
+  const [isLoading, setIsLoading] = useState(false);   
+  const [isPdf, setIsPdf] = useState(true);  
+  const [newPageHeight, setNewPageHeight] = useState(pageHeight);  
+  const [boxes, setBoxes] = useState([]);  
+  const [scaleFactor, setScaleFactor] = useState(1);
+  const [viewPortWidth, setViewPortWidth] = useState(1);
+  const canvasRef = useRef(null);  
+  const renderTaskRef = useRef(null); // Add ref to store the rendering task 
+  const containerRef = useRef(null);
+  
+  useEffect(() => {  
+    if (pageHeight < 1000) {  
+      setNewPageHeight(1000);  
+    } else {  
+      setNewPageHeight(pageHeight);  
+    }  
+  }, [pageHeight]);  
+  
+  let pdfName = fileName.replace(".json", ".pdf");  
+  const submitData = {  
+    fileName: pdfName,  
+    folderName: folderName,  
+  };  
+  
+  //fetch pdf data from blob  
+  const asyncFetch = async () => {  
+    setIsLoading(true);  
+    const response = await fetch("/api/readPDF", {  
+      method: "POST",  
+      headers: {  
+        "Content-Type": "application/json",  
+      },  
+      body: JSON.stringify(submitData),  
+    });  
+  
+    if (!response.ok) {  
+      setIsPdf(false);  
+      throw new Error(response.statusText);  
+    } else if (response.status === 203) {  
+      console.log("No data");  
+      setIsPdf(false);  
+    } else {  
+      const pdf = await response.blob();  
+      const url = URL.createObjectURL(pdf); 
+      renderPDF(url); 
+ 
       const extractedBoxes = extractBoxesFromJson(json);  
       setBoxes(extractedBoxes);  
-      setIsLoading(false);
-    }
-  };
-
+      setIsLoading(false);  
+    }  
+  };  
+  
   const extractBoxesFromJson = (jsonData) => {  
     const boxes = [];  
-    const DPI = 100; // Change this to effect the scaling of the polygon points, DPI(dots per inch)
+    const DPI = 72;  
     let colourIndex = 0;  
-    const polygonList = Object.entries(polygonColours);
+    const polygonList = Object.entries(polygonColours);  
   
     function extractCoords(coordsList) {  
       const combinedCoords = {};  
@@ -76,7 +86,7 @@ const Iframe = ({ fileName, folderName, pageHeight, json, polygonColours }) => {
             const uniqueKey = `${rowKey} - ${columnKey}`;  
             boxes.push({  
               key: uniqueKey,  
-              coords: coords.map(coord => coord * DPI),  
+              coords: coords.map(coord => coord * DPI * scaleFactor),  
               color: polygonList[colourIndex % polygonList.length][1],  
             });  
             colourIndex++;  
@@ -121,18 +131,64 @@ const Iframe = ({ fileName, folderName, pageHeight, json, polygonColours }) => {
     processJson(jsonData);  
     return boxes;  
   };  
+  
+  const renderPDF = async (url) => {  
+    // If there is an ongoing render task, cancel it  
+    if (renderTaskRef.current) {  
+      renderTaskRef.current.cancel();  
+    }  
 
-  useEffect(() => {
-    asyncFetch();
-    console.log(polygonColours)
-  }, []);
-
-  return (
-    <>
+    const loadingTask = pdfjsLib.getDocument(url);  
+    const pdf = await loadingTask.promise;  
+    const page = await pdf.getPage(1);  
+    const scale = 1;  
+    const viewport = page.getViewport({ scale: scale });  
+    setScaleFactor(containerRef.current.offsetWidth / viewport.width);
+    console.log(containerRef.current.offsetWidth);
+    console.log(scaleFactor);
+  
+    const canvas = canvasRef.current;  
+    const context = canvas.getContext("2d");  
+    canvas.height = viewport.height * scaleFactor;  
+    canvas.width = viewport.width * scaleFactor;  
+  
+    const renderContext = {  
+      canvasContext: context,  
+      viewport: viewport,  
+    };  
+  
+    const renderTask = page.render(renderContext);  
+    renderTaskRef.current = renderTask; // Store the render task  
+    await renderTask.promise.then(  
+      function () {  
+        // Render completed  
+        renderTaskRef.current = null;  
+      },  
+      function (error) {  
+        // Handle error during rendering  
+        console.error(error);  
+        renderTaskRef.current = null;  
+      }  
+    );  
+  };  
+  
+  useEffect(() => {  
+    asyncFetch();  
+      
+    // Clean up: cancel ongoing render task when the component unmounts  
+    return () => {  
+      if (renderTaskRef.current) {  
+        renderTaskRef.current.cancel();  
+      }  
+    };  
+  }, []); 
+  
+  return (  
+    <>  
       {isPdf ? (  
         !isLoading ? (  
-          <div className={styles.container} style={{ height: newPageHeight }}>  
-            <iframe className={styles.iframe} src={pdfUrl} style={{ height: newPageHeight }} />  
+          <div ref={containerRef} className={styles.container} style={{ height: newPageHeight }}>  
+            <canvas ref={canvasRef} className={styles.canvas} />  
             {boxes.map((box) => (  
               <div  
                 key={box.key}  
@@ -152,9 +208,9 @@ const Iframe = ({ fileName, folderName, pageHeight, json, polygonColours }) => {
         )  
       ) : (  
         <div className={styles.noData}>No PDF file found</div>  
-      )}
-    </>
-  );
-};
-
-export default Iframe;
+      )}  
+    </>  
+  );  
+};  
+  
+export default Iframe;  
