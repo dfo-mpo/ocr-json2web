@@ -1,8 +1,16 @@
 "use client";
 import styles from "./PolygonList.module.css";
+import Polygon from "../components/Polygon";
 import { useState, useEffect, useRef } from "react";
 
-const PolygonList = ({ pageHeight, json, polygonColors, handleUpdatePolygon }) => {
+const PolygonList = ({
+  pageHeight,
+  json,
+  setJsonData,
+  polygonColors,
+  reFetch,
+  reFetchJson,
+}) => {
   const [newPageHeight, setNewPageHeight] = useState(pageHeight);
   // console.log("pageHeight", pageHeight);
 
@@ -14,6 +22,50 @@ const PolygonList = ({ pageHeight, json, polygonColors, handleUpdatePolygon }) =
     }
   }, [pageHeight]);
 
+  const saveChange = () => {
+    reFetch();
+  };
+
+  const cancelChange = () => {
+    reFetchJson();
+  };
+
+  // Used to track items has been edited
+  const [updateJson, setUpdateJson] = useState(json);
+  const [isEditing, setIsEditing] = useState(false);
+
+  // Used to keep tracking the edited polygons
+  const [editedPolygons, setEditedPolygons] = useState(new Set());
+
+  const changeHandler = (value) => {
+    setIsEditing(true);
+    setJsonData(value);
+    setUpdateJson(value);
+  };
+
+  const onClickHandler = async (updateJson) => {
+    const Response = await fetch("/api/saveModified", {
+      method: "POST",
+      body: JSON.stringify({
+        folderName: folderName,
+        fileName: fileName,
+        data: updateJson,
+      }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+
+    if (!Response.ok) {
+      setIsEditing(false);
+      alert("Error");
+    } else {
+      setIsEditing(false);
+      alert("Success");
+      saveChange();
+    }
+  };
+  
   // Use Ref to adjust textarea height when loading
   const textAreaRefs = useRef({});
 
@@ -27,62 +79,96 @@ const PolygonList = ({ pageHeight, json, polygonColors, handleUpdatePolygon }) =
     });
   }, [json]);
 
-  // Function to render polygon list
-  const renderPolygon = (key, content, coordinates, color) => {
-    // Check if coordinates are valid
-    const areCoordinatesValid = Array.isArray(coordinates) &&
-     ["x1", "y1", "x2", "y2", "x3", "y3", "x4", "y4"].every((requiredKey) =>
-        coordinates.some((coord) => coord[requiredKey] != null)
-      );
+  const handleUpdatePolygon = (polygonKey, newValue) => {
+    setEditedPolygons((prev) => new Set(prev).add(polygonKey));
 
-    // Recursion to handle nested objects
-    if (typeof content === "object" && content != null) {
-      return Object.keys(content).map((nestedKey) => (
-        renderPolygon(`${key} - ${nestedKey}`, content[nestedKey][0], content[nestedKey][1], color)
-      ));
-    }
+    const updatePolygon = (data, targetKeys) => {
+      const updatedData = { ...data };
+      // Handle nested keys
+      const [currKey, ...remainingKeys] = targetKeys;
+  
+      if (!currKey) return updatedData;
+  
+      if (remainingKeys.length === 0) {
+        // For nested keys. Check if key is final.
+        if (updatedData[currKey]) {
+          updatedData[currKey] = [
+            // Update label text to new value 
+            newValue,
+            // Keep the remaining of the json data object
+            ...updatedData[currKey].slice(1),
+          ];
+        }
+      } else {
+        // Recursion to handle nested objects
+        if (typeof updatedData[currKey][0] === "object" && updatedData[currKey][0] != null) {
+          updatedData[currKey][0] = updatePolygon(
+            updatedData[currKey][0],
+            remainingKeys
+          );
+        }
+      }
+      
+      return updatedData;
+    };
 
-    // Render polygon if the content if string or null, with valid coordinates
-    if ((typeof content === "string" || content === null) && areCoordinatesValid) {
-      return (
-        <>
-        <div key={key} className={styles.polygonItem}>
-          <div className={styles.labelName}>
-            <span className={styles.colorCircle} style={{ backgroundColor: color }}></span>
-            {key}
-          </div>
-          <textarea
-            ref={(el) => (textAreaRefs.current[key] = el)}
-            className={styles.labelText}
-            value={content}
-            onChange={(e) => handleUpdatePolygon(key, e.target.value)}
-            rows={1}
-          />
-        </div>
-        </>
-      )
-    }
+    // Split the nested keys as an array
+    const keyList = polygonKey.split(" - ");
+    const updatedData = updatePolygon(json, keyList);
 
-    return null;
-  }
+    console.log(updatedData);
+    
+    changeHandler(updatedData);
+  };
+
+  const handleSave = () => {
+    setEditedPolygons(new Set());
+    setIsEditing(false);
+
+    // onClickHandler(updateJson);
+  };
+  
+  const handleCancel = () => {
+    setEditedPolygons(new Set());
+    setIsEditing(false);
+
+    cancelChange();
+  };
   
   return (
-    <>
     <div className={styles.polygonList}>
+      {isEditing ? (
+        <>
+        <button onClick={handleSave}>Save</button>
+        <button onClick={handleCancel}>Cancel</button>
+        </>
+      ) : null}
+
       <h4>Polygon List</h4>
       
       {Object.keys(json).map((key) => {
         const obj = json[key];
         const content = obj[0];
         const coordinates = obj[1];
+        const flag = obj[4];
         const color = polygonColors[key];
-        
-        return renderPolygon(key, content, coordinates, color);
+
+        return (
+          <Polygon
+            key={key}
+            polygonKey={key}
+            content={content}
+            coordinates={coordinates}
+            flag={flag}
+            color={color}
+            textAreaRef={(ref) => (textAreaRefs.current[key] = ref)}
+            handleUpdatePolygon={handleUpdatePolygon}
+            editedPolygons={editedPolygons}
+          />
+        )
       })}
       
     </div>
-
-    </>
   );
 };
 

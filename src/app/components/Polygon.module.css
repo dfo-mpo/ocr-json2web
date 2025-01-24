@@ -1,0 +1,33 @@
+.polygonItem {
+  margin-bottom: 12px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.polygonItem:hover {
+  border-color: #ccc;
+  box-shadow: 0 0 0 3px #ccc;
+}
+
+.labelName {
+  display: flex;
+  align-items: center;
+  color: #6c757d;
+}
+
+.labelName {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.colorCircle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  align-self: flex-start;
+  margin-top: 4px;
+}

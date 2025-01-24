@@ -48,43 +48,6 @@ const File = ({ searchParams }) => {
       setPolygonColors(colors);
     }
   }, [jsonData]);
-  
-  // TODO: feature to write the new value to the container
-  const handleUpdatePolygon = (label, newValue) => {
-    const updatePolygon = (data, targetKeys) => {
-      const updatedData = { ...data };
-      // Handle nested keys
-      const [currKey, ...remainingKeys] = targetKeys;
-  
-      if (!currKey) return updatedData;
-  
-      if (remainingKeys.length === 0) {
-        // For nested keys. Check if key is final.
-        if (updatedData[currKey]) {
-          updatedData[currKey] = [
-            // Update label text to new value 
-            newValue,
-            // Keep the remaining of the json data object
-            ...updatedData[currKey].slice(1),
-          ];
-        }
-      } else {
-        // Recursion to handle nested objects
-        if (typeof updatedData[currKey][0] === "object" && updatedData[currKey][0] != null) {
-          updatedData[currKey][0] = updatePolygon(
-            updatedData[currKey][0],
-            remainingKeys
-          );
-        }
-      }
-  
-      return updatedData;
-    };
-
-    // Split the nested keys as an array
-    const keyList = label.split(" - ");
-    setJsonData((prev) => updatePolygon(prev, keyList));
-  };
 
   // this is the Form page
   const fileName = searchParams.fileName;
@@ -400,8 +363,10 @@ const File = ({ searchParams }) => {
               <PolygonList
                 pageHeight={pageHeight}
                 json={jsonData}
+                setJsonData={setJsonData}
                 polygonColors={polygonColors}
-                handleUpdatePolygon={handleUpdatePolygon}
+                reFetch={asyncFetchStatus}
+                reFetchJson={asyncFetch}
               />
 
               <div className={styles.polygonOverlay}>

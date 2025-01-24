@@ -25,19 +25,21 @@ const NullFieldList = ({ pageHeight, json }) => {
     // Recursion to handle nested objects
     if (typeof content === "object" && content != null) {
       return Object.keys(content).map((nestedKey) => (
-        renderNullField(`${key} - ${nestedKey}`, content[nestedKey][0], content[nestedKey][1])
+        renderNullField(
+          `${key} - ${nestedKey}`,
+          content[nestedKey][0],
+          content[nestedKey][1]
+        )
       ));
     }
 
     if (!areCoordinatesValid) {
       return (
-        <>
         <div 
           key={key} 
           className={styles.nullFieldItem}>
             {key}
         </div>
-        </>
       )
     }
 
@@ -45,7 +47,6 @@ const NullFieldList = ({ pageHeight, json }) => {
   }
   
   return (
-    <>
     <div className={styles.nullFieldList}>
       <h4>Null Field List</h4>
 
@@ -57,7 +58,6 @@ const NullFieldList = ({ pageHeight, json }) => {
         return renderNullField(key, content, coordinates);
       })}
     </div>
-    </>
   );
 };
 
