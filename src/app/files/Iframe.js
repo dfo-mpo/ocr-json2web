@@ -10,16 +10,16 @@ pdfjsLib.GlobalWorkerOptions.workerSrc = new URL(
   import.meta.url  
 ).toString();  
   
-const Iframe = ({ fileName, folderName, pageHeight, json, polygonColours }) => {  
+const Iframe = ({ fileName, folderName, pageHeight, pageWidth, json, polygonColours }) => {  
   const [isLoading, setIsLoading] = useState(false);   
   const [isPdf, setIsPdf] = useState(true);  
   const [newPageHeight, setNewPageHeight] = useState(pageHeight);  
   const [boxes, setBoxes] = useState([]);  
-  const [scaleFactor, setScaleFactor] = useState(1);
-  const [viewPortWidth, setViewPortWidth] = useState(1);
+  // const [scaleFactor, setScaleFactor] = useState(1);
+  const [pdfWidth, setPdfWidth] = useState(0);
+  const [pdfPage, setPdfPage] = useState(null);
   const canvasRef = useRef(null);  
   const renderTaskRef = useRef(null); // Add ref to store the rendering task 
-  const containerRef = useRef(null);
   
   useEffect(() => {  
     if (pageHeight < 1000) {  
@@ -53,19 +53,22 @@ const Iframe = ({ fileName, folderName, pageHeight, json, polygonColours }) => {
       console.log("No data");  
       setIsPdf(false);  
     } else {  
-      const pdf = await response.blob();  
-      const url = URL.createObjectURL(pdf); 
-      renderPDF(url); 
- 
-      const extractedBoxes = extractBoxesFromJson(json);  
-      setBoxes(extractedBoxes);  
-      setIsLoading(false);  
+      var pdf = await response.blob();  
+      const url = URL.createObjectURL(pdf);
+      const loadingTask = pdfjsLib.getDocument(url);  
+      pdf = await loadingTask.promise;  
+      const page = await pdf.getPage(1); 
+      
+      setPdfPage(page); 
     }  
   };  
   
   const extractBoxesFromJson = (jsonData) => {  
     const boxes = [];  
-    const DPI = 72;  
+    const DPI = 72; 
+    console.log("stored pdf width");
+    console.log(pdfWidth);
+    var scaleFactor = pdfWidth > 0? pageWidth / pdfWidth : 1; 
     let colourIndex = 0;  
     const polygonList = Object.entries(polygonColours);  
   
@@ -115,7 +118,7 @@ const Iframe = ({ fileName, folderName, pageHeight, json, polygonColours }) => {
               if (coords.every(coord => coord !== undefined)) {  
                 boxes.push({  
                   key: newKey,  
-                  coords: coords.map(coord => coord * DPI),  
+                  coords: coords.map(coord => coord * DPI * scaleFactor),  
                   color: polygonList[colourIndex % polygonList.length][1],  
                 });  
                 colourIndex++;  
@@ -130,27 +133,18 @@ const Iframe = ({ fileName, folderName, pageHeight, json, polygonColours }) => {
   
     processJson(jsonData);  
     return boxes;  
-  };  
+  }; 
   
-  const renderPDF = async (url) => {  
-    // If there is an ongoing render task, cancel it  
-    if (renderTaskRef.current) {  
-      renderTaskRef.current.cancel();  
-    }  
-
-    const loadingTask = pdfjsLib.getDocument(url);  
-    const pdf = await loadingTask.promise;  
-    const page = await pdf.getPage(1);  
-    const scale = 1;  
-    const viewport = page.getViewport({ scale: scale });  
-    setScaleFactor(containerRef.current.offsetWidth / viewport.width);
-    console.log(containerRef.current.offsetWidth);
-    console.log(scaleFactor);
+  const renderPDF = async (page) => {   
+    const scale = 1; 
+    const pdfWidth =  page.getViewport({ scale: scale }).width;
+    const viewport = page.getViewport({ scale: pageWidth / pdfWidth}); 
+    setPdfWidth(pdfWidth); 
   
     const canvas = canvasRef.current;  
     const context = canvas.getContext("2d");  
-    canvas.height = viewport.height * scaleFactor;  
-    canvas.width = viewport.width * scaleFactor;  
+    canvas.height = viewport.height;  
+    canvas.width = viewport.width;  
   
     const renderContext = {  
       canvasContext: context,  
@@ -181,13 +175,25 @@ const Iframe = ({ fileName, folderName, pageHeight, json, polygonColours }) => {
         renderTaskRef.current.cancel();  
       }  
     };  
-  }, []); 
+  }, []);
+
+  // Whenever a new with is defined for this component, re render pdf and boxes to match it
+  useEffect(() => {
+    console.log(pageWidth);
+    if (pdfPage) {
+      renderPDF(pdfPage); 
+
+      const extractedBoxes = extractBoxesFromJson(json);  
+      setBoxes(extractedBoxes);  
+      setIsLoading(false); 
+    }
+  }, [pageWidth, pdfPage])
   
   return (  
     <>  
       {isPdf ? (  
         !isLoading ? (  
-          <div ref={containerRef} className={styles.container} style={{ height: newPageHeight }}>  
+          <div className={styles.container} style={{ height: newPageHeight }}>  
             <canvas ref={canvasRef} className={styles.canvas} />  
             {boxes.map((box) => (  
               <div  

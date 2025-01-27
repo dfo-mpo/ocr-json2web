@@ -36,6 +36,7 @@ const File = ({ searchParams }) => {
   const [pageHeight, setPageHeight] = useState(1500);
   const [isFormSetting, setIsFormSetting] = useState();
   const [isEditingTable, setIsEditingTable] = useState(false);
+  const polygonOverlayRef = useRef(null);
   
   const [polygonColors, setPolygonColors] = useState({});
 
@@ -369,12 +370,13 @@ const File = ({ searchParams }) => {
                 reFetchJson={asyncFetch}
               />
 
-              <div className={styles.polygonOverlay}>
+              <div ref={polygonOverlayRef} className={styles.polygonOverlay}>
                 <h4>Polygon Overlay</h4>
                 <Iframe
                   folderName={folderName}
                   fileName={fileName}
                   pageHeight={pageHeight}
+                  pageWidth={polygonOverlayRef && polygonOverlayRef.current? polygonOverlayRef.current.offsetWidth : 0}
                   json={jsonData}
                   polygonColours={polygonColors}
                 />
