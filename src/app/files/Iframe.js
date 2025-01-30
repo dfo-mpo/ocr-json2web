@@ -2,32 +2,22 @@
 import styles from "./Iframe.module.css";  
 import { useState, useEffect, useRef } from "react";  
 import * as pdfjsLib from "pdfjs-dist";  
-import "pdfjs-dist/web/pdf_viewer.css";    
+import "pdfjs-dist/web/pdf_viewer.css";   
   
 // You will need to set the workerSrc for PDF.js  
 pdfjsLib.GlobalWorkerOptions.workerSrc = new URL(  
   'pdfjs-dist/build/pdf.worker.min.mjs',  
   import.meta.url  
-).toString();  
-  
-const Iframe = ({ fileName, folderName, pageHeight, pageWidth, json, polygonColours }) => {  
+).toString(); 
+
+const Iframe = ({ fileName, folderName, pageWidth, json, polygonColours, onBoxClick }) => {  
   const [isLoading, setIsLoading] = useState(false);   
-  const [isPdf, setIsPdf] = useState(true);  
-  const [newPageHeight, setNewPageHeight] = useState(pageHeight);  
-  const [boxes, setBoxes] = useState([]);  
-  // const [scaleFactor, setScaleFactor] = useState(1);
+  const [isPdf, setIsPdf] = useState(true);   
+  const [boxes, setBoxes] = useState([]);
   const [pdfWidth, setPdfWidth] = useState(0);
   const [pdfPage, setPdfPage] = useState(null);
   const canvasRef = useRef(null);  
   const renderTaskRef = useRef(null); // Add ref to store the rendering task 
-  
-  useEffect(() => {  
-    if (pageHeight < 1000) {  
-      setNewPageHeight(1000);  
-    } else {  
-      setNewPageHeight(pageHeight);  
-    }  
-  }, [pageHeight]);  
   
   let pdfName = fileName.replace(".json", ".pdf");  
   const submitData = {  
@@ -66,8 +56,7 @@ const Iframe = ({ fileName, folderName, pageHeight, pageWidth, json, polygonColo
   const extractBoxesFromJson = (jsonData) => {  
     const boxes = [];  
     const DPI = 72; 
-    console.log("stored pdf width");
-    console.log(pdfWidth);
+
     var scaleFactor = pdfWidth > 0? pageWidth / pdfWidth : 1; 
     let colourIndex = 0;  
     const polygonList = Object.entries(polygonColours);  
@@ -141,30 +130,33 @@ const Iframe = ({ fileName, folderName, pageHeight, pageWidth, json, polygonColo
     const viewport = page.getViewport({ scale: pageWidth / pdfWidth}); 
     setPdfWidth(pdfWidth); 
   
-    const canvas = canvasRef.current;  
-    const context = canvas.getContext("2d");  
-    canvas.height = viewport.height;  
-    canvas.width = viewport.width;  
-  
-    const renderContext = {  
-      canvasContext: context,  
-      viewport: viewport,  
-    };  
-  
-    const renderTask = page.render(renderContext);  
-    renderTaskRef.current = renderTask; // Store the render task  
-    await renderTask.promise.then(  
-      function () {  
-        // Render completed  
-        renderTaskRef.current = null;  
-      },  
-      function (error) {  
-        // Handle error during rendering  
-        console.error(error);  
-        renderTaskRef.current = null;  
-      }  
-    );  
-  };  
+    if (canvasRef.current) {
+      const canvas = canvasRef.current;  
+      const context = canvas.getContext("2d");  
+      canvas.height = viewport.height;  
+      canvas.width = viewport.width;  
+    
+      const renderContext = {  
+        canvasContext: context,  
+        viewport: viewport,  
+      };  
+    
+      const renderTask = page.render(renderContext);  
+      renderTaskRef.current = renderTask; // Store the render task  
+      await renderTask.promise.then(  
+        function () {  
+          // Render completed  
+          renderTaskRef.current = null;  
+        },  
+        function (error) {  
+          // Handle error during rendering  
+          console.error(error);  
+          renderTaskRef.current = null;  
+        }  
+      );  
+    }
+    
+  }; 
   
   useEffect(() => {  
     asyncFetch();  
@@ -193,20 +185,24 @@ const Iframe = ({ fileName, folderName, pageHeight, pageWidth, json, polygonColo
     <>  
       {isPdf ? (  
         !isLoading ? (  
-          <div className={styles.container} style={{ height: newPageHeight }}>  
+          <div className={styles.container}>  
             <canvas ref={canvasRef} className={styles.canvas} />  
             {boxes.map((box) => (  
               <div  
                 key={box.key}  
-                className={styles.box}  
+                className={`${styles.box} ${styles.hoverBackground}`}  
                 style={{  
                   left: `${box.coords[0]}px`,  
                   top: `${box.coords[1]}px`,  
                   width: `${box.coords[2] - box.coords[0]}px`,  
                   height: `${box.coords[3] - box.coords[1]}px`,  
-                  borderColor: `${box.color}`,  
-                }}  
-              />  
+                  borderColor: `${box.color}`,
+                  '--hover-bg-color': `rgba(${parseInt(box.color.slice(1, 3), 16)}, ${parseInt(box.color.slice(3, 5), 16)}, ${parseInt(box.color.slice(5, 7), 16)}, 0.5)`, 
+                }} 
+                onClick={()=>{onBoxClick(box.key);}}
+              >
+                {/* <div className={styles.tooltip}>{box.key}</div> */}
+              </div>  
             ))}  
           </div>  
         ) : (  

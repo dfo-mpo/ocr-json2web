@@ -7,6 +7,8 @@ const PolygonList = ({
   pageHeight,
   json,
   setJsonData,
+  folderName,
+  fileName,
   polygonColors,
   reFetch,
   reFetchJson,
@@ -125,7 +127,7 @@ const PolygonList = ({
     setEditedPolygons(new Set());
     setIsEditing(false);
 
-    // onClickHandler(updateJson);
+    onClickHandler(updateJson);
   };
   
   const handleCancel = () => {

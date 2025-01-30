@@ -62,12 +62,31 @@
 }  
   
 .box {  
-  position: absolute;  
-  border: 2px solid;  
-  pointer-events: none; /* Make sure boxes don't interfere with iframe interactions */  
+  position: absolute;
+  z-index: 10; 
+  border: 2px solid;
+  cursor: pointer;
+  /* pointer-events: none; /* Make sure boxes don't interfere with iframe interactions */  
 }  
   
 .noData {  
   text-align: center;  
   margin-top: 20px;  
 } 
+
+.hoverBackground {  
+  background-color: transparent; /* default background color */  
+  
+  /* Define the hover state */  
+  transition: background-color 0.3s ease; /* Optional for smooth transition */  
+}  
+  
+.hoverBackground:hover {  
+  background-color: var(--hover-bg-color);  
+} 
+
+.tooltip {
+  position: relative;
+
+}
+ 

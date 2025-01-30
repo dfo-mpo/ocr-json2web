@@ -260,6 +260,10 @@ const File = ({ searchParams }) => {
     }
   };
 
+  const onBoxClick = (key) => {
+    console.log(key)
+  }
+
   useEffect(() => {
     asyncFetch();
     asyncFetchFormSetting();
@@ -364,6 +368,8 @@ const File = ({ searchParams }) => {
               <PolygonList
                 pageHeight={pageHeight}
                 json={jsonData}
+                folderName={folderName}
+                fileName={fileName}
                 setJsonData={setJsonData}
                 polygonColors={polygonColors}
                 reFetch={asyncFetchStatus}
@@ -375,10 +381,10 @@ const File = ({ searchParams }) => {
                 <Iframe
                   folderName={folderName}
                   fileName={fileName}
-                  pageHeight={pageHeight}
                   pageWidth={polygonOverlayRef && polygonOverlayRef.current? polygonOverlayRef.current.offsetWidth : 0}
                   json={jsonData}
                   polygonColours={polygonColors}
+                  onBoxClick={onBoxClick}
                 />
               </div>
 

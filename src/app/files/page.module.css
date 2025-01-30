@@ -1,5 +1,5 @@
 .allPage {
-  margin-bottom: 200px;
+  margin-bottom: 80px;
 }
 
 .backButton {
@@ -104,6 +104,7 @@
   width: 60%;
   padding: 10px;
   display: flex;
+  height: fit-content;
   flex-direction: column;
   border: 1px solid #ddd;
   border-radius: 5px;
