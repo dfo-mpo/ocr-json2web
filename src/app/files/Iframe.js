@@ -10,7 +10,7 @@ pdfjsLib.GlobalWorkerOptions.workerSrc = new URL(
   import.meta.url  
 ).toString(); 
 
-const Iframe = ({ fileName, folderName, pageWidth, json, polygonColours, onBoxClick }) => {  
+const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, polygonColours, onBoxClick }) => {  
   const [isLoading, setIsLoading] = useState(false);   
   const [isPdf, setIsPdf] = useState(true);   
   const [boxes, setBoxes] = useState([]);

@@ -4,25 +4,19 @@ import Polygon from "../components/Polygon";
 import { useState, useEffect, useRef } from "react";
 
 const PolygonList = ({
-  pageHeight,
+  fileName,
+  folderName,
   json,
   setJsonData,
-  folderName,
-  fileName,
+  polygonKeys,
+  setPolygonKeys,
   polygonColors,
   reFetch,
   reFetchJson,
 }) => {
-  const [newPageHeight, setNewPageHeight] = useState(pageHeight);
-  // console.log("pageHeight", pageHeight);
-
-  useEffect(() => {
-    if (pageHeight < 1000) {
-      setNewPageHeight(1000);
-    } else {
-      setNewPageHeight(pageHeight);
-    }
-  }, [pageHeight]);
+  // useEffect(() => {
+  //   console.log(polygonKeys);
+  // }, [polygonKeys]);
 
   const saveChange = () => {
     reFetch();
@@ -85,40 +79,52 @@ const PolygonList = ({
     setEditedPolygons((prev) => new Set(prev).add(polygonKey));
 
     const updatePolygon = (data, targetKeys) => {
+      if (!data || targetKeys.length === 0) return data;
+
+      // Clone the current object
       const updatedData = { ...data };
-      // Handle nested keys
-      const [currKey, ...remainingKeys] = targetKeys;
+      
+      // Extract key and clean up "Row #" pattern
+      const [currentKey, ...remainingKeys] = targetKeys;
+      const cleanKey = currentKey.replace(/(Row.*)/, '').trim();
+
+      // Match "Row #" pattern
+      const rowMatch = currentKey.match(/Row (\d+)/);
+      // Return the index of the row
+      const rowIndex = rowMatch ? parseInt(rowMatch[1], 10) - 1 : null;
   
-      if (!currKey) return updatedData;
-  
+      if (!cleanKey) return updatedData;
+
+      // Update the polygon data if reach the final key
       if (remainingKeys.length === 0) {
-        // For nested keys. Check if key is final.
-        if (updatedData[currKey]) {
-          updatedData[currKey] = [
-            // Update label text to new value 
+        if (updatedData[cleanKey]) {
+          updatedData[cleanKey] = [
             newValue,
-            // Keep the remaining of the json data object
-            ...updatedData[currKey].slice(1),
+            ...updatedData[cleanKey].slice(1,4),  // Keep the remaining of the json data object
+            2                                     // Set flag to 2 (edited)
           ];
         }
       } else {
-        // Recursion to handle nested objects
-        if (typeof updatedData[currKey][0] === "object" && updatedData[currKey][0] != null) {
-          updatedData[currKey][0] = updatePolygon(
-            updatedData[currKey][0],
+        // Recursion to make function call to handle nested object
+        if (
+          updatedData[cleanKey] &&
+          Array.isArray(updatedData[cleanKey]) &&
+          rowIndex !== null &&
+          typeof updatedData[cleanKey][rowIndex] === "object"
+        ) {
+          updatedData[cleanKey][rowIndex] = updatePolygon(
+            updatedData[cleanKey][rowIndex],
             remainingKeys
           );
         }
+
       }
       
       return updatedData;
     };
 
-    // Split the nested keys as an array
     const keyList = polygonKey.split(" - ");
     const updatedData = updatePolygon(json, keyList);
-
-    console.log(updatedData);
     
     changeHandler(updatedData);
   };
@@ -147,22 +153,17 @@ const PolygonList = ({
       ) : null}
 
       <h4>Polygon List</h4>
-      
-      {Object.keys(json).map((key) => {
-        const obj = json[key];
-        const content = obj[0];
-        const coordinates = obj[1];
-        const flag = obj[4];
+
+      {Object.entries(json).map(([key, value]) => {
         const color = polygonColors[key];
 
         return (
           <Polygon
             key={key}
             polygonKey={key}
-            content={content}
-            coordinates={coordinates}
-            flag={flag}
+            polygon={value}
             color={color}
+            setPolygonKeys={setPolygonKeys}
             textAreaRef={(ref) => (textAreaRefs.current[key] = ref)}
             handleUpdatePolygon={handleUpdatePolygon}
             editedPolygons={editedPolygons}

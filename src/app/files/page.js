@@ -38,6 +38,7 @@ const File = ({ searchParams }) => {
   const [isEditingTable, setIsEditingTable] = useState(false);
   const polygonOverlayRef = useRef(null);
   
+  const [polygonKeys, setPolygonKeys] = useState([]);
   const [polygonColors, setPolygonColors] = useState({});
 
   useEffect(() => {
@@ -366,11 +367,12 @@ const File = ({ searchParams }) => {
             <div className={styles.layoutContainer} style={{ maxHeight: pageHeight }}>
 
               <PolygonList
-                pageHeight={pageHeight}
-                json={jsonData}
-                folderName={folderName}
                 fileName={fileName}
+                folderName={folderName}
+                json={jsonData}
                 setJsonData={setJsonData}
+                polygonKeys={polygonKeys}
+                setPolygonKeys={setPolygonKeys}
                 polygonColors={polygonColors}
                 reFetch={asyncFetchStatus}
                 reFetchJson={asyncFetch}
@@ -383,13 +385,13 @@ const File = ({ searchParams }) => {
                   fileName={fileName}
                   pageWidth={polygonOverlayRef && polygonOverlayRef.current? polygonOverlayRef.current.offsetWidth : 0}
                   json={jsonData}
+                  polygonKeys={polygonKeys}
                   polygonColours={polygonColors}
                   onBoxClick={onBoxClick}
                 />
               </div>
 
               <NullFieldList
-                pageHeight={pageHeight}
                 json={jsonData}
               />
 
