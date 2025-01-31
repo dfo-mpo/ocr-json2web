@@ -37,6 +37,7 @@ const File = ({ searchParams }) => {
   const [isFormSetting, setIsFormSetting] = useState();
   const [isEditingTable, setIsEditingTable] = useState(false);
   const [selectedPolygon, setSelectedPolygon] = useState(null);
+  const [polygonOverlayWidth, setPolygonOverlayWidth] = useState(0);
   const polygonOverlayRef = useRef(null);
   
   const [polygonKeys, setPolygonKeys] = useState(new Set());
@@ -277,6 +278,14 @@ const File = ({ searchParams }) => {
     console.log('Textarea is blurred');  
   }; 
 
+  window.addEventListener('resize', () => {          
+    if (polygonOverlayRef && polygonOverlayRef.current) setPolygonOverlayWidth(polygonOverlayRef.current.offsetWidth - 22);       
+  }); 
+
+  useEffect(() => {
+    if (polygonOverlayRef && polygonOverlayRef.current) setPolygonOverlayWidth(polygonOverlayRef.current.offsetWidth - 22);
+  }, [polygonOverlayRef, polygonOverlayRef.current]);
+
   useEffect(() => {
     asyncFetch();
     asyncFetchFormSetting();
@@ -397,7 +406,7 @@ const File = ({ searchParams }) => {
                 <Iframe
                   folderName={folderName}
                   fileName={fileName}
-                  pageWidth={polygonOverlayRef && polygonOverlayRef.current? polygonOverlayRef.current.offsetWidth : 0}
+                  pageWidth={polygonOverlayWidth}
                   json={jsonData}
                   polygonKeys={polygonKeys}
                   polygonColours={polygonColors}

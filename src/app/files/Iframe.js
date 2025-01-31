@@ -171,7 +171,6 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, polygonCol
 
   // Whenever a new with is defined for this component, re render pdf and boxes to match it
   useEffect(() => {
-    console.log(pageWidth);
     if (pdfPage) {
       renderPDF(pdfPage); 
 
