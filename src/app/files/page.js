@@ -9,7 +9,7 @@ import NullFieldList from "./NullFieldList";
 import Image from "next/image";
 import errorIcon from "../../../public/images/error.svg";
 import verifiedIcon from "../../../public/images/verified.svg";
-import modifiedIcon from "../../../public/images/modified.svg";
+import modifiedIcon from "../../../public/images/modified.svg"; 
 
 import VerifiedButton from "./VerifiedButton";
 import { useState, useEffect, useRef } from "react";
@@ -37,7 +37,7 @@ const File = ({ searchParams }) => {
   const [isFormSetting, setIsFormSetting] = useState();
   const [isEditingTable, setIsEditingTable] = useState(false);
   const [selectedPolygon, setSelectedPolygon] = useState(null);
-  const [polygonOverlayWidth, setPolygonOverlayWidth] = useState(0);
+  const [polygonOverlayDimensions, setPolygonOverlayDimensions] = useState([0,0]);
   const polygonOverlayRef = useRef(null);
   
   const [polygonKeys, setPolygonKeys] = useState(new Set());
@@ -59,12 +59,12 @@ const File = ({ searchParams }) => {
 
   const myContainer = useRef(null);
 
-  useEffect(() => {
-    if (myContainer.current) {
-      const height = myContainer.current.clientHeight;
-      setPageHeight(height);
-    }
-  });
+  // useEffect(() => {
+  //   if (myContainer.current) {
+  //     const height = myContainer.current.clientHeight;
+  //     setPageHeight(height);
+  //   }
+  // });
 
   // const error = searchParams.error === "true";
   // const modified = searchParams.modified === "true";
@@ -269,27 +269,40 @@ const File = ({ searchParams }) => {
 
   const handlePolygonSelect = (key) => {  
     setSelectedPolygon(key);
-    console.log('Textarea is focused');  
-    console.log(key);
   };  
   
   const handlePolygonDeselect = () => {  
     setSelectedPolygon(null);
-    console.log('Textarea is blurred');  
   }; 
 
-  window.addEventListener('resize', () => {          
-    if (polygonOverlayRef && polygonOverlayRef.current) setPolygonOverlayWidth(polygonOverlayRef.current.offsetWidth - 22);       
-  }); 
-
-  useEffect(() => {
-    if (polygonOverlayRef && polygonOverlayRef.current) setPolygonOverlayWidth(polygonOverlayRef.current.offsetWidth - 22);
-  }, [polygonOverlayRef, polygonOverlayRef.current]);
+  useEffect(() => {  
+    const checkDimensions = () => {  
+      if (polygonOverlayRef.current && polygonOverlayRef.current.offsetHeight) {  
+        setPolygonOverlayDimensions([  
+          polygonOverlayRef.current.offsetWidth - 22,  
+          polygonOverlayRef.current.offsetHeight  
+        ]);  
+      }  
+    };  
+  
+    // Initial check  
+    checkDimensions();  
+  
+    // Set up interval to check for changes  
+    const intervalId = setInterval(checkDimensions, 100); // check every 100ms  
+  
+    // Clean up the interval on component unmount  
+    return () => clearInterval(intervalId);  
+  }, [polygonOverlayRef]);
 
   useEffect(() => {
     asyncFetch();
     asyncFetchFormSetting();
     asyncFetchStatus();
+
+    window.addEventListener('resize', () => {          
+      if (polygonOverlayRef && polygonOverlayRef.current) setPolygonOverlayDimensions([polygonOverlayRef.current.offsetWidth - 22, polygonOverlayRef.current.offsetHeight]);       
+    }); 
   }, []);
   
   return (
@@ -385,7 +398,7 @@ const File = ({ searchParams }) => {
               {isEditingTable ? "Close Editing" : "Edit Table"}
             </button> */}
             
-            <div className={styles.layoutContainer} style={{ maxHeight: pageHeight }}>
+            <div className={styles.layoutContainer} style={{ maxHeight: polygonOverlayDimensions[1] }}>
 
               <PolygonList
                 fileName={fileName}
@@ -406,7 +419,7 @@ const File = ({ searchParams }) => {
                 <Iframe
                   folderName={folderName}
                   fileName={fileName}
-                  pageWidth={polygonOverlayWidth}
+                  pageWidth={polygonOverlayDimensions[0]}
                   json={jsonData}
                   polygonKeys={polygonKeys}
                   polygonColours={polygonColors}
