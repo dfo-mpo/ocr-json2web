@@ -38,7 +38,7 @@ const File = ({ searchParams }) => {
   const [isEditingTable, setIsEditingTable] = useState(false);
   const polygonOverlayRef = useRef(null);
   
-  const [polygonKeys, setPolygonKeys] = useState([]);
+  const [polygonKeys, setPolygonKeys] = useState(new Set());
   const [polygonColors, setPolygonColors] = useState({});
 
   useEffect(() => {

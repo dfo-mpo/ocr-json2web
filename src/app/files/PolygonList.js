@@ -14,9 +14,19 @@ const PolygonList = ({
   reFetch,
   reFetchJson,
 }) => {
-  // useEffect(() => {
-  //   console.log(polygonKeys);
-  // }, [polygonKeys]);
+  const collectedPolygonKeys = new Set();
+
+  const collectPolygonKeys = (polygonKey) => {
+    collectedPolygonKeys.add(polygonKey);
+  };
+
+  useEffect(() => {
+    setPolygonKeys(collectedPolygonKeys);
+  }, [json]);
+
+  useEffect(() => {
+    console.log(polygonKeys);
+  }, [polygonKeys]);
 
   const saveChange = () => {
     reFetch();
@@ -163,10 +173,10 @@ const PolygonList = ({
             polygonKey={key}
             polygon={value}
             color={color}
-            setPolygonKeys={setPolygonKeys}
             textAreaRef={(ref) => (textAreaRefs.current[key] = ref)}
             handleUpdatePolygon={handleUpdatePolygon}
             editedPolygons={editedPolygons}
+            collectPolygonKey={(polygonKey) => collectPolygonKeys(polygonKey)}
           />
         )
       })}

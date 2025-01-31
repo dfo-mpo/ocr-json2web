@@ -7,10 +7,10 @@ const Polygon = ({
   polygonKey,
   polygon,
   color,
-  setPolygonKeys,
   textAreaRef,
   handleUpdatePolygon,
   editedPolygons,
+  collectPolygonKey,
 }) => {
   // Helper function for coordinates validation logic
   const areCoordinatesValid = (coordinates) => {
@@ -45,30 +45,26 @@ const Polygon = ({
       const coordinates = polygon[1];
       const flag = polygon[4];
 
-      useEffect(() => {
-        areCoordinatesValid(coordinates) ? (
-          setPolygonKeys((prev) => 
-            prev.includes(polygonKey) ? prev : [...prev, polygonKey]
-        )
-        ) : null;
-      }, [coordinates, polygonKey, setPolygonKeys]);
+      if (areCoordinatesValid(coordinates)) {
+        collectPolygonKey(polygonKey);
 
-      return areCoordinatesValid(coordinates) ? (
-        <div key={polygonKey} className={styles.polygonItem}>
-          <div className={styles.labelName}>
-            <span className={styles.colorCircle} style={{ backgroundColor: color }}></span>
-            {polygonKey}
+        return (
+          <div key={polygonKey} className={styles.polygonItem}>
+            <div className={styles.labelName}>
+              <span className={styles.colorCircle} style={{ backgroundColor: color }}></span>
+              {polygonKey}
+            </div>
+            <EditableField
+              polygonKey={polygonKey}
+              content={content}
+              flag={flag}
+              textAreaRef={textAreaRef}
+              handleUpdatePolygon={handleUpdatePolygon}
+              editedPolygons={editedPolygons}
+            />
           </div>
-          <EditableField
-            polygonKey={polygonKey}
-            content={content}
-            flag={flag}
-            textAreaRef={textAreaRef}
-            handleUpdatePolygon={handleUpdatePolygon}
-            editedPolygons={editedPolygons}
-          />
-        </div>
-      ) : null;
+        )
+      }
     }
 
     return null;
