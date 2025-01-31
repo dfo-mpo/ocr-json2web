@@ -13,6 +13,8 @@ const PolygonList = ({
   polygonColors,
   reFetch,
   reFetchJson,
+  handlePolygonSelect,
+  handlePolygonDeselect
 }) => {
   const collectedPolygonKeys = new Set();
 
@@ -177,6 +179,8 @@ const PolygonList = ({
             handleUpdatePolygon={handleUpdatePolygon}
             editedPolygons={editedPolygons}
             collectPolygonKey={(polygonKey) => collectPolygonKeys(polygonKey)}
+            handlePolygonSelect={handlePolygonSelect}  
+            handlePolygonDeselect={handlePolygonDeselect} 
           />
         )
       })}

@@ -11,6 +11,8 @@ const Polygon = ({
   handleUpdatePolygon,
   editedPolygons,
   collectPolygonKey,
+  handlePolygonSelect,
+  handlePolygonDeselect
 }) => {
   // Helper function for coordinates validation logic
   const areCoordinatesValid = (coordinates) => {
@@ -21,7 +23,7 @@ const Polygon = ({
         coordinates.some((coord) => coord[requiredKey] != null)
       )
     );
-  };
+  }; 
   
   const renderPolygon = (polygonKey, polygon, color, textAreaRef) => {
     const content = polygon[0];
@@ -55,6 +57,8 @@ const Polygon = ({
               {polygonKey}
             </div>
             <EditableField
+              handleFocus={handlePolygonSelect}  
+              handleBlur={handlePolygonDeselect} 
               polygonKey={polygonKey}
               content={content}
               flag={flag}

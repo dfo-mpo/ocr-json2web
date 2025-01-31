@@ -10,7 +10,7 @@ pdfjsLib.GlobalWorkerOptions.workerSrc = new URL(
   import.meta.url  
 ).toString(); 
 
-const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, polygonColours, onBoxClick }) => {  
+const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, polygonColours, selectedPolygon, onBoxClick }) => {  
   const [isLoading, setIsLoading] = useState(false);   
   const [isPdf, setIsPdf] = useState(true);   
   const [boxes, setBoxes] = useState([]);
@@ -190,7 +190,7 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, polygonCol
             {boxes.map((box) => (  
               <div  
                 key={box.key}  
-                className={`${styles.box} ${styles.hoverBackground}`}  
+                className={`${styles.box} ${styles.hoverBackground} ${selectedPolygon === box.key? styles.highlight : ''}`}  
                 style={{  
                   left: `${box.coords[0]}px`,  
                   top: `${box.coords[1]}px`,  

@@ -36,6 +36,7 @@ const File = ({ searchParams }) => {
   const [pageHeight, setPageHeight] = useState(1500);
   const [isFormSetting, setIsFormSetting] = useState();
   const [isEditingTable, setIsEditingTable] = useState(false);
+  const [selectedPolygon, setSelectedPolygon] = useState(null);
   const polygonOverlayRef = useRef(null);
   
   const [polygonKeys, setPolygonKeys] = useState(new Set());
@@ -265,6 +266,17 @@ const File = ({ searchParams }) => {
     console.log(key)
   }
 
+  const handlePolygonSelect = (key) => {  
+    setSelectedPolygon(key);
+    console.log('Textarea is focused');  
+    console.log(key);
+  };  
+  
+  const handlePolygonDeselect = () => {  
+    setSelectedPolygon(null);
+    console.log('Textarea is blurred');  
+  }; 
+
   useEffect(() => {
     asyncFetch();
     asyncFetchFormSetting();
@@ -376,6 +388,8 @@ const File = ({ searchParams }) => {
                 polygonColors={polygonColors}
                 reFetch={asyncFetchStatus}
                 reFetchJson={asyncFetch}
+                handlePolygonSelect={handlePolygonSelect}  
+                handlePolygonDeselect={handlePolygonDeselect} 
               />
 
               <div ref={polygonOverlayRef} className={styles.polygonOverlay}>
@@ -387,6 +401,7 @@ const File = ({ searchParams }) => {
                   json={jsonData}
                   polygonKeys={polygonKeys}
                   polygonColours={polygonColors}
+                  selectedPolygon={selectedPolygon}
                   onBoxClick={onBoxClick}
                 />
               </div>

@@ -9,6 +9,8 @@ const EditableField = ({
   textAreaRef,
   handleUpdatePolygon,
   editedPolygons,
+  handleFocus,
+  handleBlur
 }) => {
 
   let flagStyle = '';
@@ -26,6 +28,8 @@ const EditableField = ({
   
   return (
     <textarea
+      onFocus={()=>{handleFocus(polygonKey);}}  
+      onBlur={handleBlur} 
       ref={textAreaRef}
       className={`${styles.labelText} ${flagStyle}`}
       value={content}

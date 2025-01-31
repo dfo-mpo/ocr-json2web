@@ -89,4 +89,8 @@
   position: relative;
 
 }
+
+.highlight {
+  background-color: var(--hover-bg-color); 
+}
  
