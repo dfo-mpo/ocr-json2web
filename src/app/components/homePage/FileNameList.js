@@ -32,46 +32,69 @@ const FileNameList = ({ filesByFolder, fileStatus }) => {
 
 
   //fetching the firle status
-  const asyncFetch = async () => {
-    setIsReload(true);
-    const Response = await fetch("/api/fileStatus", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(uniqueFolderNames),
-    });
-    if (!Response.ok) {
-      throw new Error(Response.statusText);
-    } else if (Response.status === 203) {
-      console.log("No data");
-      setIsReload(false);
-    } else {
-      const reader = Response.body.getReader();
-      const readData = async () => {
-        try {
-          while (true) {
-            const { done, value } = await reader.read();
-            if (done) {
-              break;
-            }
-            // `value` contains the chunk of data as a Uint8Array
-            const jsonString = new TextDecoder().decode(value);
-            // Parse the JSON string into an object
-            const dataObject = JSON.parse(jsonString);
-            fileStatus(dataObject);
-            setFileStatusJson(dataObject);
-            setIsReload(false);
-          }
-        } catch (error) {
-          console.error("Error reading response:", error);
-        } finally {
-          reader.releaseLock(); // Release the reader's lock when done
-        }
-      };
-
-      readData();
-    }
+  const asyncFetch = async () => {  
+    // Prevent multiple simultaneous executions  
+    if (isReload) return;  
+    
+    try {  
+      setIsReload(true);  
+    
+      const response = await fetch("/api/fileStatus", {  
+        method: "POST",  
+        headers: {  
+          "Content-Type": "application/json",  
+        },  
+        body: JSON.stringify(uniqueFolderNames),  
+      });  
+    
+      if (!response.ok) {  
+        throw new Error(`HTTP error! status: ${response.status}`);  
+      } else if (response.status === 203) {  
+        console.log("No data");  
+        setIsReload(false);  
+      } else {  
+        const reader = response.body.getReader();  
+        const textDecoder = new TextDecoder();  
+        let rawResponse = "";  
+    
+        const readData = async () => {  
+          try {  
+            let done = false;  
+            while (!done) {  
+              const { done: chunkDone, value } = await reader.read();  
+              done = chunkDone;  
+    
+              if (value) {  
+                rawResponse += textDecoder.decode(value, { stream: !done });  
+              }  
+            }  
+    
+            // Log the raw response for debugging  
+            console.log("Raw response:", rawResponse);  
+    
+            // Attempt to parse the raw response  
+            try {  
+              const dataObject = JSON.parse(rawResponse);  
+              fileStatus(dataObject);  
+              setFileStatusJson(dataObject);  
+            } catch (jsonError) {  
+              console.error("JSON parse error:", jsonError);  
+              console.error("Invalid JSON received:", rawResponse);  
+            }  
+          } catch (error) {  
+            console.error("Error reading response:", error);  
+          } finally {  
+            reader.releaseLock();  
+            setIsReload(false);  
+          }  
+        };  
+    
+        await readData();  
+      }  
+    } catch (error) {  
+      console.error("Fetch error:", error);  
+      setIsReload(false); // Ensure to reset the state even on error  
+    }  
   };
 
   useEffect(() => {
