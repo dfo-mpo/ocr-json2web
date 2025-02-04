@@ -10,7 +10,6 @@ const PolygonList = ({
   setJsonData,
   polygonKeys,
   setPolygonKeys,
-  polygonColors,
   reFetch,
   reFetchJson,
   handlePolygonSelect,
@@ -25,10 +24,6 @@ const PolygonList = ({
   useEffect(() => {
     setPolygonKeys(collectedPolygonKeys);
   }, [json]);
-
-  useEffect(() => {
-    console.log(polygonKeys);
-  }, [polygonKeys]);
 
   const saveChange = () => {
     reFetch();
@@ -167,14 +162,11 @@ const PolygonList = ({
       <h4>Polygon List</h4>
 
       {Object.entries(json).map(([key, value]) => {
-        const color = polygonColors[key];
-
         return (
           <Polygon
             key={key}
             polygonKey={key}
             polygon={value}
-            color={color}
             textAreaRef={(ref) => (textAreaRefs.current[key] = ref)}
             handleUpdatePolygon={handleUpdatePolygon}
             editedPolygons={editedPolygons}

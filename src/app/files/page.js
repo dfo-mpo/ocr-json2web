@@ -14,16 +14,6 @@ import modifiedIcon from "../../../public/images/modified.svg";
 import VerifiedButton from "./VerifiedButton";
 import { useState, useEffect, useRef } from "react";
 
-// Function to generate polygon bounding box color
-const getRandomColor = () => {
-  const letters = "0123456789ABCDEF";
-  let color = "#";
-  for (let i = 0; i < 6; i++) {
-    color += letters[Math.floor(Math.random() * 16)];
-  }
-  return color;
-};
-
 const File = ({ searchParams }) => {
   const [isLoading, setIsLoading] = useState(true);
   const [isFormsettingReady, setIsFormsettingReady] = useState(true);
@@ -41,17 +31,7 @@ const File = ({ searchParams }) => {
   const polygonOverlayRef = useRef(null);
   
   const [polygonKeys, setPolygonKeys] = useState(new Set());
-  const [polygonColors, setPolygonColors] = useState({});
-
-  useEffect(() => {
-    if (Object.keys(polygonColors).length === 0) {
-      const colors = Object.keys(jsonData).reduce((acc, polygon) => {
-        acc[polygon] = getRandomColor();
-        return acc;
-      }, {});
-      setPolygonColors(colors);
-    }
-  }, [jsonData]);
+  const [highlightColour, setHighlightColour] = useState("#FFDE21");
 
   // this is the Form page
   const fileName = searchParams.fileName;
@@ -407,7 +387,6 @@ const File = ({ searchParams }) => {
                 setJsonData={setJsonData}
                 polygonKeys={polygonKeys}
                 setPolygonKeys={setPolygonKeys}
-                polygonColors={polygonColors}
                 reFetch={asyncFetchStatus}
                 reFetchJson={asyncFetch}
                 handlePolygonSelect={handlePolygonSelect}  
@@ -422,7 +401,7 @@ const File = ({ searchParams }) => {
                   pageWidth={polygonOverlayDimensions[0]}
                   json={jsonData}
                   polygonKeys={polygonKeys}
-                  polygonColours={polygonColors}
+                  highlightColour={highlightColour}
                   selectedPolygon={selectedPolygon}
                   onBoxClick={onBoxClick}
                 />

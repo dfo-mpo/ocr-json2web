@@ -6,7 +6,6 @@ import { useState, useEffect, useRef } from "react";
 const Polygon = ({
   polygonKey,
   polygon,
-  color,
   textAreaRef,
   handleUpdatePolygon,
   editedPolygons,
@@ -25,7 +24,7 @@ const Polygon = ({
     );
   }; 
   
-  const renderPolygon = (polygonKey, polygon, color, textAreaRef) => {
+  const renderPolygon = (polygonKey, polygon, textAreaRef) => {
     const content = polygon[0];
 
     // Recursion to handle nested objects
@@ -35,7 +34,6 @@ const Polygon = ({
           renderPolygon(
             `${polygonKey} Row ${rowIndex+1} - ${nestedKey}`,
             nestedValue,
-            color,
             textAreaRef
           )
         )
@@ -53,7 +51,7 @@ const Polygon = ({
         return (
           <div key={polygonKey} className={styles.polygonItem}>
             <div className={styles.labelName}>
-              <span className={styles.colorCircle} style={{ backgroundColor: color }}></span>
+              {/* <span className={styles.colorCircle} style={{ backgroundColor: color }}></span> */}
               {polygonKey}
             </div>
             <EditableField
@@ -75,7 +73,7 @@ const Polygon = ({
   };
 
 
-  return renderPolygon(polygonKey, polygon, color, textAreaRef);
+  return renderPolygon(polygonKey, polygon, textAreaRef);
 };
 
 export default Polygon;
