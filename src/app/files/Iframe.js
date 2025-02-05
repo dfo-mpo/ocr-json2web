@@ -10,7 +10,7 @@ pdfjsLib.GlobalWorkerOptions.workerSrc = new URL(
   import.meta.url  
 ).toString(); 
 
-const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, polygonColours, selectedPolygon, onBoxClick }) => {  
+const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightColour, selectedPolygon, onBoxClick }) => {  
   const [isLoading, setIsLoading] = useState(false);   
   const [isPdf, setIsPdf] = useState(true);   
   const [boxes, setBoxes] = useState([]);
@@ -59,7 +59,6 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, polygonCol
 
     var scaleFactor = pdfWidth > 0? pageWidth / pdfWidth : 1; 
     let colourIndex = 0;  
-    const polygonList = Object.entries(polygonColours);  
   
     function extractCoords(coordsList) {  
       const combinedCoords = {};  
@@ -79,7 +78,7 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, polygonCol
             boxes.push({  
               key: uniqueKey,  
               coords: coords.map(coord => coord * DPI * scaleFactor),  
-              color: polygonList[colourIndex % polygonList.length][1],  
+              color: highlightColour,  
             });  
             colourIndex++;  
           }  
@@ -108,7 +107,7 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, polygonCol
                 boxes.push({  
                   key: newKey,  
                   coords: coords.map(coord => coord * DPI * scaleFactor),  
-                  color: polygonList[colourIndex % polygonList.length][1],  
+                  color: highlightColour,  
                 });  
                 colourIndex++;  
               }  
@@ -196,6 +195,7 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, polygonCol
                   width: `${box.coords[2] - box.coords[0]}px`,  
                   height: `${box.coords[3] - box.coords[1]}px`,  
                   borderColor: `${box.color}`,
+                  display: selectedPolygon && selectedPolygon !== box.key? 'none' : '',
                   '--hover-bg-color': `rgba(${parseInt(box.color.slice(1, 3), 16)}, ${parseInt(box.color.slice(3, 5), 16)}, ${parseInt(box.color.slice(5, 7), 16)}, 0.5)`, 
                 }} 
                 onClick={()=>{onBoxClick(box.key);}}
