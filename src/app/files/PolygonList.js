@@ -170,14 +170,12 @@ const PolygonList = ({
   
   return (
     <div ref={polygonListRef} className={styles.polygonList}>
-      <div>
-        {isEditing ? (
-          <>
-          <button onClick={handleSave}>Save</button>
-          <button onClick={handleCancel}>Cancel</button>
-          </>
-        ) : null}
-      </div>
+      {isEditing ? (
+        <>
+        <button onClick={handleSave} className={styles.saveChange}>Save</button>
+        <button onClick={handleCancel} className={styles.cancelChange}>Cancel</button>
+        </>
+      ) : null}
 
       {/* <h4>Polygon List</h4> */}
 
