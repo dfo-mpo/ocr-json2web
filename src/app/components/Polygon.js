@@ -6,14 +6,22 @@ import { useState, useEffect, useRef } from "react";
 const Polygon = ({
   polygonKey,
   polygon,
+  highlightColor,
   textAreaRefs,
   polygonRef,
   handleUpdatePolygon,
   editedPolygons,
   collectPolygonKey,
+  selectedPolygon,
   handlePolygonSelect,
   handlePolygonDeselect
 }) => {
+  const [isActive, setIsActive] = useState(false);
+
+  useEffect(() => {
+    setIsActive(selectedPolygon === polygonKey);
+  }, [selectedPolygon, polygonKey]);
+  
   // Helper function for coordinates validation logic
   const areCoordinatesValid = (coordinates) => {
     return (
@@ -52,7 +60,15 @@ const Polygon = ({
         collectPolygonKey(polygonKey);
 
         return (
-          <div ref={(ref) => (polygonRef.current[polygonKey] = ref)} key={polygonKey} className={styles.polygonItem}>
+          <div
+            key={polygonKey}
+            ref={(ref) => (polygonRef.current[polygonKey] = ref)} 
+            className={styles.polygonItem}
+            style={{
+              borderColor: (isActive ? highlightColor : ''),
+              boxShadow: (isActive ? `inset 0 0 2px 2px ${highlightColor}` : ''),
+            }}
+            >
             <div className={styles.labelName}>
               {/* <span className={styles.colorCircle} style={{ backgroundColor: color }}></span> */}
               {polygonKey}

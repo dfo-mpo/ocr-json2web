@@ -9,12 +9,14 @@ const PolygonList = ({
   json,
   setJsonData,
   setPolygonKeys,
+  highlightColor,
   clickedPolygon,
   reFetch,
   reFetchJson,
+  selectedPolygon,
   handlePolygonSelect,
   handlePolygonDeselect
-}) => {
+}) => {  
   const collectedPolygonKeys = new Set();
 
   const collectPolygonKeys = (polygonKey) => {
@@ -185,12 +187,13 @@ const PolygonList = ({
             key={key}
             polygonKey={key}
             polygon={value}
+            highlightColor={highlightColor}
             textAreaRefs={textAreaRefs}
             polygonRef={polygonRefs}
-            clickedPolygon={clickedPolygon}
             handleUpdatePolygon={handleUpdatePolygon}
             editedPolygons={editedPolygons}
             collectPolygonKey={(polygonKey) => collectPolygonKeys(polygonKey)}
+            selectedPolygon={selectedPolygon}
             handlePolygonSelect={handlePolygonSelect}  
             handlePolygonDeselect={handlePolygonDeselect} 
           />

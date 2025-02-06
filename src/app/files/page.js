@@ -36,10 +36,6 @@ const File = ({ searchParams }) => {
   const [hasNullField, setHasNullField] = useState(false);
   const [highlightColor, setHighlightColor] = useState("#FFDE21");
 
-  useEffect(() => {
-    console.log('page:', highlightColor);
-  },[highlightColor]);
-
   // this is the Form page
   const fileName = searchParams.fileName;
   const folderName = searchParams.folderName;
@@ -413,9 +409,11 @@ const File = ({ searchParams }) => {
                     json={jsonData}
                     setJsonData={setJsonData}
                     setPolygonKeys={setPolygonKeys}
+                    highlightColor={highlightColor}
                     clickedPolygon={clickedPolygon}
                     reFetch={asyncFetchStatus}
                     reFetchJson={asyncFetch}
+                    selectedPolygon={selectedPolygon}
                     handlePolygonSelect={handlePolygonSelect}  
                     handlePolygonDeselect={handlePolygonDeselect} 
                   />
