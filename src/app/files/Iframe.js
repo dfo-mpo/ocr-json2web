@@ -157,18 +157,16 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
   
   useEffect(() => {  
     asyncFetch();  
-      
-    // Clean up: cancel ongoing render task when the component unmounts  
-    return () => {  
-      if (renderTaskRef.current) {  
-        renderTaskRef.current.cancel();  
-      }  
-    };  
   }, []);
 
   // Whenever a new with is defined for this component, re render pdf and boxes to match it
   useEffect(() => {
     if (pdfPage) {
+      // If render is active, do not rerender  
+      if (renderTaskRef.current) {  
+        return;
+      }  
+
       renderPDF(pdfPage); 
 
       const extractedBoxes = extractBoxesFromJson(json);  
