@@ -6,7 +6,8 @@ import { useState, useEffect, useRef } from "react";
 const Polygon = ({
   polygonKey,
   polygon,
-  textAreaRef,
+  textAreaRefs,
+  polygonRef,
   handleUpdatePolygon,
   editedPolygons,
   collectPolygonKey,
@@ -24,7 +25,7 @@ const Polygon = ({
     );
   }; 
   
-  const renderPolygon = (polygonKey, polygon, textAreaRef) => {
+  const renderPolygon = (polygonKey, polygon, textAreaRefs) => {
     const content = polygon[0];
 
     // Recursion to handle nested objects
@@ -34,7 +35,7 @@ const Polygon = ({
           renderPolygon(
             `${polygonKey} Row ${rowIndex+1} - ${nestedKey}`,
             nestedValue,
-            textAreaRef
+            textAreaRefs
           )
         )
       );
@@ -49,7 +50,7 @@ const Polygon = ({
         collectPolygonKey(polygonKey);
 
         return (
-          <div key={polygonKey} className={styles.polygonItem}>
+          <div ref={(ref) => (polygonRef.current[polygonKey] = ref)} key={polygonKey} className={styles.polygonItem}>
             <div className={styles.labelName}>
               {/* <span className={styles.colorCircle} style={{ backgroundColor: color }}></span> */}
               {polygonKey}
@@ -60,7 +61,7 @@ const Polygon = ({
               polygonKey={polygonKey}
               content={content}
               flag={flag}
-              textAreaRef={textAreaRef}
+              textAreaRefs={textAreaRefs}
               handleUpdatePolygon={handleUpdatePolygon}
               editedPolygons={editedPolygons}
             />
@@ -73,7 +74,7 @@ const Polygon = ({
   };
 
 
-  return renderPolygon(polygonKey, polygon, textAreaRef);
+  return renderPolygon(polygonKey, polygon, textAreaRefs);
 };
 
 export default Polygon;

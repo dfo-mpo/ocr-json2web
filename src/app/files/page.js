@@ -23,10 +23,9 @@ const File = ({ searchParams }) => {
   const [fileStatusJson, setFileStatusJson] = useState([]);
   const [modified, setModified] = useState(false);
   const [error, setError] = useState(false);
-  const [pageHeight, setPageHeight] = useState(1500);
   const [isFormSetting, setIsFormSetting] = useState();
-  const [isEditingTable, setIsEditingTable] = useState(false);
   const [selectedPolygon, setSelectedPolygon] = useState(null);
+  const [clickedPolygon, setClickedPolygon] = useState(null);
   const [polygonOverlayDimensions, setPolygonOverlayDimensions] = useState([0,0]);
   const polygonOverlayRef = useRef(null);
   
@@ -244,7 +243,8 @@ const File = ({ searchParams }) => {
   };
 
   const onBoxClick = (key) => {
-    console.log(key)
+    setClickedPolygon(key);
+    setSelectedPolygon(key);
   }
 
   const handlePolygonSelect = (key) => {  
@@ -253,6 +253,7 @@ const File = ({ searchParams }) => {
   
   const handlePolygonDeselect = () => {  
     setSelectedPolygon(null);
+    setClickedPolygon(null);
   }; 
 
   useEffect(() => {  
@@ -387,6 +388,7 @@ const File = ({ searchParams }) => {
                 setJsonData={setJsonData}
                 polygonKeys={polygonKeys}
                 setPolygonKeys={setPolygonKeys}
+                clickedPolygon={clickedPolygon}
                 reFetch={asyncFetchStatus}
                 reFetchJson={asyncFetch}
                 handlePolygonSelect={handlePolygonSelect}  

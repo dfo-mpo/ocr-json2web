@@ -1,12 +1,11 @@
 "use client";
 import styles from "./EditableField.module.css";
-import { useState, useEffect, useRef } from "react";
 
 const EditableField = ({
   polygonKey,
   content,
   flag,
-  textAreaRef,
+  textAreaRefs,
   handleUpdatePolygon,
   editedPolygons,
   handleFocus,
@@ -30,7 +29,7 @@ const EditableField = ({
     <textarea
       onFocus={()=>{handleFocus(polygonKey);}}  
       onBlur={handleBlur} 
-      ref={textAreaRef}
+      ref={(ref) => (textAreaRefs.current[polygonKey] = ref)}
       className={`${styles.labelText} ${flagStyle}`}
       value={content}
       onChange={(e) => handleUpdatePolygon(polygonKey, e.target.value)}

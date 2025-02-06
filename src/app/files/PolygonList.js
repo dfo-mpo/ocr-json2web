@@ -10,6 +10,7 @@ const PolygonList = ({
   setJsonData,
   polygonKeys,
   setPolygonKeys,
+  clickedPolygon,
   reFetch,
   reFetchJson,
   handlePolygonSelect,
@@ -69,8 +70,10 @@ const PolygonList = ({
     }
   };
   
-  // Use Ref to adjust textarea height when loading
+  // Use Refs to adjust textarea height when loading and to allow scrolling to polygon object
   const textAreaRefs = useRef({});
+  const polygonRefs = useRef({});
+  const polygonListRef = useRef(null);    
 
   useEffect(() => {
     Object.keys(json).forEach((item) => {
@@ -149,9 +152,25 @@ const PolygonList = ({
 
     cancelChange();
   };
+
+  useEffect(() => {
+    if (clickedPolygon && polygonRefs.current[clickedPolygon] && textAreaRefs.current[clickedPolygon]) {  
+      polygonRefs.current[clickedPolygon].scrollIntoView({  
+        behavior: "smooth",  
+        block: "center",  
+        inline: "nearest",  
+      });  
+  
+      // if (polygonListRef.current) {  
+      //   polygonListRef.current.scrollTop = polygonRefs.current[clickedPolygon].offsetTop - polygonListRef.current.offsetTop;  
+      // }  
+
+      textAreaRefs.current[clickedPolygon].focus();
+    } 
+  }, [clickedPolygon])
   
   return (
-    <div className={styles.polygonList}>
+    <div ref={polygonListRef} className={styles.polygonList}>
       {isEditing ? (
         <>
         <button onClick={handleSave}>Save</button>
@@ -167,7 +186,9 @@ const PolygonList = ({
             key={key}
             polygonKey={key}
             polygon={value}
-            textAreaRef={(ref) => (textAreaRefs.current[key] = ref)}
+            textAreaRefs={textAreaRefs}
+            polygonRef={polygonRefs}
+            clickedPolygon={clickedPolygon}
             handleUpdatePolygon={handleUpdatePolygon}
             editedPolygons={editedPolygons}
             collectPolygonKey={(polygonKey) => collectPolygonKeys(polygonKey)}
