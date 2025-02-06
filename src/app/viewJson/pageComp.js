@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import styles from "./page.module.css";
 import ViewJson from "./ViewJson";
 
-const JsonPage = ({ folderName, fileName }) => {
+const JsonPage = ({ folderName, fileName, onClose }) => {
   const [isLoading, setIsLoading] = useState(true);
   const [jsonData, setJsonData] = useState({});
 
@@ -77,6 +77,7 @@ const JsonPage = ({ folderName, fileName }) => {
         .replace(".json", "")
         .replace(/_/g, " ")}`}</title>
       <div className={styles.fileName}>File Name: {fileName}</div>
+      <div className={styles.closeIcon} onClick={onClose}>🞭</div>
       {isLoading ? (
         <div>Loading...</div>
       ) : (

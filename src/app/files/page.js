@@ -449,6 +449,7 @@ const File = ({ searchParams }) => {
         <JsonPage
           folderName={folderName}
           fileName={fileName}
+          onClose={()=>{setViewJson(false);}}
         />
       </div>
     </>
