@@ -1,5 +1,5 @@
 .allPage {
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
 }
 
 .backButton {
@@ -77,7 +77,7 @@
 .fileName {
   display: flex;
   align-items: center;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 .modifiedLink {
@@ -92,6 +92,13 @@
   font-weight: 600;
 }
 
+.toolsContainer {
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
 .layoutContainer {
   display: flex;
   justify-content: space-between;
@@ -100,17 +107,36 @@
   gap: 10px;
 }
 
+.layoutContainer h4 {
+  margin: 0;
+  padding: 0;
+  /* margin-bottom: 12px; */
+}
+
 .polygonOverlay {
-  width: 60%;
-  padding: 10px;
-  display: flex;
+  flex-grow: 1;
+  min-width: 0;
   height: fit-content;
-  flex-direction: column;
+  padding: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
 }
 
-.layoutContainer h4 {
-  margin: 0;
-  margin-bottom: 12px;
+.polygonsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 30%;
+  min-width:250px;
+  max-width: 480px;
+  height: calc(100vh - 20px);
+  max-height: 100vh;
+  position: sticky;
+  top: 10px;
+  left: 0;
+
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }

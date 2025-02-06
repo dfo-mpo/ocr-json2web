@@ -26,6 +26,8 @@ const Polygon = ({
   }; 
   
   const renderPolygon = (polygonKey, polygon, textAreaRefs) => {
+    if (polygonKey.toLowerCase() === "verified" || polygonKey.toLowerCase() === "model id") return null;
+    
     const content = polygon[0];
 
     // Recursion to handle nested objects

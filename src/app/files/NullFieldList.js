@@ -1,8 +1,10 @@
 "use client";
 import styles from "./NullFieldList.module.css";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, use } from "react";
 
-const NullFieldList = ({ json }) => {
+const NullFieldList = ({ json, setHasNullField  }) => {
+  const hasSetNull = useRef(false);
+
   const areCoordinatesValid = (coordinates) => {
     return (
       Array.isArray(coordinates) &&
@@ -14,6 +16,8 @@ const NullFieldList = ({ json }) => {
   };
 
   const renderNullField = (key, polygon) => {
+    if (key.toLowerCase() === "verified" || key.toLowerCase() === "model id") return null;
+    
     const content = polygon[0];
 
     if (Array.isArray(polygon) && typeof content === "object" && content != null) {
@@ -27,18 +31,33 @@ const NullFieldList = ({ json }) => {
       );
     }
 
-    return !areCoordinatesValid(polygon[1]) ? (
-      <div 
-        key={key} 
-        className={styles.nullFieldItem}>
-          {key}
-      </div>
-    ) : null;
+    if (!areCoordinatesValid(polygon[1])) {
+      if (!hasSetNull.current) {
+        hasSetNull.current = true;
+      }
+
+      return (
+        <div
+          key={key} 
+          className={styles.nullFieldItem}>
+            {key}
+        </div>
+      )
+    }
+
+    return null;
   }
+
+  // Set true if null field exist
+  useEffect(() => {
+    if (hasSetNull.current) {
+      setHasNullField(true);
+    }
+  }, [setHasNullField]);
 
   return (
     <div className={styles.nullFieldList}>
-      <h4>Null Field List</h4>
+      {/* <h4>Null Field List</h4> */}
 
       {Object.entries(json).map(([key, value]) => {
         return renderNullField(key, value);

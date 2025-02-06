@@ -8,7 +8,6 @@ const PolygonList = ({
   folderName,
   json,
   setJsonData,
-  polygonKeys,
   setPolygonKeys,
   clickedPolygon,
   reFetch,
@@ -171,14 +170,16 @@ const PolygonList = ({
   
   return (
     <div ref={polygonListRef} className={styles.polygonList}>
-      {isEditing ? (
-        <>
-        <button onClick={handleSave}>Save</button>
-        <button onClick={handleCancel}>Cancel</button>
-        </>
-      ) : null}
+      <div>
+        {isEditing ? (
+          <>
+          <button onClick={handleSave}>Save</button>
+          <button onClick={handleCancel}>Cancel</button>
+          </>
+        ) : null}
+      </div>
 
-      <h4>Polygon List</h4>
+      {/* <h4>Polygon List</h4> */}
 
       {Object.entries(json).map(([key, value]) => {
         return (

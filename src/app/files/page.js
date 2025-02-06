@@ -6,6 +6,8 @@ import LogoHeader from "../components/LogoHeader";
 import Iframe from "./Iframe";
 import PolygonList from "./PolygonList";
 import NullFieldList from "./NullFieldList";
+import HighlightColorSelector from "../components/HighlightColorSelector";
+import NullFieldIndicator from "../components/NullFieldIndicator";
 import Image from "next/image";
 import errorIcon from "../../../public/images/error.svg";
 import verifiedIcon from "../../../public/images/verified.svg";
@@ -30,7 +32,12 @@ const File = ({ searchParams }) => {
   const polygonOverlayRef = useRef(null);
   
   const [polygonKeys, setPolygonKeys] = useState(new Set());
-  const [highlightColour, setHighlightColour] = useState("#FFDE21");
+  const [hasNullField, setHasNullField] = useState(false);
+  const [highlightColor, setHighlightColor] = useState("#FFDE21");
+
+  useEffect(() => {
+    console.log('page:', highlightColor);
+  },[highlightColor]);
 
   // this is the Form page
   const fileName = searchParams.fileName;
@@ -294,7 +301,7 @@ const File = ({ searchParams }) => {
       {/* <Link className={styles.backButton} href="/">
           Back
         </Link> */}
-      <h5 className={styles.fileName}>
+      <div className={styles.fileName}>
         File Name: {fileName.replace(/_/g, " ").replace(".json", "")}
         {verified && (
           <Image src={verifiedIcon} alt="verified" width={20} height={20} />
@@ -317,7 +324,7 @@ const File = ({ searchParams }) => {
             <span>View Original Version</span>
           </Link>
         )}
-      </h5>
+      </div>
 
       {isLoading || isFormsettingReady ? (
         <div>Loading...</div>
@@ -340,6 +347,18 @@ const File = ({ searchParams }) => {
             verified={verified}
             reFetch={asyncFetchStatus}
           />
+          
+          <div className={styles.toolsContainer}>
+            <HighlightColorSelector 
+              highlightColor={highlightColor}
+              setHighlightColor={setHighlightColor}
+            />
+
+            <NullFieldIndicator
+              hasNullField={hasNullField}
+            />
+          </div>
+
           <div className={styles.container} ref={myContainer}>
             {/* This return statement will contain calls the React elements created for the 2 other containers */}
             <Link
@@ -381,40 +400,43 @@ const File = ({ searchParams }) => {
             
             <div className={styles.layoutContainer} style={{ maxHeight: polygonOverlayDimensions[1] }}>
 
-              <PolygonList
-                fileName={fileName}
-                folderName={folderName}
-                json={jsonData}
-                setJsonData={setJsonData}
-                polygonKeys={polygonKeys}
-                setPolygonKeys={setPolygonKeys}
-                clickedPolygon={clickedPolygon}
-                reFetch={asyncFetchStatus}
-                reFetchJson={asyncFetch}
-                handlePolygonSelect={handlePolygonSelect}  
-                handlePolygonDeselect={handlePolygonDeselect} 
-              />
+              <div className={styles.polygonsContainer}>
+                <h4>Polygon List</h4>
+                <PolygonList
+                  fileName={fileName}
+                  folderName={folderName}
+                  json={jsonData}
+                  setJsonData={setJsonData}
+                  setPolygonKeys={setPolygonKeys}
+                  clickedPolygon={clickedPolygon}
+                  reFetch={asyncFetchStatus}
+                  reFetchJson={asyncFetch}
+                  handlePolygonSelect={handlePolygonSelect}  
+                  handlePolygonDeselect={handlePolygonDeselect} 
+                />
+                
+                <h4>Null Field List</h4>
+                <NullFieldList 
+                  json={jsonData} 
+                  setHasNullField={setHasNullField}
+                />
+              </div>
 
               <div ref={polygonOverlayRef} className={styles.polygonOverlay}>
-                <h4>Polygon Overlay</h4>
                 <Iframe
                   folderName={folderName}
                   fileName={fileName}
                   pageWidth={polygonOverlayDimensions[0]}
                   json={jsonData}
                   polygonKeys={polygonKeys}
-                  highlightColour={highlightColour}
+                  highlightColour={highlightColor}
                   selectedPolygon={selectedPolygon}
                   onBoxClick={onBoxClick}
                 />
               </div>
 
-              <NullFieldList
-                json={jsonData}
-              />
-
             </div>
-            
+
           </div>
         </>
       )}
