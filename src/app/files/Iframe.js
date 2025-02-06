@@ -77,8 +77,7 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
             const uniqueKey = `${rowKey} - ${columnKey}`;  
             boxes.push({  
               key: uniqueKey,  
-              coords: coords.map(coord => coord * DPI * scaleFactor),  
-              color: highlightColour,  
+              coords: coords.map(coord => coord * DPI * scaleFactor),   
             });  
             colourIndex++;  
           }  
@@ -106,8 +105,7 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
               if (coords.every(coord => coord !== undefined)) {  
                 boxes.push({  
                   key: newKey,  
-                  coords: coords.map(coord => coord * DPI * scaleFactor),  
-                  color: highlightColour,  
+                  coords: coords.map(coord => coord * DPI * scaleFactor),   
                 });  
                 colourIndex++;  
               }  
@@ -194,9 +192,9 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
                   top: `${box.coords[1]}px`,  
                   width: `${box.coords[2] - box.coords[0]}px`,  
                   height: `${box.coords[3] - box.coords[1]}px`,  
-                  borderColor: `${box.color}`,
+                  borderColor: `${highlightColour}`,
                   display: selectedPolygon && selectedPolygon !== box.key? 'none' : '',
-                  '--hover-bg-color': `rgba(${parseInt(box.color.slice(1, 3), 16)}, ${parseInt(box.color.slice(3, 5), 16)}, ${parseInt(box.color.slice(5, 7), 16)}, 0.5)`, 
+                  '--hover-bg-color': `rgba(${parseInt(highlightColour.slice(1, 3), 16)}, ${parseInt(highlightColour.slice(3, 5), 16)}, ${parseInt(highlightColour.slice(5, 7), 16)}, 0.5)`, 
                 }} 
                 onClick={()=>{onBoxClick(box.key);}}
               >
