@@ -6,6 +6,7 @@ import { useState, useEffect, useRef } from "react";
 const PolygonList = ({
   fileName,
   folderName,
+  originalFile,
   json,
   setJsonData,
   setPolygonKeys,
@@ -172,7 +173,7 @@ const PolygonList = ({
   
   return (
     <div ref={polygonListRef} className={styles.polygonList}>
-      {isEditing ? (
+      {isEditing && !originalFile ? (
         <>
         <button onClick={handleSave} className={styles.saveChange}>Save</button>
         <button onClick={handleCancel} className={styles.cancelChange}>Cancel</button>

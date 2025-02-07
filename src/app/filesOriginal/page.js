@@ -1,20 +1,15 @@
 "use client";
 import styles from "./page.module.css";
-import ErrorReport from "./ErrorReport";
-import Link from "next/link";
 import LogoHeader from "../components/LogoHeader";
-import Iframe from "./Iframe";
-import PolygonList from "./PolygonList";
-import NullFieldList from "./NullFieldList";
+import Iframe from "../files/Iframe";
+import PolygonList from "../files/PolygonList";
+import NullFieldList from "../files/NullFieldList";
 import HighlightColorSelector from "../components/HighlightColorSelector";
 import NullFieldIndicator from "../components/NullFieldIndicator";
 import Image from "next/image";
-import errorIcon from "../../../public/images/error.svg";
 import verifiedIcon from "../../../public/images/verified.svg";
-import modifiedIcon from "../../../public/images/modified.svg"; 
 import JsonPage from "../viewJson/pageComp";
 
-import VerifiedButton from "./VerifiedButton";
 import { useState, useEffect, useRef } from "react";
 
 const File = ({ searchParams }) => {
@@ -304,24 +299,7 @@ const File = ({ searchParams }) => {
           {verified && (
             <Image src={verifiedIcon} alt="verified" width={20} height={20} />
           )}
-          {error && <Image src={errorIcon} alt="error" width={15} height={15} />}
-          {modified && (
-            <Link
-              className={styles.modifiedLink}
-              rel="noopener noreferrer"
-              target="_blank"
-              href={{
-                pathname: "/filesOriginal/",
-                query: {
-                  fileName: fileName,
-                  folderName: folderName,
-                },
-              }}
-            >
-              <Image src={modifiedIcon} alt="modified" height={23} width={23} />
-              <span>View Original Version</span>
-            </Link>
-          )}
+            <span className={styles.version}>(Original Version)</span>
         </div>
 
         {isLoading || isFormsettingReady ? (
@@ -333,19 +311,6 @@ const File = ({ searchParams }) => {
           </div>
         ) : (
           <>
-            <ErrorReport
-              fileName={fileName}
-              folderName={folderName}
-              reFetch={asyncFetchStatus}
-            />
-            <br />
-            <VerifiedButton
-              fileName={fileName}
-              folderName={folderName}
-              verified={verified}
-              reFetch={asyncFetchStatus}
-            />
-            
             <div className={styles.toolsContainer}>
               <HighlightColorSelector 
                 highlightColor={highlightColor}
@@ -358,46 +323,9 @@ const File = ({ searchParams }) => {
             </div>
 
             <div className={styles.container} ref={myContainer}>
-              {/* This return statement will contain calls the React elements created for the 2 other containers */}
-              {/* <Link
-                className={styles.linkStyle}
-                rel="noopener noreferrer"
-                target="_blank"
-                href={{
-                  pathname: "/viewJson/",
-                  query: {
-                    folderName: folderName,
-                    fileName: fileName,
-                  },
-                }}
-              >
-                View Json
-              </Link> */}
               <button className={styles.linkStyle} onClick={()=>{setViewJson(true);}}>
                 View Json
               </button>
-
-              {/* <Link
-                className={styles.linkStyle2}
-                rel="noopener noreferrer"
-                target="_blank"
-                href={{
-                  pathname: "/formSetting/",
-                  query: {
-                    folderName: folderName,
-                  },
-                }}
-              >
-                Add Table
-              </Link>
-              <button
-                className={styles.linkStyle3}
-                onClick={() => {
-                  setIsEditingTable(!isEditingTable);
-                }}
-              >
-                {isEditingTable ? "Close Editing" : "Edit Table"}
-              </button> */}
               
               <div className={styles.layoutContainer} style={{ maxHeight: polygonOverlayDimensions[1] }}>
 
@@ -406,7 +334,7 @@ const File = ({ searchParams }) => {
                   <PolygonList
                     fileName={fileName}
                     folderName={folderName}
-                    originalFile={false}
+                    originalFile={true}
                     json={jsonData}
                     setJsonData={setJsonData}
                     setPolygonKeys={setPolygonKeys}
