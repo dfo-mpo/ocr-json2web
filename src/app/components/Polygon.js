@@ -15,13 +15,7 @@ const Polygon = ({
   selectedPolygon,
   handlePolygonSelect,
   handlePolygonDeselect
-}) => {
-  const [isActive, setIsActive] = useState(false);
-
-  useEffect(() => {
-    setIsActive(selectedPolygon === polygonKey);
-  }, [selectedPolygon, polygonKey]);
-  
+}) => {  
   // Helper function for coordinates validation logic
   const areCoordinatesValid = (coordinates) => {
     return (
@@ -65,8 +59,8 @@ const Polygon = ({
             ref={(ref) => (polygonRef.current[polygonKey] = ref)} 
             className={styles.polygonItem}
             style={{
-              borderColor: (isActive ? highlightColor : ''),
-              boxShadow: (isActive ? `inset 0 0 2px 2px ${highlightColor}` : ''),
+              borderColor: (selectedPolygon === polygonKey ? highlightColor : ''),
+              boxShadow: (selectedPolygon === polygonKey ? `inset 0 0 2px 2px ${highlightColor}` : ''),
             }}
             >
             <div className={styles.labelName}>
