@@ -132,6 +132,7 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
     setPdfWidth(pdfWidth); 
   
     if (canvasRef.current) {
+      console.warn("Canvas ref available.");
       const canvas = canvasRef.current;  
       const context = canvas.getContext("2d");  
       canvas.height = viewport.height;  
@@ -166,7 +167,6 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
 
   useEffect(() => {
     if (canvasRef.current) setIsCanvasReady(true);
-
   });
 
   // Whenever a new with is defined for this component, re render pdf and boxes to match it
