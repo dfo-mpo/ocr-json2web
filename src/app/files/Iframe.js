@@ -156,6 +156,8 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
           renderTaskRef.current = null;  
         }  
       );  
+    } else {
+      console.warn("Canvas ref is not available.");
     }
   }; 
   
@@ -168,7 +170,7 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
       setIsCanvasReady(true);
       console.log("Canvas is ready");
     }
-  }, []);
+  }, [canvasRef.current]);
 
   useEffect(() => {
     console.log("Canvas Ref:", canvasRef.current);
@@ -186,6 +188,8 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
 
   // Whenever a new with is defined for this component, re render pdf and boxes to match it
   useEffect(() => {
+    console.log("Checking dependencies -> pdfPage:", pdfPage, "isCanvasReady:", isCanvasReady);
+    
     if (pdfPage && isCanvasReady) {
       console.log("Rendering PDF...");
 
