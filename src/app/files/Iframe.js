@@ -19,6 +19,7 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
   const [boxes, setBoxes] = useState([]);
   const [pdfWidth, setPdfWidth] = useState(0);
   const [pdfPage, setPdfPage] = useState(null);
+  const [isCanvasReady, setIsCanvasReady] = useState(false);
   const canvasRef = useRef(null);  
   const renderTaskRef = useRef(null); // Add ref to store the rendering task 
   
@@ -162,23 +163,27 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
     asyncFetch();  
   }, []);
 
+  useEffect(() => {
+    if (canvasRef.current) {
+      setIsCanvasReady(true);
+    }
+  });
+
   // Whenever a new with is defined for this component, re render pdf and boxes to match it
   useEffect(() => {
-    if (pdfPage) {
+    if (pdfPage && isCanvasReady) {
       // If render is active, do not rerender  
-      if (renderTaskRef.current) {
-        console.log('not rendering due to active render'); 
+      if (renderTaskRef.current) { 
         return;
       }  
 
-      console.log(pageWidth);
       renderPDF(pdfPage); 
 
       const extractedBoxes = extractBoxesFromJson(json);  
       setBoxes(extractedBoxes);  
       setIsLoading(false); 
     }
-  }, [pageWidth, pdfPage])
+  }, [pageWidth, pdfPage, isCanvasReady])
   
   return (  
     <>  
