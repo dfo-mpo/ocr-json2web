@@ -56,6 +56,10 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
       setPdfPage(page); 
     }  
   };  
+
+  useEffect(() => {
+    console.log("pageWidth:", pageWidth);
+  },[pageWidth]);
   
   const extractBoxesFromJson = (jsonData) => {  
     const boxes = [];  
@@ -166,19 +170,13 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
   }, []);
 
   useEffect(() => {
-    if (canvasRef.current) {
-      setIsCanvasReady(true);
-      console.log("Canvas is ready");
-    }
-  }, [canvasRef.current]);
-
-  useEffect(() => {
     console.log("Canvas Ref:", canvasRef.current);
     if (!canvasRef.current) {
       console.warn("Canvas ref is not available yet!");
       return;
     }
     setIsCanvasReady(true);
+    console.log("Canvas is ready");
   }, []);
 
   useEffect(() => {
@@ -205,7 +203,7 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
       setBoxes(extractedBoxes);  
       setIsLoading(false); 
     }
-  }, [pageWidth, pdfPage, isCanvasReady])
+  }, [pageWidth, pdfPage, isCanvasReady]);
   
   return (  
     <>  
