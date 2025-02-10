@@ -166,7 +166,8 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
   useEffect(() => {
     if (pdfPage) {
       // If render is active, do not rerender  
-      if (renderTaskRef.current) {  
+      if (renderTaskRef.current) {
+        console.log('not rendering due to active render'); 
         return;
       }  
 
@@ -177,6 +178,22 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
       setIsLoading(false); 
     }
   }, [pageWidth, pdfPage])
+
+  useEffect(() => {
+    if (pdfPage) {
+      // If render is active, do not rerender  
+      if (renderTaskRef.current) { 
+        console.log('not rendering due to active render');  
+        return;
+      }  
+
+      renderPDF(pdfPage); 
+
+      const extractedBoxes = extractBoxesFromJson(json);  
+      setBoxes(extractedBoxes);  
+      setIsLoading(false); 
+    }
+  }, [])
   
   return (  
     <>  
