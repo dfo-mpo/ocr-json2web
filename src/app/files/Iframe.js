@@ -155,8 +155,6 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
           renderTaskRef.current = null;  
         }  
       );  
-    } else {
-      console.warn("Canvas ref not available yet.");
     }
   }; 
   
@@ -165,15 +163,34 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
   }, []);
 
   useEffect(() => {
-    if (canvasRef.current) setIsCanvasReady(true);
+    if (canvasRef.current) {
+      setIsCanvasReady(true);
+      console.log("Canvas is ready");
+    }
+  }, []);
 
-  });
+  useEffect(() => {
+    console.log("Canvas Ref:", canvasRef.current);
+    if (!canvasRef.current) {
+      console.warn("Canvas ref is not available yet!");
+      return;
+    }
+    setIsCanvasReady(true);
+  }, []);
+
+  useEffect(() => {
+    console.log("Canvas Ref Available:", !!canvasRef.current);
+    console.log("isCanvasReady:", isCanvasReady);
+  }, [isCanvasReady]);  
 
   // Whenever a new with is defined for this component, re render pdf and boxes to match it
   useEffect(() => {
     if (pdfPage && isCanvasReady) {
+      console.log("Rendering PDF...");
+
       // If render is active, do not rerender  
       if (renderTaskRef.current) { 
+        console.warn("Render task is running");
         return;
       }  
 
