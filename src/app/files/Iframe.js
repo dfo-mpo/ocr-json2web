@@ -171,14 +171,27 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
 
   useEffect(() => {
     if (canvasRef.current && !isCanvasReady) {
-      console.log("Canvas ref is now available.");
+      console.log("Canvas ref is now available, setting isCanvasReady to true.");
       setIsCanvasReady(true);
+    } else {
+      console.warn("Canvas ref is still not available in production.");
     }
-  }, [canvasRef]);
+  }, [canvasRef, isCanvasReady]);
+  
 
   // Whenever a new with is defined for this component, re render pdf and boxes to match it
   useEffect(() => {
-    console.log("Checking dependencies -> pdfPage:", pdfPage, "isCanvasReady:", isCanvasReady);
+    console.log("Checking dependencies -> pdfPage:", pdfPage, "isCanvasReady:", isCanvasReady, "Canvas Ref Current", canvasRef.current);
+
+    if (!pdfPage) {
+      console.warn("pdfPage is still null, useEffect will not run.");
+      return;
+    }
+
+    if (!isCanvasReady) {
+      console.warn("Canvas is not ready, useEffect will not run.");
+      return;
+    }
     
     if (pdfPage && isCanvasReady) {
       console.log("Rendering PDF...");
