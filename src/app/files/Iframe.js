@@ -167,7 +167,8 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
 
   useEffect(() => {
     if (canvasRef.current) setIsCanvasReady(true);
-  });
+    console.log(canvasRef.current)
+  }, [canvasRef.current]);
 
   // Whenever a new with is defined for this component, re render pdf and boxes to match it
   useEffect(() => {
