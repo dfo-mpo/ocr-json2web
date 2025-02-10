@@ -56,10 +56,6 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
       setPdfPage(page); 
     }  
   };  
-
-  useEffect(() => {
-    console.log("pageWidth:", pageWidth);
-  },[pageWidth]);
   
   const extractBoxesFromJson = (jsonData) => {  
     const boxes = [];  
@@ -161,56 +157,33 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
         }  
       );  
     } else {
-      console.warn("Canvas ref is not available.");
+      console.warn("Canvas ref not available yet.");
     }
   }; 
   
   useEffect(() => {  
-    asyncFetch();  
+    asyncFetch();
   }, []);
 
   useEffect(() => {
-    if (canvasRef.current && !isCanvasReady) {
-      console.log("Canvas ref is now available, setting isCanvasReady to true.");
-      setIsCanvasReady(true);
-    } else {
-      console.warn("Canvas ref is still not available in production.");
-    }
-  }, [canvasRef, isCanvasReady]);
-  
+    if (canvasRef.current && canvasRef.current.height && canvasRef.current.width) setIsCanvasReady(true);
+  });
 
   // Whenever a new with is defined for this component, re render pdf and boxes to match it
   useEffect(() => {
-    console.log("Checking dependencies -> pdfPage:", pdfPage, "isCanvasReady:", isCanvasReady, "Canvas Ref Current", canvasRef.current);
-
-    if (!pdfPage) {
-      console.warn("pdfPage is still null, useEffect will not run.");
-      return;
-    }
-
-    if (!isCanvasReady) {
-      console.warn("Canvas is not ready, useEffect will not run.");
-      return;
-    }
-    
     if (pdfPage && isCanvasReady) {
-      console.log("Rendering PDF...");
-
       // If render is active, do not rerender  
       if (renderTaskRef.current) { 
-        console.warn("Render task is running");
         return;
       }  
 
-      renderPDF(pdfPage); 
+      renderPDF(pdfPage);
 
       const extractedBoxes = extractBoxesFromJson(json);  
       setBoxes(extractedBoxes);  
       setIsLoading(false); 
-
-      console.log("loading...", isLoading);
     }
-  }, [pageWidth, pdfPage, isCanvasReady]);
+  }, [pageWidth, pdfPage, isCanvasReady])
   
   return (  
     <>  
