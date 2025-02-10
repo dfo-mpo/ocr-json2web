@@ -155,8 +155,9 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
           renderTaskRef.current = null;  
         }  
       );  
+    } else {
+      console.warn("Canvas ref not available yet.");
     }
-    
   }; 
   
   useEffect(() => {  
@@ -164,11 +165,8 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
   }, []);
 
   useEffect(() => {
-    if (canvasRef.current) {
-      console.warn("Canvas ref available.")
-    } else {
-      console.warn("Canvas ref not available yet.");
-    }
+    if (canvasRef.current) setIsCanvasReady(true);
+
   });
 
   // Whenever a new with is defined for this component, re render pdf and boxes to match it
