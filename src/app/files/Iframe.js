@@ -165,7 +165,9 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
 
   useEffect(() => {
     if (canvasRef.current) {
-      setIsCanvasReady(true);
+      console.warn("Canvas ref available.")
+    } else {
+      console.warn("Canvas ref not available yet.");
     }
   });
 
