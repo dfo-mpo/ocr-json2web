@@ -202,6 +202,8 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
       const extractedBoxes = extractBoxesFromJson(json);  
       setBoxes(extractedBoxes);  
       setIsLoading(false); 
+
+      console.log("loading...", isLoading);
     }
   }, [pageWidth, pdfPage, isCanvasReady]);
   
