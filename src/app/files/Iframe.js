@@ -2,13 +2,16 @@
 import styles from "./Iframe.module.css";  
 import { useState, useEffect, useRef } from "react";  
 import * as pdfjsLib from "pdfjs-dist";  
-import "pdfjs-dist/web/pdf_viewer.css";   
+import "pdfjs-dist/web/pdf_viewer.css";  
+import workerSrc from 'pdfjs-dist/build/pdf.worker?worker&url';
   
 // You will need to set the workerSrc for PDF.js  
-pdfjsLib.GlobalWorkerOptions.workerSrc = new URL(  
-  'pdfjs-dist/build/pdf.worker.min.mjs',  
-  import.meta.url  
-).toString(); 
+pdfjsLib.GlobalWorkerOptions.workerSrc = "pdfjs-dist/build/pdf.worker.js";
+// pdfjsLib.GlobalWorkerOptions.workerSrc = '//mozilla.github.io/pdf.js/build/pdf.worker.mjs';
+// pdfjsLib.GlobalWorkerOptions.workerSrc = new URL(  
+//   'pdfjs-dist/build/pdf.worker.min.mjs',  
+//   import.meta.url  
+// ).toString(); 
 
 const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightColour, selectedPolygon, onBoxClick }) => {  
   const [isLoading, setIsLoading] = useState(false);   
