@@ -171,13 +171,14 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
         return;
       }  
 
+      console.log(pageWidth);
       renderPDF(pdfPage); 
 
       const extractedBoxes = extractBoxesFromJson(json);  
       setBoxes(extractedBoxes);  
       setIsLoading(false); 
     }
-  }, [pageWidth, pdfPage, canvasRef])
+  }, [pageWidth, pdfPage])
   
   return (  
     <>  
