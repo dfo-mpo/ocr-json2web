@@ -132,6 +132,7 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
     setPdfWidth(pdfWidth); 
   
     if (canvasRef.current) {
+      console.warn("Canvas ref available.");
       const canvas = canvasRef.current;  
       const context = canvas.getContext("2d");  
       canvas.height = viewport.height;  
