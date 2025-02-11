@@ -3,12 +3,15 @@ import styles from "./Iframe.module.css";
 import { useState, useEffect, useRef } from "react";  
 import * as pdfjsLib from "pdfjs-dist";  
 import "pdfjs-dist/web/pdf_viewer.css";   
+import workerSrc from 'pdfjs-dist/build/pdf.worker?worker&url';
   
 // You will need to set the workerSrc for PDF.js  
-pdfjsLib.GlobalWorkerOptions.workerSrc = new URL(  
-  'pdfjs-dist/build/pdf.worker.min.mjs',  
-  import.meta.url  
-).toString(); 
+pdfjsLib.GlobalWorkerOptions.workerSrc = "pdfjs-dist/build/pdf.worker.js";
+// pdfjsLib.GlobalWorkerOptions.workerSrc = '//mozilla.github.io/pdf.js/build/pdf.worker.mjs';
+// pdfjsLib.GlobalWorkerOptions.workerSrc = new URL(  
+//   'pdfjs-dist/build/pdf.worker.min.mjs',  
+//   import.meta.url  
+// ).toString(); 
 
 const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightColour, selectedPolygon, onBoxClick }) => {  
   const [isLoading, setIsLoading] = useState(false);   
@@ -155,24 +158,31 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
     
   }; 
   
-  useEffect(() => {  
-    asyncFetch();  
-  }, []);
+  // useEffect(() => {  
+  //   asyncFetch();  
+  // }, []);
 
   // Whenever a new with is defined for this component, re render pdf and boxes to match it
   useEffect(() => {
-    if (pdfPage) {
-      // If render is active, do not rerender  
-      if (renderTaskRef.current) {  
-        return;
-      }  
+    const fetchRenderPdf = async () => {
+      if (!pdfPage) {
+        await asyncFetch();
+      }
 
-      renderPDF(pdfPage); 
+      if (pdfPage) {
+        // If render is active, do not rerender  
+        if (renderTaskRef.current) {  
+          return;
+        }  
 
-      const extractedBoxes = extractBoxesFromJson(json);  
-      setBoxes(extractedBoxes);  
-      setIsLoading(false); 
-    }
+        renderPDF(pdfPage); 
+        const extractedBoxes = extractBoxesFromJson(json);  
+        setBoxes(extractedBoxes);  
+        setIsLoading(false); 
+      }
+    };
+
+    fetchRenderPdf();
   }, [pageWidth, pdfPage])
   
   return (  
