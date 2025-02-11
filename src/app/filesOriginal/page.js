@@ -345,6 +345,7 @@ const File = ({ searchParams }) => {
                     selectedPolygon={selectedPolygon}
                     handlePolygonSelect={handlePolygonSelect}  
                     handlePolygonDeselect={handlePolygonDeselect} 
+                    isReadOnly={true}
                   />
                   
                   <h4>Null Field List</h4>

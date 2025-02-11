@@ -14,7 +14,8 @@ const Polygon = ({
   collectPolygonKey,
   selectedPolygon,
   handlePolygonSelect,
-  handlePolygonDeselect
+  handlePolygonDeselect,
+  isReadOnly
 }) => {  
   // Helper function for coordinates validation logic
   const areCoordinatesValid = (coordinates) => {
@@ -76,6 +77,7 @@ const Polygon = ({
               textAreaRefs={textAreaRefs}
               handleUpdatePolygon={handleUpdatePolygon}
               editedPolygons={editedPolygons}
+              isReadOnly={isReadOnly}
             />
           </div>
         )

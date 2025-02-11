@@ -9,7 +9,8 @@ const EditableField = ({
   handleUpdatePolygon,
   editedPolygons,
   handleFocus,
-  handleBlur
+  handleBlur,
+  isReadOnly = false
 }) => {
 
   let flagStyle = '';
@@ -34,6 +35,7 @@ const EditableField = ({
       value={content}
       onChange={(e) => handleUpdatePolygon(polygonKey, e.target.value)}
       rows={1}
+      readOnly={isReadOnly}
     />
   )
 };
