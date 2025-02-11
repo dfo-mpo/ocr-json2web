@@ -37,9 +37,9 @@ const Iframe = ({ fileName, folderName, pageWidth, json, highlightColour, select
   }, [canvasRef.current]);
 
   useEffect(() => {
+    console.log("isCanvasReady", isCanvasReady);
     if (isCanvasReady) {
-      console.log("isCanvasReady", isCanvasReady);
-      console.log(canvasRef);
+      console.log("isCanvasReady", isCanvasReady, canvasRef);
     }
   },[isCanvasReady, canvasRef]);
 
@@ -167,18 +167,22 @@ const Iframe = ({ fileName, folderName, pageWidth, json, highlightColour, select
     }
   };
 
-  useEffect(() => {
-    fetchPdfData();
-  }, []);
+  // useEffect(() => {
+  //   fetchPdfData();
+  // }, []);
 
   useEffect(() => {
+    if (!pdfPage) {
+      fetchPdfData();
+    }
+
     if (pdfPage && !renderTaskRef.current) {
       renderPDF(pdfPage, canvasRef);
       const extractedBoxes = extractBoxesFromJson(json);  
       setBoxes(extractedBoxes);  
       setIsLoading(false);
     }
-  }, [pdfPage, pageWidth, canvasRef, json]);
+  }, [pdfPage, pageWidth, json]);
 
   useEffect(() => {
     console.log("Loading state changed:", isLoading);
