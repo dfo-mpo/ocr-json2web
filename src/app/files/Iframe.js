@@ -164,21 +164,25 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
 
   // Whenever a new with is defined for this component, re render pdf and boxes to match it
   useEffect(() => {
-    if (!pdfPage) {
-      asyncFetch();
-    }
+    const fetchRenderPdf = async () => {
+      if (!pdfPage) {
+        await asyncFetch();
+      }
 
-    if (pdfPage) {
-      // If render is active, do not rerender  
-      if (renderTaskRef.current) {  
-        return;
-      }  
+      if (pdfPage) {
+        // If render is active, do not rerender  
+        if (renderTaskRef.current) {  
+          return;
+        }  
 
-      renderPDF(pdfPage); 
-      const extractedBoxes = extractBoxesFromJson(json);  
-      setBoxes(extractedBoxes);  
-      setIsLoading(false); 
-    }
+        renderPDF(pdfPage); 
+        const extractedBoxes = extractBoxesFromJson(json);  
+        setBoxes(extractedBoxes);  
+        setIsLoading(false); 
+      }
+    };
+
+    fetchRenderPdf();
   }, [pageWidth, pdfPage])
   
   return (  
