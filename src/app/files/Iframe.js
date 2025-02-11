@@ -19,6 +19,7 @@ const Iframe = ({ fileName, folderName, pageWidth, json, highlightColour, select
   const [boxes, setBoxes] = useState([]);
   const [pdfWidth, setPdfWidth] = useState(0);
   const [pdfPage, setPdfPage] = useState(null);
+  const [isCanvasReady, setIsCanvasReady] = useState(false);
   const canvasRef = useRef(null);  
   const renderTaskRef = useRef(null); 
 
@@ -28,6 +29,19 @@ const Iframe = ({ fileName, folderName, pageWidth, json, highlightColour, select
     fileName: pdfName,  
     folderName: folderName,  
   };  
+
+  useEffect(() => {
+    if (canvasRef.current) {
+      setIsCanvasReady(true);
+    }
+  }, [canvasRef.current]);
+
+  useEffect(() => {
+    if (isCanvasReady) {
+      console.log("isCanvasReady", isCanvasReady);
+      console.log(canvasRef);
+    }
+  },[isCanvasReady, canvasRef]);
 
   //fetch pdf data from blob  
   const fetchPdfData = async () => {
@@ -160,12 +174,15 @@ const Iframe = ({ fileName, folderName, pageWidth, json, highlightColour, select
   useEffect(() => {
     if (pdfPage && !renderTaskRef.current) {
       renderPDF(pdfPage);
-      setBoxes(extractBoxesFromJson(json));
+      const extractedBoxes = extractBoxesFromJson(json);  
+      setBoxes(extractedBoxes);  
       setIsLoading(false);
-
-      console.log("loading...", isLoading);
     }
   }, [pdfPage, pageWidth, json]);
+
+  useEffect(() => {
+    console.log("Loading state changed:", isLoading);
+  }, [isLoading]); // Log after state changes
 
   return (
     <>
