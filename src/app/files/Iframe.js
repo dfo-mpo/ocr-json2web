@@ -140,7 +140,7 @@ const Iframe = ({ fileName, folderName, pageWidth, json, highlightColour, select
     return boxes;
   };
 
-  const renderPDF = async (page) => {
+  const renderPDF = async (page, canvasRef) => {
     const scale = 1;
     const pdfWidth = page.getViewport({ scale }).width;
     const viewport = page.getViewport({ scale: pageWidth / pdfWidth });
@@ -173,12 +173,12 @@ const Iframe = ({ fileName, folderName, pageWidth, json, highlightColour, select
 
   useEffect(() => {
     if (pdfPage && !renderTaskRef.current) {
-      renderPDF(pdfPage);
+      renderPDF(pdfPage, canvasRef);
       const extractedBoxes = extractBoxesFromJson(json);  
       setBoxes(extractedBoxes);  
       setIsLoading(false);
     }
-  }, [pdfPage, pageWidth, json]);
+  }, [pdfPage, pageWidth, canvasRef, json]);
 
   useEffect(() => {
     console.log("Loading state changed:", isLoading);
