@@ -16,7 +16,8 @@ const PolygonList = ({
   reFetchJson,
   selectedPolygon,
   handlePolygonSelect,
-  handlePolygonDeselect
+  handlePolygonDeselect,
+  isReadOnly
 }) => {  
   const collectedPolygonKeys = new Set();
 
@@ -197,6 +198,7 @@ const PolygonList = ({
             selectedPolygon={selectedPolygon}
             handlePolygonSelect={handlePolygonSelect}  
             handlePolygonDeselect={handlePolygonDeselect} 
+            isReadOnly={isReadOnly}
           />
         )
       })}
