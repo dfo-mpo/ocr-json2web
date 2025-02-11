@@ -142,11 +142,12 @@ const PolygonList = ({
     changeHandler(updatedData);
   };
 
-  const handleSave = () => {
+  const handleSave = async () => {
     setEditedPolygons(new Set());
     setIsEditing(false);
 
-    onClickHandler(updateJson);
+    await onClickHandler(updateJson);
+    window.location.reload();
   };
   
   const handleCancel = () => {

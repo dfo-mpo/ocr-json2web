@@ -55,7 +55,7 @@ const File = ({ searchParams }) => {
   //fetch json data from blob
   const asyncFetch = async () => {
     setIsLoading(true);
-    const Response = await fetch("/api/jsonDataModified", {
+    const Response = await fetch("/api/jsonData", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
