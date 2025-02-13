@@ -406,7 +406,6 @@ const File = ({ searchParams }) => {
                   <PolygonList
                     fileName={fileName}
                     folderName={folderName}
-                    originalFile={false}
                     json={jsonData}
                     setJsonData={setJsonData}
                     setPolygonKeys={setPolygonKeys}

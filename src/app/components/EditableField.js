@@ -10,7 +10,7 @@ const EditableField = ({
   editedPolygons,
   handleFocus,
   handleBlur,
-  isReadOnly = false
+  isReadOnly
 }) => {
 
   let flagStyle = '';
