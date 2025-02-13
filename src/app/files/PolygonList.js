@@ -32,9 +32,9 @@ const PolygonList = ({
     reFetch();
   };
 
-  const cancelChange = () => {
-    reFetchJson();
-  };
+  // const cancelChange = () => {
+  //   reFetchJson();
+  // };
 
   // Used to track items has been edited
   const [updateJson, setUpdateJson] = useState(json);
@@ -150,10 +150,11 @@ const PolygonList = ({
   };
   
   const handleCancel = () => {
-    setEditedPolygons(new Set());
-    setIsEditing(false);
+    // setEditedPolygons(new Set());
+    // setIsEditing(false);
 
-    cancelChange();
+    // cancelChange();
+    window.location.reload();
   };
 
   useEffect(() => {
