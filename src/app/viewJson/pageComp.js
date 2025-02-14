@@ -4,14 +4,14 @@ import { useState, useEffect } from "react";
 import styles from "./page.module.css";
 import ViewJson from "./ViewJson";
 
-const JsonPage = ({ folderName, fileName, onClose }) => {
+const JsonPage = ({ directoryPath, folderName, fileName, onClose }) => {
   const [isLoading, setIsLoading] = useState(true);
   const [jsonData, setJsonData] = useState({});
 
   //fetch json data from blob
   const asyncFetch = async () => {
     setIsLoading(true);
-    const Response = await fetch("/api/jsonDataModified", {
+    const Response = await fetch(directoryPath, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
