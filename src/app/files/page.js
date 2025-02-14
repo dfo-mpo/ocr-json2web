@@ -345,17 +345,6 @@ const File = ({ searchParams }) => {
               verified={verified}
               reFetch={asyncFetchStatus}
             />
-            
-            <div className={styles.toolsContainer}>
-              <HighlightColorSelector 
-                highlightColor={highlightColor}
-                setHighlightColor={setHighlightColor}
-              />
-
-              <NullFieldIndicator
-                hasNullField={hasNullField}
-              />
-            </div>
 
             <div className={styles.container} ref={myContainer}>
               {/* This return statement will contain calls the React elements created for the 2 other containers */}
@@ -398,6 +387,17 @@ const File = ({ searchParams }) => {
               >
                 {isEditingTable ? "Close Editing" : "Edit Table"}
               </button> */}
+
+              <div className={styles.toolsContainer}>
+                <HighlightColorSelector 
+                  highlightColor={highlightColor}
+                  setHighlightColor={setHighlightColor}
+                />
+
+                <NullFieldIndicator
+                  hasNullField={hasNullField}
+                />
+              </div>
               
               <div className={styles.layoutContainer} style={{ maxHeight: polygonOverlayDimensions[1] }}>
 

@@ -311,21 +311,21 @@ const File = ({ searchParams }) => {
           </div>
         ) : (
           <>
-            <div className={styles.toolsContainer}>
-              <HighlightColorSelector 
-                highlightColor={highlightColor}
-                setHighlightColor={setHighlightColor}
-              />
-
-              <NullFieldIndicator
-                hasNullField={hasNullField}
-              />
-            </div>
-
             <div className={styles.container} ref={myContainer}>
               <button className={styles.linkStyle} onClick={()=>{setViewJson(true);}}>
                 View Json
               </button>
+
+              <div className={styles.toolsContainer}>
+                <HighlightColorSelector 
+                  highlightColor={highlightColor}
+                  setHighlightColor={setHighlightColor}
+                />
+
+                <NullFieldIndicator
+                  hasNullField={hasNullField}
+                />
+              </div>
               
               <div className={styles.layoutContainer} style={{ maxHeight: polygonOverlayDimensions[1] }}>
 
