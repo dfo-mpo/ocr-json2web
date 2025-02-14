@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 import LogoHeader from "../components/LogoHeader";
 import Iframe from "../files/Iframe";
 import PolygonList from "../files/PolygonList";
-import NullFieldList from "../files/NullFieldList";
+// import NullFieldList from "../files/NullFieldList";
 import HighlightColorSelector from "../components/HighlightColorSelector";
 import NullFieldIndicator from "../components/NullFieldIndicator";
 import Image from "next/image";
@@ -330,7 +330,7 @@ const File = ({ searchParams }) => {
               <div className={styles.layoutContainer} style={{ maxHeight: polygonOverlayDimensions[1] }}>
 
                 <div className={styles.polygonsContainer}>
-                  <h4>Polygon List</h4>
+                  {/* <h4>Polygon List</h4> */}
                   <PolygonList
                     fileName={fileName}
                     folderName={folderName}
@@ -344,14 +344,15 @@ const File = ({ searchParams }) => {
                     selectedPolygon={selectedPolygon}
                     handlePolygonSelect={handlePolygonSelect}  
                     handlePolygonDeselect={handlePolygonDeselect} 
+                    setHasNullField={setHasNullField}
                     isReadOnly={true}
                   />
                   
-                  <h4>Null Field List</h4>
+                  {/* <h4>Null Field List</h4>
                   <NullFieldList 
                     json={jsonData} 
                     setHasNullField={setHasNullField}
-                  />
+                  /> */}
                 </div>
 
                 <div ref={polygonOverlayRef} className={styles.polygonOverlay}>
@@ -374,6 +375,7 @@ const File = ({ searchParams }) => {
       </div>
       <div className={`${styles.jsonDrawer} ${viewJson? styles.openDrawer : ''}`}>
         <JsonPage
+          directoryPath={"/api/jsonData"}
           folderName={folderName}
           fileName={fileName}
           onClose={()=>{setViewJson(false);}}

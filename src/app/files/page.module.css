@@ -144,6 +144,10 @@
   border-radius: 5px;
 }
 
+.polygonsContainer > h4 + div {
+  margin-bottom: 10px;
+}
+
 .jsonDrawer {  
   z-index: 100;
   position: fixed;  

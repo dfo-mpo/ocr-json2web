@@ -1,6 +1,7 @@
 "use client";
 import styles from "./PolygonList.module.css";
 import Polygon from "../components/Polygon";
+import NullField from "../components/NullField";
 import { useState, useEffect, useRef } from "react";
 
 const PolygonList = ({
@@ -16,6 +17,7 @@ const PolygonList = ({
   selectedPolygon,
   handlePolygonSelect,
   handlePolygonDeselect,
+  setHasNullField,
   isReadOnly = false
 }) => {  
   const collectedPolygonKeys = new Set();
@@ -174,16 +176,16 @@ const PolygonList = ({
   }, [clickedPolygon])
   
   return (
+    <>
+    {isEditing ? (
+      <>
+      <button onClick={handleSave} className={styles.saveChange}>Save</button>
+      <button onClick={handleCancel} className={styles.cancelChange}>Cancel</button>
+      </>
+    ) : null}
+    
+    <h4>Polygon List</h4>
     <div ref={polygonListRef} className={styles.polygonList}>
-      {isEditing ? (
-        <>
-        <button onClick={handleSave} className={styles.saveChange}>Save</button>
-        <button onClick={handleCancel} className={styles.cancelChange}>Cancel</button>
-        </>
-      ) : null}
-
-      {/* <h4>Polygon List</h4> */}
-
       {Object.entries(json).map(([key, value]) => {
         return (
           <Polygon
@@ -203,8 +205,27 @@ const PolygonList = ({
           />
         )
       })}
-      
     </div>
+
+    <h4>Null Field List</h4>
+    <div className={styles.nullFieldList}>
+      {Object.entries(json).map(([key, value]) => {
+        return (
+          <NullField
+            key={key}
+            polygonKey={key}
+            polygon={value}
+            textAreaRefs={textAreaRefs}
+            polygonRef={polygonRefs}
+            handleUpdatePolygon={handleUpdatePolygon}
+            editedPolygons={editedPolygons}
+            setHasNullField={setHasNullField}
+            isReadOnly={isReadOnly}
+          />
+        )
+      })}
+    </div>
+    </>
   );
 };
 

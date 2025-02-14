@@ -8,8 +8,8 @@ const EditableField = ({
   textAreaRefs,
   handleUpdatePolygon,
   editedPolygons,
-  handleFocus,
-  handleBlur,
+  handleFocus = () => {},
+  handleBlur = () => {},
   isReadOnly
 }) => {
 
