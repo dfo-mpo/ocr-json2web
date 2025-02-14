@@ -31,7 +31,7 @@ const EditableField = ({
       onFocus={()=>{handleFocus(polygonKey);}}  
       onBlur={handleBlur} 
       ref={(ref) => (textAreaRefs.current[polygonKey] = ref)}
-      className={`${styles.labelText} ${flagStyle}`}
+      className={`${styles.labelText} ${flagStyle} ${!content ? styles.nullLabelText : ''}`}
       value={content}
       onChange={(e) => handleUpdatePolygon(polygonKey, e.target.value)}
       rows={1}

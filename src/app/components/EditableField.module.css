@@ -15,6 +15,10 @@
   outline: none;
 }
 
+.nullLabelText {
+  background: #fef4e4;
+}
+
 .flagged {
   color: red;
 }
