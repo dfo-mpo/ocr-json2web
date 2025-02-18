@@ -50,3 +50,47 @@
   color: #174ea6;
   opacity: 1;
 }
+
+/* Iframe.module.css */  
+.container {  
+  position: relative;  
+}  
+  
+.iframe {  
+  width: 100%;  
+  border: none;  
+}  
+  
+.box {  
+  position: absolute;
+  z-index: 10; 
+  border: 2px solid;
+  cursor: pointer;
+  /* pointer-events: none; /* Make sure boxes don't interfere with iframe interactions */  
+}  
+  
+.noData {  
+  text-align: center;  
+  margin-top: 20px;  
+} 
+
+.hoverBackground {  
+  background-color: transparent; /* default background color */  
+  
+  /* Define the hover state */  
+  transition: background-color 0.3s ease; /* Optional for smooth transition */  
+}  
+  
+.hoverBackground:hover {  
+  background-color: var(--hover-bg-color);  
+} 
+
+.tooltip {
+  position: relative;
+
+}
+
+.highlight {
+  background-color: var(--hover-bg-color); 
+}
+ 

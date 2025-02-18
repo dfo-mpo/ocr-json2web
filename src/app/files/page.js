@@ -1,14 +1,18 @@
 "use client";
-import FormRender from "../components/FormRender";
 import styles from "./page.module.css";
 import ErrorReport from "./ErrorReport";
 import Link from "next/link";
 import LogoHeader from "../components/LogoHeader";
 import Iframe from "./Iframe";
+import PolygonList from "./PolygonList";
+// import NullFieldList from "./NullFieldList";
+import HighlightColorSelector from "../components/HighlightColorSelector";
+import NullFieldIndicator from "../components/NullFieldIndicator";
 import Image from "next/image";
 import errorIcon from "../../../public/images/error.svg";
 import verifiedIcon from "../../../public/images/verified.svg";
-import modifiedIcon from "../../../public/images/modified.svg";
+import modifiedIcon from "../../../public/images/modified.svg"; 
+import JsonPage from "../viewJson/pageComp";
 
 import VerifiedButton from "./VerifiedButton";
 import { useState, useEffect, useRef } from "react";
@@ -19,12 +23,18 @@ const File = ({ searchParams }) => {
   const [jsonData, setJsonData] = useState({});
   const [formSetting, setFormSetting] = useState({});
   const [verified, setVerified] = useState(false);
-  const [fileStatusJson, setFileStatusJson] = useState([]);
+  const [viewJson, setViewJson] = useState(false);
   const [modified, setModified] = useState(false);
   const [error, setError] = useState(false);
-  const [pageHeight, setPageHeight] = useState(1500);
   const [isFormSetting, setIsFormSetting] = useState();
-  const [isEditingTable, setIsEditingTable] = useState(false);
+  const [selectedPolygon, setSelectedPolygon] = useState(null);
+  const [clickedPolygon, setClickedPolygon] = useState(null);
+  const [polygonOverlayDimensions, setPolygonOverlayDimensions] = useState([0,0]);
+  const polygonOverlayRef = useRef(null);
+  
+  const [polygonKeys, setPolygonKeys] = useState(new Set());
+  const [hasNullField, setHasNullField] = useState(false);
+  const [highlightColor, setHighlightColor] = useState("#FFDE21");
 
   // this is the Form page
   const fileName = searchParams.fileName;
@@ -32,12 +42,12 @@ const File = ({ searchParams }) => {
 
   const myContainer = useRef(null);
 
-  useEffect(() => {
-    if (myContainer.current) {
-      const height = myContainer.current.clientHeight;
-      setPageHeight(height);
-    }
-  });
+  // useEffect(() => {
+  //   if (myContainer.current) {
+  //     const height = myContainer.current.clientHeight;
+  //     setPageHeight(height);
+  //   }
+  // });
 
   // const error = searchParams.error === "true";
   // const modified = searchParams.modified === "true";
@@ -236,123 +246,213 @@ const File = ({ searchParams }) => {
     }
   };
 
+  const onBoxClick = (key) => {
+    setClickedPolygon(key);
+    setSelectedPolygon(key);
+  }
+
+  const handlePolygonSelect = (key) => {  
+    setSelectedPolygon(key);
+  };  
+  
+  const handlePolygonDeselect = () => {  
+    setSelectedPolygon(null);
+    setClickedPolygon(null);
+  }; 
+
+  useEffect(() => {  
+    const checkDimensions = () => {  
+      if (polygonOverlayRef.current && polygonOverlayRef.current.offsetHeight) {  
+        setPolygonOverlayDimensions([  
+          polygonOverlayRef.current.offsetWidth - 22,  
+          polygonOverlayRef.current.offsetHeight  
+        ]);  
+      }  
+    };  
+  
+    // Initial check  
+    checkDimensions();  
+  
+    // Set up interval to check for changes  
+    const intervalId = setInterval(checkDimensions, 100); // check every 100ms  
+  
+    // Clean up the interval on component unmount  
+    return () => clearInterval(intervalId);  
+  }, [polygonOverlayRef]);
+
   useEffect(() => {
     asyncFetch();
     asyncFetchFormSetting();
     asyncFetchStatus();
+
+    window.addEventListener('resize', () => {          
+      if (polygonOverlayRef && polygonOverlayRef.current) setPolygonOverlayDimensions([polygonOverlayRef.current.offsetWidth - 22, polygonOverlayRef.current.offsetHeight]);       
+    }); 
   }, []);
-
+  
   return (
-    <div className={styles.allPage}>
-      <title>{fileName.replace(".json", "").replace(/_/g, " ")}</title>
-      <LogoHeader />
+    <>
+      <div className={styles.allPage} onClick={()=>{if (viewJson) setViewJson(false);}}>
+        <title>{fileName.replace(".json", "").replace(/_/g, " ")}</title>
+        <LogoHeader />
 
-      {/* <Link className={styles.backButton} href="/">
-          Back
-        </Link> */}
-      <h5 className={styles.fileName}>
-        File Name: {fileName.replace(/_/g, " ").replace(".json", "")}
-        {verified && (
-          <Image src={verifiedIcon} alt="verified" width={20} height={20} />
-        )}
-        {error && <Image src={errorIcon} alt="error" width={15} height={15} />}
-        {modified && (
-          <Link
-            className={styles.modifiedLink}
-            rel="noopener noreferrer"
-            target="_blank"
-            href={{
-              pathname: "/filesOriginal/",
-              query: {
-                fileName: fileName,
-                folderName: folderName,
-              },
-            }}
-          >
-            <Image src={modifiedIcon} alt="modified" height={23} width={23} />
-            <span>View Original Version</span>
-          </Link>
-        )}
-      </h5>
-
-      {isLoading || isFormsettingReady ? (
-        <div>Loading...</div>
-      ) : isFormSetting === false ? (
-        <div className={styles.error}>
-          FormSetting.json file does not exist. Please return to the home page
-          and click on 'Update Settings'.
-        </div>
-      ) : (
-        <>
-          <ErrorReport
-            fileName={fileName}
-            folderName={folderName}
-            reFetch={asyncFetchStatus}
-          />
-          <br />
-          <VerifiedButton
-            fileName={fileName}
-            folderName={folderName}
-            verified={verified}
-            reFetch={asyncFetchStatus}
-          />
-          <div className={styles.container} ref={myContainer}>
-            <FormRender
-              isEditingTable={isEditingTable}
-              folderName={folderName}
-              items={jsonData}
-              fileName={fileName}
-              formSetting={formSetting}
-              reFetch={asyncFetchStatus}
-              reFetchJson={asyncFetch}
-              // verified={verified}
-            />
+        {/* <Link className={styles.backButton} href="/">
+            Back
+          </Link> */}
+        <div className={styles.fileName}>
+          File Name: {fileName.replace(/_/g, " ").replace(".json", "")}
+          {verified && (
+            <Image src={verifiedIcon} alt="verified" width={20} height={20} />
+          )}
+          {error && <Image src={errorIcon} alt="error" width={15} height={15} />}
+          {modified && (
             <Link
-              className={styles.linkStyle}
+              className={styles.modifiedLink}
               rel="noopener noreferrer"
               target="_blank"
               href={{
-                pathname: "/viewJson/",
+                pathname: "/filesOriginal/",
                 query: {
-                  folderName: folderName,
                   fileName: fileName,
-                },
-              }}
-            >
-              View Json
-            </Link>
-
-            <Link
-              className={styles.linkStyle2}
-              rel="noopener noreferrer"
-              target="_blank"
-              href={{
-                pathname: "/formSetting/",
-                query: {
                   folderName: folderName,
                 },
               }}
             >
-              Add Table
+              <Image src={modifiedIcon} alt="modified" height={23} width={23} />
+              <span>View Original Version</span>
             </Link>
-            <button
-              className={styles.linkStyle3}
-              onClick={() => {
-                setIsEditingTable(!isEditingTable);
-              }}
-            >
-              {isEditingTable ? "Close Editing" : "Edit Table"}
-            </button>
-            <Iframe
-              formSetting={formSetting}
-              folderName={folderName}
-              fileName={fileName}
-              pageHeight={pageHeight}
-            />
+          )}
+        </div>
+
+        {isLoading || isFormsettingReady ? (
+          <div>Loading...</div>
+        ) : isFormSetting === false ? (
+          <div className={styles.error}>
+            FormSetting.json file does not exist. Please return to the home page
+            and click on 'Update Settings'.
           </div>
-        </>
-      )}
-    </div>
+        ) : (
+          <>
+            <ErrorReport
+              fileName={fileName}
+              folderName={folderName}
+              reFetch={asyncFetchStatus}
+            />
+            <br />
+            <VerifiedButton
+              fileName={fileName}
+              folderName={folderName}
+              verified={verified}
+              reFetch={asyncFetchStatus}
+            />
+
+            <div className={styles.container} ref={myContainer}>
+              {/* This return statement will contain calls the React elements created for the 2 other containers */}
+              {/* <Link
+                className={styles.linkStyle}
+                rel="noopener noreferrer"
+                target="_blank"
+                href={{
+                  pathname: "/viewJson/",
+                  query: {
+                    folderName: folderName,
+                    fileName: fileName,
+                  },
+                }}
+              >
+                View Json
+              </Link> */}
+              <button className={styles.linkStyle} onClick={()=>{setViewJson(true);}}>
+                View Json
+              </button>
+
+              {/* <Link
+                className={styles.linkStyle2}
+                rel="noopener noreferrer"
+                target="_blank"
+                href={{
+                  pathname: "/formSetting/",
+                  query: {
+                    folderName: folderName,
+                  },
+                }}
+              >
+                Add Table
+              </Link>
+              <button
+                className={styles.linkStyle3}
+                onClick={() => {
+                  setIsEditingTable(!isEditingTable);
+                }}
+              >
+                {isEditingTable ? "Close Editing" : "Edit Table"}
+              </button> */}
+
+              <div className={styles.toolsContainer}>
+                <HighlightColorSelector 
+                  highlightColor={highlightColor}
+                  setHighlightColor={setHighlightColor}
+                />
+
+                <NullFieldIndicator
+                  hasNullField={hasNullField}
+                />
+              </div>
+              
+              <div className={styles.layoutContainer} style={{ maxHeight: polygonOverlayDimensions[1] }}>
+
+                <div className={styles.polygonsContainer}>
+                  {/* <h4>Polygon List</h4> */}
+                  <PolygonList
+                    fileName={fileName}
+                    folderName={folderName}
+                    json={jsonData}
+                    setJsonData={setJsonData}
+                    setPolygonKeys={setPolygonKeys}
+                    highlightColor={highlightColor}
+                    clickedPolygon={clickedPolygon}
+                    reFetch={asyncFetchStatus}
+                    reFetchJson={asyncFetch}
+                    selectedPolygon={selectedPolygon}
+                    handlePolygonSelect={handlePolygonSelect}  
+                    handlePolygonDeselect={handlePolygonDeselect} 
+                    setHasNullField={setHasNullField}
+                  />
+                  
+                  {/* <h4>Null Field List</h4>
+                  <NullFieldList 
+                    json={jsonData} 
+                    setHasNullField={setHasNullField}
+                  /> */}
+                </div>
+
+                <div ref={polygonOverlayRef} className={styles.polygonOverlay}>
+                  <Iframe
+                    folderName={folderName}
+                    fileName={fileName}
+                    pageWidth={polygonOverlayDimensions[0]}
+                    json={jsonData}
+                    polygonKeys={polygonKeys}
+                    highlightColour={highlightColor}
+                    selectedPolygon={selectedPolygon}
+                    onBoxClick={onBoxClick}
+                  />
+                </div>
+              </div>
+
+            </div>
+          </>
+        )}
+      </div>
+      <div className={`${styles.jsonDrawer} ${viewJson? styles.openDrawer : ''}`}>
+        <JsonPage
+          directoryPath={"/api/jsonDataModified"}
+          folderName={folderName}
+          fileName={fileName}
+          onClose={()=>{setViewJson(false);}}
+        />
+      </div>
+    </>
   );
 };
 

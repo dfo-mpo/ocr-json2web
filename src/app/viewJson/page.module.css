@@ -3,6 +3,7 @@
     flex-direction: column;
   
     align-items: center;
+    position: relative;
     
   }
 .note{
@@ -17,4 +18,12 @@
     font-weight: 600;
     font-size: 1.1em;
     margin: 10px 0;
+}
+
+.closeIcon {
+  font-size: 30px;
+  position: absolute;
+  right: -10px;
+  top: -17px;
+  cursor: pointer;
 }

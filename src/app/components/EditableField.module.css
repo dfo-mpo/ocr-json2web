@@ -1,0 +1,28 @@
+.labelText {
+  width: 100%;
+  border: none;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 4px;
+  resize: none;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.labelText:focus {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+}
+
+.nullLabelText {
+  background: #fef4e4;
+}
+
+.flagged {
+  color: red;
+}
+
+.edited {
+  color: green;
+}
