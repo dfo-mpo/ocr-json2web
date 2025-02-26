@@ -1,12 +1,12 @@
 "use client";
 import styles from "./PolygonList.module.css";
 import Polygon from "../components/Polygon";
+import NullField from "../components/NullField";
 import { useState, useEffect, useRef } from "react";
 
 const PolygonList = ({
   fileName,
   folderName,
-  originalFile,
   json,
   setJsonData,
   setPolygonKeys,
@@ -16,7 +16,9 @@ const PolygonList = ({
   reFetchJson,
   selectedPolygon,
   handlePolygonSelect,
-  handlePolygonDeselect
+  handlePolygonDeselect,
+  setHasNullField,
+  isReadOnly = false
 }) => {  
   const collectedPolygonKeys = new Set();
 
@@ -32,9 +34,9 @@ const PolygonList = ({
     reFetch();
   };
 
-  const cancelChange = () => {
-    reFetchJson();
-  };
+  // const cancelChange = () => {
+  //   reFetchJson();
+  // };
 
   // Used to track items has been edited
   const [updateJson, setUpdateJson] = useState(json);
@@ -141,18 +143,20 @@ const PolygonList = ({
     changeHandler(updatedData);
   };
 
-  const handleSave = () => {
+  const handleSave = async () => {
     setEditedPolygons(new Set());
     setIsEditing(false);
 
-    onClickHandler(updateJson);
+    await onClickHandler(updateJson);
+    window.location.reload();
   };
   
   const handleCancel = () => {
-    setEditedPolygons(new Set());
-    setIsEditing(false);
+    // setEditedPolygons(new Set());
+    // setIsEditing(false);
 
-    cancelChange();
+    // cancelChange();
+    window.location.reload();
   };
 
   useEffect(() => {
@@ -172,16 +176,16 @@ const PolygonList = ({
   }, [clickedPolygon])
   
   return (
+    <>
+    {isEditing ? (
+      <>
+      <button onClick={handleSave} className={styles.saveChange}>Save</button>
+      <button onClick={handleCancel} className={styles.cancelChange}>Cancel</button>
+      </>
+    ) : null}
+    
+    <h4>Polygon List</h4>
     <div ref={polygonListRef} className={styles.polygonList}>
-      {isEditing && !originalFile ? (
-        <>
-        <button onClick={handleSave} className={styles.saveChange}>Save</button>
-        <button onClick={handleCancel} className={styles.cancelChange}>Cancel</button>
-        </>
-      ) : null}
-
-      {/* <h4>Polygon List</h4> */}
-
       {Object.entries(json).map(([key, value]) => {
         return (
           <Polygon
@@ -197,11 +201,31 @@ const PolygonList = ({
             selectedPolygon={selectedPolygon}
             handlePolygonSelect={handlePolygonSelect}  
             handlePolygonDeselect={handlePolygonDeselect} 
+            isReadOnly={isReadOnly}
           />
         )
       })}
-      
     </div>
+
+    <h4>Null Field List</h4>
+    <div className={styles.nullFieldList}>
+      {Object.entries(json).map(([key, value]) => {
+        return (
+          <NullField
+            key={key}
+            polygonKey={key}
+            polygon={value}
+            textAreaRefs={textAreaRefs}
+            polygonRef={polygonRefs}
+            handleUpdatePolygon={handleUpdatePolygon}
+            editedPolygons={editedPolygons}
+            setHasNullField={setHasNullField}
+            isReadOnly={isReadOnly}
+          />
+        )
+      })}
+    </div>
+    </>
   );
 };
 

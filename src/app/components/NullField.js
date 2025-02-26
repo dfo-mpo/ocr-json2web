@@ -3,22 +3,20 @@ import styles from "./Polygon.module.css";
 import EditableField from "./EditableField";
 import { useState, useEffect, useRef } from "react";
 
-const Polygon = ({
+const NullField = ({
   polygonKey,
   polygon,
-  highlightColor,
   textAreaRefs,
   polygonRef,
   handleUpdatePolygon,
   editedPolygons,
-  collectPolygonKey,
-  selectedPolygon,
-  handlePolygonSelect,
-  handlePolygonDeselect,
+  setHasNullField,
   isReadOnly
 }) => {  
+  const hasSetNull = useRef(false);
+  
   // Helper function for coordinates validation logic
-  const areCoordinatesValid = (coordinates) => {
+  const areCoordinatesValid = (coordinates) => {    
     return (
       Array.isArray(coordinates) &&
       typeof coordinates === "object" &&
@@ -28,7 +26,7 @@ const Polygon = ({
     );
   }; 
   
-  const renderPolygon = (polygonKey, polygon, textAreaRefs) => {
+  const renderNullField = (polygonKey, polygon, textAreaRefs) => {
     if (polygonKey.toLowerCase() === "verified" || polygonKey.toLowerCase() === "model id") return null;
     
     const content = polygon[0];
@@ -37,7 +35,7 @@ const Polygon = ({
     if (Array.isArray(polygon) && typeof content === "object" && content != null) {
       return polygon.map((row, rowIndex) =>
         Object.entries(row).map(([nestedKey, nestedValue]) => 
-          renderPolygon(
+          renderNullField(
             `${polygonKey} Row ${rowIndex+1} - ${nestedKey}`,
             nestedValue,
             textAreaRefs
@@ -51,26 +49,21 @@ const Polygon = ({
       const coordinates = polygon[1];
       const flag = polygon[4];
 
-      if (areCoordinatesValid(coordinates)) {
-        collectPolygonKey(polygonKey);
+      if (!areCoordinatesValid(coordinates)) {
+        if (!hasSetNull.current) {
+          hasSetNull.current = true;
+        }
 
         return (
           <div
             key={polygonKey}
             ref={(ref) => (polygonRef.current[polygonKey] = ref)} 
             className={styles.polygonItem}
-            style={{
-              borderColor: (selectedPolygon === polygonKey ? highlightColor : ''),
-              boxShadow: (selectedPolygon === polygonKey ? `inset 0 0 2px 2px ${highlightColor}` : ''),
-            }}
             >
             <div className={styles.labelName}>
-              {/* <span className={styles.colorCircle} style={{ backgroundColor: color }}></span> */}
               {polygonKey}
             </div>
             <EditableField
-              handleFocus={handlePolygonSelect}  
-              handleBlur={handlePolygonDeselect} 
               polygonKey={polygonKey}
               content={content}
               flag={flag}
@@ -87,8 +80,14 @@ const Polygon = ({
     return null;
   };
 
+  // Set true if null field exist
+  useEffect(() => {
+    if (hasSetNull.current) {
+      setHasNullField(true);
+    }
+  }, [setHasNullField]);
 
-  return renderPolygon(polygonKey, polygon, textAreaRefs);
+  return renderNullField(polygonKey, polygon, textAreaRefs);
 };
 
-export default Polygon;
+export default NullField;

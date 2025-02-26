@@ -14,6 +14,9 @@
   display: flex;
   justify-content: center; /* Horizontally centers the content */
   margin: 0 auto; /* Centers the container horizontally */
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
 }
 .error {
   color: red;
@@ -115,7 +118,7 @@
 
 .polygonOverlay {
   flex-grow: 1;
-  min-width: 0;
+  min-width: 640px;
   height: fit-content;
   padding: 10px;
   border: 1px solid #ddd;
@@ -127,18 +130,22 @@
   flex-direction: column;
   gap: 10px;
   width: 30%;
-  min-width:250px;
+  min-width:260px;
   max-width: 480px;
   height: calc(100vh - 20px);
   max-height: 100vh;
   position: sticky;
   top: 10px;
-  left: 0;
+  /* left: 0; */
 
   padding: 10px;
   background-color: #f9f9f9;
   border: 1px solid #ddd;
   border-radius: 5px;
+}
+
+.polygonsContainer > h4 + div {
+  margin-bottom: 10px;
 }
 
 .jsonDrawer {  
@@ -147,7 +154,7 @@
   top: 0;  
   right: 0;  
   width: 30%;
-  min-width:250px;
+  min-width:420px;
   max-width: 480px;
   height: 100%;  
   background-color: #fbf8f8;  
@@ -158,5 +165,5 @@
 
 .openDrawer {  
   transform: translateX(0);  
-  box-shadow: -2px 0 5px rgba(0,0,0,0.5); 
+  box-shadow: -2px 0 10px rgba(0,0,0,0.2); 
 }  

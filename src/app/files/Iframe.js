@@ -2,7 +2,7 @@
 import styles from "./Iframe.module.css";  
 import { useState, useEffect, useRef } from "react";  
 import * as pdfjsLib from "pdfjs-dist";  
-import "pdfjs-dist/web/pdf_viewer.css";  
+import "pdfjs-dist/web/pdf_viewer.css";   
 import workerSrc from 'pdfjs-dist/build/pdf.worker?worker&url';
   
 // You will need to set the workerSrc for PDF.js  
@@ -161,29 +161,32 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
     }
   }; 
   
-  useEffect(() => {  
-    asyncFetch();
-  }, []);
-
-  useEffect(() => {
-    if (canvasRef.current && canvasRef.current.height && canvasRef.current.width) setIsCanvasReady(true);
-  });
+  // useEffect(() => {  
+  //   asyncFetch();  
+  // }, []);
 
   // Whenever a new with is defined for this component, re render pdf and boxes to match it
   useEffect(() => {
-    if (pdfPage && isCanvasReady) {
-      // If render is active, do not rerender  
-      if (renderTaskRef.current) { 
-        return;
-      }  
+    const fetchRenderPdf = async () => {
+      if (!pdfPage) {
+        await asyncFetch();
+      }
 
-      renderPDF(pdfPage);
+      if (pdfPage) {
+        // If render is active, do not rerender  
+        if (renderTaskRef.current) {  
+          return;
+        }  
 
-      const extractedBoxes = extractBoxesFromJson(json);  
-      setBoxes(extractedBoxes);  
-      setIsLoading(false); 
-    }
-  }, [pageWidth, pdfPage, isCanvasReady])
+        renderPDF(pdfPage); 
+        const extractedBoxes = extractBoxesFromJson(json);  
+        setBoxes(extractedBoxes);  
+        setIsLoading(false); 
+      }
+    };
+
+    fetchRenderPdf();
+  }, [pageWidth, pdfPage])
   
   return (  
     <>  

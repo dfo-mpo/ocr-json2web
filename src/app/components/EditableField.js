@@ -8,8 +8,9 @@ const EditableField = ({
   textAreaRefs,
   handleUpdatePolygon,
   editedPolygons,
-  handleFocus,
-  handleBlur
+  handleFocus = () => {},
+  handleBlur = () => {},
+  isReadOnly
 }) => {
 
   let flagStyle = '';
@@ -30,10 +31,11 @@ const EditableField = ({
       onFocus={()=>{handleFocus(polygonKey);}}  
       onBlur={handleBlur} 
       ref={(ref) => (textAreaRefs.current[polygonKey] = ref)}
-      className={`${styles.labelText} ${flagStyle}`}
+      className={`${styles.labelText} ${flagStyle} ${!content ? styles.nullLabelText : ''}`}
       value={content}
       onChange={(e) => handleUpdatePolygon(polygonKey, e.target.value)}
       rows={1}
+      readOnly={isReadOnly}
     />
   )
 };

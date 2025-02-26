@@ -5,7 +5,7 @@ import Link from "next/link";
 import LogoHeader from "../components/LogoHeader";
 import Iframe from "./Iframe";
 import PolygonList from "./PolygonList";
-import NullFieldList from "./NullFieldList";
+// import NullFieldList from "./NullFieldList";
 import HighlightColorSelector from "../components/HighlightColorSelector";
 import NullFieldIndicator from "../components/NullFieldIndicator";
 import Image from "next/image";
@@ -345,17 +345,6 @@ const File = ({ searchParams }) => {
               verified={verified}
               reFetch={asyncFetchStatus}
             />
-            
-            <div className={styles.toolsContainer}>
-              <HighlightColorSelector 
-                highlightColor={highlightColor}
-                setHighlightColor={setHighlightColor}
-              />
-
-              <NullFieldIndicator
-                hasNullField={hasNullField}
-              />
-            </div>
 
             <div className={styles.container} ref={myContainer}>
               {/* This return statement will contain calls the React elements created for the 2 other containers */}
@@ -398,15 +387,25 @@ const File = ({ searchParams }) => {
               >
                 {isEditingTable ? "Close Editing" : "Edit Table"}
               </button> */}
+
+              <div className={styles.toolsContainer}>
+                <HighlightColorSelector 
+                  highlightColor={highlightColor}
+                  setHighlightColor={setHighlightColor}
+                />
+
+                <NullFieldIndicator
+                  hasNullField={hasNullField}
+                />
+              </div>
               
               <div className={styles.layoutContainer} style={{ maxHeight: polygonOverlayDimensions[1] }}>
 
                 <div className={styles.polygonsContainer}>
-                  <h4>Polygon List</h4>
+                  {/* <h4>Polygon List</h4> */}
                   <PolygonList
                     fileName={fileName}
                     folderName={folderName}
-                    originalFile={false}
                     json={jsonData}
                     setJsonData={setJsonData}
                     setPolygonKeys={setPolygonKeys}
@@ -417,13 +416,14 @@ const File = ({ searchParams }) => {
                     selectedPolygon={selectedPolygon}
                     handlePolygonSelect={handlePolygonSelect}  
                     handlePolygonDeselect={handlePolygonDeselect} 
+                    setHasNullField={setHasNullField}
                   />
                   
-                  <h4>Null Field List</h4>
+                  {/* <h4>Null Field List</h4>
                   <NullFieldList 
                     json={jsonData} 
                     setHasNullField={setHasNullField}
-                  />
+                  /> */}
                 </div>
 
                 <div ref={polygonOverlayRef} className={styles.polygonOverlay}>
@@ -446,6 +446,7 @@ const File = ({ searchParams }) => {
       </div>
       <div className={`${styles.jsonDrawer} ${viewJson? styles.openDrawer : ''}`}>
         <JsonPage
+          directoryPath={"/api/jsonDataModified"}
           folderName={folderName}
           fileName={fileName}
           onClose={()=>{setViewJson(false);}}

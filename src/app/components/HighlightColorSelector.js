@@ -7,6 +7,7 @@ const colors = [
 ];
 
 const HighlightColorSelector = ({ highlightColor, setHighlightColor }) => {
+  const [prevColor, setPrevColor] = useState(highlightColor);
   const [isOpen, setIsOpen] = useState(false);
   const selectorRef = useRef(null);
 
@@ -45,8 +46,11 @@ const HighlightColorSelector = ({ highlightColor, setHighlightColor }) => {
               key={color}
               className={styles.dropdownItem}
               style={{ backgroundColor: color }}
+              onMouseOver={() => setHighlightColor(color)}
+              onMouseOut={() => setHighlightColor(prevColor)}
               onClick={(e) => {
                 setHighlightColor(color);
+                setPrevColor(color);
                 setIsOpen(!isOpen);
               }}
             />
