@@ -20,9 +20,14 @@
 }
 
 .flagged {
-  color: red;
+  color: red !important;
 }
 
 .edited {
-  color: green;
+  color: green !important;
+}
+
+.dropdown {
+  width: 100%;
+  height: 28px !important;
 }

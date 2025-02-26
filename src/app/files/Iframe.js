@@ -19,7 +19,6 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
   const [boxes, setBoxes] = useState([]);
   const [pdfWidth, setPdfWidth] = useState(0);
   const [pdfPage, setPdfPage] = useState(null);
-  const [isCanvasReady, setIsCanvasReady] = useState(false);
   const canvasRef = useRef(null);  
   const renderTaskRef = useRef(null); // Add ref to store the rendering task 
   
@@ -132,7 +131,6 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
     setPdfWidth(pdfWidth); 
   
     if (canvasRef.current) {
-      console.warn("Canvas ref available.");
       const canvas = canvasRef.current;  
       const context = canvas.getContext("2d");  
       canvas.height = viewport.height;  
@@ -156,9 +154,8 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
           renderTaskRef.current = null;  
         }  
       );  
-    } else {
-      console.warn("Canvas ref not available yet.");
     }
+    
   }; 
   
   // useEffect(() => {  
