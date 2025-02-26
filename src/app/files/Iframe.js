@@ -77,7 +77,7 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
         if (coordsList && coordsList.every(coord => typeof coord === "object")) {  
           const coords = extractCoords(coordsList);  
           if (coords.every(coord => coord !== undefined)) {  
-            const uniqueKey = `${rowKey} - ${columnKey}`;  
+            const uniqueKey = `${rowKey} -- ${columnKey}`;  
             boxes.push({  
               key: uniqueKey,  
               coords: coords.map(coord => coord * DPI * scaleFactor),   
