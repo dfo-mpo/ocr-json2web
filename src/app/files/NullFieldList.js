@@ -24,7 +24,7 @@ const NullFieldList = ({ json, setHasNullField  }) => {
       return polygon.map((row, rowIndex) =>
         Object.entries(row).map(([nestedKey, nestedValue]) => 
           renderNullField(
-            `${key} Row ${rowIndex+1} - ${nestedKey}`,
+            `${key} Row ${rowIndex+1} -- ${nestedKey}`,
             nestedValue
           )
         )
