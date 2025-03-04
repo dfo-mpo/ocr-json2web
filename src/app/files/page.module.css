@@ -1,5 +1,5 @@
 .allPage {
-  margin-bottom: 200px;
+  margin-bottom: 50px;
 }
 
 .backButton {
@@ -12,6 +12,7 @@
 
 .container {
   display: flex;
+  width: 80%;
   justify-content: center; /* Horizontally centers the content */
   margin: 0 auto; /* Centers the container horizontally */
 }
@@ -77,7 +78,7 @@
 .fileName {
   display: flex;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .modifiedLink {

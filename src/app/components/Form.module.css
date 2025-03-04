@@ -7,18 +7,18 @@
 }
 
 /* Media query for tablets */
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .container {
     width: 95%;
   }
-}
+} */
 
 /* Media query for desktops */
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   .container {
     width: 90%;
   }
-}
+} */
 
 .headerBox {
   display: flex;
@@ -30,7 +30,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   font-weight: 600;
 }
 .header1 {
