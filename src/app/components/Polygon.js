@@ -31,19 +31,19 @@ const Polygon = ({
   const renderPolygon = (polygonKey, polygon, textAreaRefs) => {
     if (polygonKey.toLowerCase() === "verified" || polygonKey.toLowerCase() === "model id") return null;
     
-    const content = polygon[0];
+    const content = polygon[0]? polygon[0] : Object.keys(polygon)[0];
 
     // Recursion to handle nested objects
-    if (Array.isArray(polygon) && typeof content === "object" && content != null) {
-      return polygon.map((row, rowIndex) =>
-        Object.entries(row).map(([nestedKey, nestedValue]) => 
+    if (!polygon[0] && typeof polygon[content] === "object" && polygon[content] != null) {
+      for (const nestedKey in polygon[content]) {
+        if (polygon[content].hasOwnProperty(nestedKey)) {
           renderPolygon(
-            `${polygonKey} Row ${rowIndex+1} -- ${nestedKey}`,
-            nestedValue,
+            `${polygonKey} -- ${content} -- ${nestedKey}`,
+            polygon[content][nestedKey],
             textAreaRefs
           )
-        )
-      );
+        }
+      }
     }
 
     // Render polygon if the content is string or null, with valid coordinates

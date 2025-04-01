@@ -18,17 +18,18 @@ const NullFieldList = ({ json, setHasNullField  }) => {
   const renderNullField = (key, polygon) => {
     if (key.toLowerCase() === "verified" || key.toLowerCase() === "model id") return null;
     
-    const content = polygon[0];
+    const content = polygon[0]? polygon[0] : Object.keys(polygon)[0];
 
-    if (Array.isArray(polygon) && typeof content === "object" && content != null) {
-      return polygon.map((row, rowIndex) =>
-        Object.entries(row).map(([nestedKey, nestedValue]) => 
+    // Recursion to handle nested objects
+    if (!polygon[0] && typeof polygon[content] === "object" && polygon[content] != null) {
+      for (const nestedKey in polygon[content]) {
+        if (polygon[content].hasOwnProperty(nestedKey)) {
           renderNullField(
-            `${key} Row ${rowIndex+1} - ${nestedKey}`,
-            nestedValue
+            `${key} -- ${content} -- ${nestedKey}`,
+            polygon[content][nestedKey]
           )
-        )
-      );
+        }
+      }
     }
 
     if (!areCoordinatesValid(polygon[1])) {
