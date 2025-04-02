@@ -1,7 +1,6 @@
 "use client";
 import styles from "./PolygonList.module.css";
 import Polygon from "../components/Polygon";
-import NullField from "../components/NullField";
 import { useState, useEffect, useRef } from "react";
 
 const PolygonList = ({
@@ -206,7 +205,7 @@ const PolygonList = ({
     <div className={styles.nullFieldList}>
       {Object.entries(json).map(([key, value]) => {
         return (
-          <NullField
+          <Polygon
             key={key}
             polygonKey={key}
             polygon={value}
@@ -216,6 +215,7 @@ const PolygonList = ({
             editedPolygons={editedPolygons}
             setHasNullField={setHasNullField}
             isReadOnly={isReadOnly}
+            shouldRenderNull={true}
           />
         )
       })}
