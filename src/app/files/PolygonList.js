@@ -102,34 +102,25 @@ const PolygonList = ({
       
       // Extract key and clean up "Row #" pattern
       const [currentKey, ...remainingKeys] = targetKeys;
-      const cleanKey = currentKey.replace(/(Row.*)/, '').trim();
-
-      // Match "Row #" pattern
-      const rowMatch = currentKey.match(/Row (\d+)/);
-      // Return the index of the row
-      const rowIndex = rowMatch ? parseInt(rowMatch[1], 10) - 1 : null;
-  
-      if (!cleanKey) return updatedData;
 
       // Update the polygon data if reach the final key
       if (remainingKeys.length === 0) {
-        if (updatedData[cleanKey]) {
-          updatedData[cleanKey] = [
+        if (Array.isArray(updatedData[currentKey])) {
+          updatedData[currentKey] = [
             newValue,
-            ...updatedData[cleanKey].slice(1,4),  // Keep the remaining of the json data object
+            ...updatedData[currentKey].slice(1,4),  // Keep the remaining of the json data object
             2                                     // Set flag to 2 (edited)
           ];
         }
       } else {
         // Recursion to make function call to handle nested object
         if (
-          updatedData[cleanKey] &&
-          Array.isArray(updatedData[cleanKey]) &&
-          rowIndex !== null &&
-          typeof updatedData[cleanKey][rowIndex] === "object"
+          updatedData[currentKey] !== null && 
+          !Array.isArray(updatedData[currentKey]) &&
+          typeof updatedData[currentKey] === "object"
         ) {
-          updatedData[cleanKey][rowIndex] = updatePolygon(
-            updatedData[cleanKey][rowIndex],
+          updatedData[currentKey] = updatePolygon(
+            updatedData[currentKey],
             remainingKeys
           );
         }

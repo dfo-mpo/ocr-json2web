@@ -100,7 +100,7 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
         });  
       } else if (typeof data === "object") {  
         for (const [key, value] of Object.entries(data)) {  
-          const newKey = parentKey ? `${parentKey} ${key}`.trim() : key;  
+          const newKey = parentKey ? `${parentKey} -- ${key}`.trim() : key;  
           if (Array.isArray(value) && value.length > 1 && Array.isArray(value[1])) {  
             const coordsList = value[1];  
             if (coordsList && coordsList.every(coord => typeof coord === "object")) {  

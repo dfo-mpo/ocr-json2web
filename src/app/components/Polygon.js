@@ -28,30 +28,30 @@ const Polygon = ({
     );
   }; 
   
-  const renderPolygon = (polygonKey, polygon, textAreaRefs) => {
+  const renderPolygon = (polygonKey, polygon) => {
     if (polygonKey.toLowerCase() === "verified" || polygonKey.toLowerCase() === "model id") return null;
-    
-    const content = polygon[0]? polygon[0] : Object.keys(polygon)[0];
 
-    // Recursion to handle nested objects
-    if (!polygon[0] && typeof polygon[content] === "object" && polygon[content] != null) {
-      for (const nestedKey in polygon[content]) {
-        if (polygon[content].hasOwnProperty(nestedKey)) {
-          renderPolygon(
-            `${polygonKey} -- ${content} -- ${nestedKey}`,
-            polygon[content][nestedKey],
-            textAreaRefs
-          )
-        }
-      }
+    if (typeof polygon === "object" && !Array.isArray(polygon)) {
+      return Object.entries(polygon).map(([childKey, childValue]) =>
+        renderPolygon(
+          `${polygonKey} -- ${childKey}`,
+          childValue
+        )
+      )
     }
 
-    // Render polygon if the content is string or null, with valid coordinates
-    if (typeof content === "string" || content === null) {
+    if(Array.isArray(polygon)) {
+      const content = polygon[0];
       const coordinates = polygon[1];
       const flag = polygon[4];
+      
+      if (
+        typeof content !== "string" || 
+        !areCoordinatesValid(coordinates)
+      ) {
+        return null;
+      }
 
-      if (areCoordinatesValid(coordinates)) {
         collectPolygonKey(polygonKey);
 
         return (
@@ -65,14 +65,13 @@ const Polygon = ({
             }}
             >
             <div className={styles.labelName}>
-              {/* <span className={styles.colorCircle} style={{ backgroundColor: color }}></span> */}
               {polygonKey}
             </div>
             <EditableField
               handleFocus={handlePolygonSelect}  
               handleBlur={handlePolygonDeselect} 
               polygonKey={polygonKey}
-              content={content}
+              content={content ? content : ""}
               flag={flag}
               highlightColor={highlightColor}
               textAreaRefs={textAreaRefs}
@@ -82,14 +81,13 @@ const Polygon = ({
             />
           </div>
         )
-      }
     }
 
     return null;
   };
 
 
-  return renderPolygon(polygonKey, polygon, textAreaRefs);
+  return renderPolygon(polygonKey, polygon);
 };
 
 export default Polygon;

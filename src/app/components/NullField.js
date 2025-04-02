@@ -26,30 +26,27 @@ const NullField = ({
     );
   }; 
   
-  const renderNullField = (polygonKey, polygon, textAreaRefs) => {
+  const renderNullField = (polygonKey, polygon) => {
     if (polygonKey.toLowerCase() === "verified" || polygonKey.toLowerCase() === "model id") return null;
-    
-    const content = polygon[0]? polygon[0] : Object.keys(polygon)[0];
 
-    // Recursion to handle nested objects
-    if (!polygon[0] && typeof polygon[content] === "object" && polygon[content] != null) {
-      for (const nestedKey in polygon[content]) {
-        if (polygon[content].hasOwnProperty(nestedKey)) {
-          renderNullField(
-            `${polygonKey} -- ${content} -- ${nestedKey}`,
-            polygon[content][nestedKey],
-            textAreaRefs
-          )
-        }
-      }
+    if (typeof polygon === "object" && !Array.isArray(polygon)) {
+      return Object.entries(polygon).map(([childKey, childValue]) =>
+        renderNullField(
+          `${polygonKey} -- ${childKey}`,
+          childValue
+        )
+      )
     }
 
-    // Render polygon if the content is string or null, with valid coordinates
-    if (typeof content === "string" || content === null) {
+    if(Array.isArray(polygon)) {
+      const content = polygon[0];
       const coordinates = polygon[1];
       const flag = polygon[4];
 
-      if (!areCoordinatesValid(coordinates)) {
+      if (
+        typeof content !== "string" || 
+        !areCoordinatesValid(coordinates)
+      ) {
         if (!hasSetNull.current) {
           hasSetNull.current = true;
         }
@@ -65,7 +62,7 @@ const NullField = ({
             </div>
             <EditableField
               polygonKey={polygonKey}
-              content={content}
+              content={content ? content : ""}
               flag={flag}
               textAreaRefs={textAreaRefs}
               handleUpdatePolygon={handleUpdatePolygon}
@@ -87,7 +84,7 @@ const NullField = ({
     }
   }, [setHasNullField]);
 
-  return renderNullField(polygonKey, polygon, textAreaRefs);
+  return renderNullField(polygonKey, polygon);
 };
 
 export default NullField;
