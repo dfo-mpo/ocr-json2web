@@ -58,17 +58,25 @@ const EditableField = ({
         '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
           borderColor: highlightColor,
           borderWidth: '1px',
+        },
+        '& .MuiNativeSelect-select': {
+          height: '28px !important', // ensure the internal select has the correct height
+          lineHeight: '28px', // vertically center text if needed
+          display: 'flex', // align items centrally
+          alignItems: 'center',
         }
         }}
+      native  
+      tabIndex={0}   // ensure focusability 
       className={`${styles.dropdown} ${flagStyle}`}
-      ref={(ref) => (textAreaRefs.current[polygonKey] = ref)}
+      inputRef={(node) => (textAreaRefs.current[polygonKey] = node)}
       onFocus={()=>{handleFocus(polygonKey);}}  
       onBlur={handleBlur} 
       value={content}
       onChange={(e) => handleUpdatePolygon(polygonKey, e.target.value)}
     >
-      <MenuItem value={'unselected'}>unselected</MenuItem>
-      <MenuItem value={'selected'}>selected</MenuItem>
+      <option value="unselected">unselected</option>  
+      <option value="selected">selected</option>
     </Select>
     
     :<textarea
