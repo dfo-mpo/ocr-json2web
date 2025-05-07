@@ -36,7 +36,7 @@ const NullField = ({
       return polygon.map((row, rowIndex) =>
         Object.entries(row).map(([nestedKey, nestedValue]) => 
           renderNullField(
-            `${polygonKey} Row ${rowIndex+1} - ${nestedKey}`,
+            `${polygonKey} Row ${rowIndex+1} -- ${nestedKey}`,
             nestedValue,
             textAreaRefs
           )

@@ -158,7 +158,8 @@
   max-width: 480px;
   height: 100%;  
   background-color: #fbf8f8;  
-  padding: 20px;   
+  padding: 20px;  
+  overflow-y: auto; 
   transform: translateX(100%);  
   transition: transform 0.3s ease;   
 }  

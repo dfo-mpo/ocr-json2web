@@ -1,5 +1,8 @@
 "use client";
 import styles from "./EditableField.module.css";
+import Select from '@mui/material/Select';
+import MenuItem from '@mui/material/MenuItem';
+import { useState, useEffect, useRef } from "react";
 
 const EditableField = ({
   polygonKey,
@@ -8,10 +11,13 @@ const EditableField = ({
   textAreaRefs,
   handleUpdatePolygon,
   editedPolygons,
+  highlightColor,
   handleFocus = () => {},
   handleBlur = () => {},
   isReadOnly
 }) => {
+
+  const [contentOld, setContentOld] = useState(content);
 
   let flagStyle = '';
   switch (flag) {
@@ -27,7 +33,26 @@ const EditableField = ({
   }
   
   return (
-    <textarea
+    (content === 'selected' || content === 'unselected')? 
+    <Select
+      sx={{
+        '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
+          borderColor: highlightColor,
+          borderWidth: '1px',
+        }
+      }}
+      className={`${styles.dropdown} ${flagStyle}`}
+      ref={(ref) => (textAreaRefs.current[polygonKey] = ref)}
+      onFocus={()=>{handleFocus(polygonKey);}}  
+      onBlur={handleBlur} 
+      value={content}
+      onChange={(e) => handleUpdatePolygon(polygonKey, e.target.value)}
+    >
+      <MenuItem value={'unselected'}>unselected</MenuItem>
+      <MenuItem value={'selected'}>selected</MenuItem>
+    </Select>
+    
+    :<textarea
       onFocus={()=>{handleFocus(polygonKey);}}  
       onBlur={handleBlur} 
       ref={(ref) => (textAreaRefs.current[polygonKey] = ref)}

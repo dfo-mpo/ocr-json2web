@@ -38,7 +38,7 @@ const Polygon = ({
       return polygon.map((row, rowIndex) =>
         Object.entries(row).map(([nestedKey, nestedValue]) => 
           renderPolygon(
-            `${polygonKey} Row ${rowIndex+1} - ${nestedKey}`,
+            `${polygonKey} Row ${rowIndex+1} -- ${nestedKey}`,
             nestedValue,
             textAreaRefs
           )
@@ -74,6 +74,7 @@ const Polygon = ({
               polygonKey={polygonKey}
               content={content}
               flag={flag}
+              highlightColor={highlightColor}
               textAreaRefs={textAreaRefs}
               handleUpdatePolygon={handleUpdatePolygon}
               editedPolygons={editedPolygons}

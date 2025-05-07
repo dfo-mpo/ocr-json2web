@@ -94,7 +94,7 @@ const FileNameList = ({ filesByFolder, fileStatus }) => {
     } catch (error) {  
       console.error("Fetch error:", error);  
       setIsReload(false); // Ensure to reset the state even on error  
-    }  
+    }
   };
 
   useEffect(() => {

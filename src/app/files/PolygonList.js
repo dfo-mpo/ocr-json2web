@@ -90,6 +90,8 @@ const PolygonList = ({
   }, [json]);
 
   const handleUpdatePolygon = (polygonKey, newValue) => {
+    console.log("PolygonKey: "+polygonKey)
+    console.log("New Value: "+newValue)
     setEditedPolygons((prev) => new Set(prev).add(polygonKey));
 
     const updatePolygon = (data, targetKeys) => {
@@ -137,8 +139,10 @@ const PolygonList = ({
       return updatedData;
     };
 
-    const keyList = polygonKey.split(" - ");
+    const keyList = polygonKey.split(" -- ");
+    console.log(keyList);
     const updatedData = updatePolygon(json, keyList);
+    console.log(updatedData);
     
     changeHandler(updatedData);
   };
