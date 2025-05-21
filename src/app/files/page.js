@@ -31,10 +31,9 @@ const File = ({ searchParams }) => {
   const [clickedPolygon, setClickedPolygon] = useState(null);
   const [polygonOverlayDimensions, setPolygonOverlayDimensions] = useState([0,0]);
   const polygonOverlayRef = useRef(null);
-  
-  const [polygonKeys, setPolygonKeys] = useState(new Set());
-  const [hasNullField, setHasNullField] = useState(false);
-  const [highlightColor, setHighlightColor] = useState("#FFDE21");
+  const [polygonKeys, setPolygonKeys] = useState(new Set()); // Tracks keys of polygons rendered
+  const [hasNullField, setHasNullField] = useState(false); // Indicates whether any polygon has null fields
+  const [highlightColor, setHighlightColor] = useState("#FFDE21"); // Stores selected highlight color
 
   // this is the Form page
   const fileName = searchParams.fileName;
@@ -247,17 +246,17 @@ const File = ({ searchParams }) => {
   };
 
   const onBoxClick = (key) => {
-    setClickedPolygon(key);
-    setSelectedPolygon(key);
+    setClickedPolygon(key); // Updates polygon clicked by user
+    setSelectedPolygon(key); // Sets selected polygon for cross-component use
   }
 
   const handlePolygonSelect = (key) => {  
-    setSelectedPolygon(key);
+    setSelectedPolygon(key); // Sets the selected polygon when interacting inside PolygonList
   };  
   
   const handlePolygonDeselect = () => {  
-    setSelectedPolygon(null);
-    setClickedPolygon(null);
+    setSelectedPolygon(null); // Clears selection when deselecting
+    setClickedPolygon(null); // Clears clicked state when deselecting
   }; 
 
   useEffect(() => {  
@@ -395,7 +394,7 @@ const File = ({ searchParams }) => {
                 />
 
                 <NullFieldIndicator
-                  hasNullField={hasNullField}
+                  hasNullField={hasNullField} // Displays a visual indicator in the UI if any null fields are found
                 />
               </div>
               

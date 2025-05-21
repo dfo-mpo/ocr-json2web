@@ -3,6 +3,28 @@ import styles from "./PolygonList.module.css";
 import Polygon from "../components/Polygon";
 import { useState, useEffect, useRef } from "react";
 
+/**
+ * PolygonList Component
+ * 
+ * Renders a list of editable polygon fields from parsed OCR JSON data.
+ * Also renders a separate list of null polygons.
+ * Manages editing, saving, and highlighting of polygons.
+ * 
+ * @param {string} fileName - Name of the current file being reviewed.
+ * @param {string} folderName - Name of the parent folder for the file.
+ * @param {object} json - The full parsed data representing all polygons.
+ * @param {function} setJsonData - Updates state after user edits a polygon field.
+ * @param {function} setPolygonKeys - Callback to report all polygon keys back to parent.
+ * @param {string} highlightColor - Color used to visually highlight the selected polygon.
+ * @param {string|null} clickedPolygon - Polygon recently clicked in the viewer.
+ * @param {function} reFetch - Callback to refresh verification/modification status.
+ * @param {function} reFetchJson - Callback to reload the entire data.
+ * @param {string|null} selectedPolygon - Polygon key currently selected in the UI.
+ * @param {function} handlePolygonSelect - Called when a polygon receives focus.
+ * @param {function} handlePolygonDeselect - Called when a polygon loses focus.
+ * @param {function} setHasNullField - Callback to notify parent if any null polygons exist.
+ * @param {boolean} isReadOnly - Disables editing when true.
+ */
 const PolygonList = ({
   fileName,
   folderName,
@@ -19,16 +41,19 @@ const PolygonList = ({
   setHasNullField,
   isReadOnly = false
 }) => {  
+  // Set used to collect keys of all polygons rendered (for parent sync)
   const collectedPolygonKeys = new Set();
 
   const collectPolygonKeys = (polygonKey) => {
     collectedPolygonKeys.add(polygonKey);
   };
 
+  // Push polygon keys to parent after JSON is loaded or changed
   useEffect(() => {
     setPolygonKeys(collectedPolygonKeys);
   }, [json]);
 
+  // Calls backend refresh of file
   const saveChange = () => {
     reFetch();
   };
@@ -44,12 +69,14 @@ const PolygonList = ({
   // Used to keep tracking the edited polygons
   const [editedPolygons, setEditedPolygons] = useState(new Set());
 
+  // Handle polygon content change, mark as edited and sync to updateJson
   const changeHandler = (value) => {
     setIsEditing(true);
-    setJsonData(value);
+    setJsonData(value); // Push change to parent
     setUpdateJson(value);
   };
 
+  // Save edits to backend
   const onClickHandler = async (updateJson) => {
     const Response = await fetch("/api/saveModified", {
       method: "POST",
@@ -73,11 +100,12 @@ const PolygonList = ({
     }
   };
   
-  // Use Refs to adjust textarea height when loading and to allow scrolling to polygon object
+  // Use Refs for dynamic height adjustment when loading and to allow scrolling to polygon object
   const textAreaRefs = useRef({});
   const polygonRefs = useRef({});
   const polygonListRef = useRef(null);    
 
+  // Dynamically adjust text area height based on content
   useEffect(() => {
     Object.keys(json).forEach((item) => {
       const textArea = textAreaRefs.current[item];
@@ -88,38 +116,51 @@ const PolygonList = ({
     });
   }, [json]);
 
+  // Updates a deeply nested polygon value within a JSON structure using a recursive traversal
   const handleUpdatePolygon = (polygonKey, newValue) => {
     console.log("PolygonKey: "+polygonKey)
     console.log("New Value: "+newValue)
+
+    // Track this polygon key as edited
     setEditedPolygons((prev) => new Set(prev).add(polygonKey));
 
+    /**
+     * Recursively traverse nested JSON to reach the target polygon and apply the update.
+     *
+     * @param {object} data - Current level of the JSON object
+     * @param {string[]} targetKeys - Remaining keys to traverse, split from polygonKey
+     * @returns {object} A new updated copy of the JSON object
+     */
     const updatePolygon = (data, targetKeys) => {
       if (!data || targetKeys.length === 0) return data;
 
       // Clone the current object
       const updatedData = { ...data };
       
-      // Extract key and clean up "Row #" pattern
+      // Extract keys
       const [currentKey, ...remainingKeys] = targetKeys;
 
       // Update the polygon data if reach the final key
       if (remainingKeys.length === 0) {
+        // Final key reached, apply the value update here
         if (Array.isArray(updatedData[currentKey])) {
+          // Replace first element, update flag as edited, and keep rest of metadata
           updatedData[currentKey] = [
             newValue,
             ...updatedData[currentKey].slice(1,4),  // Keep the remaining of the json data object
-            2                                     // Set flag to 2 (edited)
+            2                                       // Set flag to 2 (2 = edited)
           ];
         }
       } else {
-        // Recursion to make function call to handle nested object
+        // Still keys remaining, descend deeper if this level is a valid object
+        const nextLevel = updatedData[currentKey];
         if (
-          updatedData[currentKey] !== null && 
-          !Array.isArray(updatedData[currentKey]) &&
-          typeof updatedData[currentKey] === "object"
+          nextLevel !== null && 
+          !Array.isArray(nextLevel) &&
+          typeof nextLevel === "object"
         ) {
           updatedData[currentKey] = updatePolygon(
-            updatedData[currentKey],
+            nextLevel,
             remainingKeys
           );
         }
@@ -129,14 +170,18 @@ const PolygonList = ({
       return updatedData;
     };
 
+    // Parse the full polygon path into key segments
     const keyList = polygonKey.split(" -- ");
     console.log(keyList);
+
+    // Call recursive update function
     const updatedData = updatePolygon(json, keyList);
     console.log(updatedData);
     
     changeHandler(updatedData);
   };
 
+  // Save button logic
   const handleSave = async () => {
     setEditedPolygons(new Set());
     setIsEditing(false);
@@ -144,7 +189,8 @@ const PolygonList = ({
     await onClickHandler(updateJson);
     window.location.reload();
   };
-  
+
+  // Cancel button logic
   const handleCancel = () => {
     // setEditedPolygons(new Set());
     // setIsEditing(false);
@@ -153,6 +199,7 @@ const PolygonList = ({
     window.location.reload();
   };
 
+  // Scroll to polygon and focus on textarea when polygon is clicked
   useEffect(() => {
     if (clickedPolygon && polygonRefs.current[clickedPolygon] && textAreaRefs.current[clickedPolygon]) {  
       polygonRefs.current[clickedPolygon].scrollIntoView({  
