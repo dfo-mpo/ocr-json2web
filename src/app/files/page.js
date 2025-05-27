@@ -345,7 +345,7 @@ const File = ({ searchParams }) => {
               reFetch={asyncFetchStatus}
             />
 
-            <div className={`${styles.container} ${folderName !== 'qcfm-rec-purchaseslips-1'? styles.wideContainer : ''}`} ref={myContainer}>
+            <div className={`${styles.container} ${!['qcfm-rec-purchaseslips-1', 'qcfm-rec-Sea-Sampling-FR', 'qcfm-rec-Sea-Sampling-EN'].includes(folderName) ? styles.wideContainer : ''}`} ref={myContainer}>
               {/* This return statement will contain calls the React elements created for the 2 other containers */}
               {/* <Link
                 className={styles.linkStyle}
