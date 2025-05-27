@@ -311,7 +311,7 @@ const File = ({ searchParams }) => {
           </div>
         ) : (
           <>
-            <div className={`${styles.container} ${folderName !== 'qcfm-rec-purchaseslips-1'? styles.wideContainer : ''}`} ref={myContainer}>
+            <div className={`${styles.container} ${!['qcfm-rec-purchaseslips-1', 'qcfm-rec-Sea-Sampling-FR', 'qcfm-rec-Sea-Sampling-EN'].includes(folderName) ? styles.wideContainer : ''}`} ref={myContainer}>
               <button className={styles.linkStyle} onClick={()=>{setViewJson(true);}}>
                 View Json
               </button>
