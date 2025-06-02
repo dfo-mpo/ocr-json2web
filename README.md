@@ -36,9 +36,15 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3090](http://localhost:3090) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+
+## Dockerizing
+You can use the provided Dockerfile and docker-compose.yml to create a docker image that can be hosted locally or any machine it is exported to. To do so follow these steps:
+1. Make sure the port numbers specified in package.json (line 8), Dockerfile, and docker-compose.yml match with the port you wish to use.
+2. Run the command `npm run build` to create a production version of the project.
+3. Run the command `docker-compose up --build` to run the docker files and creat a container with an image for the qa/qc web app.
 
 ## Debugging
 In order for the script to create individual polygon objects for all values in a nested object, a delimitor of ' -- ' is added. If any field name in a JSON file contains this demimitor, it will prevent the field from being updated.
