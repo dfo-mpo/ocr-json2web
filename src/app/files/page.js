@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 import ErrorReport from "./ErrorReport";
 import Link from "next/link";
 import LogoHeader from "../components/LogoHeader";
-import Iframe from "./Iframe";
+import PDFView from "./PDFView";
 import PolygonList from "./PolygonList";
 // import NullFieldList from "./NullFieldList";
 import HighlightColorSelector from "../components/HighlightColorSelector";
@@ -22,6 +22,7 @@ const File = ({ searchParams }) => {
   const [isFormsettingReady, setIsFormsettingReady] = useState(true);
   const [jsonData, setJsonData] = useState({});
   const [formSetting, setFormSetting] = useState({});
+  const [pdfWidth, setPdfWidth] = useState(0);
   const [verified, setVerified] = useState(false);
   const [viewJson, setViewJson] = useState(false);
   const [modified, setModified] = useState(false);
@@ -345,7 +346,7 @@ const File = ({ searchParams }) => {
               reFetch={asyncFetchStatus}
             />
 
-            <div className={styles.container} ref={myContainer}>
+            <div className={`${styles.container} ${pdfWidth > 850 ? styles.wideContainer : ''}`} ref={myContainer}>
               {/* This return statement will contain calls the React elements created for the 2 other containers */}
               {/* <Link
                 className={styles.linkStyle}
@@ -426,7 +427,7 @@ const File = ({ searchParams }) => {
                 </div>
 
                 <div ref={polygonOverlayRef} className={styles.polygonOverlay}>
-                  <Iframe
+                  <PDFView
                     folderName={folderName}
                     fileName={fileName}
                     pageWidth={polygonOverlayDimensions[0]}
@@ -435,6 +436,7 @@ const File = ({ searchParams }) => {
                     highlightColour={highlightColor}
                     selectedPolygon={selectedPolygon}
                     onBoxClick={onBoxClick}
+                    onPDFWidth={(width) => setPdfWidth(width)}
                   />
                 </div>
               </div>

@@ -1,5 +1,5 @@
 "use client";  
-import styles from "./Iframe.module.css";  
+import styles from "./PDFView.module.css";  
 import { useState, useEffect, useRef } from "react";  
 import * as pdfjsLib from "pdfjs-dist";  
 import "pdfjs-dist/web/pdf_viewer.css";   
@@ -13,7 +13,7 @@ pdfjsLib.GlobalWorkerOptions.workerSrc = "pdfjs-dist/build/pdf.worker.js";
 //   import.meta.url  
 // ).toString(); 
 
-const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightColour, selectedPolygon, onBoxClick }) => {  
+const PDFView = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightColour, selectedPolygon, onBoxClick, onPDFWidth }) => {  
   const [isLoading, setIsLoading] = useState(false);   
   const [isPdf, setIsPdf] = useState(true);   
   const [boxes, setBoxes] = useState([]);
@@ -128,7 +128,8 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
     const scale = 1; 
     const pdfWidth =  page.getViewport({ scale: scale }).width;
     const viewport = page.getViewport({ scale: pageWidth / pdfWidth}); 
-    setPdfWidth(pdfWidth); 
+    setPdfWidth(pdfWidth);
+    onPDFWidth(pdfWidth);
   
     if (canvasRef.current) {
       const canvas = canvasRef.current;  
@@ -220,4 +221,4 @@ const Iframe = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightC
   );  
 };  
   
-export default Iframe;  
+export default PDFView;  
