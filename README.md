@@ -12,7 +12,9 @@ The web application is set up and hosted on Microsoft Azure as a Static Web App.
 
 To get started locally, follow these steps:
 
-Install dependencies:
+1. Create a new file called .env by coping the .env.example and entering values for the specified variables for an Azure storage account where the OCR documents are stored.
+
+2. Install dependencies:
  
 ```bash
 npm install
@@ -24,7 +26,7 @@ pnpm install
 bun install
 ```
 
-Run the development server:
+3. Run the development server:
 
 ```bash
 npm run dev
@@ -36,7 +38,7 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3090](http://localhost:3090) with your browser to see the result.
+4. Open [http://localhost:3090](http://localhost:3090) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
