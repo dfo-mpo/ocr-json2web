@@ -1,7 +1,7 @@
 "use client";
 import styles from "./page.module.css";
 import LogoHeader from "../components/LogoHeader";
-import Iframe from "../files/Iframe";
+import PDFView from "./PDFView";
 import PolygonList from "../files/PolygonList";
 // import NullFieldList from "../files/NullFieldList";
 import HighlightColorSelector from "../components/HighlightColorSelector";
@@ -17,6 +17,7 @@ const File = ({ searchParams }) => {
   const [isFormsettingReady, setIsFormsettingReady] = useState(true);
   const [jsonData, setJsonData] = useState({});
   const [formSetting, setFormSetting] = useState({});
+  const [pdfWidth, setPdfWidth] = useState(0);
   const [verified, setVerified] = useState(false);
   const [viewJson, setViewJson] = useState(false);
   const [modified, setModified] = useState(false);
@@ -311,7 +312,7 @@ const File = ({ searchParams }) => {
           </div>
         ) : (
           <>
-            <div className={`${styles.container} ${!['qcfm-rec-purchaseslips-1', 'qcfm-rec-Sea-Sampling-FR', 'qcfm-rec-Sea-Sampling-EN'].includes(folderName) ? styles.wideContainer : ''}`} ref={myContainer}>
+            <div className={`${styles.container} ${pdfWidth > 850 ? styles.wideContainer : ''}`} ref={myContainer}>
               <button className={styles.linkStyle} onClick={()=>{setViewJson(true);}}>
                 View Json
               </button>
@@ -356,7 +357,7 @@ const File = ({ searchParams }) => {
                 </div>
 
                 <div ref={polygonOverlayRef} className={styles.polygonOverlay}>
-                  <Iframe
+                  <PDFView
                     folderName={folderName}
                     fileName={fileName}
                     pageWidth={polygonOverlayDimensions[0]}
@@ -365,6 +366,7 @@ const File = ({ searchParams }) => {
                     highlightColour={highlightColor}
                     selectedPolygon={selectedPolygon}
                     onBoxClick={onBoxClick}
+                    onPDFWidth={(width) => setPdfWidth(width)}
                   />
                 </div>
               </div>
