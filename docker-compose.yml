@@ -1,0 +1,7 @@
+services:  
+  ocr-qa-qc:  
+    build:  
+      context: .  
+      dockerfile: Dockerfile  
+    ports:  
+      - "3090:3090"
