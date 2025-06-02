@@ -42,6 +42,15 @@ bun dev
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
+### Performing QA/QC on documents
+1. First to ensure all extracted templates appear in the document click on the 'Update Settings" button at the bottom left of the home page.
+2. Optional, use the search functions on the right to find a document by folder/template or by name.
+3. Click on the document you wish to review. (Green check means it is verified, red 'x' means there is an issue, the black pencil means modifications has been made)
+4. When viewing a document, click on the box over the PDF on from the list on the left to modify the value.
+5. Once your are done your changes press on the save button at the bottom left of the screen.
+6. If the document is fully verified, click on the verified file button on the top right.
+7. Return to the home page and repeat with the next document you wish to edit (refresh the page or click on 'Reload' to see updated status on documents).
+
 ## Dockerizing
 You can use the provided Dockerfile and docker-compose.yml to create a docker image that can be hosted locally or any machine it is exported to. To do so follow these steps:
 1. Make sure the port numbers specified in package.json (line 8), Dockerfile, and docker-compose.yml match with the port you wish to use.
