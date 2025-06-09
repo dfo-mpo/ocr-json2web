@@ -1,7 +1,7 @@
 "use client";
 import styles from "./page.module.css";
 import LogoHeader from "../components/LogoHeader";
-import PDFView from "./PDFView";
+import PDFView from "../files/PDFView";
 import PolygonList from "../files/PolygonList";
 // import NullFieldList from "../files/NullFieldList";
 import HighlightColorSelector from "../components/HighlightColorSelector";
