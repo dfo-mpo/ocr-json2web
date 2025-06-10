@@ -13,12 +13,15 @@ pdfjsLib.GlobalWorkerOptions.workerSrc = "pdfjs-dist/build/pdf.worker.js";
 //   import.meta.url  
 // ).toString(); 
 
-const PDFView = ({ fileName, folderName, pageWidth, json, polygonKeys, highlightColour, selectedPolygon, onBoxClick, onPDFWidth }) => {  
+const PDFView = ({ fileName, folderName, pageWidth, json, highlightColour, selectedPolygon, onBoxClick, onPDFWidth }) => {  
   const [isLoading, setIsLoading] = useState(false);   
   const [isPdf, setIsPdf] = useState(true);   
   const [boxes, setBoxes] = useState([]);
   const [pdfWidth, setPdfWidth] = useState(0);
   const [pdfPage, setPdfPage] = useState(null);
+  const [pdfObject, setPdfObject] = useState(null);
+  const [pdfPageNumber, setPdfPageNumber] = useState({current: 1, max: 1});
+  const [freezePageBtns, setFreezePageBtns] = useState(false);
   const canvasRef = useRef(null);  
   const renderTaskRef = useRef(null); // Add ref to store the rendering task 
   
@@ -49,19 +52,20 @@ const PDFView = ({ fileName, folderName, pageWidth, json, polygonKeys, highlight
       var pdf = await response.blob();  
       const url = URL.createObjectURL(pdf);
       const loadingTask = pdfjsLib.getDocument(url);  
-      pdf = await loadingTask.promise;  
+      pdf = await loadingTask.promise;
+      setPdfObject(pdf);
+      setPdfPageNumber({current: pdfPageNumber.current, max: pdf.numPages});
+ 
       const page = await pdf.getPage(1); 
-      
-      setPdfPage(page); 
+      setPdfPage(page);
     }  
-  };  
+  };
   
   const extractBoxesFromJson = (jsonData) => {  
     const boxes = [];  
     const DPI = 72; 
 
-    var scaleFactor = pdfWidth > 0? pageWidth / pdfWidth : 1; 
-    let colourIndex = 0;  
+    var scaleFactor = pdfWidth > 0? pageWidth / pdfWidth : 1;  
   
     function extractCoords(coordsList) {  
       const combinedCoords = {};  
@@ -72,17 +76,18 @@ const PDFView = ({ fileName, folderName, pageWidth, json, polygonKeys, highlight
     }  
   
     function processCell(rowKey, columnKey, bundle) {  
-      if (Array.isArray(bundle) && bundle.length > 1 && Array.isArray(bundle[1])) {  
-        const coordsList = bundle[1];  
+      if (Array.isArray(bundle) && bundle.length > 2 && Array.isArray(bundle[1])) {  
+        const coordsList = bundle[1];
+        const pageNumber = bundle[2];   
         if (coordsList && coordsList.every(coord => typeof coord === "object")) {  
-          const coords = extractCoords(coordsList);  
+          const coords = extractCoords(coordsList);
           if (coords.every(coord => coord !== undefined)) {  
             const uniqueKey = `${rowKey} -- ${columnKey}`;  
             boxes.push({  
               key: uniqueKey,  
-              coords: coords.map(coord => coord * DPI * scaleFactor),   
+              coords: coords.map(coord => coord * DPI * scaleFactor),  
+              pageNumber: pageNumber   
             });  
-            colourIndex++;  
           }  
         }  
       }  
@@ -101,16 +106,17 @@ const PDFView = ({ fileName, folderName, pageWidth, json, polygonKeys, highlight
       } else if (typeof data === "object") {  
         for (const [key, value] of Object.entries(data)) {  
           const newKey = parentKey ? `${parentKey} ${key}`.trim() : key;  
-          if (Array.isArray(value) && value.length > 1 && Array.isArray(value[1])) {  
-            const coordsList = value[1];  
+          if (Array.isArray(value) && value.length > 2 && Array.isArray(value[1])) {  
+            const coordsList = value[1];
+            const pageNumber = value[2];
             if (coordsList && coordsList.every(coord => typeof coord === "object")) {  
               const coords = extractCoords(coordsList);  
               if (coords.every(coord => coord !== undefined)) {  
                 boxes.push({  
                   key: newKey,  
-                  coords: coords.map(coord => coord * DPI * scaleFactor),   
+                  coords: coords.map(coord => coord * DPI * scaleFactor), 
+                  pageNumber: pageNumber  
                 });  
-                colourIndex++;  
               }  
             }  
           } else {  
@@ -158,6 +164,22 @@ const PDFView = ({ fileName, folderName, pageWidth, json, polygonKeys, highlight
     }
     
   }; 
+
+  // onClick handler for the next page button to switch the current page to the next page
+  const prevPage = () => {
+    if (pdfPageNumber.current > 1) {
+      setFreezePageBtns(true);
+      setPdfPageNumber({current: pdfPageNumber.current - 1, max: pdfPageNumber.max});
+    }
+  };
+
+  // onClick handler for the next page button to switch the current page to the next page
+  const nextPage = () => {
+    if (pdfPageNumber.current < pdfPageNumber.max) {
+      setFreezePageBtns(true);
+      setPdfPageNumber({current: pdfPageNumber.current + 1, max: pdfPageNumber.max});
+    }
+  };
   
   // useEffect(() => {  
   //   asyncFetch();  
@@ -166,7 +188,7 @@ const PDFView = ({ fileName, folderName, pageWidth, json, polygonKeys, highlight
   // Whenever a new with is defined for this component, re render pdf and boxes to match it
   useEffect(() => {
     const fetchRenderPdf = async () => {
-      if (!pdfPage) {
+      if (!pdfPage && !pdfObject) {
         await asyncFetch();
       }
 
@@ -179,38 +201,69 @@ const PDFView = ({ fileName, folderName, pageWidth, json, polygonKeys, highlight
         renderPDF(pdfPage); 
         const extractedBoxes = extractBoxesFromJson(json);  
         setBoxes(extractedBoxes);  
-        setIsLoading(false); 
+        setIsLoading(false);
+        setFreezePageBtns(false);
       }
     };
 
     fetchRenderPdf();
   }, [pageWidth, pdfPage])
+
+  useEffect(() => {
+    const getCurrentPage = async () => {
+      if (pdfObject) {
+        const page = await pdfObject.getPage(pdfPageNumber.current);
+        setPdfPage(page);
+      }
+    }
+    getCurrentPage();
+  }, [pdfPageNumber.current])
+
+  useEffect(() => {
+    if (selectedPolygon && pdfPageNumber.max > 1) {
+      const selected_box = boxes.find(box => box.key === selectedPolygon);
+      if (selected_box && pdfPageNumber.current !== selected_box.pageNumber) {
+        setFreezePageBtns(true);
+        setPdfPageNumber({current: selected_box.pageNumber, max: pdfPageNumber.max});
+      }
+    }
+  }, [selectedPolygon])
   
   return (  
     <>  
       {isPdf ? (  
-        !isLoading ? (  
-          <div className={styles.container}>  
-            <canvas ref={canvasRef} className={styles.canvas} />  
-            {boxes.map((box) => (  
-              <div  
-                key={box.key}  
-                className={`${styles.box} ${styles.hoverBackground} ${selectedPolygon === box.key? styles.highlight : ''}`}  
-                style={{  
-                  left: `${box.coords[0]}px`,  
-                  top: `${box.coords[1]}px`,  
-                  width: `${box.coords[2] - box.coords[0]}px`,  
-                  height: `${box.coords[3] - box.coords[1]}px`,  
-                  borderColor: `${highlightColour}`,
-                  display: selectedPolygon && selectedPolygon !== box.key? 'none' : '',
-                  '--hover-bg-color': `rgba(${parseInt(highlightColour.slice(1, 3), 16)}, ${parseInt(highlightColour.slice(3, 5), 16)}, ${parseInt(highlightColour.slice(5, 7), 16)}, 0.5)`, 
-                }} 
-                onClick={()=>{onBoxClick(box.key);}}
-              >
-                {/* <div className={styles.tooltip}>{box.key}</div> */}
-              </div>  
-            ))}  
-          </div>  
+        !isLoading ? ( 
+          <> 
+            {pdfPageNumber.max > 1 &&
+            <div className={styles.pageToggleContainer}>
+              <button onClick={prevPage} disabled={freezePageBtns || pdfPageNumber.current === 1}>Previous Page</button>
+              <p>Page: {pdfPageNumber.current} of {pdfPageNumber.max}</p>
+              <button onClick={nextPage} disabled={freezePageBtns || pdfPageNumber.current === pdfPageNumber.max}>Next Page</button>
+            </div>
+            }
+            <div className={styles.container}>  
+              <canvas ref={canvasRef} className={styles.canvas} />  
+              {/* Only render boxes that are in the current page (pdfPageNumber.current) */}
+              {boxes.map((box) => (box.pageNumber === pdfPageNumber.current &&
+                <div  
+                  key={box.key}  
+                  className={`${styles.box} ${styles.hoverBackground} ${selectedPolygon === box.key? styles.highlight : ''}`}  
+                  style={{  
+                    left: `${box.coords[0]}px`,  
+                    top: `${box.coords[1]}px`,  
+                    width: `${box.coords[2] - box.coords[0]}px`,  
+                    height: `${box.coords[3] - box.coords[1]}px`,  
+                    borderColor: `${highlightColour}`,
+                    display: selectedPolygon && selectedPolygon !== box.key? 'none' : '',
+                    '--hover-bg-color': `rgba(${parseInt(highlightColour.slice(1, 3), 16)}, ${parseInt(highlightColour.slice(3, 5), 16)}, ${parseInt(highlightColour.slice(5, 7), 16)}, 0.5)`, 
+                  }} 
+                  onClick={()=>{onBoxClick(box.key);}}
+                >
+                  {/* <div className={styles.tooltip}>{box.key}</div> */}
+                </div>  
+              ))}  
+            </div>
+          </>
         ) : (  
           <div>Loading...</div>  
         )  

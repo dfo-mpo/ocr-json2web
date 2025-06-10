@@ -253,7 +253,7 @@ const File = ({ searchParams }) => {
 
   const handlePolygonSelect = (key) => {  
     setSelectedPolygon(key); // Sets the selected polygon when interacting inside PolygonList
-  };  
+  };
   
   const handlePolygonDeselect = () => {  
     setSelectedPolygon(null); // Clears selection when deselecting
@@ -432,11 +432,11 @@ const File = ({ searchParams }) => {
                     fileName={fileName}
                     pageWidth={polygonOverlayDimensions[0]}
                     json={jsonData}
-                    polygonKeys={polygonKeys}
+                    // polygonKeys={polygonKeys}
                     highlightColour={highlightColor}
                     selectedPolygon={selectedPolygon}
                     onBoxClick={onBoxClick}
-                    onPDFWidth={(width) => setPdfWidth(width)}
+                    onPDFWidth={(width) => setPdfWidth(width)}   
                   />
                 </div>
               </div>
