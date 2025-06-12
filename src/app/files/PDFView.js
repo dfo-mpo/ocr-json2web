@@ -22,7 +22,7 @@ const PDFView = ({ fileName, folderName, pageWidth, json, highlightColour, selec
   const [pdfObject, setPdfObject] = useState(null);
   const [pdfPageNumber, setPdfPageNumber] = useState({current: 1, max: 1});
   const [freezePageBtns, setFreezePageBtns] = useState(false);
-  const canvasRef = useRef(null);  
+  const canvasRef = useRef(null); 
   const renderTaskRef = useRef(null); // Add ref to store the rendering task 
   
   let pdfName = fileName.replace(".json", ".pdf");  
@@ -46,9 +46,11 @@ const PDFView = ({ fileName, folderName, pageWidth, json, highlightColour, selec
       setIsPdf(false);  
       throw new Error(response.statusText);  
     } else if (response.status === 203) {  
+      // This case is possible if a PDF was deleted, resulting in a JSON with no corrisponding PDF
       console.log("No data");  
       setIsPdf(false);  
-    } else {  
+    } else { 
+      // Store both PDF and page seprately so current page can be rendered but other pages can be rendered on page change. 
       var pdf = await response.blob();  
       const url = URL.createObjectURL(pdf);
       const loadingTask = pdfjsLib.getDocument(url);  
@@ -61,12 +63,16 @@ const PDFView = ({ fileName, folderName, pageWidth, json, highlightColour, selec
     }  
   };
   
+  // Create list of box objects representing each polygon object found in the document JSON
+  // The purpose of a given box is to provide a visual overlay of where the information was extracted
   const extractBoxesFromJson = (jsonData) => {  
     const boxes = [];  
     const DPI = 72; 
 
+    // Determine a scaleFactor so generated boxes can grow/shink to allign to where they point on the PDF
     var scaleFactor = pdfWidth > 0? pageWidth / pdfWidth : 1;  
   
+    // Get the top-left and bottom-right corners of from a polygon object from the json (coordsList)
     function extractCoords(coordsList) {  
       const combinedCoords = {};  
       for (const coords of coordsList) {  
@@ -75,14 +81,19 @@ const PDFView = ({ fileName, folderName, pageWidth, json, highlightColour, selec
       return [combinedCoords.x1, combinedCoords.y1, combinedCoords.x3, combinedCoords.y3];  
     }  
   
-    function processCell(rowKey, columnKey, bundle) {  
+    // Create a box for the given nested object found in JSON
+    function processCell(rowKey, columnKey, bundle) {
+      // Check that the given object (bundle) is not empty as DI can return empty objects if no detection is found  
       if (Array.isArray(bundle) && bundle.length > 2 && Array.isArray(bundle[1])) {  
         const coordsList = bundle[1];
         const pageNumber = bundle[2];   
+
+        // Ensure the list of cordinates is valid
         if (coordsList && coordsList.every(coord => typeof coord === "object")) {  
           const coords = extractCoords(coordsList);
-          if (coords.every(coord => coord !== undefined)) {  
-            const uniqueKey = `${rowKey} -- ${columnKey}`;  
+          if (coords.every(coord => coord !== undefined)) { 
+            // Creat box object containing key to map to JSON object, coords for position to place box on PDF, and page number the object came from 
+            const uniqueKey = `${rowKey} -- ${columnKey}`;  // Use '--' so it is easy to separate row and column names
             boxes.push({  
               key: uniqueKey,  
               coords: coords.map(coord => coord * DPI * scaleFactor),  
@@ -93,8 +104,13 @@ const PDFView = ({ fileName, folderName, pageWidth, json, highlightColour, selec
       }  
     }  
   
+    // Recursive function to handel JSON data.
+    // Intially will process entire JSON object.
+    // Recursion may be used to process a table/nested object from the JSON. 
     function processJson(data, parentKey = "") {  
-      if (Array.isArray(data)) {  
+      // Case where provided data is a table/nested object from the JSON.
+      if (Array.isArray(data)) { 
+        // Go through each row and column, calling processCell to create a box for each table cell/nested object
         data.forEach((row, index) => {  
           if (typeof row === "object") {  
             const rowKey = `${parentKey} Row ${index + 1}`;  
@@ -102,16 +118,19 @@ const PDFView = ({ fileName, folderName, pageWidth, json, highlightColour, selec
               processCell(rowKey, columnKey, cellValue);  
             }  
           }  
-        });  
+        }); 
+      // Case where provided data is the JSON itself 
       } else if (typeof data === "object") {  
         for (const [key, value] of Object.entries(data)) {  
           const newKey = parentKey ? `${parentKey} ${key}`.trim() : key;  
           if (Array.isArray(value) && value.length > 2 && Array.isArray(value[1])) {  
             const coordsList = value[1];
             const pageNumber = value[2];
+            // Ensure the list of cordinates is valid
             if (coordsList && coordsList.every(coord => typeof coord === "object")) {  
               const coords = extractCoords(coordsList);  
-              if (coords.every(coord => coord !== undefined)) {  
+              if (coords.every(coord => coord !== undefined)) { 
+                // Creat box object containing key to map to JSON object, coords for position to place box on PDF, and page number the object came from 
                 boxes.push({  
                   key: newKey,  
                   coords: coords.map(coord => coord * DPI * scaleFactor), 
@@ -120,6 +139,7 @@ const PDFView = ({ fileName, folderName, pageWidth, json, highlightColour, selec
               }  
             }  
           } else {  
+            // If value is not an array it is likely a nested object and will be handeled with a recursive call
             processJson(value, newKey);  
           }  
         }  
@@ -130,6 +150,7 @@ const PDFView = ({ fileName, folderName, pageWidth, json, highlightColour, selec
     return boxes;  
   }; 
   
+  // Read the provided pdf page object and renders the page. Render is stored in renderTaskRef
   const renderPDF = async (page) => {   
     const scale = 1; 
     const pdfWidth =  page.getViewport({ scale: scale }).width;
@@ -137,6 +158,7 @@ const PDFView = ({ fileName, folderName, pageWidth, json, highlightColour, selec
     setPdfWidth(pdfWidth);
     onPDFWidth(pdfWidth);
   
+    // Only render page if canvas object hosting the rendered page exists
     if (canvasRef.current) {
       const canvas = canvasRef.current;  
       const context = canvas.getContext("2d");  
@@ -180,12 +202,8 @@ const PDFView = ({ fileName, folderName, pageWidth, json, highlightColour, selec
       setPdfPageNumber({current: pdfPageNumber.current + 1, max: pdfPageNumber.max});
     }
   };
-  
-  // useEffect(() => {  
-  //   asyncFetch();  
-  // }, []);
 
-  // Whenever a new with is defined for this component, re render pdf and boxes to match it
+  // Whenever a new width is defined for this component or the PDFPage object changes, re render pdf and boxes to match it
   useEffect(() => {
     const fetchRenderPdf = async () => {
       if (!pdfPage && !pdfObject) {
@@ -209,6 +227,7 @@ const PDFView = ({ fileName, folderName, pageWidth, json, highlightColour, selec
     fetchRenderPdf();
   }, [pageWidth, pdfPage])
 
+  // If the current page number changes, update PDFPage with the new current page
   useEffect(() => {
     const getCurrentPage = async () => {
       if (pdfObject) {
@@ -219,11 +238,12 @@ const PDFView = ({ fileName, folderName, pageWidth, json, highlightColour, selec
     getCurrentPage();
   }, [pdfPageNumber.current])
 
+  // Whenever a new polygon is selected, if it does not exist in the current page, update the current page number 
   useEffect(() => {
     if (selectedPolygon && pdfPageNumber.max > 1) {
       const selected_box = boxes.find(box => box.key === selectedPolygon);
       if (selected_box && pdfPageNumber.current !== selected_box.pageNumber) {
-        setFreezePageBtns(true);
+        setFreezePageBtns(true); // Freeze change page btns so rendering does not conflict with user input
         setPdfPageNumber({current: selected_box.pageNumber, max: pdfPageNumber.max});
       }
     }
@@ -234,6 +254,7 @@ const PDFView = ({ fileName, folderName, pageWidth, json, highlightColour, selec
       {isPdf ? (  
         !isLoading ? ( 
           <> 
+            {/* Only show pages UI if document contains more than a single page */}
             {pdfPageNumber.max > 1 &&
             <div className={styles.pageToggleContainer}>
               <button onClick={prevPage} disabled={freezePageBtns || pdfPageNumber.current === 1}>Previous Page</button>
@@ -259,15 +280,16 @@ const PDFView = ({ fileName, folderName, pageWidth, json, highlightColour, selec
                   }} 
                   onClick={()=>{onBoxClick(box.key);}}
                 >
-                  {/* <div className={styles.tooltip}>{box.key}</div> */}
                 </div>  
               ))}  
             </div>
           </>
-        ) : (  
+        ) : (
+          // placeholder while page is first rendering
           <div>Loading...</div>  
         )  
       ) : (  
+        // Incase no PDF for the given JSON exists or is found
         <div className={styles.noData}>No PDF file found</div>  
       )}  
     </>  
