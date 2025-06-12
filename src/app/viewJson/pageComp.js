@@ -2,13 +2,13 @@
 import { useState, useEffect } from "react";
 
 import styles from "./page.module.css";
-import ViewJson from "./ViewJson";
+import JsonView from "@uiw/react-json-view";
 
 const JsonPage = ({ directoryPath, folderName, fileName, onClose }) => {
   const [isLoading, setIsLoading] = useState(true);
   const [jsonData, setJsonData] = useState({});
 
-  //fetch json data from blob
+  // fetch json data from blob
   const asyncFetch = async () => {
     setIsLoading(true);
     const Response = await fetch(directoryPath, {
@@ -28,20 +28,6 @@ const JsonPage = ({ directoryPath, folderName, fileName, onClose }) => {
     } else {
       const reader = Response.body.getReader();
       const readData = async () => {
-        // try {
-        //   while (true) {
-        //     const { done, value } = await reader.read();
-        //     if (done) {
-        //       break;
-        //     }
-        //     // `value` contains the chunk of data as a Uint8Array
-        //     const jsonString = new TextDecoder().decode(value);
-        //     // Parse the JSON string into an object
-        //     const dataObject = JSON.parse(jsonString);
-
-        //     setJsonData(dataObject);
-        //     setIsLoading(false);
-        //   }
         try {
           let jsonString = "";
 
@@ -79,12 +65,13 @@ const JsonPage = ({ directoryPath, folderName, fileName, onClose }) => {
       <div className={styles.fileName}>File Name: {fileName}</div>
       <div className={styles.closeIcon} onClick={onClose}>🞭</div>
       {isLoading ? (
+        // Placeholder while JSON file loads
         <div>Loading...</div>
       ) : (
-        <ViewJson
-          jsonData={jsonData}
-          folderName={folderName}
-          fileName={fileName}
+        // React library for generating JSON view
+        <JsonView  className={styles.textarea} value={jsonData} displayDataTypes={false} collapsed={1} 
+        shortenTextAfterLength ={0}
+        quotes= '' 
         />
       )}
     </div>

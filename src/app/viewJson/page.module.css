@@ -26,3 +26,8 @@
   top: -17px;
   cursor: pointer;
 }
+
+.textarea {
+  max-width: 70vw;
+  margin-bottom: 25px;
+}
