@@ -42,6 +42,17 @@ bun dev
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
+#### Project structure
+The api folder contains all api functions to the Azure storage account that is connected. 
+
+The components folder contains the homePage folder that has all code relating to the home page. It also contains other components used by other pages.
+
+The files folder contains the page when viewing a file and the main components.
+
+The filesOriginal folder contains the page for viewing the original JSON. It uses components from the files folder.
+
+The viewJson folder contains logic for the view JSON container when viewing a file. It is used by the page.js in files.
+
 ### Performing QA/QC on documents
 1. First to ensure all extracted templates appear in the document click on the 'Update Settings" button at the bottom left of the home page.
 2. Optional, use the search functions on the right to find a document by folder/template or by name.
