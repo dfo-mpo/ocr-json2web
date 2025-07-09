@@ -3,6 +3,8 @@ import styles from "./page.module.css";
 import ErrorReport from "./ErrorReport";
 import Link from "next/link";
 import LogoHeader from "../components/LogoHeader";
+import { useSession } from 'next-auth/react';
+import AccessDenied from "../components/AccessDenied";
 import PDFView from "./PDFView";
 import PolygonList from "./PolygonList";
 // import NullFieldList from "./NullFieldList";
@@ -18,6 +20,8 @@ import VerifiedButton from "./VerifiedButton";
 import { useState, useEffect, useRef } from "react";
 
 const File = ({ searchParams }) => {
+  const { data: session } = useSession();
+
   const [isLoading, setIsLoading] = useState(true);
   const [isFormsettingReady, setIsFormsettingReady] = useState(true);
   const [jsonData, setJsonData] = useState({});
@@ -289,7 +293,26 @@ const File = ({ searchParams }) => {
       if (polygonOverlayRef && polygonOverlayRef.current) setPolygonOverlayDimensions([polygonOverlayRef.current.offsetWidth - 22, polygonOverlayRef.current.offsetHeight]);       
     }); 
   }, []);
+
+  // Check to see if user is authenticated
+  useEffect(() => {
+    const fetchData = async () => {
+      const res = await fetch('/api/examples/admin-protected');
+      const json = await res.text();
+      if (json.content) {
+        setContent(json.content);
+      }
+    };
+
+    fetchData();
+  }, [session]);
   
+  if (!session) {
+    return (
+      <AccessDenied/>
+    )
+  }
+
   return (
     <>
       <div className={styles.allPage} onClick={()=>{if (viewJson) setViewJson(false);}}>
