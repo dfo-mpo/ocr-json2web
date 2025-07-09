@@ -307,11 +307,11 @@ const File = ({ searchParams }) => {
     fetchData();
   }, [session]);
   
-  if (!session) {
-    return (
-      <AccessDenied/>
-    )
-  }
+  // if (!session) {
+  //   return (
+  //     <AccessDenied/>
+  //   )
+  // }
 
   return (
     <>
