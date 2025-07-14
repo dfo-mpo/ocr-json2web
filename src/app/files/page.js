@@ -307,17 +307,17 @@ const File = ({ searchParams }) => {
     fetchData();
   }, [session]);
   
-  // if (!session) {
-  //   return (
-  //     <AccessDenied/>
-  //   )
-  // }
+  if (!session) {
+    return (
+      <AccessDenied/>
+    )
+  }
 
   return (
     <>
       <div className={styles.allPage} onClick={()=>{if (viewJson) setViewJson(false);}}>
         <title>{fileName.replace(".json", "").replace(/_/g, " ")}</title>
-        <LogoHeader />
+        <LogoHeader signInVisible={false} />
 
         {/* <Link className={styles.backButton} href="/">
             Back

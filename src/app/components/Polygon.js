@@ -76,7 +76,7 @@ const Polygon = ({
 
     // If polygon is a nested object, recurse into its children
     if (Array.isArray(polygon) && typeof content === "object" && content != null) {
-      return polygon.map((row, rowIndex) =>
+      return polygon.map((row, rowIndex) => 
         Object.entries(row).map(([childKey, childValue]) => 
           renderPolygon(
             `${polygonKey} Row ${rowIndex+1} -- ${childKey}`,

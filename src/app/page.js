@@ -6,7 +6,7 @@ export default function Home() {
   //this is the home page
   return (
     <div className={styles.container}>
-      <LogoHeader signIn={true} />
+      <LogoHeader signInVisible={true} />
       <FileNameReader />
     </div>
   );

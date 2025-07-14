@@ -5,24 +5,20 @@ import logo from "../../../public/images/sig-blk-en.svg";
 import { signIn, signOut, useSession } from 'next-auth/react';
 import styles from "./LogoHeader.module.css";
 import Link from "next/link";
-const LogoHeader = ({ signIn }) => {
+const LogoHeader = ({ signInVisible }) => {
   const { data: session, status } = useSession();
   const loading = status === 'loading';
 
   return (
     <header>
-      <noscript>
-        <style>{`.nojs-show { opacity: 1; top: 0; }`}</style>
-      </noscript>
-      
       <div className={styles.dfoHeader}>
         <Link href="/">
           <Image height={33} src={logo} alt="Logo" />
         </Link>
-        { signIn &&
+        { signInVisible &&
           <div className={styles.signedInStatus}>
             <p
-              className={`nojs-show ${
+              className={` ${
                 !session && loading ? styles.loading : styles.loaded
               }`}
             >

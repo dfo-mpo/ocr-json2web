@@ -1,15 +1,15 @@
 import { withAuth } from 'next-auth/middleware';
 
-export default withAuth({
-  callbacks: {
-    authorized({ req, token }) {
-      if (req.nextUrl.pathname === '/admin') {
-        return token?.userRole === 'admin';
-      }
+// export default withAuth({
+//   callbacks: {
+//     authorized({ req, token }) {
+//       if (req.nextUrl.pathname === '/') {
+//         return token?.userRole === 'admin';
+//       }
 
-      return !!token;
-    },
-  },
-});
+//       return !!token;
+//     },
+//   },
+// });
 
 export const config = { matcher: ['/files'] };
