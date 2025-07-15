@@ -293,20 +293,8 @@ const File = ({ searchParams }) => {
       if (polygonOverlayRef && polygonOverlayRef.current) setPolygonOverlayDimensions([polygonOverlayRef.current.offsetWidth - 22, polygonOverlayRef.current.offsetHeight]);       
     }); 
   }, []);
-
-  // Check to see if user is authenticated
-  useEffect(() => {
-    const fetchData = async () => {
-      const res = await fetch('/api/examples/admin-protected');
-      const json = await res.text();
-      if (json.content) {
-        setContent(json.content);
-      }
-    };
-
-    fetchData();
-  }, [session]);
   
+  // While not authenticated, show access denied
   if (!session) {
     return (
       <AccessDenied/>
