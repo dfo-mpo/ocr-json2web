@@ -68,6 +68,23 @@ You can use the provided Dockerfile and docker-compose.yml to create a docker im
 2. Run the command `npm run build` to create a production version of the project.
 3. Run the command `docker-compose up --build` to run the docker files and creat a container with an image for the qa/qc web app.
 
+## Login Feature
+The login feature uses NextAuth and Azure Entra ID that is configured to allow specific users based on email. When a user attempts to login they will go through the Azure login procedure then get redirected back to the web app.
+
+The code for the authentication can be found in `scr/app/api/auth/[...nextauth]/route.ts` while the Session Provider in `src/app/layout.js` makes the login authentication active for the web application.
+
+For details on how the login feature is implemented see the following [Microsoft tutorial](https://microsoft.github.io/MicrosoftCloud/tutorials/docs/Authentication-App-With-NextJs-And-Microsoft-Graph/Configuring-Application-Azure-Active-Directory/).
+
+### Configure Login Variables
+For the login feature to work you must fill in the following varibles in the .env:
+``` sh
+AZURE_AD_CLIENT_ID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+AZURE_AD_CLIENT_SECRET=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+AZURE_AD_TENANT_ID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+NEXTAUTH_URL=https//your-domain:your-port or http//your-domain:your-port
+```
+Where NEXTAUTH_URL is the base URL for your web application and AZURE_AD_CLIENT_ID, AZURE_AD_CLIENT_SECRET, and AZURE_AD_TENANT_ID can be obtained from the Entra ID being used for the authentication.
+
 ## Debugging
 In order for the script to create individual polygon objects for all values in a nested object, a delimitor of ' -- ' is added. If any field name in a JSON file contains this demimitor, it will prevent the field from being updated.
 
