@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@azure/identity": "^4.11.1",
+    "@azure/keyvault-secrets": "^4.10.0",
     "@azure/storage-blob": "^12.17.0",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",

@@ -1,9 +1,10 @@
 // fetch the data from the blob storage, combine them and return the data to the frontend
 // data contain the file name and the folder name and verified data
+import { getStorageConnectionString } from "../../server/storage";
 import { BlobServiceClient } from "@azure/storage-blob";
 
 export async function POST(request) {
-  const connectionString = process.env.AZURE_STORAGE_CONNECTION_STRING;
+  const connectionString = await getStorageConnectionString(); 
   const mainContainerName = process.env.DIRECTORY_NAME;
   const containerName = "websiteinfo";
   const fileName = "formSetting.json";
