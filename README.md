@@ -85,6 +85,9 @@ NEXTAUTH_URL=https//your-domain:your-port or http//your-domain:your-port
 ```
 Where NEXTAUTH_URL is the base URL for your web application and AZURE_AD_CLIENT_ID, AZURE_AD_CLIENT_SECRET, and AZURE_AD_TENANT_ID can be obtained from the Entra ID being used for the authentication.
 
+### Providing Access to Users
+All DFO accounts with their email added to the Entra ID will be given access. For the OCR-FFHPP project the Entra ID is managed by SSC under the name FoSC-PSSIFence-BlankPelican-spn. To grant access to a new user, reach out to the the SSC Solutions Architect with the DFO email of the user.
+
 ## Debugging
 In order for the script to create individual polygon objects for all values in a nested object, a delimitor of ' -- ' is added. If any field name in a JSON file contains this demimitor, it will prevent the field from being updated.
 
