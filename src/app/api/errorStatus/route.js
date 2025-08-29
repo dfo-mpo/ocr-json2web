@@ -1,4 +1,5 @@
 // send verified  data to azure blob storage
+import { getBlobServiceClient } from "../../server/storage";
 import { BlobServiceClient } from "@azure/storage-blob";
 
 export async function POST(request) {
@@ -15,7 +16,6 @@ export async function POST(request) {
     },
   ];
 
-  const connectionString = process.env.AZURE_STORAGE_CONNECTION_STRING;
   const mainContainerName = process.env.DIRECTORY_NAME;
 
   const containerName = "websiteinfo";
@@ -26,8 +26,7 @@ export async function POST(request) {
     
   try {
     // Create a BlobServiceClient
-    const blobServiceClient =
-      BlobServiceClient.fromConnectionString(connectionString);
+    const blobServiceClient = getBlobServiceClient();
     // Get a container client from the BlobServiceClient
     // Get a container client from the BlobServiceClient
     const containerClient = blobServiceClient.getContainerClient(`${mainContainerName}/${containerName}`);

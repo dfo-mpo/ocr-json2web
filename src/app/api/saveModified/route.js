@@ -1,11 +1,11 @@
 //fetch the JSON data from the blob storage based on the folder name and file name
+import { getBlobServiceClient } from "../../server/storage";
 import { BlobServiceClient } from "@azure/storage-blob";
 
 export async function POST(request) {
   const dataJson = await request.json();
   const { folderName, fileName, data } = dataJson;
-
-  const connectionString = process.env.AZURE_STORAGE_CONNECTION_STRING;
+ 
   // jsondata is container name which storage the data by folder
   const mainContainerName = process.env.DIRECTORY_NAME;
 
@@ -26,8 +26,7 @@ export async function POST(request) {
 
   try {
     // Create a BlobServiceClient
-    const blobServiceClient =
-      BlobServiceClient.fromConnectionString(connectionString);
+    const blobServiceClient = getBlobServiceClient();
     // Get a container client from the BlobServiceClient
     const containerClient = blobServiceClient.getContainerClient(
       `${mainContainerName}/${containerName}/${subContainerName}/${folderName}`
