@@ -26,27 +26,38 @@ const NullField = ({
     );
   }; 
   
-  const renderNullField = (polygonKey, polygon) => {
+  const renderNullField = (polygonKey, polygon, textAreaRefs) => {
     if (polygonKey.toLowerCase() === "verified" || polygonKey.toLowerCase() === "model id") return null;
+    
+    const content = polygon[0];
 
-    if (typeof polygon === "object" && !Array.isArray(polygon)) {
+    // Recursion to handle nested objects
+    if (Array.isArray(polygon) && typeof content === "object" && content != null) {
+      return polygon.map((row, rowIndex) =>
+        Object.entries(row).map(([nestedKey, nestedValue]) => 
+          renderNullField(
+            `${polygonKey} Row ${rowIndex+1} -- ${nestedKey}`,
+            nestedValue,
+            textAreaRefs
+          )
+        )
+      );
+    // If polygon is a nested object, recurse into its children (case for fixed table where object contains objects that have their own objects)
+    } else if (typeof polygon === "object" && !Array.isArray(polygon)) {
       return Object.entries(polygon).map(([childKey, childValue]) =>
-        renderNullField(
+        renderPolygon(
           `${polygonKey} -- ${childKey}`,
           childValue
         )
       )
     }
 
-    if(Array.isArray(polygon)) {
-      const content = polygon[0];
+    // Render polygon if the content is string or null, with valid coordinates
+    if (Array.isArray(polygon) || (typeof content === "string" || content === null)) {
       const coordinates = polygon[1];
       const flag = polygon[4];
 
-      if (
-        typeof content !== "string" || 
-        !areCoordinatesValid(coordinates)
-      ) {
+      if (typeof content !== "string" || !areCoordinatesValid(coordinates)) {
         if (!hasSetNull.current) {
           hasSetNull.current = true;
         }
@@ -84,7 +95,7 @@ const NullField = ({
     }
   }, [setHasNullField]);
 
-  return renderNullField(polygonKey, polygon);
+  return renderNullField(polygonKey, polygon, textAreaRefs);
 };
 
 export default NullField;

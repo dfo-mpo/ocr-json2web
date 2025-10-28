@@ -72,8 +72,20 @@ const Polygon = ({
     // Skip special meta fields
     if (polygonKey.toLowerCase() === "verified" || polygonKey.toLowerCase() === "model id") return null;
 
-    // If polygon is a nested object, recurse into its children
-    if (typeof polygon === "object" && !Array.isArray(polygon)) {
+    const content = polygon[0]; // Primary editable text content
+
+    // If polygon is a nested object, recurse into its children (case for dynamic table where object is an array of objects)
+    if (Array.isArray(polygon) && typeof content === "object" && content != null) {
+      return polygon.map((row, rowIndex) =>
+        Object.entries(row).map(([childKey, childValue]) => 
+          renderPolygon(
+            `${polygonKey} Row ${rowIndex+1} -- ${childKey}`,
+            childValue
+          )
+        )
+      );
+    // If polygon is a nested object, recurse into its children (case for fixed table where object contains objects that have their own objects)
+    } else if (typeof polygon === "object" && !Array.isArray(polygon)) {
       return Object.entries(polygon).map(([childKey, childValue]) =>
         renderPolygon(
           `${polygonKey} -- ${childKey}`,
@@ -83,11 +95,10 @@ const Polygon = ({
     }
 
     // If polygon is a valid array, render it
-    if(Array.isArray(polygon)) {
-      const content = polygon[0]; // Primary editable text content
+    if (Array.isArray(polygon) || (typeof content === "string" || content === null)) {
       const coordinates = polygon[1];
       const flag = polygon[4];
-
+      
       const isCoordValid = areCoordinatesValid(coordinates); // TRUE if coordinates exist and include 4 valid pairs coordinates
       const hasContent = typeof content === "string";  // TRUE if the content field contains a string
 
@@ -107,7 +118,7 @@ const Polygon = ({
       if (shouldRenderNull !== isNullField) {
         return null; // Skip rendering
       }
-      
+
       // If rendering null fields and this is null, flag the list contains null
       if (shouldRenderNull) {
         if (!hasSetNull.current) {

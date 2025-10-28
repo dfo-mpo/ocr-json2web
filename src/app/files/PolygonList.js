@@ -137,24 +137,42 @@ const PolygonList = ({
       // Clone the current object
       const updatedData = { ...data };
       
-      // Extract keys
+      // Extract key and clean up "Row #" pattern
       const [currentKey, ...remainingKeys] = targetKeys;
+      const cleanKey = currentKey.replace(/(Row.*)/, '').trim();
+
+      // Match "Row #" pattern
+      const rowMatch = currentKey.match(/Row (\d+)/);
+      // Return the index of the row
+      const rowIndex = rowMatch ? parseInt(rowMatch[1], 10) - 1 : null;
+  
+      if (!cleanKey) return updatedData;
 
       // Update the polygon data if reach the final key
       if (remainingKeys.length === 0) {
         // Final key reached, apply the value update here
-        if (Array.isArray(updatedData[currentKey])) {
+        if (updatedData[cleanKey] || Array.isArray(updatedData[cleanKey])) {
           // Replace first element, update flag as edited, and keep rest of metadata
-          updatedData[currentKey] = [
+          updatedData[cleanKey] = [
             newValue,
-            ...updatedData[currentKey].slice(1,4),  // Keep the remaining of the json data object
-            2                                       // Set flag to 2 (2 = edited)
+            ...updatedData[cleanKey].slice(1,4),  // Keep the remaining of the json data object
+            2                                     // Set flag to 2 (2 = edited)
           ];
         }
       } else {
         // Still keys remaining, descend deeper if this level is a valid object
-        const nextLevel = updatedData[currentKey];
+        const nextLevel = updatedData[cleanKey];
         if (
+          nextLevel &&
+          Array.isArray(nextLevel) &&
+          rowIndex !== null &&
+          typeof nextLevel[rowIndex] === "object"
+        ) {
+          updatedData[cleanKey][rowIndex] = updatePolygon(
+            nextLevel[rowIndex],
+            remainingKeys
+          );
+        } else if (
           nextLevel !== null && 
           !Array.isArray(nextLevel) &&
           typeof nextLevel === "object"
@@ -189,7 +207,7 @@ const PolygonList = ({
     await onClickHandler(updateJson);
     window.location.reload();
   };
-
+  
   // Cancel button logic
   const handleCancel = () => {
     // setEditedPolygons(new Set());

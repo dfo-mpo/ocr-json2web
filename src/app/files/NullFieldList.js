@@ -20,8 +20,18 @@ const NullFieldList = ({ json, setHasNullField  }) => {
     
     const content = polygon[0]? polygon[0] : Object.keys(polygon)[0];
 
-    // Recursion to handle nested objects
-    if (!polygon[0] && typeof polygon[content] === "object" && polygon[content] != null) {
+    // Recursion to handle nested objects (case for DI dynamic tables)
+    if (Array.isArray(polygon) && typeof polygon[0] === "object" && polygon[0] != null) {
+      return polygon.map((row, rowIndex) =>
+        Object.entries(row).map(([nestedKey, nestedValue]) => 
+          renderNullField(
+            `${key} Row ${rowIndex+1} -- ${nestedKey}`,
+            nestedValue
+          )
+        )
+      );
+    // Recursion to handle nested objects (case for DI fixed tables)
+    } else if (!polygon[0] && typeof polygon[content] === "object" && polygon[content] != null) {
       for (const nestedKey in polygon[content]) {
         if (polygon[content].hasOwnProperty(nestedKey)) {
           renderNullField(
