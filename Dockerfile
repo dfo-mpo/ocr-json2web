@@ -12,4 +12,5 @@ COPY . .
 
 # Start the application
 EXPOSE 3090
+RUN npm run build
 CMD ["npm", "start"]  
