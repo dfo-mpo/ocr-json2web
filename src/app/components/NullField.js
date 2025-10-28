@@ -42,14 +42,22 @@ const NullField = ({
           )
         )
       );
+    // If polygon is a nested object, recurse into its children (case for fixed table where object contains objects that have their own objects)
+    } else if (typeof polygon === "object" && !Array.isArray(polygon)) {
+      return Object.entries(polygon).map(([childKey, childValue]) =>
+        renderPolygon(
+          `${polygonKey} -- ${childKey}`,
+          childValue
+        )
+      )
     }
 
     // Render polygon if the content is string or null, with valid coordinates
-    if (typeof content === "string" || content === null) {
+    if (Array.isArray(polygon) || (typeof content === "string" || content === null)) {
       const coordinates = polygon[1];
       const flag = polygon[4];
 
-      if (!areCoordinatesValid(coordinates)) {
+      if (typeof content !== "string" || !areCoordinatesValid(coordinates)) {
         if (!hasSetNull.current) {
           hasSetNull.current = true;
         }
@@ -65,7 +73,7 @@ const NullField = ({
             </div>
             <EditableField
               polygonKey={polygonKey}
-              content={content}
+              content={content ? content : ""}
               flag={flag}
               textAreaRefs={textAreaRefs}
               handleUpdatePolygon={handleUpdatePolygon}

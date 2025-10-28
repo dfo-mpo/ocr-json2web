@@ -122,7 +122,7 @@ const PDFView = ({ fileName, folderName, pageWidth, json, highlightColour, selec
       // Case where provided data is the JSON itself 
       } else if (typeof data === "object") {  
         for (const [key, value] of Object.entries(data)) {  
-          const newKey = parentKey ? `${parentKey} ${key}`.trim() : key;  
+          const newKey = parentKey ? `${parentKey} -- ${key}`.trim() : key;
           if (Array.isArray(value) && value.length > 2 && Array.isArray(value[1])) {  
             const coordsList = value[1];
             const pageNumber = value[2];

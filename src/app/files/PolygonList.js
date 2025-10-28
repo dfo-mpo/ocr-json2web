@@ -151,7 +151,7 @@ const PolygonList = ({
       // Update the polygon data if reach the final key
       if (remainingKeys.length === 0) {
         // Final key reached, apply the value update here
-        if (updatedData[cleanKey]) {
+        if (updatedData[cleanKey] || Array.isArray(updatedData[cleanKey])) {
           // Replace first element, update flag as edited, and keep rest of metadata
           updatedData[cleanKey] = [
             newValue,
@@ -170,6 +170,15 @@ const PolygonList = ({
         ) {
           updatedData[cleanKey][rowIndex] = updatePolygon(
             nextLevel[rowIndex],
+            remainingKeys
+          );
+        } else if (
+          nextLevel !== null && 
+          !Array.isArray(nextLevel) &&
+          typeof nextLevel === "object"
+        ) {
+          updatedData[currentKey] = updatePolygon(
+            nextLevel,
             remainingKeys
           );
         }

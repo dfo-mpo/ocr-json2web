@@ -18,9 +18,10 @@ const NullFieldList = ({ json, setHasNullField  }) => {
   const renderNullField = (key, polygon) => {
     if (key.toLowerCase() === "verified" || key.toLowerCase() === "model id") return null;
     
-    const content = polygon[0];
+    const content = polygon[0]? polygon[0] : Object.keys(polygon)[0];
 
-    if (Array.isArray(polygon) && typeof content === "object" && content != null) {
+    // Recursion to handle nested objects (case for DI dynamic tables)
+    if (Array.isArray(polygon) && typeof polygon[0] === "object" && polygon[0] != null) {
       return polygon.map((row, rowIndex) =>
         Object.entries(row).map(([nestedKey, nestedValue]) => 
           renderNullField(
@@ -29,6 +30,16 @@ const NullFieldList = ({ json, setHasNullField  }) => {
           )
         )
       );
+    // Recursion to handle nested objects (case for DI fixed tables)
+    } else if (!polygon[0] && typeof polygon[content] === "object" && polygon[content] != null) {
+      for (const nestedKey in polygon[content]) {
+        if (polygon[content].hasOwnProperty(nestedKey)) {
+          renderNullField(
+            `${key} -- ${content} -- ${nestedKey}`,
+            polygon[content][nestedKey]
+          )
+        }
+      }
     }
 
     if (!areCoordinatesValid(polygon[1])) {

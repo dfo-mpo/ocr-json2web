@@ -74,9 +74,9 @@ const Polygon = ({
 
     const content = polygon[0]; // Primary editable text content
 
-    // If polygon is a nested object, recurse into its children
+    // If polygon is a nested object, recurse into its children (case for dynamic table where object is an array of objects)
     if (Array.isArray(polygon) && typeof content === "object" && content != null) {
-      return polygon.map((row, rowIndex) => 
+      return polygon.map((row, rowIndex) =>
         Object.entries(row).map(([childKey, childValue]) => 
           renderPolygon(
             `${polygonKey} Row ${rowIndex+1} -- ${childKey}`,
@@ -84,10 +84,18 @@ const Polygon = ({
           )
         )
       );
+    // If polygon is a nested object, recurse into its children (case for fixed table where object contains objects that have their own objects)
+    } else if (typeof polygon === "object" && !Array.isArray(polygon)) {
+      return Object.entries(polygon).map(([childKey, childValue]) =>
+        renderPolygon(
+          `${polygonKey} -- ${childKey}`,
+          childValue
+        )
+      )
     }
 
     // If polygon is a valid array, render it
-    if (typeof content === "string" || content === null) {
+    if (Array.isArray(polygon) || (typeof content === "string" || content === null)) {
       const coordinates = polygon[1];
       const flag = polygon[4];
       
